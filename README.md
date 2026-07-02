@@ -36,7 +36,7 @@ While no new custom mechanics have been introduced yet, this edition implements 
 
 This mod currently includes localization support for the following languages, categorized by their maintenance status:
 
-* **🇬🇧 English** - **Native Support**. The baseline development language of this mod, fully maintained and updated by myself.
+* **🇬🇧 English** - **Native Support**.
 * **🇨🇳 Chinese** - **Native Support**. Fully integrated with the UTTNH_2.0 CNT localization project, fully maintained and updated by myself.
 * **🇷🇺 Russian** - **Inherited from upstream**. Retains the legacy translation from the original UTTNH mod. Due to limited development resources, **I will not actively maintain or update this language**.
 * **🇩🇪 German** - **Inherited from upstream**. Retains the legacy translation from the original UTTNH mod. Likewise, **this is not included in my future maintenance plans**.

@@ -27,7 +27,7 @@ While no new custom mechanics have been introduced yet, this edition implements 
 
 *   **Up-to-date Compatibility**: Successfully integrated and adapted **major** codebase changes from all official HOI4 updates (including patch 1.17 and its accompanying DLC *Thunder at Our Gates*) released since UTTNH's last update.
 *   **Tech Tree Code Formatting**: Re-engineered and strictly formatted the original technology script files. Properties have been reordered, indentation normalized, and path logic standardized to maximize future modding and expansion efficiency.
-*   **Code Sanitization & Streamlining**: Purged unnecessary and redundant files, making the mod significantly more lightweight while keeping all core functionality intact.
+*   **Code Sanitization & Streamlining**: Purged unnecessary and redundant files, making the mod more lightweight while keeping all core functionality intact.
 *   **Integrated Chinese Localization**: Fully incorporated the localization assets from the UTTNH_2.0 CNT project, which was initiated and co-authored by myself.
 
 ---

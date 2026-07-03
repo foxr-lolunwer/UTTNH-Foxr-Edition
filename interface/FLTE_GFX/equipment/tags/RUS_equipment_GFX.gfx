@@ -1,0 +1,18 @@
+spriteTypes = {
+## artillery.txt
+	SpriteType = { name = "GFX_RUS_motorized_rocket_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/RUS/motorized_rocket_equipment_1.dds" }
+	SpriteType = { name = "GFX_RUS_motorized_rocket_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/RUS/motorized_rocket_equipment_2.dds" }
+	SpriteType = { name = "GFX_RUS_motorized_rocket_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/RUS/motorized_rocket_equipment_3.dds" }
+## guided_missiles.txt
+	SpriteType = { name = "GFX_RUS_guided_missile_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/RUS/guided_missile_equipment_1.dds" }
+	SpriteType = { name = "GFX_RUS_guided_missile_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/RUS/guided_missile_equipment_2.dds" }
+	SpriteType = { name = "GFX_RUS_guided_missile_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/RUS/guided_missile_equipment_3.dds" }
+## motorized.txt
+	SpriteType = { name = "GFX_RUS_motorized_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/RUS/motorized_equipment_1.dds" }
+	SpriteType = { name = "GFX_RUS_motorized_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/RUS/motorized_equipment_2.dds" }
+	SpriteType = { name = "GFX_RUS_motorized_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/RUS/motorized_equipment_3.dds" }
+## x_plane_airframes.txt
+	SpriteType = { name = "GFX_RUS_rocket_interceptor_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/RUS/rocket_interceptor_equipment_2.dds" }
+	SpriteType = { name = "GFX_RUS_rocket_interceptor_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/RUS/rocket_interceptor_equipment_3.dds" }
+
+}

@@ -1,0 +1,28 @@
+spriteTypes = {
+## artillery
+	SpriteType = { name = "GFX_gw_artillery" texturefile = "gfx/interface/FLTE/tech/tags/NFA/gw_artillery.dds" }
+	SpriteType = { name = "GFX_artillery1" texturefile = "gfx/interface/FLTE/tech/tags/NFA/artillery1.dds" }
+	SpriteType = { name = "GFX_artillery4" texturefile = "gfx/interface/FLTE/tech/tags/NFA/artillery4.dds" }
+	SpriteType = { name = "GFX_interwar_antiair" texturefile = "gfx/interface/FLTE/tech/tags/NFA/interwar_antiair.dds" }
+	SpriteType = { name = "GFX_antiair2" texturefile = "gfx/interface/FLTE/tech/tags/NFA/antiair2.dds" }
+	SpriteType = { name = "GFX_antiair5" texturefile = "gfx/interface/FLTE/tech/tags/NFA/antiair5.dds" }
+	SpriteType = { name = "GFX_interwar_antitank" texturefile = "gfx/interface/FLTE/tech/tags/NFA/interwar_antitank.dds" }
+	SpriteType = { name = "GFX_antitank2" texturefile = "gfx/interface/FLTE/tech/tags/NFA/antitank2.dds" }
+	SpriteType = { name = "GFX_antitank5" texturefile = "gfx/interface/FLTE/tech/tags/NFA/antitank5.dds" }
+## infantry
+	SpriteType = { name = "GFX_infantry_weapons" texturefile = "gfx/interface/FLTE/tech/tags/NFA/infantry_weapons.dds" }
+	SpriteType = { name = "GFX_infantry_weapons1" texturefile = "gfx/interface/FLTE/tech/tags/NFA/infantry_weapons1.dds" }
+	SpriteType = { name = "GFX_improved_infantry_weapons" texturefile = "gfx/interface/FLTE/tech/tags/NFA/improved_infantry_weapons.dds" }
+	SpriteType = { name = "GFX_advanced_infantry_weapons" texturefile = "gfx/interface/FLTE/tech/tags/NFA/advanced_infantry_weapons.dds" }
+	SpriteType = { name = "GFX_infantry_cw1" texturefile = "gfx/interface/FLTE/tech/tags/NFA/infantry_cw1.dds" }
+	SpriteType = { name = "GFX_infantry_cw2" texturefile = "gfx/interface/FLTE/tech/tags/NFA/infantry_cw2.dds" }
+	SpriteType = { name = "GFX_motorised_infantry" texturefile = "gfx/interface/FLTE/tech/tags/NFA/motorised_infantry.dds" }
+	SpriteType = { name = "GFX_motorised_infantry2" texturefile = "gfx/interface/FLTE/tech/tags/NFA/motorised_infantry2.dds" }
+	SpriteType = { name = "GFX_motorised_infantry3" texturefile = "gfx/interface/FLTE/tech/tags/NFA/motorised_infantry3.dds" }
+	SpriteType = { name = "GFX_mechanised_infantry" texturefile = "gfx/interface/FLTE/tech/tags/NFA/mechanised_infantry.dds" }
+	SpriteType = { name = "GFX_mechanised_infantry2" texturefile = "gfx/interface/FLTE/tech/tags/NFA/mechanised_infantry2.dds" }
+	SpriteType = { name = "GFX_mechanised_infantry3" texturefile = "gfx/interface/FLTE/tech/tags/NFA/mechanised_infantry3.dds" }
+	SpriteType = { name = "GFX_mechanised_infantry4" texturefile = "gfx/interface/FLTE/tech/tags/NFA/mechanised_infantry4.dds" }
+	SpriteType = { name = "GFX_mechanised_infantry5" texturefile = "gfx/interface/FLTE/tech/tags/NFA/mechanised_infantry5.dds" }
+
+}

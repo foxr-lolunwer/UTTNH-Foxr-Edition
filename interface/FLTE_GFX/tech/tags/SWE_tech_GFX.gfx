@@ -1,0 +1,39 @@
+spriteTypes = {
+## NSB_armor
+	SpriteType = { name = "GFX_main_battle_tank_chassis_1" texturefile = "gfx/interface/FLTE/tech/tags/SWE/main_battle_tank_chassis_1.dds" }
+	SpriteType = { name = "GFX_main_battle_tank_chassis_2" texturefile = "gfx/interface/FLTE/tech/tags/SWE/main_battle_tank_chassis_2.dds" }
+	SpriteType = { name = "GFX_main_battle_tank_chassis_3" texturefile = "gfx/interface/FLTE/tech/tags/SWE/main_battle_tank_chassis_3.dds" }
+	SpriteType = { name = "GFX_main_battle_tank_chassis_4" texturefile = "gfx/interface/FLTE/tech/tags/SWE/main_battle_tank_chassis_4.dds" }
+	SpriteType = { name = "GFX_main_battle_tank_chassis_5" texturefile = "gfx/interface/FLTE/tech/tags/SWE/main_battle_tank_chassis_5.dds" }
+	SpriteType = { name = "GFX_main_battle_tank_chassis_6" texturefile = "gfx/interface/FLTE/tech/tags/SWE/main_battle_tank_chassis_6.dds" }
+	SpriteType = { name = "GFX_main_battle_tank_chassis_7" texturefile = "gfx/interface/FLTE/tech/tags/SWE/main_battle_tank_chassis_7.dds" }
+	SpriteType = { name = "GFX_main_battle_tank_chassis_8" texturefile = "gfx/interface/FLTE/tech/tags/SWE/main_battle_tank_chassis_8.dds" }
+	SpriteType = { name = "GFX_main_battle_tank_chassis_9" texturefile = "gfx/interface/FLTE/tech/tags/SWE/main_battle_tank_chassis_9.dds" }
+	SpriteType = { name = "GFX_modern_light_tank_3" texturefile = "gfx/interface/FLTE/tech/tags/SWE/modern_light_tank_3.dds" }
+	SpriteType = { name = "GFX_modern_light_tank_4" texturefile = "gfx/interface/FLTE/tech/tags/SWE/modern_light_tank_4.dds" }
+	SpriteType = { name = "GFX_modern_light_tank_5" texturefile = "gfx/interface/FLTE/tech/tags/SWE/modern_light_tank_5.dds" }
+	SpriteType = { name = "GFX_modern_light_tank_6" texturefile = "gfx/interface/FLTE/tech/tags/SWE/modern_light_tank_6.dds" }
+	SpriteType = { name = "GFX_cw_heavy_tank_chassis" texturefile = "gfx/interface/FLTE/tech/tags/SWE/cw_heavy_tank_chassis.dds" }
+## bba_air_techs
+	SpriteType = { name = "GFX_modern_small_airframe" texturefile = "gfx/interface/FLTE/tech/tags/SWE/modern_small_airframe.dds" }
+	SpriteType = { name = "GFX_modern_small_airframe_1" texturefile = "gfx/interface/FLTE/tech/tags/SWE/modern_small_airframe_1.dds" }
+	SpriteType = { name = "GFX_modern_small_airframe_2" texturefile = "gfx/interface/FLTE/tech/tags/SWE/modern_small_airframe_2.dds" }
+	SpriteType = { name = "GFX_modern_small_airframe_3" texturefile = "gfx/interface/FLTE/tech/tags/SWE/modern_small_airframe_3.dds" }
+	SpriteType = { name = "GFX_modern_small_airframe_4" texturefile = "gfx/interface/FLTE/tech/tags/SWE/modern_small_airframe_4.dds" }
+	SpriteType = { name = "GFX_modern_small_airframe_5" texturefile = "gfx/interface/FLTE/tech/tags/SWE/modern_small_airframe_5.dds" }
+	SpriteType = { name = "GFX_modern_small_airframe_6" texturefile = "gfx/interface/FLTE/tech/tags/SWE/modern_small_airframe_6.dds" }
+	SpriteType = { name = "GFX_modern_small_airframe_7" texturefile = "gfx/interface/FLTE/tech/tags/SWE/modern_small_airframe_7.dds" }
+## infantry
+	SpriteType = { name = "GFX_infantry_weapons1" texturefile = "gfx/interface/FLTE/tech/tags/SWE/infantry_weapons1.dds" }
+	SpriteType = { name = "GFX_improved_infantry_weapons" texturefile = "gfx/interface/FLTE/tech/tags/SWE/improved_infantry_weapons.dds" }
+	SpriteType = { name = "GFX_advanced_infantry_weapons" texturefile = "gfx/interface/FLTE/tech/tags/SWE/advanced_infantry_weapons.dds" }
+	SpriteType = { name = "GFX_infantry_cw1" texturefile = "gfx/interface/FLTE/tech/tags/SWE/infantry_cw1.dds" }
+	SpriteType = { name = "GFX_infantry_cw2" texturefile = "gfx/interface/FLTE/tech/tags/SWE/infantry_cw2.dds" }
+	SpriteType = { name = "GFX_infantry_cw3" texturefile = "gfx/interface/FLTE/tech/tags/SWE/infantry_cw3.dds" }
+	SpriteType = { name = "GFX_infantry_cw4" texturefile = "gfx/interface/FLTE/tech/tags/SWE/infantry_cw4.dds" }
+	SpriteType = { name = "GFX_infantry_cw5" texturefile = "gfx/interface/FLTE/tech/tags/SWE/infantry_cw5.dds" }
+	SpriteType = { name = "GFX_mechanised_infantry5" texturefile = "gfx/interface/FLTE/tech/tags/SWE/mechanised_infantry5.dds" }
+	SpriteType = { name = "GFX_mechanised_infantry6" texturefile = "gfx/interface/FLTE/tech/tags/SWE/mechanised_infantry6.dds" }
+	SpriteType = { name = "GFX_mechanised_infantry7" texturefile = "gfx/interface/FLTE/tech/tags/SWE/mechanised_infantry7.dds" }
+
+}

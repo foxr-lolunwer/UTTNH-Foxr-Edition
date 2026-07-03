@@ -1,0 +1,10 @@
+spriteTypes = {
+## infantry
+	SpriteType = { name = "GFX_infantry_weapons" texturefile = "gfx/interface/FLTE/tech/tags/D01/infantry_weapons.dds" }
+	SpriteType = { name = "GFX_infantry_weapons1" texturefile = "gfx/interface/FLTE/tech/tags/D01/infantry_weapons1.dds" }
+	SpriteType = { name = "GFX_improved_infantry_weapons" texturefile = "gfx/interface/FLTE/tech/tags/D01/improved_infantry_weapons.dds" }
+	SpriteType = { name = "GFX_advanced_infantry_weapons" texturefile = "gfx/interface/FLTE/tech/tags/D01/advanced_infantry_weapons.dds" }
+	SpriteType = { name = "GFX_infantry_cw1" texturefile = "gfx/interface/FLTE/tech/tags/D01/infantry_cw1.dds" }
+	SpriteType = { name = "GFX_infantry_cw2" texturefile = "gfx/interface/FLTE/tech/tags/D01/infantry_cw2.dds" }
+
+}

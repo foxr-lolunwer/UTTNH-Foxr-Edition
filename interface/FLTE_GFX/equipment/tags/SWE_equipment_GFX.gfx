@@ -1,0 +1,8 @@
+spriteTypes = {
+## transport_plane.txt
+	SpriteType = { name = "GFX_SWE_transport_plane_equipment_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SWE/transport_plane_equipment.dds" }
+	SpriteType = { name = "GFX_SWE_transport_plane_equipment_5_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SWE/transport_plane_equipment_5.dds" }
+	SpriteType = { name = "GFX_SWE_transport_plane_equipment_6_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SWE/transport_plane_equipment_6.dds" }
+	SpriteType = { name = "GFX_SWE_transport_plane_equipment_7_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SWE/transport_plane_equipment_7.dds" }
+
+}

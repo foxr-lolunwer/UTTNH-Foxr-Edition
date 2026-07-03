@@ -1,0 +1,25 @@
+spriteTypes = {
+## NSB_armor
+	SpriteType = { name = "GFX_main_battle_tank_chassis_1" texturefile = "gfx/interface/FLTE/tech/tags/TUR/main_battle_tank_chassis_1.dds" }
+	SpriteType = { name = "GFX_main_battle_tank_chassis_2" texturefile = "gfx/interface/FLTE/tech/tags/TUR/main_battle_tank_chassis_2.dds" }
+	SpriteType = { name = "GFX_main_battle_tank_chassis_3" texturefile = "gfx/interface/FLTE/tech/tags/TUR/main_battle_tank_chassis_3.dds" }
+	SpriteType = { name = "GFX_main_battle_tank_chassis_4" texturefile = "gfx/interface/FLTE/tech/tags/TUR/main_battle_tank_chassis_4.dds" }
+	SpriteType = { name = "GFX_main_battle_tank_chassis_6" texturefile = "gfx/interface/FLTE/tech/tags/TUR/main_battle_tank_chassis_6.dds" }
+	SpriteType = { name = "GFX_main_battle_tank_chassis_7" texturefile = "gfx/interface/FLTE/tech/tags/TUR/main_battle_tank_chassis_7.dds" }
+	SpriteType = { name = "GFX_main_battle_tank_chassis_8" texturefile = "gfx/interface/FLTE/tech/tags/TUR/main_battle_tank_chassis_8.dds" }
+	SpriteType = { name = "GFX_main_battle_tank_chassis_9" texturefile = "gfx/interface/FLTE/tech/tags/TUR/main_battle_tank_chassis_9.dds" }
+## artillery
+	SpriteType = { name = "GFX_antiair6" texturefile = "gfx/interface/FLTE/tech/tags/TUR/antiair6.dds" }
+	SpriteType = { name = "GFX_antiair7" texturefile = "gfx/interface/FLTE/tech/tags/TUR/antiair7.dds" }
+	SpriteType = { name = "GFX_antiair8" texturefile = "gfx/interface/FLTE/tech/tags/TUR/antiair8.dds" }
+## infantry
+	SpriteType = { name = "GFX_infantry_cw2" texturefile = "gfx/interface/FLTE/tech/tags/TUR/infantry_cw2.dds" }
+	SpriteType = { name = "GFX_infantry_cw3" texturefile = "gfx/interface/FLTE/tech/tags/TUR/infantry_cw3.dds" }
+	SpriteType = { name = "GFX_infantry_at3" texturefile = "gfx/interface/FLTE/tech/tags/TUR/infantry_at3.dds" }
+	SpriteType = { name = "GFX_infantry_at4" texturefile = "gfx/interface/FLTE/tech/tags/TUR/infantry_at4.dds" }
+	SpriteType = { name = "GFX_infantry_at5" texturefile = "gfx/interface/FLTE/tech/tags/TUR/infantry_at5.dds" }
+	SpriteType = { name = "GFX_infantry_at6" texturefile = "gfx/interface/FLTE/tech/tags/TUR/infantry_at6.dds" }
+	SpriteType = { name = "GFX_armored_car6" texturefile = "gfx/interface/FLTE/tech/tags/TUR/armored_car6.dds" }
+	SpriteType = { name = "GFX_mechanised_infantry8" texturefile = "gfx/interface/FLTE/tech/tags/TUR/mechanised_infantry8.dds" }
+
+}

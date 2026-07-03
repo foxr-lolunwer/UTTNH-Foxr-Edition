@@ -1,0 +1,13 @@
+debug/
+*.py
+*.png
+psd/
+*.psd
+VNR+UTTH.code-workspace
+.gitignore
+interface/src
+.git
+workshop-desc.txt
+descriptor.mod
+*.bak
+*.ignore

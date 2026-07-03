@@ -1,0 +1,91 @@
+spriteTypes = {
+## artillery.txt
+	SpriteType = { name = "GFX_motorized_rocket_equipment_medium" texturefile = "gfx/interface/FLTE/equipment/general/motorized_rocket_equipment.dds" }
+	SpriteType = { name = "GFX_motorized_rocket_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/general/motorized_rocket_equipment_1.dds" }
+	SpriteType = { name = "GFX_motorized_rocket_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/general/motorized_rocket_equipment_2.dds" }
+	SpriteType = { name = "GFX_motorized_rocket_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/general/motorized_rocket_equipment_3.dds" }
+	SpriteType = { name = "GFX_motorized_rocket_equipment_4_medium" texturefile = "gfx/interface/FLTE/equipment/general/motorized_rocket_equipment_4.dds" }
+## guided_missiles.txt
+	SpriteType = { name = "GFX_guided_missile_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/general/guided_missile_equipment_1.dds" }
+	SpriteType = { name = "GFX_guided_missile_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/general/guided_missile_equipment_2.dds" }
+	SpriteType = { name = "GFX_guided_missile_equipment_6_medium" texturefile = "gfx/interface/FLTE/equipment/general/guided_missile_equipment_6.dds" }
+	SpriteType = { name = "GFX_guided_missile_equipment_7_medium" texturefile = "gfx/interface/FLTE/equipment/general/guided_missile_equipment_7.dds" }
+## motorized.txt
+	SpriteType = { name = "GFX_motorized_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/general/motorized_equipment_1.dds" }
+	SpriteType = { name = "GFX_motorized_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/general/motorized_equipment_2.dds" }
+	SpriteType = { name = "GFX_motorized_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/general/motorized_equipment_3.dds" }
+	SpriteType = { name = "GFX_motorized_equipment_4_medium" texturefile = "gfx/interface/FLTE/equipment/general/motorized_equipment_4.dds" }
+## plane_airframes.txt
+	SpriteType = { name = "GFX_stealth_bomber_airframe_medium" texturefile = "gfx/interface/FLTE/equipment/general/stealth_bomber_airframe.dds" }
+## ship_hull_carrier.txt
+	SpriteType = { name = "GFX_ship_hull_carrier_conversion_ca_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_carrier_conversion_ca.dds" }
+	SpriteType = { name = "GFX_ship_hull_carrier_5_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_carrier_5.dds" }
+	SpriteType = { name = "GFX_ship_hull_carrier_6_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_carrier_6.dds" }
+	SpriteType = { name = "GFX_ship_hull_carrier_7_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_carrier_7.dds" }
+	SpriteType = { name = "GFX_ship_hull_carrier_8_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_carrier_8.dds" }
+	SpriteType = { name = "GFX_ship_hull_carrier_9_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_carrier_9.dds" }
+	SpriteType = { name = "GFX_ship_hull_carrier_10_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_carrier_10.dds" }
+	SpriteType = { name = "GFX_ship_hull_bc_carrier_1_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_bc_carrier_1.dds" }
+	SpriteType = { name = "GFX_ship_hull_bc_carrier_2_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_bc_carrier_2.dds" }
+	SpriteType = { name = "GFX_ship_hull_bc_carrier_3_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_bc_carrier_3.dds" }
+## ship_hull_cruiser.txt
+	SpriteType = { name = "GFX_ship_hull_cruiser_panzerschiff_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_cruiser_panzerschiff.dds" }
+	SpriteType = { name = "GFX_ship_hull_cruiser_5_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_cruiser_5.dds" }
+	SpriteType = { name = "GFX_ship_hull_cruiser_6_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_cruiser_6.dds" }
+	SpriteType = { name = "GFX_ship_hull_cruiser_7_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_cruiser_7.dds" }
+	SpriteType = { name = "GFX_ship_hull_cruiser_8_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_cruiser_8.dds" }
+	SpriteType = { name = "GFX_ship_hull_cruiser_9_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_cruiser_9.dds" }
+	SpriteType = { name = "GFX_ship_hull_cruiser_10_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_cruiser_10.dds" }
+## ship_hull_heavy.txt
+	SpriteType = { name = "GFX_ship_hull_pre_dreadnought_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_pre_dreadnought.dds" }
+	SpriteType = { name = "GFX_ship_hull_super_heavy_1_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_super_heavy_1.dds" }
+	SpriteType = { name = "GFX_ship_hull_heavy_5_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_heavy_5.dds" }
+	SpriteType = { name = "GFX_ship_hull_heavy_6_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_heavy_6.dds" }
+## ship_hull_light.txt
+	SpriteType = { name = "GFX_ship_hull_light_5_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_light_5.dds" }
+	SpriteType = { name = "GFX_ship_hull_light_6_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_light_6.dds" }
+	SpriteType = { name = "GFX_ship_hull_light_7_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_light_7.dds" }
+	SpriteType = { name = "GFX_ship_hull_light_8_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_light_8.dds" }
+	SpriteType = { name = "GFX_ship_hull_light_9_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_light_9.dds" }
+	SpriteType = { name = "GFX_ship_hull_light_10_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_light_10.dds" }
+## ship_hull_submarine.txt
+	SpriteType = { name = "GFX_ship_hull_submarine_5_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_submarine_5.dds" }
+	SpriteType = { name = "GFX_ship_hull_submarine_6_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_submarine_6.dds" }
+	SpriteType = { name = "GFX_ship_hull_submarine_7_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_submarine_7.dds" }
+	SpriteType = { name = "GFX_ship_hull_submarine_8_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_submarine_8.dds" }
+	SpriteType = { name = "GFX_ship_hull_submarine_9_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_submarine_9.dds" }
+	SpriteType = { name = "GFX_ship_hull_submarine_10_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_submarine_10.dds" }
+## tank_chassis.txt
+	SpriteType = { name = "GFX_modern_tank_chassis_1_medium" texturefile = "gfx/interface/FLTE/equipment/general/modern_tank_chassis_1.dds" }
+	SpriteType = { name = "GFX_modern_tank_chassis_2_medium" texturefile = "gfx/interface/FLTE/equipment/general/modern_tank_chassis_2.dds" }
+	SpriteType = { name = "GFX_modern_tank_chassis_3_medium" texturefile = "gfx/interface/FLTE/equipment/general/modern_tank_chassis_3.dds" }
+	SpriteType = { name = "GFX_modern_tank_chassis_4_medium" texturefile = "gfx/interface/FLTE/equipment/general/modern_tank_chassis_4.dds" }
+	SpriteType = { name = "GFX_modern_tank_chassis_5_medium" texturefile = "gfx/interface/FLTE/equipment/general/modern_tank_chassis_5.dds" }
+	SpriteType = { name = "GFX_modern_tank_chassis_6_medium" texturefile = "gfx/interface/FLTE/equipment/general/modern_tank_chassis_6.dds" }
+	SpriteType = { name = "GFX_modern_tank_chassis_7_medium" texturefile = "gfx/interface/FLTE/equipment/general/modern_tank_chassis_7.dds" }
+	SpriteType = { name = "GFX_modern_tank_chassis_8_medium" texturefile = "gfx/interface/FLTE/equipment/general/modern_tank_chassis_8.dds" }
+	SpriteType = { name = "GFX_modern_tank_chassis_9_medium" texturefile = "gfx/interface/FLTE/equipment/general/modern_tank_chassis_9.dds" }
+	SpriteType = { name = "GFX_super_heavy_tank_chassis_1_medium" texturefile = "gfx/interface/FLTE/equipment/general/super_heavy_tank_chassis_1.dds" }
+	SpriteType = { name = "GFX_amphibious_tank_chassis_medium" texturefile = "gfx/interface/FLTE/equipment/general/amphibious_tank_chassis.dds" }
+	SpriteType = { name = "GFX_amphibious_tank_chassis_2_medium" texturefile = "gfx/interface/FLTE/equipment/general/amphibious_tank_chassis_2.dds" }
+	SpriteType = { name = "GFX_amphibious_tank_chassis_3_medium" texturefile = "gfx/interface/FLTE/equipment/general/amphibious_tank_chassis_3.dds" }
+	SpriteType = { name = "GFX_amphibious_tank_chassis_4_medium" texturefile = "gfx/interface/FLTE/equipment/general/amphibious_tank_chassis_4.dds" }
+	SpriteType = { name = "GFX_amphibious_tank_chassis_5_medium" texturefile = "gfx/interface/FLTE/equipment/general/amphibious_tank_chassis_5.dds" }
+## trains.txt
+	SpriteType = { name = "GFX_train_equipment_4_medium" texturefile = "gfx/interface/FLTE/equipment/general/train_equipment_4.dds" }
+	SpriteType = { name = "GFX_train_equipment_5_medium" texturefile = "gfx/interface/FLTE/equipment/general/train_equipment_5.dds" }
+	SpriteType = { name = "GFX_train_equipment_6_medium" texturefile = "gfx/interface/FLTE/equipment/general/train_equipment_6.dds" }
+	SpriteType = { name = "GFX_train_equipment_7_medium" texturefile = "gfx/interface/FLTE/equipment/general/train_equipment_7.dds" }
+	SpriteType = { name = "GFX_train_equipment_8_medium" texturefile = "gfx/interface/FLTE/equipment/general/train_equipment_8.dds" }
+## transport_plane.txt
+	SpriteType = { name = "GFX_transport_plane_equipment_medium" texturefile = "gfx/interface/FLTE/equipment/general/transport_plane_equipment.dds" }
+	SpriteType = { name = "GFX_transport_plane_equipment_4_medium" texturefile = "gfx/interface/FLTE/equipment/general/transport_plane_equipment_4.dds" }
+	SpriteType = { name = "GFX_transport_plane_equipment_5_medium" texturefile = "gfx/interface/FLTE/equipment/general/transport_plane_equipment_5.dds" }
+	SpriteType = { name = "GFX_transport_plane_equipment_6_medium" texturefile = "gfx/interface/FLTE/equipment/general/transport_plane_equipment_6.dds" }
+	SpriteType = { name = "GFX_transport_plane_equipment_7_medium" texturefile = "gfx/interface/FLTE/equipment/general/transport_plane_equipment_7.dds" }
+## x_plane_airframes.txt
+	SpriteType = { name = "GFX_rocket_interceptor_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/general/rocket_interceptor_equipment_1.dds" }
+	SpriteType = { name = "GFX_rocket_interceptor_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/general/rocket_interceptor_equipment_2.dds" }
+	SpriteType = { name = "GFX_rocket_interceptor_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/general/rocket_interceptor_equipment_3.dds" }
+
+}

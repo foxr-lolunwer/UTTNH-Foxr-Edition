@@ -1,0 +1,22 @@
+spriteTypes = {
+## motorized.txt
+	SpriteType = { name = "GFX_ENG_motorized_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ENG/motorized_equipment_1.dds" }
+	SpriteType = { name = "GFX_ENG_motorized_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ENG/motorized_equipment_2.dds" }
+	SpriteType = { name = "GFX_ENG_motorized_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ENG/motorized_equipment_3.dds" }
+	SpriteType = { name = "GFX_ENG_motorized_equipment_4_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ENG/motorized_equipment_4.dds" }
+## tank_chassis.txt
+	SpriteType = { name = "GFX_ENG_modern_tank_chassis_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ENG/modern_tank_chassis_1.dds" }
+	SpriteType = { name = "GFX_ENG_modern_tank_chassis_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ENG/modern_tank_chassis_2.dds" }
+	SpriteType = { name = "GFX_ENG_modern_tank_chassis_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ENG/modern_tank_chassis_3.dds" }
+	SpriteType = { name = "GFX_ENG_modern_tank_chassis_4_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ENG/modern_tank_chassis_4.dds" }
+	SpriteType = { name = "GFX_ENG_modern_tank_chassis_5_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ENG/modern_tank_chassis_5.dds" }
+	SpriteType = { name = "GFX_ENG_modern_tank_chassis_6_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ENG/modern_tank_chassis_6.dds" }
+	SpriteType = { name = "GFX_ENG_modern_tank_chassis_7_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ENG/modern_tank_chassis_7.dds" }
+	SpriteType = { name = "GFX_ENG_modern_tank_chassis_8_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ENG/modern_tank_chassis_8.dds" }
+	SpriteType = { name = "GFX_ENG_modern_tank_chassis_9_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ENG/modern_tank_chassis_9.dds" }
+	SpriteType = { name = "GFX_ENG_super_heavy_tank_chassis_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ENG/super_heavy_tank_chassis.dds" }
+## transport_plane.txt
+	SpriteType = { name = "GFX_ENG_transport_plane_equipment_4_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ENG/transport_plane_equipment_4.dds" }
+	SpriteType = { name = "GFX_ENG_transport_plane_equipment_5_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ENG/transport_plane_equipment_5.dds" }
+
+}

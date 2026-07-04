@@ -1,6 +1,6 @@
 # UTTNH: Foxr Edition
 
-🌐 [Chinese Version / 中文版](README_ZH.md)
+🌐 [Chinese Version / 中文版](README_zh.md)
 
 A standalone, authorized fork of **UTTNH_2.0** for Hearts of Iron IV (HOI4), tailored for a deeper and more immersive gameplay experience. This project has received explicit permission from the original author to be independently maintained, updated, and published.
 
@@ -27,7 +27,7 @@ While no new custom mechanics have been introduced yet, this edition implements 
 
 *   **Up-to-date Compatibility**: Successfully integrated and adapted **major** codebase changes from all official HOI4 updates (including patch 1.17 and its accompanying DLC *Thunder at Our Gates*) released since UTTNH's last update.
 *   **Tech Tree Code Formatting**: Re-engineered and strictly formatted the original technology script files. Properties have been reordered, indentation normalized, and path logic standardized to maximize future modding and expansion efficiency.
-*   **Code Sanitization & Streamlining**: Purged unnecessary and redundant files, making the mod significantly more lightweight while keeping all core functionality intact.
+*   **Code Sanitization & Streamlining**: Purged unnecessary and redundant files, making the mod more lightweight while keeping all core functionality intact.
 *   **Integrated Chinese Localization**: Fully incorporated the localization assets from the UTTNH_2.0 CNT project, which was initiated and co-authored by myself.
 
 ---
@@ -36,7 +36,7 @@ While no new custom mechanics have been introduced yet, this edition implements 
 
 This mod currently includes localization support for the following languages, categorized by their maintenance status:
 
-* **🇬🇧 English** - **Native Support**. The baseline development language of this mod, fully maintained and updated by myself.
+* **🇬🇧 English** - **Native Support**.
 * **🇨🇳 Chinese** - **Native Support**. Fully integrated with the UTTNH_2.0 CNT localization project, fully maintained and updated by myself.
 * **🇷🇺 Russian** - **Inherited from upstream**. Retains the legacy translation from the original UTTNH mod. Due to limited development resources, **I will not actively maintain or update this language**.
 * **🇩🇪 German** - **Inherited from upstream**. Retains the legacy translation from the original UTTNH mod. Likewise, **this is not included in my future maintenance plans**.

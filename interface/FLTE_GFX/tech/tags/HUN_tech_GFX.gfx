@@ -1,11 +1,11 @@
 spriteTypes = {
 ## infantry
-	SpriteType = { name = "GFX_infantry_weapons" texturefile = "gfx/interface/FLTE/tech/tags/HUN/infantry_weapons.dds" }
-	SpriteType = { name = "GFX_infantry_weapons1" texturefile = "gfx/interface/FLTE/tech/tags/HUN/infantry_weapons1.dds" }
-	SpriteType = { name = "GFX_improved_infantry_weapons" texturefile = "gfx/interface/FLTE/tech/tags/HUN/improved_infantry_weapons.dds" }
-	SpriteType = { name = "GFX_advanced_infantry_weapons" texturefile = "gfx/interface/FLTE/tech/tags/HUN/advanced_infantry_weapons.dds" }
-	SpriteType = { name = "GFX_motorised_infantry" texturefile = "gfx/interface/FLTE/tech/tags/HUN/motorised_infantry.dds" }
-	SpriteType = { name = "GFX_amphibious_mechanized_infantry" texturefile = "gfx/interface/FLTE/tech/tags/HUN/amphibious_mechanized_infantry.dds" }
-	SpriteType = { name = "GFX_amphibious_mechanized_infantry_2" texturefile = "gfx/interface/FLTE/tech/tags/HUN/amphibious_mechanized_infantry_2.dds" }
+	SpriteType = { name = "GFX_HUN_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/HUN/infantry_weapons.dds" }
+	SpriteType = { name = "GFX_HUN_infantry_weapons1_medium" texturefile = "gfx/interface/FLTE/tech/tags/HUN/infantry_weapons1.dds" }
+	SpriteType = { name = "GFX_HUN_improved_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/HUN/improved_infantry_weapons.dds" }
+	SpriteType = { name = "GFX_HUN_advanced_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/HUN/advanced_infantry_weapons.dds" }
+	SpriteType = { name = "GFX_HUN_motorised_infantry_medium" texturefile = "gfx/interface/FLTE/tech/tags/HUN/motorised_infantry.dds" }
+	SpriteType = { name = "GFX_HUN_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/FLTE/tech/tags/HUN/amphibious_mechanized_infantry.dds" }
+	SpriteType = { name = "GFX_HUN_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/FLTE/tech/tags/HUN/amphibious_mechanized_infantry_2.dds" }
 
 }

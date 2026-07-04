@@ -730,8 +730,6 @@ technologies = {
         start_year = 1938
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = improved_computing_machine }
-        path = { research_cost_coeff = 1 leads_to_tech = basic_encryption }
-        path = { research_cost_coeff = 1 leads_to_tech = basic_decryption }
         path = { research_cost_coeff = 1 leads_to_tech = improved_fire_control_system }
         folder = { name = electronics_folder position = { x = @eme_computer_branch y = @Tier2_1 } }
 
@@ -773,8 +771,6 @@ technologies = {
         start_year = 1940
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = advanced_computing_machine }
-        path = { research_cost_coeff = 1 leads_to_tech = improved_encryption }
-        path = { research_cost_coeff = 1 leads_to_tech = improved_decryption }
         path = { research_cost_coeff = 1 leads_to_tech = advanced_fire_control_system }
         folder = { name = electronics_folder position = { x = @eme_computer_branch y = @Tier2_2 } }
 
@@ -813,8 +809,6 @@ technologies = {
 
         start_year = 1942
         research_cost = 2.5
-        path = { research_cost_coeff = 1 leads_to_tech = advanced_encryption }
-        path = { research_cost_coeff = 1 leads_to_tech = advanced_decryption }
         path = { research_cost_coeff = 1 leads_to_tech = improved_vacuum_computer }
         folder = { name = electronics_folder position = { x = @eme_computer_branch y = @Tier3_1 } }
 
@@ -1968,8 +1962,6 @@ technologies = {
         start_year = 1951
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = basic_transistor_computer }
-        path = { research_cost_coeff = 1 leads_to_tech = vacuum2_encryption }
-        path = { research_cost_coeff = 1 leads_to_tech = vacuum2_decryption }
         folder = { name = electronics_folder position = { x = @eme_computer_branch y = @Tier4_1 } }
 
         on_research_complete = {
@@ -1999,8 +1991,6 @@ technologies = {
 
         start_year = 1955
         research_cost = 2.5
-        path = { research_cost_coeff = 1 leads_to_tech = transistor_encryption }
-        path = { research_cost_coeff = 1 leads_to_tech = transistor_decryption }
         path = { research_cost_coeff = 1 leads_to_tech = ir_guide }
         path = { research_cost_coeff = 1 leads_to_tech = comp60 }
         path = { research_cost_coeff = 1 leads_to_tech = Early_modern_fire_control_system }

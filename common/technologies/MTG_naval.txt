@@ -1307,39 +1307,39 @@ technologies = {
     #     }
     # }
     # advanced_helicopter_launcher = {
-        enable_equipment_modules = {
-            ship_airplane_launcher_5
-        }
+    #     enable_equipment_modules = {
+    #         ship_airplane_launcher_5
+    #     }
 
-        start_year = 1970
-        research_cost = 0.75
-        folder = { name = mtgnavalfolder position = { x = 0 y = 43 } }
+    #     start_year = 1970
+    #     research_cost = 0.75
+    #     folder = { name = mtgnavalfolder position = { x = 0 y = 43 } }
 
-        on_research_complete = {
-            custom_effect_tooltip = airplane_launcher_advice_tt
-        }
-        special_project_specialization = { specialization_naval }
+    #     on_research_complete = {
+    #         custom_effect_tooltip = airplane_launcher_advice_tt
+    #     }
+    #     special_project_specialization = { specialization_naval }
 
-        categories = {
-            naval_equipment
-            ca_tech
-            ship_modules_tech
-            mio_cat_tech_all_capital_ship_and_modules
-            mio_cat_tech_all_screen_ship_and_modules
-            mio_cat_tech_all_cruiser_and_modules
-        }
-        ai_will_do = {
-            factor = 2
-            modifier = {
-                factor = 3.5
-                OR = {
-                    tag = GER
-                    tag = JAP
-                    tag = USA
-                }
-            }
-        }
-    }
+    #     categories = {
+    #         naval_equipment
+    #         ca_tech
+    #         ship_modules_tech
+    #         mio_cat_tech_all_capital_ship_and_modules
+    #         mio_cat_tech_all_screen_ship_and_modules
+    #         mio_cat_tech_all_cruiser_and_modules
+    #     }
+    #     ai_will_do = {
+    #         factor = 2
+    #         modifier = {
+    #             factor = 3.5
+    #             OR = {
+    #                 tag = GER
+    #                 tag = JAP
+    #                 tag = USA
+    #             }
+    #         }
+    #     }
+    # }
     basic_cruiser_armor_scheme = {
         # Unknowns
         xp_research_type = navy

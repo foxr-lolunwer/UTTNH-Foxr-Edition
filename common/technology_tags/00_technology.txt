@@ -173,12 +173,6 @@ technology_folders = {
 		available = { NOT = { has_dlc = "By Blood Alone" } }
 		ledger = air
 	}
-	bba_air_special_techs_folder = {
-		available = {
-			has_dlc = "By Blood Alone"
-		}
-		ledger = air
-	}
 	bba_air_techs_folder = {
 		available = {
 			has_dlc = "By Blood Alone"

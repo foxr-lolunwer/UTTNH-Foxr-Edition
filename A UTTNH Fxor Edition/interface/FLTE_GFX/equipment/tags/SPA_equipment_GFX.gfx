@@ -1,7 +1,0 @@
-spriteTypes = {
-## motorized.txt
-	SpriteType = { name = "GFX_SPA_motorized_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPA/motorized_equipment_1.dds" }
-	SpriteType = { name = "GFX_SPA_motorized_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPA/motorized_equipment_2.dds" }
-	SpriteType = { name = "GFX_SPA_motorized_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPA/motorized_equipment_3.dds" }
-
-}

@@ -3,7 +3,7 @@ debug/
 *.png
 psd/
 *.psd
-VNR+UTTH.code-workspace
+*.code-workspace
 .gitignore
 interface/src
 .git

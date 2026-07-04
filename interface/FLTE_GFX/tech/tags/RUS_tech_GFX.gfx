@@ -1,33 +1,33 @@
 spriteTypes = {
 ## artillery
-	SpriteType = { name = "GFX_gw_artillery" texturefile = "gfx/interface/FLTE/tech/tags/RUS/gw_artillery.dds" }
-	SpriteType = { name = "GFX_artillery1" texturefile = "gfx/interface/FLTE/tech/tags/RUS/artillery1.dds" }
-	SpriteType = { name = "GFX_artillery4" texturefile = "gfx/interface/FLTE/tech/tags/RUS/artillery4.dds" }
-	SpriteType = { name = "GFX_interwar_antiair" texturefile = "gfx/interface/FLTE/tech/tags/RUS/interwar_antiair.dds" }
-	SpriteType = { name = "GFX_antiair2" texturefile = "gfx/interface/FLTE/tech/tags/RUS/antiair2.dds" }
-	SpriteType = { name = "GFX_antiair5" texturefile = "gfx/interface/FLTE/tech/tags/RUS/antiair5.dds" }
-	SpriteType = { name = "GFX_interwar_antitank" texturefile = "gfx/interface/FLTE/tech/tags/RUS/interwar_antitank.dds" }
-	SpriteType = { name = "GFX_antitank2" texturefile = "gfx/interface/FLTE/tech/tags/RUS/antitank2.dds" }
-	SpriteType = { name = "GFX_antitank5" texturefile = "gfx/interface/FLTE/tech/tags/RUS/antitank5.dds" }
+	SpriteType = { name = "GFX_RUS_gw_artillery_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/gw_artillery.dds" }
+	SpriteType = { name = "GFX_RUS_artillery1_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/artillery1.dds" }
+	SpriteType = { name = "GFX_RUS_artillery4_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/artillery4.dds" }
+	SpriteType = { name = "GFX_RUS_interwar_antiair_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/interwar_antiair.dds" }
+	SpriteType = { name = "GFX_RUS_antiair2_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/antiair2.dds" }
+	SpriteType = { name = "GFX_RUS_antiair5_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/antiair5.dds" }
+	SpriteType = { name = "GFX_RUS_interwar_antitank_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/interwar_antitank.dds" }
+	SpriteType = { name = "GFX_RUS_antitank2_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/antitank2.dds" }
+	SpriteType = { name = "GFX_RUS_antitank5_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/antitank5.dds" }
 ## infantry
-	SpriteType = { name = "GFX_infantry_weapons" texturefile = "gfx/interface/FLTE/tech/tags/RUS/infantry_weapons.dds" }
-	SpriteType = { name = "GFX_infantry_weapons1" texturefile = "gfx/interface/FLTE/tech/tags/RUS/infantry_weapons1.dds" }
-	SpriteType = { name = "GFX_improved_infantry_weapons" texturefile = "gfx/interface/FLTE/tech/tags/RUS/improved_infantry_weapons.dds" }
-	SpriteType = { name = "GFX_advanced_infantry_weapons" texturefile = "gfx/interface/FLTE/tech/tags/RUS/advanced_infantry_weapons.dds" }
-	SpriteType = { name = "GFX_infantry_cw1" texturefile = "gfx/interface/FLTE/tech/tags/RUS/infantry_cw1.dds" }
-	SpriteType = { name = "GFX_infantry_cw2" texturefile = "gfx/interface/FLTE/tech/tags/RUS/infantry_cw2.dds" }
-	SpriteType = { name = "GFX_motorised_infantry" texturefile = "gfx/interface/FLTE/tech/tags/RUS/motorised_infantry.dds" }
-	SpriteType = { name = "GFX_motorised_infantry2" texturefile = "gfx/interface/FLTE/tech/tags/RUS/motorised_infantry2.dds" }
-	SpriteType = { name = "GFX_motorised_infantry3" texturefile = "gfx/interface/FLTE/tech/tags/RUS/motorised_infantry3.dds" }
-	SpriteType = { name = "GFX_motorized_rocket_unit" texturefile = "gfx/interface/FLTE/tech/tags/RUS/motorized_rocket_unit.dds" }
-	SpriteType = { name = "GFX_mechanised_infantry" texturefile = "gfx/interface/FLTE/tech/tags/RUS/mechanised_infantry.dds" }
-	SpriteType = { name = "GFX_amphibious_mechanized_infantry" texturefile = "gfx/interface/FLTE/tech/tags/RUS/amphibious_mechanized_infantry.dds" }
-	SpriteType = { name = "GFX_amphibious_mechanized_infantry_2" texturefile = "gfx/interface/FLTE/tech/tags/RUS/amphibious_mechanized_infantry_2.dds" }
-	SpriteType = { name = "GFX_amphibious_mechanized_infantry_3" texturefile = "gfx/interface/FLTE/tech/tags/RUS/amphibious_mechanized_infantry_3.dds" }
-	SpriteType = { name = "GFX_amphibious_mechanized_infantry_4" texturefile = "gfx/interface/FLTE/tech/tags/RUS/amphibious_mechanized_infantry_4.dds" }
-	SpriteType = { name = "GFX_mechanised_infantry2" texturefile = "gfx/interface/FLTE/tech/tags/RUS/mechanised_infantry2.dds" }
-	SpriteType = { name = "GFX_mechanised_infantry3" texturefile = "gfx/interface/FLTE/tech/tags/RUS/mechanised_infantry3.dds" }
-	SpriteType = { name = "GFX_mechanised_infantry4" texturefile = "gfx/interface/FLTE/tech/tags/RUS/mechanised_infantry4.dds" }
-	SpriteType = { name = "GFX_mechanised_infantry5" texturefile = "gfx/interface/FLTE/tech/tags/RUS/mechanised_infantry5.dds" }
+	SpriteType = { name = "GFX_RUS_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/infantry_weapons.dds" }
+	SpriteType = { name = "GFX_RUS_infantry_weapons1_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/infantry_weapons1.dds" }
+	SpriteType = { name = "GFX_RUS_improved_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/improved_infantry_weapons.dds" }
+	SpriteType = { name = "GFX_RUS_advanced_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/advanced_infantry_weapons.dds" }
+	SpriteType = { name = "GFX_RUS_infantry_cw1_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/infantry_cw1.dds" }
+	SpriteType = { name = "GFX_RUS_infantry_cw2_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/infantry_cw2.dds" }
+	SpriteType = { name = "GFX_RUS_motorised_infantry_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/motorised_infantry.dds" }
+	SpriteType = { name = "GFX_RUS_motorised_infantry2_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/motorised_infantry2.dds" }
+	SpriteType = { name = "GFX_RUS_motorised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/motorised_infantry3.dds" }
+	SpriteType = { name = "GFX_RUS_motorized_rocket_unit_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/motorized_rocket_unit.dds" }
+	SpriteType = { name = "GFX_RUS_mechanised_infantry_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/mechanised_infantry.dds" }
+	SpriteType = { name = "GFX_RUS_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/amphibious_mechanized_infantry.dds" }
+	SpriteType = { name = "GFX_RUS_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/amphibious_mechanized_infantry_2.dds" }
+	SpriteType = { name = "GFX_RUS_amphibious_mechanized_infantry_3_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/amphibious_mechanized_infantry_3.dds" }
+	SpriteType = { name = "GFX_RUS_amphibious_mechanized_infantry_4_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/amphibious_mechanized_infantry_4.dds" }
+	SpriteType = { name = "GFX_RUS_mechanised_infantry2_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/mechanised_infantry2.dds" }
+	SpriteType = { name = "GFX_RUS_mechanised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/mechanised_infantry3.dds" }
+	SpriteType = { name = "GFX_RUS_mechanised_infantry4_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/mechanised_infantry4.dds" }
+	SpriteType = { name = "GFX_RUS_mechanised_infantry5_medium" texturefile = "gfx/interface/FLTE/tech/tags/RUS/mechanised_infantry5.dds" }
 
 }

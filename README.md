@@ -1,10 +1,10 @@
 # UTTNH: Foxr Edition
 
-🌐 [Chinese Version / 中文版](README_zh.md)
+🌐 [Chinese Version / 中文版](zzz_mod_info/README_zh.md)
 
 A standalone, authorized fork of **UTTNH_2.0** for Hearts of Iron IV (HOI4), tailored for a deeper and more immersive gameplay experience. This project has received explicit permission from the original author to be independently maintained, updated, and published.
 
-👉 **[View Authorization](Authorization.png)**
+👉 **[View Authorization](zzz_mod_info/Authorization.png)**
 
 ---
 

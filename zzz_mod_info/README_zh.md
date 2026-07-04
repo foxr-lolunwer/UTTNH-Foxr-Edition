@@ -1,6 +1,6 @@
 # UTTNH: Foxr Edition
 
-🌐 [English Version / 英文版](README.md)
+🌐 [English Version / 英文版](../README.md)
 
 一个专为更深度的游戏体验而打造的《钢铁雄心4》（HOI4）独立模组分支。本模组基于 **UTTNH_2.0** 开发，并已正式获得原作者的独立维护与发布授权。
 

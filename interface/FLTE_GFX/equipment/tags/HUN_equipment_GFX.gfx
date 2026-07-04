@@ -1,7 +1,7 @@
 spriteTypes = {
 ## motorized.txt
-	SpriteType = { name = "GFX_HUN_motorized_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/HUN/motorized_equipment_1.dds" }
+	spriteType= { name = "GFX_HUN_motorized_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/HUN/motorized_equipment_1.dds" }
 ## transport_plane.txt
-	SpriteType = { name = "GFX_HUN_transport_plane_equipment_medium" texturefile = "gfx/interface/FLTE/equipment/tags/HUN/transport_plane_equipment.dds" }
+	spriteType= { name = "GFX_HUN_transport_plane_equipment_medium" texturefile = "gfx/interface/FLTE/equipment/tags/HUN/transport_plane_equipment.dds" }
 
 }

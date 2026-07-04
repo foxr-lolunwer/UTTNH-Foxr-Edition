@@ -1,16 +1,16 @@
 spriteTypes = {
 ## artillery
-	SpriteType = { name = "GFX_CHI_gw_artillery_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/gw_artillery.dds" }
-	SpriteType = { name = "GFX_CHI_artillery1_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/artillery1.dds" }
-	SpriteType = { name = "GFX_CHI_artillery4_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/artillery4.dds" }
+	spriteType= { name = "GFX_CHI_gw_artillery_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/gw_artillery.dds" }
+	spriteType= { name = "GFX_CHI_artillery1_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/artillery1.dds" }
+	spriteType= { name = "GFX_CHI_artillery4_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/artillery4.dds" }
 ## infantry
-	SpriteType = { name = "GFX_CHI_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/infantry_weapons.dds" }
-	SpriteType = { name = "GFX_CHI_infantry_weapons1_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/infantry_weapons1.dds" }
-	SpriteType = { name = "GFX_CHI_improved_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/improved_infantry_weapons.dds" }
-	SpriteType = { name = "GFX_CHI_advanced_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/advanced_infantry_weapons.dds" }
-	SpriteType = { name = "GFX_CHI_infantry_cw3_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/infantry_cw3.dds" }
-	SpriteType = { name = "GFX_CHI_infantry_cw4_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/infantry_cw4.dds" }
-	SpriteType = { name = "GFX_CHI_infantry_cw5_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/infantry_cw5.dds" }
-	SpriteType = { name = "GFX_CHI_mechanised_infantry7_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/mechanised_infantry7.dds" }
+	spriteType= { name = "GFX_CHI_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/infantry_weapons.dds" }
+	spriteType= { name = "GFX_CHI_infantry_weapons1_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/infantry_weapons1.dds" }
+	spriteType= { name = "GFX_CHI_improved_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/improved_infantry_weapons.dds" }
+	spriteType= { name = "GFX_CHI_advanced_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/advanced_infantry_weapons.dds" }
+	spriteType= { name = "GFX_CHI_infantry_cw3_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/infantry_cw3.dds" }
+	spriteType= { name = "GFX_CHI_infantry_cw4_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/infantry_cw4.dds" }
+	spriteType= { name = "GFX_CHI_infantry_cw5_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/infantry_cw5.dds" }
+	spriteType= { name = "GFX_CHI_mechanised_infantry7_medium" texturefile = "gfx/interface/FLTE/tech/tags/CHI/mechanised_infantry7.dds" }
 
 }

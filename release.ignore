@@ -11,3 +11,4 @@ workshop-desc.txt
 descriptor.mod
 *.bak
 *.ignore
+.vscode

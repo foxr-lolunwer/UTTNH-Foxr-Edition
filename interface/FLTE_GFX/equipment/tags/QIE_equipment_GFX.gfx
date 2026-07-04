@@ -1,5 +1,5 @@
 spriteTypes = {
 ## motorized.txt
-	SpriteType = { name = "GFX_QIE_motorized_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/QIE/motorized_equipment_1.dds" }
+	spriteType= { name = "GFX_QIE_motorized_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/QIE/motorized_equipment_1.dds" }
 
 }

@@ -1,12 +1,12 @@
 spriteTypes = {
 ## artillery
-	SpriteType = { name = "GFX_HOL_gw_artillery_medium" texturefile = "gfx/interface/FLTE/tech/tags/HOL/gw_artillery.dds" }
-	SpriteType = { name = "GFX_HOL_artillery1_medium" texturefile = "gfx/interface/FLTE/tech/tags/HOL/artillery1.dds" }
-	SpriteType = { name = "GFX_HOL_artillery4_medium" texturefile = "gfx/interface/FLTE/tech/tags/HOL/artillery4.dds" }
+	spriteType= { name = "GFX_HOL_gw_artillery_medium" texturefile = "gfx/interface/FLTE/tech/tags/HOL/gw_artillery.dds" }
+	spriteType= { name = "GFX_HOL_artillery1_medium" texturefile = "gfx/interface/FLTE/tech/tags/HOL/artillery1.dds" }
+	spriteType= { name = "GFX_HOL_artillery4_medium" texturefile = "gfx/interface/FLTE/tech/tags/HOL/artillery4.dds" }
 ## infantry
-	SpriteType = { name = "GFX_HOL_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/HOL/infantry_weapons.dds" }
-	SpriteType = { name = "GFX_HOL_infantry_weapons1_medium" texturefile = "gfx/interface/FLTE/tech/tags/HOL/infantry_weapons1.dds" }
-	SpriteType = { name = "GFX_HOL_improved_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/HOL/improved_infantry_weapons.dds" }
-	SpriteType = { name = "GFX_HOL_advanced_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/HOL/advanced_infantry_weapons.dds" }
+	spriteType= { name = "GFX_HOL_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/HOL/infantry_weapons.dds" }
+	spriteType= { name = "GFX_HOL_infantry_weapons1_medium" texturefile = "gfx/interface/FLTE/tech/tags/HOL/infantry_weapons1.dds" }
+	spriteType= { name = "GFX_HOL_improved_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/HOL/improved_infantry_weapons.dds" }
+	spriteType= { name = "GFX_HOL_advanced_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/HOL/advanced_infantry_weapons.dds" }
 
 }

@@ -1,35 +1,35 @@
 spriteTypes = {
 ## artillery
-	SpriteType = { name = "GFX_SPA_gw_artillery_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/gw_artillery.dds" }
-	SpriteType = { name = "GFX_SPA_artillery1_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/artillery1.dds" }
-	SpriteType = { name = "GFX_SPA_artillery4_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/artillery4.dds" }
-	SpriteType = { name = "GFX_SPA_interwar_antiair_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/interwar_antiair.dds" }
-	SpriteType = { name = "GFX_SPA_antiair2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/antiair2.dds" }
-	SpriteType = { name = "GFX_SPA_antiair5_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/antiair5.dds" }
-	SpriteType = { name = "GFX_SPA_interwar_antitank_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/interwar_antitank.dds" }
-	SpriteType = { name = "GFX_SPA_antitank2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/antitank2.dds" }
-	SpriteType = { name = "GFX_SPA_antitank5_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/antitank5.dds" }
+	spriteType= { name = "GFX_SPA_gw_artillery_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/gw_artillery.dds" }
+	spriteType= { name = "GFX_SPA_artillery1_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/artillery1.dds" }
+	spriteType= { name = "GFX_SPA_artillery4_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/artillery4.dds" }
+	spriteType= { name = "GFX_SPA_interwar_antiair_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/interwar_antiair.dds" }
+	spriteType= { name = "GFX_SPA_antiair2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/antiair2.dds" }
+	spriteType= { name = "GFX_SPA_antiair5_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/antiair5.dds" }
+	spriteType= { name = "GFX_SPA_interwar_antitank_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/interwar_antitank.dds" }
+	spriteType= { name = "GFX_SPA_antitank2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/antitank2.dds" }
+	spriteType= { name = "GFX_SPA_antitank5_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/antitank5.dds" }
 ## infantry
-	SpriteType = { name = "GFX_SPA_infantry_cw1_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/infantry_cw1.dds" }
-	SpriteType = { name = "GFX_SPA_infantry_cw2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/infantry_cw2.dds" }
-	SpriteType = { name = "GFX_SPA_infantry_cw3_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/infantry_cw3.dds" }
-	SpriteType = { name = "GFX_SPA_infantry_cw4_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/infantry_cw4.dds" }
-	SpriteType = { name = "GFX_SPA_infantry_cw5_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/infantry_cw5.dds" }
-	SpriteType = { name = "GFX_SPA_motorised_infantry_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/motorised_infantry.dds" }
-	SpriteType = { name = "GFX_SPA_motorised_infantry2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/motorised_infantry2.dds" }
-	SpriteType = { name = "GFX_SPA_motorised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/motorised_infantry3.dds" }
-	SpriteType = { name = "GFX_SPA_armored_car1_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/armored_car1.dds" }
-	SpriteType = { name = "GFX_SPA_armored_car2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/armored_car2.dds" }
-	SpriteType = { name = "GFX_SPA_armored_car3_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/armored_car3.dds" }
-	SpriteType = { name = "GFX_SPA_armored_car4_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/armored_car4.dds" }
-	SpriteType = { name = "GFX_SPA_armored_car_at_upgrade_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/armored_car_at_upgrade.dds" }
-	SpriteType = { name = "GFX_SPA_mechanised_infantry_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/mechanised_infantry.dds" }
-	SpriteType = { name = "GFX_SPA_mechanised_infantry2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/mechanised_infantry2.dds" }
-	SpriteType = { name = "GFX_SPA_mechanised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/mechanised_infantry3.dds" }
-	SpriteType = { name = "GFX_SPA_mechanised_infantry4_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/mechanised_infantry4.dds" }
-	SpriteType = { name = "GFX_SPA_mechanised_infantry5_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/mechanised_infantry5.dds" }
-	SpriteType = { name = "GFX_SPA_mechanised_infantry6_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/mechanised_infantry6.dds" }
-	SpriteType = { name = "GFX_SPA_mechanised_infantry7_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/mechanised_infantry7.dds" }
-	SpriteType = { name = "GFX_SPA_mechanised_infantry8_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/mechanised_infantry8.dds" }
+	spriteType= { name = "GFX_SPA_infantry_cw1_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/infantry_cw1.dds" }
+	spriteType= { name = "GFX_SPA_infantry_cw2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/infantry_cw2.dds" }
+	spriteType= { name = "GFX_SPA_infantry_cw3_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/infantry_cw3.dds" }
+	spriteType= { name = "GFX_SPA_infantry_cw4_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/infantry_cw4.dds" }
+	spriteType= { name = "GFX_SPA_infantry_cw5_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/infantry_cw5.dds" }
+	spriteType= { name = "GFX_SPA_motorised_infantry_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/motorised_infantry.dds" }
+	spriteType= { name = "GFX_SPA_motorised_infantry2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/motorised_infantry2.dds" }
+	spriteType= { name = "GFX_SPA_motorised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/motorised_infantry3.dds" }
+	spriteType= { name = "GFX_SPA_armored_car1_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/armored_car1.dds" }
+	spriteType= { name = "GFX_SPA_armored_car2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/armored_car2.dds" }
+	spriteType= { name = "GFX_SPA_armored_car3_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/armored_car3.dds" }
+	spriteType= { name = "GFX_SPA_armored_car4_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/armored_car4.dds" }
+	spriteType= { name = "GFX_SPA_armored_car_at_upgrade_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/armored_car_at_upgrade.dds" }
+	spriteType= { name = "GFX_SPA_mechanised_infantry_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/mechanised_infantry.dds" }
+	spriteType= { name = "GFX_SPA_mechanised_infantry2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/mechanised_infantry2.dds" }
+	spriteType= { name = "GFX_SPA_mechanised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/mechanised_infantry3.dds" }
+	spriteType= { name = "GFX_SPA_mechanised_infantry4_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/mechanised_infantry4.dds" }
+	spriteType= { name = "GFX_SPA_mechanised_infantry5_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/mechanised_infantry5.dds" }
+	spriteType= { name = "GFX_SPA_mechanised_infantry6_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/mechanised_infantry6.dds" }
+	spriteType= { name = "GFX_SPA_mechanised_infantry7_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/mechanised_infantry7.dds" }
+	spriteType= { name = "GFX_SPA_mechanised_infantry8_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPA/mechanised_infantry8.dds" }
 
 }

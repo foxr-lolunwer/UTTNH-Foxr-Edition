@@ -1,14 +1,14 @@
 spriteTypes = {
 ## infantry
-	SpriteType = { name = "GFX_PHI_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/infantry_weapons.dds" }
-	SpriteType = { name = "GFX_PHI_infantry_weapons1_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/infantry_weapons1.dds" }
-	SpriteType = { name = "GFX_PHI_improved_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/improved_infantry_weapons.dds" }
-	SpriteType = { name = "GFX_PHI_advanced_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/advanced_infantry_weapons.dds" }
-	SpriteType = { name = "GFX_PHI_infantry_cw1_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/infantry_cw1.dds" }
-	SpriteType = { name = "GFX_PHI_infantry_cw2_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/infantry_cw2.dds" }
-	SpriteType = { name = "GFX_PHI_infantry_cw3_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/infantry_cw3.dds" }
-	SpriteType = { name = "GFX_PHI_motorised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/motorised_infantry3.dds" }
-	SpriteType = { name = "GFX_PHI_heavy_mechanised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/heavy_mechanised_infantry3.dds" }
-	SpriteType = { name = "GFX_PHI_heavy_mechanised_infantry5_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/heavy_mechanised_infantry5.dds" }
+	spriteType= { name = "GFX_PHI_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/infantry_weapons.dds" }
+	spriteType= { name = "GFX_PHI_infantry_weapons1_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/infantry_weapons1.dds" }
+	spriteType= { name = "GFX_PHI_improved_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/improved_infantry_weapons.dds" }
+	spriteType= { name = "GFX_PHI_advanced_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/advanced_infantry_weapons.dds" }
+	spriteType= { name = "GFX_PHI_infantry_cw1_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/infantry_cw1.dds" }
+	spriteType= { name = "GFX_PHI_infantry_cw2_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/infantry_cw2.dds" }
+	spriteType= { name = "GFX_PHI_infantry_cw3_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/infantry_cw3.dds" }
+	spriteType= { name = "GFX_PHI_motorised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/motorised_infantry3.dds" }
+	spriteType= { name = "GFX_PHI_heavy_mechanised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/heavy_mechanised_infantry3.dds" }
+	spriteType= { name = "GFX_PHI_heavy_mechanised_infantry5_medium" texturefile = "gfx/interface/FLTE/tech/tags/PHI/heavy_mechanised_infantry5.dds" }
 
 }

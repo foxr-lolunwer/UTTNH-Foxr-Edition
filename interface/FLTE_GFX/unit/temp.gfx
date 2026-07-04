@@ -89,7 +89,7 @@ spriteTypes = {
 	##################################
 	### Large images for DIVISIONS ###
 	
-	spriteType = { name = "GFX_unit_tropical_specialist_icon_medium"                    textureFile = "gfx/interface/counters/divisions_large/unit_tropical_specialist_icon.dds" noOfFrames = 2 } 	
+	spriteType = { name = "GFX_unit_tropical_specialist_icon_medium"                    texturefile = "gfx/interface/counters/divisions_large/unit_tropical_specialist_icon.dds" noOfFrames = 2 } 	
 	spriteType = { name = "GFX_unit_mechanized_artillery_brigade_icon_medium" 			textureFile = "gfx/interface/counters/divisions_large/unit_mechanized_artillery_brigade_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_mechanized_anti_air_brigade_icon_medium" 			textureFile = "gfx/interface/counters/divisions_large/unit_mechanized_antiair_brigade_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_mechanized_anti_tank_brigade_icon_medium" 			textureFile = "gfx/interface/counters/divisions_large/unit_mechanized_antitank_brigade_icon.dds" noOfFrames = 2 }
@@ -98,7 +98,7 @@ spriteTypes = {
 	####################################################
 	### Small images for DIVISIONS (On-map-counters) ###
 		
-	spriteType = { name = "GFX_unit_tropical_specialist_icon_medium_white"              textureFile = "gfx/interface/counters/divisions_small/onmap_unit_tropical_specialist_icon.dds" noOfFrames = 2} 
+	spriteType = { name = "GFX_unit_tropical_specialist_icon_medium_white"              texturefile = "gfx/interface/counters/divisions_small/onmap_unit_tropical_specialist_icon.dds" noOfFrames = 2} 
 	spriteType = { name = "GFX_unit_mechanized_artillery_brigade_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_motorized_rocket_brigade_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_mechanized_anti_air_brigade_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_motorized_rocket_brigade_icon.dds" noOfFrames = 2}
 	spriteType = { name = "GFX_unit_mechanized_anti_tank_brigade_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_motorized_rocket_brigade_icon.dds" noOfFrames = 2}

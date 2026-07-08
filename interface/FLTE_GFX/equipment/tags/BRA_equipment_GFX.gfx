@@ -1,6 +1,6 @@
 spriteTypes = {
 ## artillery.txt
-	spriteType= { name = "GFX_BRA_motorized_rocket_equipment_4_medium" texturefile = "gfx/interface/FLTE/equipment/tags/BRA/motorized_rocket_equipment_4.dds" }
+	spriteType= { name = "GFX_BRA_motorized_rocket_equipment_4_medium" texturefile = "gfx/interface/FLTE/equipment/general/motorized_rocket_equipment_4.dds" }
 ## ship_hull_carrier.txt
 	spriteType= { name = "GFX_BRA_ship_hull_carrier_5_medium" texturefile = "gfx/interface/FLTE/equipment/tags/BRA/ship_hull_carrier_5.dds" }
 	spriteType= { name = "GFX_BRA_ship_hull_carrier_6_medium" texturefile = "gfx/interface/FLTE/equipment/tags/BRA/ship_hull_carrier_6.dds" }

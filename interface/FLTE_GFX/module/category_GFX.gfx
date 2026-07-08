@@ -3,6 +3,6 @@ spriteTypes = {
 	spriteType = { name = "GFX_SMI_ship_sam_missile_battery" texturefile = "gfx/interface/FLTE/module/general/category/ship_sam_missile_battery.dds" }
 	spriteType = { name = "GFX_SMI_ship_light_ASM_battery" texturefile = "gfx/interface/FLTE/module/general/category/ship_light_ASM_battery.dds" }
 	spriteType = { name = "GFX_SMI_ship_heavy_ASM_battery" texturefile = "gfx/interface/FLTE/module/general/category/ship_heavy_ASM_battery.dds" }
-	spriteType = { name = "GFX_EMI_tank_electronics_module" texturefile = "gfx/interface/FLTE/module/general/category/tank_electronics_module.dds" }
-	spriteType = { name = "GFX_EMI_tank_shells_module" texturefile = "gfx/interface/FLTE/module/general/category/tank_shells_module.dds" }
+	spriteType = { name = "GFX_EMI_tank_electronics_module" texturefile = "gfx/interface/FLTE/module/general/early_gps.dds" }
+	spriteType = { name = "GFX_EMI_tank_shells_module" texturefile = "gfx/interface/FLTE/module/general/atgm.dds" }
 }

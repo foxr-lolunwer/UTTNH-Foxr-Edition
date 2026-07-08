@@ -12,3 +12,4 @@ descriptor.mod
 *.bak
 *.ignore
 .vscode
+codes/

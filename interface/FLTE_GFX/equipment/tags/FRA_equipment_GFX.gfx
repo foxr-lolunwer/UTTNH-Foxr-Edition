@@ -4,7 +4,7 @@ spriteTypes = {
 	spriteType= { name = "GFX_FRA_motorized_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/FRA/motorized_equipment_2.dds" }
 	spriteType= { name = "GFX_FRA_motorized_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/FRA/motorized_equipment_3.dds" }
 ## ship_hull_carrier.txt
-	spriteType= { name = "GFX_FRA_ship_hull_carrier_5_medium" texturefile = "gfx/interface/FLTE/equipment/tags/FRA/ship_hull_carrier_5.dds" }
+	spriteType= { name = "GFX_FRA_ship_hull_carrier_5_medium" texturefile = "gfx/interface/FLTE/equipment/tags/BRA/ship_hull_carrier_5.dds" }
 ## ship_hull_cruiser.txt
 	spriteType= { name = "GFX_FRA_ship_hull_cruiser_5_medium" texturefile = "gfx/interface/FLTE/equipment/tags/FRA/ship_hull_cruiser_5.dds" }
 	spriteType= { name = "GFX_FRA_ship_hull_cruiser_6_medium" texturefile = "gfx/interface/FLTE/equipment/tags/FRA/ship_hull_cruiser_6.dds" }
@@ -30,6 +30,6 @@ spriteTypes = {
 ## transport_plane.txt
 	spriteType= { name = "GFX_FRA_transport_plane_equipment_4_medium" texturefile = "gfx/interface/FLTE/equipment/tags/FRA/transport_plane_equipment_4.dds" }
 	spriteType= { name = "GFX_FRA_transport_plane_equipment_5_medium" texturefile = "gfx/interface/FLTE/equipment/tags/FRA/transport_plane_equipment_5.dds" }
-	spriteType= { name = "GFX_FRA_transport_plane_equipment_6_medium" texturefile = "gfx/interface/FLTE/equipment/tags/FRA/transport_plane_equipment_6.dds" }
+	spriteType= { name = "GFX_FRA_transport_plane_equipment_6_medium" texturefile = "gfx/interface/FLTE/equipment/general/transport_plane_equipment_6.dds" }
 
 }

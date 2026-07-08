@@ -23,7 +23,7 @@ spriteTypes = {
 	spriteType= { name = "GFX_ship_hull_carrier_6_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_carrier_6.dds" }
 	spriteType= { name = "GFX_ship_hull_carrier_7_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_carrier_7.dds" }
 	spriteType= { name = "GFX_ship_hull_carrier_8_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_carrier_8.dds" }
-	spriteType= { name = "GFX_ship_hull_carrier_9_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_carrier_9.dds" }
+	spriteType= { name = "GFX_ship_hull_carrier_9_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_carrier_8.dds" }
 	spriteType= { name = "GFX_ship_hull_carrier_10_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_carrier_10.dds" }
 	spriteType= { name = "GFX_ship_hull_bc_carrier_1_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_bc_carrier_1.dds" }
 	spriteType= { name = "GFX_ship_hull_bc_carrier_2_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_bc_carrier_2.dds" }

@@ -25,26 +25,26 @@ spriteTypes = {
 	spriteType= { name = "GFX_EMI_helicopter_airdropped_mines" texturefile = "gfx/interface/FLTE/module/general/helicopter_airdropped_mines.dds" }
 	spriteType= { name = "GFX_EMI_helicopter_armor_plate_small" texturefile = "gfx/interface/FLTE/module/general/helicopter_armor_plate_small.dds" }
 	spriteType= { name = "GFX_EMI_helicopter_rwr" texturefile = "gfx/interface/FLTE/module/general/helicopter_rwr.dds" }
-	spriteType= { name = "GFX_EMI_helicopter_flare" texturefile = "gfx/interface/FLTE/module/general/helicopter_flare.dds" }
+	spriteType= { name = "GFX_EMI_helicopter_flare" texturefile = "gfx/interface/FLTE/module/general/flare.dds" }
 	spriteType= { name = "GFX_EMI_helicopter_night_vision" texturefile = "gfx/interface/FLTE/module/general/helicopter_night_vision.dds" }
 	spriteType= { name = "GFX_EMI_helicopter_thermal_vision" texturefile = "gfx/interface/FLTE/module/general/helicopter_thermal_vision.dds" }
 	spriteType= { name = "GFX_EMI_helicopter_demining_coil" texturefile = "gfx/interface/FLTE/module/general/helicopter_demining_coil.dds" }
 	spriteType= { name = "GFX_EMI_radar_ball" texturefile = "gfx/interface/FLTE/module/general/radar_ball.dds" }
 	spriteType= { name = "GFX_EMI_side_turret" texturefile = "gfx/interface/FLTE/module/general/side_turret.dds" }
 ## 00_plane_modules.txt
-	spriteType= { name = "GFX_EMI_jet_engine_advanced_turbojet_1x" texturefile = "gfx/interface/FLTE/module/general/jet_engine_advanced_turbojet_1x.dds" }
-	spriteType= { name = "GFX_EMI_jet_engine_advanced_turbojet_2x" texturefile = "gfx/interface/FLTE/module/general/jet_engine_advanced_turbojet_2x.dds" }
-	spriteType= { name = "GFX_EMI_jet_engine_advanced_turbojet_3x" texturefile = "gfx/interface/FLTE/module/general/jet_engine_advanced_turbojet_3x.dds" }
+	spriteType= { name = "GFX_EMI_jet_engine_advanced_turbojet_1x" texturefile = "gfx/interface/FLTE/module/general/helicopter_jet_engine_1x_1.dds" }
+	spriteType= { name = "GFX_EMI_jet_engine_advanced_turbojet_2x" texturefile = "gfx/interface/FLTE/module/general/helicopter_jet_engine_2x_1.dds" }
+	spriteType= { name = "GFX_EMI_jet_engine_advanced_turbojet_3x" texturefile = "gfx/interface/FLTE/module/general/helicopter_jet_engine_2x_1.dds" }
 	spriteType= { name = "GFX_EMI_jet_engine_advanced_turbojet_4x" texturefile = "gfx/interface/FLTE/module/general/jet_engine_advanced_turbojet_4x.dds" }
 	spriteType= { name = "GFX_EMI_jet_engine_advanced_turbojet_6x" texturefile = "gfx/interface/FLTE/module/general/jet_engine_advanced_turbojet_6x.dds" }
-	spriteType = { name = "GFX_EMI_jet_engine_turbofan_1x" texturefile = "gfx/interface/FLTE/module/general/jet_engine_advanced_turbojet_1x.dds" } # import hoi4
-	spriteType = { name = "GFX_EMI_jet_engine_turbofan_2x" texturefile = "gfx/interface/FLTE/module/general/jet_engine_advanced_turbojet_2x.dds" } # import hoi4
-	spriteType = { name = "GFX_EMI_jet_engine_turbofan_3x" texturefile = "gfx/interface/FLTE/module/general/jet_engine_advanced_turbojet_3x.dds" } # import hoi4
+	spriteType = { name = "GFX_EMI_jet_engine_turbofan_1x" texturefile = "gfx/interface/FLTE/module/general/helicopter_jet_engine_1x_1.dds" } # import hoi4
+	spriteType = { name = "GFX_EMI_jet_engine_turbofan_2x" texturefile = "gfx/interface/FLTE/module/general/helicopter_jet_engine_2x_1.dds" } # import hoi4
+	spriteType = { name = "GFX_EMI_jet_engine_turbofan_3x" texturefile = "gfx/interface/FLTE/module/general/helicopter_jet_engine_2x_1.dds" } # import hoi4
 	spriteType = { name = "GFX_EMI_jet_engine_turbofan_4x" texturefile = "gfx/interface/FLTE/module/general/jet_engine_advanced_turbojet_4x.dds" } # import hoi4
 	spriteType = { name = "GFX_EMI_jet_engine_turbofan_6x" texturefile = "gfx/interface/FLTE/module/general/jet_engine_advanced_turbojet_6x.dds" } # import hoi4
-	spriteType = { name = "GFX_EMI_jet_engine_modern_turbofan_1x" texturefile = "gfx/interface/FLTE/module/general/jet_engine_advanced_turbojet_1x.dds" } # import hoi4
-	spriteType = { name = "GFX_EMI_jet_engine_modern_turbofan_2x" texturefile = "gfx/interface/FLTE/module/general/jet_engine_advanced_turbojet_2x.dds" } # import hoi4
-	spriteType = { name = "GFX_EMI_jet_engine_modern_turbofan_3x" texturefile = "gfx/interface/FLTE/module/general/jet_engine_advanced_turbojet_3x.dds" } # import hoi4
+	spriteType = { name = "GFX_EMI_jet_engine_modern_turbofan_1x" texturefile = "gfx/interface/FLTE/module/general/helicopter_jet_engine_1x_1.dds" } # import hoi4
+	spriteType = { name = "GFX_EMI_jet_engine_modern_turbofan_2x" texturefile = "gfx/interface/FLTE/module/general/helicopter_jet_engine_2x_1.dds" } # import hoi4
+	spriteType = { name = "GFX_EMI_jet_engine_modern_turbofan_3x" texturefile = "gfx/interface/FLTE/module/general/helicopter_jet_engine_2x_1.dds" } # import hoi4
 	spriteType = { name = "GFX_EMI_jet_engine_modern_turbofan_4x" texturefile = "gfx/interface/FLTE/module/general/jet_engine_advanced_turbojet_4x.dds" } # import hoi4
 	spriteType = { name = "GFX_EMI_jet_engine_modern_turbofan_6x" texturefile = "gfx/interface/FLTE/module/general/jet_engine_advanced_turbojet_6x.dds" } # import hoi4
 	spriteType= { name = "GFX_EMI_heavy_mg_1_2x" texturefile = "gfx/interface/FLTE/module/general/heavy_mg_1_2x.dds" }
@@ -73,11 +73,11 @@ spriteTypes = {
 	spriteType= { name = "GFX_EMI_bomb_locks_2" texturefile = "gfx/interface/FLTE/module/general/bomb_locks_2.dds" }
 	spriteType= { name = "GFX_EMI_laserbomb" texturefile = "gfx/interface/FLTE/module/general/laserbomb.dds" }
 	spriteType= { name = "GFX_EMI_laserbomb_1" texturefile = "gfx/interface/FLTE/module/general/laserbomb_1.dds" }
-	spriteType= { name = "GFX_EMI_ATGGM" texturefile = "gfx/interface/FLTE/module/general/ATGGM.dds" }
+	spriteType= { name = "GFX_EMI_ATGGM" texturefile = "gfx/interface/FLTE/module/general/aircraft_braam.dds" }
 	spriteType= { name = "GFX_EMI_ATTVGGM" texturefile = "gfx/interface/FLTE/module/general/ATTVGGM.dds" }
 	spriteType= { name = "GFX_EMI_ATGLGM" texturefile = "gfx/interface/FLTE/module/general/ATGLGM.dds" }
 	spriteType= { name = "GFX_EMI_ATGLGM_1" texturefile = "gfx/interface/FLTE/module/general/ATGLGM_1.dds" }
-	spriteType= { name = "GFX_EMI_rocket_pod" texturefile = "gfx/interface/FLTE/module/general/rocket_pod.dds" }
+	spriteType= { name = "GFX_EMI_rocket_pod" texturefile = "gfx/interface/FLTE/module/general/helicopter_rocket_pod.dds" }
 	spriteType= { name = "GFX_EMI_medium_bomb_bay_1" texturefile = "gfx/interface/FLTE/module/general/medium_bomb_bay_1.dds" }
 	spriteType= { name = "GFX_EMI_medium_bomb_bay_2" texturefile = "gfx/interface/FLTE/module/general/medium_bomb_bay_2.dds" }
 	spriteType= { name = "GFX_EMI_medium_bomb_bay_3" texturefile = "gfx/interface/FLTE/module/general/medium_bomb_bay_3.dds" }
@@ -122,7 +122,7 @@ spriteTypes = {
 	spriteType= { name = "GFX_EMI_cannon_defense_turret_1" texturefile = "gfx/interface/FLTE/module/general/cannon_defense_turret_1.dds" }
 	spriteType= { name = "GFX_EMI_cannon_defense_turret_1_2x" texturefile = "gfx/interface/FLTE/module/general/cannon_defense_turret_1_2x.dds" }
 	spriteType= { name = "GFX_EMI_cannon_defense_turret_2" texturefile = "gfx/interface/FLTE/module/general/cannon_defense_turret_2.dds" }
-	spriteType= { name = "GFX_EMI_cannon_defense_turret_2_2x" texturefile = "gfx/interface/FLTE/module/general/cannon_defense_turret_2_2x.dds" }
+	spriteType= { name = "GFX_EMI_cannon_defense_turret_2_2x" texturefile = "gfx/interface/FLTE/module/general/cannon_defense_turret_1_2x.dds" }
 	spriteType= { name = "GFX_EMI_cannon_defense_turret_3" texturefile = "gfx/interface/FLTE/module/general/cannon_defense_turret_3.dds" }
 	spriteType= { name = "GFX_EMI_cannon_defense_turret_3_2x" texturefile = "gfx/interface/FLTE/module/general/cannon_defense_turret_3_2x.dds" }
 ## 00_ship_modules.txt
@@ -186,42 +186,42 @@ spriteTypes = {
 	spriteType= { name = "GFX_EMI_ship_radar_7" texturefile = "gfx/interface/FLTE/module/general/ship_radar_7.dds" }
 	spriteType= { name = "GFX_EMI_ship_radar_8" texturefile = "gfx/interface/FLTE/module/general/ship_radar_8.dds" }
 	spriteType= { name = "GFX_EMI_ship_radar_9" texturefile = "gfx/interface/FLTE/module/general/ship_radar_9.dds" }
-	spriteType= { name = "GFX_EMI_light_ship_engine_1" texturefile = "gfx/interface/FLTE/module/general/light_ship_engine_1.dds" }
-	spriteType= { name = "GFX_EMI_light_ship_engine_2" texturefile = "gfx/interface/FLTE/module/general/light_ship_engine_2.dds" }
-	spriteType= { name = "GFX_EMI_light_ship_engine_3" texturefile = "gfx/interface/FLTE/module/general/light_ship_engine_3.dds" }
-	spriteType= { name = "GFX_EMI_light_ship_engine_4" texturefile = "gfx/interface/FLTE/module/general/light_ship_engine_4.dds" }
-	spriteType= { name = "GFX_EMI_light_ship_engine_5" texturefile = "gfx/interface/FLTE/module/general/light_ship_engine_5.dds" }
-	spriteType= { name = "GFX_EMI_light_ship_engine_6" texturefile = "gfx/interface/FLTE/module/general/light_ship_engine_6.dds" }
-	spriteType= { name = "GFX_EMI_light_ship_engine_7" texturefile = "gfx/interface/FLTE/module/general/light_ship_engine_7.dds" }
-	spriteType= { name = "GFX_EMI_light_ship_engine_8" texturefile = "gfx/interface/FLTE/module/general/light_ship_engine_8.dds" }
-	spriteType= { name = "GFX_EMI_light_ship_engine_9" texturefile = "gfx/interface/FLTE/module/general/light_ship_engine_9.dds" }
-	spriteType= { name = "GFX_EMI_light_ship_engine_10" texturefile = "gfx/interface/FLTE/module/general/light_ship_engine_10.dds" }
-	spriteType= { name = "GFX_EMI_sub_ship_engine_1" texturefile = "gfx/interface/FLTE/module/general/sub_ship_engine_1.dds" }
-	spriteType= { name = "GFX_EMI_sub_ship_engine_2" texturefile = "gfx/interface/FLTE/module/general/sub_ship_engine_2.dds" }
-	spriteType= { name = "GFX_EMI_sub_ship_engine_3" texturefile = "gfx/interface/FLTE/module/general/sub_ship_engine_3.dds" }
-	spriteType= { name = "GFX_EMI_sub_ship_engine_4" texturefile = "gfx/interface/FLTE/module/general/sub_ship_engine_4.dds" }
-	spriteType= { name = "GFX_EMI_sub_ship_engine_5" texturefile = "gfx/interface/FLTE/module/general/sub_ship_engine_5.dds" }
-	spriteType= { name = "GFX_EMI_sub_ship_engine_6" texturefile = "gfx/interface/FLTE/module/general/sub_ship_engine_6.dds" }
-	spriteType= { name = "GFX_EMI_sub_ship_engine_7" texturefile = "gfx/interface/FLTE/module/general/sub_ship_engine_7.dds" }
-	spriteType= { name = "GFX_EMI_sub_ship_engine_8" texturefile = "gfx/interface/FLTE/module/general/sub_ship_engine_8.dds" }
-	spriteType= { name = "GFX_EMI_sub_ship_engine_9" texturefile = "gfx/interface/FLTE/module/general/sub_ship_engine_9.dds" }
-	spriteType= { name = "GFX_EMI_sub_ship_engine_10" texturefile = "gfx/interface/FLTE/module/general/sub_ship_engine_10.dds" }
-	spriteType= { name = "GFX_EMI_cruiser_ship_engine_1" texturefile = "gfx/interface/FLTE/module/general/cruiser_ship_engine_1.dds" }
-	spriteType= { name = "GFX_EMI_cruiser_ship_engine_2" texturefile = "gfx/interface/FLTE/module/general/cruiser_ship_engine_2.dds" }
-	spriteType= { name = "GFX_EMI_cruiser_ship_engine_3" texturefile = "gfx/interface/FLTE/module/general/cruiser_ship_engine_3.dds" }
-	spriteType= { name = "GFX_EMI_cruiser_ship_engine_4" texturefile = "gfx/interface/FLTE/module/general/cruiser_ship_engine_4.dds" }
-	spriteType= { name = "GFX_EMI_cruiser_ship_engine_5" texturefile = "gfx/interface/FLTE/module/general/cruiser_ship_engine_5.dds" }
-	spriteType= { name = "GFX_EMI_cruiser_ship_engine_6" texturefile = "gfx/interface/FLTE/module/general/cruiser_ship_engine_6.dds" }
-	spriteType= { name = "GFX_EMI_cruiser_ship_engine_7" texturefile = "gfx/interface/FLTE/module/general/cruiser_ship_engine_7.dds" }
-	spriteType= { name = "GFX_EMI_cruiser_ship_engine_8" texturefile = "gfx/interface/FLTE/module/general/cruiser_ship_engine_8.dds" }
-	spriteType= { name = "GFX_EMI_cruiser_ship_engine_9" texturefile = "gfx/interface/FLTE/module/general/cruiser_ship_engine_9.dds" }
-	spriteType= { name = "GFX_EMI_cruiser_ship_engine_10" texturefile = "gfx/interface/FLTE/module/general/cruiser_ship_engine_10.dds" }
-	spriteType= { name = "GFX_EMI_heavy_ship_engine_1" texturefile = "gfx/interface/FLTE/module/general/heavy_ship_engine_1.dds" }
-	spriteType= { name = "GFX_EMI_heavy_ship_engine_2" texturefile = "gfx/interface/FLTE/module/general/heavy_ship_engine_2.dds" }
-	spriteType= { name = "GFX_EMI_heavy_ship_engine_3" texturefile = "gfx/interface/FLTE/module/general/heavy_ship_engine_3.dds" }
-	spriteType= { name = "GFX_EMI_heavy_ship_engine_4" texturefile = "gfx/interface/FLTE/module/general/heavy_ship_engine_4.dds" }
-	spriteType= { name = "GFX_EMI_heavy_ship_engine_5" texturefile = "gfx/interface/FLTE/module/general/heavy_ship_engine_5.dds" }
-	spriteType= { name = "GFX_EMI_heavy_ship_engine_6" texturefile = "gfx/interface/FLTE/module/general/heavy_ship_engine_6.dds" }
+	spriteType= { name = "GFX_EMI_light_ship_engine_1" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_1.dds" }
+	spriteType= { name = "GFX_EMI_light_ship_engine_2" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_2.dds" }
+	spriteType= { name = "GFX_EMI_light_ship_engine_3" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_3.dds" }
+	spriteType= { name = "GFX_EMI_light_ship_engine_4" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_4.dds" }
+	spriteType= { name = "GFX_EMI_light_ship_engine_5" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_5.dds" }
+	spriteType= { name = "GFX_EMI_light_ship_engine_6" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_6.dds" }
+	spriteType= { name = "GFX_EMI_light_ship_engine_7" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_7.dds" }
+	spriteType= { name = "GFX_EMI_light_ship_engine_8" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_8.dds" }
+	spriteType= { name = "GFX_EMI_light_ship_engine_9" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_9.dds" }
+	spriteType= { name = "GFX_EMI_light_ship_engine_10" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_10.dds" }
+	spriteType= { name = "GFX_EMI_sub_ship_engine_1" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_1.dds" }
+	spriteType= { name = "GFX_EMI_sub_ship_engine_2" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_2.dds" }
+	spriteType= { name = "GFX_EMI_sub_ship_engine_3" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_3.dds" }
+	spriteType= { name = "GFX_EMI_sub_ship_engine_4" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_4.dds" }
+	spriteType= { name = "GFX_EMI_sub_ship_engine_5" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_5.dds" }
+	spriteType= { name = "GFX_EMI_sub_ship_engine_6" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_6.dds" }
+	spriteType= { name = "GFX_EMI_sub_ship_engine_7" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_7.dds" }
+	spriteType= { name = "GFX_EMI_sub_ship_engine_8" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_8.dds" }
+	spriteType= { name = "GFX_EMI_sub_ship_engine_9" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_9.dds" }
+	spriteType= { name = "GFX_EMI_sub_ship_engine_10" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_10.dds" }
+	spriteType= { name = "GFX_EMI_cruiser_ship_engine_1" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_1.dds" }
+	spriteType= { name = "GFX_EMI_cruiser_ship_engine_2" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_2.dds" }
+	spriteType= { name = "GFX_EMI_cruiser_ship_engine_3" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_3.dds" }
+	spriteType= { name = "GFX_EMI_cruiser_ship_engine_4" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_4.dds" }
+	spriteType= { name = "GFX_EMI_cruiser_ship_engine_5" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_5.dds" }
+	spriteType= { name = "GFX_EMI_cruiser_ship_engine_6" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_6.dds" }
+	spriteType= { name = "GFX_EMI_cruiser_ship_engine_7" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_7.dds" }
+	spriteType= { name = "GFX_EMI_cruiser_ship_engine_8" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_8.dds" }
+	spriteType= { name = "GFX_EMI_cruiser_ship_engine_9" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_9.dds" }
+	spriteType= { name = "GFX_EMI_cruiser_ship_engine_10" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_10.dds" }
+	spriteType= { name = "GFX_EMI_heavy_ship_engine_1" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_1.dds" }
+	spriteType= { name = "GFX_EMI_heavy_ship_engine_2" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_2.dds" }
+	spriteType= { name = "GFX_EMI_heavy_ship_engine_3" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_3.dds" }
+	spriteType= { name = "GFX_EMI_heavy_ship_engine_4" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_4.dds" }
+	spriteType= { name = "GFX_EMI_heavy_ship_engine_5" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_5.dds" }
+	spriteType= { name = "GFX_EMI_heavy_ship_engine_6" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_6.dds" }
 	spriteType= { name = "GFX_EMI_carrier_ship_engine_1" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_1.dds" }
 	spriteType= { name = "GFX_EMI_carrier_ship_engine_2" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_2.dds" }
 	spriteType= { name = "GFX_EMI_carrier_ship_engine_3" texturefile = "gfx/interface/FLTE/module/general/carrier_ship_engine_3.dds" }
@@ -300,8 +300,8 @@ spriteTypes = {
 	spriteType= { name = "GFX_EMI_ship_sam_missile_battery_3" texturefile = "gfx/interface/FLTE/module/general/ship_sam_missile_battery_3.dds" }
 	spriteType= { name = "GFX_EMI_ship_sam_missile_battery_4" texturefile = "gfx/interface/FLTE/module/general/ship_sam_missile_battery_4.dds" }
 	spriteType= { name = "GFX_EMI_ship_sam_missile_battery_5" texturefile = "gfx/interface/FLTE/module/general/ship_sam_missile_battery_5.dds" }
-	spriteType= { name = "GFX_EMI_cruiser_nuclear_reactor_module" texturefile = "gfx/interface/FLTE/module/general/cruiser_nuclear_reactor_module.dds" }
-	spriteType= { name = "GFX_EMI_heavy_nuclear_reactor_module" texturefile = "gfx/interface/FLTE/module/general/heavy_nuclear_reactor_module.dds" }
+	spriteType= { name = "GFX_EMI_cruiser_nuclear_reactor_module" texturefile = "gfx/interface/FLTE/module/general/carrier_nuclear_reactor_module.dds" }
+	spriteType= { name = "GFX_EMI_heavy_nuclear_reactor_module" texturefile = "gfx/interface/FLTE/module/general/carrier_nuclear_reactor_module.dds" }
 	spriteType= { name = "GFX_EMI_carrier_nuclear_reactor_module" texturefile = "gfx/interface/FLTE/module/general/carrier_nuclear_reactor_module.dds" }
 ## 00_tank_modules.txt
 	spriteType= { name = "GFX_EMI_tank_gasoline_engine" texturefile = "gfx/interface/FLTE/module/general/tank_gasoline_engine.dds" }

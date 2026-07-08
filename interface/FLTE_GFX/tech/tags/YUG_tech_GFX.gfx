@@ -1,24 +1,24 @@
 spriteTypes = {
 ## NSB_armor
-	spriteType= { name = "GFX_YUG_main_battle_tank_chassis_1_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/main_battle_tank_chassis_1.dds" }
-	spriteType= { name = "GFX_YUG_main_battle_tank_chassis_2_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/main_battle_tank_chassis_2.dds" }
-	spriteType= { name = "GFX_YUG_main_battle_tank_chassis_4_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/main_battle_tank_chassis_4.dds" }
-	spriteType= { name = "GFX_YUG_main_battle_tank_chassis_5_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/main_battle_tank_chassis_5.dds" }
-	spriteType= { name = "GFX_YUG_main_battle_tank_chassis_6_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/main_battle_tank_chassis_6.dds" }
-	spriteType= { name = "GFX_YUG_main_battle_tank_chassis_7_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/main_battle_tank_chassis_7.dds" }
-	spriteType= { name = "GFX_YUG_main_battle_tank_chassis_8_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/main_battle_tank_chassis_8.dds" }
-	spriteType= { name = "GFX_YUG_main_battle_tank_chassis_9_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/main_battle_tank_chassis_9.dds" }
-	spriteType= { name = "GFX_YUG_modern_light_tank_2_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/modern_light_tank_2.dds" }
-	spriteType= { name = "GFX_YUG_modern_light_tank_3_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/modern_light_tank_3.dds" }
+	spriteType= { name = "GFX_YUG_main_battle_tank_chassis_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/YUG/modern_tank_chassis_1.dds" }
+	spriteType= { name = "GFX_YUG_main_battle_tank_chassis_2_medium" texturefile = "gfx/interface/FLTE/equipment/general/modern_tank_chassis_1.dds" }
+	spriteType= { name = "GFX_YUG_main_battle_tank_chassis_4_medium" texturefile = "gfx/interface/FLTE/equipment/tags/YUG/modern_tank_chassis_4.dds" }
+	spriteType= { name = "GFX_YUG_main_battle_tank_chassis_5_medium" texturefile = "gfx/interface/FLTE/equipment/tags/YUG/modern_tank_chassis_5.dds" }
+	spriteType= { name = "GFX_YUG_main_battle_tank_chassis_6_medium" texturefile = "gfx/interface/FLTE/equipment/tags/YUG/modern_tank_chassis_6.dds" }
+	spriteType= { name = "GFX_YUG_main_battle_tank_chassis_7_medium" texturefile = "gfx/interface/FLTE/equipment/tags/YUG/modern_tank_chassis_7.dds" }
+	spriteType= { name = "GFX_YUG_main_battle_tank_chassis_8_medium" texturefile = "gfx/interface/FLTE/equipment/tags/YUG/modern_tank_chassis_7.dds" }
+	spriteType= { name = "GFX_YUG_main_battle_tank_chassis_9_medium" texturefile = "gfx/interface/FLTE/equipment/tags/YUG/modern_tank_chassis_9.dds" }
+	spriteType= { name = "GFX_YUG_modern_light_tank_2_medium" texturefile = "gfx/interface/FLTE/tech/general/modern_light_tank_3.dds" }
+	spriteType= { name = "GFX_YUG_modern_light_tank_3_medium" texturefile = "gfx/interface/FLTE/equipment/general/amphibious_tank_chassis_3.dds" }
 ## artillery
 	spriteType= { name = "GFX_YUG_gw_artillery_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/gw_artillery.dds" }
-	spriteType= { name = "GFX_YUG_artillery1_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/artillery1.dds" }
+	spriteType= { name = "GFX_YUG_artillery1_medium" texturefile = "gfx/interface/FLTE/tech/general/artillery1.dds" }
 ## infantry
-	spriteType= { name = "GFX_YUG_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/infantry_weapons.dds" }
+	spriteType= { name = "GFX_YUG_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/general/infantry_weapons.dds" }
 	spriteType= { name = "GFX_YUG_infantry_weapons1_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/infantry_weapons1.dds" }
 	spriteType= { name = "GFX_YUG_improved_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/improved_infantry_weapons.dds" }
 	spriteType= { name = "GFX_YUG_advanced_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/advanced_infantry_weapons.dds" }
-	spriteType= { name = "GFX_YUG_infantry_cw1_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/infantry_cw1.dds" }
+	spriteType= { name = "GFX_YUG_infantry_cw1_medium" texturefile = "gfx/interface/FLTE/tech/tags/FIN/infantry_cw1.dds" }
 	spriteType= { name = "GFX_YUG_infantry_cw2_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/infantry_cw2.dds" }
 	spriteType= { name = "GFX_YUG_infantry_cw3_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/infantry_cw3.dds" }
 	spriteType= { name = "GFX_YUG_infantry_cw4_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/infantry_cw4.dds" }
@@ -26,16 +26,16 @@ spriteTypes = {
 	spriteType= { name = "GFX_YUG_infantry_at4_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/infantry_at4.dds" }
 	spriteType= { name = "GFX_YUG_infantry_at5_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/infantry_at5.dds" }
 	spriteType= { name = "GFX_YUG_infantry_at6_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/infantry_at6.dds" }
-	spriteType= { name = "GFX_YUG_motorised_infantry_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/motorised_infantry.dds" }
-	spriteType= { name = "GFX_YUG_amphibious_mechanized_infantry_3_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/amphibious_mechanized_infantry_3.dds" }
-	spriteType= { name = "GFX_YUG_amphibious_mechanized_infantry_4_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/amphibious_mechanized_infantry_4.dds" }
-	spriteType= { name = "GFX_YUG_amphibious_mechanized_infantry_5_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/amphibious_mechanized_infantry_5.dds" }
-	spriteType= { name = "GFX_YUG_amphibious_mechanized_infantry_6_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/amphibious_mechanized_infantry_6.dds" }
-	spriteType= { name = "GFX_YUG_amphibious_mechanized_infantry_7_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/amphibious_mechanized_infantry_7.dds" }
-	spriteType= { name = "GFX_YUG_mechanised_infantry4_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/mechanised_infantry4.dds" }
-	spriteType= { name = "GFX_YUG_mechanised_infantry5_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/mechanised_infantry5.dds" }
-	spriteType= { name = "GFX_YUG_mechanised_infantry6_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/mechanised_infantry6.dds" }
-	spriteType= { name = "GFX_YUG_mechanised_infantry7_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/mechanised_infantry7.dds" }
-	spriteType= { name = "GFX_YUG_mechanised_infantry8_medium" texturefile = "gfx/interface/FLTE/tech/tags/YUG/mechanised_infantry8.dds" }
+	spriteType= { name = "GFX_YUG_motorised_infantry_medium" texturefile = "gfx/interface/FLTE/equipment/tags/YUG/motorized_equipment_1.dds" }
+	spriteType= { name = "GFX_YUG_amphibious_mechanized_infantry_3_medium" texturefile = "gfx/interface/FLTE/tech/tags/CZE/amphibious_mechanized_infantry_3.dds" }
+	spriteType= { name = "GFX_YUG_amphibious_mechanized_infantry_4_medium" texturefile = "gfx/interface/FLTE/tech/tags/PRC/amphibious_mechanized_infantry_4.dds" }
+	spriteType= { name = "GFX_YUG_amphibious_mechanized_infantry_5_medium" texturefile = "gfx/interface/FLTE/tech/tags/FIN/mechanised_infantry5.dds" }
+	spriteType= { name = "GFX_YUG_amphibious_mechanized_infantry_6_medium" texturefile = "gfx/interface/FLTE/tech/tags/POL/amechanised_infantry1.dds" }
+	spriteType= { name = "GFX_YUG_amphibious_mechanized_infantry_7_medium" texturefile = "gfx/interface/FLTE/tech/tags/POL/amechanised_infantry1.dds" }
+	spriteType= { name = "GFX_YUG_mechanised_infantry4_medium" texturefile = "gfx/interface/FLTE/tech/tags/CZE/amphibious_mechanized_infantry_3.dds" }
+	spriteType= { name = "GFX_YUG_mechanised_infantry5_medium" texturefile = "gfx/interface/FLTE/tech/tags/FIN/mechanised_infantry5.dds" }
+	spriteType= { name = "GFX_YUG_mechanised_infantry6_medium" texturefile = "gfx/interface/FLTE/tech/tags/POL/amechanised_infantry1.dds" }
+	spriteType= { name = "GFX_YUG_mechanised_infantry7_medium" texturefile = "gfx/interface/FLTE/tech/tags/POL/amechanised_infantry2.dds" }
+	spriteType= { name = "GFX_YUG_mechanised_infantry8_medium" texturefile = "gfx/interface/FLTE/tech/tags/POL/amechanised_infantry3.dds" }
 
 }

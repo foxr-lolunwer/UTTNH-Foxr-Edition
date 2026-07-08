@@ -4,7 +4,7 @@ spriteTypes = {
 	spriteType= { name = "GFX_AUS_artillery1_medium" texturefile = "gfx/interface/FLTE/tech/tags/AUS/artillery1.dds" }
 	spriteType= { name = "GFX_AUS_artillery4_medium" texturefile = "gfx/interface/FLTE/tech/tags/AUS/artillery4.dds" }
 ## infantry
-	spriteType= { name = "GFX_AUS_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/AUS/infantry_weapons.dds" }
+	spriteType= { name = "GFX_AUS_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/general/infantry_weapons.dds" }
 	spriteType= { name = "GFX_AUS_infantry_weapons1_medium" texturefile = "gfx/interface/FLTE/tech/tags/AUS/infantry_weapons1.dds" }
 	spriteType= { name = "GFX_AUS_improved_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/AUS/improved_infantry_weapons.dds" }
 	spriteType= { name = "GFX_AUS_advanced_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/AUS/advanced_infantry_weapons.dds" }

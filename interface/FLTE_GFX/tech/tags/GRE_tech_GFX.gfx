@@ -1,6 +1,6 @@
 spriteTypes = {
 ## infantry
-	spriteType= { name = "GFX_GRE_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/GRE/infantry_weapons.dds" }
-	spriteType= { name = "GFX_GRE_improved_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/GRE/improved_infantry_weapons.dds" }
+	spriteType= { name = "GFX_GRE_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/general/infantry_weapons.dds" }
+	spriteType= { name = "GFX_GRE_improved_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/D01/improved_infantry_weapons.dds" }
 
 }

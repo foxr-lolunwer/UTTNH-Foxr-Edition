@@ -1,25 +1,25 @@
 spriteTypes = {
 ## artillery.txt
-	spriteType= { name = "GFX_SPR_motorized_rocket_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/motorized_rocket_equipment_1.dds" }
-	spriteType= { name = "GFX_SPR_motorized_rocket_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/motorized_rocket_equipment_2.dds" }
-	spriteType= { name = "GFX_SPR_motorized_rocket_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/motorized_rocket_equipment_3.dds" }
+	spriteType= { name = "GFX_SPR_motorized_rocket_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/general/motorized_rocket_equipment_1.dds" }
+	spriteType= { name = "GFX_SPR_motorized_rocket_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/general/motorized_rocket_equipment_2.dds" }
+	spriteType= { name = "GFX_SPR_motorized_rocket_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/general/motorized_rocket_equipment_3.dds" }
 ## guided_missiles.txt
-	spriteType= { name = "GFX_SPR_guided_missile_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/guided_missile_equipment_1.dds" }
-	spriteType= { name = "GFX_SPR_guided_missile_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/guided_missile_equipment_2.dds" }
-	spriteType= { name = "GFX_SPR_guided_missile_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/guided_missile_equipment_3.dds" }
+	spriteType= { name = "GFX_SPR_guided_missile_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/general/guided_missile_equipment_1.dds" }
+	spriteType= { name = "GFX_SPR_guided_missile_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/general/guided_missile_equipment_2.dds" }
+	spriteType= { name = "GFX_SPR_guided_missile_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/general/guided_missile_equipment_2.dds" }
 ## motorized.txt
-	spriteType= { name = "GFX_SPR_motorized_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/motorized_equipment_1.dds" }
-	spriteType= { name = "GFX_SPR_motorized_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/motorized_equipment_2.dds" }
-	spriteType= { name = "GFX_SPR_motorized_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/motorized_equipment_3.dds" }
+	spriteType= { name = "GFX_SPR_motorized_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/FRA/motorized_equipment_1.dds" }
+	spriteType= { name = "GFX_SPR_motorized_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/FRA/motorized_equipment_2.dds" }
+	spriteType= { name = "GFX_SPR_motorized_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/FRA/motorized_equipment_3.dds" }
 ## transport_plane.txt
 	spriteType= { name = "GFX_SPR_transport_plane_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/transport_plane_equipment_1.dds" }
-	spriteType= { name = "GFX_SPR_transport_plane_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/transport_plane_equipment_2.dds" }
+	spriteType= { name = "GFX_SPR_transport_plane_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/transport_plane_equipment_1.dds" }
 	spriteType= { name = "GFX_SPR_transport_plane_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/transport_plane_equipment_3.dds" }
-	spriteType= { name = "GFX_SPR_transport_plane_equipment_4_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/transport_plane_equipment_4.dds" }
-	spriteType= { name = "GFX_SPR_transport_plane_equipment_5_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/transport_plane_equipment_5.dds" }
-	spriteType= { name = "GFX_SPR_transport_plane_equipment_6_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/transport_plane_equipment_6.dds" }
+	spriteType= { name = "GFX_SPR_transport_plane_equipment_4_medium" texturefile = "gfx/interface/FLTE/equipment/general/transport_plane_equipment_4.dds" }
+	spriteType= { name = "GFX_SPR_transport_plane_equipment_5_medium" texturefile = "gfx/interface/FLTE/equipment/general/transport_plane_equipment_5.dds" }
+	spriteType= { name = "GFX_SPR_transport_plane_equipment_6_medium" texturefile = "gfx/interface/FLTE/equipment/general/transport_plane_equipment_6.dds" }
 ## x_plane_airframes.txt
-	spriteType= { name = "GFX_SPR_rocket_interceptor_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/rocket_interceptor_equipment_2.dds" }
-	spriteType= { name = "GFX_SPR_rocket_interceptor_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/SPR/rocket_interceptor_equipment_3.dds" }
+	spriteType= { name = "GFX_SPR_rocket_interceptor_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/general/rocket_interceptor_equipment_2.dds" }
+	spriteType= { name = "GFX_SPR_rocket_interceptor_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/general/rocket_interceptor_equipment_3.dds" }
 
 }

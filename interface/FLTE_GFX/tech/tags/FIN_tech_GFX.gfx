@@ -14,8 +14,8 @@ spriteTypes = {
 	spriteType= { name = "GFX_FIN_motorised_infantry2_medium" texturefile = "gfx/interface/FLTE/tech/tags/FIN/motorised_infantry2.dds" }
 	spriteType= { name = "GFX_FIN_motorised_infantry4_medium" texturefile = "gfx/interface/FLTE/tech/tags/FIN/motorised_infantry4.dds" }
 	spriteType= { name = "GFX_FIN_armored_car4_medium" texturefile = "gfx/interface/FLTE/tech/tags/FIN/armored_car4.dds" }
-	spriteType= { name = "GFX_FIN_armored_car5_medium" texturefile = "gfx/interface/FLTE/tech/tags/FIN/armored_car5.dds" }
-	spriteType= { name = "GFX_FIN_armored_car6_medium" texturefile = "gfx/interface/FLTE/tech/tags/FIN/armored_car6.dds" }
+	spriteType= { name = "GFX_FIN_armored_car5_medium" texturefile = "gfx/interface/FLTE/tech/tags/CZE/armored_car5.dds" }
+	spriteType= { name = "GFX_FIN_armored_car6_medium" texturefile = "gfx/interface/FLTE/tech/tags/CZE/armored_car6.dds" }
 	spriteType= { name = "GFX_FIN_armored_car_at_upgrade_medium" texturefile = "gfx/interface/FLTE/tech/tags/FIN/armored_car_at_upgrade.dds" }
 	spriteType= { name = "GFX_FIN_mechanised_infantry5_medium" texturefile = "gfx/interface/FLTE/tech/tags/FIN/mechanised_infantry5.dds" }
 	spriteType= { name = "GFX_FIN_mechanised_infantry6_medium" texturefile = "gfx/interface/FLTE/tech/tags/FIN/mechanised_infantry6.dds" }

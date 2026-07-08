@@ -9,26 +9,26 @@ spriteTypes = {
 	spriteType= { name = "GFX_ITA_improved_ship_hull_cruiser_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/improved_ship_hull_cruiser.dds" }
 	spriteType= { name = "GFX_ITA_advanced_ship_hull_cruiser_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/advanced_ship_hull_cruiser.dds" }
 ## NSB_armor
-	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/main_battle_tank_chassis.dds" }
-	spriteType= { name = "GFX_ITA_super_heavy_tank_chassis_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/super_heavy_tank_chassis.dds" }
-	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_1_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/main_battle_tank_chassis_1.dds" }
-	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_2_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/main_battle_tank_chassis_2.dds" }
-	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_3_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/main_battle_tank_chassis_3.dds" }
-	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_4_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/main_battle_tank_chassis_4.dds" }
-	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_5_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/main_battle_tank_chassis_5.dds" }
-	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_6_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/main_battle_tank_chassis_6.dds" }
-	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_7_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/main_battle_tank_chassis_7.dds" }
-	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_8_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/main_battle_tank_chassis_8.dds" }
-	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_9_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/main_battle_tank_chassis_9.dds" }
+	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ITA/modern_tank_chassis.dds" }
+	spriteType= { name = "GFX_ITA_super_heavy_tank_chassis_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ITA/super_heavy_tank_chassis.dds" }
+	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/FRA/modern_tank_chassis_1.dds" }
+	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ITA/modern_tank_chassis_2.dds" }
+	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ITA/modern_tank_chassis_3.dds" }
+	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_4_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ITA/modern_tank_chassis_4.dds" }
+	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_5_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ITA/modern_tank_chassis_5.dds" }
+	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_6_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ITA/modern_tank_chassis_6.dds" }
+	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_7_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ITA/modern_tank_chassis_7.dds" }
+	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_8_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ITA/modern_tank_chassis_8.dds" }
+	spriteType= { name = "GFX_ITA_main_battle_tank_chassis_9_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ITA/modern_tank_chassis_9.dds" }
 	spriteType= { name = "GFX_ITA_modern_light_tank_5_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_light_tank_5.dds" }
 	spriteType= { name = "GFX_ITA_modern_light_tank_6_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_light_tank_6.dds" }
 	spriteType= { name = "GFX_ITA_wheeled_tank_chassis_01_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/wheeled_tank_chassis_01.dds" }
 	spriteType= { name = "GFX_ITA_wheeled_tank_chassis_02_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/wheeled_tank_chassis_02.dds" }
 ## artillery
-	spriteType= { name = "GFX_ITA_gw_artillery_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/gw_artillery.dds" }
+	spriteType= { name = "GFX_ITA_gw_artillery_medium" texturefile = "gfx/interface/FLTE/tech/tags/GER/gw_artillery.dds" }
 	spriteType= { name = "GFX_ITA_artillery1_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/artillery1.dds" }
 	spriteType= { name = "GFX_ITA_artillery4_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/artillery4.dds" }
-	spriteType= { name = "GFX_ITA_cwart4_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/cwart4.dds" }
+	spriteType= { name = "GFX_ITA_cwart4_medium" texturefile = "gfx/interface/FLTE/tech/tags/ENG/cwart4.dds" }
 	spriteType= { name = "GFX_ITA_interwar_antiair_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/interwar_antiair.dds" }
 	spriteType= { name = "GFX_ITA_antiair2_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/antiair2.dds" }
 	spriteType= { name = "GFX_ITA_antiair5_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/antiair5.dds" }
@@ -36,62 +36,62 @@ spriteTypes = {
 	spriteType= { name = "GFX_ITA_antitank2_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/antitank2.dds" }
 	spriteType= { name = "GFX_ITA_antitank5_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/antitank5.dds" }
 ## bba_air_techs
-	spriteType= { name = "GFX_ITA_iw_small_airframe_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/iw_small_airframe.dds" }
+	spriteType= { name = "GFX_ITA_iw_small_airframe_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/cv_small_plane_airframe_medium_icon_19.dds" }
 	spriteType= { name = "GFX_ITA_basic_small_airframe_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/basic_small_airframe.dds" }
 	spriteType= { name = "GFX_ITA_improved_small_airframe_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/improved_small_airframe.dds" }
 	spriteType= { name = "GFX_ITA_advanced_small_airframe_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/advanced_small_airframe.dds" }
-	spriteType= { name = "GFX_ITA_modern_small_airframe_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_small_airframe.dds" }
-	spriteType= { name = "GFX_ITA_modern_small_airframe_1_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_small_airframe_1.dds" }
-	spriteType= { name = "GFX_ITA_modern_small_airframe_2_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_small_airframe_2.dds" }
-	spriteType= { name = "GFX_ITA_modern_small_airframe_3_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_small_airframe_3.dds" }
-	spriteType= { name = "GFX_ITA_modern_small_airframe_4_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_small_airframe_4.dds" }
-	spriteType= { name = "GFX_ITA_modern_small_airframe_5_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_small_airframe_5.dds" }
-	spriteType= { name = "GFX_ITA_modern_small_airframe_6_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_small_airframe_6.dds" }
-	spriteType= { name = "GFX_ITA_modern_small_airframe_7_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_small_airframe_7.dds" }
-	spriteType= { name = "GFX_ITA_iw_medium_airframe_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/iw_medium_airframe.dds" }
-	spriteType= { name = "GFX_ITA_basic_medium_airframe_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/basic_medium_airframe.dds" }
-	spriteType= { name = "GFX_ITA_improved_medium_airframe_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/improved_medium_airframe.dds" }
-	spriteType= { name = "GFX_ITA_advanced_medium_airframe_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/advanced_medium_airframe.dds" }
-	spriteType= { name = "GFX_ITA_modern_medium_airframe_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_medium_airframe.dds" }
-	spriteType= { name = "GFX_ITA_modern_medium_airframe_1_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_medium_airframe_1.dds" }
-	spriteType= { name = "GFX_ITA_modern_medium_airframe_2_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_medium_airframe_2.dds" }
-	spriteType= { name = "GFX_ITA_modern_medium_airframe_3_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_medium_airframe_3.dds" }
-	spriteType= { name = "GFX_ITA_modern_medium_airframe_4_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_medium_airframe_4.dds" }
-	spriteType= { name = "GFX_ITA_basic_large_airframe_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/basic_large_airframe.dds" }
-	spriteType= { name = "GFX_ITA_improved_large_airframe_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/improved_large_airframe.dds" }
-	spriteType= { name = "GFX_ITA_advanced_large_airframe_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/advanced_large_airframe.dds" }
-	spriteType= { name = "GFX_ITA_modern_large_airframe_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_large_airframe.dds" }
-	spriteType= { name = "GFX_ITA_modern_large_airframe_1_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_large_airframe_1.dds" }
-	spriteType= { name = "GFX_ITA_modern_large_airframe_2_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_large_airframe_2.dds" }
-	spriteType= { name = "GFX_ITA_modern_large_airframe_3_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_large_airframe_3.dds" }
-	spriteType= { name = "GFX_ITA_modern_large_airframe_4_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/modern_large_airframe_4.dds" }
+	spriteType= { name = "GFX_ITA_modern_small_airframe_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/small_plane_airframe_4_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_modern_small_airframe_1_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/small_plane_airframe_5_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_modern_small_airframe_2_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/small_plane_airframe_6_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_modern_small_airframe_3_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/small_plane_airframe_7_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_modern_small_airframe_4_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/small_plane_airframe_8_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_modern_small_airframe_5_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/small_plane_airframe_9_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_modern_small_airframe_6_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/small_plane_airframe_10_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_modern_small_airframe_7_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/small_plane_airframe_11_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_iw_medium_airframe_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/medium_plane_airframe_medium_icon_12.dds" }
+	spriteType= { name = "GFX_ITA_basic_medium_airframe_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/medium_plane_airframe_medium_icon_5.dds" }
+	spriteType= { name = "GFX_ITA_improved_medium_airframe_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/medium_plane_airframe_medium_icon_3.dds" }
+	spriteType= { name = "GFX_ITA_advanced_medium_airframe_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/medium_plane_airframe_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_modern_medium_airframe_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/general/medium_plane_airframe_4_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_modern_medium_airframe_1_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/general/medium_plane_airframe_5_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_modern_medium_airframe_2_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/BRA/medium_plane_airframe_6_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_modern_medium_airframe_3_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/medium_plane_airframe_7_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_modern_medium_airframe_4_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/medium_plane_airframe_8_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_basic_large_airframe_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/large_plane_airframe_medium_icon_5.dds" }
+	spriteType= { name = "GFX_ITA_improved_large_airframe_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/large_plane_airframe_medium_icon_2.dds" }
+	spriteType= { name = "GFX_ITA_advanced_large_airframe_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/ITA/large_plane_airframe_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_modern_large_airframe_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/general/large_plane_airframe_4_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_modern_large_airframe_1_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/BRA/large_plane_airframe_5_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_modern_large_airframe_2_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/BRA/large_plane_airframe_6_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_modern_large_airframe_3_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/BRA/large_plane_airframe_7_medium_icon_1.dds" }
+	spriteType= { name = "GFX_ITA_modern_large_airframe_4_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/BRA/large_plane_airframe_8_medium_icon_1.dds" }
 ## infantry
 	spriteType= { name = "GFX_ITA_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/infantry_weapons.dds" }
-	spriteType= { name = "GFX_ITA_infantry_weapons1_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/infantry_weapons1.dds" }
-	spriteType= { name = "GFX_ITA_improved_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/improved_infantry_weapons.dds" }
+	spriteType= { name = "GFX_ITA_infantry_weapons1_medium" texturefile = "gfx/interface/FLTE/tech/general/infantry_weapons1.dds" }
+	spriteType= { name = "GFX_ITA_improved_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/general/improved_infantry_weapons.dds" }
 	spriteType= { name = "GFX_ITA_advanced_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/advanced_infantry_weapons.dds" }
 	spriteType= { name = "GFX_ITA_infantry_cw1_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/infantry_cw1.dds" }
 	spriteType= { name = "GFX_ITA_infantry_cw2_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/infantry_cw2.dds" }
 	spriteType= { name = "GFX_ITA_infantry_cw3_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/infantry_cw3.dds" }
 	spriteType= { name = "GFX_ITA_infantry_cw4_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/infantry_cw4.dds" }
 	spriteType= { name = "GFX_ITA_infantry_cw5_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/infantry_cw5.dds" }
-	spriteType= { name = "GFX_ITA_motorised_infantry_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/motorised_infantry.dds" }
-	spriteType= { name = "GFX_ITA_motorised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/motorised_infantry3.dds" }
+	spriteType= { name = "GFX_ITA_motorised_infantry_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ITA/motorized_equipment_1.dds" }
+	spriteType= { name = "GFX_ITA_motorised_infantry3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/ITA/motorized_equipment_3.dds" }
 	spriteType= { name = "GFX_ITA_armored_car1_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/armored_car1.dds" }
 	spriteType= { name = "GFX_ITA_armored_car2_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/armored_car2.dds" }
 	spriteType= { name = "GFX_ITA_armored_car3_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/armored_car3.dds" }
-	spriteType= { name = "GFX_ITA_armored_car6_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/armored_car6.dds" }
+	spriteType= { name = "GFX_ITA_armored_car6_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/amechanised_infantry1.dds" }
 	spriteType= { name = "GFX_ITA_armored_car_at_upgrade_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/armored_car_at_upgrade.dds" }
 	spriteType= { name = "GFX_ITA_mechanised_infantry_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/mechanised_infantry.dds" }
-	spriteType= { name = "GFX_ITA_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/amphibious_mechanized_infantry.dds" }
-	spriteType= { name = "GFX_ITA_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/amphibious_mechanized_infantry_2.dds" }
-	spriteType= { name = "GFX_ITA_amphibious_mechanized_infantry_5_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/amphibious_mechanized_infantry_5.dds" }
-	spriteType= { name = "GFX_ITA_amphibious_mechanized_infantry_6_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/amphibious_mechanized_infantry_6.dds" }
+	spriteType= { name = "GFX_ITA_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/FLTE/tech/general/amphibious_mechanized_infantry.dds" }
+	spriteType= { name = "GFX_ITA_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/FLTE/tech/general/amphibious_mechanized_infantry_2.dds" }
+	spriteType= { name = "GFX_ITA_amphibious_mechanized_infantry_5_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/amechanised_infantry1.dds" }
+	spriteType= { name = "GFX_ITA_amphibious_mechanized_infantry_6_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/amechanised_infantry2.dds" }
 	spriteType= { name = "GFX_ITA_amphibious_mechanized_infantry_7_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/amphibious_mechanized_infantry_7.dds" }
 	spriteType= { name = "GFX_ITA_mechanised_infantry2_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/mechanised_infantry2.dds" }
 	spriteType= { name = "GFX_ITA_mechanised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/mechanised_infantry3.dds" }
 	spriteType= { name = "GFX_ITA_mechanised_infantry4_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/mechanised_infantry4.dds" }
-	spriteType= { name = "GFX_ITA_mechanised_infantry5_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/mechanised_infantry5.dds" }
+	spriteType= { name = "GFX_ITA_mechanised_infantry5_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/heavy_mechanised_infantry3.dds" }
 	spriteType= { name = "GFX_ITA_amechanised_infantry1_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/amechanised_infantry1.dds" }
 	spriteType= { name = "GFX_ITA_amechanised_infantry2_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/amechanised_infantry2.dds" }
 	spriteType= { name = "GFX_ITA_amechanised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/amechanised_infantry3.dds" }
@@ -99,9 +99,9 @@ spriteTypes = {
 	spriteType= { name = "GFX_ITA_mechanised_infantry7_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/mechanised_infantry7.dds" }
 	spriteType= { name = "GFX_ITA_mechanised_infantry8_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/mechanised_infantry8.dds" }
 	spriteType= { name = "GFX_ITA_heavy_mechanised_infantry1_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/heavy_mechanised_infantry1.dds" }
-	spriteType= { name = "GFX_ITA_heavy_mechanised_infantry2_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/heavy_mechanised_infantry2.dds" }
+	spriteType= { name = "GFX_ITA_heavy_mechanised_infantry2_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/heavy_mechanised_infantry1.dds" }
 	spriteType= { name = "GFX_ITA_heavy_mechanised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/heavy_mechanised_infantry3.dds" }
-	spriteType= { name = "GFX_ITA_heavy_mechanised_infantry4_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/heavy_mechanised_infantry4.dds" }
+	spriteType= { name = "GFX_ITA_heavy_mechanised_infantry4_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/heavy_mechanised_infantry3.dds" }
 	spriteType= { name = "GFX_ITA_heavy_mechanised_infantry5_medium" texturefile = "gfx/interface/FLTE/tech/tags/ITA/heavy_mechanised_infantry5.dds" }
 
 }

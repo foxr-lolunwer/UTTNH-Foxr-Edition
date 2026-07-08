@@ -1,33 +1,33 @@
 spriteTypes = {
 ## artillery
-	spriteType= { name = "GFX_SPR_gw_artillery_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/gw_artillery.dds" }
-	spriteType= { name = "GFX_SPR_artillery1_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/artillery1.dds" }
-	spriteType= { name = "GFX_SPR_artillery4_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/artillery4.dds" }
-	spriteType= { name = "GFX_SPR_interwar_antiair_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/interwar_antiair.dds" }
-	spriteType= { name = "GFX_SPR_antiair2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/antiair2.dds" }
-	spriteType= { name = "GFX_SPR_antiair5_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/antiair5.dds" }
-	spriteType= { name = "GFX_SPR_interwar_antitank_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/interwar_antitank.dds" }
-	spriteType= { name = "GFX_SPR_antitank2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/antitank2.dds" }
-	spriteType= { name = "GFX_SPR_antitank5_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/antitank5.dds" }
+	spriteType= { name = "GFX_SPR_gw_artillery_medium" texturefile = "gfx/interface/FLTE/tech/general/gw_artillery.dds" }
+	spriteType= { name = "GFX_SPR_artillery1_medium" texturefile = "gfx/interface/FLTE/tech/general/artillery1.dds" }
+	spriteType= { name = "GFX_SPR_artillery4_medium" texturefile = "gfx/interface/FLTE/tech/general/artillery4.dds" }
+	spriteType= { name = "GFX_SPR_interwar_antiair_medium" texturefile = "gfx/interface/FLTE/tech/general/interwar_antiair.dds" }
+	spriteType= { name = "GFX_SPR_antiair2_medium" texturefile = "gfx/interface/FLTE/tech/general/antiair2.dds" }
+	spriteType= { name = "GFX_SPR_antiair5_medium" texturefile = "gfx/interface/FLTE/tech/general/antiair5.dds" }
+	spriteType= { name = "GFX_SPR_interwar_antitank_medium" texturefile = "gfx/interface/FLTE/tech/general/interwar_antitank.dds" }
+	spriteType= { name = "GFX_SPR_antitank2_medium" texturefile = "gfx/interface/FLTE/tech/general/antitank2.dds" }
+	spriteType= { name = "GFX_SPR_antitank5_medium" texturefile = "gfx/interface/FLTE/tech/general/antitank5.dds" }
 ## infantry
-	spriteType= { name = "GFX_SPR_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/infantry_weapons.dds" }
-	spriteType= { name = "GFX_SPR_infantry_weapons1_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/infantry_weapons1.dds" }
-	spriteType= { name = "GFX_SPR_improved_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/improved_infantry_weapons.dds" }
-	spriteType= { name = "GFX_SPR_advanced_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/advanced_infantry_weapons.dds" }
-	spriteType= { name = "GFX_SPR_infantry_cw1_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/infantry_cw1.dds" }
-	spriteType= { name = "GFX_SPR_infantry_cw2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/infantry_cw2.dds" }
-	spriteType= { name = "GFX_SPR_motorised_infantry_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/motorised_infantry.dds" }
-	spriteType= { name = "GFX_SPR_motorised_infantry2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/motorised_infantry2.dds" }
-	spriteType= { name = "GFX_SPR_motorised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/motorised_infantry3.dds" }
-	spriteType= { name = "GFX_SPR_motorized_rocket_unit_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/motorized_rocket_unit.dds" }
-	spriteType= { name = "GFX_SPR_mechanised_infantry_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/mechanised_infantry.dds" }
-	spriteType= { name = "GFX_SPR_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/amphibious_mechanized_infantry.dds" }
-	spriteType= { name = "GFX_SPR_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/amphibious_mechanized_infantry_2.dds" }
-	spriteType= { name = "GFX_SPR_amphibious_mechanized_infantry_3_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/amphibious_mechanized_infantry_3.dds" }
-	spriteType= { name = "GFX_SPR_amphibious_mechanized_infantry_4_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/amphibious_mechanized_infantry_4.dds" }
-	spriteType= { name = "GFX_SPR_mechanised_infantry2_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/mechanised_infantry2.dds" }
-	spriteType= { name = "GFX_SPR_mechanised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/mechanised_infantry3.dds" }
-	spriteType= { name = "GFX_SPR_mechanised_infantry4_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/mechanised_infantry4.dds" }
-	spriteType= { name = "GFX_SPR_mechanised_infantry5_medium" texturefile = "gfx/interface/FLTE/tech/tags/SPR/mechanised_infantry5.dds" }
+	spriteType= { name = "GFX_SPR_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/general/infantry_weapons.dds" }
+	spriteType= { name = "GFX_SPR_infantry_weapons1_medium" texturefile = "gfx/interface/FLTE/tech/tags/D01/infantry_weapons1.dds" }
+	spriteType= { name = "GFX_SPR_improved_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/D01/improved_infantry_weapons.dds" }
+	spriteType= { name = "GFX_SPR_advanced_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/tags/CZE/advanced_infantry_weapons.dds" }
+	spriteType= { name = "GFX_SPR_infantry_cw1_medium" texturefile = "gfx/interface/FLTE/tech/tags/D01/infantry_cw1.dds" }
+	spriteType= { name = "GFX_SPR_infantry_cw2_medium" texturefile = "gfx/interface/FLTE/tech/tags/D01/infantry_cw2.dds" }
+	spriteType= { name = "GFX_SPR_motorised_infantry_medium" texturefile = "gfx/interface/FLTE/equipment/tags/FRA/motorized_equipment_1.dds" }
+	spriteType= { name = "GFX_SPR_motorised_infantry2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/FRA/motorized_equipment_2.dds" }
+	spriteType= { name = "GFX_SPR_motorised_infantry3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/FRA/motorized_equipment_3.dds" }
+	spriteType= { name = "GFX_SPR_motorized_rocket_unit_medium" texturefile = "gfx/interface/FLTE/equipment/general/motorized_rocket_equipment_1.dds" }
+	spriteType= { name = "GFX_SPR_mechanised_infantry_medium" texturefile = "gfx/interface/FLTE/tech/tags/ENG/mechanised_infantry.dds" }
+	spriteType= { name = "GFX_SPR_amphibious_mechanized_infantry_medium" texturefile = "gfx/interface/FLTE/tech/general/amphibious_mechanized_infantry.dds" }
+	spriteType= { name = "GFX_SPR_amphibious_mechanized_infantry_2_medium" texturefile = "gfx/interface/FLTE/tech/general/amphibious_mechanized_infantry_2.dds" }
+	spriteType= { name = "GFX_SPR_amphibious_mechanized_infantry_3_medium" texturefile = "gfx/interface/FLTE/tech/tags/CZE/amphibious_mechanized_infantry_3.dds" }
+	spriteType= { name = "GFX_SPR_amphibious_mechanized_infantry_4_medium" texturefile = "gfx/interface/FLTE/tech/tags/PRC/amphibious_mechanized_infantry_4.dds" }
+	spriteType= { name = "GFX_SPR_mechanised_infantry2_medium" texturefile = "gfx/interface/FLTE/tech/tags/ENG/mechanised_infantry2.dds" }
+	spriteType= { name = "GFX_SPR_mechanised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/ENG/mechanised_infantry3.dds" }
+	spriteType= { name = "GFX_SPR_mechanised_infantry4_medium" texturefile = "gfx/interface/FLTE/tech/general/mechanised_infantry4.dds" }
+	spriteType= { name = "GFX_SPR_mechanised_infantry5_medium" texturefile = "gfx/interface/FLTE/tech/general/amechanised_infantry.dds" }
 
 }

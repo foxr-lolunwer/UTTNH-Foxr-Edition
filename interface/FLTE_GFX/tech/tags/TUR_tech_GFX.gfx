@@ -1,22 +1,22 @@
 spriteTypes = {
 ## NSB_armor
-	spriteType= { name = "GFX_TUR_main_battle_tank_chassis_1_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/main_battle_tank_chassis_1.dds" }
-	spriteType= { name = "GFX_TUR_main_battle_tank_chassis_2_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/main_battle_tank_chassis_2.dds" }
-	spriteType= { name = "GFX_TUR_main_battle_tank_chassis_3_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/main_battle_tank_chassis_3.dds" }
-	spriteType= { name = "GFX_TUR_main_battle_tank_chassis_4_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/main_battle_tank_chassis_4.dds" }
-	spriteType= { name = "GFX_TUR_main_battle_tank_chassis_6_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/main_battle_tank_chassis_6.dds" }
-	spriteType= { name = "GFX_TUR_main_battle_tank_chassis_7_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/main_battle_tank_chassis_7.dds" }
-	spriteType= { name = "GFX_TUR_main_battle_tank_chassis_8_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/main_battle_tank_chassis_8.dds" }
-	spriteType= { name = "GFX_TUR_main_battle_tank_chassis_9_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/main_battle_tank_chassis_9.dds" }
+	spriteType= { name = "GFX_TUR_main_battle_tank_chassis_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/TUR/modern_tank_chassis_1.dds" }
+	spriteType= { name = "GFX_TUR_main_battle_tank_chassis_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/BRA/modern_tank_chassis_1.dds" }
+	spriteType= { name = "GFX_TUR_main_battle_tank_chassis_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/BRA/modern_tank_chassis_2.dds" }
+	spriteType= { name = "GFX_TUR_main_battle_tank_chassis_4_medium" texturefile = "gfx/interface/FLTE/equipment/tags/BRA/modern_tank_chassis_6.dds" }
+	spriteType= { name = "GFX_TUR_main_battle_tank_chassis_6_medium" texturefile = "gfx/interface/FLTE/equipment/tags/BRA/modern_tank_chassis_7.dds" }
+	spriteType= { name = "GFX_TUR_main_battle_tank_chassis_7_medium" texturefile = "gfx/interface/FLTE/equipment/tags/TUR/modern_tank_chassis_7.dds" }
+	spriteType= { name = "GFX_TUR_main_battle_tank_chassis_8_medium" texturefile = "gfx/interface/FLTE/equipment/tags/TUR/modern_tank_chassis_8.dds" }
+	spriteType= { name = "GFX_TUR_main_battle_tank_chassis_9_medium" texturefile = "gfx/interface/FLTE/equipment/tags/TUR/modern_tank_chassis_9.dds" }
 ## artillery
 	spriteType= { name = "GFX_TUR_antiair6_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/antiair6.dds" }
 	spriteType= { name = "GFX_TUR_antiair7_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/antiair7.dds" }
-	spriteType= { name = "GFX_TUR_antiair8_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/antiair8.dds" }
+	spriteType= { name = "GFX_TUR_antiair8_medium" texturefile = "gfx/interface/FLTE/tech/general/antiair8.dds" }
 ## infantry
 	spriteType= { name = "GFX_TUR_infantry_cw2_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/infantry_cw2.dds" }
 	spriteType= { name = "GFX_TUR_infantry_cw3_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/infantry_cw3.dds" }
 	spriteType= { name = "GFX_TUR_infantry_at3_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/infantry_at3.dds" }
-	spriteType= { name = "GFX_TUR_infantry_at4_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/infantry_at4.dds" }
+	spriteType= { name = "GFX_TUR_infantry_at4_medium" texturefile = "gfx/interface/FLTE/tech/general/infantry_at4.dds" }
 	spriteType= { name = "GFX_TUR_infantry_at5_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/infantry_at5.dds" }
 	spriteType= { name = "GFX_TUR_infantry_at6_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/infantry_at6.dds" }
 	spriteType= { name = "GFX_TUR_armored_car6_medium" texturefile = "gfx/interface/FLTE/tech/tags/TUR/armored_car6.dds" }

@@ -1,15 +1,15 @@
 spriteTypes = {
 ## guided_missiles.txt
-	spriteType= { name = "GFX_JAP_guided_missile_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/guided_missile_equipment_1.dds" }
-	spriteType= { name = "GFX_JAP_guided_missile_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/guided_missile_equipment_2.dds" }
-	spriteType= { name = "GFX_JAP_guided_missile_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/guided_missile_equipment_3.dds" }
+	spriteType= { name = "GFX_JAP_guided_missile_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/general/guided_missile_equipment_1.dds" }
+	spriteType= { name = "GFX_JAP_guided_missile_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/general/guided_missile_equipment_2.dds" }
+	spriteType= { name = "GFX_JAP_guided_missile_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/general/guided_missile_equipment_2.dds" }
 ## motorized.txt
 	spriteType= { name = "GFX_JAP_motorized_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/motorized_equipment_1.dds" }
 ## ship_hull_cruiser.txt
 	spriteType= { name = "GFX_JAP_ship_hull_torpedo_cruiser_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/ship_hull_torpedo_cruiser.dds" }
 	spriteType= { name = "GFX_JAP_ship_hull_cruiser_coastal_defense_ship_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/ship_hull_cruiser_coastal_defense_ship.dds" }
 ## ship_hull_heavy.txt
-	spriteType= { name = "GFX_JAP_ship_hull_super_heavy_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/ship_hull_super_heavy_1.dds" }
+	spriteType= { name = "GFX_JAP_ship_hull_super_heavy_1_medium" texturefile = "gfx/interface/FLTE/equipment/general/ship_hull_super_heavy_1.dds" }
 ## ship_hull_light.txt
 	spriteType= { name = "GFX_JAP_ship_hull_light_5_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/ship_hull_light_5.dds" }
 	spriteType= { name = "GFX_JAP_ship_hull_light_6_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/ship_hull_light_6.dds" }
@@ -18,7 +18,7 @@ spriteTypes = {
 	spriteType= { name = "GFX_JAP_ship_hull_light_9_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/ship_hull_light_9.dds" }
 	spriteType= { name = "GFX_JAP_ship_hull_light_10_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/ship_hull_light_10.dds" }
 ## tank_chassis.txt
-	spriteType= { name = "GFX_JAP_modern_tank_chassis_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/modern_tank_chassis_1.dds" }
+	spriteType= { name = "GFX_JAP_modern_tank_chassis_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/FRA/modern_tank_chassis_1.dds" }
 	spriteType= { name = "GFX_JAP_modern_tank_chassis_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/modern_tank_chassis_2.dds" }
 	spriteType= { name = "GFX_JAP_modern_tank_chassis_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/modern_tank_chassis_3.dds" }
 	spriteType= { name = "GFX_JAP_modern_tank_chassis_4_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/modern_tank_chassis_4.dds" }
@@ -32,7 +32,7 @@ spriteTypes = {
 	spriteType= { name = "GFX_JAP_transport_plane_equipment_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/transport_plane_equipment.dds" }
 ## x_plane_airframes.txt
 	spriteType= { name = "GFX_JAP_rocket_interceptor_equipment_1_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/rocket_interceptor_equipment_1.dds" }
-	spriteType= { name = "GFX_JAP_rocket_interceptor_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/rocket_interceptor_equipment_2.dds" }
-	spriteType= { name = "GFX_JAP_rocket_interceptor_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/tags/JAP/rocket_interceptor_equipment_3.dds" }
+	spriteType= { name = "GFX_JAP_rocket_interceptor_equipment_2_medium" texturefile = "gfx/interface/FLTE/equipment/general/rocket_interceptor_equipment_2.dds" }
+	spriteType= { name = "GFX_JAP_rocket_interceptor_equipment_3_medium" texturefile = "gfx/interface/FLTE/equipment/general/rocket_interceptor_equipment_3.dds" }
 
 }

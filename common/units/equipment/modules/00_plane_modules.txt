@@ -63,6 +63,10 @@ equipment_modules = {
 			maximum_speed = 0.2
 		}
 		parent = engine_1_1x
+		can_convert_from = {
+			module = engine_1_1x
+			convert_cost_ic = 1.5
+		}
 	}
 	engine_2_2x = {
 		abbreviation = "e22"
@@ -77,6 +81,10 @@ equipment_modules = {
 			maximum_speed = 0.2
 		}
 		parent = engine_1_2x
+		can_convert_from = {
+			module = engine_1_2x
+			convert_cost_ic = 3
+		}
 	}
 	engine_2_3x = {
 		abbreviation = "e23"
@@ -91,6 +99,10 @@ equipment_modules = {
 			maximum_speed = 0.2
 		}
 		parent = engine_1_3x
+		can_convert_from = {
+			module = engine_1_3x
+			convert_cost_ic = 4.5
+		}
 	}
 	engine_2_4x = {
 		abbreviation = "e24"
@@ -105,6 +117,10 @@ equipment_modules = {
 			maximum_speed = 0.2
 		}
 		parent = engine_1_4x
+		can_convert_from = {
+			module = engine_1_4x
+			convert_cost_ic = 6
+		}
 	}
 	engine_2_6x = {
 		abbreviation = "e26"
@@ -119,6 +135,10 @@ equipment_modules = {
 			maximum_speed = 0.2
 		}
 		parent = engine_1_6x
+		can_convert_from = {
+			module = engine_1_6x
+			convert_cost_ic = 9
+		}
 	}
 	engine_3_1x = {
 		abbreviation = "e31"
@@ -133,6 +153,10 @@ equipment_modules = {
 			maximum_speed = 0.3
 		}
 		parent = engine_2_1x
+		can_convert_from = {
+			module = engine_2_1x
+			convert_cost_ic = 2.5
+		}
 	}
 	engine_3_2x = {
 		abbreviation = "e32"
@@ -147,6 +171,10 @@ equipment_modules = {
 			maximum_speed = 0.3
 		}
 		parent = engine_2_2x
+		can_convert_from = {
+			module = engine_2_2x
+			convert_cost_ic = 5
+		}
 	}
 	engine_3_3x = {
 		abbreviation = "e33"
@@ -161,6 +189,10 @@ equipment_modules = {
 			maximum_speed = 0.3
 		}
 		parent = engine_2_3x
+		can_convert_from = {
+			module = engine_2_3x
+			convert_cost_ic = 7.5
+		}
 	}
 	engine_3_4x = {
 		abbreviation = "e34"
@@ -175,6 +207,10 @@ equipment_modules = {
 			maximum_speed = 0.3
 		}
 		parent = engine_2_4x
+		can_convert_from = {
+			module = engine_2_4x
+			convert_cost_ic = 10
+		}
 	}
 	engine_3_6x = {
 		abbreviation = "e36"
@@ -189,6 +225,10 @@ equipment_modules = {
 			maximum_speed = 0.3
 		}
 		parent = engine_2_6x
+		can_convert_from = {
+			module = engine_2_4x
+			convert_cost_ic = 15
+		}
 	}
 	engine_4_1x = {
 		abbreviation = "e41"
@@ -203,6 +243,10 @@ equipment_modules = {
 			maximum_speed = 0.45
 		}
 		parent = engine_3_1x
+		can_convert_from = {
+			module = engine_3_1x
+			convert_cost_ic = 3
+		}
 	}
 	engine_4_2x = {
 		abbreviation = "e42"
@@ -217,6 +261,10 @@ equipment_modules = {
 			maximum_speed = 0.45
 		}
 		parent = engine_3_2x
+		can_convert_from = {
+			module = engine_3_2x
+			convert_cost_ic = 6
+		}
 	}
 	engine_4_3x = {
 		abbreviation = "e43"
@@ -231,6 +279,10 @@ equipment_modules = {
 			maximum_speed = 0.45
 		}
 		parent = engine_3_3x
+		can_convert_from = {
+			module = engine_3_3x
+			convert_cost_ic = 9
+		}
 	}
 	engine_4_4x = {
 		abbreviation = "e44"
@@ -245,6 +297,10 @@ equipment_modules = {
 			maximum_speed = 0.45
 		}
 		parent = engine_3_4x
+		can_convert_from = {
+			module = engine_3_4x
+			convert_cost_ic = 12
+		}
 	}
 	engine_4_6x = {
 		abbreviation = "e36"
@@ -259,6 +315,10 @@ equipment_modules = {
 			maximum_speed = 0.45
 		}
 		parent = engine_2_6x
+		can_convert_from = {
+			module = engine_3_4x
+			convert_cost_ic = 15
+		}
 	}
 	jet_engine_1x = {
 		abbreviation = "j1"
@@ -278,6 +338,10 @@ equipment_modules = {
 			air_range = -0.35
 		}
 		parent = engine_4_1x
+		can_convert_from = {
+			module_category = plane_engine_type
+			convert_cost_ic = 5
+		}
 	}
 	jet_engine_2x = {
 		abbreviation = "j2"
@@ -297,6 +361,10 @@ equipment_modules = {
 			air_range = -0.35
 		}
 		parent = engine_4_2x
+		can_convert_from = {
+			module_category = plane_engine_type
+			convert_cost_ic = 10
+		}
 	}
 	jet_engine_3x = {
 		abbreviation = "j3"
@@ -316,6 +384,10 @@ equipment_modules = {
 			air_range = -0.35
 		}
 		parent = engine_4_3x
+		can_convert_from = {
+			module_category = medium_plane_engine_type
+			convert_cost_ic = 15
+		}
 	}
 	jet_engine_4x = {
 		abbreviation = "j4"
@@ -335,6 +407,10 @@ equipment_modules = {
 			air_range = -0.35
 		}
 		parent = engine_4_4x
+		can_convert_from = {
+			module_category = medium_plane_engine_type
+			convert_cost_ic = 20
+		}
 	}
 	jet_engine_6x = {
 		abbreviation = "j6"
@@ -354,6 +430,10 @@ equipment_modules = {
 			air_range = -0.35
 		}
 		parent = engine_4_6x
+		can_convert_from = {
+			module_category = large_plane_engine_type
+			convert_cost_ic = 30
+		}
 	}
 	jet_engine_axial_1x = {
 		abbreviation = "ja1"
@@ -373,6 +453,10 @@ equipment_modules = {
 			air_range = -0.3
 		}
 		parent = jet_engine_1x
+		can_convert_from = {
+			module_category = plane_engine_type
+			convert_cost_ic = 6
+		}
 	}
 	jet_engine_axial_2x = {
 		abbreviation = "ja2"
@@ -392,6 +476,10 @@ equipment_modules = {
 			air_range = -0.3
 		}
 		parent = jet_engine_2x
+		can_convert_from = {
+			module_category = plane_engine_type
+			convert_cost_ic = 12
+		}
 	}
 	jet_engine_axial_3x = {
 		abbreviation = "ja3"
@@ -411,6 +499,10 @@ equipment_modules = {
 			air_range = -0.3
 		}
 		parent = jet_engine_3x
+		can_convert_from = {
+			module_category = medium_plane_engine_type
+			convert_cost_ic = 18
+		}
 	}
 	jet_engine_axial_4x = {
 		abbreviation = "ja4"
@@ -430,6 +522,10 @@ equipment_modules = {
 			air_range = -0.3
 		}
 		parent = jet_engine_4x
+		can_convert_from = {
+			module_category = medium_plane_engine_type
+			convert_cost_ic = 24
+		}
 	}
 	jet_engine_axial_6x = {
 		abbreviation = "ja6"
@@ -449,6 +545,10 @@ equipment_modules = {
 			air_range = -0.3
 		}
 		parent = jet_engine_6x
+		can_convert_from = {
+			module_category = large_plane_engine_type
+			convert_cost_ic = 36
+		}
 	}
 	jet_engine_advanced_turbojet_1x = {
 		abbreviation = "ja1"
@@ -467,6 +567,10 @@ equipment_modules = {
 			air_agility = 0.05
 		}
 		parent = jet_engine_1x
+		can_convert_from = {
+			module_category = plane_engine_type
+			convert_cost_ic = 6
+		}
 	}
 	jet_engine_advanced_turbojet_2x = {
 		abbreviation = "ja2"
@@ -485,6 +589,10 @@ equipment_modules = {
 			air_agility = 0.05
 		}
 		parent = jet_engine_2x
+		can_convert_from = {
+			module_category = plane_engine_type
+			convert_cost_ic = 12
+		}
 	}
 	jet_engine_advanced_turbojet_3x = {
 		abbreviation = "ja3"
@@ -503,6 +611,10 @@ equipment_modules = {
 			air_agility = 0.05
 		}
 		parent = jet_engine_3x
+		can_convert_from = {
+			module_category = medium_plane_engine_type
+			convert_cost_ic = 18
+		}
 	}
 	jet_engine_advanced_turbojet_4x = {
 		abbreviation = "ja4"
@@ -521,6 +633,10 @@ equipment_modules = {
 			air_agility = 0.05
 		}
 		parent = jet_engine_4x
+		can_convert_from = {
+			module_category = medium_plane_engine_type
+			convert_cost_ic = 24
+		}
 	}
 	jet_engine_advanced_turbojet_6x = {
 		abbreviation = "ja6"
@@ -539,6 +655,10 @@ equipment_modules = {
 			air_agility = 0.05
 		}
 		parent = jet_engine_6x
+		can_convert_from = {
+			module_category = large_plane_engine_type
+			convert_cost_ic = 36
+		}
 	}
 	jet_engine_turbofan_1x = {
 		abbreviation = "ja1"
@@ -557,6 +677,10 @@ equipment_modules = {
 			air_agility = 0.05
 		}
 		parent = jet_engine_1x
+		can_convert_from = {
+			module_category = plane_engine_type
+			convert_cost_ic = 6
+		}
 	}
 	jet_engine_turbofan_2x = {
 		abbreviation = "ja2"
@@ -575,6 +699,10 @@ equipment_modules = {
 			air_agility = 0.05
 		}
 		parent = jet_engine_2x
+		can_convert_from = {
+			module_category = plane_engine_type
+			convert_cost_ic = 12
+		}
 	}
 	jet_engine_turbofan_3x = {
 		abbreviation = "ja3"
@@ -593,6 +721,10 @@ equipment_modules = {
 			air_agility = 0.05
 		}
 		parent = jet_engine_3x
+		can_convert_from = {
+			module_category = medium_plane_engine_type
+			convert_cost_ic = 18
+		}
 	}
 	jet_engine_turbofan_4x = {
 		abbreviation = "ja4"
@@ -611,6 +743,10 @@ equipment_modules = {
 			air_agility = 0.05
 		}
 		parent = jet_engine_4x
+		can_convert_from = {
+			module_category = medium_plane_engine_type
+			convert_cost_ic = 24
+		}
 	}
 	jet_engine_turbofan_6x = {
 		abbreviation = "ja6"
@@ -629,6 +765,10 @@ equipment_modules = {
 			air_agility = 0.05
 		}
 		parent = jet_engine_6x
+		can_convert_from = {
+			module_category = large_plane_engine_type
+			convert_cost_ic = 36
+		}
 	}
 	jet_engine_modern_turbofan_1x = {
 		abbreviation = "ja1"
@@ -647,6 +787,10 @@ equipment_modules = {
 			air_agility = 0.05
 		}
 		parent = jet_engine_1x
+		can_convert_from = {
+			module_category = plane_engine_type
+			convert_cost_ic = 6
+		}
 	}
 	jet_engine_modern_turbofan_2x = {
 		abbreviation = "ja2"
@@ -665,6 +809,10 @@ equipment_modules = {
 			air_agility = 0.05
 		}
 		parent = jet_engine_2x
+		can_convert_from = {
+			module_category = plane_engine_type
+			convert_cost_ic = 12
+		}
 	}
 	jet_engine_modern_turbofan_3x = {
 		abbreviation = "ja3"
@@ -683,6 +831,10 @@ equipment_modules = {
 			air_agility = 0.05
 		}
 		parent = jet_engine_3x
+		can_convert_from = {
+			module_category = medium_plane_engine_type
+			convert_cost_ic = 18
+		}
 	}
 	jet_engine_modern_turbofan_4x = {
 		abbreviation = "ja4"
@@ -701,6 +853,10 @@ equipment_modules = {
 			air_agility = 0.05
 		}
 		parent = jet_engine_4x
+		can_convert_from = {
+			module_category = medium_plane_engine_type
+			convert_cost_ic = 24
+		}
 	}
 	jet_engine_modern_turbofan_6x = {
 		abbreviation = "ja6"
@@ -719,6 +875,10 @@ equipment_modules = {
 			air_agility = 0.05
 		}
 		parent = jet_engine_6x
+		can_convert_from = {
+			module_category = large_plane_engine_type
+			convert_cost_ic = 36
+		}
 	}
 	rocket_engine_1 = {
 		abbreviation = "re1"
@@ -808,6 +968,10 @@ equipment_modules = {
 			air_superiority
 			interception
 		}
+		can_convert_from = {
+			module = light_mg_2x
+			convert_cost_ic = 1
+		}
 	}
 	heavy_mg_2x = {
 		abbreviation = "hmg2"
@@ -852,6 +1016,10 @@ equipment_modules = {
 				air_ground_attack = 1
 			}
 		}
+		can_convert_from = {
+			module = heavy_mg_2x
+			convert_cost_ic = 2
+		}
 	}
 	heavy_mg_1_2x = {
 		abbreviation = "hmg2"
@@ -895,6 +1063,10 @@ equipment_modules = {
 			add_stats = {
 				air_ground_attack = 2
 			}
+		}
+		can_convert_from = {
+			module = heavy_mg_1_2x
+			convert_cost_ic = 2
 		}
 	}
 	aircraft_cannon_1_1x = {
@@ -941,6 +1113,10 @@ equipment_modules = {
 			add_stats = {
 				air_ground_attack = 2
 			}
+		}
+		can_convert_from = {
+			module = aircraft_cannon_1_1x
+			convert_cost_ic = 3
 		}
 	}
 	aircraft_cannon_2_1x = {
@@ -989,6 +1165,10 @@ equipment_modules = {
 			add_stats = {
 				air_ground_attack = 2
 			}
+		}
+		can_convert_from = {
+			module = aircraft_cannon_2_1x
+			convert_cost_ic = 4
 		}
 	}
 	aircraft_braam = {
@@ -1277,6 +1457,10 @@ equipment_modules = {
 				air_ground_attack = 3
 			}
 		}
+		can_convert_from = {
+			module = aircraft_cannon_3_1x
+			convert_cost_ic = 4
+		}
 	}
 	aircraft_cannon_4_1x = {
 		abbreviation = "ac21"
@@ -1325,6 +1509,10 @@ equipment_modules = {
 				air_ground_attack = 4
 			}
 		}
+		can_convert_from = {
+			module = aircraft_cannon_4_1x
+			convert_cost_ic = 4
+		}
 	}
 	aircraft_cannon_5_1x = {
 		abbreviation = "ac21"
@@ -1372,6 +1560,10 @@ equipment_modules = {
 			add_stats = {
 				air_ground_attack = 5
 			}
+		}
+		can_convert_from = {
+			module = aircraft_cannon_5_1x
+			convert_cost_ic = 4
 		}
 	}
 	rotarycannon = {
@@ -3652,6 +3844,18 @@ equipment_modules = {
 				air_agility = 0.5
 			}
 		}
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret
+			convert_cost_ic = 1.25
+		}
+		can_convert_from = {
+			module = lmg_defense_turret
+			convert_cost_ic = 1
+		}
+		can_convert_from = {
+			module = cannon_defense_turret
+			convert_cost_ic = 1
+		}
 	}
 	lmg_defense_turret_2x = {
 		abbreviation = "lmgt2"
@@ -3681,6 +3885,18 @@ equipment_modules = {
 			add_stats = {
 				air_agility = 1
 			}
+		}
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret_x2
+			convert_cost_ic = 2.5
+		}
+		can_convert_from = {
+			module = hmg_defense_turret_2x
+			convert_cost_ic = 2.25
+		}
+		can_convert_from = {
+			module = cannon_defense_turret_2x
+			convert_cost_ic = 2.25
 		}
 	}
 	hmg_defense_turret = {
@@ -3712,6 +3928,18 @@ equipment_modules = {
 				air_agility = 1
 			}
 		}
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret
+			convert_cost_ic = 2.75
+		}
+		can_convert_from = {
+			module = lmg_defense_turret
+			convert_cost_ic = 2
+		}
+		can_convert_from = {
+			module = cannon_defense_turret
+			convert_cost_ic = 2
+		}
 	}
 	hmg_defense_turret_2x = {
 		abbreviation = "hmgt2"
@@ -3741,6 +3969,18 @@ equipment_modules = {
 			add_stats = {
 				air_agility = 2
 			}
+		}
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret_x2
+			convert_cost_ic = 4
+		}
+		can_convert_from = {
+			module = lmg_defense_turret_2x
+			convert_cost_ic = 3
+		}
+		can_convert_from = {
+			module = cannon_defense_turret_2x
+			convert_cost_ic = 3
 		}
 	}
 	hmg_defense_turret_1 = {
@@ -3772,6 +4012,18 @@ equipment_modules = {
 				air_agility = 2
 			}
 		}
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret
+			convert_cost_ic = 2.75
+		}
+		can_convert_from = {
+			module = hmg_defense_turret
+			convert_cost_ic = 2
+		}
+		can_convert_from = {
+			module = cannon_defense_turret
+			convert_cost_ic = 2
+		}
 	}
 	hmg_defense_turret_2x_1 = {
 		abbreviation = "hmgt2"
@@ -3798,6 +4050,18 @@ equipment_modules = {
 			add_stats = {
 				air_agility = 2
 			}
+		}
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret
+			convert_cost_ic = 4
+		}
+		can_convert_from = {
+			module = hmg_defense_turret_2x
+			convert_cost_ic = 3
+		}
+		can_convert_from = {
+			module = cannon_defense_turret_2x
+			convert_cost_ic = 3
 		}
 	}
 	hmg_defense_turret_2 = {
@@ -3826,6 +4090,18 @@ equipment_modules = {
 				air_agility = 2
 			}
 		}
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret
+			convert_cost_ic = 2.75
+		}
+		can_convert_from = {
+			module = hmg_defense_turret_1
+			convert_cost_ic = 2
+		}
+		can_convert_from = {
+			module = cannon_defense_turret_2
+			convert_cost_ic = 2
+		}
 	}
 	hmg_defense_turret_2x_2 = {
 		abbreviation = "hmgt2"
@@ -3852,6 +4128,14 @@ equipment_modules = {
 			add_stats = {
 				air_agility = 2
 			}
+		}
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret
+			convert_cost_ic = 4
+		}
+		can_convert_from = {
+			module = hmg_defense_turret_2x_1
+			convert_cost_ic = 3
 		}
 	}
 	cannon_defense_turret = {
@@ -3883,6 +4167,14 @@ equipment_modules = {
 				air_agility = 2
 			}
 		}
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret
+			convert_cost_ic = 3
+		}
+		can_convert_from = {
+			module = hmg_defense_turret
+			convert_cost_ic = 2.5
+		}
 	}
 	cannon_defense_turret_2x = {
 		abbreviation = "cat2"
@@ -3913,6 +4205,14 @@ equipment_modules = {
 				air_agility = 4
 			}
 		}
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret_x2
+			convert_cost_ic = 6
+		}
+		can_convert_from = {
+			module = hmg_defense_turret_2x
+			convert_cost_ic = 5
+		}
 	}
 	cannon_defense_turret_1 = {
 		abbreviation = "cat"
@@ -3925,6 +4225,14 @@ equipment_modules = {
 			air_agility = -5
 			air_attack = 10
 			weight = 5
+		}
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret
+			convert_cost_ic = 3
+		}
+		can_convert_from = {
+			module = hmg_defense_turret_1
+			convert_cost_ic = 2.5
 		}
 	}
 	cannon_defense_turret_1_2x = {
@@ -3939,6 +4247,14 @@ equipment_modules = {
 			air_attack = 20
 			weight = 9
 		}
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret
+			convert_cost_ic = 6
+		}
+		can_convert_from = {
+			module = hmg_defense_turret_2x_1
+			convert_cost_ic = 5
+		}
 	}
 	cannon_defense_turret_2 = {
 		abbreviation = "cat"
@@ -3951,6 +4267,14 @@ equipment_modules = {
 			air_agility = -5
 			air_attack = 14
 			weight = 5
+		}
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret
+			convert_cost_ic = 3
+		}
+		can_convert_from = {
+			module = hmg_defense_turret_2
+			convert_cost_ic = 2.5
 		}
 	}
 	cannon_defense_turret_2_2x = {
@@ -3965,6 +4289,14 @@ equipment_modules = {
 			air_attack = 28
 			weight = 10
 		}
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret
+			convert_cost_ic = 6
+		}
+		can_convert_from = {
+			module = hmg_defense_turret_2x_2
+			convert_cost_ic = 5
+		}
 	}
 	cannon_defense_turret_3 = {
 		abbreviation = "cat"
@@ -3978,6 +4310,10 @@ equipment_modules = {
 			air_attack = 16
 			weight = 5
 		}
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret
+			convert_cost_ic = 3
+		}
 	}
 	cannon_defense_turret_3_2x = {
 		abbreviation = "cat2"
@@ -3990,6 +4326,10 @@ equipment_modules = {
 			air_agility = -10
 			air_attack = 32
 			weight = 10
+		}
+		can_convert_from = {
+			module_category = plane_special_module_defense_turret
+			convert_cost_ic = 6
 		}
 	}
 }

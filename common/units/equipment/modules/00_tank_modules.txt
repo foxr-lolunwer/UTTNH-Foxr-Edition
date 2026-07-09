@@ -254,6 +254,10 @@ equipment_modules = {
 			build_cost_ic = 2
 			breakthrough = 4
 		}
+		can_convert_from = {
+			module = tank_torsion_bar_suspension
+			convert_cost_ic = 0.5
+		}
 	}
 	tank_wheeled_suspension = {
 		abbreviation = "whe"
@@ -279,6 +283,10 @@ equipment_modules = {
 		multiply_stats = {
 			build_cost_ic = -0.05
 			hardness = -0.3
+		}
+		can_convert_from = {
+			module = tank_wheeled_suspension
+			convert_cost_ic = 0.5
 		}
 	}
 	tank_light_one_man_tank_turret = {
@@ -478,6 +486,10 @@ equipment_modules = {
 			hard_attack = 2
 			soft_attack = 5
 		}
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1
+		}
 	}
 	flamethrower = {
 		abbreviation = "flt"
@@ -491,6 +503,10 @@ equipment_modules = {
 		}
 		allow_equipment_type = {
 			flame
+		}
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1
 		}
 	}
 	advanced_flamethrower = {
@@ -508,6 +524,10 @@ equipment_modules = {
 		allow_equipment_type = {
 			flame
 		}
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1
+		}
 	}
 	tank_auto_cannon = {
 		abbreviation = "ac1"
@@ -521,6 +541,10 @@ equipment_modules = {
 			ap_attack = 20
 			hard_attack = 5
 			soft_attack = 15
+		}
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 3
 		}
 	}
 	tank_auto_cannon_2 = {
@@ -537,6 +561,10 @@ equipment_modules = {
 			soft_attack = 20
 		}
 		parent = tank_auto_cannon
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 3.5
+		}
 	}
 	tank_anti_air_cannon = {
 		abbreviation = "aa1"
@@ -559,6 +587,10 @@ equipment_modules = {
 			anti_air
 		}
 		forbid_equipment_type_exact_match = armor
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 4
+		}
 	}
 	tank_anti_air_cannon_2 = {
 		abbreviation = "aa2"
@@ -585,6 +617,10 @@ equipment_modules = {
 		}
 		parent = tank_anti_air_cannon
 		forbid_equipment_type_exact_match = armor
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 5
+		}
 	}
 	tank_anti_air_cannon_3 = {
 		abbreviation = "aa3"
@@ -612,6 +648,10 @@ equipment_modules = {
 		}
 		parent = tank_anti_air_cannon_2
 		forbid_equipment_type_exact_match = armor
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 6
+		}
 	}
 	early_modern_anti_air_cannon = {
 		abbreviation = "aa4"
@@ -639,6 +679,10 @@ equipment_modules = {
 		}
 		parent = tank_anti_air_cannon_3
 		forbid_equipment_type_exact_match = armor
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 6
+		}
 	}
 	modern_anti_air_cannon = {
 		abbreviation = "aa5"
@@ -666,6 +710,10 @@ equipment_modules = {
 		}
 		parent = early_modern_anti_air_cannon
 		forbid_equipment_type_exact_match = armor
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 6
+		}
 	}
 	advanced_modern_anti_air_cannon = {
 		abbreviation = "aa6"
@@ -693,6 +741,10 @@ equipment_modules = {
 		}
 		parent = modern_anti_air_cannon
 		forbid_equipment_type_exact_match = armor
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 6
+		}
 	}
 	tank_small_cannon = {
 		abbreviation = "sc1"
@@ -706,6 +758,10 @@ equipment_modules = {
 			ap_attack = 25
 			hard_attack = 6
 			soft_attack = 10
+		}
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 4
 		}
 	}
 	tank_small_cannon_2 = {
@@ -722,6 +778,10 @@ equipment_modules = {
 			soft_attack = 12
 		}
 		parent = tank_small_cannon
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 5
+		}
 	}
 	early_light_modern_cannon = {
 		abbreviation = "sc3"
@@ -741,6 +801,10 @@ equipment_modules = {
 			soft_attack = 18
 		}
 		parent = tank_small_cannon_2
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 5
+		}
 	}
 	light_modern_cannon = {
 		abbreviation = "sc4"
@@ -760,6 +824,10 @@ equipment_modules = {
 			soft_attack = 22
 		}
 		parent = early_light_modern_cannon
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 5
+		}
 	}
 	tank_close_support_gun = {
 		abbreviation = "cs"
@@ -776,6 +844,10 @@ equipment_modules = {
 		}
 		allow_equipment_type = {
 			artillery
+		}
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 5
 		}
 	}
 	tank_medium_cannon = {
@@ -797,6 +869,10 @@ equipment_modules = {
 		}
 		allow_equipment_type = {
 			anti_tank
+		}
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 5
 		}
 	}
 	tank_medium_cannon_2 = {
@@ -821,6 +897,10 @@ equipment_modules = {
 			anti_tank
 		}
 		parent = tank_medium_cannon
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 5
+		}
 	}
 	tank_medium_howitzer = {
 		abbreviation = "mh1"
@@ -840,6 +920,10 @@ equipment_modules = {
 		}
 		allow_equipment_type = {
 			artillery
+		}
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 6
 		}
 	}
 	tank_medium_howitzer_2 = {
@@ -863,6 +947,10 @@ equipment_modules = {
 			artillery
 		}
 		parent = tank_medium_howitzer
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 7.5
+		}
 	}
 	tank_rocket_launcher = {
 		abbreviation = "rk1"
@@ -879,6 +967,10 @@ equipment_modules = {
 		}
 		allow_equipment_type = {
 			artillery
+		}
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 4
 		}
 	}
 	tank_rocket_launcher_2 = {
@@ -898,6 +990,10 @@ equipment_modules = {
 			artillery
 		}
 		parent = tank_rocket_launcher
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 4.5
+		}
 	}
 	tank_high_velocity_cannon = {
 		abbreviation = "hv1"
@@ -917,6 +1013,10 @@ equipment_modules = {
 		}
 		allow_equipment_type = {
 			anti_tank
+		}
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 4
 		}
 	}
 	tank_high_velocity_cannon_2 = {
@@ -940,6 +1040,10 @@ equipment_modules = {
 			anti_tank
 		}
 		parent = tank_high_velocity_cannon
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 7
+		}
 	}
 	tank_high_velocity_cannon_3 = {
 		abbreviation = "hv3"
@@ -962,6 +1066,10 @@ equipment_modules = {
 			anti_tank
 		}
 		parent = tank_high_velocity_cannon_2
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 9
+		}
 	}
 	tank_early_modern_cannon = {
 		abbreviation = "hv7"
@@ -984,6 +1092,10 @@ equipment_modules = {
 			anti_tank
 		}
 		parent = tank_high_velocity_cannon_3
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 9
+		}
 	}
 	tank_modern_cannon = {
 		abbreviation = "hv8"
@@ -1006,6 +1118,10 @@ equipment_modules = {
 			anti_tank
 		}
 		parent = tank_early_modern_cannon
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 9
+		}
 	}
 	tank_advanced_modern_cannon = {
 		abbreviation = "hv9"
@@ -1028,6 +1144,10 @@ equipment_modules = {
 			anti_tank
 		}
 		parent = tank_modern_cannon
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 9
+		}
 	}
 	tank_heavy_cannon = {
 		abbreviation = "hc1"
@@ -1048,6 +1168,10 @@ equipment_modules = {
 		}
 		allow_equipment_type = {
 			anti_tank
+		}
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 7.5
 		}
 	}
 	tank_heavy_cannon_2 = {
@@ -1071,6 +1195,10 @@ equipment_modules = {
 			anti_tank
 		}
 		parent = tank_heavy_cannon
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 9
+		}
 	}
 	tank_heavy_cannon_3 = {
 		abbreviation = "hc3"
@@ -1093,6 +1221,10 @@ equipment_modules = {
 			anti_tank
 		}
 		parent = tank_heavy_cannon_2
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 11
+		}
 	}
 	tank_heavy_howitzer = {
 		abbreviation = "hh1"
@@ -1113,6 +1245,10 @@ equipment_modules = {
 		}
 		allow_equipment_type = {
 			artillery
+		}
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 8
 		}
 	}
 	tank_post_war_howitzer = {
@@ -1136,6 +1272,10 @@ equipment_modules = {
 			artillery
 		}
 		parent = tank_heavy_howitzer
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 8
+		}
 	}
 	tank_early_modern_howitzer = {
 		abbreviation = "hh3"
@@ -1158,6 +1298,10 @@ equipment_modules = {
 			artillery
 		}
 		parent = tank_post_war_howitzer
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 8
+		}
 	}
 	tank_modern_howitzer = {
 		abbreviation = "hh4"
@@ -1180,6 +1324,10 @@ equipment_modules = {
 			artillery
 		}
 		parent = tank_early_modern_howitzer
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 8
+		}
 	}
 	tank_advanced_modern_howitzer = {
 		abbreviation = "hh5"
@@ -1202,6 +1350,10 @@ equipment_modules = {
 			artillery
 		}
 		parent = tank_modern_howitzer
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 8
+		}
 	}
 	tank_super_heavy_cannon = {
 		abbreviation = "sh1"
@@ -1817,6 +1969,10 @@ equipment_modules = {
 			hard_attack = 60
 			soft_attack = 65
 		}
+		can_convert_from = {
+			module_category = lc_main_armament
+			convert_cost_ic = 16
+		}
 	}
 	lc_super_heavy_railway_gun = {
 		abbreviation = "shrwg"
@@ -1837,6 +1993,10 @@ equipment_modules = {
 			breakthrough = 30
 			hard_attack = 8
 			soft_attack = 85
+		}
+		can_convert_from = {
+			module_category = lc_main_armament
+			convert_cost_ic = 16
 		}
 	}
 	lc_high_impact_obliterator_cannon = {
@@ -1859,6 +2019,10 @@ equipment_modules = {
 			hard_attack = 75
 			soft_attack = 40
 		}
+		can_convert_from = {
+			module_category = lc_main_armament
+			convert_cost_ic = 16
+		}
 	}
 	lc_heavy_anti_air_platform = {
 		abbreviation = "haap"
@@ -1879,6 +2043,10 @@ equipment_modules = {
 			hard_attack = 10
 			soft_attack = 20
 		}
+		can_convert_from = {
+			module_category = lc_main_armament
+			convert_cost_ic = 16
+		}
 	}
 	lc_medium_naval_guns = {
 		abbreviation = "mng"
@@ -1898,6 +2066,10 @@ equipment_modules = {
 			breakthrough = 25
 			hard_attack = 55
 			soft_attack = 45
+		}
+		can_convert_from = {
+			module_category = lc_secondary_armament
+			convert_cost_ic = 12
 		}
 	}
 	lc_hull_mounted_railway_gun = {
@@ -1920,6 +2092,10 @@ equipment_modules = {
 			hard_attack = 5
 			soft_attack = 75
 		}
+		can_convert_from = {
+			module_category = lc_secondary_armament
+			convert_cost_ic = 12
+		}
 	}
 	lc_super_heavy_howitzer = {
 		abbreviation = "shh"
@@ -1940,6 +2116,10 @@ equipment_modules = {
 			breakthrough = 20
 			hard_attack = 4
 			soft_attack = 65
+		}
+		can_convert_from = {
+			module_category = lc_secondary_armament
+			convert_cost_ic = 10
 		}
 	}
 	lc_heavy_high_velocity_cannons = {
@@ -1962,6 +2142,10 @@ equipment_modules = {
 			hard_attack = 60
 			soft_attack = 30
 		}
+		can_convert_from = {
+			module_category = lc_secondary_armament
+			convert_cost_ic = 12
+		}
 	}
 	lc_heavy_anti_air_battery = {
 		abbreviation = "haab"
@@ -1980,6 +2164,10 @@ equipment_modules = {
 			breakthrough = 10
 			hard_attack = 7
 			soft_attack = 14
+		}
+		can_convert_from = {
+			module_category = lc_secondary_armament
+			convert_cost_ic = 12
 		}
 	}
 	lc_medium_cannon_turret = {
@@ -2002,6 +2190,10 @@ equipment_modules = {
 			hard_attack = 20
 			soft_attack = 32
 		}
+		can_convert_from = {
+			module_category = lc_additional_armament
+			convert_cost_ic = 4
+		}
 	}
 	lc_assault_gun = {
 		abbreviation = "asg"
@@ -2022,6 +2214,10 @@ equipment_modules = {
 			breakthrough = 16
 			hard_attack = 2
 			soft_attack = 55
+		}
+		can_convert_from = {
+			module_category = lc_additional_armament
+			convert_cost_ic = 8
 		}
 	}
 	lc_high_velocity_cannon_turret = {
@@ -2044,6 +2240,10 @@ equipment_modules = {
 			hard_attack = 45
 			soft_attack = 25
 		}
+		can_convert_from = {
+			module_category = lc_additional_armament
+			convert_cost_ic = 8
+		}
 	}
 	lc_light_anti_air_battery = {
 		abbreviation = "laab"
@@ -2062,6 +2262,10 @@ equipment_modules = {
 			hard_attack = 5
 			soft_attack = 10
 		}
+		can_convert_from = {
+			module_category = lc_additional_armament
+			convert_cost_ic = 8
+		}
 	}
 	lc_flamethrower_turret = {
 		abbreviation = "ftt"
@@ -2077,6 +2281,10 @@ equipment_modules = {
 			reliability = -0.05
 			breakthrough = 8
 			soft_attack = 8
+		}
+		can_convert_from = {
+			module_category = lc_additional_armament
+			convert_cost_ic = 1
 		}
 	}
 	lc_rocket_launcher = {
@@ -2097,6 +2305,10 @@ equipment_modules = {
 			breakthrough = 4
 			hard_attack = 1
 			soft_attack = 35
+		}
+		can_convert_from = {
+			module_category = lc_additional_armament
+			convert_cost_ic = 5
 		}
 	}
 	lc_radio_1 = {

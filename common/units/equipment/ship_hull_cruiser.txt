@@ -85,6 +85,7 @@ equipments = {
 					ship_torpedo
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -178,6 +179,7 @@ equipments = {
 					ship_torpedo
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -247,6 +249,7 @@ equipments = {
 					ship_torpedo
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -330,6 +333,7 @@ equipments = {
 					ship_torpedo
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -343,6 +347,7 @@ equipments = {
 					ship_mine_layer
 				}
 			}
+			rear_2_custom_slot = rear_1_custom_slot
 		}
 		default_modules = {
 			front_1_custom_slot = empty
@@ -543,6 +548,7 @@ equipments = {
 					ship_torpedo
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -818,6 +824,7 @@ equipments = {
 					ship_torpedo
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -890,6 +897,7 @@ equipments = {
 					ship_secondaries
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -954,6 +962,7 @@ equipments = {
 					ship_secondaries
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -1018,6 +1027,7 @@ equipments = {
 					ship_torpedo
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -1031,6 +1041,7 @@ equipments = {
 					ship_mine_layer
 				}
 			}
+			rear_2_custom_slot = rear_1_custom_slot
 		}
 		default_modules = {
 			front_1_custom_slot = empty
@@ -1085,6 +1096,7 @@ equipments = {
 					ship_torpedo
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {

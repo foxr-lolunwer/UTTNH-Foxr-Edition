@@ -131,6 +131,7 @@ equipments = {
 					ship_sub_snorkel
 				}
 			}
+			rear_1_custom_slot = front_1_custom_slot
 		}
 		default_modules = {
 			front_1_custom_slot = empty
@@ -172,6 +173,7 @@ equipments = {
 					ship_sub_snorkel
 				}
 			}
+			rear_1_custom_slot = front_1_custom_slot
 		}
 		default_modules = {
 			front_1_custom_slot = empty
@@ -933,6 +935,7 @@ equipments = {
 					ship_sub_snorkel
 				}
 			}
+			rear_1_custom_slot = front_1_custom_slot
 		}
 		default_modules = {
 			front_1_custom_slot = empty
@@ -979,6 +982,7 @@ equipments = {
 					ship_sub_snorkel
 				}
 			}
+			rear_1_custom_slot = front_1_custom_slot
 		}
 		default_modules = {
 			front_1_custom_slot = empty
@@ -1025,6 +1029,7 @@ equipments = {
 					ship_sub_snorkel
 				}
 			}
+			rear_1_custom_slot = front_1_custom_slot
 		}
 		default_modules = {
 			front_1_custom_slot = empty
@@ -1071,6 +1076,7 @@ equipments = {
 					ship_sub_snorkel
 				}
 			}
+			rear_1_custom_slot = front_1_custom_slot
 		}
 		default_modules = {
 			front_1_custom_slot = empty
@@ -1117,6 +1123,7 @@ equipments = {
 					ship_sub_snorkel
 				}
 			}
+			rear_1_custom_slot = front_1_custom_slot
 		}
 		default_modules = {
 			front_1_custom_slot = empty
@@ -1163,6 +1170,7 @@ equipments = {
 					ship_sub_snorkel
 				}
 			}
+			rear_1_custom_slot = front_1_custom_slot
 		}
 		default_modules = {
 			front_1_custom_slot = empty

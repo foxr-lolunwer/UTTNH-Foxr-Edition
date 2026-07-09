@@ -87,6 +87,7 @@ equipments = {
 					ship_torpedo
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -315,6 +316,7 @@ equipments = {
 					ship_secondaries
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -373,6 +375,8 @@ equipments = {
 					ship_secondaries
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -430,6 +434,8 @@ equipments = {
 					ship_secondaries
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -514,6 +520,7 @@ equipments = {
 					ship_super_heavy_battery
 				}
 			}
+			front_2_custom_slot = front_1_custom_slot
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -522,6 +529,8 @@ equipments = {
 					ship_secondaries
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -630,6 +639,7 @@ equipments = {
 					ship_torpedo
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -827,6 +837,7 @@ equipments = {
 					ship_super_heavy_battery
 				}
 			}
+			front_2_custom_slot = front_1_custom_slot
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -835,6 +846,8 @@ equipments = {
 					ship_secondaries
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -942,6 +955,7 @@ equipments = {
 					ship_super_heavy_battery
 				}
 			}
+			front_2_custom_slot = front_1_custom_slot
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -950,6 +964,8 @@ equipments = {
 					ship_secondaries
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -1121,6 +1137,8 @@ equipments = {
 					ship_secondaries
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -1199,6 +1217,8 @@ equipments = {
 					ship_sam_missile_battery
 				}
 			}
+			mid_2_custom_slot = mid_1_custom_slot
+			mid_3_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = yes
 				allowed_module_categories = {

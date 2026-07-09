@@ -4,7 +4,7 @@ from pathlib import Path
 import pathspec
 
 MOD_TEXT = '''\
-version="0.1.1-refactoring-2.5"
+version="0.1.1-refactoring-pre3"
 tags={
 	"Gameplay"
 	"Graphics"

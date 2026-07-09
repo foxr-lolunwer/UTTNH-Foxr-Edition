@@ -13,3 +13,4 @@ descriptor.mod
 *.ignore
 .vscode
 codes/
+codes_upload/

@@ -37,7 +37,6 @@ DDL_STATEMENTS = [
         priority REAL,
         sprite TEXT,
         visual_level INTEGER,
-        generate_file TEXT NOT NULL,
         l_air_attack REAL,
         l_ap_attack REAL,
         l_armor_value REAL,
@@ -77,11 +76,17 @@ DDL_STATEMENTS = [
         n_surface_visibility REAL,
         n_torpedo_attack REAL,
         n_visual_tech_level_addition REAL,
+        abbreviation TEXT,
         module_inherit INTEGER,
-        others TEXT
+        others TEXT,
+        generate_file TEXT NOT NULL
     )""",
 
     # === 装备子表 ===
+    """CREATE TABLE IF NOT EXISTS parent (
+        eid    TEXT REFERENCES equipments (eid) ON DELETE CASCADE NOT NULL,
+        parent TEXT NOT NULL
+    )""",
     """CREATE TABLE IF NOT EXISTS type (
         eid TEXT REFERENCES equipments(eid) ON DELETE CASCADE NOT NULL,
         type TEXT NOT NULL
@@ -121,7 +126,8 @@ DDL_STATEMENTS = [
     )""",
 
     """CREATE TABLE IF NOT EXISTS allowed_module_categories (
-        msid INTEGER NOT NULL,
+        msid INTEGER NOT NULL
+            REFERENCES module_slots (msid) ON DELETE CASCADE,
         module_categorie TEXT NOT NULL
     )""",
 
@@ -168,7 +174,7 @@ DDL_STATEMENTS = [
 
     """CREATE TABLE IF NOT EXISTS m_parent (
         mid TEXT REFERENCES m_modules(mid) ON DELETE CASCADE NOT NULL,
-        parent TEXT REFERENCES m_modules(mid) ON DELETE CASCADE NOT NULL
+        parent TEXT NOT NULL
     )""",
 
     """CREATE TABLE IF NOT EXISTS m_add_equipment_type (
@@ -265,13 +271,13 @@ DDL_STATEMENTS = [
     )""",
 
     # === 模块限制 ===
-    """CREATE TABLE IF NOT EXISTS modules_limit (
+    """CREATE TABLE IF NOT EXISTS m_modules_limit (
         mlid INTEGER PRIMARY KEY AUTOINCREMENT,
         "limit" TEXT
     )""",
 
     # === 模块转换来源 ===
-    """CREATE TABLE IF NOT EXISTS can_convert_from_module (
+    """CREATE TABLE IF NOT EXISTS m_can_convert_from (
         give_mid TEXT REFERENCES m_modules(mid) ON DELETE CASCADE NOT NULL,
         module TEXT,
         module_category TEXT,
@@ -465,7 +471,7 @@ KNOWN_EQUIP_COLS = {
     "group_by", "picture", "fuel_consumption", "build_cost_ic",
     "additional_collateral_damage", "lend_lease_cost", "maximum_speed",
     "interface_category", "manpower", "year", "reliability", "priority",
-    "sprite", "visual_level",
+    "sprite", "abbreviation", "visual_level",
 }
 
 # 装备主表完整有效列名
@@ -1109,14 +1115,14 @@ def setup_database(db_path):
     for ddl in DDL_STATEMENTS:
         cursor.execute(ddl)
     conn.commit()
-    # 插入默认 modules_limit 行
-    cursor.execute("INSERT OR IGNORE INTO modules_limit (mlid, \"limit\") VALUES (0, '')")
+    # 插入默认 m_modules_limit 行
+    cursor.execute("INSERT OR IGNORE INTO m_modules_limit (mlid, \"limit\") VALUES (0, '')")
     conn.commit()
     return conn, cursor
 
 
 def write_module_limits(cursor, parsed_modules):
-    """写入模块 limit 到 modules_limit 表，并为同一文件中的模块共享 mlid"""
+    """写入模块 limit 到 m_modules_limit 表，并为同一文件中的模块共享 mlid"""
     limit_cache = {}
     for item in parsed_modules:
         limit_text = item.get("_limit_text", "")
@@ -1126,10 +1132,10 @@ def write_module_limits(cursor, parsed_modules):
 
         if limit_text not in limit_cache:
             try:
-                cursor.execute("INSERT INTO modules_limit (\"limit\") VALUES (?)", (limit_text,))
+                cursor.execute("INSERT INTO m_modules_limit (\"limit\") VALUES (?)", (limit_text,))
                 limit_cache[limit_text] = cursor.lastrowid
             except sqlite3.Error as e:
-                print(f" ⚠ [模块 {item['mid']}] modules_limit 写入失败: {e}")
+                print(f" ⚠ [模块 {item['mid']}] m_modules_limit 写入失败: {e}")
                 limit_cache[limit_text] = 0
 
         item["_mlid"] = limit_cache[limit_text]
@@ -1160,7 +1166,7 @@ def write_modules_main(cursor, parsed_modules):
 
 
 def write_modules_sub(cursor, parsed_modules):
-    """写入模块子表：m_module_stats, m_parent, can_convert_from_module, forbid 等"""
+    """写入模块子表：m_module_stats, m_parent, m_can_convert_from, forbid 等"""
     count = 0
     stats_columns = set(get_table_columns(cursor, "m_module_stats"))
     saved_filename = ""
@@ -1242,15 +1248,15 @@ def write_modules_sub(cursor, parsed_modules):
             except sqlite3.Error as e:
                 print(f" ⚠ [模块 {mid}] m_parent 写入失败: {e}")
 
-        # --- can_convert_from → can_convert_from_module ---
+        # --- can_convert_from → m_can_convert_from ---
         for entry in data["can_convert_from"]:
             try:
                 cursor.execute(
-                    "INSERT INTO can_convert_from_module (give_mid, module, module_category, convert_cost_ic) VALUES (?, ?, ?, ?)",
+                    "INSERT INTO m_can_convert_from (give_mid, module, module_category, convert_cost_ic) VALUES (?, ?, ?, ?)",
                     (mid, entry["module"] or None, entry["module_category"] or None, entry["convert_cost_ic"]))
                 has_any = True
             except sqlite3.Error as e:
-                print(f" ⚠ [模块 {mid}] can_convert_from_module 写入失败: {e}")
+                print(f" ⚠ [模块 {mid}] m_can_convert_from 写入失败: {e}")
 
         # --- add_equipment_type → m_add_equipment_type ---
         for t in data["add_equipment_type"]:
@@ -1440,6 +1446,13 @@ def write_equipments_sub(cursor, parsed_equipments):
             except sqlite3.Error as e:
                 print(f" ⚠ [装备 {eid}] upgrades 写入失败: {e}")
 
+        # --- parent ---
+        if data["parent"]:
+            try:
+                cursor.execute("INSERT INTO parent (eid, parent) VALUES (?, ?)", (eid, data["parent"]))
+                has_any = True
+            except sqlite3.Error as e:
+                print(f" ⚠ [装备 {eid}] type 写入失败: {e}")
         # --- archetype ---
         if data["archetype"]:
             try:
@@ -1542,7 +1555,7 @@ def print_stats(cursor):
         "m_module_forbid_equipment_type",
         "m_module_forbid_equipment_type_exact_match",
         "m_module_forbid_equipment_type_exact_match_for_category",
-        "modules_limit", "can_convert_from_module",
+        "m_modules_limit", "m_can_convert_from",
         "m_critical_parts", "m_forbid_module_categories",
         "m_mission_type_stats", "m_mission_type_stats_limit",
     ]
@@ -1606,7 +1619,7 @@ def main():
     # 3. 依次写入
     print(f"\n>>> 阶段 3: 写入数据库")
 
-    print("  [1/6] modules_limit ...")
+    print("  [1/6] m_modules_limit ...")
     write_module_limits(cursor, parsed_modules)
 
     print("  [2/6] m_modules 主表 ...")

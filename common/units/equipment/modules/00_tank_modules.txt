@@ -120,7 +120,6 @@ equipment_modules = {
 		category = tank_armor_type
 		sfx = sfx_ui_sd_module_sonar
 		xp_cost = 8
-		dismantle_cost_ic = 1
 		add_stats = {
 			breakthrough = 3
 			defense = 3
@@ -130,16 +129,13 @@ equipment_modules = {
 			build_cost_ic = 0.2
 			armor_value = 0.3
 		}
+		dismantle_cost_ic = 1
 	}
 	tank_welded_armor = {
 		abbreviation = "wel"
 		category = tank_armor_type
 		sfx = sfx_ui_sd_module_sonar
 		xp_cost = 8
-		dismantle_cost_ic = 1
-		build_cost_resources = {
-			chromium = 1
-		}
 		add_stats = {
 			breakthrough = 4
 			defense = 4
@@ -147,6 +143,10 @@ equipment_modules = {
 		multiply_stats = {
 			armor_value = 0.3
 		}
+		build_cost_resources = {
+			chromium = 1
+		}
+		dismantle_cost_ic = 1
 	}
 	tank_composite_armor = {
 		abbreviation = "comp"
@@ -221,23 +221,23 @@ equipment_modules = {
 		abbreviation = "tor"
 		category = tank_suspension_type
 		sfx = sfx_ui_sd_module_sonar
-		dismantle_cost_ic = 2
 		add_stats = {
 			build_cost_ic = 1
 			reliability = 0.15
 		}
+		dismantle_cost_ic = 2
 	}
 	tank_christie_suspension = {
 		abbreviation = "chr"
 		category = tank_suspension_type
 		sfx = sfx_ui_sd_module_sonar
-		dismantle_cost_ic = 2
 		add_stats = {
 			build_cost_ic = 1
 		}
 		multiply_stats = {
 			maximum_speed = 0.2
 		}
+		dismantle_cost_ic = 2
 	}
 	tank_bogie_suspension = {
 		abbreviation = "bog"
@@ -249,21 +249,20 @@ equipment_modules = {
 		abbreviation = "int"
 		category = tank_suspension_type
 		sfx = sfx_ui_sd_module_sonar
-		dismantle_cost_ic = 2
-		add_stats = {
-			build_cost_ic = 2
-			breakthrough = 4
-		}
 		can_convert_from = {
 			module = tank_torsion_bar_suspension
 			convert_cost_ic = 0.5
 		}
+		add_stats = {
+			build_cost_ic = 2
+			breakthrough = 4
+		}
+		dismantle_cost_ic = 2
 	}
 	tank_wheeled_suspension = {
 		abbreviation = "whe"
 		category = tank_non_tracked_suspension_type
 		sfx = sfx_ui_sd_module_sonar
-		dismantle_cost_ic = 0.5
 		add_stats = {
 			reliability = -0.2
 		}
@@ -271,12 +270,16 @@ equipment_modules = {
 			build_cost_ic = -0.1
 			hardness = -0.4
 		}
+		dismantle_cost_ic = 0.5
 	}
 	tank_half_track_suspension = {
 		abbreviation = "htr"
 		category = tank_non_tracked_suspension_type
 		sfx = sfx_ui_sd_module_sonar
-		dismantle_cost_ic = 0.5
+		can_convert_from = {
+			module = tank_wheeled_suspension
+			convert_cost_ic = 0.5
+		}
 		add_stats = {
 			reliability = -0.1
 		}
@@ -284,10 +287,7 @@ equipment_modules = {
 			build_cost_ic = -0.05
 			hardness = -0.3
 		}
-		can_convert_from = {
-			module = tank_wheeled_suspension
-			convert_cost_ic = 0.5
-		}
+		dismantle_cost_ic = 0.5
 	}
 	tank_light_one_man_tank_turret = {
 		abbreviation = "l1m"
@@ -331,14 +331,14 @@ equipment_modules = {
 			reliability = 0.2
 			defense = 3
 		}
-		multiply_stats = {
-			breakthrough = -0.25
-		}
 		forbid_equipment_type = anti_air
 		forbid_equipment_type_exact_match_for_category = {
 			tank_medium_main_armament = armor
 			tank_heavy_main_armament = armor
 			tank_super_heavy_main_armament = armor
+		}
+		multiply_stats = {
+			breakthrough = -0.25
 		}
 	}
 	tank_medium_one_man_tank_turret = {
@@ -387,13 +387,13 @@ equipment_modules = {
 			reliability = 0.2
 			defense = 3
 		}
-		multiply_stats = {
-			breakthrough = -0.25
-		}
 		forbid_equipment_type = anti_air
 		forbid_equipment_type_exact_match_for_category = {
 			tank_heavy_main_armament = armor
 			tank_super_heavy_main_armament = armor
+		}
+		multiply_stats = {
+			breakthrough = -0.25
 		}
 	}
 	tank_heavy_two_man_tank_turret = {
@@ -430,12 +430,12 @@ equipment_modules = {
 			reliability = 0.2
 			defense = 3
 		}
-		multiply_stats = {
-			breakthrough = -0.25
-		}
 		forbid_equipment_type = anti_air
 		forbid_equipment_type_exact_match_for_category = {
 			tank_super_heavy_main_armament = armor
+		}
+		multiply_stats = {
+			breakthrough = -0.25
 		}
 	}
 	tank_super_heavy_three_man_tank_turret = {
@@ -480,15 +480,15 @@ equipment_modules = {
 		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 1
+		}
 		add_stats = {
 			build_cost_ic = 0.5
 			ap_attack = 10
 			hard_attack = 2
 			soft_attack = 5
-		}
-		can_convert_from = {
-			module_category = tank_small_main_armament
-			convert_cost_ic = 1
 		}
 	}
 	flamethrower = {
@@ -496,17 +496,17 @@ equipment_modules = {
 		category = tank_flamethrower
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		add_stats = {
-			build_cost_ic = 0.5
-			reliability = -0.05
-			soft_attack = 5
-		}
 		allow_equipment_type = {
 			flame
 		}
 		can_convert_from = {
 			module_category = tank_small_main_armament
 			convert_cost_ic = 1
+		}
+		add_stats = {
+			build_cost_ic = 0.5
+			reliability = -0.05
+			soft_attack = 5
 		}
 	}
 	advanced_flamethrower = {
@@ -514,13 +514,6 @@ equipment_modules = {
 		category = tank_flamethrower
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		dismantle_cost_ic = 0.5
-		add_stats = {
-			build_cost_ic = 1.2
-			reliability = -0.05
-			breakthrough = 6
-			soft_attack = 12
-		}
 		allow_equipment_type = {
 			flame
 		}
@@ -528,12 +521,23 @@ equipment_modules = {
 			module_category = tank_small_main_armament
 			convert_cost_ic = 1
 		}
+		add_stats = {
+			build_cost_ic = 1.2
+			reliability = -0.05
+			breakthrough = 6
+			soft_attack = 12
+		}
+		dismantle_cost_ic = 0.5
 	}
 	tank_auto_cannon = {
 		abbreviation = "ac1"
 		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 3
+		}
 		add_stats = {
 			build_cost_ic = 2.5
 			maximum_speed = -0.1
@@ -542,16 +546,17 @@ equipment_modules = {
 			hard_attack = 5
 			soft_attack = 15
 		}
-		can_convert_from = {
-			module_category = tank_small_main_armament
-			convert_cost_ic = 3
-		}
 	}
 	tank_auto_cannon_2 = {
 		abbreviation = "ac2"
+		parent = tank_auto_cannon
 		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 3.5
+		}
 		add_stats = {
 			build_cost_ic = 3
 			maximum_speed = -0.1
@@ -560,17 +565,20 @@ equipment_modules = {
 			hard_attack = 7
 			soft_attack = 20
 		}
-		parent = tank_auto_cannon
-		can_convert_from = {
-			module_category = tank_small_main_armament
-			convert_cost_ic = 3.5
-		}
 	}
 	tank_anti_air_cannon = {
 		abbreviation = "aa1"
 		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
+		allow_equipment_type = {
+			anti_air
+		}
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 4
+		}
+		forbid_equipment_type_exact_match = armor
 		add_stats = {
 			build_cost_ic = 3
 			reliability = -0.1
@@ -583,23 +591,21 @@ equipment_modules = {
 		multiply_stats = {
 			breakthrough = -0.95
 		}
-		allow_equipment_type = {
-			anti_air
-		}
-		forbid_equipment_type_exact_match = armor
-		can_convert_from = {
-			module_category = tank_small_main_armament
-			convert_cost_ic = 4
-		}
 	}
 	tank_anti_air_cannon_2 = {
 		abbreviation = "aa2"
+		parent = tank_anti_air_cannon
 		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 1
+		allow_equipment_type = {
+			anti_air
 		}
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 5
+		}
+		forbid_equipment_type_exact_match = armor
 		add_stats = {
 			build_cost_ic = 4
 			reliability = -0.1
@@ -612,25 +618,24 @@ equipment_modules = {
 		multiply_stats = {
 			breakthrough = -0.95
 		}
-		allow_equipment_type = {
-			anti_air
-		}
-		parent = tank_anti_air_cannon
-		forbid_equipment_type_exact_match = armor
-		can_convert_from = {
-			module_category = tank_small_main_armament
-			convert_cost_ic = 5
+		build_cost_resources = {
+			tungsten = 1
 		}
 	}
 	tank_anti_air_cannon_3 = {
 		abbreviation = "aa3"
+		parent = tank_anti_air_cannon_2
 		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 1
-			chromium = 1
+		allow_equipment_type = {
+			anti_air
 		}
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 6
+		}
+		forbid_equipment_type_exact_match = armor
 		add_stats = {
 			build_cost_ic = 5
 			reliability = -0.1
@@ -643,25 +648,25 @@ equipment_modules = {
 		multiply_stats = {
 			breakthrough = -0.95
 		}
-		allow_equipment_type = {
-			anti_air
-		}
-		parent = tank_anti_air_cannon_2
-		forbid_equipment_type_exact_match = armor
-		can_convert_from = {
-			module_category = tank_small_main_armament
-			convert_cost_ic = 6
+		build_cost_resources = {
+			tungsten = 1
+			chromium = 1
 		}
 	}
 	early_modern_anti_air_cannon = {
 		abbreviation = "aa4"
+		parent = tank_anti_air_cannon_3
 		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 2
-			chromium = 1
+		allow_equipment_type = {
+			anti_air
 		}
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 6
+		}
+		forbid_equipment_type_exact_match = armor
 		add_stats = {
 			build_cost_ic = 6
 			reliability = -0.1
@@ -674,25 +679,25 @@ equipment_modules = {
 		multiply_stats = {
 			breakthrough = -0.95
 		}
-		allow_equipment_type = {
-			anti_air
-		}
-		parent = tank_anti_air_cannon_3
-		forbid_equipment_type_exact_match = armor
-		can_convert_from = {
-			module_category = tank_small_main_armament
-			convert_cost_ic = 6
-		}
-	}
-	modern_anti_air_cannon = {
-		abbreviation = "aa5"
-		category = tank_small_main_armament
-		sfx = sfx_ui_sd_module_turret
-		xp_cost = 1
 		build_cost_resources = {
 			tungsten = 2
 			chromium = 1
 		}
+	}
+	modern_anti_air_cannon = {
+		abbreviation = "aa5"
+		parent = early_modern_anti_air_cannon
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		allow_equipment_type = {
+			anti_air
+		}
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 6
+		}
+		forbid_equipment_type_exact_match = armor
 		add_stats = {
 			build_cost_ic = 7
 			reliability = -0.1
@@ -705,25 +710,25 @@ equipment_modules = {
 		multiply_stats = {
 			breakthrough = -0.95
 		}
-		allow_equipment_type = {
-			anti_air
-		}
-		parent = early_modern_anti_air_cannon
-		forbid_equipment_type_exact_match = armor
-		can_convert_from = {
-			module_category = tank_small_main_armament
-			convert_cost_ic = 6
+		build_cost_resources = {
+			tungsten = 2
+			chromium = 1
 		}
 	}
 	advanced_modern_anti_air_cannon = {
 		abbreviation = "aa6"
+		parent = modern_anti_air_cannon
 		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 3
-			chromium = 1
+		allow_equipment_type = {
+			anti_air
 		}
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 6
+		}
+		forbid_equipment_type_exact_match = armor
 		add_stats = {
 			build_cost_ic = 8
 			reliability = -0.1
@@ -736,14 +741,9 @@ equipment_modules = {
 		multiply_stats = {
 			breakthrough = -0.95
 		}
-		allow_equipment_type = {
-			anti_air
-		}
-		parent = modern_anti_air_cannon
-		forbid_equipment_type_exact_match = armor
-		can_convert_from = {
-			module_category = tank_small_main_armament
-			convert_cost_ic = 6
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 1
 		}
 	}
 	tank_small_cannon = {
@@ -751,6 +751,10 @@ equipment_modules = {
 		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 4
+		}
 		add_stats = {
 			build_cost_ic = 3
 			maximum_speed = -0.15
@@ -759,16 +763,17 @@ equipment_modules = {
 			hard_attack = 6
 			soft_attack = 10
 		}
-		can_convert_from = {
-			module_category = tank_small_main_armament
-			convert_cost_ic = 4
-		}
 	}
 	tank_small_cannon_2 = {
 		abbreviation = "sc2"
+		parent = tank_small_cannon
 		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 5
+		}
 		add_stats = {
 			build_cost_ic = 4
 			maximum_speed = -0.2
@@ -777,20 +782,16 @@ equipment_modules = {
 			hard_attack = 15
 			soft_attack = 12
 		}
-		parent = tank_small_cannon
-		can_convert_from = {
-			module_category = tank_small_main_armament
-			convert_cost_ic = 5
-		}
 	}
 	early_light_modern_cannon = {
 		abbreviation = "sc3"
+		parent = tank_small_cannon_2
 		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 3
-			chromium = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 5
 		}
 		add_stats = {
 			build_cost_ic = 8
@@ -800,20 +801,20 @@ equipment_modules = {
 			hard_attack = 25
 			soft_attack = 18
 		}
-		parent = tank_small_cannon_2
-		can_convert_from = {
-			module_category = tank_small_main_armament
-			convert_cost_ic = 5
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 1
 		}
 	}
 	light_modern_cannon = {
 		abbreviation = "sc4"
+		parent = early_light_modern_cannon
 		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 4
-			chromium = 1
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 5
 		}
 		add_stats = {
 			build_cost_ic = 10
@@ -823,10 +824,9 @@ equipment_modules = {
 			hard_attack = 35
 			soft_attack = 22
 		}
-		parent = early_light_modern_cannon
-		can_convert_from = {
-			module_category = tank_small_main_armament
-			convert_cost_ic = 5
+		build_cost_resources = {
+			tungsten = 4
+			chromium = 1
 		}
 	}
 	tank_close_support_gun = {
@@ -834,6 +834,13 @@ equipment_modules = {
 		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
+		allow_equipment_type = {
+			artillery
+		}
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 5
+		}
 		add_stats = {
 			build_cost_ic = 5.5
 			maximum_speed = -0.2
@@ -842,21 +849,18 @@ equipment_modules = {
 			hard_attack = 5
 			soft_attack = 25
 		}
-		allow_equipment_type = {
-			artillery
-		}
-		can_convert_from = {
-			module_category = tank_small_main_armament
-			convert_cost_ic = 5
-		}
 	}
 	tank_medium_cannon = {
 		abbreviation = "mc1"
 		category = tank_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 1
+		allow_equipment_type = {
+			anti_tank
+		}
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 5
 		}
 		add_stats = {
 			build_cost_ic = 5
@@ -867,22 +871,22 @@ equipment_modules = {
 			hard_attack = 15
 			soft_attack = 15
 		}
+		build_cost_resources = {
+			tungsten = 1
+		}
+	}
+	tank_medium_cannon_2 = {
+		abbreviation = "mc2"
+		parent = tank_medium_cannon
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
 		allow_equipment_type = {
 			anti_tank
 		}
 		can_convert_from = {
 			module_category = tank_medium_main_armament
 			convert_cost_ic = 5
-		}
-	}
-	tank_medium_cannon_2 = {
-		abbreviation = "mc2"
-		category = tank_medium_main_armament
-		sfx = sfx_ui_sd_module_turret
-		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 2
-			chromium = 1
 		}
 		add_stats = {
 			build_cost_ic = 6
@@ -893,13 +897,9 @@ equipment_modules = {
 			hard_attack = 20
 			soft_attack = 25
 		}
-		allow_equipment_type = {
-			anti_tank
-		}
-		parent = tank_medium_cannon
-		can_convert_from = {
-			module_category = tank_medium_main_armament
-			convert_cost_ic = 5
+		build_cost_resources = {
+			tungsten = 2
+			chromium = 1
 		}
 	}
 	tank_medium_howitzer = {
@@ -907,8 +907,12 @@ equipment_modules = {
 		category = tank_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 2
+		allow_equipment_type = {
+			artillery
+		}
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 6
 		}
 		add_stats = {
 			build_cost_ic = 6
@@ -918,22 +922,22 @@ equipment_modules = {
 			hard_attack = 1
 			soft_attack = 25
 		}
+		build_cost_resources = {
+			tungsten = 2
+		}
+	}
+	tank_medium_howitzer_2 = {
+		abbreviation = "mh2"
+		parent = tank_medium_howitzer
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
 		allow_equipment_type = {
 			artillery
 		}
 		can_convert_from = {
 			module_category = tank_medium_main_armament
-			convert_cost_ic = 6
-		}
-	}
-	tank_medium_howitzer_2 = {
-		abbreviation = "mh2"
-		category = tank_medium_main_armament
-		sfx = sfx_ui_sd_module_turret
-		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 3
-			chromium = 1
+			convert_cost_ic = 7.5
 		}
 		add_stats = {
 			build_cost_ic = 7.5
@@ -943,13 +947,9 @@ equipment_modules = {
 			hard_attack = 2
 			soft_attack = 35
 		}
-		allow_equipment_type = {
-			artillery
-		}
-		parent = tank_medium_howitzer
-		can_convert_from = {
-			module_category = tank_medium_main_armament
-			convert_cost_ic = 7.5
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 1
 		}
 	}
 	tank_rocket_launcher = {
@@ -957,6 +957,13 @@ equipment_modules = {
 		category = tank_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
+		allow_equipment_type = {
+			artillery
+		}
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 4
+		}
 		add_stats = {
 			build_cost_ic = 3
 			maximum_speed = -0.1
@@ -965,19 +972,20 @@ equipment_modules = {
 			hard_attack = 1
 			soft_attack = 25
 		}
+	}
+	tank_rocket_launcher_2 = {
+		abbreviation = "rk2"
+		parent = tank_rocket_launcher
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
 		allow_equipment_type = {
 			artillery
 		}
 		can_convert_from = {
 			module_category = tank_medium_main_armament
-			convert_cost_ic = 4
+			convert_cost_ic = 4.5
 		}
-	}
-	tank_rocket_launcher_2 = {
-		abbreviation = "rk2"
-		category = tank_medium_main_armament
-		sfx = sfx_ui_sd_module_turret
-		xp_cost = 1
 		add_stats = {
 			build_cost_ic = 4
 			maximum_speed = -0.2
@@ -986,22 +994,18 @@ equipment_modules = {
 			hard_attack = 1
 			soft_attack = 30
 		}
-		allow_equipment_type = {
-			artillery
-		}
-		parent = tank_rocket_launcher
-		can_convert_from = {
-			module_category = tank_medium_main_armament
-			convert_cost_ic = 4.5
-		}
 	}
 	tank_high_velocity_cannon = {
 		abbreviation = "hv1"
 		category = tank_small_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 1
+		allow_equipment_type = {
+			anti_tank
+		}
+		can_convert_from = {
+			module_category = tank_small_main_armament
+			convert_cost_ic = 4
 		}
 		add_stats = {
 			build_cost_ic = 4
@@ -1011,22 +1015,22 @@ equipment_modules = {
 			hard_attack = 20
 			soft_attack = 10
 		}
-		allow_equipment_type = {
-			anti_tank
-		}
-		can_convert_from = {
-			module_category = tank_small_main_armament
-			convert_cost_ic = 4
+		build_cost_resources = {
+			tungsten = 1
 		}
 	}
 	tank_high_velocity_cannon_2 = {
 		abbreviation = "hv2"
+		parent = tank_high_velocity_cannon
 		category = tank_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 2
-			chromium = 1
+		allow_equipment_type = {
+			anti_tank
+		}
+		can_convert_from = {
+			module_category = tank_medium_main_armament
+			convert_cost_ic = 7
 		}
 		add_stats = {
 			build_cost_ic = 6
@@ -1036,23 +1040,23 @@ equipment_modules = {
 			hard_attack = 35
 			soft_attack = 15
 		}
-		allow_equipment_type = {
-			anti_tank
-		}
-		parent = tank_high_velocity_cannon
-		can_convert_from = {
-			module_category = tank_medium_main_armament
-			convert_cost_ic = 7
+		build_cost_resources = {
+			tungsten = 2
+			chromium = 1
 		}
 	}
 	tank_high_velocity_cannon_3 = {
 		abbreviation = "hv3"
+		parent = tank_high_velocity_cannon_2
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 3
-			chromium = 1
+		allow_equipment_type = {
+			anti_tank
+		}
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 9
 		}
 		add_stats = {
 			build_cost_ic = 8
@@ -1062,23 +1066,23 @@ equipment_modules = {
 			hard_attack = 40
 			soft_attack = 20
 		}
-		allow_equipment_type = {
-			anti_tank
-		}
-		parent = tank_high_velocity_cannon_2
-		can_convert_from = {
-			module_category = tank_heavy_main_armament
-			convert_cost_ic = 9
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 1
 		}
 	}
 	tank_early_modern_cannon = {
 		abbreviation = "hv7"
+		parent = tank_high_velocity_cannon_3
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 4
-			chromium = 1
+		allow_equipment_type = {
+			anti_tank
+		}
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 9
 		}
 		add_stats = {
 			build_cost_ic = 10
@@ -1088,23 +1092,23 @@ equipment_modules = {
 			hard_attack = 45
 			soft_attack = 25
 		}
-		allow_equipment_type = {
-			anti_tank
-		}
-		parent = tank_high_velocity_cannon_3
-		can_convert_from = {
-			module_category = tank_heavy_main_armament
-			convert_cost_ic = 9
+		build_cost_resources = {
+			tungsten = 4
+			chromium = 1
 		}
 	}
 	tank_modern_cannon = {
 		abbreviation = "hv8"
+		parent = tank_early_modern_cannon
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 5
-			chromium = 2
+		allow_equipment_type = {
+			anti_tank
+		}
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 9
 		}
 		add_stats = {
 			build_cost_ic = 12
@@ -1114,23 +1118,23 @@ equipment_modules = {
 			hard_attack = 50
 			soft_attack = 30
 		}
-		allow_equipment_type = {
-			anti_tank
-		}
-		parent = tank_early_modern_cannon
-		can_convert_from = {
-			module_category = tank_heavy_main_armament
-			convert_cost_ic = 9
+		build_cost_resources = {
+			tungsten = 5
+			chromium = 2
 		}
 	}
 	tank_advanced_modern_cannon = {
 		abbreviation = "hv9"
+		parent = tank_modern_cannon
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 6
-			chromium = 2
+		allow_equipment_type = {
+			anti_tank
+		}
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 9
 		}
 		add_stats = {
 			build_cost_ic = 14
@@ -1140,13 +1144,9 @@ equipment_modules = {
 			hard_attack = 55
 			soft_attack = 35
 		}
-		allow_equipment_type = {
-			anti_tank
-		}
-		parent = tank_modern_cannon
-		can_convert_from = {
-			module_category = tank_heavy_main_armament
-			convert_cost_ic = 9
+		build_cost_resources = {
+			tungsten = 6
+			chromium = 2
 		}
 	}
 	tank_heavy_cannon = {
@@ -1154,9 +1154,12 @@ equipment_modules = {
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 2
-			chromium = 1
+		allow_equipment_type = {
+			anti_tank
+		}
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 7.5
 		}
 		add_stats = {
 			build_cost_ic = 7
@@ -1166,22 +1169,23 @@ equipment_modules = {
 			hard_attack = 20
 			soft_attack = 20
 		}
+		build_cost_resources = {
+			tungsten = 2
+			chromium = 1
+		}
+	}
+	tank_heavy_cannon_2 = {
+		abbreviation = "hc2"
+		parent = tank_heavy_cannon
+		category = tank_heavy_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
 		allow_equipment_type = {
 			anti_tank
 		}
 		can_convert_from = {
 			module_category = tank_heavy_main_armament
-			convert_cost_ic = 7.5
-		}
-	}
-	tank_heavy_cannon_2 = {
-		abbreviation = "hc2"
-		category = tank_heavy_main_armament
-		sfx = sfx_ui_sd_module_turret
-		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 3
-			chromium = 1
+			convert_cost_ic = 9
 		}
 		add_stats = {
 			build_cost_ic = 8
@@ -1191,23 +1195,23 @@ equipment_modules = {
 			hard_attack = 35
 			soft_attack = 25
 		}
-		allow_equipment_type = {
-			anti_tank
-		}
-		parent = tank_heavy_cannon
-		can_convert_from = {
-			module_category = tank_heavy_main_armament
-			convert_cost_ic = 9
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 1
 		}
 	}
 	tank_heavy_cannon_3 = {
 		abbreviation = "hc3"
+		parent = tank_heavy_cannon_2
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 4
-			chromium = 1
+		allow_equipment_type = {
+			anti_tank
+		}
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 11
 		}
 		add_stats = {
 			build_cost_ic = 11
@@ -1217,13 +1221,9 @@ equipment_modules = {
 			hard_attack = 40
 			soft_attack = 30
 		}
-		allow_equipment_type = {
-			anti_tank
-		}
-		parent = tank_heavy_cannon_2
-		can_convert_from = {
-			module_category = tank_heavy_main_armament
-			convert_cost_ic = 11
+		build_cost_resources = {
+			tungsten = 4
+			chromium = 1
 		}
 	}
 	tank_heavy_howitzer = {
@@ -1231,9 +1231,12 @@ equipment_modules = {
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 3
-			chromium = 2
+		allow_equipment_type = {
+			artillery
+		}
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 8
 		}
 		add_stats = {
 			build_cost_ic = 8
@@ -1243,22 +1246,23 @@ equipment_modules = {
 			hard_attack = 2
 			soft_attack = 50
 		}
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 2
+		}
+	}
+	tank_post_war_howitzer = {
+		abbreviation = "hh2"
+		parent = tank_heavy_howitzer
+		category = tank_heavy_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
 		allow_equipment_type = {
 			artillery
 		}
 		can_convert_from = {
 			module_category = tank_heavy_main_armament
 			convert_cost_ic = 8
-		}
-	}
-	tank_post_war_howitzer = {
-		abbreviation = "hh2"
-		category = tank_heavy_main_armament
-		sfx = sfx_ui_sd_module_turret
-		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 3
-			chromium = 2
 		}
 		add_stats = {
 			build_cost_ic = 10
@@ -1268,23 +1272,23 @@ equipment_modules = {
 			hard_attack = 4
 			soft_attack = 65
 		}
-		allow_equipment_type = {
-			artillery
-		}
-		parent = tank_heavy_howitzer
-		can_convert_from = {
-			module_category = tank_heavy_main_armament
-			convert_cost_ic = 8
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 2
 		}
 	}
 	tank_early_modern_howitzer = {
 		abbreviation = "hh3"
+		parent = tank_post_war_howitzer
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 3
-			chromium = 2
+		allow_equipment_type = {
+			artillery
+		}
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 8
 		}
 		add_stats = {
 			build_cost_ic = 10
@@ -1294,23 +1298,23 @@ equipment_modules = {
 			hard_attack = 6
 			soft_attack = 90
 		}
-		allow_equipment_type = {
-			artillery
-		}
-		parent = tank_post_war_howitzer
-		can_convert_from = {
-			module_category = tank_heavy_main_armament
-			convert_cost_ic = 8
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 2
 		}
 	}
 	tank_modern_howitzer = {
 		abbreviation = "hh4"
+		parent = tank_early_modern_howitzer
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 3
-			chromium = 2
+		allow_equipment_type = {
+			artillery
+		}
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 8
 		}
 		add_stats = {
 			build_cost_ic = 14
@@ -1320,23 +1324,23 @@ equipment_modules = {
 			hard_attack = 8
 			soft_attack = 105
 		}
-		allow_equipment_type = {
-			artillery
-		}
-		parent = tank_early_modern_howitzer
-		can_convert_from = {
-			module_category = tank_heavy_main_armament
-			convert_cost_ic = 8
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 2
 		}
 	}
 	tank_advanced_modern_howitzer = {
 		abbreviation = "hh5"
+		parent = tank_modern_howitzer
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 3
-			chromium = 2
+		allow_equipment_type = {
+			artillery
+		}
+		can_convert_from = {
+			module_category = tank_heavy_main_armament
+			convert_cost_ic = 8
 		}
 		add_stats = {
 			build_cost_ic = 16
@@ -1346,13 +1350,9 @@ equipment_modules = {
 			hard_attack = 10
 			soft_attack = 120
 		}
-		allow_equipment_type = {
-			artillery
-		}
-		parent = tank_modern_howitzer
-		can_convert_from = {
-			module_category = tank_heavy_main_armament
-			convert_cost_ic = 8
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 2
 		}
 	}
 	tank_super_heavy_cannon = {
@@ -1360,9 +1360,8 @@ equipment_modules = {
 		category = tank_super_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 5
-			chromium = 2
+		allow_equipment_type = {
+			anti_tank
 		}
 		add_stats = {
 			build_cost_ic = 12.5
@@ -1372,8 +1371,9 @@ equipment_modules = {
 			hard_attack = 45
 			soft_attack = 35
 		}
-		allow_equipment_type = {
-			anti_tank
+		build_cost_resources = {
+			tungsten = 5
+			chromium = 2
 		}
 	}
 	tank_radio_1 = {
@@ -1391,6 +1391,7 @@ equipment_modules = {
 	}
 	tank_radio_2 = {
 		abbreviation = "rad2"
+		parent = tank_radio_1
 		category = tank_radio_module
 		sfx = sfx_ui_sd_module_turret
 		add_stats = {
@@ -1400,10 +1401,10 @@ equipment_modules = {
 			breakthrough = 0.45
 			defense = 0.45
 		}
-		parent = tank_radio_1
 	}
 	tank_radio_3 = {
 		abbreviation = "rad3"
+		parent = tank_radio_2
 		category = tank_radio_module
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
@@ -1414,20 +1415,12 @@ equipment_modules = {
 			breakthrough = 0.65
 			defense = 0.65
 		}
-		parent = tank_radio_2
 	}
 	amphibious_drive = {
 		abbreviation = "amph"
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		add_stats = {
-			build_cost_ic = 2
-			reliability = -0.15
-		}
-		multiply_stats = {
-			build_cost_ic = 0.1
-		}
 		allow_equipment_type = {
 			amphibious
 		}
@@ -1436,6 +1429,13 @@ equipment_modules = {
 		forbid_equipment_type = anti_tank
 		forbid_equipment_type = flame
 		forbid_equipment_type_exact_match = armor
+		add_stats = {
+			build_cost_ic = 2
+			reliability = -0.15
+		}
+		multiply_stats = {
+			build_cost_ic = 0.1
+		}
 	}
 	secondary_turret_hmg = {
 		abbreviation = "thmg"
@@ -1524,11 +1524,11 @@ equipment_modules = {
 		category = tank_special_module
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		build_cost_resources = {
-			tungsten = 1
-		}
 		multiply_stats = {
 			ap_attack = 0.1
+		}
+		build_cost_resources = {
+			tungsten = 1
 		}
 	}
 	armor_skirts = {
@@ -1729,6 +1729,7 @@ equipment_modules = {
 	}
 	early_modern_radio = {
 		abbreviation = "rad4"
+		parent = tank_radio_3
 		category = tank_radio_module
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
@@ -1739,10 +1740,10 @@ equipment_modules = {
 			breakthrough = 0.8
 			defense = 0.8
 		}
-		parent = tank_radio_3
 	}
 	modern_radio = {
 		abbreviation = "rad5"
+		parent = early_modern_radio
 		category = tank_radio_module
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
@@ -1753,10 +1754,10 @@ equipment_modules = {
 			breakthrough = 1
 			defense = 1
 		}
-		parent = early_modern_radio
 	}
 	long_range_radio = {
 		abbreviation = "rad6"
+		parent = modern_radio
 		category = tank_radio_module
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
@@ -1767,7 +1768,6 @@ equipment_modules = {
 			breakthrough = 1.2
 			defense = 1.2
 		}
-		parent = modern_radio
 	}
 	reactive_plate = {
 		abbreviation = "reac"
@@ -1955,10 +1955,9 @@ equipment_modules = {
 		category = lc_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		dismantle_cost_ic = 1
-		build_cost_resources = {
-			tungsten = 7
-			chromium = 4
+		can_convert_from = {
+			module_category = lc_main_armament
+			convert_cost_ic = 16
 		}
 		add_stats = {
 			build_cost_ic = 20
@@ -1969,21 +1968,20 @@ equipment_modules = {
 			hard_attack = 60
 			soft_attack = 65
 		}
-		can_convert_from = {
-			module_category = lc_main_armament
-			convert_cost_ic = 16
+		build_cost_resources = {
+			tungsten = 7
+			chromium = 4
 		}
+		dismantle_cost_ic = 1
 	}
 	lc_super_heavy_railway_gun = {
 		abbreviation = "shrwg"
 		category = lc_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		dismantle_cost_ic = 1
-		build_cost_resources = {
-			tungsten = 5
-			steel = 5
-			chromium = 3
+		can_convert_from = {
+			module_category = lc_main_armament
+			convert_cost_ic = 16
 		}
 		add_stats = {
 			build_cost_ic = 16
@@ -1994,21 +1992,21 @@ equipment_modules = {
 			hard_attack = 8
 			soft_attack = 85
 		}
-		can_convert_from = {
-			module_category = lc_main_armament
-			convert_cost_ic = 16
+		build_cost_resources = {
+			tungsten = 5
+			steel = 5
+			chromium = 3
 		}
+		dismantle_cost_ic = 1
 	}
 	lc_high_impact_obliterator_cannon = {
 		abbreviation = "hioc"
 		category = lc_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		dismantle_cost_ic = 1
-		build_cost_resources = {
-			tungsten = 7
-			steel = 4
-			chromium = 3
+		can_convert_from = {
+			module_category = lc_main_armament
+			convert_cost_ic = 16
 		}
 		add_stats = {
 			build_cost_ic = 15
@@ -2019,20 +2017,21 @@ equipment_modules = {
 			hard_attack = 75
 			soft_attack = 40
 		}
-		can_convert_from = {
-			module_category = lc_main_armament
-			convert_cost_ic = 16
+		build_cost_resources = {
+			tungsten = 7
+			steel = 4
+			chromium = 3
 		}
+		dismantle_cost_ic = 1
 	}
 	lc_heavy_anti_air_platform = {
 		abbreviation = "haap"
 		category = lc_main_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		dismantle_cost_ic = 1
-		build_cost_resources = {
-			tungsten = 3
-			steel = 5
+		can_convert_from = {
+			module_category = lc_main_armament
+			convert_cost_ic = 16
 		}
 		add_stats = {
 			build_cost_ic = 10
@@ -2043,20 +2042,20 @@ equipment_modules = {
 			hard_attack = 10
 			soft_attack = 20
 		}
-		can_convert_from = {
-			module_category = lc_main_armament
-			convert_cost_ic = 16
+		build_cost_resources = {
+			tungsten = 3
+			steel = 5
 		}
+		dismantle_cost_ic = 1
 	}
 	lc_medium_naval_guns = {
 		abbreviation = "mng"
 		category = lc_secondary_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		dismantle_cost_ic = 1
-		build_cost_resources = {
-			tungsten = 6
-			chromium = 3
+		can_convert_from = {
+			module_category = lc_secondary_armament
+			convert_cost_ic = 12
 		}
 		add_stats = {
 			build_cost_ic = 16
@@ -2067,21 +2066,20 @@ equipment_modules = {
 			hard_attack = 55
 			soft_attack = 45
 		}
-		can_convert_from = {
-			module_category = lc_secondary_armament
-			convert_cost_ic = 12
+		build_cost_resources = {
+			tungsten = 6
+			chromium = 3
 		}
+		dismantle_cost_ic = 1
 	}
 	lc_hull_mounted_railway_gun = {
 		abbreviation = "hmrwg"
 		category = lc_secondary_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		dismantle_cost_ic = 1
-		build_cost_resources = {
-			tungsten = 3
-			steel = 4
-			chromium = 2
+		can_convert_from = {
+			module_category = lc_secondary_armament
+			convert_cost_ic = 12
 		}
 		add_stats = {
 			build_cost_ic = 14
@@ -2092,21 +2090,21 @@ equipment_modules = {
 			hard_attack = 5
 			soft_attack = 75
 		}
-		can_convert_from = {
-			module_category = lc_secondary_armament
-			convert_cost_ic = 12
+		build_cost_resources = {
+			tungsten = 3
+			steel = 4
+			chromium = 2
 		}
+		dismantle_cost_ic = 1
 	}
 	lc_super_heavy_howitzer = {
 		abbreviation = "shh"
 		category = lc_secondary_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		dismantle_cost_ic = 1
-		build_cost_resources = {
-			tungsten = 3
-			steel = 4
-			chromium = 2
+		can_convert_from = {
+			module_category = lc_secondary_armament
+			convert_cost_ic = 10
 		}
 		add_stats = {
 			build_cost_ic = 12
@@ -2117,21 +2115,21 @@ equipment_modules = {
 			hard_attack = 4
 			soft_attack = 65
 		}
-		can_convert_from = {
-			module_category = lc_secondary_armament
-			convert_cost_ic = 10
+		build_cost_resources = {
+			tungsten = 3
+			steel = 4
+			chromium = 2
 		}
+		dismantle_cost_ic = 1
 	}
 	lc_heavy_high_velocity_cannons = {
 		abbreviation = "hhvc"
 		category = lc_secondary_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		dismantle_cost_ic = 1
-		build_cost_resources = {
-			tungsten = 4
-			steel = 4
-			chromium = 2
+		can_convert_from = {
+			module_category = lc_secondary_armament
+			convert_cost_ic = 12
 		}
 		add_stats = {
 			build_cost_ic = 12
@@ -2142,20 +2140,21 @@ equipment_modules = {
 			hard_attack = 60
 			soft_attack = 30
 		}
-		can_convert_from = {
-			module_category = lc_secondary_armament
-			convert_cost_ic = 12
+		build_cost_resources = {
+			tungsten = 4
+			steel = 4
+			chromium = 2
 		}
+		dismantle_cost_ic = 1
 	}
 	lc_heavy_anti_air_battery = {
 		abbreviation = "haab"
 		category = lc_secondary_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		dismantle_cost_ic = 1
-		build_cost_resources = {
-			tungsten = 2
-			steel = 4
+		can_convert_from = {
+			module_category = lc_secondary_armament
+			convert_cost_ic = 12
 		}
 		add_stats = {
 			build_cost_ic = 7
@@ -2165,21 +2164,20 @@ equipment_modules = {
 			hard_attack = 7
 			soft_attack = 14
 		}
-		can_convert_from = {
-			module_category = lc_secondary_armament
-			convert_cost_ic = 12
+		build_cost_resources = {
+			tungsten = 2
+			steel = 4
 		}
+		dismantle_cost_ic = 1
 	}
 	lc_medium_cannon_turret = {
 		abbreviation = "mct"
 		category = lc_additional_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		dismantle_cost_ic = 1
-		build_cost_resources = {
-			tungsten = 1
-			steel = 2
-			chromium = 1
+		can_convert_from = {
+			module_category = lc_additional_armament
+			convert_cost_ic = 4
 		}
 		add_stats = {
 			build_cost_ic = 4
@@ -2190,21 +2188,21 @@ equipment_modules = {
 			hard_attack = 20
 			soft_attack = 32
 		}
-		can_convert_from = {
-			module_category = lc_additional_armament
-			convert_cost_ic = 4
+		build_cost_resources = {
+			tungsten = 1
+			steel = 2
+			chromium = 1
 		}
+		dismantle_cost_ic = 1
 	}
 	lc_assault_gun = {
 		abbreviation = "asg"
 		category = lc_additional_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		dismantle_cost_ic = 1
-		build_cost_resources = {
-			tungsten = 1
-			steel = 3
-			chromium = 1
+		can_convert_from = {
+			module_category = lc_additional_armament
+			convert_cost_ic = 8
 		}
 		add_stats = {
 			build_cost_ic = 8
@@ -2215,21 +2213,21 @@ equipment_modules = {
 			hard_attack = 2
 			soft_attack = 55
 		}
-		can_convert_from = {
-			module_category = lc_additional_armament
-			convert_cost_ic = 8
+		build_cost_resources = {
+			tungsten = 1
+			steel = 3
+			chromium = 1
 		}
+		dismantle_cost_ic = 1
 	}
 	lc_high_velocity_cannon_turret = {
 		abbreviation = "hvct"
 		category = lc_additional_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		dismantle_cost_ic = 1
-		build_cost_resources = {
-			tungsten = 2
-			steel = 3
-			chromium = 1
+		can_convert_from = {
+			module_category = lc_additional_armament
+			convert_cost_ic = 8
 		}
 		add_stats = {
 			build_cost_ic = 7
@@ -2240,20 +2238,21 @@ equipment_modules = {
 			hard_attack = 45
 			soft_attack = 25
 		}
-		can_convert_from = {
-			module_category = lc_additional_armament
-			convert_cost_ic = 8
+		build_cost_resources = {
+			tungsten = 2
+			steel = 3
+			chromium = 1
 		}
+		dismantle_cost_ic = 1
 	}
 	lc_light_anti_air_battery = {
 		abbreviation = "laab"
 		category = lc_additional_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		dismantle_cost_ic = 1
-		build_cost_resources = {
-			tungsten = 1
-			steel = 3
+		can_convert_from = {
+			module_category = lc_additional_armament
+			convert_cost_ic = 8
 		}
 		add_stats = {
 			build_cost_ic = 4
@@ -2262,19 +2261,20 @@ equipment_modules = {
 			hard_attack = 5
 			soft_attack = 10
 		}
-		can_convert_from = {
-			module_category = lc_additional_armament
-			convert_cost_ic = 8
+		build_cost_resources = {
+			tungsten = 1
+			steel = 3
 		}
+		dismantle_cost_ic = 1
 	}
 	lc_flamethrower_turret = {
 		abbreviation = "ftt"
 		category = lc_additional_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		dismantle_cost_ic = 1
-		build_cost_resources = {
-			steel = 1
+		can_convert_from = {
+			module_category = lc_additional_armament
+			convert_cost_ic = 1
 		}
 		add_stats = {
 			build_cost_ic = 1
@@ -2282,20 +2282,19 @@ equipment_modules = {
 			breakthrough = 8
 			soft_attack = 8
 		}
-		can_convert_from = {
-			module_category = lc_additional_armament
-			convert_cost_ic = 1
+		build_cost_resources = {
+			steel = 1
 		}
+		dismantle_cost_ic = 1
 	}
 	lc_rocket_launcher = {
 		abbreviation = "rol"
 		category = lc_additional_armament
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
-		dismantle_cost_ic = 1
-		build_cost_resources = {
-			tungsten = 2
-			steel = 1
+		can_convert_from = {
+			module_category = lc_additional_armament
+			convert_cost_ic = 5
 		}
 		add_stats = {
 			build_cost_ic = 5
@@ -2306,10 +2305,11 @@ equipment_modules = {
 			hard_attack = 1
 			soft_attack = 35
 		}
-		can_convert_from = {
-			module_category = lc_additional_armament
-			convert_cost_ic = 5
+		build_cost_resources = {
+			tungsten = 2
+			steel = 1
 		}
+		dismantle_cost_ic = 1
 	}
 	lc_radio_1 = {
 		abbreviation = "lcrad1"
@@ -2326,6 +2326,7 @@ equipment_modules = {
 	}
 	lc_radio_2 = {
 		abbreviation = "lcrad2"
+		parent = lc_radio_1
 		category = lc_radio_module
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
@@ -2336,10 +2337,10 @@ equipment_modules = {
 			breakthrough = 0.25
 			defense = 0.4
 		}
-		parent = lc_radio_1
 	}
 	lc_radio_3 = {
 		abbreviation = "lcrad3"
+		parent = lc_radio_2
 		category = lc_radio_module
 		sfx = sfx_ui_sd_module_turret
 		xp_cost = 1
@@ -2350,7 +2351,6 @@ equipment_modules = {
 			breakthrough = 0.4
 			defense = 0.6
 		}
-		parent = lc_radio_2
 	}
 	lc_command_center = {
 		abbreviation = "coc"

@@ -3,18 +3,11 @@ equipments = {
 		is_archetype = yes
 		is_convertable = yes
 		is_buildable = no
+		type = motorized
+		year = 1939
 		group_by = archetype
 		picture = archetype_armored_car_equipment
-		fuel_consumption = 1.8
-		build_cost_ic = 5.5
-		lend_lease_cost = 10
-		maximum_speed = 12
 		interface_category = interface_category_armor
-		year = 1939
-		reliability = 0.8
-		resources = {
-			steel = 2
-		}
 		soft_attack = 13
 		hard_attack = 4
 		ap_attack = 8
@@ -22,7 +15,14 @@ equipments = {
 		breakthrough = 16
 		hardness = 0.65
 		armor_value = 10
-		type = motorized
+		maximum_speed = 12
+		reliability = 0.8
+		fuel_consumption = 1.8
+		build_cost_ic = 5.5
+		lend_lease_cost = 10
+		resources = {
+			steel = 2
+		}
 		upgrades = {
 			tank_reliability_upgrade
 			ac_engine_upgrade
@@ -31,40 +31,36 @@ equipments = {
 		}
 	}
 	gw_armored_car_equipment = {
-		fuel_consumption = 0.8
-		build_cost_ic = 3.5
-		maximum_speed = 9
+		archetype = armored_car_equipment
 		year = 1914
-		reliability = 0.8
-		priority = 5
 		visual_level = 0
+		priority = 5
 		soft_attack = 6
 		hard_attack = 2
 		ap_attack = 6
 		defense = 2
 		breakthrough = 12
 		armor_value = 3
-		archetype = armored_car_equipment
+		maximum_speed = 9
+		reliability = 0.8
+		fuel_consumption = 0.8
+		build_cost_ic = 3.5
 	}
 	armored_car_equipment_1 = {
 		is_convertable = yes
-		year = 1934
-		priority = 10
-		visual_level = 0
 		parent = gw_armored_car_equipment
 		archetype = armored_car_equipment
+		year = 1934
+		visual_level = 0
+		priority = 10
 	}
 	armored_car_equipment_2 = {
 		is_convertable = yes
-		build_cost_ic = 7.5
-		maximum_speed = 15
+		parent = armored_car_equipment_1
+		archetype = armored_car_equipment
 		year = 1941
-		priority = 10
 		visual_level = 1
-		resources = {
-			tungsten = 1
-			steel = 2
-		}
+		priority = 10
 		soft_attack = 16
 		hard_attack = 8
 		ap_attack = 36
@@ -72,22 +68,20 @@ equipments = {
 		breakthrough = 28
 		hardness = 0.7
 		armor_value = 20
-		parent = armored_car_equipment_1
-		archetype = armored_car_equipment
-	}
-	armored_car_at_equipment = {
-		is_convertable = yes
-		fuel_consumption = 1.8
-		build_cost_ic = 8.5
-		maximum_speed = 16
-		year = 1941
-		reliability = 0.8
-		priority = 10
-		visual_level = 1
+		maximum_speed = 15
+		build_cost_ic = 7.5
 		resources = {
 			tungsten = 1
 			steel = 2
 		}
+	}
+	armored_car_at_equipment = {
+		is_convertable = yes
+		parent = armored_car_equipment_2
+		archetype = armored_car_equipment
+		year = 1941
+		visual_level = 1
+		priority = 10
 		soft_attack = 12
 		hard_attack = 14
 		ap_attack = 62
@@ -95,20 +89,22 @@ equipments = {
 		breakthrough = 28
 		hardness = 0.7
 		armor_value = 20
-		parent = armored_car_equipment_2
-		archetype = armored_car_equipment
+		maximum_speed = 16
+		reliability = 0.8
+		fuel_consumption = 1.8
+		build_cost_ic = 8.5
+		resources = {
+			tungsten = 1
+			steel = 2
+		}
 	}
 	armored_car_equipment_3 = {
 		is_convertable = yes
-		build_cost_ic = 10
-		maximum_speed = 17
+		parent = armored_car_equipment_2
+		archetype = armored_car_equipment
 		year = 1950
-		priority = 10
 		visual_level = 1
-		resources = {
-			tungsten = 1
-			steel = 3
-		}
+		priority = 10
 		soft_attack = 18
 		hard_attack = 10
 		ap_attack = 52
@@ -116,20 +112,20 @@ equipments = {
 		breakthrough = 30
 		hardness = 0.72
 		armor_value = 25
-		parent = armored_car_equipment_2
-		archetype = armored_car_equipment
+		maximum_speed = 17
+		build_cost_ic = 10
+		resources = {
+			tungsten = 1
+			steel = 3
+		}
 	}
 	armored_car_equipment_4 = {
 		is_convertable = yes
-		build_cost_ic = 12
-		maximum_speed = 19
+		parent = armored_car_equipment_3
+		archetype = armored_car_equipment
 		year = 1960
-		priority = 10
 		visual_level = 1
-		resources = {
-			tungsten = 2
-			steel = 3
-		}
+		priority = 10
 		soft_attack = 20
 		hard_attack = 11
 		ap_attack = 60
@@ -137,20 +133,20 @@ equipments = {
 		breakthrough = 32
 		hardness = 0.74
 		armor_value = 30
-		parent = armored_car_equipment_3
-		archetype = armored_car_equipment
+		maximum_speed = 19
+		build_cost_ic = 12
+		resources = {
+			tungsten = 2
+			steel = 3
+		}
 	}
 	armored_car_equipment_5 = {
 		is_convertable = yes
-		build_cost_ic = 15
-		maximum_speed = 24
+		parent = armored_car_equipment_4
+		archetype = armored_car_equipment
 		year = 1970
-		priority = 10
 		visual_level = 1
-		resources = {
-			tungsten = 3
-			steel = 3
-		}
+		priority = 10
 		soft_attack = 22
 		hard_attack = 13
 		ap_attack = 88
@@ -158,7 +154,11 @@ equipments = {
 		breakthrough = 35
 		hardness = 0.76
 		armor_value = 35
-		parent = armored_car_equipment_4
-		archetype = armored_car_equipment
+		maximum_speed = 24
+		build_cost_ic = 15
+		resources = {
+			tungsten = 3
+			steel = 3
+		}
 	}
 }

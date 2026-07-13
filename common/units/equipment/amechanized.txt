@@ -3,89 +3,89 @@ equipments = {
 		is_archetype = yes
 		is_convertable = yes
 		is_buildable = no
+		type = mechanized
+		year = 1960
 		group_by = archetype
 		picture = archetype_motorized_equipment
-		fuel_consumption = 1.2
-		build_cost_ic = 28
-		lend_lease_cost = 5
-		maximum_speed = 20
 		interface_category = interface_category_land
-		year = 1960
-		reliability = 0.8
-		resources = {
-			tungsten = 2
-			steel = 2
-		}
 		soft_attack = 20
 		defense = 45
 		breakthrough = 8
 		hardness = 0.8
 		armor_value = 35
-		type = mechanized
+		maximum_speed = 20
+		reliability = 0.8
+		fuel_consumption = 1.2
+		build_cost_ic = 28
+		lend_lease_cost = 5
+		resources = {
+			tungsten = 2
+			steel = 2
+		}
 	}
 	amechanized_equipment_1 = {
 		is_convertable = yes
-		fuel_consumption = 1.2
-		build_cost_ic = 32
-		maximum_speed = 22
+		archetype = amechanized_equipment
 		year = 1970
-		priority = 40
 		visual_level = 2
-		resources = {
-			tungsten = 2
-			steel = 3
-		}
+		priority = 40
 		soft_attack = 20
 		defense = 45
 		breakthrough = 9
 		hardness = 0.8
 		armor_value = 35
-		archetype = amechanized_equipment
+		maximum_speed = 22
+		fuel_consumption = 1.2
+		build_cost_ic = 32
+		resources = {
+			tungsten = 2
+			steel = 3
+		}
 	}
 	amechanized_equipment_2 = {
 		is_convertable = yes
-		fuel_consumption = 1.2
-		build_cost_ic = 36
-		maximum_speed = 24
+		parent = amechanized_equipment_1
+		archetype = amechanized_equipment
 		year = 1980
-		priority = 40
 		visual_level = 2
-		resources = {
-			tungsten = 2
-			steel = 4
-		}
+		priority = 40
 		soft_attack = 25
 		defense = 50
 		breakthrough = 10
 		hardness = 0.8
 		armor_value = 40
-		parent = amechanized_equipment_1
-		archetype = amechanized_equipment
+		maximum_speed = 24
+		fuel_consumption = 1.2
+		build_cost_ic = 36
 		can_convert_from = {
 			amechanized_equipment_1
 		}
-	}
-	amechanized_equipment_3 = {
-		is_convertable = yes
-		fuel_consumption = 1.2
-		build_cost_ic = 40
-		maximum_speed = 26
-		year = 1990
-		priority = 40
-		visual_level = 2
 		resources = {
 			tungsten = 2
 			steel = 4
 		}
+	}
+	amechanized_equipment_3 = {
+		is_convertable = yes
+		parent = amechanized_equipment_2
+		archetype = amechanized_equipment
+		year = 1990
+		visual_level = 2
+		priority = 40
 		soft_attack = 30
 		defense = 55
 		breakthrough = 12
 		hardness = 0.8
 		armor_value = 45
-		parent = amechanized_equipment_2
-		archetype = amechanized_equipment
+		maximum_speed = 26
+		fuel_consumption = 1.2
+		build_cost_ic = 40
 		can_convert_from = {
 			amechanized_equipment_1
+		}
+		resources = {
+			tungsten = 2
+			steel = 4
 		}
 	}
 }

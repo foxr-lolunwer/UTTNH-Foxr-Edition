@@ -2,26 +2,10 @@ equipments = {
 	ship_hull_carrier = {
 		is_archetype = yes
 		is_buildable = no
-		group_by = archetype
-		fuel_consumption = 87
-		build_cost_ic = 2094
-		interface_category = interface_category_capital_ships
-		manpower = 4500
 		year = 1922
-		reliability = 0.7
-		priority = 1000
+		group_by = archetype
 		sprite = carrier
-		resources = {
-			chromium = 1
-			steel = 3
-		}
-		max_strength = 250
-		naval_dominance_factor = 300
-		naval_range = 3000
-		naval_speed = 26
-		sub_detection = 5
-		surface_detection = 26
-		surface_visibility = 30
+		interface_category = interface_category_capital_ships
 		can_be_produced = { if = { limit = { has_dlc = "Arms Against Tyranny" } NOT = { has_idea = BUL_army_restrictions_aat } } else = { NOT = { has_idea = BUL_army_restrictions } } }
 		type = carrier
 		upgrades = {
@@ -29,6 +13,22 @@ equipments = {
 			carrier_armor_upgrade
 			ship_engine_upgrade
 			ship_reliability_upgrade
+		}
+		priority = 1000
+		max_strength = 250
+		naval_dominance_factor = 300
+		naval_range = 3000
+		naval_speed = 26
+		sub_detection = 5
+		surface_detection = 26
+		surface_visibility = 30
+		manpower = 4500
+		reliability = 0.7
+		fuel_consumption = 87
+		build_cost_ic = 2094
+		resources = {
+			chromium = 1
+			steel = 3
 		}
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
@@ -93,6 +93,14 @@ equipments = {
 				}
 			}
 		}
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
+		module_count_limit = {
+			category = ship_carrier_armor
+			count < 2
+		}
 		default_modules = {
 			fixed_ship_deck_slot_1 = empty
 			fixed_ship_deck_slot_2 = empty
@@ -102,45 +110,37 @@ equipments = {
 			fixed_ship_secondaries_slot = empty
 			front_1_custom_slot = empty
 		}
-		module_count_limit = {
-			category = ship_radar
-			count < 2
-		}
-		module_count_limit = {
-			category = ship_carrier_armor
-			count < 2
-		}
 	}
 	ship_hull_carrier_1 = {
-		year = 1936
-		priority = 1000
-		visual_level = 1
 		abbreviation = "haa"
+		archetype = ship_hull_carrier
+		year = 1936
+		visual_level = 1
+		priority = 1000
 		naval_dominance_factor = 300
 		visual_tech_level_addition = 2
-		archetype = ship_hull_carrier
+		module_slots = inherit
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_2
 		}
-		module_slots = inherit
 	}
 	ship_hull_carrier_2 = {
-		build_cost_ic = 2600
-		manpower = 5000
-		year = 1940
-		reliability = 0.75
-		priority = 1000
-		visual_level = 1
 		abbreviation = "hab"
+		parent = ship_hull_carrier_1
+		archetype = ship_hull_carrier
+		year = 1940
+		visual_level = 1
+		priority = 1000
+		max_strength = 325
+		naval_dominance_factor = 300
+		naval_range = 4000
+		manpower = 5000
+		reliability = 0.75
+		build_cost_ic = 2600
 		resources = {
 			chromium = 1
 			steel = 4
 		}
-		max_strength = 325
-		naval_dominance_factor = 300
-		naval_range = 4000
-		parent = ship_hull_carrier_1
-		archetype = ship_hull_carrier
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
@@ -183,22 +183,22 @@ equipments = {
 		}
 	}
 	ship_hull_carrier_3 = {
-		build_cost_ic = 3250
-		manpower = 5500
-		year = 1944
-		reliability = 0.8
-		priority = 1000
-		visual_level = 1
 		abbreviation = "hac"
+		parent = ship_hull_carrier_2
+		archetype = ship_hull_carrier
+		year = 1944
+		visual_level = 1
+		priority = 1000
+		max_strength = 350
+		naval_dominance_factor = 350
+		naval_range = 5000
+		manpower = 5500
+		reliability = 0.8
+		build_cost_ic = 3250
 		resources = {
 			chromium = 2
 			steel = 4
 		}
-		max_strength = 350
-		naval_dominance_factor = 350
-		naval_range = 5000
-		parent = ship_hull_carrier_2
-		archetype = ship_hull_carrier
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
@@ -250,24 +250,24 @@ equipments = {
 		}
 	}
 	ship_hull_carrier_modern = {
-		fuel_consumption = 90
-		build_cost_ic = 4250
-		manpower = 6500
-		year = 1948
-		reliability = 0.85
-		priority = 1000
-		visual_level = 1
 		abbreviation = "hacm"
-		resources = {
-			chromium = 3
-			steel = 5
-		}
+		parent = ship_hull_carrier_3
+		archetype = ship_hull_carrier
+		year = 1948
+		visual_level = 1
+		priority = 1000
 		max_strength = 400
 		naval_dominance_factor = 400
 		naval_range = 7500
 		naval_speed = 30
-		parent = ship_hull_carrier_3
-		archetype = ship_hull_carrier
+		manpower = 6500
+		reliability = 0.85
+		fuel_consumption = 90
+		build_cost_ic = 4250
+		resources = {
+			chromium = 3
+			steel = 5
+		}
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
@@ -325,24 +325,24 @@ equipments = {
 		}
 	}
 	ship_hull_mega_carrier = {
-		fuel_consumption = 95
-		build_cost_ic = 4500
-		manpower = 6000
-		year = 1944
-		reliability = 0.8
-		priority = 1000
-		visual_level = 1
 		abbreviation = "hamc"
-		resources = {
-			chromium = 2
-			steel = 5
-		}
+		archetype = ship_hull_carrier
+		year = 1944
+		visual_level = 1
+		priority = 1000
 		max_strength = 350
 		naval_dominance_factor = 350
 		naval_range = 7000
 		naval_speed = 18
 		surface_visibility = 40
-		archetype = ship_hull_carrier
+		manpower = 6000
+		reliability = 0.8
+		fuel_consumption = 95
+		build_cost_ic = 4500
+		resources = {
+			chromium = 2
+			steel = 5
+		}
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
 				required = yes
@@ -405,28 +405,28 @@ equipments = {
 		}
 	}
 	ship_hull_carrier_conversion_bb = {
-		build_cost_ic = 2700
-		manpower = 5000
-		year = 1922
-		reliability = 0.65
-		priority = 1100
-		visual_level = 0
 		abbreviation = "had"
-		resources = {
-			chromium = 1
-			steel = 4
-		}
+		archetype = ship_hull_carrier
+		year = 1922
+		visual_level = 0
+		priority = 1100
 		max_strength = 325
 		naval_dominance_factor = 250
 		naval_range = 4000
 		naval_speed = 25
-		archetype = ship_hull_carrier
+		manpower = 5000
+		reliability = 0.65
+		build_cost_ic = 2700
 		can_convert_from = {
 			ship_hull_heavy_1
 			ship_hull_heavy_2
 			ship_hull_heavy_3
 			ship_hull_heavy_4
 			ship_hull_super_heavy_1
+		}
+		resources = {
+			chromium = 1
+			steel = 4
 		}
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
@@ -458,27 +458,27 @@ equipments = {
 		}
 	}
 	ship_hull_carrier_conversion_ca = {
-		build_cost_ic = 2700
-		manpower = 1000
-		year = 1922
-		reliability = 0.65
-		priority = 1200
-		visual_level = 0
 		abbreviation = "hae"
-		resources = {
-			steel = 3
-		}
+		archetype = ship_hull_carrier
+		year = 1922
+		visual_level = 0
+		priority = 1200
 		max_strength = 125
 		naval_dominance_factor = 200
 		naval_range = 4000
 		naval_speed = 22.5
-		archetype = ship_hull_carrier
+		manpower = 1000
+		reliability = 0.65
+		build_cost_ic = 2700
 		can_convert_from = {
 			ship_hull_cruiser_1
 			ship_hull_cruiser_2
 			ship_hull_cruiser_3
 			ship_hull_cruiser_4
 			ship_hull_cruiser_panzerschiff
+		}
+		resources = {
+			steel = 3
 		}
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
@@ -505,18 +505,11 @@ equipments = {
 		}
 	}
 	ship_hull_escort_carrier = {
-		fuel_consumption = 87
-		build_cost_ic = 1500
-		manpower = 2500
-		year = 1936
-		reliability = 0.7
-		priority = 1000
-		visual_level = 1
 		abbreviation = "hacve"
-		resources = {
-			chromium = 1
-			steel = 2
-		}
+		archetype = ship_hull_carrier
+		year = 1936
+		visual_level = 1
+		priority = 1000
 		max_strength = 175
 		naval_dominance_factor = 175
 		naval_range = 3000
@@ -524,7 +517,14 @@ equipments = {
 		sub_detection = 5
 		surface_detection = 26
 		surface_visibility = 30
-		archetype = ship_hull_carrier
+		manpower = 2500
+		reliability = 0.7
+		fuel_consumption = 87
+		build_cost_ic = 1500
+		resources = {
+			chromium = 1
+			steel = 2
+		}
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
 				required = yes
@@ -569,21 +569,21 @@ equipments = {
 		}
 	}
 	ship_hull_carrier_5 = {
-		build_cost_ic = 4250
-		manpower = 5500
+		parent = ship_hull_carrier_3
+		archetype = ship_hull_carrier
 		year = 1950
-		reliability = 1.01
-		priority = 1000
 		visual_level = 1
+		priority = 1000
+		max_strength = 400
+		naval_dominance_factor = 450
+		naval_range = 5500
+		manpower = 5500
+		reliability = 1.01
+		build_cost_ic = 4250
 		resources = {
 			chromium = 2
 			steel = 4
 		}
-		max_strength = 400
-		naval_dominance_factor = 450
-		naval_range = 5500
-		parent = ship_hull_carrier_3
-		archetype = ship_hull_carrier
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
@@ -652,21 +652,21 @@ equipments = {
 		}
 	}
 	ship_hull_carrier_6 = {
-		build_cost_ic = 4500
-		manpower = 5500
+		parent = ship_hull_carrier_5
+		archetype = ship_hull_carrier
 		year = 1955
-		reliability = 1.05
-		priority = 1000
 		visual_level = 1
+		priority = 1000
+		max_strength = 425
+		naval_dominance_factor = 450
+		naval_range = 5750
+		manpower = 5500
+		reliability = 1.05
+		build_cost_ic = 4500
 		resources = {
 			chromium = 2
 			steel = 4
 		}
-		max_strength = 425
-		naval_dominance_factor = 450
-		naval_range = 5750
-		parent = ship_hull_carrier_5
-		archetype = ship_hull_carrier
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
@@ -752,21 +752,21 @@ equipments = {
 		}
 	}
 	ship_hull_carrier_7 = {
-		build_cost_ic = 4500
-		manpower = 5500
+		parent = ship_hull_carrier_6
+		archetype = ship_hull_carrier
 		year = 1960
-		reliability = 1.1
-		priority = 1000
 		visual_level = 1
+		priority = 1000
+		max_strength = 425
+		naval_dominance_factor = 500
+		naval_range = 5750
+		manpower = 5500
+		reliability = 1.1
+		build_cost_ic = 4500
 		resources = {
 			chromium = 2
 			steel = 4
 		}
-		max_strength = 425
-		naval_dominance_factor = 500
-		naval_range = 5750
-		parent = ship_hull_carrier_6
-		archetype = ship_hull_carrier
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
@@ -852,21 +852,21 @@ equipments = {
 		}
 	}
 	ship_hull_carrier_8 = {
-		build_cost_ic = 4500
-		manpower = 5500
+		parent = ship_hull_carrier_7
+		archetype = ship_hull_carrier
 		year = 1970
-		reliability = 1.15
-		priority = 1000
 		visual_level = 1
+		priority = 1000
+		max_strength = 425
+		naval_dominance_factor = 500
+		naval_range = 5750
+		manpower = 5500
+		reliability = 1.15
+		build_cost_ic = 4500
 		resources = {
 			chromium = 2
 			steel = 4
 		}
-		max_strength = 425
-		naval_dominance_factor = 500
-		naval_range = 5750
-		parent = ship_hull_carrier_7
-		archetype = ship_hull_carrier
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
@@ -944,21 +944,21 @@ equipments = {
 		}
 	}
 	ship_hull_carrier_9 = {
-		build_cost_ic = 4500
-		manpower = 5500
+		parent = ship_hull_carrier_8
+		archetype = ship_hull_carrier
 		year = 1980
-		reliability = 1.22
-		priority = 1000
 		visual_level = 1
+		priority = 1000
+		max_strength = 425
+		naval_dominance_factor = 550
+		naval_range = 5750
+		manpower = 5500
+		reliability = 1.22
+		build_cost_ic = 4500
 		resources = {
 			chromium = 2
 			steel = 4
 		}
-		max_strength = 425
-		naval_dominance_factor = 550
-		naval_range = 5750
-		parent = ship_hull_carrier_8
-		archetype = ship_hull_carrier
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
@@ -1036,21 +1036,21 @@ equipments = {
 		}
 	}
 	ship_hull_carrier_10 = {
-		build_cost_ic = 4500
-		manpower = 5500
+		parent = ship_hull_carrier_9
+		archetype = ship_hull_carrier
 		year = 1990
-		reliability = 1.26
-		priority = 1000
 		visual_level = 1
+		priority = 1000
+		max_strength = 425
+		naval_dominance_factor = 550
+		naval_range = 5750
+		manpower = 5500
+		reliability = 1.26
+		build_cost_ic = 4500
 		resources = {
 			chromium = 2
 			steel = 4
 		}
-		max_strength = 425
-		naval_dominance_factor = 550
-		naval_range = 5750
-		parent = ship_hull_carrier_9
-		archetype = ship_hull_carrier
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
@@ -1130,19 +1130,12 @@ equipments = {
 	ship_hull_bc_carrier = {
 		is_archetype = yes
 		is_buildable = no
-		group_by = archetype
-		fuel_consumption = 87
-		build_cost_ic = 2450
-		interface_category = interface_category_capital_ships
-		manpower = 4500
+		type = carrier
 		year = 1922
-		reliability = 0.7
-		priority = 1000
+		group_by = archetype
 		sprite = carrier
-		resources = {
-			chromium = 1
-			steel = 3
-		}
+		interface_category = interface_category_capital_ships
+		priority = 1000
 		max_strength = 250
 		naval_dominance_factor = 250
 		naval_range = 3000
@@ -1150,12 +1143,13 @@ equipments = {
 		sub_detection = 5
 		surface_detection = 20
 		surface_visibility = 30
-		type = carrier
-		upgrades = {
-			ship_deckspace_upgrade
-			carrier_armor_upgrade
-			ship_engine_upgrade
-			ship_reliability_upgrade
+		manpower = 4500
+		reliability = 0.7
+		fuel_consumption = 87
+		build_cost_ic = 2450
+		resources = {
+			chromium = 1
+			steel = 3
 		}
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
@@ -1204,6 +1198,10 @@ equipments = {
 				}
 			}
 		}
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
 		default_modules = {
 			fixed_ship_deck_slot_1 = empty
 			fixed_ship_deck_slot_2 = empty
@@ -1212,36 +1210,38 @@ equipments = {
 			fixed_ship_secondaries_slot = empty
 			front_1_custom_slot = empty
 		}
-		module_count_limit = {
-			category = ship_radar
-			count < 2
+		upgrades = {
+			ship_deckspace_upgrade
+			carrier_armor_upgrade
+			ship_engine_upgrade
+			ship_reliability_upgrade
 		}
 	}
 	ship_hull_bc_carrier_1 = {
+		archetype = ship_hull_carrier
 		year = 1960
-		priority = 1000
 		visual_level = 1
+		priority = 1000
 		naval_dominance_factor = 250
 		visual_tech_level_addition = 2
-		archetype = ship_hull_carrier
 		module_slots = inherit
 	}
 	ship_hull_bc_carrier_2 = {
-		build_cost_ic = 4500
-		manpower = 5500
+		parent = ship_hull_bc_carrier_1
+		archetype = ship_hull_carrier
 		year = 1970
-		reliability = 1.15
-		priority = 1000
 		visual_level = 1
+		priority = 1000
+		max_strength = 425
+		naval_dominance_factor = 250
+		naval_range = 5750
+		manpower = 5500
+		reliability = 1.15
+		build_cost_ic = 4500
 		resources = {
 			chromium = 2
 			steel = 4
 		}
-		max_strength = 425
-		naval_dominance_factor = 250
-		naval_range = 5750
-		parent = ship_hull_bc_carrier_1
-		archetype = ship_hull_carrier
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
@@ -1315,21 +1315,21 @@ equipments = {
 		}
 	}
 	ship_hull_bc_carrier_3 = {
-		build_cost_ic = 4500
-		manpower = 5500
+		parent = ship_hull_bc_carrier_2
+		archetype = ship_hull_carrier
 		year = 1980
-		reliability = 1.2
-		priority = 1000
 		visual_level = 1
+		priority = 1000
+		max_strength = 425
+		naval_dominance_factor = 250
+		naval_range = 5750
+		manpower = 5500
+		reliability = 1.2
+		build_cost_ic = 4500
 		resources = {
 			chromium = 2
 			steel = 4
 		}
-		max_strength = 425
-		naval_dominance_factor = 250
-		naval_range = 5750
-		parent = ship_hull_bc_carrier_2
-		archetype = ship_hull_carrier
 		module_slots = {
 			fixed_ship_deck_slot_1 = inherit
 			fixed_ship_deck_slot_2 = inherit
@@ -1402,17 +1402,10 @@ equipments = {
 		}
 	}
 	carrier_1 = {
-		fuel_consumption = 87
-		build_cost_ic = 3750
-		manpower = 4500
+		archetype = ship_hull_carrier
 		year = 1922
-		reliability = 0.7
-		priority = 1000
 		visual_level = 1
-		resources = {
-			chromium = 1
-			steel = 3
-		}
+		priority = 1000
 		armor_value = 7
 		carrier_size = 5
 		max_strength = 250
@@ -1421,7 +1414,14 @@ equipments = {
 		sub_detection = 5
 		surface_detection = 10
 		surface_visibility = 30
-		archetype = ship_hull_carrier
+		manpower = 4500
+		reliability = 0.7
+		fuel_consumption = 87
+		build_cost_ic = 3750
+		resources = {
+			chromium = 1
+			steel = 3
+		}
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
 				required = yes
@@ -1481,18 +1481,13 @@ equipments = {
 		}
 	}
 	carrier_2 = {
-		build_cost_ic = 4500
-		manpower = 5000
+		parent = carrier_1
+		archetype = ship_hull_carrier
 		year = 1936
-		reliability = 0.8
-		priority = 1000
 		visual_level = 1
-		resources = {
-			chromium = 1
-			steel = 4
-		}
-		anti_air_attack = 2
+		priority = 1000
 		armor_value = 9
+		anti_air_attack = 2
 		carrier_size = 15
 		max_strength = 325
 		naval_range = 4000
@@ -1500,8 +1495,13 @@ equipments = {
 		sub_detection = 5
 		surface_detection = 10
 		surface_visibility = 30
-		parent = carrier_1
-		archetype = ship_hull_carrier
+		manpower = 5000
+		reliability = 0.8
+		build_cost_ic = 4500
+		resources = {
+			chromium = 1
+			steel = 4
+		}
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
 				required = yes
@@ -1561,18 +1561,13 @@ equipments = {
 		}
 	}
 	carrier_3 = {
-		build_cost_ic = 5250
-		manpower = 5500
+		parent = carrier_2
+		archetype = ship_hull_carrier
 		year = 1940
-		reliability = 0.85
-		priority = 1000
 		visual_level = 1
-		resources = {
-			chromium = 2
-			steel = 4
-		}
-		anti_air_attack = 8
+		priority = 1000
 		armor_value = 11
+		anti_air_attack = 8
 		carrier_size = 10
 		max_strength = 350
 		naval_range = 5000
@@ -1580,8 +1575,14 @@ equipments = {
 		sub_detection = 5
 		surface_detection = 20
 		surface_visibility = 30
-		parent = carrier_2
-		archetype = ship_hull_carrier
+		manpower = 5500
+		reliability = 0.85
+		build_cost_ic = 5250
+		resources = {
+			chromium = 2
+			steel = 4
+		}
+		module_slots = inherit
 		default_modules = {
 			fixed_ship_deck_slot_1 = ship_deck_space
 			fixed_ship_deck_slot_2 = ship_deck_space
@@ -1591,21 +1592,15 @@ equipments = {
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			front_1_custom_slot = ship_deck_space
 		}
-		module_slots = inherit
 	}
 	carrier_4 = {
-		build_cost_ic = 6000
-		manpower = 6000
+		parent = carrier_3
+		archetype = ship_hull_carrier
 		year = 1944
-		reliability = 0.9
-		priority = 1000
 		visual_level = 1
-		resources = {
-			chromium = 2
-			steel = 5
-		}
-		anti_air_attack = 10
+		priority = 1000
 		armor_value = 13
+		anti_air_attack = 10
 		carrier_size = 25
 		max_strength = 400
 		naval_range = 6000
@@ -1613,8 +1608,14 @@ equipments = {
 		sub_detection = 5
 		surface_detection = 30
 		surface_visibility = 30
-		parent = carrier_3
-		archetype = ship_hull_carrier
+		manpower = 6000
+		reliability = 0.9
+		build_cost_ic = 6000
+		resources = {
+			chromium = 2
+			steel = 5
+		}
+		module_slots = inherit
 		default_modules = {
 			fixed_ship_deck_slot_1 = ship_deck_space
 			fixed_ship_deck_slot_2 = ship_deck_space
@@ -1624,22 +1625,14 @@ equipments = {
 			fixed_ship_secondaries_slot = ship_secondaries_1
 			front_1_custom_slot = ship_deck_space
 		}
-		module_slots = inherit
 	}
 	modern_carrier = {
-		fuel_consumption = 94
-		build_cost_ic = 6500
-		manpower = 7000
+		archetype = ship_hull_carrier
 		year = 1954
-		reliability = 0.9
-		priority = 1000
 		visual_level = 1
-		resources = {
-			chromium = 2
-			steel = 5
-		}
-		anti_air_attack = 10
+		priority = 1000
 		armor_value = 13
+		anti_air_attack = 10
 		carrier_size = 10
 		max_strength = 475
 		naval_range = 8000
@@ -1647,12 +1640,13 @@ equipments = {
 		sub_detection = 5
 		surface_detection = 30
 		surface_visibility = 30
-		archetype = ship_hull_carrier
-		upgrades = {
-			ship_deckspace_upgrade
-			carrier_armor_upgrade
-			ship_engine_upgrade
-			ship_reliability_upgrade
+		manpower = 7000
+		reliability = 0.9
+		fuel_consumption = 94
+		build_cost_ic = 6500
+		resources = {
+			chromium = 2
+			steel = 5
 		}
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
@@ -1747,30 +1741,30 @@ equipments = {
 			mid_2_custom_slot = ship_deck_space
 			rear_1_custom_slot = ship_deck_space
 		}
-	}
-	mega_carrier = {
-		fuel_consumption = 95
-		build_cost_ic = 4500
-		manpower = 6000
-		year = 1944
-		reliability = 0.8
-		priority = 1000
-		visual_level = 1
-		abbreviation = "had"
-		resources = {
-			chromium = 2
-			steel = 5
-		}
-		max_strength = 350
-		naval_range = 7000
-		naval_speed = 18
-		surface_visibility = 40
-		archetype = ship_hull_carrier
 		upgrades = {
 			ship_deckspace_upgrade
 			carrier_armor_upgrade
 			ship_engine_upgrade
 			ship_reliability_upgrade
+		}
+	}
+	mega_carrier = {
+		abbreviation = "had"
+		archetype = ship_hull_carrier
+		year = 1944
+		visual_level = 1
+		priority = 1000
+		max_strength = 350
+		naval_range = 7000
+		naval_speed = 18
+		surface_visibility = 40
+		manpower = 6000
+		reliability = 0.8
+		fuel_consumption = 95
+		build_cost_ic = 4500
+		resources = {
+			chromium = 2
+			steel = 5
 		}
 		module_slots = {
 			fixed_ship_deck_slot_1 = {
@@ -1864,6 +1858,12 @@ equipments = {
 			mid_1_custom_slot = ship_secondaries_1
 			mid_2_custom_slot = big_ship_deck_space
 			rear_1_custom_slot = ship_armor_ice_carrier_deck_1
+		}
+		upgrades = {
+			ship_deckspace_upgrade
+			carrier_armor_upgrade
+			ship_engine_upgrade
+			ship_reliability_upgrade
 		}
 	}
 }

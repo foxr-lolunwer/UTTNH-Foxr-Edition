@@ -1,0 +1,3115 @@
+technologies = {
+	# TOP Layout
+	@light_branch = 0
+	@light_sub_branch1 = 4
+	@light_sub_branch2 = 6
+	@cruiser_branch = 10
+	@heavy_branch = 16
+	@armor_branch = 20
+	@bc_carrier_branch = 22
+	@carrier_sub_branch = 24
+	@carrier_branch = 28
+	@submarine_branch = 36
+	@submarine_sub_branch1 = 40
+	@submarine_sub_branch2 = 32
+
+	@Tier1_1 = 0 @Tier1_2 = 2
+	@Tier2_1 = 4 @Tier2_2 = 6
+	@Tier3_1 = 8 @Tier3_2 = 10
+	@Tier4_1 = 12 @Tier4_2 = 14
+	@Tier5_1 = 16 @Tier5_2 = 18
+	@Tier6_1 = 20 @Tier6_2 = 22
+	@Tier7_1 = 24 @Tier7_2 = 26
+
+    early_ship_hull_light = {
+        enable_equipments = {
+            ship_hull_light_1
+        }
+        enable_equipment_modules = {
+            light_ship_engine_1
+            ship_seaplane_tender_1
+        }
+
+        start_year = 1922
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = basic_ship_hull_light }
+        path = { research_cost_coeff = 1 leads_to_tech = smoke_generator }
+        path = { research_cost_coeff = 1 leads_to_tech = basic_depth_charges }
+        path = { research_cost_coeff = 1 leads_to_tech = sonar }
+        folder = { name = FLTE_naval_folder position = { x = @light_branch y = @Tier1_1 } }
+
+        allow_branch = {
+            has_dlc = "Man the Guns"
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 4
+                tag = ENG
+            }
+        }
+    }
+    basic_ship_hull_light = {
+        enable_equipments = {
+            ship_hull_light_2
+        }
+        enable_equipment_modules = {
+            light_ship_engine_2
+            ship_seaplane_tender_2
+        }
+
+        start_year = 1936
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = improved_ship_hull_light }
+        folder = { name = FLTE_naval_folder position = { x = @light_branch y = @Tier2_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 5
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                }
+            }
+            modifier = {
+                has_war = yes
+                factor = 2
+            }
+        }
+    }
+    improved_ship_hull_light = {
+        enable_equipments = {
+            ship_hull_light_3
+        }
+        enable_equipment_modules = {
+            light_ship_engine_3
+        }
+
+        start_year = 1939
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = advanced_ship_hull_light }
+        folder = { name = FLTE_naval_folder position = { x = @light_branch y = @Tier2_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 5
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    advanced_ship_hull_light = {
+        enable_equipments = {
+            ship_hull_light_4
+        }
+        enable_equipment_modules = {
+            light_ship_engine_4
+        }
+
+        start_year = 1944
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_light_5 }
+        folder = { name = FLTE_naval_folder position = { x = @light_branch y = @Tier3_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 4
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_light_5 = {
+        enable_equipments = {
+            ship_hull_light_5
+        }
+        enable_equipment_modules = {
+            light_ship_engine_5
+        }
+
+        start_year = 1950
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_light_6 }
+        folder = { name = FLTE_naval_folder position = { x = @light_branch y = @Tier4_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 4
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_light_6 = {
+        enable_equipments = {
+            ship_hull_light_6
+        }
+        enable_equipment_modules = {
+            light_ship_engine_6
+        }
+
+        start_year = 1955
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_light_7 }
+        folder = { name = FLTE_naval_folder position = { x = @light_branch y = @Tier4_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 4
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_light_7 = {
+        enable_equipments = {
+            ship_hull_light_7
+        }
+        enable_equipment_modules = {
+            light_ship_engine_7
+        }
+
+        start_year = 1960
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_light_8 }
+        folder = { name = FLTE_naval_folder position = { x = @light_branch y = @Tier5_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 4
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_light_8 = {
+        enable_equipments = {
+            ship_hull_light_8
+        }
+        enable_equipment_modules = {
+            light_ship_engine_8
+        }
+
+        start_year = 1970
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_light_9 }
+        folder = { name = FLTE_naval_folder position = { x = @light_branch y = @Tier5_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 4
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_light_9 = {
+        enable_equipments = {
+            ship_hull_light_9
+        }
+        enable_equipment_modules = {
+            light_ship_engine_9
+        }
+
+        start_year = 1980
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_light_10 }
+        folder = { name = FLTE_naval_folder position = { x = @light_branch y = @Tier6_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 4
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_light_10 = {
+        enable_equipments = {
+            ship_hull_light_10
+        }
+        enable_equipment_modules = {
+            light_ship_engine_10
+        }
+
+        start_year = 1990
+        research_cost = 2
+        folder = { name = FLTE_naval_folder position = { x = @light_branch y = @Tier6_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 4
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    smoke_generator = {
+        # Unknowns
+        naval_retreat_speed = 0.2
+
+        start_year = 1922
+        research_cost = 0.75
+        folder = { name = FLTE_naval_folder position = { x = @light_sub_branch1 y = @Tier1_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            ship_modules_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            base = 2
+            modifier = {
+                has_navy_size = {
+                    size < 10
+                }
+                factor = 0.1
+            }
+            modifier = {
+                factor = 4
+                tag = ENG
+            }
+        }
+    }
+    basic_depth_charges = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_depth_charge_1
+        }
+
+        start_year = 1922
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = improved_depth_charges }
+        folder = { name = FLTE_naval_folder position = { x = @light_sub_branch1 y = @Tier1_2 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = depth_charges_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            asw_tech
+            ship_modules_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 4
+            modifier = {
+                factor = 2
+                has_war_with = GER
+            }
+            modifier = {
+                factor = 2
+                anti_submarine_strategy_required_trigger = yes
+            }
+        }
+    }
+    improved_depth_charges = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_depth_charge_2
+        }
+
+        start_year = 1936
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = advanced_depth_charges }
+        folder = { name = FLTE_naval_folder position = { x = @light_sub_branch1 y = @Tier2_1 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = depth_charges_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            asw_tech
+            ship_modules_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 4
+            modifier = {
+                factor = 2
+                has_war_with = GER
+            }
+            modifier = {
+                factor = 2
+                anti_submarine_strategy_required_trigger = yes
+            }
+        }
+    }
+    advanced_depth_charges = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_depth_charge_3
+        }
+
+        start_year = 1940
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = modern_depth_charges }
+        folder = { name = FLTE_naval_folder position = { x = @light_sub_branch1 y = @Tier2_2 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = depth_charges_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            asw_tech
+            ship_modules_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                factor = 4
+                has_war_with = GER
+            }
+            modifier = {
+                factor = 2
+                anti_submarine_strategy_required_trigger = yes
+            }
+        }
+    }
+    modern_depth_charges = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_depth_charge_4
+        }
+
+        start_year = 1944
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = depth_charges_5 }
+        folder = { name = FLTE_naval_folder position = { x = @light_sub_branch1 y = @Tier3_1 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = depth_charges_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            asw_tech
+            ship_modules_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                factor = 4
+                has_war_with = GER
+            }
+            modifier = {
+                factor = 2
+                anti_submarine_strategy_required_trigger = yes
+            }
+        }
+    }
+    depth_charges_5 = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_depth_charge_5
+        }
+
+        start_year = 1950
+        research_cost = 2.5
+        path = { research_cost_coeff = 1 leads_to_tech = depth_charges_6 }
+        folder = { name = FLTE_naval_folder position = { x = @light_sub_branch1 y = @Tier4_1 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = depth_charges_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            asw_tech
+            ship_modules_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                factor = 4
+                has_war_with = GER
+            }
+            modifier = {
+                factor = 2
+                anti_submarine_strategy_required_trigger = yes
+            }
+        }
+    }
+    depth_charges_6 = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_depth_charge_6
+        }
+
+        start_year = 1955
+        research_cost = 2.5
+        path = { research_cost_coeff = 1 leads_to_tech = depth_charges_7 }
+        folder = { name = FLTE_naval_folder position = { x = @light_sub_branch1 y = @Tier4_2 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = depth_charges_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            asw_tech
+            ship_modules_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                factor = 4
+                has_war_with = GER
+            }
+            modifier = {
+                factor = 2
+                anti_submarine_strategy_required_trigger = yes
+            }
+        }
+    }
+    depth_charges_7 = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_depth_charge_7
+        }
+        enable_equipment_modules = {
+            ship_sonar_5
+        }
+
+        start_year = 1960
+        research_cost = 2.5
+        path = { research_cost_coeff = 1 leads_to_tech = depth_charges_8 }
+        folder = { name = FLTE_naval_folder position = { x = @light_sub_branch1 y = @Tier5_1 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = depth_charges_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            asw_tech
+            ship_modules_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                factor = 4
+                has_war_with = GER
+            }
+            modifier = {
+                factor = 2
+                anti_submarine_strategy_required_trigger = yes
+            }
+        }
+    }
+    depth_charges_8 = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_depth_charge_8
+        }
+        enable_equipment_modules = {
+            ship_sonar_6
+        }
+
+        start_year = 1970
+        research_cost = 2.5
+        path = { research_cost_coeff = 1 leads_to_tech = depth_charges_9 }
+        folder = { name = FLTE_naval_folder position = { x = @light_sub_branch1 y = @Tier5_2 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = depth_charges_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            asw_tech
+            ship_modules_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                factor = 4
+                has_war_with = GER
+            }
+            modifier = {
+                factor = 2
+                anti_submarine_strategy_required_trigger = yes
+            }
+        }
+    }
+    depth_charges_9 = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_depth_charge_9
+        }
+
+        start_year = 1980
+        research_cost = 2.5
+        folder = { name = FLTE_naval_folder position = { x = @light_sub_branch1 y = @Tier6_1 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = depth_charges_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            asw_tech
+            ship_modules_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                factor = 4
+                has_war_with = GER
+            }
+            modifier = {
+                factor = 2
+                anti_submarine_strategy_required_trigger = yes
+            }
+        }
+    }
+    sonar = {
+        enable_equipment_modules = {
+            ship_sonar_1
+        }
+
+        start_year = 1922
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = improved_sonar }
+        folder = { name = FLTE_naval_folder position = { x = @light_sub_branch2 y = @Tier1_2 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = sonar_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            asw_tech
+            ship_modules_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                factor = 4
+                has_war_with = GER
+            }
+            modifier = {
+                factor = 2
+                anti_submarine_strategy_required_trigger = yes
+            }
+        }
+    }
+    improved_sonar = {
+        enable_equipment_modules = {
+            ship_sonar_2
+        }
+
+        start_year = 1936
+        research_cost = 1
+        path = { research_cost_coeff = 1 leads_to_tech = advanced_sonar }
+        folder = { name = FLTE_naval_folder position = { x = @light_sub_branch2 y = @Tier2_1 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = sonar_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            asw_tech
+            ship_modules_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                factor = 4
+                has_war_with = GER
+            }
+            modifier = {
+                factor = 2
+                anti_submarine_strategy_required_trigger = yes
+            }
+        }
+    }
+    advanced_sonar = {
+        enable_equipment_modules = {
+            ship_sonar_3
+        }
+
+        start_year = 1939
+        research_cost = 1
+        path = { research_cost_coeff = 1 leads_to_tech = modern_sonar }
+        folder = { name = FLTE_naval_folder position = { x = @light_sub_branch2 y = @Tier2_2 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = sonar_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            asw_tech
+            ship_modules_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                factor = 4
+                has_war_with = GER
+            }
+            modifier = {
+                factor = 2
+                anti_submarine_strategy_required_trigger = yes
+            }
+        }
+    }
+    modern_sonar = {
+        enable_equipment_modules = {
+            ship_sonar_4
+        }
+
+        start_year = 1943
+        research_cost = 1
+        folder = { name = FLTE_naval_folder position = { x = @light_sub_branch2 y = @Tier3_1 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = sonar_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            dd_tech
+            asw_tech
+            ship_modules_tech
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_destroyer_and_modules
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                factor = 4
+                has_war_with = GER
+            }
+            modifier = {
+                factor = 2
+                anti_submarine_strategy_required_trigger = yes
+            }
+        }
+    }
+    early_ship_hull_cruiser = {
+        enable_equipments = {
+            ship_hull_cruiser_1
+        }
+        enable_equipment_modules = {
+            ship_airplane_launcher_1
+            ship_armor_cruiser_1
+            cruiser_ship_engine_1
+        }
+
+        start_year = 1922
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = basic_ship_hull_cruiser }
+        folder = { name = FLTE_naval_folder position = { x = @cruiser_branch y = @Tier1_1 } }
+
+        allow_branch = {
+            has_dlc = "Man the Guns"
+        }
+        on_research_complete = {
+            custom_effect_tooltip = {
+                localization_key = SP_UNLOCK_PROJECT
+                PROJECT = sp_naval_torpedo_cruiser
+            }
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ca_tech
+            mio_cat_tech_all_capital_ship_and_modules
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_cruiser_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 4
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    basic_ship_hull_cruiser = {
+        enable_equipments = {
+            ship_hull_cruiser_2
+        }
+        enable_equipment_modules = {
+            cruiser_ship_engine_2
+            ship_airplane_launcher_2
+        }
+
+        start_year = 1936
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = improved_ship_hull_cruiser }
+        folder = { name = FLTE_naval_folder position = { x = @cruiser_branch y = @Tier2_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ca_tech
+            mio_cat_tech_all_capital_ship_and_modules
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_cruiser_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 4
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    improved_ship_hull_cruiser = {
+        enable_equipments = {
+            ship_hull_cruiser_3
+        }
+        enable_equipment_modules = {
+            cruiser_ship_engine_3
+        }
+
+        start_year = 1940
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = advanced_ship_hull_cruiser }
+        folder = { name = FLTE_naval_folder position = { x = @cruiser_branch y = @Tier2_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ca_tech
+            mio_cat_tech_all_capital_ship_and_modules
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_cruiser_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+                factor = 4
+            }
+        }
+    }
+    advanced_ship_hull_cruiser = {
+        enable_equipments = {
+            ship_hull_cruiser_4
+        }
+        enable_equipment_modules = {
+            cruiser_ship_engine_4
+        }
+
+        start_year = 1944
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_cruiser_5 }
+        folder = { name = FLTE_naval_folder position = { x = @cruiser_branch y = @Tier3_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ca_tech
+            mio_cat_tech_all_capital_ship_and_modules
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_cruiser_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                OR = {
+                    tag = ENG
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_cruiser_5 = {
+        enable_equipments = {
+            ship_hull_cruiser_5
+        }
+        enable_equipment_modules = {
+            cruiser_ship_engine_5
+        }
+
+        start_year = 1950
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_cruiser_6 }
+        folder = { name = FLTE_naval_folder position = { x = @cruiser_branch y = @Tier4_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ca_tech
+            mio_cat_tech_all_capital_ship_and_modules
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_cruiser_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                OR = {
+                    tag = ENG
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_cruiser_6 = {
+        enable_equipments = {
+            ship_hull_cruiser_6
+        }
+        enable_equipment_modules = {
+            cruiser_ship_engine_6
+        }
+
+        start_year = 1955
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_cruiser_7 }
+        folder = { name = FLTE_naval_folder position = { x = @cruiser_branch y = @Tier4_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ca_tech
+            mio_cat_tech_all_capital_ship_and_modules
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_cruiser_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                OR = {
+                    tag = ENG
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_cruiser_7 = {
+        enable_equipments = {
+            ship_hull_cruiser_7
+        }
+        enable_equipment_modules = {
+            cruiser_ship_engine_7
+        }
+
+        start_year = 1960
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_cruiser_8 }
+        folder = { name = FLTE_naval_folder position = { x = @cruiser_branch y = @Tier5_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ca_tech
+            mio_cat_tech_all_capital_ship_and_modules
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_cruiser_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                OR = {
+                    tag = ENG
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_cruiser_8 = {
+        enable_equipments = {
+            ship_hull_cruiser_8
+        }
+        enable_equipment_modules = {
+            cruiser_ship_engine_8
+        }
+
+        start_year = 1970
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_cruiser_9 }
+        folder = { name = FLTE_naval_folder position = { x = @cruiser_branch y = @Tier5_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ca_tech
+            mio_cat_tech_all_capital_ship_and_modules
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_cruiser_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                OR = {
+                    tag = ENG
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_cruiser_9 = {
+        enable_equipments = {
+            ship_hull_cruiser_9
+        }
+        enable_equipment_modules = {
+            cruiser_ship_engine_9
+        }
+
+        start_year = 1980
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_cruiser_10 }
+        folder = { name = FLTE_naval_folder position = { x = @cruiser_branch y = @Tier6_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ca_tech
+            mio_cat_tech_all_capital_ship_and_modules
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_cruiser_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                OR = {
+                    tag = ENG
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_cruiser_10 = {
+        enable_equipments = {
+            ship_hull_cruiser_10
+        }
+        enable_equipment_modules = {
+            cruiser_ship_engine_10
+        }
+
+        start_year = 1990
+        research_cost = 1.5
+        folder = { name = FLTE_naval_folder position = { x = @cruiser_branch y = @Tier6_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ca_tech
+            mio_cat_tech_all_capital_ship_and_modules
+            mio_cat_tech_all_screen_ship_and_modules
+            mio_cat_tech_all_cruiser_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                OR = {
+                    tag = ENG
+                    tag = USA
+                }
+            }
+        }
+    }
+    # basic_helicopter_launcher = {
+    #     enable_equipment_modules = {
+    #         ship_airplane_launcher_3
+    #     }
+
+    #     start_year = 1950
+    #     research_cost = 0.75
+    #     path = { research_cost_coeff = 1 leads_to_tech = improved_helicopter_launcher }
+    #     folder = { name = FLTE_naval_folder position = { x = 0 y = 25 } }
+
+    #     on_research_complete = {
+    #         custom_effect_tooltip = airplane_launcher_advice_tt
+    #     }
+    #     special_project_specialization = { specialization_naval }
+
+    #     categories = {
+    #         naval_equipment
+    #         ca_tech
+    #         ship_modules_tech
+    #         mio_cat_tech_all_capital_ship_and_modules
+    #         mio_cat_tech_all_screen_ship_and_modules
+    #         mio_cat_tech_all_cruiser_and_modules
+    #     }
+    #     ai_will_do = {
+    #         factor = 2
+    #         modifier = {
+    #             factor = 3.5
+    #             OR = {
+    #                 tag = GER
+    #                 tag = JAP
+    #                 tag = USA
+    #             }
+    #         }
+    #     }
+    # }
+    # improved_helicopter_launcher = {
+    #     enable_equipment_modules = {
+    #         ship_airplane_launcher_4
+    #     }
+
+    #     start_year = 1960
+    #     research_cost = 0.75
+    #     path = { research_cost_coeff = 1 leads_to_tech = advanced_helicopter_launcher }
+    #     folder = { name = FLTE_naval_folder position = { x = 0 y = 37 } }
+
+    #     on_research_complete = {
+    #         custom_effect_tooltip = airplane_launcher_advice_tt
+    #     }
+    #     special_project_specialization = { specialization_naval }
+
+    #     categories = {
+    #         naval_equipment
+    #         ca_tech
+    #         ship_modules_tech
+    #         mio_cat_tech_all_capital_ship_and_modules
+    #         mio_cat_tech_all_screen_ship_and_modules
+    #         mio_cat_tech_all_cruiser_and_modules
+    #     }
+    #     ai_will_do = {
+    #         factor = 2
+    #         modifier = {
+    #             factor = 3.5
+    #             OR = {
+    #                 tag = GER
+    #                 tag = JAP
+    #                 tag = USA
+    #             }
+    #         }
+    #     }
+    # }
+    # advanced_helicopter_launcher = {
+    #     enable_equipment_modules = {
+    #         ship_airplane_launcher_5
+    #     }
+
+    #     start_year = 1970
+    #     research_cost = 0.75
+    #     folder = { name = FLTE_naval_folder position = { x = 0 y = 43 } }
+
+    #     on_research_complete = {
+    #         custom_effect_tooltip = airplane_launcher_advice_tt
+    #     }
+    #     special_project_specialization = { specialization_naval }
+
+    #     categories = {
+    #         naval_equipment
+    #         ca_tech
+    #         ship_modules_tech
+    #         mio_cat_tech_all_capital_ship_and_modules
+    #         mio_cat_tech_all_screen_ship_and_modules
+    #         mio_cat_tech_all_cruiser_and_modules
+    #     }
+    #     ai_will_do = {
+    #         factor = 2
+    #         modifier = {
+    #             factor = 3.5
+    #             OR = {
+    #                 tag = GER
+    #                 tag = JAP
+    #                 tag = USA
+    #             }
+    #         }
+    #     }
+    # }
+    basic_cruiser_armor_scheme = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_armor_cruiser_2
+        }
+
+        start_year = 1936
+        research_cost = 0.5
+        path = { research_cost_coeff = 1 leads_to_tech = basic_heavy_armor_scheme }
+        folder = { name = FLTE_naval_folder position = { x = @armor_branch y = @Tier1_2 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = cruiser_armor_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_armor
+            naval_equipment
+            ca_tech
+            ship_modules_tech
+            mio_cat_tech_all_capital_ship_and_modules
+            mio_cat_tech_all_cruiser_and_modules
+            mio_cat_tech_all_carrier_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 3
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    early_ship_hull_heavy = {
+        enable_equipments = {
+            ship_hull_heavy_1
+        }
+        enable_equipment_modules = {
+            ship_armor_bb_1
+            heavy_ship_engine_1
+            ship_armor_bc_1
+        }
+
+        start_year = 1922
+        research_cost = 1.75
+        path = { research_cost_coeff = 1 leads_to_tech = basic_ship_hull_heavy }
+        folder = { name = FLTE_naval_folder position = { x = @heavy_branch y = @Tier1_1 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = {
+                localization_key = SP_UNLOCK_PROJECT
+                PROJECT = sp_naval_super_heavy_battleship
+            }
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            bb_tech
+            bc_tech
+            mio_cat_tech_all_capital_ship_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+            modifier = {
+                is_major = yes
+                factor = 2
+            }
+            modifier = {
+                is_major = no
+                factor = 0
+            }
+        }
+    }
+    basic_ship_hull_heavy = {
+        enable_equipments = {
+            ship_hull_heavy_2
+        }
+        enable_equipment_modules = {
+            heavy_ship_engine_2
+        }
+
+        start_year = 1936
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = improved_ship_hull_heavy }
+        folder = { name = FLTE_naval_folder position = { x = @heavy_branch y = @Tier2_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            bb_tech
+            bc_tech
+            mio_cat_tech_all_capital_ship_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+            modifier = {
+                is_major = yes
+                factor = 2
+            }
+            modifier = {
+                is_major = no
+                factor = 0
+            }
+        }
+    }
+    ship_hull_super_heavy = {
+        enable_equipments = {
+            ship_hull_super_heavy_1
+        }
+        enable_equipment_modules = {
+            ship_armor_shbb
+        }
+
+        start_year = 1936
+        research_cost = 1.5
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            bb_tech
+            bc_tech
+            mio_cat_tech_all_capital_ship_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 25
+                tag = JAP
+            }
+        }
+    }
+    improved_ship_hull_heavy = {
+        enable_equipments = {
+            ship_hull_heavy_3
+        }
+        enable_equipment_modules = {
+            heavy_ship_engine_3
+        }
+
+        start_year = 1940
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = advanced_ship_hull_heavy }
+        folder = { name = FLTE_naval_folder position = { x = @heavy_branch y = @Tier2_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            bb_tech
+            bc_tech
+            mio_cat_tech_all_capital_ship_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 5
+                tag = USA
+            }
+            modifier = {
+                is_major = no
+                factor = 0
+            }
+            modifier = {
+                factor = 0
+                date < 1940.1.1
+            }
+        }
+    }
+    advanced_ship_hull_heavy = {
+        enable_equipments = {
+            ship_hull_heavy_4
+        }
+        enable_equipment_modules = {
+            heavy_ship_engine_4
+        }
+
+        start_year = 1944
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_heavy_5 }
+        folder = { name = FLTE_naval_folder position = { x = @heavy_branch y = @Tier3_1 } }
+
+        on_research_complete = {
+            if = {
+                limit = {
+                    has_dlc = "Gotterdammerung"
+                }
+                custom_effect_tooltip = {
+                    localization_key = SP_UNLOCK_PROJECT
+                    PROJECT = sp_naval_modern_battleship
+                }
+            }
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            bb_tech
+            bc_tech
+            mio_cat_tech_all_capital_ship_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 5
+                tag = USA
+            }
+            modifier = {
+                is_major = no
+                factor = 0
+            }
+        }
+    }
+    ship_hull_heavy_5 = {
+        enable_equipments = {
+            ship_hull_heavy_5
+        }
+        enable_equipment_modules = {
+            heavy_ship_engine_5
+        }
+
+        start_year = 1955
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_heavy_6 }
+        folder = { name = FLTE_naval_folder position = { x = @heavy_branch y = @Tier4_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            bb_tech
+            bc_tech
+            mio_cat_tech_all_capital_ship_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 5
+                tag = USA
+            }
+            modifier = {
+                is_major = no
+                factor = 0
+            }
+        }
+    }
+    ship_hull_heavy_6 = {
+        enable_equipments = {
+            ship_hull_heavy_6
+        }
+        enable_equipment_modules = {
+            heavy_ship_engine_6
+        }
+
+        start_year = 1980
+        research_cost = 1.5
+        folder = { name = FLTE_naval_folder position = { x = @heavy_branch y = @Tier6_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            bb_tech
+            bc_tech
+            mio_cat_tech_all_capital_ship_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 5
+                tag = USA
+                tag = SOV
+            }
+            modifier = {
+                is_major = no
+                factor = 0
+            }
+        }
+    }
+    basic_heavy_armor_scheme = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_armor_bb_2
+            ship_armor_bc_2
+            ship_armor_cruiser_3
+        }
+
+        start_year = 1936
+        research_cost = 1.25
+        path = { research_cost_coeff = 1 leads_to_tech = improved_heavy_armor_scheme }
+        folder = { name = FLTE_naval_folder position = { x = @armor_branch y = @Tier2_1 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = heavy_armor_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_armor
+            naval_equipment
+            bb_tech
+            bc_tech
+            ship_modules_tech
+            mio_cat_tech_all_capital_ship_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    improved_heavy_armor_scheme = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.25
+
+        enable_equipment_modules = {
+            ship_armor_bb_3
+            ship_armor_bc_3
+            ship_armor_cruiser_4
+        }
+
+        start_year = 1940
+        research_cost = 1.25
+        folder = { name = FLTE_naval_folder position = { x = @armor_branch y = @Tier2_2 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = heavy_armor_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_armor
+            naval_equipment
+            bb_tech
+            bc_tech
+            ship_modules_tech
+            mio_cat_tech_all_capital_ship_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 4
+                OR = {
+                    tag = ENG
+                    tag = USA
+                }
+            }
+            modifier = {
+                has_tech = improved_ship_hull_heavy
+                factor = 2
+            }
+        }
+    }
+    early_ship_hull_carrier = {
+        enable_equipments = {
+            ship_hull_carrier_conversion_bb
+            ship_hull_carrier_conversion_ca
+        }
+        enable_equipment_modules = {
+            ship_armor_carrier_deck
+            carrier_ship_engine_1
+            ship_deck_space
+        }
+
+        start_year = 1922
+        research_cost = 1.75
+        path = { research_cost_coeff = 1 leads_to_tech = basic_ship_hull_carrier }
+        folder = { name = FLTE_naval_folder position = { x = @carrier_branch y = @Tier1_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            cv_tech
+            mio_cat_tech_all_carrier_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 8
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    basic_ship_hull_carrier = {
+        enable_equipments = {
+            ship_hull_carrier_1
+        }
+        enable_equipment_modules = {
+            carrier_ship_engine_2
+        }
+
+        start_year = 1936
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = improved_ship_hull_carrier }
+        folder = { name = FLTE_naval_folder position = { x = @carrier_branch y = @Tier2_1 } }
+
+        on_research_complete = {
+            if = {
+                limit = {
+                    has_dlc = "No Compromise, No Surrender"
+                }
+                custom_effect_tooltip = {
+                    localization_key = SP_UNLOCK_PROJECT
+                    PROJECT = sp_naval_escort_carrier
+                }
+            }
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            cv_tech
+            mio_cat_tech_all_carrier_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 8
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    improved_ship_hull_carrier = {
+        enable_equipments = {
+            ship_hull_carrier_2
+        }
+        enable_equipment_modules = {
+            carrier_ship_engine_3
+        }
+
+        start_year = 1940
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = advanced_ship_hull_carrier }
+        path = { research_cost_coeff = 1 leads_to_tech = sp_refined_pykrete }
+        folder = { name = FLTE_naval_folder position = { x = @carrier_branch y = @Tier2_2 } }
+
+        on_research_complete = {
+            if = {
+                limit = {
+                    has_dlc = "Gotterdammerung"
+                }
+                custom_effect_tooltip = {
+                    localization_key = SP_UNLOCK_PROJECT
+                    PROJECT = sp_naval_ice_carrier
+                }
+            }
+            if = {
+                limit = {
+                    is_ai = no
+                    has_dlc = "No Compromise, No Surrender"
+                    has_dlc = "Gotterdammerung"
+                    original_tag = PHI
+                }
+                set_country_flag = PHI_did_carrier_tech
+                mark_focus_tree_layout_dirty = yes
+            }
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            cv_tech
+            mio_cat_tech_all_carrier_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 8
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    advanced_ship_hull_carrier = {
+        enable_equipments = {
+            ship_hull_carrier_3
+        }
+        enable_equipment_modules = {
+            carrier_ship_engine_4
+        }
+
+        start_year = 1944
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_carrier_5 }
+        folder = { name = FLTE_naval_folder position = { x = @carrier_branch y = @Tier3_1 } }
+
+        on_research_complete = {
+            if = {
+                limit = {
+                    has_dlc = "Gotterdammerung"
+                }
+                custom_effect_tooltip = {
+                    localization_key = SP_UNLOCK_PROJECT
+                    PROJECT = sp_naval_modern_carrier
+                }
+            }
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            cv_tech
+            mio_cat_tech_all_carrier_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 8
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_carrier_5 = {
+        enable_equipments = {
+            ship_hull_carrier_5
+        }
+        enable_equipment_modules = {
+            carrier_ship_engine_5
+        }
+
+        start_year = 1950
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_carrier_6 }
+        folder = { name = FLTE_naval_folder position = { x = @carrier_branch y = @Tier4_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            cv_tech
+            mio_cat_tech_all_carrier_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 8
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_carrier_6 = {
+        enable_equipments = {
+            ship_hull_carrier_6
+        }
+        enable_equipment_modules = {
+            carrier_ship_engine_6
+        }
+
+        start_year = 1955
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_carrier_7 }
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_bc_carrier_1 }
+        folder = { name = FLTE_naval_folder position = { x = @carrier_branch y = @Tier4_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            cv_tech
+            mio_cat_tech_all_carrier_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 8
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_bc_carrier_1 = {
+        enable_equipments = {
+            ship_hull_bc_carrier_1
+        }
+        enable_equipment_modules = {
+            carrier_ship_engine_6
+        }
+
+        start_year = 1960
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_bc_carrier_2 }
+        folder = { name = FLTE_naval_folder position = { x = @bc_carrier_branch y = @Tier5_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            cv_tech
+            mio_cat_tech_all_carrier_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                OR = {
+                    tag = SOV
+                }
+            }
+        }
+    }
+    ship_hull_bc_carrier_2 = {
+        enable_equipments = {
+            ship_hull_bc_carrier_2
+        }
+        enable_equipment_modules = {
+            carrier_ship_engine_7
+        }
+
+        start_year = 1970
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_bc_carrier_3 }
+        folder = { name = FLTE_naval_folder position = { x = @bc_carrier_branch y = @Tier5_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            cv_tech
+            mio_cat_tech_all_carrier_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                OR = {
+                    tag = SOV
+                }
+            }
+        }
+    }
+    ship_hull_bc_carrier_3 = {
+        enable_equipments = {
+            ship_hull_bc_carrier_3
+        }
+        enable_equipment_modules = {
+            carrier_ship_engine_8
+        }
+
+        start_year = 1980
+        research_cost = 1.5
+        folder = { name = FLTE_naval_folder position = { x = @bc_carrier_branch y = @Tier6_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            cv_tech
+            mio_cat_tech_all_carrier_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                OR = {
+                    tag = SOV
+                }
+            }
+        }
+    }
+    ship_hull_carrier_7 = {
+        enable_equipments = {
+            ship_hull_carrier_7
+        }
+        enable_equipment_modules = {
+            carrier_ship_engine_7
+        }
+
+        start_year = 1960
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_carrier_8 }
+        folder = { name = FLTE_naval_folder position = { x = @carrier_branch y = @Tier5_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            cv_tech
+            mio_cat_tech_all_carrier_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 8
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_carrier_8 = {
+        enable_equipments = {
+            ship_hull_carrier_8
+        }
+        enable_equipment_modules = {
+            carrier_ship_engine_8
+        }
+
+        start_year = 1970
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_carrier_9 }
+        folder = { name = FLTE_naval_folder position = { x = @carrier_branch y = @Tier5_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            cv_tech
+            mio_cat_tech_all_carrier_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 8
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_carrier_9 = {
+        enable_equipments = {
+            ship_hull_carrier_9
+        }
+        enable_equipment_modules = {
+            carrier_ship_engine_9
+        }
+
+        start_year = 1980
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_carrier_10 }
+        folder = { name = FLTE_naval_folder position = { x = @carrier_branch y = @Tier6_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            cv_tech
+            mio_cat_tech_all_carrier_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 8
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_carrier_10 = {
+        enable_equipments = {
+            ship_hull_carrier_10
+        }
+        enable_equipment_modules = {
+            carrier_ship_engine_10
+        }
+
+        start_year = 1990
+        research_cost = 1.5
+        folder = { name = FLTE_naval_folder position = { x = @carrier_branch y = @Tier6_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            cv_tech
+            mio_cat_tech_all_carrier_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 8
+                OR = {
+                    tag = ENG
+                    tag = JAP
+                    tag = USA
+                }
+            }
+        }
+    }
+    early_ship_hull_submarine = {
+        enable_equipments = {
+            ship_hull_submarine_1
+        }
+        enable_equipment_modules = {
+            sub_ship_engine_1
+        }
+
+        start_year = 1922
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = basic_ship_hull_submarine }
+        folder = { name = FLTE_naval_folder position = { x = @submarine_branch y = @Tier1_1 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = {
+                localization_key = SP_UNLOCK_PROJECT
+                PROJECT = sp_naval_cruiser_submarine
+            }
+            custom_effect_tooltip = {
+                localization_key = SP_UNLOCK_PROJECT
+                PROJECT = sp_naval_midget_submarine
+            }
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = USA
+                }
+            }
+        }
+    }
+    basic_ship_hull_submarine = {
+        enable_equipments = {
+            ship_hull_submarine_2
+        }
+        enable_equipment_modules = {
+            sub_ship_engine_2
+        }
+
+        start_year = 1936
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = improved_ship_hull_submarine }
+        path = { research_cost_coeff = 1 leads_to_tech = sp_aip_engine_improved_tech }
+        folder = { name = FLTE_naval_folder position = { x = @submarine_branch y = @Tier2_1 } }
+
+        on_research_complete = {
+            if = {
+                limit = {
+                    has_dlc = "Gotterdammerung"
+                }
+                custom_effect_tooltip = {
+                    localization_key = SP_UNLOCK_PROJECT
+                    PROJECT = sp_naval_aip_engine
+                }
+                custom_effect_tooltip = {
+                    localization_key = SP_UNLOCK_PROJECT
+                    PROJECT = sp_naval_anechoic_tiles
+                }
+            }
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = USA
+                }
+            }
+        }
+    }
+    improved_ship_hull_submarine = {
+        enable_equipments = {
+            ship_hull_submarine_3
+        }
+        enable_equipment_modules = {
+            sub_ship_engine_3
+        }
+
+        start_year = 1940
+        research_cost = 2.0
+        path = { research_cost_coeff = 1 leads_to_tech = advanced_ship_hull_submarine }
+        path = { research_cost_coeff = 1 leads_to_tech = basic_submarine_snorkel }
+        folder = { name = FLTE_naval_folder position = { x = @submarine_branch y = @Tier2_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = USA
+                }
+            }
+        }
+    }
+    advanced_ship_hull_submarine = {
+        enable_equipments = {
+            ship_hull_submarine_4
+        }
+        enable_equipment_modules = {
+            sub_ship_engine_4
+        }
+
+        start_year = 1944
+        research_cost = 2.0
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_submarine_5 }
+        folder = { name = FLTE_naval_folder position = { x = @submarine_branch y = @Tier3_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_submarine_5 = {
+        enable_equipments = {
+            ship_hull_submarine_5
+        }
+        enable_equipment_modules = {
+            sub_ship_engine_5
+        }
+
+        start_year = 1950
+        research_cost = 1.25
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_submarine_6 }
+        folder = { name = FLTE_naval_folder position = { x = @submarine_branch y = @Tier4_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_submarine_6 = {
+        enable_equipments = {
+            ship_hull_submarine_6
+        }
+        enable_equipment_modules = {
+            sub_ship_engine_6
+        }
+
+        start_year = 1955
+        research_cost = 1.25
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_submarine_7 }
+        folder = { name = FLTE_naval_folder position = { x = @submarine_branch y = @Tier4_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_submarine_7 = {
+        enable_equipments = {
+            ship_hull_submarine_7
+        }
+        enable_equipment_modules = {
+            sub_ship_engine_7
+        }
+
+        start_year = 1960
+        research_cost = 1.25
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_submarine_8 }
+        folder = { name = FLTE_naval_folder position = { x = @submarine_branch y = @Tier5_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_submarine_8 = {
+        enable_equipments = {
+            ship_hull_submarine_8
+        }
+        enable_equipment_modules = {
+            sub_ship_engine_8
+        }
+
+        start_year = 1970
+        research_cost = 1.25
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_submarine_9 }
+        folder = { name = FLTE_naval_folder position = { x = @submarine_branch y = @Tier5_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_submarine_9 = {
+        enable_equipments = {
+            ship_hull_submarine_9
+        }
+        enable_equipment_modules = {
+            sub_ship_engine_9
+        }
+
+        start_year = 1980
+        research_cost = 1.25
+        path = { research_cost_coeff = 1 leads_to_tech = ship_hull_submarine_10 }
+        folder = { name = FLTE_naval_folder position = { x = @submarine_branch y = @Tier6_1 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = USA
+                }
+            }
+        }
+    }
+    ship_hull_submarine_10 = {
+        enable_equipments = {
+            ship_hull_submarine_10
+        }
+        enable_equipment_modules = {
+            sub_ship_engine_10
+        }
+
+        start_year = 1990
+        research_cost = 1.25
+        folder = { name = FLTE_naval_folder position = { x = @submarine_branch y = @Tier6_2 } }
+
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = USA
+                }
+            }
+        }
+    }
+    basic_submarine_snorkel = {
+        enable_equipment_modules = {
+            ship_sub_snorkel_1
+        }
+
+        start_year = 1940
+        research_cost = 1
+        path = { research_cost_coeff = 1 leads_to_tech = improved_submarine_snorkel }
+        folder = { name = FLTE_naval_folder position = { x = @submarine_sub_branch2 y = @Tier2_2 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = snorkel_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            ship_modules_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = HOL
+                }
+            }
+            modifier = {
+                not = {
+                    has_war_with = ENG
+                    has_War_with = USA
+                }
+                factor = 0.5
+            }
+            modifier = {
+                factor = 0
+                date < 1940.1.1
+            }
+        }
+    }
+    improved_submarine_snorkel = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_sub_snorkel_2
+        }
+
+        start_year = 1944
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = snorkel50 }
+        folder = { name = FLTE_naval_folder position = { x = @submarine_sub_branch2 y = @Tier3_1 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = snorkel_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            ship_modules_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = HOL
+                }
+            }
+        }
+    }
+    snorkel50 = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_sub_snorkel_3
+        }
+
+        start_year = 1950
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = snorkel55 }
+        folder = { name = FLTE_naval_folder position = { x = @submarine_sub_branch2 y = @Tier4_1 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = snorkel_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            ship_modules_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = HOL
+                }
+            }
+        }
+    }
+    snorkel55 = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_sub_snorkel_4
+        }
+
+        start_year = 1955
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = snorkel60 }
+        folder = { name = FLTE_naval_folder position = { x = @submarine_sub_branch2 y = @Tier4_2 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = snorkel_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            ship_modules_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = HOL
+                }
+            }
+        }
+    }
+    snorkel60 = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_sub_snorkel_5
+        }
+
+        start_year = 1960
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = snorkel70 }
+        folder = { name = FLTE_naval_folder position = { x = @submarine_sub_branch2 y = @Tier5_1 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = snorkel_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            ship_modules_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = HOL
+                }
+            }
+        }
+    }
+    snorkel70 = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_sub_snorkel_6
+        }
+
+        start_year = 1970
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = snorkel80 }
+        folder = { name = FLTE_naval_folder position = { x = @submarine_sub_branch2 y = @Tier5_2 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = snorkel_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            ship_modules_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = HOL
+                }
+            }
+        }
+    }
+    snorkel80 = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_sub_snorkel_7
+        }
+
+        start_year = 1980
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = snorkel90 }
+        folder = { name = FLTE_naval_folder position = { x = @submarine_sub_branch2 y = @Tier6_1 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = snorkel_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            ship_modules_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = HOL
+                }
+            }
+        }
+    }
+    snorkel90 = {
+        # Unknowns
+        xp_research_type = navy
+        xp_boost_cost = 50
+        xp_research_bonus = 1.50
+
+        enable_equipment_modules = {
+            ship_sub_snorkel_8
+        }
+
+        start_year = 1990
+        research_cost = 2
+        folder = { name = FLTE_naval_folder position = { x = @submarine_sub_branch2 y = @Tier6_2 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = snorkel_advice_tt
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            ship_modules_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 7
+                OR = {
+                    tag = GER
+                    tag = HOL
+                }
+            }
+        }
+    }
+    panzerschiffe = {
+        enable_equipments = {
+            ship_hull_cruiser_panzerschiff
+        }
+
+        start_year = 1936
+        research_cost = 1
+
+        allow = {
+            always = no
+        }
+    }
+    torpedo_cruiser_mtg = {
+        enable_equipments = {
+            ship_hull_torpedo_cruiser
+        }
+
+        start_year = 1936
+        research_cost = 1
+
+        allow = {
+            always = no
+        }
+    }
+    pre_dreadnoughts = {
+        enable_equipments = {
+            ship_hull_pre_dreadnought
+        }
+
+        start_year = 1936
+        research_cost = 1
+
+        allow = {
+            always = no
+        }
+    }
+    coastal_defense_ships = {
+        enable_equipments = {
+            ship_hull_cruiser_coastal_defense_ship
+        }
+
+        start_year = 1936
+        research_cost = 1
+
+        allow = {
+            always = no
+        }
+    }
+    cruiser_submarines = {
+        enable_equipments = {
+            ship_hull_cruiser_submarine
+        }
+        enable_equipment_modules = {
+            ship_extra_fuel_tank
+        }
+
+        start_year = 1936
+        research_cost = 1
+
+        allow = {
+            always = no
+        }
+    }
+    midget_submarines = {
+        enable_equipments = {
+            ship_hull_midget_submarine
+        }
+
+        start_year = 1936
+        research_cost = 1
+
+        allow = {
+            always = no
+        }
+    }
+    sp_aip_engine_improved_tech = {
+        enable_equipment_modules = {
+            ship_engine_sub_aip_2
+        }
+
+        start_year = 1940
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = sp_aip_engine_advanced_tech }
+        folder = { name = FLTE_naval_folder position = { x = @submarine_sub_branch1 y = @Tier2_2 } }
+
+        force_use_small_tech_layout = yes
+        is_special_project_tech = yes
+        allow = {
+            ROOT = {
+                is_special_project_completed = sp:sp_naval_aip_engine
+            }
+        }
+        allow_branch = {
+            has_dlc = "Gotterdammerung"
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            ship_modules_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+    }
+    sp_aip_engine_advanced_tech = {
+        enable_equipment_modules = {
+            ship_engine_sub_aip_3
+        }
+
+        start_year = 1944
+        research_cost = 2
+        folder = { name = FLTE_naval_folder position = { x = @submarine_sub_branch1 y = @Tier3_1 } }
+
+        force_use_small_tech_layout = yes
+        is_special_project_tech = yes
+        allow = {
+            ROOT = {
+                is_special_project_completed = sp:sp_naval_aip_engine
+            }
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            ss_tech
+            ship_modules_tech
+            mio_cat_tech_all_submarine_and_modules
+        }
+    }
+    sp_refined_pykrete = {
+        enable_equipment_modules = {
+            ship_armor_ice_carrier_deck_2
+        }
+
+        start_year = 1942
+        research_cost = 1
+        path = { research_cost_coeff = 1 leads_to_tech = sp_ice_composite_runawayas }
+        folder = { name = FLTE_naval_folder position = { x = @carrier_sub_branch y = @Tier3_1 } }
+
+        force_use_small_tech_layout = yes
+        is_special_project_tech = yes
+        allow = {
+            ROOT = {
+                is_special_project_completed = sp:sp_naval_ice_carrier
+            }
+        }
+        allow_branch = {
+            has_dlc = "Gotterdammerung"
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            cv_tech
+            mio_cat_tech_all_carrier_and_modules
+            pykrete_tech
+        }
+    }
+    sp_ice_composite_runawayas = {
+        enable_equipment_modules = {
+            ship_armor_ice_carrier_deck_3
+        }
+
+        start_year = 1945
+        research_cost = 1
+        folder = { name = FLTE_naval_folder position = { x = @carrier_sub_branch y = @Tier3_2 } }
+
+        force_use_small_tech_layout = yes
+        is_special_project_tech = yes
+        allow = {
+            ROOT = {
+                is_special_project_completed = sp:sp_naval_ice_carrier
+            }
+        }
+        special_project_specialization = { specialization_naval }
+
+        categories = {
+            naval_equipment
+            cv_tech
+            mio_cat_tech_all_carrier_and_modules
+            pykrete_tech
+        }
+    }
+    sp_naval_proximity_fuze_tech = {
+        # Unknowns
+        navy_anti_air_attack_factor = 0.25
+
+        start_year = 1940
+        research_cost = 1
+
+        allow = {
+            always = no
+        }
+    }
+    sp_naval_underway_replenishment_pick_a = {
+        # Unknowns
+        underway_replenishment_range = 0.2
+        underway_replenishment_convoy_cost = 0.1
+
+        start_year = 1940
+        research_cost = 1
+
+        allow = {
+            always = no
+        }
+    }
+    sp_naval_underway_replenishment_pick_b = {
+        # Unknowns
+        underway_replenishment_range = -0.1
+        underway_replenishment_convoy_cost = -0.2
+
+        start_year = 1940
+        research_cost = 1
+
+        allow = {
+            always = no
+        }
+    }
+    sp_naval_support_ships_pick_a = {
+        # Unknowns
+        naval_general_support_value_factor = 0.25
+        naval_general_support_factor = -0.1
+
+        start_year = 1940
+        research_cost = 1
+
+        allow = {
+            always = no
+        }
+    }
+    sp_naval_support_ships_pick_b = {
+        # Unknowns
+        naval_general_support_value_factor = 0.05
+
+        start_year = 1940
+        research_cost = 1
+
+        allow = {
+            always = no
+        }
+    }
+    sp_naval_support_ships_pick_c = {
+        # Unknowns
+        naval_general_support_factor = 0.25
+        naval_general_support_value_factor = -0.15
+
+        start_year = 1940
+        research_cost = 1
+
+        allow = {
+            always = no
+        }
+    }
+    sp_naval_repair_ships_pick_a = {
+        # Unknowns
+        naval_repair_support_value_factor = 0.25
+        naval_repair_support_factor = -0.1
+
+        start_year = 1940
+        research_cost = 1
+
+        allow = {
+            always = no
+        }
+    }
+    sp_naval_repair_ships_pick_b = {
+        # Unknowns
+        naval_repair_support_value_factor = 0.05
+
+        start_year = 1940
+        research_cost = 1
+
+        allow = {
+            always = no
+        }
+    }
+    sp_naval_repair_ships_pick_c = {
+        # Unknowns
+        naval_repair_support_factor = 0.25
+        naval_repair_support_value_factor = -0.15
+
+        start_year = 1940
+        research_cost = 1
+
+        allow = {
+            always = no
+        }
+    }
+}

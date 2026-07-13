@@ -2,21 +2,10 @@ equipments = {
 	light_tank_chassis = {
 		is_archetype = yes
 		is_buildable = no
+		year = 1922
 		group_by = archetype
 		picture = archetype_light_tank_equipment
-		fuel_consumption = 0
-		build_cost_ic = 1
-		maximum_speed = 5
 		interface_category = interface_category_armor
-		manpower = 3
-		year = 1922
-		reliability = 0.8
-		priority = 2000
-		resources = {
-			steel = 1
-		}
-		hardness = 0.8
-		armor_value = 5
 		can_be_produced = { NOT = { has_idea = BUL_army_restrictions } }
 		type = armor
 		module_slots = {
@@ -94,12 +83,16 @@ equipments = {
 				}
 			}
 		}
-		default_modules = {
-			main_armament_slot = empty
-			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
+		priority = 2000
+		hardness = 0.8
+		armor_value = 5
+		maximum_speed = 5
+		manpower = 3
+		reliability = 0.8
+		fuel_consumption = 0
+		build_cost_ic = 1
+		resources = {
+			steel = 1
 		}
 		module_count_limit = {
 			module = sloped_armor
@@ -201,183 +194,179 @@ equipments = {
 			module = lean_fuel
 			count < 2
 		}
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
 	}
 	light_tank_chassis_0 = {
+		abbreviation = "lt0"
+		derived_variant_name = light_tank_equipment_0
+		archetype = light_tank_chassis
 		year = 1922
 		priority = 2000
-		abbreviation = "lt0"
-		archetype = light_tank_chassis
-		derived_variant_name = light_tank_equipment_0
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	light_tank_chassis_1 = {
-		build_cost_ic = 1
-		maximum_speed = 6
-		year = 1934
-		reliability = 0.95
-		priority = 2000
 		abbreviation = "lt1"
-		armor_value = 10
+		derived_variant_name = light_tank_equipment_1
 		parent = light_tank_chassis_0
 		archetype = light_tank_chassis
-		derived_variant_name = light_tank_equipment_1
+		year = 1934
+		priority = 2000
+		armor_value = 10
+		maximum_speed = 6
+		reliability = 0.95
+		build_cost_ic = 1
 		module_slots = inherit
 	}
 	light_tank_chassis_2 = {
-		build_cost_ic = 1.5
-		maximum_speed = 6
-		year = 1936
-		reliability = 1.1
-		priority = 2000
 		abbreviation = "lt2"
+		derived_variant_name = light_tank_equipment_2
+		parent = light_tank_chassis_1
+		archetype = light_tank_chassis
+		year = 1936
+		priority = 2000
+		armor_value = 15
+		maximum_speed = 6
+		reliability = 1.1
+		build_cost_ic = 1.5
 		resources = {
 			steel = 1
 		}
-		armor_value = 15
-		parent = light_tank_chassis_1
-		archetype = light_tank_chassis
-		derived_variant_name = light_tank_equipment_2
 		module_slots = inherit
 	}
 	light_tank_chassis_3 = {
-		build_cost_ic = 2
-		maximum_speed = 6.5
-		year = 1942
-		reliability = 1.3
-		priority = 2000
 		abbreviation = "lt3"
+		derived_variant_name = light_tank_equipment_3
+		parent = light_tank_chassis_2
+		archetype = light_tank_chassis
+		year = 1942
+		priority = 2000
+		armor_value = 20
+		maximum_speed = 6.5
+		reliability = 1.3
+		build_cost_ic = 2
 		resources = {
 			steel = 2
 		}
-		armor_value = 20
-		parent = light_tank_chassis_2
-		archetype = light_tank_chassis
-		derived_variant_name = light_tank_equipment_3
 		module_slots = inherit
 	}
 	light_tank_chassis_4 = {
-		build_cost_ic = 3
-		maximum_speed = 6.5
-		year = 1945
-		reliability = 1.4
-		priority = 2000
 		abbreviation = "lt4"
+		derived_variant_name = light_tank_equipment_4
+		parent = light_tank_chassis_3
+		archetype = light_tank_chassis
+		year = 1945
+		priority = 2000
+		armor_value = 30
+		maximum_speed = 6.5
+		reliability = 1.4
+		build_cost_ic = 3
 		resources = {
 			steel = 3
 		}
-		armor_value = 30
-		parent = light_tank_chassis_3
-		archetype = light_tank_chassis
-		derived_variant_name = light_tank_equipment_4
 		module_slots = inherit
 	}
 	light_tank_chassis_5 = {
-		build_cost_ic = 4
-		maximum_speed = 6.5
-		year = 1950
-		reliability = 1.4
-		priority = 2000
 		abbreviation = "lt5"
+		derived_variant_name = light_tank_equipment_5
+		parent = light_tank_chassis_4
+		archetype = light_tank_chassis
+		year = 1950
+		priority = 2000
+		armor_value = 35
+		maximum_speed = 6.5
+		reliability = 1.4
+		build_cost_ic = 4
 		resources = {
 			chromium = 1
 			steel = 3
 		}
-		armor_value = 35
-		parent = light_tank_chassis_4
-		archetype = light_tank_chassis
-		derived_variant_name = light_tank_equipment_5
 		module_slots = inherit
 	}
 	light_tank_chassis_6 = {
-		build_cost_ic = 5
-		maximum_speed = 6.5
-		year = 1960
-		reliability = 1.5
-		priority = 2000
 		abbreviation = "lt6"
+		derived_variant_name = light_tank_equipment_6
+		parent = light_tank_chassis_5
+		archetype = light_tank_chassis
+		year = 1960
+		priority = 2000
+		armor_value = 40
+		maximum_speed = 6.5
+		reliability = 1.5
+		build_cost_ic = 5
 		resources = {
 			chromium = 1
 			steel = 4
 		}
-		armor_value = 40
-		parent = light_tank_chassis_5
-		archetype = light_tank_chassis
-		derived_variant_name = light_tank_equipment_6
 		module_slots = inherit
 	}
 	light_tank_chassis_7 = {
-		build_cost_ic = 6
-		maximum_speed = 6.5
-		year = 1970
-		reliability = 1.5
-		priority = 2000
 		abbreviation = "lt5"
+		derived_variant_name = light_tank_equipment_7
+		parent = light_tank_chassis_6
+		archetype = light_tank_chassis
+		year = 1970
+		priority = 2000
+		armor_value = 45
+		maximum_speed = 6.5
+		reliability = 1.5
+		build_cost_ic = 6
 		resources = {
 			chromium = 1
 			steel = 4
 		}
-		armor_value = 45
-		parent = light_tank_chassis_6
-		archetype = light_tank_chassis
-		derived_variant_name = light_tank_equipment_7
 		module_slots = inherit
 	}
 	light_tank_chassis_8 = {
-		build_cost_ic = 7
-		maximum_speed = 6.5
-		year = 1980
-		reliability = 1.5
-		priority = 2000
 		abbreviation = "lt7"
+		derived_variant_name = light_tank_equipment_8
+		parent = light_tank_chassis_6
+		archetype = light_tank_chassis
+		year = 1980
+		priority = 2000
+		armor_value = 50
+		maximum_speed = 6.5
+		reliability = 1.5
+		build_cost_ic = 7
 		resources = {
 			chromium = 1
 			steel = 5
 		}
-		armor_value = 50
-		parent = light_tank_chassis_6
-		archetype = light_tank_chassis
-		derived_variant_name = light_tank_equipment_8
 		module_slots = inherit
 	}
 	light_tank_chassis_9 = {
-		build_cost_ic = 8
-		maximum_speed = 6.5
-		year = 1990
-		reliability = 1.6
-		priority = 2000
 		abbreviation = "lt8"
+		derived_variant_name = light_tank_equipment_9
+		parent = light_tank_chassis_7
+		archetype = light_tank_chassis
+		year = 1990
+		priority = 2000
+		armor_value = 55
+		maximum_speed = 6.5
+		reliability = 1.6
+		build_cost_ic = 8
 		resources = {
 			chromium = 2
 			steel = 6
 		}
-		armor_value = 55
-		parent = light_tank_chassis_7
-		archetype = light_tank_chassis
-		derived_variant_name = light_tank_equipment_9
 		module_slots = inherit
 	}
 	medium_tank_chassis = {
 		is_archetype = yes
 		is_buildable = no
+		year = 1922
 		group_by = archetype
 		picture = archetype_medium_tank_equipment
-		fuel_consumption = 0
-		build_cost_ic = 2
-		maximum_speed = 5
 		interface_category = interface_category_armor
-		manpower = 4
-		year = 1922
-		reliability = 1
-		priority = 2000
-		resources = {
-			steel = 1
-		}
-		hardness = 0.85
-		armor_value = 15
 		can_be_produced = { NOT = { has_idea = BUL_army_restrictions } }
 		type = armor
 		module_slots = {
@@ -455,12 +444,16 @@ equipments = {
 				}
 			}
 		}
-		default_modules = {
-			main_armament_slot = empty
-			turret_type_slot = tank_medium_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
+		priority = 2000
+		hardness = 0.85
+		armor_value = 15
+		maximum_speed = 5
+		manpower = 4
+		reliability = 1
+		fuel_consumption = 0
+		build_cost_ic = 2
+		resources = {
+			steel = 1
 		}
 		module_count_limit = {
 			module = sloped_armor
@@ -562,87 +555,83 @@ equipments = {
 			module = lean_fuel
 			count < 2
 		}
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = tank_medium_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
 	}
 	medium_tank_chassis_0 = {
-		build_cost_ic = 2
-		maximum_speed = 4.5
-		year = 1922
-		reliability = 0.75
-		priority = 2000
 		abbreviation = "mt0"
+		derived_variant_name = medium_tank_chassis_0
+		archetype = medium_tank_chassis
+		year = 1922
+		priority = 2000
+		armor_value = 25
+		maximum_speed = 4.5
+		reliability = 0.75
+		build_cost_ic = 2
 		resources = {
 			steel = 1
 		}
-		armor_value = 25
-		archetype = medium_tank_chassis
-		derived_variant_name = medium_tank_chassis_0
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	medium_tank_chassis_1 = {
-		build_cost_ic = 2
-		year = 1936
-		priority = 2000
 		abbreviation = "mt1"
-		armor_value = 35
+		derived_variant_name = medium_tank_equipment_1
 		parent = medium_tank_chassis_0
 		archetype = medium_tank_chassis
-		derived_variant_name = medium_tank_equipment_1
+		year = 1936
+		priority = 2000
+		armor_value = 35
+		build_cost_ic = 2
 		module_slots = inherit
 	}
 	medium_tank_chassis_2 = {
-		build_cost_ic = 3
-		maximum_speed = 5
-		year = 1940
-		reliability = 1.3
-		priority = 2000
 		abbreviation = "mt2"
+		derived_variant_name = medium_tank_equipment_2
+		parent = medium_tank_chassis_1
+		archetype = medium_tank_chassis
+		year = 1940
+		priority = 2000
+		armor_value = 45
+		maximum_speed = 5
+		reliability = 1.3
+		build_cost_ic = 3
 		resources = {
 			steel = 1
 		}
-		armor_value = 45
-		parent = medium_tank_chassis_1
-		archetype = medium_tank_chassis
-		derived_variant_name = medium_tank_equipment_2
 		module_slots = inherit
 	}
 	medium_tank_chassis_3 = {
-		build_cost_ic = 4
-		maximum_speed = 5
-		year = 1943
-		reliability = 1.6
-		priority = 2000
 		abbreviation = "mt3"
+		derived_variant_name = medium_tank_equipment_3
+		parent = medium_tank_chassis_2
+		archetype = medium_tank_chassis
+		year = 1943
+		priority = 2000
+		armor_value = 50
+		maximum_speed = 5
+		reliability = 1.6
+		build_cost_ic = 4
 		resources = {
 			steel = 2
 		}
-		armor_value = 50
-		parent = medium_tank_chassis_2
-		archetype = medium_tank_chassis
-		derived_variant_name = medium_tank_equipment_3
 		module_slots = inherit
 	}
 	heavy_tank_chassis = {
 		is_archetype = yes
 		is_buildable = no
+		year = 1922
 		group_by = archetype
 		picture = archetype_heavy_tank_equipment
-		fuel_consumption = 0
-		build_cost_ic = 5
-		maximum_speed = 4
 		interface_category = interface_category_armor
-		manpower = 5
-		year = 1922
-		reliability = 1
-		priority = 2000
-		resources = {
-			steel = 1
-		}
-		hardness = 0.95
-		armor_value = 25
 		can_be_produced = { NOT = { has_idea = BUL_army_restrictions } }
 		type = armor
 		module_slots = {
@@ -722,12 +711,16 @@ equipments = {
 				}
 			}
 		}
-		default_modules = {
-			main_armament_slot = empty
-			turret_type_slot = tank_heavy_two_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
+		priority = 2000
+		hardness = 0.95
+		armor_value = 25
+		maximum_speed = 4
+		manpower = 5
+		reliability = 1
+		fuel_consumption = 0
+		build_cost_ic = 5
+		resources = {
+			steel = 1
 		}
 		module_count_limit = {
 			module = sloped_armor
@@ -825,132 +818,127 @@ equipments = {
 			module = lean_fuel
 			count < 2
 		}
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = tank_heavy_two_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
 	}
 	heavy_tank_chassis_0 = {
-		build_cost_ic = 5
-		maximum_speed = 3.5
-		year = 1922
-		reliability = 1
-		priority = 2000
 		abbreviation = "hv0"
-		armor_value = 30
-		archetype = heavy_tank_chassis
 		derived_variant_name = heavy_tank_chassis_0
+		archetype = heavy_tank_chassis
+		year = 1922
+		priority = 2000
+		armor_value = 30
+		maximum_speed = 3.5
+		reliability = 1
+		build_cost_ic = 5
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	heavy_tank_chassis_1 = {
-		year = 1936
-		priority = 2000
 		abbreviation = "hv1"
-		armor_value = 35
+		derived_variant_name = heavy_tank_equipment_1
 		parent = heavy_tank_chassis_0
 		archetype = heavy_tank_chassis
-		derived_variant_name = heavy_tank_equipment_1
+		year = 1936
+		priority = 2000
+		armor_value = 35
 		module_slots = inherit
 	}
 	heavy_tank_chassis_2 = {
-		build_cost_ic = 6
-		year = 1940
-		reliability = 1.15
-		priority = 2000
 		abbreviation = "hv2"
+		derived_variant_name = heavy_tank_equipment_2
+		parent = heavy_tank_chassis_1
+		archetype = heavy_tank_chassis
+		year = 1940
+		priority = 2000
+		armor_value = 55
+		reliability = 1.15
+		build_cost_ic = 6
 		resources = {
 			chromium = 1
 			steel = 1
 		}
-		armor_value = 55
-		parent = heavy_tank_chassis_1
-		archetype = heavy_tank_chassis
-		derived_variant_name = heavy_tank_equipment_2
 		module_slots = inherit
 	}
 	heavy_tank_chassis_3 = {
-		build_cost_ic = 7
-		year = 1943
-		reliability = 1.3
-		priority = 2000
 		abbreviation = "hv3"
+		derived_variant_name = heavy_tank_equipment_3
+		parent = heavy_tank_chassis_2
+		archetype = heavy_tank_chassis
+		year = 1943
+		priority = 2000
+		armor_value = 75
+		reliability = 1.3
+		build_cost_ic = 7
 		resources = {
 			chromium = 1
 			steel = 2
 		}
-		armor_value = 75
-		parent = heavy_tank_chassis_2
-		archetype = heavy_tank_chassis
-		derived_variant_name = heavy_tank_equipment_3
 		module_slots = inherit
 	}
 	heavy_tank_chassis_4 = {
-		build_cost_ic = 8
-		year = 1945
-		reliability = 1.4
-		priority = 2000
 		abbreviation = "hv3"
+		derived_variant_name = heavy_tank_equipment_4
+		parent = heavy_tank_chassis_3
+		archetype = heavy_tank_chassis
+		year = 1945
+		priority = 2000
+		armor_value = 80
+		reliability = 1.4
+		build_cost_ic = 8
 		resources = {
 			chromium = 1
 			steel = 3
 		}
-		armor_value = 80
-		parent = heavy_tank_chassis_3
-		archetype = heavy_tank_chassis
-		derived_variant_name = heavy_tank_equipment_4
 		module_slots = inherit
 	}
 	heavy_tank_chassis_5 = {
-		build_cost_ic = 16
-		year = 1950
-		reliability = 1.5
-		priority = 2000
 		abbreviation = "hv3"
+		derived_variant_name = heavy_tank_equipment_5
+		parent = heavy_tank_chassis_4
+		archetype = heavy_tank_chassis
+		year = 1950
+		priority = 2000
+		armor_value = 108
+		reliability = 1.5
+		build_cost_ic = 16
 		resources = {
 			chromium = 2
 			steel = 3
 		}
-		armor_value = 108
-		parent = heavy_tank_chassis_4
-		archetype = heavy_tank_chassis
-		derived_variant_name = heavy_tank_equipment_5
 		module_slots = inherit
 	}
 	heavy_tank_chassis_6 = {
-		build_cost_ic = 24
-		year = 1960
-		reliability = 1.5
-		priority = 2000
 		abbreviation = "hv3"
+		derived_variant_name = heavy_tank_equipment_6
+		parent = heavy_tank_chassis_5
+		archetype = heavy_tank_chassis
+		year = 1960
+		priority = 2000
+		armor_value = 132
+		reliability = 1.5
+		build_cost_ic = 24
 		resources = {
 			chromium = 2
 			steel = 4
 		}
-		armor_value = 132
-		parent = heavy_tank_chassis_5
-		archetype = heavy_tank_chassis
-		derived_variant_name = heavy_tank_equipment_6
 		module_slots = inherit
 	}
 	modern_tank_chassis = {
 		is_archetype = yes
 		is_buildable = no
+		year = 1945
 		group_by = archetype
 		picture = archetype_modern_tank_equipment
-		fuel_consumption = 0
-		build_cost_ic = 6
-		maximum_speed = 5
 		interface_category = interface_category_armor
-		manpower = 4
-		year = 1945
-		reliability = 1.6
-		priority = 2000
-		resources = {
-			chromium = 1
-			steel = 2
-		}
-		hardness = 0.95
-		armor_value = 75
 		can_be_produced = { NOT = { has_idea = BUL_army_restrictions } }
 		type = armor
 		module_slots = {
@@ -1027,12 +1015,17 @@ equipments = {
 				}
 			}
 		}
-		default_modules = {
-			main_armament_slot = empty
-			turret_type_slot = tank_modern_tank_turret
-			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
+		priority = 2000
+		hardness = 0.95
+		armor_value = 75
+		maximum_speed = 5
+		manpower = 4
+		reliability = 1.6
+		fuel_consumption = 0
+		build_cost_ic = 6
+		resources = {
+			chromium = 1
+			steel = 2
 		}
 		module_count_limit = {
 			module = sloped_armor
@@ -1142,225 +1135,220 @@ equipments = {
 			module = besh
 			count < 2
 		}
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = tank_modern_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
 	}
 	modern_tank_chassis_0 = {
-		build_cost_ic = 8
-		year = 1945
-		reliability = 1.7
-		priority = 2000
 		abbreviation = "mbt01"
+		derived_variant_name = modern_tank_equipment
+		archetype = modern_tank_chassis
+		year = 1945
+		priority = 2000
+		armor_value = 90
+		reliability = 1.7
+		build_cost_ic = 8
 		resources = {
 			chromium = 1
 			steel = 2
 		}
-		armor_value = 90
-		archetype = modern_tank_chassis
-		derived_variant_name = modern_tank_equipment
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	modern_tank_chassis_1 = {
-		build_cost_ic = 10
-		year = 1950
-		reliability = 1.7
-		priority = 2000
 		abbreviation = "mbt0"
+		derived_variant_name = modern_tank_equipment_1
+		parent = modern_tank_chassis_0
+		archetype = modern_tank_chassis
+		year = 1950
+		priority = 2000
+		armor_value = 95
+		reliability = 1.7
+		build_cost_ic = 10
 		resources = {
 			chromium = 1
 			steel = 2
 		}
-		armor_value = 95
-		parent = modern_tank_chassis_0
-		archetype = modern_tank_chassis
-		derived_variant_name = modern_tank_equipment_1
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	modern_tank_chassis_2 = {
-		build_cost_ic = 12
-		year = 1955
-		reliability = 1.7
-		priority = 2000
 		abbreviation = "mbt1"
+		derived_variant_name = modern_tank_equipment_2
+		parent = modern_tank_chassis_1
+		archetype = modern_tank_chassis
+		year = 1955
+		priority = 2000
+		armor_value = 100
+		reliability = 1.7
+		build_cost_ic = 12
 		resources = {
 			chromium = 1
 			steel = 3
 		}
-		armor_value = 100
-		parent = modern_tank_chassis_1
-		archetype = modern_tank_chassis
-		derived_variant_name = modern_tank_equipment_2
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	modern_tank_chassis_3 = {
-		build_cost_ic = 14
-		year = 1960
-		reliability = 1.7
-		priority = 2000
 		abbreviation = "mbt2"
+		derived_variant_name = modern_tank_equipment_3
+		parent = modern_tank_chassis_2
+		archetype = modern_tank_chassis
+		year = 1960
+		priority = 2000
+		armor_value = 110
+		reliability = 1.7
+		build_cost_ic = 14
 		resources = {
 			chromium = 2
 			steel = 4
 		}
-		armor_value = 110
-		parent = modern_tank_chassis_2
-		archetype = modern_tank_chassis
-		derived_variant_name = modern_tank_equipment_3
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	modern_tank_chassis_4 = {
-		build_cost_ic = 16
-		year = 1965
-		reliability = 1.7
-		priority = 2000
 		abbreviation = "mbt3"
+		derived_variant_name = modern_tank_equipment_4
+		parent = modern_tank_chassis_3
+		archetype = modern_tank_chassis
+		year = 1965
+		priority = 2000
+		armor_value = 120
+		reliability = 1.7
+		build_cost_ic = 16
 		resources = {
 			chromium = 2
 			steel = 5
 		}
-		armor_value = 120
-		parent = modern_tank_chassis_3
-		archetype = modern_tank_chassis
-		derived_variant_name = modern_tank_equipment_4
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	modern_tank_chassis_5 = {
-		build_cost_ic = 18
-		year = 1970
-		reliability = 1.7
-		priority = 2000
 		abbreviation = "mbt4"
+		derived_variant_name = modern_tank_equipment_5
+		parent = modern_tank_chassis_4
+		archetype = modern_tank_chassis
+		year = 1970
+		priority = 2000
+		armor_value = 130
+		reliability = 1.7
+		build_cost_ic = 18
 		resources = {
 			chromium = 3
 			steel = 6
 		}
-		armor_value = 130
-		parent = modern_tank_chassis_4
-		archetype = modern_tank_chassis
-		derived_variant_name = modern_tank_equipment_5
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	modern_tank_chassis_6 = {
-		build_cost_ic = 20
-		year = 1975
-		reliability = 1.7
-		priority = 2000
 		abbreviation = "mbt5"
+		derived_variant_name = modern_tank_equipment_6
+		parent = modern_tank_chassis_5
+		archetype = modern_tank_chassis
+		year = 1975
+		priority = 2000
+		armor_value = 140
+		reliability = 1.7
+		build_cost_ic = 20
 		resources = {
 			chromium = 3
 			steel = 7
 		}
-		armor_value = 140
-		parent = modern_tank_chassis_5
-		archetype = modern_tank_chassis
-		derived_variant_name = modern_tank_equipment_6
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	modern_tank_chassis_7 = {
-		build_cost_ic = 22
-		year = 1980
-		reliability = 1.8
-		priority = 2000
 		abbreviation = "mbt6"
+		derived_variant_name = modern_tank_equipment_7
+		parent = modern_tank_chassis_6
+		archetype = modern_tank_chassis
+		year = 1980
+		priority = 2000
+		armor_value = 150
+		reliability = 1.8
+		build_cost_ic = 22
 		resources = {
 			chromium = 4
 			steel = 8
 		}
-		armor_value = 150
-		parent = modern_tank_chassis_6
-		archetype = modern_tank_chassis
-		derived_variant_name = modern_tank_equipment_7
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	modern_tank_chassis_8 = {
-		build_cost_ic = 24
-		year = 1985
-		reliability = 1.8
-		priority = 2000
 		abbreviation = "mbt7"
+		derived_variant_name = modern_tank_equipment_8
+		parent = modern_tank_chassis_7
+		archetype = modern_tank_chassis
+		year = 1985
+		priority = 2000
+		armor_value = 160
+		reliability = 1.8
+		build_cost_ic = 24
 		resources = {
 			chromium = 4
 			steel = 9
 		}
-		armor_value = 160
-		parent = modern_tank_chassis_7
-		archetype = modern_tank_chassis
-		derived_variant_name = modern_tank_equipment_8
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	modern_tank_chassis_9 = {
-		build_cost_ic = 26
-		year = 1990
-		reliability = 1.8
-		priority = 2000
 		abbreviation = "mbt8"
+		derived_variant_name = modern_tank_equipment_9
+		parent = modern_tank_chassis_8
+		archetype = modern_tank_chassis
+		year = 1990
+		priority = 2000
+		armor_value = 170
+		reliability = 1.8
+		build_cost_ic = 26
 		resources = {
 			chromium = 5
 			steel = 10
 		}
-		armor_value = 170
-		parent = modern_tank_chassis_8
-		archetype = modern_tank_chassis
-		derived_variant_name = modern_tank_equipment_9
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	super_heavy_tank_chassis = {
 		is_archetype = yes
 		is_buildable = no
+		year = 1948
 		group_by = archetype
 		picture = archetype_super_heavy_tank_equipment
-		fuel_consumption = 0
-		build_cost_ic = 25
-		maximum_speed = 3
 		interface_category = interface_category_armor
-		manpower = 7
-		year = 1948
-		reliability = 1.3
-		priority = 2000
-		resources = {
-			chromium = 2
-			steel = 3
-		}
-		hardness = 1
-		armor_value = 85
 		can_be_produced = { NOT = { has_idea = BUL_army_restrictions } }
 		type = armor
 		module_slots = {
@@ -1441,12 +1429,17 @@ equipments = {
 				}
 			}
 		}
-		default_modules = {
-			main_armament_slot = empty
-			turret_type_slot = tank_super_heavy_three_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
+		priority = 2000
+		hardness = 1
+		armor_value = 85
+		maximum_speed = 3
+		manpower = 7
+		reliability = 1.3
+		fuel_consumption = 0
+		build_cost_ic = 25
+		resources = {
+			chromium = 2
+			steel = 3
 		}
 		module_count_limit = {
 			module = sloped_armor
@@ -1484,59 +1477,55 @@ equipments = {
 			module = auto_loader
 			count < 2
 		}
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = tank_super_heavy_three_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
 	}
 	super_heavy_tank_chassis_1 = {
+		abbreviation = "sh0"
+		derived_variant_name = super_heavy_tank_equipment_1
+		archetype = super_heavy_tank_chassis
 		year = 1943
 		priority = 2000
-		abbreviation = "sh0"
-		archetype = super_heavy_tank_chassis
-		derived_variant_name = super_heavy_tank_equipment_1
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	super_heavy_tank_chassis_2 = {
+		abbreviation = "sh0"
+		derived_variant_name = super_heavy_tank_equipment_2
+		archetype = super_heavy_tank_chassis
+		year = 1945
+		priority = 2000
+		hardness = 40
+		armor_value = 2000
+		maximum_speed = 1
+		reliability = 1.3
 		fuel_consumption = 0
 		build_cost_ic = 200
-		maximum_speed = 1
-		year = 1945
-		reliability = 1.3
-		priority = 2000
-		abbreviation = "sh0"
 		resources = {
 			chromium = 30
 			steel = 20
 		}
-		hardness = 40
-		armor_value = 2000
-		archetype = super_heavy_tank_chassis
-		derived_variant_name = super_heavy_tank_equipment_2
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	amphibious_tank_chassis = {
 		is_archetype = yes
 		is_buildable = no
+		year = 1936
 		group_by = archetype
 		picture = archetype_amphibious_tank_equipment
-		fuel_consumption = 0
-		build_cost_ic = 5
-		maximum_speed = 4
 		interface_category = interface_category_armor
-		manpower = 3
-		year = 1936
-		reliability = 1.1
-		priority = 2000
-		resources = {
-			steel = 1
-		}
-		hardness = 0.85
-		armor_value = 15
 		can_be_produced = { NOT = { has_idea = BUL_army_restrictions } }
 		type = armor
 		module_slots = {
@@ -1611,12 +1600,16 @@ equipments = {
 				}
 			}
 		}
-		default_modules = {
-			main_armament_slot = empty
-			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
+		priority = 2000
+		hardness = 0.85
+		armor_value = 15
+		maximum_speed = 4
+		manpower = 3
+		reliability = 1.1
+		fuel_consumption = 0
+		build_cost_ic = 5
+		resources = {
+			steel = 1
 		}
 		module_count_limit = {
 			module = sloped_armor
@@ -1714,113 +1707,109 @@ equipments = {
 			module = lean_fuel
 			count < 2
 		}
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
 	}
 	amphibious_tank_chassis_1 = {
+		abbreviation = "am0"
+		derived_variant_name = amphibious_tank_equipment_1
+		archetype = amphibious_tank_chassis
 		year = 1940
 		priority = 2000
-		abbreviation = "am0"
-		archetype = amphibious_tank_chassis
-		derived_variant_name = amphibious_tank_equipment_1
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	amphibious_tank_chassis_2 = {
-		build_cost_ic = 7
-		maximum_speed = 4
-		year = 1955
-		reliability = 1.3
-		priority = 2000
 		abbreviation = "am0"
+		derived_variant_name = amphibious_tank_equipment_2
+		archetype = amphibious_tank_chassis
+		year = 1955
+		priority = 2000
+		armor_value = 20
+		maximum_speed = 4
+		reliability = 1.3
+		build_cost_ic = 7
 		resources = {
 			steel = 2
 		}
-		armor_value = 20
-		archetype = amphibious_tank_chassis
-		derived_variant_name = amphibious_tank_equipment_2
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	amphibious_tank_chassis_3 = {
-		build_cost_ic = 8
-		maximum_speed = 5
-		year = 1965
-		reliability = 1.3
-		priority = 2000
 		abbreviation = "am0"
+		derived_variant_name = amphibious_tank_equipment_3
+		archetype = amphibious_tank_chassis
+		year = 1965
+		priority = 2000
+		armor_value = 25
+		maximum_speed = 5
+		reliability = 1.3
+		build_cost_ic = 8
 		resources = {
 			steel = 3
 		}
-		armor_value = 25
-		archetype = amphibious_tank_chassis
-		derived_variant_name = amphibious_tank_equipment_3
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	amphibious_tank_chassis_4 = {
-		build_cost_ic = 8
-		maximum_speed = 5
-		year = 1975
-		reliability = 1.4
-		priority = 2000
 		abbreviation = "am0"
+		derived_variant_name = amphibious_tank_equipment_4
+		archetype = amphibious_tank_chassis
+		year = 1975
+		priority = 2000
+		armor_value = 30
+		maximum_speed = 5
+		reliability = 1.4
+		build_cost_ic = 8
 		resources = {
 			steel = 4
 		}
-		armor_value = 30
-		archetype = amphibious_tank_chassis
-		derived_variant_name = amphibious_tank_equipment_4
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	amphibious_tank_chassis_5 = {
-		build_cost_ic = 9
-		maximum_speed = 6
-		year = 1985
-		reliability = 1.4
-		priority = 2000
 		abbreviation = "am0"
+		derived_variant_name = amphibious_tank_equipment_5
+		archetype = amphibious_tank_chassis
+		year = 1985
+		priority = 2000
+		armor_value = 35
+		maximum_speed = 6
+		reliability = 1.4
+		build_cost_ic = 9
 		resources = {
 			steel = 5
 		}
-		armor_value = 35
-		archetype = amphibious_tank_chassis
-		derived_variant_name = amphibious_tank_equipment_5
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	para_tank_chassis = {
 		is_archetype = yes
 		is_buildable = no
+		year = 1955
 		group_by = archetype
 		picture = archetype_light_tank_equipment
-		fuel_consumption = 0
-		build_cost_ic = 1
-		maximum_speed = 5
 		interface_category = interface_category_armor
-		manpower = 3
-		year = 1955
-		reliability = 0.8
-		priority = 2000
-		resources = {
-			steel = 1
-		}
-		hardness = 0.8
-		armor_value = 5
 		can_be_produced = { NOT = { has_idea = BUL_army_restrictions } }
 		type = armor
 		module_slots = {
@@ -1900,12 +1889,16 @@ equipments = {
 				}
 			}
 		}
-		default_modules = {
-			main_armament_slot = empty
-			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
+		priority = 2000
+		hardness = 0.8
+		armor_value = 5
+		maximum_speed = 5
+		manpower = 3
+		reliability = 0.8
+		fuel_consumption = 0
+		build_cost_ic = 1
+		resources = {
+			steel = 1
 		}
 		module_count_limit = {
 			module = sloped_armor
@@ -2007,104 +2000,100 @@ equipments = {
 			module = lean_fuel
 			count < 2
 		}
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
 	}
 	para_tank_chassis_1 = {
-		build_cost_ic = 7
-		maximum_speed = 4
-		year = 1960
-		reliability = 1.3
-		priority = 2000
 		abbreviation = "pr1"
+		derived_variant_name = para_tank_equipment_1
+		archetype = para_tank_chassis
+		year = 1960
+		priority = 2000
+		armor_value = 20
+		maximum_speed = 4
+		reliability = 1.3
+		build_cost_ic = 7
 		resources = {
 			steel = 2
 		}
-		armor_value = 20
-		archetype = para_tank_chassis
-		derived_variant_name = para_tank_equipment_1
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	para_tank_chassis_2 = {
-		build_cost_ic = 7
-		maximum_speed = 4
-		year = 1970
-		reliability = 1.3
-		priority = 2000
 		abbreviation = "pr2"
+		derived_variant_name = para_tank_equipment_2
+		parent = para_tank_chassis_1
+		archetype = para_tank_chassis
+		year = 1970
+		priority = 2000
+		armor_value = 30
+		maximum_speed = 4
+		reliability = 1.3
+		build_cost_ic = 7
 		resources = {
 			steel = 3
 		}
-		armor_value = 30
-		parent = para_tank_chassis_1
-		archetype = para_tank_chassis
-		derived_variant_name = para_tank_equipment_2
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	para_tank_chassis_3 = {
-		build_cost_ic = 7
-		maximum_speed = 4
-		year = 1980
-		reliability = 1.3
-		priority = 2000
 		abbreviation = "pr3"
+		derived_variant_name = para_tank_equipment_3
+		parent = para_tank_chassis_2
+		archetype = para_tank_chassis
+		year = 1980
+		priority = 2000
+		armor_value = 40
+		maximum_speed = 4
+		reliability = 1.3
+		build_cost_ic = 7
 		resources = {
 			steel = 4
 		}
-		armor_value = 40
-		parent = para_tank_chassis_2
-		archetype = para_tank_chassis
-		derived_variant_name = para_tank_equipment_3
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	para_tank_chassis_4 = {
-		build_cost_ic = 7
-		maximum_speed = 4
-		year = 1990
-		reliability = 1.3
-		priority = 2000
 		abbreviation = "pr4"
+		derived_variant_name = para_tank_equipment_4
+		parent = para_tank_chassis_3
+		archetype = para_tank_chassis
+		year = 1990
+		priority = 2000
+		armor_value = 50
+		maximum_speed = 4
+		reliability = 1.3
+		build_cost_ic = 7
 		resources = {
 			steel = 5
 		}
-		armor_value = 50
-		parent = para_tank_chassis_3
-		archetype = para_tank_chassis
-		derived_variant_name = para_tank_equipment_4
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	wheeled_tank_chassis = {
 		is_archetype = yes
 		is_buildable = no
+		year = 1967
 		group_by = archetype
 		picture = archetype_wheeled_tank_equipment
-		fuel_consumption = 0
-		build_cost_ic = 1
-		maximum_speed = 5
 		interface_category = interface_category_armor
-		manpower = 3
-		year = 1967
-		reliability = 0.8
-		priority = 2000
-		resources = {
-			steel = 1
-		}
-		hardness = 0.8
-		armor_value = 5
 		can_be_produced = { NOT = { has_idea = BUL_army_restrictions } }
 		type = armor
 		module_slots = {
@@ -2184,12 +2173,16 @@ equipments = {
 				}
 			}
 		}
-		default_modules = {
-			main_armament_slot = empty
-			turret_type_slot = tank_light_one_man_tank_turret
-			suspension_type_slot = tank_bogie_suspension
-			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
+		priority = 2000
+		hardness = 0.8
+		armor_value = 5
+		maximum_speed = 5
+		manpower = 3
+		reliability = 0.8
+		fuel_consumption = 0
+		build_cost_ic = 1
+		resources = {
+			steel = 1
 		}
 		module_count_limit = {
 			module = sloped_armor
@@ -2291,107 +2284,100 @@ equipments = {
 			module = lean_fuel
 			count < 2
 		}
+		default_modules = {
+			main_armament_slot = empty
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
 	}
 	wheeled_tank_chassis_0 = {
-		build_cost_ic = 8
-		maximum_speed = 12
-		year = 1967
-		reliability = 1.4
-		priority = 2000
 		abbreviation = "wt1"
+		derived_variant_name = amphibious_tank_equipment_1
+		archetype = wheeled_tank_chassis
+		year = 1967
+		priority = 2000
+		armor_value = 30
+		maximum_speed = 12
+		reliability = 1.4
+		build_cost_ic = 8
 		resources = {
 			steel = 3
 		}
-		armor_value = 30
-		archetype = wheeled_tank_chassis
-		derived_variant_name = amphibious_tank_equipment_1
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	wheeled_tank_chassis_1 = {
-		build_cost_ic = 8
-		maximum_speed = 12
-		year = 1970
-		reliability = 1.4
-		priority = 2000
 		abbreviation = "wt1"
+		derived_variant_name = wheeled_tank_equipment_1
+		parent = wheeled_tank_chassis_0
+		archetype = wheeled_tank_chassis
+		year = 1970
+		priority = 2000
+		armor_value = 50
+		maximum_speed = 12
+		reliability = 1.4
+		build_cost_ic = 8
 		resources = {
 			steel = 3
 		}
-		armor_value = 50
-		parent = wheeled_tank_chassis_0
-		archetype = wheeled_tank_chassis
-		derived_variant_name = wheeled_tank_equipment_1
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 	wheeled_tank_chassis_2 = {
-		build_cost_ic = 9
-		maximum_speed = 13
-		year = 1980
-		reliability = 1.5
-		priority = 2000
 		abbreviation = "wt2"
-		resources = {
-			steel = 5
-		}
-		armor_value = 80
+		derived_variant_name = wheeled_tank_equipment_2
 		parent = wheeled_tank_chassis_1
 		archetype = wheeled_tank_chassis
-		derived_variant_name = wheeled_tank_equipment_2
-		upgrades = {
-			tank_nsb_engine_upgrade
-			tank_nsb_armor_upgrade
-		}
-		module_slots = inherit
-	}
-	wheeled_tank_chassis_3 = {
-		build_cost_ic = 10
-		maximum_speed = 14
-		year = 1990
-		reliability = 1.5
+		year = 1980
 		priority = 2000
-		abbreviation = "wt3"
+		armor_value = 80
+		maximum_speed = 13
+		reliability = 1.5
+		build_cost_ic = 9
 		resources = {
 			steel = 5
 		}
-		armor_value = 100
-		parent = wheeled_tank_chassis_2
-		archetype = wheeled_tank_chassis
-		derived_variant_name = wheeled_tank_equipment_3
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
+	}
+	wheeled_tank_chassis_3 = {
+		abbreviation = "wt3"
+		derived_variant_name = wheeled_tank_equipment_3
+		parent = wheeled_tank_chassis_2
+		archetype = wheeled_tank_chassis
+		year = 1990
+		priority = 2000
+		armor_value = 100
+		maximum_speed = 14
+		reliability = 1.5
+		build_cost_ic = 10
+		resources = {
+			steel = 5
+		}
 		module_slots = inherit
+		upgrades = {
+			tank_nsb_engine_upgrade
+			tank_nsb_armor_upgrade
+		}
 	}
 	land_cruiser_chassis = {
 		is_archetype = yes
 		is_buildable = no
+		year = 1945
 		group_by = archetype
 		picture = archetype_super_heavy_tank_equipment
-		fuel_consumption = 12
-		build_cost_ic = 250
-		lend_lease_cost = 80
-		maximum_speed = 5
 		interface_category = interface_category_armor
-		manpower = 30
-		year = 1945
-		reliability = 1
-		priority = 2000
-		resources = {
-			chromium = 4
-			steel = 8
-		}
-		defense = 12
-		armor_value = 150
-		max_military_factories = 5
 		can_be_produced = { if = { limit = { has_dlc = "Arms Against Tyranny" } NOT = { has_idea = BUL_army_restrictions_aat } } else = { NOT = { has_idea = BUL_army_restrictions } } }
 		type = armor
 		module_slots = {
@@ -2459,9 +2445,19 @@ equipments = {
 				}
 			}
 		}
-		default_modules = {
-			lc_main_armament_slot = lc_heavy_naval_guns
-			lc_secondary_armament_slot = lc_medium_naval_guns
+		priority = 2000
+		defense = 12
+		armor_value = 150
+		max_military_factories = 5
+		maximum_speed = 5
+		manpower = 30
+		reliability = 1
+		fuel_consumption = 12
+		build_cost_ic = 250
+		lend_lease_cost = 80
+		resources = {
+			chromium = 4
+			steel = 8
 		}
 		module_count_limit = {
 			module = lc_assault_gun
@@ -2511,18 +2507,22 @@ equipments = {
 			module = lc_stabilizers
 			count < 2
 		}
+		default_modules = {
+			lc_main_armament_slot = lc_heavy_naval_guns
+			lc_secondary_armament_slot = lc_medium_naval_guns
+		}
 	}
 	land_cruiser_chassis_1 = {
-		year = 1945
-		priority = 2000
-		visual_level = 0
 		abbreviation = "LCR"
-		archetype = land_cruiser_chassis
 		derived_variant_name = land_cruiser_equipment_1
+		archetype = land_cruiser_chassis
+		year = 1945
+		visual_level = 0
+		priority = 2000
+		module_slots = inherit
 		upgrades = {
 			tank_nsb_engine_upgrade
 			tank_nsb_armor_upgrade
 		}
-		module_slots = inherit
 	}
 }

@@ -1,0 +1,43 @@
+technologies = {
+	FLTE_tech_tier_ordn_1 = {  }
+	FLTE_tech_tier_ordn_2 = {  }
+	FLTE_tech_tier_ordn_3 = {  }
+	FLTE_tech_tier_ordn_4 = {  }
+	FLTE_tech_tier_ordn_5 = {  }
+
+	FLTE_tech_tier_vehc_1 = {  }
+	FLTE_tech_tier_vehc_2 = {  }
+	FLTE_tech_tier_vehc_3 = {  }
+	FLTE_tech_tier_vehc_4 = {  }
+	FLTE_tech_tier_vehc_5 = {  }
+
+	FLTE_tech_tier_airf_1 = {  }
+	FLTE_tech_tier_airf_2 = {  }
+	FLTE_tech_tier_airf_3 = {  }
+	FLTE_tech_tier_airf_4 = {  }
+	FLTE_tech_tier_airf_5 = {  }
+
+	FLTE_tech_tier_naval_1 = {  }
+	FLTE_tech_tier_naval_2 = {  }
+	FLTE_tech_tier_naval_3 = {  }
+	FLTE_tech_tier_naval_4 = {  }
+	FLTE_tech_tier_naval_5 = {  }
+
+	FLTE_tech_tier_infr_1 = {  }
+	FLTE_tech_tier_infr_2 = {  }
+	FLTE_tech_tier_infr_3 = {  }
+	FLTE_tech_tier_infr_4 = {  }
+	FLTE_tech_tier_infr_5 = {  }
+
+	FLTE_tech_tier_elec_1 = {  }
+	FLTE_tech_tier_elec_2 = {  }
+	FLTE_tech_tier_elec_3 = {  }
+	FLTE_tech_tier_elec_4 = {  }
+	FLTE_tech_tier_elec_5 = {  }
+
+	FLTE_tech_tier_spac_1 = {  }
+	FLTE_tech_tier_spac_2 = {  }
+	FLTE_tech_tier_spac_3 = {  }
+	FLTE_tech_tier_spac_4 = {  }
+	FLTE_tech_tier_spac_5 = {  }
+}

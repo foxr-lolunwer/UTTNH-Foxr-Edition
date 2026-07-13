@@ -3,83 +3,83 @@ equipments = {
 		is_archetype = yes
 		is_buildable = no
 		supply_truck = yes
+		type = motorized
+		year = 1936
 		group_by = archetype
 		picture = archetype_motorized_equipment
+		interface_category = interface_category_land
+		breakthrough = 5
+		hardness = 0.1
+		maximum_speed = 12
+		reliability = 0.8
 		fuel_consumption = 1.2
 		build_cost_ic = 2.5
 		lend_lease_cost = 5
-		maximum_speed = 12
-		interface_category = interface_category_land
-		year = 1936
-		reliability = 0.8
 		resources = {
 			rubber = 1
 			steel = 1
 		}
-		breakthrough = 5
-		hardness = 0.1
-		type = motorized
 	}
 	motorized_equipment_0 = {
-		maximum_speed = 10
+		archetype = motorized_equipment
 		year = 1936
-		reliability = 0.65
 		priority = 30
 		breakthrough = 2
-		archetype = motorized_equipment
+		maximum_speed = 10
+		reliability = 0.65
 	}
 	motorized_equipment_1 = {
-		year = 1936
-		priority = 30
 		parent = motorized_equipment_0
 		archetype = motorized_equipment
+		year = 1936
+		priority = 30
 	}
 	motorized_equipment_2 = {
-		maximum_speed = 18
-		reliability = 0.85
-		priority = 30
-		hardness = 0.15
 		parent = motorized_equipment_1
 		archetype = motorized_equipment
+		priority = 30
+		hardness = 0.15
+		maximum_speed = 18
+		reliability = 0.85
 	}
 	motorized_equipment_3 = {
-		maximum_speed = 22
-		reliability = 0.87
-		priority = 30
-		hardness = 0.17
 		parent = motorized_equipment_2
 		archetype = motorized_equipment
-	}
-	motorized_equipment_4 = {
-		maximum_speed = 22
-		reliability = 0.87
 		priority = 30
 		hardness = 0.17
+		maximum_speed = 22
+		reliability = 0.87
+	}
+	motorized_equipment_4 = {
 		parent = motorized_equipment_3
 		archetype = motorized_equipment
+		priority = 30
+		hardness = 0.17
+		maximum_speed = 22
+		reliability = 0.87
 	}
 	motorbike_equipment = {
 		is_archetype = yes
 		is_buildable = no
+		type = motorized
+		type = support
+		year = 1938
 		group_by = archetype
 		picture = archetype_motorized_equipment
+		interface_category = interface_category_land
+		breakthrough = 1
+		maximum_speed = 12
+		reliability = 0.9
 		fuel_consumption = 0.5
 		build_cost_ic = 1.5
 		lend_lease_cost = 2
-		maximum_speed = 12
-		interface_category = interface_category_land
-		year = 1938
-		reliability = 0.9
 		resources = {
 			rubber = 1
 			steel = 1
 		}
-		breakthrough = 1
-		type = motorized
-		type = support
 	}
 	motorbike_equipment_1 = {
-		priority = 1
 		archetype = motorbike_equipment
+		priority = 1
 	}
 }

@@ -2,143 +2,143 @@ equipments = {
 	amphibious_mechanized_equipment = {
 		is_archetype = yes
 		is_buildable = no
+		type = mechanized
+		year = 1936
 		group_by = archetype
 		picture = archetype_motorized_equipment
-		fuel_consumption = 4
-		build_cost_ic = 8
-		lend_lease_cost = 5
-		maximum_speed = 7
 		interface_category = interface_category_land
-		year = 1936
-		reliability = 0.8
-		resources = {
-			rubber = 1
-			steel = 2
-		}
 		ap_attack = 11
 		defense = 26
 		breakthrough = 4
 		hardness = 0.6
 		armor_value = 10
-		type = mechanized
-	}
-	amphibious_mechanized_equipment_1 = {
-		year = 1940
-		priority = 40
-		visual_level = 0
-		archetype = amphibious_mechanized_equipment
-	}
-	amphibious_mechanized_equipment_2 = {
-		build_cost_ic = 10
-		maximum_speed = 10
-		year = 1942
-		priority = 40
-		visual_level = 1
+		maximum_speed = 7
+		reliability = 0.8
+		fuel_consumption = 4
+		build_cost_ic = 8
+		lend_lease_cost = 5
 		resources = {
 			rubber = 1
-			steel = 3
+			steel = 2
 		}
+	}
+	amphibious_mechanized_equipment_1 = {
+		archetype = amphibious_mechanized_equipment
+		year = 1940
+		visual_level = 0
+		priority = 40
+	}
+	amphibious_mechanized_equipment_2 = {
+		parent = amphibious_mechanized_equipment_1
+		archetype = amphibious_mechanized_equipment
+		year = 1942
+		visual_level = 1
+		priority = 40
 		ap_attack = 16
 		defense = 30
 		breakthrough = 5
 		hardness = 0.7
 		armor_value = 15
-		parent = amphibious_mechanized_equipment_1
-		archetype = amphibious_mechanized_equipment
-	}
-	amphibious_mechanized_equipment_3 = {
-		build_cost_ic = 15
-		maximum_speed = 13
-		year = 1950
-		priority = 40
-		visual_level = 1
+		maximum_speed = 10
+		build_cost_ic = 10
 		resources = {
 			rubber = 1
-			steel = 4
+			steel = 3
 		}
+	}
+	amphibious_mechanized_equipment_3 = {
+		parent = amphibious_mechanized_equipment_2
+		archetype = amphibious_mechanized_equipment
+		year = 1950
+		visual_level = 1
+		priority = 40
 		ap_attack = 21
 		defense = 34
 		breakthrough = 6
 		hardness = 0.8
 		armor_value = 20
-		parent = amphibious_mechanized_equipment_2
-		archetype = amphibious_mechanized_equipment
-	}
-	amphibious_mechanized_equipment_4 = {
-		build_cost_ic = 20
-		maximum_speed = 16
-		year = 1960
-		priority = 40
-		visual_level = 1
+		maximum_speed = 13
+		build_cost_ic = 15
 		resources = {
 			rubber = 1
-			steel = 5
+			steel = 4
 		}
+	}
+	amphibious_mechanized_equipment_4 = {
+		parent = amphibious_mechanized_equipment_3
+		archetype = amphibious_mechanized_equipment
+		year = 1960
+		visual_level = 1
+		priority = 40
 		ap_attack = 26
 		defense = 38
 		breakthrough = 7
 		hardness = 0.9
 		armor_value = 25
-		parent = amphibious_mechanized_equipment_3
-		archetype = amphibious_mechanized_equipment
-	}
-	amphibious_mechanized_equipment_5 = {
+		maximum_speed = 16
 		build_cost_ic = 20
-		maximum_speed = 19
-		year = 1970
-		priority = 40
-		visual_level = 1
 		resources = {
 			rubber = 1
-			steel = 6
+			steel = 5
 		}
+	}
+	amphibious_mechanized_equipment_5 = {
+		parent = amphibious_mechanized_equipment_4
+		archetype = amphibious_mechanized_equipment
+		year = 1970
+		visual_level = 1
+		priority = 40
 		ap_attack = 31
 		defense = 42
 		breakthrough = 8
 		hardness = 1
 		armor_value = 30
-		parent = amphibious_mechanized_equipment_4
-		archetype = amphibious_mechanized_equipment
+		maximum_speed = 19
+		build_cost_ic = 20
+		resources = {
+			rubber = 1
+			steel = 6
+		}
 	}
 	amphibious_mechanized_equipment_6 = {
 		is_convertable = yes
-		build_cost_ic = 25
-		maximum_speed = 22
+		parent = amphibious_mechanized_equipment_5
+		archetype = amphibious_mechanized_equipment
 		year = 1980
-		priority = 40
 		visual_level = 1
-		resources = {
-			rubber = 1
-			steel = 7
-		}
+		priority = 40
 		ap_attack = 36
 		defense = 46
 		breakthrough = 9
 		hardness = 1
 		armor_value = 35
-		parent = amphibious_mechanized_equipment_5
-		archetype = amphibious_mechanized_equipment
+		maximum_speed = 22
+		build_cost_ic = 25
 		can_convert_from = {
 			amphibious_mechanized_equipment_3
 			amphibious_mechanized_equipment_4
 		}
+		resources = {
+			rubber = 1
+			steel = 7
+		}
 	}
 	amphibious_mechanized_equipment_7 = {
-		build_cost_ic = 30
-		maximum_speed = 25
+		parent = amphibious_mechanized_equipment_6
+		archetype = amphibious_mechanized_equipment
 		year = 1990
-		priority = 40
 		visual_level = 1
-		resources = {
-			rubber = 2
-			steel = 8
-		}
+		priority = 40
 		ap_attack = 41
 		defense = 51
 		breakthrough = 10
 		hardness = 1
 		armor_value = 40
-		parent = amphibious_mechanized_equipment_6
-		archetype = amphibious_mechanized_equipment
+		maximum_speed = 25
+		build_cost_ic = 30
+		resources = {
+			rubber = 2
+			steel = 8
+		}
 	}
 }

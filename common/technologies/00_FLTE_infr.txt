@@ -1,0 +1,1635 @@
+technologies = {
+	@main = 0
+	@small_branch_right_1 = 2
+	@small_branch_right_2 = 4
+	@small_branch_right_3 = 6
+	@small_branch_right_4 = 8
+	@small_branch_right_5 = 10
+	@small_branch_right_6 = 12
+	@small_branch_right_7 = 14
+	@small_branch_right_8 = 17
+	@small_branch_right_9 = 19
+	@small_branch_left_1 = -2
+	@small_branch_left_2 = -4
+	@excavation_branch = 21
+	@excavation_branch_right_1 = 23
+	@excavation_branch_right_2 = 25
+	@excavation_branch_right_3 = 27
+	@excavation_branch_right_4 = 29
+	@excavation_branch_right_5 = 31
+	@excavation_branch_right_6 = 33
+	@excavation_branch_right_7 = 35
+
+	@Tier1_1 = 0
+	@Tier1_2 = 2
+	@Tier1_3 = 4
+	@Tier2_1 = 7
+	@Tier2_2 = 9
+	@Tier2_3 = 11
+	@Tier3_1 = 14
+	@Tier3_2 = 16
+	@Tier3_3 = 18
+	@Tier4_1 = 21
+	@Tier4_2 = 23
+	@Tier4_3 = 25
+	@Tier5_1 = 28
+	@Tier5_2 = 30
+	@Tier5_3 = 32
+
+	capacity_industrial_construction = {
+		enable_building = { building = infrastructure level = 5 }
+		enable_building = { building = FLTE_industrial_expansion level = 2 }
+		enable_building = { building = industrial_complex level = 5 }
+		enable_building = { building = arms_factory level = 5 }
+		enable_building = { building = dockyard level = 1 }
+		enable_building = { building = naval_base level = 3 }
+		enable_building = { building = air_base level = 3 }
+		enable_building = { building = fuel_silo level = 3 }
+		path = { leads_to_tech = concentrated_industry_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = dispersed_industry_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = construction_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = fuel_refining_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = coal_energy_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = excavation_1 research_cost_coeff = 1 }
+		research_cost = 0.2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier1_1 } }
+		dependencies = { FLTE_tech_tier_infr_1 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = fuel_silos } }
+					set_technology = { fuel_silos = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry concentrated_industry_category dispersed_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 100 }
+	}
+
+	concentrated_industry_1 = {
+		enable_building = { building = industrial_complex level = 8 }
+		enable_building = { building = arms_factory level = 8 }
+		enable_building = { building = dockyard level = 2 }
+		cic_construction_boost = 0.5
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.2
+		path = { leads_to_tech = concentrated_industry_2 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier1_3 } }
+		dependencies = { FLTE_tech_tier_infr_1 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = concentrated_industry } }
+					set_technology = { concentrated_industry = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry concentrated_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	concentrated_industry_2 = {
+		enable_building = { building = industrial_complex level = 10 }
+		enable_building = { building = arms_factory level = 10 }
+		enable_building = { building = dockyard level = 3 }
+		cic_construction_boost = 0.5
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.2
+		path = { leads_to_tech = concentrated_industry_3 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier2_1 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 } 
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = concentrated_industry2 } }
+					set_technology = { concentrated_industry2 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry concentrated_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	concentrated_industry_3 = {
+		enable_building = { building = industrial_complex level = 12 }
+		enable_building = { building = arms_factory level = 12 }
+		enable_building = { building = dockyard level = 4 }
+		cic_construction_boost = 0.5
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.2
+		path = { leads_to_tech = concentrated_industry_4 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier2_3 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = concentrated_industry3 } }
+					set_technology = { concentrated_industry3 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry concentrated_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	concentrated_industry_4 = {
+		enable_building = { building = industrial_complex level = 15 }
+		enable_building = { building = arms_factory level = 15 }
+		enable_building = { building = dockyard level = 5 }
+		cic_construction_boost = 0.5
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.2
+		path = { leads_to_tech = concentrated_industry_5 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier3_1 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = concentrated_industry4 } }
+					set_technology = { concentrated_industry4 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry concentrated_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	concentrated_industry_5 = {
+		enable_building = { building = industrial_complex level = 20 }
+		enable_building = { building = arms_factory level = 20 }
+		enable_building = { building = dockyard level = 6 }
+		cic_construction_boost = 0.5
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.2
+		path = { leads_to_tech = concentrated_industry_6 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier3_3 } }
+		dependencies = { FLTE_tech_tier_infr_1 = 3 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = concentrated_industry5 } }
+					set_technology = { concentrated_industry5 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry concentrated_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	concentrated_industry_6 = {
+		enable_building = { building = industrial_complex level = 25 }
+		enable_building = { building = arms_factory level = 25 }
+		enable_building = { building = dockyard level = 7 }
+		cic_construction_boost = 0.5
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.2
+		path = { leads_to_tech = concentrated_industry_7 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier4_1 } }
+		dependencies = { FLTE_tech_tier_infr_1 = 4 }
+		categories = { industry concentrated_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	concentrated_industry_7 = {
+		enable_building = { building = industrial_complex level = 30 }
+		enable_building = { building = arms_factory level = 30 }
+		enable_building = { building = dockyard level = 8 }
+		cic_construction_boost = 0.5
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.2
+		path = { leads_to_tech = concentrated_industry_8 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier4_3 } }
+		dependencies = { FLTE_tech_tier_infr_1 = 4 }
+		categories = { industry concentrated_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	concentrated_industry_8 = {
+		enable_building = { building = industrial_complex level = 40 }
+		enable_building = { building = arms_factory level = 40 }
+		enable_building = { building = dockyard level = 9 }
+		cic_construction_boost = 0.5
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.2
+		path = { leads_to_tech = concentrated_industry_9 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier5_1 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry concentrated_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	concentrated_industry_9 = {
+		enable_building = { building = industrial_complex level = 50 }
+		enable_building = { building = arms_factory level = 50 }
+		enable_building = { building = dockyard level = 10 }
+		cic_construction_boost = 0.5
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.2
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier5_3 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry concentrated_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	dispersed_industry_1 = {
+		industry_air_damage_factor = -0.1
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = -0.05
+		path = { leads_to_tech = dispersed_industry_2 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier1_3 } }
+		dependencies = { FLTE_tech_tier_infr_1 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = dispersed_industry } }
+					set_technology = { dispersed_industry = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry dispersed_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	dispersed_industry_2 = {
+		industry_air_damage_factor = -0.1
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = -0.05
+		path = { leads_to_tech = dispersed_industry_3 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier2_1 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = dispersed_industry2 } }
+					set_technology = { dispersed_industry2 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry dispersed_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	dispersed_industry_3 = {
+		industry_air_damage_factor = -0.1
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = -0.05
+		path = { leads_to_tech = dispersed_industry_4 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier2_3 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = dispersed_industry3 } }
+					set_technology = { dispersed_industry3 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry dispersed_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	dispersed_industry_4 = {
+		industry_air_damage_factor = -0.1
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = -0.05
+		path = { leads_to_tech = dispersed_industry_5 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier3_1 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = dispersed_industry4 } }
+					set_technology = { dispersed_industry4 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry dispersed_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	dispersed_industry_5 = {
+		industry_air_damage_factor = -0.1
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = -0.05
+		path = { leads_to_tech = dispersed_industry_6 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier3_3 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = dispersed_industry5 } }
+					set_technology = { dispersed_industry5 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry dispersed_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	dispersed_industry_6 = {
+		industry_air_damage_factor = -0.1
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = -0.05
+		path = { leads_to_tech = dispersed_industry_7 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier4_1 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		categories = { industry dispersed_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	dispersed_industry_7 = {
+		industry_air_damage_factor = -0.1
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = -0.05
+		path = { leads_to_tech = dispersed_industry_8 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier4_3 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		categories = { industry dispersed_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	dispersed_industry_8 = {
+		industry_air_damage_factor = -0.1
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = -0.05
+		path = { leads_to_tech = dispersed_industry_9 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier5_1 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry dispersed_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	dispersed_industry_9 = {
+		industry_air_damage_factor = -0.1
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = -0.05
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier5_3 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry dispersed_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+
+	construction_1 = {
+		production_speed_buildings_factor = 0.15
+		industry_repair_factor = 0.1
+		path = { leads_to_tech = construction_2 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier1_3 } }
+		dependencies = { FLTE_tech_tier_infr_1 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = construction1 } }
+					set_technology = { construction1 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	construction_2 = {
+		enable_building = { building = infrastructure level = 10 }
+		enable_building = { building = FLTE_industrial_expansion level = 4 }
+		path = { leads_to_tech = construction_3 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_supply_node_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_factory_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_bunker_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_naval_base_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_air_base_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_facility_1 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier2_1 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = construction2 } }
+					set_technology = { construction2 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	construction_3 = {
+		production_speed_buildings_factor = 0.15
+		industry_repair_factor = 0.1
+		path = { leads_to_tech = construction_4 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier2_3 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = construction3 } }
+					set_technology = { construction3 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	construction_4 = {
+		enable_building = { building = infrastructure level = 15 }
+		enable_building = { building = FLTE_industrial_expansion level = 6 }
+		path = { leads_to_tech = construction_5 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_supply_node_2 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_factory_2 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_bunker_2 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_naval_base_2 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_air_base_2 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_facility_2 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier3_1 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = construction4 } }
+					set_technology = { construction4 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	construction_5 = {
+		production_speed_buildings_factor = 0.15
+		industry_repair_factor = 0.1
+		path = { leads_to_tech = construction_6 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier3_3 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = construction5 } }
+					set_technology = { construction5 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	construction_6 = {
+		enable_building = { building = infrastructure level = 20 }
+		enable_building = { building = FLTE_industrial_expansion level = 8 }
+		path = { leads_to_tech = construction_7 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_supply_node_3 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_factory_3 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_bunker_3 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_naval_base_3 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_air_base_3 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_facility_3 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_nuclear_1 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier4_1 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		categories = { industry construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	construction_7 = {
+		production_speed_buildings_factor = 0.15
+		industry_repair_factor = 0.1
+		path = { leads_to_tech = construction_8 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier4_3 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		categories = { industry construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	construction_8 = {
+		enable_building = { building = infrastructure level = 25 }
+		enable_building = { building = FLTE_industrial_expansion level = 10 }
+		path = { leads_to_tech = construction_9 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_supply_node_4 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_factory_4 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_bunker_4 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_naval_base_4 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_air_base_4 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_facility_4 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_nuclear_2 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier5_1 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	construction_9 = {
+		production_speed_buildings_factor = 0.15
+		industry_repair_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier5_3 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_supply_node_1 = {
+		production_speed_supply_node_factor = 0.15
+		production_speed_rail_way_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_1 y = @Tier2_2 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		categories = { industry
+			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_supply_node_2 = {
+		production_speed_supply_node_factor = 0.15
+		production_speed_rail_way_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_1 y = @Tier3_2 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		categories = { industry
+			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_supply_node_3 = {
+		production_speed_supply_node_factor = 0.15
+		production_speed_rail_way_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_1 y = @Tier4_2 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		categories = { industry
+			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_supply_node_4 = {
+		production_speed_supply_node_factor = 0.15
+		production_speed_rail_way_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_1 y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_factory_1 = {
+		production_speed_arms_factory_factor = 0.1
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_dockyard_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_2 y = @Tier2_2 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		categories = { industry
+			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_factory_2 = {
+		production_speed_arms_factory_factor = 0.1
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_dockyard_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_2 y = @Tier3_2 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		categories = { industry
+			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_factory_3 = {
+		production_speed_arms_factory_factor = 0.1
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_dockyard_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_2 y = @Tier4_2 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		categories = { industry
+			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_factory_4 = {
+		production_speed_arms_factory_factor = 0.1
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_dockyard_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_2 y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_bunker_1 = {
+		production_speed_bunker_factor = 0.1
+		production_speed_coastal_bunker_factor = 0.1
+		production_speed_anti_air_building_factor = 0.1
+		bunker_max_level_terrain_limit = 1
+		coastal_bunker_max_level_terrain_limit = 1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_3 y = @Tier2_2 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = basic_fortification_tech } }
+					set_technology = { basic_fortification_tech = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry
+			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_bunker_2 = {
+		production_speed_bunker_factor = 0.1
+		production_speed_coastal_bunker_factor = 0.1
+		production_speed_anti_air_building_factor = 0.1
+		bunker_max_level_terrain_limit = 1
+		coastal_bunker_max_level_terrain_limit = 1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_3 y = @Tier3_2 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = land_fort_tech_1 } }
+					set_technology = { land_fort_tech_1 = 1 popup = no }
+				}
+				if = { limit = { NOT = { has_tech = coastal_fort_tech_1 } }
+					set_technology = { coastal_fort_tech_1 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry
+			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_bunker_3 = {
+		production_speed_bunker_factor = 0.1
+		production_speed_coastal_bunker_factor = 0.1
+		production_speed_anti_air_building_factor = 0.1
+		bunker_max_level_terrain_limit = 1
+		coastal_bunker_max_level_terrain_limit = 1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_3 y = @Tier4_2 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = land_fort_tech_2 } }
+					set_technology = { land_fort_tech_2 = 1 popup = no }
+				}
+				if = { limit = { NOT = { has_tech = coastal_fort_tech_2 } }
+					set_technology = { coastal_fort_tech_2 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry
+			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_bunker_4 = {
+		production_speed_bunker_factor = 0.1
+		production_speed_coastal_bunker_factor = 0.1
+		production_speed_anti_air_building_factor = 0.1
+		bunker_max_level_terrain_limit = 1
+		coastal_bunker_max_level_terrain_limit = 1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_3 y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_naval_base_1 = {
+		enable_building = { building = naval_base level = 5 }
+		production_speed_naval_base_factor = 0.1
+		production_speed_naval_supply_hub_factor = 0.1
+		production_speed_naval_headquarters_factor = 0.1
+		naval_base_max_level_terrain_limit = 1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_4 y = @Tier2_2 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		categories = { industry
+			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_naval_base_2 = {
+		enable_building = { building = naval_base level = 10 }
+		production_speed_naval_base_factor = 0.1
+		production_speed_naval_supply_hub_factor = 0.1
+		production_speed_naval_headquarters_factor = 0.1
+		naval_base_max_level_terrain_limit = 1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_4 y = @Tier3_2 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		categories = { industry
+			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_naval_base_3 = {
+		enable_building = { building = naval_base level = 15 }
+		production_speed_naval_base_factor = 0.1
+		production_speed_naval_supply_hub_factor = 0.1
+		production_speed_naval_headquarters_factor = 0.1
+		naval_base_max_level_terrain_limit = 1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_4 y = @Tier4_2 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		categories = { industry
+			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_naval_base_4 = {
+		enable_building = { building = naval_base level = 20 }
+		production_speed_naval_base_factor = 0.1
+		production_speed_naval_supply_hub_factor = 0.1
+		production_speed_naval_headquarters_factor = 0.1
+		naval_base_max_level_terrain_limit = 1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_4 y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_air_base_1 = {
+		enable_building = { building = air_base level = 5 }
+		production_speed_air_base_factor = 0.1
+		repair_speed_air_base_factor = 0.2
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_5 y = @Tier2_2 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		categories = { industry
+			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_air_base_2 = {
+		enable_building = { building = air_base level = 10 }
+		production_speed_air_base_factor = 0.1
+		production_speed_radar_station_factor = 0.1
+		repair_speed_air_base_factor = 0.2
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_5 y = @Tier3_2 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		categories = { industry
+			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_air_base_3 = {
+		enable_building = { building = air_base level = 15 }
+		production_speed_air_base_factor = 0.1
+		production_speed_radar_station_factor = 0.1
+		repair_speed_air_base_factor = 0.2
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_5 y = @Tier4_2 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		categories = { industry
+			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_air_base_4 = {
+		enable_building = { building = air_base level = 20 }
+		production_speed_air_base_factor = 0.1
+		production_speed_radar_station_factor = 0.1
+		repair_speed_air_base_factor = 0.2
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_5 y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_facility_1 = {
+		special_project_facility_supply_consumption_factor = 0.05
+		special_project_speed_factor = 0.1
+		production_speed_land_facility_factor = 0.1
+		production_speed_naval_facility_factor = 0.1
+		production_speed_air_facility_factor = 0.1
+		production_speed_nuclear_facility_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_6 y = @Tier2_2 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		categories = { industry
+			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_facility_2 = {
+		special_project_facility_supply_consumption_factor = 0.05
+		special_project_speed_factor = 0.1
+		production_speed_land_facility_factor = 0.1
+		production_speed_naval_facility_factor = 0.1
+		production_speed_air_facility_factor = 0.1
+		production_speed_nuclear_facility_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_6 y = @Tier3_2 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		categories = { industry
+			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_facility_3 = {
+		special_project_facility_supply_consumption_factor = 0.05
+		special_project_speed_factor = 0.1
+		production_speed_land_facility_factor = 0.1
+		production_speed_naval_facility_factor = 0.1
+		production_speed_air_facility_factor = 0.1
+		production_speed_nuclear_facility_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_6 y = @Tier4_2 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		categories = { industry
+			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_facility_4 = {
+		special_project_facility_supply_consumption_factor = 0.05
+		special_project_speed_factor = 0.1
+		production_speed_land_facility_factor = 0.1
+		production_speed_naval_facility_factor = 0.1
+		production_speed_air_facility_factor = 0.1
+		production_speed_nuclear_facility_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_6 y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_nuclear_1 = {
+		sp_nuclear_bomb_speed_factor = 0.15
+		sp_thermo_nuclear_bomb_speed_factor = 0.15
+		production_speed_nuclear_reactor_factor = 0.2
+		production_speed_nuclear_reactor_heavy_water_factor = 0.2
+		production_speed_commercial_nuclear_reactor_factor = 0.2
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_7 y = @Tier4_2 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		categories = { industry
+			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_nuclear_2 = {
+		sp_nuclear_bomb_speed_factor = 0.15
+		sp_thermo_nuclear_bomb_speed_factor = 0.15
+		production_speed_nuclear_reactor_factor = 0.2
+		production_speed_nuclear_reactor_heavy_water_factor = 0.2
+		production_speed_commercial_nuclear_reactor_factor = 0.2
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_7 y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+
+	fuel_refining_1 = {
+		fuel_gain_factor = 0.3
+		path = { leads_to_tech = fuel_refining_2 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_8 y = @Tier2_1 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = fuel_refining } }
+					set_technology = { fuel_refining = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry synth_resources cat_synth_oil
+			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
+		ai_will_do = { factor = 1 }
+	}
+	fuel_refining_2 = {
+		fuel_gain_factor = 0.3
+		path = { leads_to_tech = fuel_refining_3 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_8 y = @Tier3_1 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = fuel_refining2 } }
+					set_technology = { fuel_refining2 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry synth_resources cat_synth_oil
+			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
+		ai_will_do = { factor = 1 }
+	}
+	fuel_refining_3 = {
+		fuel_gain_factor = 0.3
+		path = { leads_to_tech = fuel_refining_4 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_8 y = @Tier4_1 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = fuel_refining3 } }
+					set_technology = { fuel_refining3 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry synth_resources cat_synth_oil
+			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
+		ai_will_do = { factor = 1 }
+	}
+	fuel_refining_4 = {
+		fuel_gain_factor = 0.3
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_8 y = @Tier5_1 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = fuel_refining4 } }
+					set_technology = { fuel_refining4 = 1 popup = no }
+				}
+				if = { limit = { NOT = { has_tech = fuel_refining5 } }
+					set_technology = { fuel_refining5 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry synth_resources cat_synth_oil
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+
+	coal_energy_1 ={
+		energy_gain_factor = 0.1
+		path = { leads_to_tech = coal_energy_2 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_9 y = @Tier2_1 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = improved_equipment_conversion } }
+					set_technology = { improved_equipment_conversion = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry synth_resources cat_synth_oil
+			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
+		ai_will_do = { factor = 1 }
+	}
+	coal_energy_2 ={
+		energy_gain_factor = 0.1
+		path = { leads_to_tech = coal_energy_3 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_9 y = @Tier3_1 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = advanced_equipment_conversion } }
+					set_technology = { advanced_equipment_conversion = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry synth_resources cat_synth_oil
+			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
+		ai_will_do = { factor = 1 }
+	}
+	coal_energy_3 ={
+		energy_gain_factor = 0.1
+		path = { leads_to_tech = coal_energy_4 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_9 y = @Tier4_1 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		categories = { industry synth_resources cat_synth_oil
+			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
+		ai_will_do = { factor = 1 }
+	}
+	coal_energy_4 ={
+		energy_gain_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_9 y = @Tier5_1 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry synth_resources cat_synth_oil
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+
+	excavation_1 = {
+		local_resources_factor = 0.10
+		path = { leads_to_tech = excavation_2 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier1_3 } }
+		dependencies = { FLTE_tech_tier_infr_1 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = excavation1 } }
+					set_technology = { excavation1 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	excavation_2 = {
+		local_resources_factor = 0.10
+		path = { leads_to_tech = excavation_3 research_cost_coeff = 1 }
+		path = { leads_to_tech = synth_oil_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = resource_expansion_steel_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = resource_expansion_aluminium_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = resource_expansion_tungsten_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = resource_expansion_chromium_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = resource_expansion_rubber_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = resource_expansion_coal_1 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier2_1 } }
+		dependencies = { FLTE_tech_tier_infr_1 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = excavation2 } }
+					set_technology = { excavation2 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	excavation_3 = {
+		local_resources_factor = 0.10
+		path = { leads_to_tech = excavation_4 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier2_3 } }
+		dependencies = { FLTE_tech_tier_infr_1 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = excavation3 } }
+					set_technology = { excavation3 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	excavation_4 = {
+		local_resources_factor = 0.10
+		path = { leads_to_tech = excavation_5 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier3_1 } }
+		dependencies = { FLTE_tech_tier_infr_1 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = excavation4 } }
+					set_technology = { excavation4 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	excavation_5 = {
+		local_resources_factor = 0.10
+		path = { leads_to_tech = excavation_6 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier3_3 } }
+		dependencies = { FLTE_tech_tier_infr_1 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = excavation5 } }
+					set_technology = { excavation5 = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	excavation_6 = {
+		local_resources_factor = 0.10
+		path = { leads_to_tech = excavation_7 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier4_1 } }
+		dependencies = { FLTE_tech_tier_infr_1 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	excavation_7 = {
+		local_resources_factor = 0.10
+		path = { leads_to_tech = excavation_8 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier4_3 } }
+		dependencies = { FLTE_tech_tier_infr_1 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	excavation_8 = {
+		local_resources_factor = 0.10
+		path = { leads_to_tech = excavation_9 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier5_1 } }
+		dependencies = { FLTE_tech_tier_infr_1 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	excavation_9 = {
+		local_resources_factor = 0.10
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier5_3 } }
+		dependencies = { FLTE_tech_tier_infr_1 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+
+	synth_oil_1 = {
+		enable_building = { building = synthetic_refinery level = 3 }
+		path = { leads_to_tech = synth_oil_2 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_1 y = @Tier3_2 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = synth_oil_experiments } }
+					set_technology = { synth_oil_experiments = 1 popup = no }
+				}
+				if = { limit = { NOT = { has_tech = oil_processing } }
+					set_technology = { oil_processing = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry synth_resources cat_synth_rubber
+			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
+		ai_will_do = { factor = 1 }
+	}
+	synth_oil_2 = {
+		enable_building = { building = synthetic_refinery level = 5 }
+		fuel_gain_factor_from_states = 0.5
+		on_research_complete = {
+			modify_building_resources = { building = synthetic_refinery resource = rubber amount = 1 } }
+		path = { leads_to_tech = synth_oil_3 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_1 y = @Tier4_1 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = improved_oil_processing } }
+					set_technology = { improved_oil_processing = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
+		ai_will_do = { factor = 1 }
+	}
+	synth_oil_3 = {
+		enable_building = { building = synthetic_refinery level = 7 }
+		fuel_gain_factor_from_states = 0.5
+		path = { leads_to_tech = synth_oil_4 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_1 y = @Tier4_3 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = advanced_oil_processing } }
+					set_technology = { advanced_oil_processing = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	synth_oil_4 = {
+		enable_building = { building = synthetic_refinery level = 10 }
+		fuel_gain_factor_from_states = 0.5
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_1 y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = modern_oil_processing } }
+					set_technology = { modern_oil_processing = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_steel_1 = {
+		enable_building = { building = FLTE_resource_expansion_steel level = 5 }
+		path = { leads_to_tech = resource_expansion_steel_2 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_2 y = @Tier2_2 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_steel_2 = {
+		enable_building = { building = FLTE_resource_expansion_steel level = 10 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_steel resource = steel amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_steel_3 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_2 y = @Tier3_2 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_steel_3 = {
+		enable_building = { building = FLTE_resource_expansion_steel level = 15 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_steel resource = steel amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_steel_4 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_2 y = @Tier4_2 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_steel_4 = {
+		enable_building = { building = FLTE_resource_expansion_steel level = 20 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_steel resource = steel amount = 2 } }
+		show_effect_as_desc = yes
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_2 y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_aluminium_1 = {
+		enable_building = { building = FLTE_resource_expansion_aluminium level = 5 }
+		path = { leads_to_tech = resource_expansion_aluminium_2 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_3 y = @Tier2_2 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_aluminium_2 = {
+		enable_building = { building = FLTE_resource_expansion_aluminium level = 10 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_aluminium resource = aluminium amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_aluminium_3 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_3 y = @Tier3_2 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_aluminium_3 = {
+		enable_building = { building = FLTE_resource_expansion_aluminium level = 15 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_aluminium resource = aluminium amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_aluminium_4 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_3 y = @Tier4_2 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_aluminium_4 = {
+		enable_building = { building = FLTE_resource_expansion_aluminium level = 20 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_aluminium resource = aluminium amount = 2 } }
+		show_effect_as_desc = yes
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_3 y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_tungsten_1 = {
+		enable_building = { building = FLTE_resource_expansion_tungsten level = 5 }
+		path = { leads_to_tech = resource_expansion_tungsten_2 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_4 y = @Tier2_2 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_tungsten_2 = {
+		enable_building = { building = FLTE_resource_expansion_tungsten level = 10 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_tungsten resource = tungsten amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_tungsten_3 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_4 y = @Tier3_2 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_tungsten_3 = {
+		enable_building = { building = FLTE_resource_expansion_tungsten level = 15 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_tungsten resource = tungsten amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_tungsten_4 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_4 y = @Tier4_2 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_tungsten_4 = {
+		enable_building = { building = FLTE_resource_expansion_tungsten level = 20 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_tungsten resource = tungsten amount = 2 } }
+		show_effect_as_desc = yes
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_4 y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_chromium_1 = {
+		enable_building = { building = FLTE_resource_expansion_chromium level = 5 }
+		path = { leads_to_tech = resource_expansion_chromium_2 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_5 y = @Tier2_2 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_chromium_2 = {
+		enable_building = { building = FLTE_resource_expansion_chromium level = 10 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_chromium resource = chromium amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_chromium_3 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_5 y = @Tier3_2 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_chromium_3 = {
+		enable_building = { building = FLTE_resource_expansion_chromium level = 15 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_chromium resource = chromium amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_chromium_4 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_5 y = @Tier4_2 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_chromium_4 = {
+		enable_building = { building = FLTE_resource_expansion_chromium level = 20 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_chromium resource = chromium amount = 2 } }
+		show_effect_as_desc = yes
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_5 y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_rubber_1 = {
+		enable_building = { building = FLTE_resource_expansion_rubber level = 5 }
+		path = { leads_to_tech = resource_expansion_rubber_2 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_6 y = @Tier2_2 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = rubber_processing } }
+					set_technology = { rubber_processing = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_rubber_2 = {
+		enable_building = { building = FLTE_resource_expansion_rubber level = 10 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_rubber resource = rubber amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_rubber_3 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_6 y = @Tier3_2 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = improved_rubber_processing } }
+					set_technology = { improved_rubber_processing = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_rubber_3 = {
+		enable_building = { building = FLTE_resource_expansion_rubber level = 15 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_rubber resource = rubber amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_rubber_4 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_6 y = @Tier4_2 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = advanced_rubber_processing } }
+					set_technology = { advanced_rubber_processing = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_rubber_4 = {
+		enable_building = { building = FLTE_resource_expansion_rubber level = 20 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_rubber resource = rubber amount = 2 } }
+		show_effect_as_desc = yes
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_6 y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = modern_rubber_processing } }
+					set_technology = { modern_rubber_processing = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_coal_1 = {
+		# allow_branch = {
+		# 	# TODO 添加特殊规则决定是否启用
+		# }
+		enable_building = { building = FLTE_resource_expansion_coal level = 5 }
+		path = { leads_to_tech = resource_expansion_coal_2 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_7 y = @Tier2_2 } }
+		dependencies = { FLTE_tech_tier_infr_2 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_coal_2 = {
+		enable_building = { building = FLTE_resource_expansion_coal level = 10 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_coal resource = coal amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_coal_3 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_7 y = @Tier3_2 } }
+		dependencies = { FLTE_tech_tier_infr_3 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_coal_3 = {
+		enable_building = { building = FLTE_resource_expansion_coal level = 15 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_coal resource = coal amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_coal_4 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_7 y = @Tier4_2 } }
+		dependencies = { FLTE_tech_tier_infr_4 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_coal_4 = {
+		enable_building = { building = FLTE_resource_expansion_coal level = 20 }
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_coal resource = coal amount = 2 } }
+		show_effect_as_desc = yes
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_7 y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+}

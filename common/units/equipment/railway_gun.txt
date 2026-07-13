@@ -1,28 +1,28 @@
 equipments = {
 	railway_gun_equipment = {
-		active = yes
 		is_archetype = yes
+		type = railway_gun
+		year = 1934
+		active = yes
 		group_by = archetype
 		picture = archetype_artillery_equipment
-		maximum_speed = 5
 		interface_category = interface_category_land
-		manpower = 1000
-		year = 1934
-		reliability = 0.8
 		railway_gun_attack = 25
-		type = railway_gun
+		maximum_speed = 5
+		manpower = 1000
+		reliability = 0.8
 	}
 	railway_gun_equipment_1 = {
-		active = no
-		build_cost_ic = 800
+		archetype = railway_gun_equipment
 		year = 1934
-		priority = 50
+		active = no
 		visual_level = 0
+		priority = 50
+		build_cost_ic = 800
 		resources = {
 			tungsten = 2
 			chromium = 2
 			steel = 4
 		}
-		archetype = railway_gun_equipment
 	}
 }

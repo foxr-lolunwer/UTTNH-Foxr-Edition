@@ -2,17 +2,10 @@ equipments = {
 	ship_hull_heavy = {
 		is_archetype = yes
 		is_buildable = no
-		fuel_consumption = 67
-		build_cost_ic = 3300
-		interface_category = interface_category_capital_ships
-		manpower = 4000
+		type = capital_ship
 		year = 1922
-		reliability = 0.8
+		interface_category = interface_category_capital_ships
 		priority = 1500
-		resources = {
-			chromium = 1
-			steel = 1
-		}
 		max_strength = 350
 		naval_dominance_factor = 300
 		naval_range = 3000
@@ -20,12 +13,13 @@ equipments = {
 		sub_detection = 1
 		surface_detection = 20
 		surface_visibility = 20
-		type = capital_ship
-		upgrades = {
-			ship_reliability_upgrade
-			ship_engine_upgrade
-			ship_armor_upgrade
-			ship_gun_upgrade
+		manpower = 4000
+		reliability = 0.8
+		fuel_consumption = 67
+		build_cost_ic = 3300
+		resources = {
+			chromium = 1
+			steel = 1
 		}
 		module_slots = {
 			fixed_ship_battery_slot = {
@@ -98,6 +92,10 @@ equipments = {
 				}
 			}
 		}
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_anti_air_slot = empty
@@ -111,27 +109,29 @@ equipments = {
 			mid_2_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
-		module_count_limit = {
-			category = ship_radar
-			count < 2
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_armor_upgrade
+			ship_gun_upgrade
 		}
 	}
 	ship_hull_pre_dreadnought = {
+		archetype = ship_hull_heavy
+		year = 1905
+		visual_level = 0
+		priority = 1500
+		max_strength = 300
+		naval_range = 2250
+		naval_speed = 13
+		manpower = 3200
+		reliability = 0.65
 		fuel_consumption = 67
 		build_cost_ic = 3000
-		manpower = 3200
-		year = 1905
-		reliability = 0.65
-		priority = 1500
-		visual_level = 0
 		resources = {
 			chromium = 1
 			steel = 1
 		}
-		max_strength = 300
-		naval_range = 2250
-		naval_speed = 13
-		archetype = ship_hull_heavy
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
@@ -171,17 +171,17 @@ equipments = {
 		}
 	}
 	ship_hull_heavy_1 = {
-		fuel_consumption = 67
-		build_cost_ic = 3300
+		parent = ship_hull_pre_dreadnought
+		archetype = ship_hull_heavy
 		year = 1922
-		reliability = 0.8
-		priority = 1500
 		visual_level = 0
+		priority = 1500
 		max_strength = 350
 		naval_dominance_factor = 300
 		naval_range = 3000
-		parent = ship_hull_pre_dreadnought
-		archetype = ship_hull_heavy
+		reliability = 0.8
+		fuel_consumption = 67
+		build_cost_ic = 3300
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
@@ -274,23 +274,23 @@ equipments = {
 		}
 	}
 	ship_hull_heavy_2 = {
-		fuel_consumption = 67
-		build_cost_ic = 3400
-		manpower = 5200
+		parent = ship_hull_heavy_1
+		archetype = ship_hull_heavy
 		year = 1936
-		reliability = 0.85
-		priority = 1500
 		visual_level = 1
-		resources = {
-			chromium = 1
-			steel = 1
-		}
+		priority = 1500
 		max_strength = 370
 		naval_dominance_factor = 350
 		naval_range = 3500
 		naval_speed = 22
-		parent = ship_hull_heavy_1
-		archetype = ship_hull_heavy
+		manpower = 5200
+		reliability = 0.85
+		fuel_consumption = 67
+		build_cost_ic = 3400
+		resources = {
+			chromium = 1
+			steel = 1
+		}
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
@@ -333,23 +333,23 @@ equipments = {
 		}
 	}
 	ship_hull_heavy_3 = {
-		fuel_consumption = 67
-		build_cost_ic = 3500
-		manpower = 6000
+		parent = ship_hull_heavy_2
+		archetype = ship_hull_heavy
 		year = 1940
-		reliability = 0.9
-		priority = 1500
 		visual_level = 1
-		resources = {
-			chromium = 1
-			steel = 1
-		}
+		priority = 1500
 		max_strength = 400
 		naval_dominance_factor = 375
 		naval_range = 4000
 		naval_speed = 24
-		parent = ship_hull_heavy_2
-		archetype = ship_hull_heavy
+		manpower = 6000
+		reliability = 0.9
+		fuel_consumption = 67
+		build_cost_ic = 3500
+		resources = {
+			chromium = 1
+			steel = 1
+		}
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
@@ -392,23 +392,23 @@ equipments = {
 		}
 	}
 	ship_hull_heavy_4 = {
-		fuel_consumption = 67
-		build_cost_ic = 3600
-		manpower = 6000
+		parent = ship_hull_heavy_3
+		archetype = ship_hull_heavy
 		year = 1944
-		reliability = 0.95
-		priority = 1500
 		visual_level = 1
-		resources = {
-			chromium = 1
-			steel = 1
-		}
+		priority = 1500
 		max_strength = 450
 		naval_dominance_factor = 400
 		naval_range = 4500
 		naval_speed = 26
-		parent = ship_hull_heavy_3
-		archetype = ship_hull_heavy
+		manpower = 6000
+		reliability = 0.95
+		fuel_consumption = 67
+		build_cost_ic = 3600
+		resources = {
+			chromium = 1
+			steel = 1
+		}
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
@@ -453,22 +453,22 @@ equipments = {
 		}
 	}
 	ship_hull_super_heavy_1 = {
-		fuel_consumption = 75
-		build_cost_ic = 5500
-		manpower = 9000
+		archetype = ship_hull_heavy
 		year = 1940
-		reliability = 0.8
-		priority = 1400
 		visual_level = 1
-		resources = {
-			chromium = 1
-			steel = 1
-		}
+		priority = 1400
 		max_strength = 700
 		naval_dominance_factor = 400
 		naval_range = 4500
 		naval_speed = 22
-		archetype = ship_hull_heavy
+		manpower = 9000
+		reliability = 0.8
+		fuel_consumption = 75
+		build_cost_ic = 5500
+		resources = {
+			chromium = 1
+			steel = 1
+		}
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
@@ -561,24 +561,24 @@ equipments = {
 		}
 	}
 	battleship_1 = {
-		fuel_consumption = 67
-		build_cost_ic = 5600
-		manpower = 6000
+		archetype = ship_hull_heavy
 		year = 1922
-		reliability = 0.8
-		priority = 1500
 		visual_level = 0
-		resources = {
-			chromium = 1
-			steel = 3
-		}
+		priority = 1500
 		max_strength = 350
 		naval_range = 3000
 		naval_speed = 15
 		sub_detection = 5
 		surface_detection = 12
 		surface_visibility = 30
-		archetype = ship_hull_heavy
+		manpower = 6000
+		reliability = 0.8
+		fuel_consumption = 67
+		build_cost_ic = 5600
+		resources = {
+			chromium = 1
+			steel = 3
+		}
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
@@ -663,24 +663,25 @@ equipments = {
 		}
 	}
 	battleship_2 = {
-		build_cost_ic = 5400
-		manpower = 6600
+		parent = battleship_1
+		archetype = ship_hull_heavy
 		year = 1936
-		reliability = 0.85
-		priority = 1500
 		visual_level = 1
-		resources = {
-			chromium = 1
-			steel = 4
-		}
+		priority = 1500
 		max_strength = 450
 		naval_range = 4000
 		naval_speed = 25
 		sub_detection = 5
 		surface_detection = 15
 		surface_visibility = 30
-		parent = battleship_1
-		archetype = ship_hull_heavy
+		manpower = 6600
+		reliability = 0.85
+		build_cost_ic = 5400
+		resources = {
+			chromium = 1
+			steel = 4
+		}
+		module_slots = inherit
 		default_modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_2
 			fixed_ship_anti_air_slot = ship_anti_air_4
@@ -694,27 +695,27 @@ equipments = {
 			mid_2_custom_slot = ship_secondaries_1
 			rear_1_custom_slot = ship_heavy_battery_2
 		}
-		module_slots = inherit
 	}
 	battleship_3 = {
-		build_cost_ic = 5200
-		manpower = 7000
+		parent = battleship_2
+		archetype = ship_hull_heavy
 		year = 1940
-		reliability = 0.9
-		priority = 1500
 		visual_level = 1
-		resources = {
-			chromium = 2
-			steel = 4
-		}
+		priority = 1500
 		max_strength = 500
 		naval_range = 5000
 		naval_speed = 28
 		sub_detection = 5
 		surface_detection = 25
 		surface_visibility = 30
-		parent = battleship_2
-		archetype = ship_hull_heavy
+		manpower = 7000
+		reliability = 0.9
+		build_cost_ic = 5200
+		resources = {
+			chromium = 2
+			steel = 4
+		}
+		module_slots = inherit
 		default_modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_3
 			fixed_ship_anti_air_slot = ship_anti_air_4
@@ -728,19 +729,13 @@ equipments = {
 			mid_2_custom_slot = ship_secondaries_2
 			rear_1_custom_slot = ship_heavy_battery_3
 		}
-		module_slots = inherit
 	}
 	battleship_4 = {
-		build_cost_ic = 6000
-		manpower = 7400
+		parent = battleship_3
+		archetype = ship_hull_heavy
 		year = 1944
-		reliability = 0.92
-		priority = 1500
 		visual_level = 1
-		resources = {
-			chromium = 3
-			steel = 5
-		}
+		priority = 1500
 		armor_value = 40
 		lg_attack = 1
 		max_strength = 550
@@ -749,8 +744,14 @@ equipments = {
 		sub_detection = 5
 		surface_detection = 40
 		surface_visibility = 30
-		parent = battleship_3
-		archetype = ship_hull_heavy
+		manpower = 7400
+		reliability = 0.92
+		build_cost_ic = 6000
+		resources = {
+			chromium = 3
+			steel = 5
+		}
+		module_slots = inherit
 		default_modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_4
 			fixed_ship_anti_air_slot = ship_anti_air_4
@@ -764,20 +765,12 @@ equipments = {
 			mid_2_custom_slot = dp_ship_secondaries
 			rear_1_custom_slot = ship_heavy_battery_4
 		}
-		module_slots = inherit
 	}
 	SH_battleship_1 = {
-		fuel_consumption = 93
-		build_cost_ic = 8500
-		manpower = 9000
+		archetype = ship_hull_heavy
 		year = 1936
-		reliability = 0.85
-		priority = 1400
 		visual_level = 0
-		resources = {
-			chromium = 1
-			steel = 4
-		}
+		priority = 1400
 		armor_value = 47
 		max_strength = 600
 		naval_range = 4000
@@ -785,7 +778,14 @@ equipments = {
 		sub_detection = 5
 		surface_detection = 15
 		surface_visibility = 30
-		archetype = ship_hull_heavy
+		manpower = 9000
+		reliability = 0.85
+		fuel_consumption = 93
+		build_cost_ic = 8500
+		resources = {
+			chromium = 1
+			steel = 4
+		}
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
@@ -884,17 +884,11 @@ equipments = {
 		}
 	}
 	SH_battleship_2 = {
-		fuel_consumption = 93
-		build_cost_ic = 13000
-		manpower = 10000
+		parent = SH_battleship_1
+		archetype = ship_hull_heavy
 		year = 1944
-		reliability = 0.9
-		priority = 1400
 		visual_level = 0
-		resources = {
-			chromium = 3
-			steel = 5
-		}
+		priority = 1400
 		armor_value = 3
 		max_strength = 800
 		naval_range = 4500
@@ -902,8 +896,14 @@ equipments = {
 		sub_detection = 5
 		surface_detection = 25
 		surface_visibility = 30
-		parent = SH_battleship_1
-		archetype = ship_hull_heavy
+		manpower = 10000
+		reliability = 0.9
+		fuel_consumption = 93
+		build_cost_ic = 13000
+		resources = {
+			chromium = 3
+			steel = 5
+		}
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
@@ -1003,24 +1003,25 @@ equipments = {
 		}
 	}
 	battle_cruiser_1 = {
-		fuel_consumption = 67
-		build_cost_ic = 2500
-		manpower = 3500
+		archetype = ship_hull_heavy
 		year = 1922
-		reliability = 0.8
-		priority = 1600
 		visual_level = 0
-		resources = {
-			chromium = 1
-			steel = 3
-		}
+		priority = 1600
 		max_strength = 350
 		naval_range = 3000
 		naval_speed = 28
 		sub_detection = 5
 		surface_detection = 12
 		surface_visibility = 25
-		archetype = ship_hull_heavy
+		manpower = 3500
+		reliability = 0.8
+		fuel_consumption = 67
+		build_cost_ic = 2500
+		resources = {
+			chromium = 1
+			steel = 3
+		}
+		module_slots = inherit
 		default_modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_4
@@ -1034,19 +1035,13 @@ equipments = {
 			mid_2_custom_slot = ship_secondaries_1
 			rear_1_custom_slot = ship_heavy_battery_1
 		}
-		module_slots = inherit
 	}
 	battle_cruiser_2 = {
-		build_cost_ic = 4000
-		manpower = 4000
+		parent = battle_cruiser_1
+		archetype = ship_hull_heavy
 		year = 1940
-		reliability = 0.9
-		priority = 1600
 		visual_level = 1
-		resources = {
-			chromium = 1
-			steel = 4
-		}
+		priority = 1600
 		armor_value = 30
 		max_strength = 400
 		naval_range = 5000
@@ -1054,8 +1049,14 @@ equipments = {
 		sub_detection = 5
 		surface_detection = 25
 		surface_visibility = 25
-		parent = battle_cruiser_1
-		archetype = ship_hull_heavy
+		manpower = 4000
+		reliability = 0.9
+		build_cost_ic = 4000
+		resources = {
+			chromium = 1
+			steel = 4
+		}
+		module_slots = inherit
 		default_modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_2
 			fixed_ship_anti_air_slot = ship_anti_air_4
@@ -1069,31 +1070,30 @@ equipments = {
 			mid_2_custom_slot = ship_secondaries_1
 			rear_1_custom_slot = ship_heavy_battery_1
 		}
-		module_slots = inherit
 	}
 	ship_hull_heavy_5 = {
-		fuel_consumption = 67
-		build_cost_ic = 3600
-		manpower = 6000
+		parent = ship_hull_heavy_4
+		archetype = ship_hull_heavy
 		year = 1955
-		reliability = 1.1
-		priority = 1500
 		visual_level = 1
-		resources = {
-			chromium = 1
-			steel = 1
-		}
+		priority = 1500
 		max_strength = 450
 		naval_dominance_factor = 450
 		naval_range = 4500
 		naval_speed = 26
-		parent = ship_hull_heavy_4
-		archetype = ship_hull_heavy
+		manpower = 6000
+		reliability = 1.1
+		fuel_consumption = 67
+		build_cost_ic = 3600
 		can_convert_from = {
 			ship_hull_heavy_3
 			ship_hull_heavy_4
 			ship_hull_heavy_5
 			ship_hull_super_heavy_1
+		}
+		resources = {
+			chromium = 1
+			steel = 1
 		}
 		module_slots = {
 			fixed_ship_battery_slot = {
@@ -1160,25 +1160,25 @@ equipments = {
 		}
 	}
 	ship_hull_heavy_6 = {
-		fuel_consumption = 67
-		build_cost_ic = 3800
-		manpower = 6000
+		parent = ship_hull_heavy_5
+		archetype = ship_hull_heavy
 		year = 1975
-		reliability = 1.2
-		priority = 1500
 		visual_level = 1
-		resources = {
-			chromium = 1
-			steel = 1
-		}
+		priority = 1500
 		max_strength = 450
 		naval_dominance_factor = 500
 		naval_range = 5500
 		naval_speed = 27
-		parent = ship_hull_heavy_5
-		archetype = ship_hull_heavy
+		manpower = 6000
+		reliability = 1.2
+		fuel_consumption = 67
+		build_cost_ic = 3800
 		can_convert_from = {
 			ship_hull_heavy_6
+		}
+		resources = {
+			chromium = 1
+			steel = 1
 		}
 		module_slots = {
 			fixed_ship_battery_slot = {

@@ -1,18 +1,12 @@
 equipments = {
 	convoy = {
 		is_archetype = yes
+		type = convoy
+		year = 1910
 		group_by = archetype
 		picture = archetype_convoy
-		fuel_consumption = 0
-		build_cost_ic = 70
-		lend_lease_cost = 0
-		interface_category = interface_category_other_ships
-		year = 1910
-		reliability = 0.8
 		sprite = convoy
-		resources = {
-			steel = 1
-		}
+		interface_category = interface_category_other_ships
 		anti_air_attack = 0.1
 		lg_attack = 0.25
 		lg_armor_piercing = 1
@@ -21,13 +15,19 @@ equipments = {
 		naval_speed = 12
 		surface_detection = 10
 		surface_visibility = 14
-		type = convoy
+		reliability = 0.8
+		fuel_consumption = 0
+		build_cost_ic = 70
+		lend_lease_cost = 0
+		resources = {
+			steel = 1
+		}
 	}
 	convoy_1 = {
-		active = yes
-		year = 1910
-		priority = 10
 		archetype = convoy
 		type = convoy
+		year = 1910
+		active = yes
+		priority = 10
 	}
 }

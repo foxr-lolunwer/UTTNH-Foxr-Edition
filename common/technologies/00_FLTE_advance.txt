@@ -1,0 +1,656 @@
+technologies = {
+	@rocket_main_branch = 2
+	@rocket_left_branch = 0
+	@rocket_right_branch = 4
+	@atomic_branch = 0
+
+	@Tier1_1 = 0 @Tier1_2 = 2
+	@Tier2_1 = 4 @Tier2_2 = 6
+	@Tier3_1 = 8 @Tier3_2 = 10
+	@Tier4_1 = 12 @Tier4_2 = 14
+	@Tier5_1 = 16 @Tier5_2 = 18
+	@Tier6_1 = 20 @Tier6_2 = 22
+	@Tier7_1 = 24 @Tier7_2 = 26
+
+	atomic_research = {
+        research_speed_factor = 0.04
+
+        start_year = 1940
+        research_cost = 5
+        folder = { name = FLTE_advance_folder position = { x = @atomic_branch y = @Tier1_1 } }
+
+        special_project_specialization = { specialization_nuclear }
+        on_research_complete = {
+            custom_effect_tooltip = {
+                localization_key = SP_UNLOCK_PROJECT
+                PROJECT = sp_nuclear_reactor
+            }
+            hidden_effect = {
+                if = {
+                    limit = {
+                        has_dlc = "By Blood Alone"
+                    }
+                    if = {
+                        limit = {
+                            check_variable = {
+                                global.atomic_research_race < 3
+                            }
+                        }
+                        add_to_variable = {
+                            global.atomic_research_race = 1
+                        }
+                        if = {
+                            limit = {
+                                original_tag = ITA
+                                NOT = {
+                                    has_country_flag = ITA_pioneer_in_atomic_research_flag
+                                }
+                            }
+                            set_country_flag = ITA_pioneer_in_atomic_research_flag
+                        }
+                        else_if = {
+                            limit = {
+                                check_variable = {
+                                    global.atomic_research_race = 3
+                                }
+                                NOT = {
+                                    any_country = {
+                                        original_tag = ITA
+                                        has_country_flag = ITA_pioneer_in_atomic_research_flag
+                                    }
+                                }
+                            }
+                            random_country = {
+                                limit = {
+                                    original_tag = ITA
+                                }
+                                set_country_flag = ITA_late_to_the_atomic_party_flag
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        ai_will_do = {
+            base = 1
+            modifier = {
+                factor = 1.2
+                date > 1941.1.1
+            }
+            modifier = {
+                factor = 1.2
+                date > 1942.1.1
+            }
+            modifier = {
+                factor = 1.2
+                date > 1943.1.1
+            }
+            modifier = {
+                factor = 2
+                is_major = yes
+                date > 1943.1.1
+            }
+            modifier = {
+                factor = 4
+                tag = USA
+            }
+            modifier = {
+                add = 50
+                original_tag = PHI
+                has_dlc = "No Compromise, No Surrender"
+                # has_completed_focus = PHI_weapons_of_war
+            }
+        }
+        categories = {
+            nuclear
+        }
+    }
+
+	experimental_rockets = {
+        enable_building = {
+            building = rocket_site
+            level = 3
+        }
+
+        start_year = 1942
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = sp_rockets_improved_guidance }
+        path = { research_cost_coeff = 1 leads_to_tech = sp_rockets_rocket_bomber }
+        path = { research_cost_coeff = 1 leads_to_tech = sp_rockets_dual_chamber_rocket_engine_1 }
+        folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier1_2 } }
+
+        on_research_complete = {
+            if = {
+                limit = {
+                    has_dlc = "Gotterdammerung"
+                }
+                custom_effect_tooltip = {
+                    localization_key = SP_UNLOCK_TECH_WITH_EXTRA_PROJECT
+                    TECH = sp_artillery_rocket_assisted_projectiles_tech
+                    EXTRA_PROJECT = sp_land_super_heavy_howitzer
+                }
+            }
+            custom_effect_tooltip = {
+                localization_key = SP_UNLOCK_PROJECT
+                PROJECT = sp_rockets_flying_bomb
+            }
+            custom_effect_tooltip = {
+                localization_key = SP_UNLOCK_PROJECT
+                PROJECT = sp_rockets_ballistic_missile
+            }
+            custom_effect_tooltip = {
+                localization_key = SP_UNLOCK_PROJECT
+                PROJECT = sp_rocket_interceptor
+            }
+        }
+        special_project_specialization = { specialization_air }
+
+        ai_will_do = {
+            factor = 1
+        }
+        categories = {
+            rocketry
+        }
+    }
+    lar_decryption_bonus_tech = {
+				
+		research_cost = 1.5 #Carrier Variant
+		start_year = 1944
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+		decryption_power = 10
+
+		
+		ai_will_do = {
+			factor = 0
+		}
+		################
+	}
+    sp_rockets_dual_chamber_rocket_engine_1 = {
+        enable_equipments = {
+            limit = {
+                NOT = {
+                    has_dlc = "By Blood Alone"
+                }
+            }
+            rocket_interceptor_equipment_2
+        }
+        enable_equipment_modules = {
+            rocket_engine_2
+        }
+
+        start_year = 1944
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = sp_rockets_dual_chamber_rocket_engine_2 }
+        path = { research_cost_coeff = 1 leads_to_tech = aam46 }
+        folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier2_2 } }
+
+        allow = {
+            ROOT = {
+                is_special_project_completed = sp:sp_rocket_interceptor
+            }
+        }
+        special_project_specialization = { specialization_air }
+        is_special_project_tech = yes
+
+        ai_will_do = {
+            factor = 1
+        }
+        categories = {
+            rocketry
+        }
+    }
+    sp_rockets_dual_chamber_rocket_engine_2 = {
+        enable_equipments = {
+            limit = {
+                NOT = {
+                    has_dlc = "By Blood Alone"
+                }
+            }
+            rocket_interceptor_equipment_3
+        }
+        enable_equipment_modules = {
+            rocket_engine_3
+        }
+
+        start_year = 1946
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = rocketry60 }
+        path = { research_cost_coeff = 1 leads_to_tech = aam50 }
+        path = { research_cost_coeff = 1 leads_to_tech = heli_engines }
+        folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier3_1 } }
+
+        allow = {
+            ROOT = {
+                is_special_project_completed = sp:sp_rocket_interceptor
+            }
+        }
+        special_project_specialization = { specialization_air }
+        is_special_project_tech = yes
+
+        ai_will_do = {
+            factor = 1
+        }
+        categories = {
+            rocketry
+        }
+    }
+    rocketry60 = {
+        show_equipment_icon = yes
+
+        enable_equipment_modules = {
+            guided_anti_ship_missile_1
+            ATGGM
+        }
+
+        start_year = 1960
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = rocketry70 }
+        path = { research_cost_coeff = 1 leads_to_tech = aam60 }
+        folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier4_1 } }
+
+        allow = {
+            ROOT = {
+                is_special_project_completed = sp:sp_rockets_flying_bomb
+            }
+        }
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                date < 1959.6.1
+            }
+        }
+        categories = {
+            rocketry
+        }
+    }
+    rocketry70 = {
+        show_equipment_icon = yes
+
+        enable_equipment_modules = {
+            guided_anti_ship_missile_2
+            cruisemissile
+            ATTVGGM
+        }
+
+        start_year = 1970
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = rocketry80 }
+        path = { research_cost_coeff = 1 leads_to_tech = aam70 }
+        folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier5_1 } }
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                date < 1969.6.1
+            }
+        }
+        categories = {
+            rocketry
+        }
+    }
+    rocketry80 = {
+        show_equipment_icon = yes
+
+        enable_equipment_modules = {
+            guided_anti_ship_missile_3
+            cruisemissile_1
+            ATGLGM
+        }
+
+        start_year = 1980
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = rocketry90 }
+        path = { research_cost_coeff = 1 leads_to_tech = aam80 }
+        folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier6_1 } }
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                date < 1979.6.1
+            }
+        }
+        categories = {
+            rocketry
+        }
+    }
+    rocketry90 = {
+        show_equipment_icon = yes
+
+        enable_equipment_modules = {
+            guided_anti_ship_missile_4
+            cruisemissile_2
+            ATGLGM_1
+        }
+
+        start_year = 1990
+        research_cost = 1.5
+        folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier7_1 } }
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                date < 1989.6.1
+            }
+        }
+        categories = {
+            rocketry
+        }
+    }
+    rocket_engines = {
+        show_equipment_icon = yes
+
+        enable_equipments = {
+            limit = {
+                NOT = {
+                    has_dlc = "By Blood Alone"
+                }
+            }
+            rocket_interceptor_equipment_1
+        }
+        enable_equipment_modules = {
+            rocket_engine_1
+        }
+
+        start_year = 1944
+        research_cost = 2
+
+        ai_will_do = {
+            factor = 1
+        }
+        categories = {
+            rocketry
+        }
+    }
+    sp_rockets_improved_guidance = {
+        guided_missile = {
+            air_range = 0.25
+        }
+
+        rocket_artillery = {
+            soft_attack = 0.1
+        }
+        rocket_artillery_brigade = {
+            soft_attack = 0.1
+        }
+        mot_rocket_artillery_brigade = {
+            soft_attack = 0.1
+        }
+        motorized_rocket_brigade = {
+            soft_attack = 0.1
+        }
+        rocket_battery = {
+			soft_attack = 0.1
+		}
+        enable_equipments = {
+        }
+        enable_equipment_modules = {
+            guided_anti_ship_missile
+        }
+
+        start_year = 1943
+        research_cost = 1
+        folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier2_1 } }
+
+        allow = {
+            ROOT = {
+                is_special_project_completed = sp:sp_rockets_flying_bomb
+            }
+        }
+        special_project_specialization = { specialization_air }
+        is_special_project_tech = yes
+
+        ai_will_do = {
+            factor = 1
+        }
+        categories = {
+            rocketry
+        }
+    }
+    sp_rockets_rocket_bomber = {
+        enable_equipment_modules = {
+            rocket_propelled_bombs
+        }
+
+        start_year = 1944
+        research_cost = 1
+        path = { research_cost_coeff = 1 leads_to_tech = sp_rockets_improved_rocket_bomber }
+        folder = { name = FLTE_advance_folder position = { x = @rocket_right_branch y = @Tier2_2 } }
+
+        allow = {
+            ROOT = {
+                is_special_project_completed = sp:sp_rockets_flying_bomb
+            }
+        }
+        allow_branch = {
+            has_dlc = "By Blood Alone"
+        }
+        special_project_specialization = { specialization_air }
+        is_special_project_tech = yes
+
+        ai_will_do = {
+            factor = 1
+        }
+        categories = {
+            rocketry
+        }
+    }
+    sp_rockets_improved_rocket_bomber = {
+        enable_equipment_modules = {
+            improved_rocket_propelled_bombs
+        }
+
+        start_year = 1945
+        research_cost = 1
+        folder = { name = FLTE_advance_folder position = { x = @rocket_right_branch y = @Tier3_1 } }
+
+        allow = {
+            ROOT = {
+                is_special_project_completed = sp:sp_rockets_flying_bomb
+            }
+        }
+        special_project_specialization = { specialization_air }
+        is_special_project_tech = yes
+
+        ai_will_do = {
+            factor = 1
+        }
+        categories = {
+            rocketry
+        }
+    }
+    jet_engines = {
+        desc = "JET_ENGINES_SPECIAL"
+
+        enable_equipment_modules = {
+            tank_gas_turbine_engine
+            jet_engine_1x
+            jet_engine_2x
+            jet_engine_3x
+            jet_engine_4x
+            jet_engine_6x
+        }
+
+        start_year = 1944
+        research_cost = 2
+
+        on_research_complete = {
+            custom_effect_tooltip = JET_ENGINES_RESEARCHED
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+        categories = {
+            rocketry
+            jet_technology
+        }
+    }
+    aam46 = {
+        air_intercept_efficiency = 0.1
+        air_superiority_efficiency = 0.1
+        desc = aam46_effect_desc # Allows the development of the 1955' fighter and interceptor jets.
+
+        enable_equipment_modules = {
+            aircraft_braam
+        }
+
+        start_year = 1950
+        research_cost = 1.5
+        folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier2_2 } }
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                date < 1949.6.1
+            }
+        }
+        categories = {
+            rocketry
+        }
+    }
+    aam50 = {
+        air_intercept_efficiency = 0.1
+        air_superiority_efficiency = 0.1
+        desc = aam50_effect_desc # Allows the development of the 1955' fighter and interceptor jets.
+        
+
+        enable_equipment_modules = {
+            aircraft_saam_1
+            aircraft_maam
+        }
+
+        start_year = 1960
+        research_cost = 1.5
+        folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier3_1 } }
+
+        dependencies = {
+            ir_guide = 1
+        }
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                date < 1949.6.1
+            }
+        }
+        categories = {
+            rocketry
+        }
+    }
+    aam60 = {
+        air_intercept_efficiency = 0.1
+        air_superiority_efficiency = 0.1
+        desc = aam60_effect_desc # Allows the development of the 1965' fighter and interceptor jets.
+
+        enable_equipment_modules = {
+            aircraft_saam_2
+            aircraft_maam_1
+            aircraft_lraam
+        }
+
+        start_year = 1970
+        research_cost = 1.5
+        folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier4_1 } }
+
+        dependencies = {
+            esar = 1
+        }
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                date < 1969.6.1
+            }
+        }
+        categories = {
+            rocketry
+        }
+    }
+    aam70 = {
+        air_intercept_efficiency = 0.1
+        air_superiority_efficiency = 0.1
+        desc = aam70_effect_desc # **Allows the development of the 1965' fighter and interceptor jets.**
+
+        enable_equipment_modules = {
+            aircraft_saam_3
+            aircraft_maam_2
+            aircraft_lraam_1
+        }
+
+        start_year = 1980
+        research_cost = 1.5
+        folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier5_1 } }
+
+        dependencies = {
+            pesa = 1
+        }
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                date < 1979.6.1
+            }
+        }
+        categories = {
+            rocketry
+        }
+    }
+    aam80 = {
+        air_intercept_efficiency = 0.1
+        air_superiority_efficiency = 0.1
+        desc = aam80_effect_desc # Allows the development of the 1965' fighter and interceptor jets.
+        
+        enable_equipment_modules = {
+            aircraft_saam_4
+            aircraft_maam_3
+        }
+
+        start_year = 1990
+        research_cost = 1.5
+        folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier6_1 } }
+
+        dependencies = {
+            pesa = 1
+        }
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                date < 1989.6.1
+            }
+        }
+        categories = {
+            rocketry
+        }
+    }
+    heli_engines = {
+        desc = aam90_effect_desc # The development of a rotor system is essential in the introduction and mass use of helicopters for military operations.
+
+        start_year = 1947
+        research_cost = 2
+        folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier3_2 } }
+
+        ai_will_do = {
+            factor = 1
+        }
+        categories = {
+            rocketry
+            jet_technology
+        }
+    }
+}

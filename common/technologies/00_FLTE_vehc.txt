@@ -1,0 +1,1673 @@
+technologies = {
+	@mot_branch = 0
+	@mec_branch = 8
+	# @heavy_mec_branch = 26
+	@apm_mec_branch = 4
+	@armored_car_branch = 12
+
+    @train_branch = 16
+	@armor_train_branch = 18
+	@supplyhub_branch = 18
+
+	@Tier1_1 = 0 @Tier1_2 = 2
+	@Tier2_1 = 4 @Tier2_2 = 6
+	@Tier3_1 = 8 @Tier3_2 = 10
+	@Tier4_1 = 12 @Tier4_2 = 14
+	@Tier5_1 = 16 @Tier5_2 = 18
+	@Tier6_1 = 20 @Tier6_2 = 22
+	@Tier7_1 = 24 @Tier7_2 = 26
+
+	tech_trucks = {
+        enable_equipments = {
+            motorized_equipment_0
+        }
+        enable_equipment_modules = {
+            tank_wheeled_suspension
+        }
+        enable_subunits = {
+            mot_anti_tank_brigade
+            mot_artillery_brigade
+            mot_anti_air_brigade
+        }
+        enable_subunits = {
+			limit = { has_dlc = "Thunder at Our Gates"}
+			hq_motorized
+		}
+
+        start_year = 1936
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = motorised_infantry }
+        path = { research_cost_coeff = 1 leads_to_tech = armored_car1 }
+        folder = { name = FLTE_vehc_folder position = { x = @mot_branch y = @Tier1_1 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                date > "1937.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1938.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1939.1.1"
+            }
+            modifier = {
+                is_major = no
+                factor = 0.75
+            }
+        }
+    }
+    motorised_infantry = {
+        # Unknowns
+        on_research_complete_limit = {
+            NOT = {
+                has_template_containing_unit = motorized
+            }
+        }
+        sub_technologies = {
+            motorized_rocket_unit
+        }
+
+        mot_fire_support = {
+			breakthrough = 0.1
+		}
+        enable_equipments = {
+            motorized_equipment_1
+        }
+        enable_subunits = {
+            motorized
+        }
+
+        start_year = 1936
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = motorised_infantry2 }
+        path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry }
+        folder = { name = FLTE_vehc_folder position = { x = @mot_branch y = @Tier1_2 } }
+
+        on_research_complete = {
+            hidden_effect = {
+                load_oob = "unlock_motorized"
+            }
+            custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+        }
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                date > "1937.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1938.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1939.1.1"
+            }
+            modifier = {
+                is_major = no
+                factor = 0.5
+            }
+        }
+    }
+    motorised_infantry2 = {
+        # Unknowns
+        sub_technologies = {
+            motorized_rocket_unit2
+        }
+
+        enable_equipments = {
+            motorized_equipment_2
+        }
+
+        start_year = 1950
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = motorised_infantry3 }
+        folder = { name = FLTE_vehc_folder position = { x = @mot_branch y = @Tier3_2 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            infantry_tech
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                date > "1951.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1952.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1953.1.1"
+            }
+            modifier = {
+                is_major = no
+                factor = 0.5
+            }
+        }
+    }
+    motorised_infantry3 = {
+        # Unknowns
+        sub_technologies = {
+            motorized_rocket_unit3
+        }
+
+        enable_equipments = {
+            motorized_equipment_3
+        }
+
+        start_year = 1960
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = motorised_infantry4 }
+        folder = { name = FLTE_vehc_folder position = { x = @mot_branch y = @Tier4_1 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            infantry_tech
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                date > "1951.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1952.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1953.1.1"
+            }
+            modifier = {
+                is_major = no
+                factor = 0.5
+            }
+        }
+    }
+    motorised_infantry4 = {
+        # Unknowns
+        sub_technologies = {
+            motorized_rocket_unit4
+        }
+
+        enable_equipments = {
+            motorized_equipment_4
+        }
+
+        start_year = 1980
+        research_cost = 2
+        folder = { name = FLTE_vehc_folder position = { x = @mot_branch y = @Tier5_1 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            infantry_tech
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                date > "1951.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1952.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1953.1.1"
+            }
+            modifier = {
+                is_major = no
+                factor = 0.5
+            }
+        }
+    }
+    motorized_rocket_unit = {
+        enable_equipments = {
+            motorized_rocket_equipment_1
+        }
+        enable_subunits = {
+            motorized_rocket_brigade
+        }
+
+        start_year = 1939
+        research_cost = 1.5
+
+        dependencies = {
+            rocket_artillery = 1
+        }
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            mot_rockets
+            mio_cat_tech_all_motorized_mechanized
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                tag = SOV
+            }
+        }
+    }
+    motorized_rocket_unit2 = {
+        enable_equipments = {
+            motorized_rocket_equipment_2
+        }
+
+        start_year = 1950
+        research_cost = 1.5
+
+        dependencies = {
+            rocket_artillery5 = 1
+        }
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            mot_rockets
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                tag = SOV
+            }
+        }
+    }
+    motorized_rocket_unit3 = {
+        enable_equipments = {
+            motorized_rocket_equipment_3
+        }
+
+        start_year = 1960
+        research_cost = 1.5
+
+        dependencies = {
+            rocket_artillery6 = 1
+        }
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            mot_rockets
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                tag = SOV
+            }
+        }
+    }
+    motorized_rocket_unit4 = {
+        enable_equipments = {
+            motorized_rocket_equipment_4
+        }
+
+        start_year = 1980
+        research_cost = 1.5
+
+        dependencies = {
+            rocket_artillery8 = 1
+        }
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            mot_rockets
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                tag = SOV
+            }
+        }
+    }
+
+    armored_car1 = {
+        enable_equipments = {
+            gw_armored_car_equipment
+        }
+        enable_subunits = {
+            armored_car
+        }
+
+        start_year = 1914
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = armored_car2 }
+        folder = { name = FLTE_vehc_folder position = { x = @armored_car_branch y = @Tier1_2 } }
+
+        allow_branch = {
+            has_dlc = "La Resistance"
+        }
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            armor
+            cat_armored_cars
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                date > "1937.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1938.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1939.1.1"
+            }
+            modifier = {
+                is_major = no
+                factor = 0.5
+            }
+        }
+    }
+    armored_car2 = {
+        enable_equipments = {
+            armored_car_equipment_1
+        }
+
+        start_year = 1940
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = armored_car3 }
+        folder = { name = FLTE_vehc_folder position = { x = @armored_car_branch y = @Tier2_1 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            armor
+            cat_armored_cars
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                date > "1937.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1938.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1939.1.1"
+            }
+            modifier = {
+                is_major = no
+                factor = 0.5
+            }
+        }
+    }
+    armored_car3 = {
+        # Unknowns
+        sub_technologies = {
+            armored_car_at_upgrade
+        }
+
+        enable_equipments = {
+            armored_car_equipment_2
+        }
+
+        start_year = 1942
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = armored_car4 }
+        folder = { name = FLTE_vehc_folder position = { x = @armored_car_branch y = @Tier2_2 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            armor
+            cat_armored_cars
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                date > "1937.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1938.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1939.1.1"
+            }
+            modifier = {
+                is_major = no
+                factor = 0.5
+            }
+        }
+    }
+    armored_car4 = {
+        enable_equipments = {
+            armored_car_equipment_3
+        }
+
+        start_year = 1950
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = armored_car5 }
+        folder = { name = FLTE_vehc_folder position = { x = @armored_car_branch y = @Tier3_2 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            armor
+            cat_armored_cars
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 2
+                date > "1949.1.1"
+            }
+            modifier = {
+                is_major = no
+                factor = 0.5
+            }
+        }
+    }
+    armored_car5 = {
+        enable_equipments = {
+            armored_car_equipment_4
+        }
+
+        start_year = 1960
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = armored_car6 }
+        folder = { name = FLTE_vehc_folder position = { x = @armored_car_branch y = @Tier4_1 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            armor
+            cat_armored_cars
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 2
+                date > "1959.1.1"
+            }
+            modifier = {
+                is_major = no
+                factor = 0.5
+            }
+        }
+    }
+    armored_car6 = {
+        enable_equipments = {
+            armored_car_equipment_5
+        }
+
+        start_year = 1970
+        research_cost = 2
+        folder = { name = FLTE_vehc_folder position = { x = @armored_car_branch y = @Tier4_2 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            armor
+            cat_armored_cars
+        }
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 2
+                date > "1969.1.1"
+            }
+            modifier = {
+                is_major = no
+                factor = 0.5
+            }
+        }
+    }
+    armored_car_at_upgrade = {
+        # Unknowns
+        sub_tech_index = 1
+
+        enable_equipments = {
+            armored_car_at_equipment
+        }
+
+        start_year = 1942
+        research_cost = 1
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            armor
+            cat_armored_cars
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 2
+                date > "1937.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1938.1.1"
+            }
+            modifier = {
+                factor = 2
+                date > "1939.1.1"
+            }
+            modifier = {
+                is_major = no
+                factor = 0.5
+            }
+        }
+    }
+
+    mechanised_infantry = {
+        # Unknowns
+        
+
+        enable_equipments = {
+            mechanized_equipment_1
+        }
+        enable_equipment_modules = {
+            tank_half_track_suspension
+        }
+        enable_subunits = {
+            mechanized
+        }
+        mot_fire_support = {
+			breakthrough = 0.1
+			soft_attack = 0.05
+		}
+        motorized = {
+			hardness = 1.0
+		}
+        mot_anti_air_brigade = {
+            hardness = 1.0
+        }
+        mot_anti_tank_brigade = {
+            hardness = 1.0
+        }
+        mot_artillery_brigade = {
+            hardness = 1.0
+        }
+        mot_rocket_artillery_brigade = {
+            hardness = 1.0
+        }
+
+        start_year = 1940
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry2 }
+        path = { research_cost_coeff = 1 leads_to_tech = amphibious_mechanized_infantry }
+        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier2_1 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+        }
+        ai_will_do = {
+            base = 2
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+            modifier = {
+                factor = 3
+                tag = USA
+            }
+            modifier = {
+                factor = 1.5
+                date > 1941.1.1
+            }
+            modifier = {
+                factor = 1.5
+                date > 1942.1.1
+            }
+            modifier = {
+                factor = 1.5
+                date > 1943.1.1
+            }
+        }
+    }
+    mechanised_infantry2 = {
+        enable_equipments = {
+            mechanized_equipment_2
+        }
+
+        mot_fire_support = {
+			breakthrough = 0.1
+			soft_attack = 0.05
+		}
+        start_year = 1942
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry3 }
+        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier2_2 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    mechanised_infantry3 = {
+        enable_equipments = {
+            mechanized_equipment_3
+        }
+        mechanized = {
+            soft_attack = 0.15
+            hard_attack = 0.15
+        }
+        mot_fire_support = {
+			breakthrough = 0.1
+			soft_attack = 0.05
+		}
+
+        start_year = 1944
+        research_cost = 3
+        path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry4 }
+        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier3_1 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    mechanised_infantry4 = {
+        enable_equipments = {
+            mechanized_equipment_4
+        }
+        mot_fire_support = {
+			breakthrough = 0.1
+			soft_attack = 0.05
+		}
+
+        start_year = 1950
+        research_cost = 3
+        path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry5 }
+        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier3_2 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    mechanised_infantry5 = {
+        # Unknowns
+        sub_technologies = {
+            amechanised_infantry
+        }
+
+        enable_equipments = {
+            mechanized_equipment_5
+        }
+        mechanized = {
+            soft_attack = 0.15
+            hard_attack = 0.15
+        }
+        mot_fire_support = {
+			breakthrough = 0.1
+			soft_attack = 0.05
+		}
+
+        start_year = 1960
+        research_cost = 3
+        path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry6 }
+        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier4_1 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    mechanised_infantry6 = {
+        # Unknowns
+        sub_technologies = {
+            amechanised_infantry1
+        }
+
+        enable_equipments = {
+            mechanized_equipment_6
+        }
+
+        start_year = 1970
+        research_cost = 3
+        path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry7 }
+        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier4_2 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    mechanised_infantry7 = {
+        # Unknowns
+        sub_technologies = {
+            amechanised_infantry2
+        }
+
+        enable_equipments = {
+            mechanized_equipment_7
+        }
+
+        start_year = 1980
+        research_cost = 3
+        path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry8 }
+        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier5_1 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    mechanised_infantry8 = {
+        # Unknowns
+        sub_technologies = {
+            amechanised_infantry3
+        }
+
+        enable_equipments = {
+            mechanized_equipment_8
+        }
+        mechanized = {
+            soft_attack = 0.15
+            hard_attack = 0.15
+        }
+
+        start_year = 1990
+        research_cost = 3
+        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier5_2 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    amphibious_mechanized_infantry = {
+        enable_equipments = {
+            amphibious_mechanized_equipment_1
+        }
+        enable_subunits = {
+            amphibious_mechanized
+        }
+
+        start_year = 1941
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = amphibious_mechanized_infantry_2 }
+        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier2_2 } }
+
+        allow_branch = {
+            has_dlc = "Man the Guns"
+        }
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+            tp_tech
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                tag = USA
+                factor = 2
+            }
+        }
+    }
+    amphibious_mechanized_infantry_2 = {
+        enable_equipments = {
+            amphibious_mechanized_equipment_2
+        }
+
+        start_year = 1943
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = amphibious_mechanized_infantry_3 }
+        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier3_1 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+            tp_tech
+        }
+        ai_will_do = {
+            factor = 2
+        }
+    }
+    amphibious_mechanized_infantry_3 = {
+        enable_equipments = {
+            amphibious_mechanized_equipment_3
+        }
+
+        start_year = 1950
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = amphibious_mechanized_infantry_4 }
+        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier3_2 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+            tp_tech
+        }
+        ai_will_do = {
+            factor = 2
+        }
+    }
+    amphibious_mechanized_infantry_4 = {
+        enable_equipments = {
+            amphibious_mechanized_equipment_4
+        }
+
+        start_year = 1960
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = amphibious_mechanized_infantry_5 }
+        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier4_1 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+            tp_tech
+        }
+        ai_will_do = {
+            factor = 2
+        }
+    }
+    amphibious_mechanized_infantry_5 = {
+        enable_equipments = {
+            amphibious_mechanized_equipment_5
+        }
+
+        start_year = 1970
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = amphibious_mechanized_infantry_6 }
+        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier4_2 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+            tp_tech
+        }
+        ai_will_do = {
+            factor = 2
+        }
+    }
+    amphibious_mechanized_infantry_6 = {
+        enable_equipments = {
+            amphibious_mechanized_equipment_6
+        }
+
+        start_year = 1980
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = amphibious_mechanized_infantry_7 }
+        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier5_1 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+            tp_tech
+        }
+        ai_will_do = {
+            factor = 2
+        }
+    }
+    amphibious_mechanized_infantry_7 = {
+        enable_equipments = {
+            amphibious_mechanized_equipment_7
+        }
+
+        start_year = 1990
+        research_cost = 2
+        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier5_2 } }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+            tp_tech
+        }
+        ai_will_do = {
+            factor = 2
+        }
+    }
+
+    amechanised_infantry = {
+        enable_equipments = {
+            amechanized_equipment
+        }
+
+        start_year = 1960
+        research_cost = 2
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            amechanized_equipment
+            infantry_tech
+            cat_mechanized_equipment
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                tag = USA
+                factor = 2
+            }
+        }
+    }
+    amechanised_infantry1 = {
+        enable_equipments = {
+            amechanized_equipment_1
+        }
+
+        start_year = 1970
+        research_cost = 2
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            amechanized_equipment
+            infantry_tech
+            cat_mechanized_equipment
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    amechanised_infantry2 = {
+        enable_equipments = {
+            amechanized_equipment_2
+        }
+
+        start_year = 1980
+        research_cost = 2
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            amechanized_equipment
+            infantry_tech
+            cat_mechanized_equipment
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    amechanised_infantry3 = {
+        enable_equipments = {
+            amechanized_equipment_3
+        }
+
+        start_year = 1990
+        research_cost = 2
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            amechanized_equipment
+            infantry_tech
+            cat_mechanized_equipment
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    basic_train = {
+        enable_equipments = {
+            train_equipment_1
+        }
+
+        start_year = 1910
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = wartime_train }
+        path = { research_cost_coeff = 1 leads_to_tech = armored_train }
+        folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier1_1 } }
+
+        categories = {
+            train_tech
+        }
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                num_of_factories > 25
+                factor = 100
+            }
+            modifier = {
+                factor = 1.2
+                date > "1936.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1937.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1938.1.1"
+            }
+        }
+    }
+    railway_gun = {
+        enable_equipments = {
+            railway_gun_equipment_1
+        }
+        enable_equipment_modules = {
+            lc_hull_mounted_railway_gun
+        }
+
+        start_year = 1936
+        research_cost = 1.5
+        # path = { research_cost_coeff = 1 leads_to_tech = sp_cluster_shells }
+        folder = { name = FLTE_vehc_folder position = { x = @armor_train_branch y = @Tier2_1 } }
+
+        on_research_complete = {
+            custom_effect_tooltip = {
+                localization_key = SP_UNLOCK_PROJECT
+                PROJECT = sp_land_super_heavy_railway_gun
+            }
+        }
+
+        categories = {
+            train_tech
+            artillery
+        }
+        ai_will_do = {
+            base = 0.5
+            modifier = {
+                is_major = yes
+                factor = 1
+            }
+            modifier = {
+                OR = {
+                    TAG = GER
+                    tag = SOV
+                }
+                factor = 1.5
+            }
+        }
+    }
+    wartime_train = {
+        enable_equipments = {
+            train_equipment_2
+        }
+
+        start_year = 1939
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = train_50 }
+        path = { research_cost_coeff = 1 leads_to_tech = supplyhub_1 }
+        folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier2_2 } }
+
+        categories = {
+            train_tech
+        }
+        ai_will_do = {
+            base = 2
+            modifier = {
+                has_war = yes
+                factor = 20
+            }
+            modifier = {
+                factor = 1.2
+                date > "1940.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1941.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1942.1.1"
+            }
+        }
+    }
+    armored_train = {
+        enable_equipments = {
+            train_equipment_3
+        }
+
+        start_year = 1936
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = railway_gun }
+        folder = { name = FLTE_vehc_folder position = { x = @armor_train_branch y = @Tier1_2 } }
+
+        allow_branch = {
+            has_dlc = "No Step Back"
+        }
+
+        categories = {
+            train_tech
+        }
+        ai_will_do = {
+            base = 1
+            modifier = {
+                has_war = yes
+                factor = 20
+            }
+            modifier = {
+                tag = GER
+                factor = 5
+            }
+            modifier = {
+                factor = 1.2
+                date > "1938.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1939.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1940.1.1"
+            }
+        }
+    }
+    tech_recon_focus_bonus = {
+        category_recon = {
+            recon = 2
+        }
+
+        allow = {
+            always = no
+        }
+
+        categories = {
+            support_tech
+            recon_tech
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    
+    train_50 = {
+        # Unknowns
+        production_speed_rail_way_factor = 0.10
+        repair_speed_rail_way_factor = 0.05
+
+        enable_equipments = {
+            train_equipment_4
+        }
+
+        start_year = 1950
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = train_60 }
+        path = { research_cost_coeff = 1 leads_to_tech = supplyhub_2 }
+        folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier3_2 } }
+
+        categories = {
+            train_tech
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                has_war = yes
+                factor = 20
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1946.1.1"
+            }
+        }
+    }
+    train_60 = {
+        # Unknowns
+        production_speed_rail_way_factor = 0.10
+        repair_speed_rail_way_factor = 0.05
+
+        enable_equipments = {
+            train_equipment_5
+        }
+
+        start_year = 1960
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = supplyhub_3 }
+        path = { research_cost_coeff = 1 leads_to_tech = train_70 }
+        folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier4_1 } }
+
+        categories = {
+            train_tech
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                has_war = yes
+                factor = 20
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1946.1.1"
+            }
+        }
+    }
+    train_70 = {
+        # Unknowns
+        production_speed_rail_way_factor = 0.10
+        repair_speed_rail_way_factor = 0.05
+
+        enable_equipments = {
+            train_equipment_6
+        }
+
+        start_year = 1970
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = train_80 }
+        path = { research_cost_coeff = 1 leads_to_tech = supplyhub_4 }
+        folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier4_2 } }
+
+        categories = {
+            train_tech
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                has_war = yes
+                factor = 20
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1946.1.1"
+            }
+        }
+    }
+    train_80 = {
+        # Unknowns
+        production_speed_rail_way_factor = 0.10
+        repair_speed_rail_way_factor = 0.05
+
+        enable_equipments = {
+            train_equipment_7
+        }
+
+        start_year = 1980
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = train_90 }
+        path = { research_cost_coeff = 1 leads_to_tech = supplyhub_5 }
+        folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier5_1 } }
+
+        categories = {
+            train_tech
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                has_war = yes
+                factor = 20
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1946.1.1"
+            }
+        }
+    }
+    train_90 = {
+        # Unknowns
+        production_speed_rail_way_factor = 0.10
+        repair_speed_rail_way_factor = 0.05
+
+        enable_equipments = {
+            train_equipment_8
+        }
+
+        start_year = 1990
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = supplyhub_6 }
+        folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier5_2 } }
+
+        categories = {
+            train_tech
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                has_war = yes
+                factor = 20
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1946.1.1"
+            }
+        }
+    }
+    
+    supplyhub_1 = {
+        # Unknowns
+        production_speed_supply_node_factor = 0.20
+        truck_attrition_factor = -0.05
+        repair_speed_rail_way_factor = 0.05
+
+        research_cost = 1
+        folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier2_2 } }
+
+        categories = {
+            train_tech
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                has_war = yes
+                factor = 20
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1946.1.1"
+            }
+        }
+    }
+    supplyhub_2 = {
+        # Unknowns
+        production_speed_supply_node_factor = 0.20
+        supply_node_range = 0.05
+        truck_attrition_factor = -0.05
+
+        research_cost = 1
+        folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier3_2 } }
+
+        categories = {
+            train_tech
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                has_war = yes
+                factor = 20
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1946.1.1"
+            }
+        }
+    }
+    supplyhub_3 = {
+        # Unknowns
+        production_speed_supply_node_factor = 0.20
+        supply_node_range = 0.05
+        truck_attrition_factor = -0.05
+
+        research_cost = 1
+        folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier4_1 } }
+
+        categories = {
+            train_tech
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                has_war = yes
+                factor = 20
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1946.1.1"
+            }
+        }
+    }
+    supplyhub_4 = {
+        # Unknowns
+        production_speed_supply_node_factor = 0.20
+        supply_node_range = 0.05
+        truck_attrition_factor = -0.05
+
+        research_cost = 1
+        folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier4_2 } }
+
+        categories = {
+            train_tech
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                has_war = yes
+                factor = 20
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1946.1.1"
+            }
+        }
+    }
+    supplyhub_5 = {
+        # Unknowns
+        production_speed_supply_node_factor = 0.20
+        supply_node_range = 0.05
+        truck_attrition_factor = -0.05
+
+        research_cost = 1
+        folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier5_1 } }
+
+        categories = {
+            train_tech
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                has_war = yes
+                factor = 20
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1946.1.1"
+            }
+        }
+    }
+    supplyhub_6 = {
+        # Unknowns
+        production_speed_supply_node_factor = 0.20
+        supply_node_range = 0.05
+        truck_attrition_factor = -0.05
+
+        research_cost = 1
+        folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier5_2 } }
+
+        categories = {
+            train_tech
+        }
+        ai_will_do = {
+            factor = 2
+            modifier = {
+                has_war = yes
+                factor = 20
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1945.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1946.1.1"
+            }
+        }
+    }
+}

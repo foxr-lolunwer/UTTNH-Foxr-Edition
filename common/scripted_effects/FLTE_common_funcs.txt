@@ -1,0 +1,88 @@
+
+
+FUN_FITE_set_flte_tech_from_vanilla = {
+	if = { limit = { has_tech = fuel_silos NOT = { has_tech = capacity_industrial_construction } }
+			set_technology = { popup = no capacity_industrial_construction = 1 } }
+	if = { limit = { has_tech = concentrated_industry NOT = { has_tech = concentrated_industry_1 } }
+			set_technology = { popup = no concentrated_industry_1 = 1 } }
+	if = { limit = { has_tech = concentrated_industry2 NOT = { has_tech = concentrated_industry_2 } }
+			set_technology = { popup = no concentrated_industry_2 = 1 } }
+	if = { limit = { has_tech = concentrated_industry3 NOT = { has_tech = concentrated_industry_3 } }
+			set_technology = { popup = no concentrated_industry_3 = 1 } }
+	if = { limit = { has_tech = concentrated_industry4 NOT = { has_tech = concentrated_industry_4 } }
+			set_technology = { popup = no concentrated_industry_4 = 1 } }
+	if = { limit = { has_tech = concentrated_industry5 NOT = { has_tech = concentrated_industry_5 } }
+			set_technology = { popup = no concentrated_industry_5 = 1 } }
+	if = { limit = { has_tech = dispersed_industry NOT = { has_tech = dispersed_industry_1 } }
+			set_technology = { popup = no dispersed_industry_1 = 1 } }
+	if = { limit = { has_tech = dispersed_industry2 NOT = { has_tech = dispersed_industry_5 } }
+			set_technology = { popup = no dispersed_industry_5 = 1 } }
+	if = { limit = { has_tech = dispersed_industry3 NOT = { has_tech = dispersed_industry_3 } }
+			set_technology = { popup = no dispersed_industry_3 = 1 } }
+	if = { limit = { has_tech = dispersed_industry4 NOT = { has_tech = dispersed_industry_4 } }
+			set_technology = { popup = no dispersed_industry_4 = 1 } }
+	if = { limit = { has_tech = dispersed_industry5 NOT = { has_tech = dispersed_industry_5 } }
+			set_technology = { popup = no dispersed_industry_5 = 1 } }
+	if = { limit = { has_tech = construction1 NOT = { has_tech = construction_1 } }
+			set_technology = { popup = no construction_1 = 1 } }
+	if = { limit = { has_tech = construction2 NOT = { has_tech = construction_2 } }
+			set_technology = { popup = no construction_2 = 1 } }
+	if = { limit = { has_tech = construction3 NOT = { has_tech = construction_3 } }
+			set_technology = { popup = no construction_3 = 1 } }
+	if = { limit = { has_tech = construction4 NOT = { has_tech = construction_4 } }
+			set_technology = { popup = no construction_4 = 1 } }
+	if = { limit = { has_tech = construction5 NOT = { has_tech = construction_5 } }
+			set_technology = { popup = no construction_5 = 1 } }
+	if = { limit = { has_tech = basic_fortification_tech NOT = { has_tech = build_tech_bunker_1 } }
+			set_technology = { popup = no build_tech_bunker_1 = 1 } }
+	if = { limit = { has_tech = land_fort_tech_1 NOT = { has_tech = build_tech_bunker_2 } }
+			set_technology = { popup = no build_tech_bunker_2 = 1 } }
+	if = { limit = { has_tech = land_fort_tech_2 NOT = { has_tech = build_tech_bunker_3 } }
+			set_technology = { popup = no build_tech_bunker_3 = 1 } }
+	if = { limit = { has_tech = coastal_fort_tech_1 NOT = { has_tech = build_tech_bunker_2 } }
+			set_technology = { popup = no build_tech_bunker_2 = 1 } }
+	if = { limit = { has_tech = coastal_fort_tech_2 NOT = { has_tech = build_tech_bunker_3 } }
+			set_technology = { popup = no build_tech_bunker_3 = 1 } }
+	if = { limit = { has_tech = fuel_refining NOT = { has_tech = fuel_refining_1 } }
+			set_technology = { popup = no fuel_refining_1 = 1 } }
+	if = { limit = { has_tech = fuel_refining2 NOT = { has_tech = fuel_refining_2 } }
+			set_technology = { popup = no fuel_refining_2 = 1 } }
+	if = { limit = { has_tech = fuel_refining3 NOT = { has_tech = fuel_refining_3 } }
+			set_technology = { popup = no fuel_refining_3 = 1 } }
+	if = { limit = { has_tech = fuel_refining4 NOT = { has_tech = fuel_refining_4 } }
+			set_technology = { popup = no fuel_refining_4 = 1 } }
+	if = { limit = { has_tech = fuel_refining5 NOT = { has_tech = fuel_refining_5 } }
+			set_technology = { popup = no fuel_refining_5 = 1 } }
+	if = { limit = { has_tech = improved_equipment_conversion NOT = { has_tech = coal_energy_1 } }
+			set_technology = { popup = no coal_energy_1 = 1 } }
+	if = { limit = { has_tech = advanced_equipment_conversion NOT = { has_tech = coal_energy_2 } }
+			set_technology = { popup = no coal_energy_2 = 1 } }
+	if = { limit = { has_tech = excavation1 NOT = { has_tech = excavation_1 } }
+			set_technology = { popup = no excavation_1 = 1 } }
+	if = { limit = { has_tech = excavation2 NOT = { has_tech = excavation_2 } }
+			set_technology = { popup = no excavation_2 = 1 } }
+	if = { limit = { has_tech = excavation3 NOT = { has_tech = excavation_3 } }
+			set_technology = { popup = no excavation_3 = 1 } }
+	if = { limit = { has_tech = excavation4 NOT = { has_tech = excavation_4 } }
+			set_technology = { popup = no excavation_4 = 1 } }
+	if = { limit = { has_tech = excavation5 NOT = { has_tech = excavation_5 } }
+			set_technology = { popup = no excavation_5 = 1 } }
+	if = { limit = { has_tech = synth_oil_experiments NOT = { has_tech = synth_oil_1 } }
+			set_technology = { popup = no synth_oil_1 = 1 } }
+	if = { limit = { has_tech = oil_processing NOT = { has_tech = synth_oil_1 } }
+			set_technology = { popup = no synth_oil_1 = 1 } }
+	if = { limit = { has_tech = improved_oil_processing NOT = { has_tech = synth_oil_2 } }
+			set_technology = { popup = no synth_oil_2 = 1 } }
+	if = { limit = { has_tech = advanced_oil_processing NOT = { has_tech = synth_oil_3 } }
+			set_technology = { popup = no synth_oil_3 = 1 } }
+	if = { limit = { has_tech = modern_oil_processing NOT = { has_tech = synth_oil_4 } }
+			set_technology = { popup = no synth_oil_4 = 1 } }
+	if = { limit = { has_tech = rubber_processing NOT = { has_tech = resource_expansion_rubber_1 } }
+			set_technology = { popup = no resource_expansion_rubber_1 = 1 } }
+	if = { limit = { has_tech = improved_rubber_processing NOT = { has_tech = resource_expansion_rubber_2 } }
+			set_technology = { popup = no resource_expansion_rubber_2 = 1 } }
+	if = { limit = { has_tech = advanced_rubber_processing NOT = { has_tech = resource_expansion_rubber_3 } }
+			set_technology = { popup = no resource_expansion_rubber_3 = 1 } }
+	if = { limit = { has_tech = modern_rubber_processing NOT = { has_tech = resource_expansion_rubber_4 } }
+			set_technology = { popup = no resource_expansion_rubber_4 = 1 } }
+}

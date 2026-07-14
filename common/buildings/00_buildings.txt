@@ -680,7 +680,44 @@ buildings = {
 		}
 	}
 
+	energy_infrastructure = {
+		base_cost = 12000
+		icon_frame = 30
+		value = 1
 
+		show_modifier = yes
+		affects_energy = yes
+		allied_build = yes
+
+		infrastructure_construction_effect = yes
+		level_cap = {
+			state_max = 1
+			shares_slots = yes
+			# group_by = infrastructure_keystone
+		}
+		state_modifiers = {
+			local_factory_energy_consumption_per_infrastructure = -0.01
+		}
+	}
+	industrial_infrastructure = {
+		base_cost = 12000
+		icon_frame = 31
+		value = 1
+
+		show_modifier = yes
+		allied_build = yes
+
+		infrastructure_construction_effect = yes
+		level_cap = {
+			state_max = 1
+			shares_slots = yes
+			# group_by = infrastructure_keystone
+		}
+		state_modifiers = {
+			local_resource_gain_efficiency_per_infrastructure = 0.1
+		}
+	}
+  # unbuildable
 	dam = {
 		show_on_map = 1
 		base_cost = 20000
@@ -727,7 +764,6 @@ buildings = {
 			state_resources_factor = 0.1
 		}
 	}
-
 	canal_kiel = {
 		show_on_map = 1
 		base_cost = 20000
@@ -749,7 +785,6 @@ buildings = {
 
 		}
 	}
-
 	canal_panama = {
 		show_on_map = 1
 		base_cost = 20000
@@ -769,47 +804,6 @@ buildings = {
 		show_modifier = yes
 		state_modifiers = {
 
-		}
-	}
-
-	#### Energy
-
-	energy_infrastructure = {
-		base_cost = 12000
-		icon_frame = 30
-		value = 1
-
-		show_modifier = yes
-		affects_energy = yes
-		allied_build = yes
-
-		infrastructure_construction_effect = yes
-		level_cap = {
-			state_max = 1
-			shares_slots = yes
-			# group_by = infrastructure_keystone
-		}
-		state_modifiers = {
-			local_factory_energy_consumption_per_infrastructure = -0.01
-		}
-	}
-
-	industrial_infrastructure = {
-		base_cost = 12000
-		icon_frame = 31
-		value = 1
-
-		show_modifier = yes
-		allied_build = yes
-
-		infrastructure_construction_effect = yes
-		level_cap = {
-			state_max = 1
-			shares_slots = yes
-			# group_by = infrastructure_keystone
-		}
-		state_modifiers = {
-			local_resource_gain_efficiency_per_infrastructure = 0.1
 		}
 	}
 }
@@ -848,39 +842,3 @@ spawn_points = {
 		disable_auto_nudging = yes
 	}
 }
-
-# ALL V
-# infrastructure
-# arms_factory
-# industrial_complex
-# dockyard
-
-# rail_way
-# supply_node
-# land_facility
-# naval_facility
-# air_facility
-# nuclear_facility
-
-# air_base
-
-# radar_station
-
-# bunker
-# coastal_bunker
-# anti_air_building
-# stronghold_network
-
-# naval_base
-# naval_supply_hub
-# naval_headquarters
-
-# synthetic_refinery
-# fuel_silo
-
-# mega_gun_emplacement
-# rocket_site
-
-# nuclear_reactor
-# nuclear_reactor_heavy_water
-# commercial_nuclear_reactor

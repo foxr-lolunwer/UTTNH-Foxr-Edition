@@ -1,0 +1,28 @@
+FLTE_debug_categories = {
+	FLTE_debug_1 = {
+		icon = generic_operation
+		complete_effect = {
+			# FLTE_unlock_all_tier_tech = yes
+			# FLTE_power_update_industry = yes
+			# FLTE_power_update_land = yes
+			# FLTE_power_update_navy = yes
+			# FLTE_power_update_air = yes
+			random_scientist = {
+				# add_scientist_trait =FLTE_prototype_reward_exp_trait_1
+				save_event_target_as = FLTE_scientist_event_target
+			}
+			country_event = FLTE_sp_scientist_event.1
+		}
+	}
+	FLTE_debug_2 = {
+		icon = generic_operation
+		complete_effect = {
+			63 = {
+				add_building_construction = {
+					type = land_facility
+					level = 1
+				}
+			}
+		}
+	}
+}

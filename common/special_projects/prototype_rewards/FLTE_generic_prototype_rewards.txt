@@ -1,0 +1,1035 @@
+# 进度
+@threshold_br_1_max = 80	@threshold_br_1_min = 30
+@threshold_br_2_max = 60	@threshold_br_2_min = 0
+@threshold_br_3_max = 100	@threshold_br_3_min = 0
+@threshold_br_4_max = 100 	@threshold_br_4_min = 0
+@threshold_br_5_max = 100 	@threshold_br_5_min = 50
+@threshold_br_6_max = 100 	@threshold_br_6_min = 30
+
+FLTE_sp_general_pr_br_1 = { # 突破+++++
+	fire_only_once = no
+	threshold = { max = @threshold_br_1_max min = @threshold_br_1_min }
+	weight = { base = 1 }
+	# TODO: 通过一个游戏规则禁用需要选择的原型事件，解放玩家精力
+	allowed = {  }
+	option = {
+		token = FLTE_sp_general_pr_br_1_option_1
+		default = yes
+		iteration_output = { country_effects = {
+			add_political_power = 50
+			if = { limit = { has_idea = FLTE_pr_general_1 }
+				modify_timed_idea = { idea = FLTE_pr_general_1 days = 30 } }
+			else = { add_timed_idea = { idea = FLTE_pr_general_1 days = 30 } }
+			FROM = { add_project_progress_ratio = constant:sp_progress.gain.high } }
+		}
+	}
+}
+FLTE_sp_general_pr_br_2 = { # 突破+++
+	fire_only_once = no
+	threshold = { max = @threshold_br_2_max min = @threshold_br_2_min }
+	weight = { base = 5 }
+	allowed = {  }
+	option = {
+		token = FLTE_sp_general_pr_br_2_option_1
+		default = yes
+		iteration_output = { country_effects = {
+			add_political_power = 30
+			FROM = { add_project_progress_ratio = constant:sp_progress.gain.high } }
+		}
+	}
+}
+FLTE_sp_general_pr_br_3 = { # 突破++
+	fire_only_once = no
+	threshold = { max = @threshold_br_3_max min = @threshold_br_3_min }
+	weight = { base = 5 }
+	allowed = {  }
+	option = {
+		token = FLTE_sp_general_pr_br_3_option_1
+		default = yes
+		iteration_output = { country_effects = {
+			add_political_power = 10
+			FROM = { add_project_progress_ratio = constant:sp_progress.gain.medium } }
+		}
+	}
+}
+FLTE_sp_general_pr_br_4 = { # 突破+
+	fire_only_once = no
+	threshold = { max = @threshold_br_4_max min = @threshold_br_4_min }
+	weight = { base = 5 }
+	allowed = {  }
+	option = {
+		token = FLTE_sp_general_pr_br_4_option_1
+		default = yes
+		iteration_output = { country_effects = { FROM = {
+			add_project_progress_ratio = constant:sp_progress.gain.low } }
+		}
+	}
+}
+FLTE_sp_general_pr_br_5 = { # 突破~
+	fire_only_once = no
+	threshold = { max = @threshold_br_5_max min = @threshold_br_5_min }
+	weight = { base = 5 }
+	allowed = {  }
+	option = {
+		token = FLTE_sp_general_pr_br_5_option_1
+		default = yes
+		iteration_output = { country_effects = {
+			add_political_power = -10 }
+		}
+	}
+}
+FLTE_sp_general_pr_br_6 = { # 突破-
+	fire_only_once = no
+	threshold = { max = @threshold_br_6_max min = @threshold_br_6_min }
+	weight = { base = 5 }
+	allowed = {  }
+	option = {
+		token = FLTE_sp_general_pr_br_6_option_1
+		default = yes
+		iteration_output = { country_effects = {
+			add_political_power = -30
+			FROM = { add_project_progress_ratio = constant:sp_progress.loss.low } }
+		}
+	}
+}
+# 科学家经验
+@threshold_scientist_exp_1_max = 100	@threshold_scientist_exp_1_min = 60
+@threshold_scientist_exp_2_max = 80		@threshold_scientist_exp_2_min = 20
+@threshold_scientist_exp_3_max = 100	@threshold_scientist_exp_3_min = 0
+@threshold_scientist_exp_4_max = 100	@threshold_scientist_exp_4_min = 0
+@threshold_scientist_exp_5_max = 80		@threshold_scientist_exp_5_min = 30
+
+FLTE_sp_land_pr_scientist_exp_1 = { # 特质or经验+++++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_1_max min = @threshold_scientist_exp_1_min }
+	weight = { base = 3
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_land
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_land_pr_scientist_exp_1_option_1
+		default = yes
+		iteration_output = { country_effects = {
+			FROM = { add_project_progress_ratio = constant:sp_progress.gain.medium } }
+			scientist_effects = {
+				if = { limit = { NOT = { has_trait = FLTE_pr_scientist_exp_trait } }
+				add_scientist_trait = FLTE_pr_scientist_exp_trait }
+				else = { add_scientist_xp = {
+					experience = constant:sp_scientist_xp_gain.very_high
+					specialization = specialization_land } }
+			}
+		}
+	}
+}
+FLTE_sp_land_pr_scientist_exp_2 = { # 经验+++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_2_max min = @threshold_scientist_exp_2_min }
+	weight = { base = 5
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_land
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_land_pr_scientist_exp_2_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.high
+				specialization = specialization_land } }
+		}
+	}
+}
+FLTE_sp_land_pr_scientist_exp_3 = { # 经验++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_3_max min = @threshold_scientist_exp_3_min }
+	weight = { base = 10
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_land
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_land_pr_scientist_exp_3_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.medium
+				specialization = specialization_land } }
+		}
+	}
+}
+FLTE_sp_land_pr_scientist_exp_4 = { # 经验+
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_4_max min = @threshold_scientist_exp_4_min }
+	weight = { base = 8
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_land
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_land_pr_scientist_exp_4_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.low
+				specialization = specialization_land } }
+		}
+	}
+}
+FLTE_sp_land_pr_scientist_exp_5 = { # 经验-
+	fire_only_once = yes
+	threshold = { max = @threshold_scientist_exp_5_max min = @threshold_scientist_exp_5_min }
+	weight = { base = 1
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level > 2
+					specialization = specialization_land
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_land_pr_scientist_exp_5_option_1
+		default = yes
+		iteration_output = {
+			scientist_effects = { save_event_target_as = FLTE_scientist_event_target }
+			country_effects = {
+				random_list = {
+					4 = { country_event = FLTE_sp_scientist_event.1 }
+					1 = { country_event = FLTE_sp_scientist_event.7 }
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_land_pr_scientist_exp_5_option_2
+		iteration_output = {
+			scientist_effects = { save_event_target_as = FLTE_scientist_event_target }
+			country_effects = {
+				add_political_power = -30
+				random_list = {
+					2 = { country_event = FLTE_sp_scientist_event.1 }
+					3 = { country_event = FLTE_sp_scientist_event.7 }
+				}
+			}
+		}
+	}
+}
+FLTE_sp_naval_pr_scientist_exp_1 = { # 特质or经验+++++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_1_max min = @threshold_scientist_exp_1_min }
+	weight = { base = 3
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_naval
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_naval_pr_scientist_exp_1_option_1
+		default = yes
+		iteration_output = { country_effects = {
+			FROM = { add_project_progress_ratio = constant:sp_progress.gain.medium } }
+			scientist_effects = {
+				if = { limit = { NOT = { has_trait = FLTE_pr_scientist_exp_trait } }
+				add_scientist_trait = FLTE_pr_scientist_exp_trait }
+				else = { add_scientist_xp = {
+					experience = constant:sp_scientist_xp_gain.very_high
+					specialization = specialization_naval } }
+			}
+		}
+	}
+}
+FLTE_sp_naval_pr_scientist_exp_2 = { # 经验+++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_2_max min = @threshold_scientist_exp_2_min }
+	weight = { base = 5
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_naval
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_naval_pr_scientist_exp_2_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.high
+				specialization = specialization_naval } }
+		}
+	}
+}
+FLTE_sp_naval_pr_scientist_exp_3 = { # 经验++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_3_max min = @threshold_scientist_exp_3_min }
+	weight = { base = 10
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_naval
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_naval_pr_scientist_exp_3_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.medium
+				specialization = specialization_naval } }
+		}
+	}
+}
+FLTE_sp_naval_pr_scientist_exp_4 = { # 经验+
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_4_max min = @threshold_scientist_exp_4_min }
+	weight = { base = 8
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_naval
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_naval_pr_scientist_exp_4_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.low
+				specialization = specialization_naval } }
+		}
+	}
+}
+FLTE_sp_naval_pr_scientist_exp_5 = { # 经验-
+	fire_only_once = yes
+	threshold = { max = @threshold_scientist_exp_2_max min = @threshold_scientist_exp_2_min }
+	weight = { base = 1
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level > 2
+					specialization = specialization_naval
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_naval_pr_scientist_exp_5_option_1
+		default = yes
+		iteration_output = {
+			scientist_effects = { save_event_target_as = FLTE_scientist_event_target }
+			country_effects = {
+				random_list = {
+					4 = { country_event = FLTE_sp_scientist_event.2 }
+					1 = { country_event = FLTE_sp_scientist_event.7 }
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_naval_pr_scientist_exp_5_option_2
+		iteration_output = {
+			scientist_effects = { save_event_target_as = FLTE_scientist_event_target }
+			country_effects = {
+				add_political_power = -30
+				random_list = {
+					2 = { country_event = FLTE_sp_scientist_event.2 }
+					3 = { country_event = FLTE_sp_scientist_event.7 }
+				}
+			}
+		}
+	}
+}
+FLTE_sp_air_pr_scientist_exp_1 = { # 特质or经验+++++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_1_max min = @threshold_scientist_exp_1_min }
+	weight = { base = 3
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_air
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_air_pr_scientist_exp_1_option_1
+		default = yes
+		iteration_output = { country_effects = {
+			FROM = { add_project_progress_ratio = constant:sp_progress.gain.medium } }
+			scientist_effects = {
+				if = { limit = { NOT = { has_trait = FLTE_pr_scientist_exp_trait } }
+				add_scientist_trait = FLTE_pr_scientist_exp_trait }
+				else = { add_scientist_xp = {
+					experience = constant:sp_scientist_xp_gain.very_high
+					specialization = specialization_air } }
+			}
+		}
+	}
+}
+FLTE_sp_air_pr_scientist_exp_2 = { # 经验+++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_2_max min = @threshold_scientist_exp_2_min }
+	weight = { base = 5
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_air
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_air_pr_scientist_exp_2_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.high
+				specialization = specialization_air } }
+		}
+	}
+}
+FLTE_sp_air_pr_scientist_exp_3 = { # 经验++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_3_max min = @threshold_scientist_exp_3_min }
+	weight = { base = 10
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_air
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_air_pr_scientist_exp_3_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.medium
+				specialization = specialization_air } }
+		}
+	}
+}
+FLTE_sp_air_pr_scientist_exp_4 = { # 经验+
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_4_max min = @threshold_scientist_exp_4_min }
+	weight = { base = 8
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_air
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_air_pr_scientist_exp_4_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.low
+				specialization = specialization_air } }
+		}
+	}
+}
+FLTE_sp_air_pr_scientist_exp_5 = { # 经验-
+	fire_only_once = yes
+	threshold = { max = @threshold_scientist_exp_5_max min = @threshold_scientist_exp_5_min }
+	weight = { base = 1
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level > 2
+					specialization = specialization_air
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_air_pr_scientist_exp_5_option_1
+		default = yes
+		iteration_output = {
+			scientist_effects = { save_event_target_as = FLTE_scientist_event_target }
+			country_effects = {
+				random_list = {
+					4 = { country_event = FLTE_sp_scientist_event.3 }
+					1 = { country_event = FLTE_sp_scientist_event.7 }
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_air_pr_scientist_exp_5_option_2
+		iteration_output = {
+			scientist_effects = { save_event_target_as = FLTE_scientist_event_target }
+			country_effects = {
+				add_political_power = -30
+				random_list = {
+					2 = { country_event = FLTE_sp_scientist_event.3 }
+					3 = { country_event = FLTE_sp_scientist_event.7 }
+				}
+			}
+		}
+	}
+}
+FLTE_sp_nuclear_pr_scientist_exp_1 = { # 特质or经验+++++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_1_max min = @threshold_scientist_exp_1_min }
+	weight = { base = 3
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_FLTE_nuclear
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_nuclear_pr_scientist_exp_1_option_1
+		default = yes
+		iteration_output = { country_effects = {
+			FROM = { add_project_progress_ratio = constant:sp_progress.gain.medium } }
+			scientist_effects = {
+				if = { limit = { NOT = { has_trait = FLTE_pr_scientist_exp_trait } }
+				add_scientist_trait = FLTE_pr_scientist_exp_trait }
+				else = { add_scientist_xp = {
+					experience = constant:sp_scientist_xp_gain.very_high
+					specialization = specialization_FLTE_nuclear } }
+			}
+		}
+	}
+}
+FLTE_sp_nuclear_pr_scientist_exp_2 = { # 经验+++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_2_max min = @threshold_scientist_exp_2_min }
+	weight = { base = 5
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_FLTE_nuclear
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_nuclear_pr_scientist_exp_2_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.high
+				specialization = specialization_FLTE_nuclear } }
+		}
+	}
+}
+FLTE_sp_nuclear_pr_scientist_exp_3 = { # 经验++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_3_max min = @threshold_scientist_exp_3_min }
+	weight = { base = 10
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_FLTE_nuclear
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_nuclear_pr_scientist_exp_3_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.medium
+				specialization = specialization_FLTE_nuclear } }
+		}
+	}
+}
+FLTE_sp_nuclear_pr_scientist_exp_4 = { # 经验+
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_4_max min = @threshold_scientist_exp_4_min }
+	weight = { base = 8
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_FLTE_nuclear
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_nuclear_pr_scientist_exp_4_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.low
+				specialization = specialization_FLTE_nuclear } }
+		}
+	}
+}
+FLTE_sp_nuclear_pr_scientist_exp_5 = { # 经验-
+	fire_only_once = yes
+	threshold = { max = @threshold_scientist_exp_5_max min = @threshold_scientist_exp_5_min }
+	weight = { base = 1
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level > 2
+					specialization = specialization_FLTE_nuclear
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_nuclear_pr_scientist_exp_5_option_1
+		default = yes
+		iteration_output = {
+			scientist_effects = { save_event_target_as = FLTE_scientist_event_target }
+			country_effects = {
+				random_list = {
+					4 = { country_event = FLTE_sp_scientist_event.5 }
+					1 = { country_event = FLTE_sp_scientist_event.7 }
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_nuclear_pr_scientist_exp_5_option_2
+		iteration_output = {
+			scientist_effects = { save_event_target_as = FLTE_scientist_event_target }
+			country_effects = {
+				add_political_power = -30
+				random_list = {
+					2 = { country_event = FLTE_sp_scientist_event.5 }
+					3 = { country_event = FLTE_sp_scientist_event.7 }
+				}
+			}
+		}
+	}
+}
+FLTE_sp_engineering_pr_scientist_exp_1 = { # 特质or经验+++++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_1_max min = @threshold_scientist_exp_1_min }
+	weight = { base = 3
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_FLTE_engineering
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_engineering_pr_scientist_exp_1_option_1
+		default = yes
+		iteration_output = { country_effects = {
+			FROM = { add_project_progress_ratio = constant:sp_progress.gain.medium } }
+			scientist_effects = {
+				if = { limit = { NOT = { has_trait = FLTE_pr_scientist_exp_trait } }
+				add_scientist_trait = FLTE_pr_scientist_exp_trait }
+				else = { add_scientist_xp = {
+					experience = constant:sp_scientist_xp_gain.very_high
+					specialization = specialization_FLTE_engineering } }
+			}
+		}
+	}
+}
+FLTE_sp_engineering_pr_scientist_exp_2 = { # 经验+++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_2_max min = @threshold_scientist_exp_2_min }
+	weight = { base = 5
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_FLTE_engineering
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_engineering_pr_scientist_exp_2_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.high
+				specialization = specialization_FLTE_engineering } }
+		}
+	}
+}
+FLTE_sp_engineering_pr_scientist_exp_3 = { # 经验++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_3_max min = @threshold_scientist_exp_3_min }
+	weight = { base = 10
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_FLTE_engineering
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_engineering_pr_scientist_exp_3_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.medium
+				specialization = specialization_FLTE_engineering } }
+		}
+	}
+}
+FLTE_sp_engineering_pr_scientist_exp_4 = { # 经验+
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_4_max min = @threshold_scientist_exp_4_min }
+	weight = { base = 8
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_FLTE_engineering
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_engineering_pr_scientist_exp_4_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.low
+				specialization = specialization_FLTE_engineering } }
+		}
+	}
+}
+FLTE_sp_engineering_pr_scientist_exp_5 = { # 经验-
+	fire_only_once = yes
+	threshold = { max = @threshold_scientist_exp_5_max min = @threshold_scientist_exp_5_min }
+	weight = { base = 1
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level > 2
+					specialization = specialization_FLTE_engineering
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_engineering_pr_scientist_exp_5_option_1
+		default = yes
+		iteration_output = {
+			scientist_effects = { save_event_target_as = FLTE_scientist_event_target }
+			country_effects = {
+				random_list = {
+					4 = { country_event = FLTE_sp_scientist_event.6 }
+					1 = { country_event = FLTE_sp_scientist_event.7 }
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_engineering_pr_scientist_exp_5_option_2
+		iteration_output = {
+			scientist_effects = { save_event_target_as = FLTE_scientist_event_target }
+			country_effects = {
+				add_political_power = -30
+				random_list = {
+					2 = { country_event = FLTE_sp_scientist_event.6 }
+					3 = { country_event = FLTE_sp_scientist_event.7 }
+				}
+			}
+		}
+	}
+}
+FLTE_sp_civilian_pr_scientist_exp_1 = { # 特质or经验+++++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_1_max min = @threshold_scientist_exp_1_min }
+	weight = { base = 3
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_FLTE_civilian
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_civilian_pr_scientist_exp_1_option_1
+		default = yes
+		iteration_output = { country_effects = {
+			FROM = { add_project_progress_ratio = constant:sp_progress.gain.medium } }
+			scientist_effects = {
+				if = { limit = { NOT = { has_trait = FLTE_pr_scientist_exp_trait } }
+				add_scientist_trait = FLTE_pr_scientist_exp_trait }
+				else = { add_scientist_xp = {
+					experience = constant:sp_scientist_xp_gain.very_high
+					specialization = specialization_FLTE_civilian } }
+			}
+		}
+	}
+}
+FLTE_sp_civilian_pr_scientist_exp_2 = { # 经验+++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_2_max min = @threshold_scientist_exp_2_min }
+	weight = { base = 5
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_FLTE_civilian
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_civilian_pr_scientist_exp_2_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.high
+				specialization = specialization_FLTE_civilian } }
+		}
+	}
+}
+FLTE_sp_civilian_pr_scientist_exp_3 = { # 经验++
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_3_max min = @threshold_scientist_exp_3_min }
+	weight = { base = 10
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_FLTE_civilian
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_civilian_pr_scientist_exp_3_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.medium
+				specialization = specialization_FLTE_civilian } }
+		}
+	}
+}
+FLTE_sp_civilian_pr_scientist_exp_4 = { # 经验+
+	fire_only_once = no
+	threshold = { max = @threshold_scientist_exp_4_max min = @threshold_scientist_exp_4_min }
+	weight = { base = 8
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level < 5
+					specialization = specialization_FLTE_civilian
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_civilian_pr_scientist_exp_4_option_1
+		default = yes
+		iteration_output = { scientist_effects = {
+			add_scientist_xp = {
+				experience = constant:sp_scientist_xp_gain.low
+				specialization = specialization_FLTE_civilian } }
+		}
+	}
+}
+FLTE_sp_civilian_pr_scientist_exp_5 = { # 经验-
+	fire_only_once = yes
+	threshold = { max = @threshold_scientist_exp_5_max min = @threshold_scientist_exp_5_min }
+	weight = { base = 1
+		modifier = { factor = 0
+			var:scientist = {
+				has_scientist_level = {
+					level > 2
+					specialization = specialization_FLTE_civilian
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_civilian_pr_scientist_exp_5_option_1
+		default = yes
+		iteration_output = {
+			scientist_effects = { save_event_target_as = FLTE_scientist_event_target }
+			country_effects = {
+				random_list = {
+					4 = { country_event = FLTE_sp_scientist_event.6 }
+					1 = { country_event = FLTE_sp_scientist_event.7 }
+				}
+			}
+		}
+	}
+	option = {
+		token = FLTE_sp_civilian_pr_scientist_exp_5_option_2
+		iteration_output = {
+			scientist_effects = { save_event_target_as = FLTE_scientist_event_target }
+			country_effects = {
+				add_political_power = -30
+				random_list = {
+					2 = { country_event = FLTE_sp_scientist_event.6 }
+					3 = { country_event = FLTE_sp_scientist_event.7 }
+				}
+			}
+		}
+	}
+}
+# 三军经验
+@threshold_army_exp_1_max = 100		@threshold_army_exp_1_min = 75
+@threshold_army_exp_2_max = 75		@threshold_army_exp_2_min = 25
+
+FLTE_sp_land_pr_land_exp_1 = { # 陆军经验++
+	fire_only_once = no
+	threshold = { max = @threshold_army_exp_1_max min = @threshold_army_exp_1_min }
+	weight = { base = 3 }
+	allowed = { var:scientist = {
+		has_scientist_level = {
+			level < 5
+			specialization = specialization_land
+		}
+	} }
+	option = {
+		token = FLTE_sp_land_pr_land_exp_1_option_1
+		default = yes
+		iteration_output = { country_effects = {
+			army_experience = 30 }
+		}
+	}
+}
+FLTE_sp_land_pr_land_exp_2 = { # 陆军经验+
+	fire_only_once = no
+	threshold = { max = @threshold_army_exp_2_max min = @threshold_army_exp_2_min }
+	weight = { base = 6 }
+	allowed = { var:scientist = {
+		has_scientist_level = {
+			level < 5
+			specialization = specialization_land
+		}
+	} }
+	option = {
+		token = FLTE_sp_land_pr_land_exp_2_option_1
+		default = yes
+		iteration_output = { country_effects = {
+			army_experience = 15 }
+		}
+	}
+}
+FLTE_sp_naval_pr_naval_exp_1 = { # 海军经验++
+	fire_only_once = no
+	threshold = { max = @threshold_army_exp_1_max min = @threshold_army_exp_1_min }
+	weight = { base = 3 }
+	allowed = { var:scientist = {
+		has_scientist_level = {
+			level < 5
+			specialization = specialization_naval
+		}
+	} }
+	option = {
+		token = FLTE_sp_naval_pr_naval_exp_1_option_1
+		default = yes
+		iteration_output = { country_effects = {
+			navy_experience = 30 }
+		}
+	}
+}
+FLTE_sp_naval_pr_naval_exp_2 = { # 海军经验+
+	fire_only_once = no
+	threshold = { max = @threshold_army_exp_2_max min = @threshold_army_exp_2_min }
+	weight = { base = 6 }
+	allowed = { var:scientist = {
+		has_scientist_level = {
+			level < 5
+			specialization = specialization_naval
+		}
+	} }
+	option = {
+		token = FLTE_sp_naval_pr_naval_exp_2_option_1
+		default = yes
+		iteration_output = { country_effects = {
+			navy_experience = 15 }
+		}
+	}
+}
+FLTE_sp_air_pr_air_exp_1 = { # 空军经验++
+	fire_only_once = no
+	threshold = { max = @threshold_army_exp_1_max min = @threshold_army_exp_1_min }
+	weight = { base = 3 }
+	allowed = { var:scientist = {
+		has_scientist_level = {
+			level < 5
+			specialization = specialization_air
+		}
+	} }
+	option = {
+		token = FLTE_sp_air_pr_air_exp_1_option_1
+		default = yes
+		iteration_output = { country_effects = {
+			air_experience = 30 }
+		}
+	}
+}
+FLTE_sp_air_pr_air_exp_2 = { # 空军经验+
+	fire_only_once = no
+	threshold = { max = @threshold_army_exp_2_max min = @threshold_army_exp_2_min }
+	weight = { base = 6 }
+	allowed = { var:scientist = {
+		has_scientist_level = {
+			level < 5
+			specialization = specialization_air
+		}
+	} }
+	option = {
+		token = FLTE_sp_air_pr_air_exp_2_option_1
+		default = yes
+		iteration_output = { country_effects = {
+			air_experience = 15 }
+		}
+	}
+}

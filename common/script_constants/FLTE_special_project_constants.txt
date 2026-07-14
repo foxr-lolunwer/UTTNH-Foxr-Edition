@@ -1,0 +1,140 @@
+FLTE_sp_difficulty_level = {
+    schema = {
+        any_key = yes
+        data = {
+            {
+                any_key = yes
+                data = {
+                    {
+                        key = min
+                        data = int
+                    }
+                    {
+                        key = max
+                        data = int
+                    }
+                }
+            }
+        }
+    }
+    very_easy = {
+        fast = {
+            max = 60
+            min = 40
+        }
+        slow = {
+            max = 50
+            min = 30
+        }
+    }
+    easy = {
+        fast = {
+            max = 30
+            min = 20
+        }
+        slow = {
+            max = 25
+            min = 15
+        }
+    }
+    medium = {
+        fast = {
+            max = 20
+            min = 10
+        }
+        slow = {
+            max = 20
+            min = 5
+        }
+    }
+    difficulty = {
+        fast = {
+            max = 15
+            min = 5
+        }
+        slow = {
+            max = 12
+            min = 4
+        }
+    }
+    very_difficult = {
+        fast = {
+            max = 9
+            min = 3
+        }
+        slow = {
+            max = 5
+            min = 1
+        }
+    }
+    cycle = {
+        normal = {
+            max = 2
+            min = 1
+        }
+    }
+}
+
+FLTE_sp_prototype_time = {
+    schema = {
+        any_key = yes
+        data = int
+    }
+    short = 20
+    medium = 30
+    long = 50
+    very_long = 100
+}
+
+FLTE_sp_scientist_xp_gain = {
+    schema = {
+        any_key = yes
+        data = int
+    }
+    low = 50
+    medium = 100
+    high = 150
+    very_high = 200
+}
+
+FLTE_sp_progress = {
+    schema = {
+        any_key = yes
+        data = {
+            {
+                any_key = yes
+                data = fixed_point
+            }
+        }
+    }
+    gain = {
+        low = 0.05
+        medium = 0.1
+        high = 0.15
+    }
+    loss = {
+        low = -0.1
+        medium = -0.2
+        high = -0.3
+    }
+}
+
+FLTE_sp_military_xp_gain = {
+    schema = {
+        any_key = yes
+        data = int
+    }
+    low = 15
+    medium = 30
+    high = 50
+}
+
+FLTE_sp_breakthrough_progress = {
+    schema = {
+        any_key = yes
+        data = fixed_point
+    }
+    low = 0.1
+    medium = 0.25
+    high = 0.5
+}

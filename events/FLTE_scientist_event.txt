@@ -1,0 +1,157 @@
+add_namespace = FLTE_sp_scientist_event
+country_event = { # specialization_land
+	id = FLTE_sp_scientist_event.1
+	title = FLTE_sp_scientist_event.1.title
+	desc = FLTE_sp_scientist_event.1.desc
+	is_triggered_only = yes
+	immediate = {
+		event_target:FLTE_scientist_event_target = {
+			hidden_effect = {
+				if = { limit = {
+					has_scientist_level = {
+						level > 1
+						specialization = specialization_land } }
+					add_scientist_level = {
+						level = -1
+						specialization = specialization_land }
+					custom_effect_tooltip = FLTE_sp_scientist_event.1.tooltip
+				}
+				else = { log = FLTE_WARNING_101 }
+			}
+
+		}
+	}
+	option = { name = FLTE_sp_scientist_event.1.option_1 }
+}
+country_event = { # specialization_naval
+	id = FLTE_sp_scientist_event.2
+	title = FLTE_sp_scientist_event.2.title
+	desc = FLTE_sp_scientist_event.2.desc
+	is_triggered_only = yes
+	immediate = {
+		event_target:FLTE_scientist_event_target = {
+			hidden_effect = {
+				if = { limit = {
+					has_scientist_level = {
+						level > 2
+						specialization = specialization_naval } }
+					add_scientist_level = {
+						level = -2
+						specialization = specialization_naval }
+					custom_effect_tooltip = FLTE_sp_scientist_event.2.tooltip
+				}
+				else = { log = FLTE_WARNING_102 }
+			}
+
+		}
+	}
+	option = { name = FLTE_sp_scientist_event.2.option_1 }
+}
+country_event = { # specialization_air
+	id = FLTE_sp_scientist_event.3
+	title = FLTE_sp_scientist_event.3.title
+	desc = FLTE_sp_scientist_event.3.desc
+	is_triggered_only = yes
+	immediate = {
+		event_target:FLTE_scientist_event_target = {
+			hidden_effect = {
+				if = { limit = {
+					has_scientist_level = {
+						level > 3
+						specialization = specialization_air } }
+					add_scientist_level = {
+						level = -3
+						specialization = specialization_air }
+					custom_effect_tooltip = FLTE_sp_scientist_event.3.tooltip
+				}
+				else = { log = FLTE_WARNING_103 }
+			}
+
+		}
+	}
+	option = { name = FLTE_sp_scientist_event.3.option_1 }
+}
+country_event = { # specialization_FLTE_electronic
+	id = FLTE_sp_scientist_event.4
+	title = FLTE_sp_scientist_event.4.title
+	desc = FLTE_sp_scientist_event.4.desc
+	is_triggered_only = yes
+	immediate = {
+		event_target:FLTE_scientist_event_target = {
+			hidden_effect = {
+				if = { limit = {
+					has_scientist_level = {
+						level > 4
+						specialization = specialization_FLTE_electronic } }
+					add_scientist_level = {
+						level = -4
+						specialization = specialization_FLTE_electronic }
+					custom_effect_tooltip = FLTE_sp_scientist_event.4.tooltip
+				}
+				else = { log = FLTE_WARNING_104 }
+			}
+
+		}
+	}
+	option = { name = FLTE_sp_scientist_event.4.option_1 }
+}
+country_event = { # specialization_FLTE_physics
+	id = FLTE_sp_scientist_event.5
+	title = FLTE_sp_scientist_event.5.title
+	desc = FLTE_sp_scientist_event.5.desc
+	is_triggered_only = yes
+	immediate = {
+		event_target:FLTE_scientist_event_target = {
+			hidden_effect = {
+				if = { limit = {
+					has_scientist_level = {
+						level > 5
+						specialization = specialization_FLTE_physics } }
+					add_scientist_level = {
+						level = -5
+						specialization = specialization_FLTE_physics }
+					custom_effect_tooltip = FLTE_sp_scientist_event.5.tooltip
+				}
+				else = { log = FLTE_WARNING_105 }
+			}
+
+		}
+	}
+	option = { name = FLTE_sp_scientist_event.5.option_1 }
+}
+country_event = { # specialization_FLTE_engineering
+	id = FLTE_sp_scientist_event.6
+	title = FLTE_sp_scientist_event.6.title
+	desc = FLTE_sp_scientist_event.6.desc
+	is_triggered_only = yes
+	immediate = {
+		event_target:FLTE_scientist_event_target = {
+			hidden_effect = {
+				if = { limit = {
+					has_scientist_level = {
+						level > 6
+						specialization = specialization_FLTE_engineering } }
+					add_scientist_level = {
+						level = -6
+						specialization = specialization_FLTE_engineering }
+					custom_effect_tooltip = FLTE_sp_scientist_event.6.tooltip
+				}
+				else = { log = FLTE_WARNING_106 }
+			}
+		}
+	}
+	option = { name = FLTE_sp_scientist_event.6.option_1 }
+}
+country_event = { # cancel
+	id = FLTE_sp_scientist_event.7
+	title = FLTE_sp_scientist_event.7.title
+	desc = FLTE_sp_scientist_event.7.desc
+	is_triggered_only = yes
+	minor_flavor = yes
+	immediate = {
+		event_target:FLTE_scientist_event_target = {
+			custom_effect_tooltip = FLTE_sp_scientist_event.7.tooltip
+		}
+	}
+	option = { name = FLTE_sp_scientist_event.7.option_1 }
+}

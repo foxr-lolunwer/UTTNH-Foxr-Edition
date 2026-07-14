@@ -1,0 +1,7 @@
+FLTE_debug_categories = {
+	priority = 10
+	icon = generic_research
+	visible = {
+		is_debug = yes
+	}
+}

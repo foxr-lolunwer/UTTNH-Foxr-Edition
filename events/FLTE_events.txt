@@ -11,11 +11,13 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = FLTE_events.1.a
-		FLTE_EFFECT_init_world_buildings = yes
-		FUN_FITE_set_flte_tech_from_vanilla = yes
-		if = { # 初始工厂数量大于四的国家获得工业建设能力科技
-			limit = { num_of_owned_factories > 4 NOT = { has_tech = capacity_industrial_construction } }
-				set_technology = { popup = no capacity_industrial_construction = 1 }
+		hidden_effect = {
+			if = {
+				limit = { NOT = { has_global_flag = FLTE_GLFLAG_init_world_done } }
+				set_global_flag = FLTE_GLFLAG_init_world_done
+				every_country = { FLTE_EFFECT_init_flte_tech = yes }
+				every_state = { FLTE_EFFECT_init_world_buildings = yes }
+			}
 		}
 	}
 	option = {

@@ -1,34 +1,25 @@
-# DEL
-specialization_nuclear = {
+specialization_nuclear = { # 导弹/核物理/太空科技
 	blueprint_image = GFX_generic_plane_blueprint_background
 	color = { 255 255 0 } #YELLOW
 	program_background = "GFX_sp_facility_card_bg"
 }
-specialization_naval = {
+specialization_naval = { # 海军
 	color = { 0 0 255 }
 	program_background = "GFX_sp_facility_card_bg"
 }
-specialization_air = {
+specialization_air = { # 空军
 	color = { 255 0 0 }
 	program_background = "GFX_sp_facility_card_bg"
 }
-specialization_land = {
+specialization_land = { # 陆军
 	color = { 0 255 0 }
 	program_background = "GFX_sp_facility_card_bg"
 }
-specialization_FLTE_electronic = {
+specialization_FLTE_civilian = { # 社会（建筑生产科技突破/建筑生产科技）
 	color = { 0 0 255 }
 	program_background = "GFX_sp_facility_card_bg"
 }
-specialization_FLTE_physics = {
-	color = { 0 0 255 }
-	program_background = "GFX_sp_facility_card_bg"
-}
-# specialization_FLTE_sociology = {
-# 	color = { 0 0 255 }
-# 	program_background = "GFX_sp_facility_card_bg"
-# }
-specialization_FLTE_engineering = {
-	color = { 0 0 255 }
+specialization_FLTE_engineering = { # 工程学（电子工程/科技突破）
+	color = { 0 255 255 }
 	program_background = "GFX_sp_facility_card_bg"
 }

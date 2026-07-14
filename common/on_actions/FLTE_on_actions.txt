@@ -1,11 +1,13 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			random_country = {
+				limit = { exists = yes }
+				set_global_flag = FLTE_GLFLAG_mod_running
+			}
 			every_country = {
-				if = {
-					limit = { is_ai = no }
-					country_event = FLTE_events.1
-				}
+				limit = { is_ai = no }
+				country_event = FLTE_events.1
 			}
 		}
 	}

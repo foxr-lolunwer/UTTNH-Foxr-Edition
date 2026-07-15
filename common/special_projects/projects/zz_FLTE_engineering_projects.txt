@@ -1,0 +1,1919 @@
+sp_air_radar = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	prototype_time = sp_time.prototype.medium
+	complexity = sp_complexity.medium
+	breakthrough_cost = { specialization_air = 1 }
+	project_tags = sp_tag_radar
+	available = { FROM = { has_tech = electronic_mechanical_engineering } }
+	resource_cost = { resources = { steel = 6 aluminium = 6 } }
+	ai_will_do = {
+		base = 1
+		modifier = { factor = 3 ROOT = { is_major = yes } }
+		modifier = { factor = 2 date > 1940.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {	
+				tooltip = tech_effect|radio_detection
+				set_technology = { radio_detection = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = cavity_magnatron	
+			}
+		}
+		facility_state_effects = {
+			set_building_level = { type = radar_station level = 1 }
+		}
+		enable_equipment_modules = {
+			limit = { has_dlc = "Gotterdammerung" has_dlc = "No Step Back" }
+			lc_radar
+		}
+		enable_equipment_modules = {
+			limit = { has_dlc = "Man the Guns" }
+			ship_radar_1
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_engineering_pr_scientist_exp_1
+		FLTE_sp_engineering_pr_scientist_exp_2
+		FLTE_sp_engineering_pr_scientist_exp_3
+		FLTE_sp_engineering_pr_scientist_exp_4
+		FLTE_sp_engineering_pr_scientist_exp_5
+	}
+}
+
+sp_FLTE_tech_ordn_tier_1 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.easy.slow
+	breakthrough_cost = { specialization_land = 1 specialization_FLTE_engineering = 1 }
+	# allowed = { } 通用，每个国家都有一个实例
+	# available = { } 显示即可用
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_ordn_1 }
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 5 date > 1940.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_ordn_1
+				set_technology = { FLTE_tech_tier_ordn_1 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_ordn_tier_1
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_engineering_pr_scientist_exp_1
+		FLTE_sp_engineering_pr_scientist_exp_2
+		FLTE_sp_engineering_pr_scientist_exp_3
+		FLTE_sp_engineering_pr_scientist_exp_4
+		FLTE_sp_engineering_pr_scientist_exp_5
+		FLTE_sp_land_pr_land_exp_1
+		FLTE_sp_land_pr_land_exp_2
+	}
+}
+sp_FLTE_tech_ordn_tier_2 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.medium.fast
+	breakthrough_cost = { specialization_land = 2 specialization_FLTE_engineering = 1 }
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_ordn_2 }
+		has_tech = FLTE_tech_tier_ordn_1
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 date > 1940.1.1 }
+		modifier = { factor = 5 date > 1945.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_ordn_2
+				set_technology = { FLTE_tech_tier_ordn_2 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_ordn_tier_2
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_engineering_pr_scientist_exp_1
+		FLTE_sp_engineering_pr_scientist_exp_2
+		FLTE_sp_engineering_pr_scientist_exp_3
+		FLTE_sp_engineering_pr_scientist_exp_4
+		FLTE_sp_engineering_pr_scientist_exp_5
+		FLTE_sp_land_pr_land_exp_1
+		FLTE_sp_land_pr_land_exp_2
+	}
+}
+sp_FLTE_tech_ordn_tier_3 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.medium.slow
+	breakthrough_cost = { specialization_land = 3 specialization_FLTE_engineering = 1 }
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_ordn_3 }
+		has_tech = FLTE_tech_tier_ordn_2
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 date > 1945.1.1 }
+		modifier = { factor = 5 date > 1950.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_ordn_3
+				set_technology = { FLTE_tech_tier_ordn_3 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_ordn_tier_3
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_engineering_pr_scientist_exp_1
+		FLTE_sp_engineering_pr_scientist_exp_2
+		FLTE_sp_engineering_pr_scientist_exp_3
+		FLTE_sp_engineering_pr_scientist_exp_4
+		FLTE_sp_engineering_pr_scientist_exp_5
+		FLTE_sp_land_pr_land_exp_1
+		FLTE_sp_land_pr_land_exp_2
+	}
+}
+sp_FLTE_tech_ordn_tier_4 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.difficulty.fast
+    breakthrough_cost = { specialization_land = 4 specialization_FLTE_engineering = 2 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_ordn_4 }
+       has_tech = FLTE_tech_tier_ordn_3
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1950.1.1 }
+       modifier = { factor = 5 date > 1960.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_ordn_4
+             set_technology = { FLTE_tech_tier_ordn_4 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_ordn_tier_4
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+       FLTE_sp_land_pr_land_exp_1
+       FLTE_sp_land_pr_land_exp_2
+    }
+}
+sp_FLTE_tech_ordn_tier_5 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.difficulty.slow
+    breakthrough_cost = { specialization_land = 5 specialization_FLTE_engineering = 2 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_ordn_5 }
+       has_tech = FLTE_tech_tier_ordn_4
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1960.1.1 }
+       modifier = { factor = 5 date > 1975.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_ordn_5
+             set_technology = { FLTE_tech_tier_ordn_5 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_ordn_tier_5
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+       FLTE_sp_land_pr_land_exp_1
+       FLTE_sp_land_pr_land_exp_2
+    }
+}
+sp_FLTE_tech_ordn_tier_6 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.very_difficult.fast
+    breakthrough_cost = { specialization_land = 6 specialization_FLTE_engineering = 2 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_ordn_6 }
+       has_tech = FLTE_tech_tier_ordn_5
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1975.1.1 }
+       modifier = { factor = 5 date > 1990.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_ordn_6
+             set_technology = { FLTE_tech_tier_ordn_6 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_ordn_tier_6
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+       FLTE_sp_land_pr_land_exp_1
+       FLTE_sp_land_pr_land_exp_2
+    }
+}
+sp_FLTE_tech_ordn_tier_7 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.very_difficult.slow
+    breakthrough_cost = { specialization_land = 7 specialization_FLTE_engineering = 3 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_ordn_7 }
+       has_tech = FLTE_tech_tier_ordn_6
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1990.1.1 }
+       modifier = { factor = 5 date > 2000.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_ordn_7
+             set_technology = { FLTE_tech_tier_ordn_7 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_ordn_tier_7
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+       FLTE_sp_land_pr_land_exp_1
+       FLTE_sp_land_pr_land_exp_2
+    }
+}
+
+sp_FLTE_tech_vehc_tier_1 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.easy.slow
+	breakthrough_cost = { specialization_land = 1 specialization_FLTE_engineering = 1 }
+	# allowed = { } 通用，每个国家都有一个实例
+	# available = { } 显示即可用
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_vehc_1 }
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 5 date > 1940.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_vehc_1
+				set_technology = { FLTE_tech_tier_vehc_1 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_vehc_tier_1
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_engineering_pr_scientist_exp_1
+		FLTE_sp_engineering_pr_scientist_exp_2
+		FLTE_sp_engineering_pr_scientist_exp_3
+		FLTE_sp_engineering_pr_scientist_exp_4
+		FLTE_sp_engineering_pr_scientist_exp_5
+		FLTE_sp_land_pr_land_exp_1
+		FLTE_sp_land_pr_land_exp_2
+	}
+}
+sp_FLTE_tech_vehc_tier_2 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.medium.fast
+	breakthrough_cost = { specialization_land = 2 specialization_FLTE_engineering = 1 }
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_vehc_2 }
+		has_tech = FLTE_tech_tier_vehc_1
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 date > 1940.1.1 }
+		modifier = { factor = 5 date > 1945.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_vehc_2
+				set_technology = { FLTE_tech_tier_vehc_2 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_vehc_tier_2
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_engineering_pr_scientist_exp_1
+		FLTE_sp_engineering_pr_scientist_exp_2
+		FLTE_sp_engineering_pr_scientist_exp_3
+		FLTE_sp_engineering_pr_scientist_exp_4
+		FLTE_sp_engineering_pr_scientist_exp_5
+		FLTE_sp_land_pr_land_exp_1
+		FLTE_sp_land_pr_land_exp_2
+	}
+}
+sp_FLTE_tech_vehc_tier_3 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.medium.slow
+	breakthrough_cost = { specialization_land = 3 specialization_FLTE_engineering = 1 }
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_vehc_3 }
+		has_tech = FLTE_tech_tier_vehc_2
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 date > 1945.1.1 }
+		modifier = { factor = 5 date > 1950.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_vehc_3
+				set_technology = { FLTE_tech_tier_vehc_3 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_vehc_tier_3
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_engineering_pr_scientist_exp_1
+		FLTE_sp_engineering_pr_scientist_exp_2
+		FLTE_sp_engineering_pr_scientist_exp_3
+		FLTE_sp_engineering_pr_scientist_exp_4
+		FLTE_sp_engineering_pr_scientist_exp_5
+		FLTE_sp_land_pr_land_exp_1
+		FLTE_sp_land_pr_land_exp_2
+	}
+}
+sp_FLTE_tech_vehc_tier_4 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.difficulty.fast
+    breakthrough_cost = { specialization_land = 4 specialization_FLTE_engineering = 2 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_vehc_4 }
+       has_tech = FLTE_tech_tier_vehc_3
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1950.1.1 }
+       modifier = { factor = 5 date > 1960.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_vehc_4
+             set_technology = { FLTE_tech_tier_vehc_4 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_vehc_tier_4
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+       FLTE_sp_land_pr_land_exp_1
+       FLTE_sp_land_pr_land_exp_2
+    }
+}
+sp_FLTE_tech_vehc_tier_5 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.difficulty.slow
+    breakthrough_cost = { specialization_land = 5 specialization_FLTE_engineering = 2 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_vehc_5 }
+       has_tech = FLTE_tech_tier_vehc_4
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1960.1.1 }
+       modifier = { factor = 5 date > 1975.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_vehc_5
+             set_technology = { FLTE_tech_tier_vehc_5 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_vehc_tier_5
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+       FLTE_sp_land_pr_land_exp_1
+       FLTE_sp_land_pr_land_exp_2
+    }
+}
+sp_FLTE_tech_vehc_tier_6 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.very_difficult.fast
+    breakthrough_cost = { specialization_land = 6 specialization_FLTE_engineering = 2 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_vehc_6 }
+       has_tech = FLTE_tech_tier_vehc_5
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1975.1.1 }
+       modifier = { factor = 5 date > 1990.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_vehc_6
+             set_technology = { FLTE_tech_tier_vehc_6 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_vehc_tier_6
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+       FLTE_sp_land_pr_land_exp_1
+       FLTE_sp_land_pr_land_exp_2
+    }
+}
+sp_FLTE_tech_vehc_tier_7 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.very_difficult.slow
+    breakthrough_cost = { specialization_land = 7 specialization_FLTE_engineering = 3 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_vehc_7 }
+       has_tech = FLTE_tech_tier_vehc_6
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1990.1.1 }
+       modifier = { factor = 5 date > 2000.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_vehc_7
+             set_technology = { FLTE_tech_tier_vehc_7 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_vehc_tier_7
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+       FLTE_sp_land_pr_land_exp_1
+       FLTE_sp_land_pr_land_exp_2
+    }
+}
+
+sp_FLTE_tech_airf_tier_1 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.easy.slow
+	breakthrough_cost = { specialization_air = 1 specialization_FLTE_engineering = 1 }
+	# allowed = { } 通用，每个国家都有一个实例
+	# available = { } 显示即可用
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_airf_1 }
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 5 date > 1940.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_airf_1
+				set_technology = { FLTE_tech_tier_airf_1 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_airf_tier_1
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_air_pr_scientist_exp_1
+		FLTE_sp_air_pr_scientist_exp_2
+		FLTE_sp_air_pr_scientist_exp_3
+		FLTE_sp_air_pr_scientist_exp_4
+		FLTE_sp_air_pr_scientist_exp_5
+		FLTE_sp_air_pr_air_exp_1
+		FLTE_sp_air_pr_air_exp_2
+	}
+}
+sp_FLTE_tech_airf_tier_2 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.medium.fast
+	breakthrough_cost = { specialization_air = 2 specialization_FLTE_engineering = 1 }
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_airf_2 }
+		has_tech = FLTE_tech_tier_airf_1
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 date > 1940.1.1 }
+		modifier = { factor = 5 date > 1945.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_airf_2
+				set_technology = { FLTE_tech_tier_airf_2 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_airf_tier_2
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_air_pr_scientist_exp_1
+		FLTE_sp_air_pr_scientist_exp_2
+		FLTE_sp_air_pr_scientist_exp_3
+		FLTE_sp_air_pr_scientist_exp_4
+		FLTE_sp_air_pr_scientist_exp_5
+		FLTE_sp_air_pr_air_exp_1
+		FLTE_sp_air_pr_air_exp_2
+	}
+}
+sp_FLTE_tech_airf_tier_3 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.medium.slow
+	breakthrough_cost = { specialization_air = 3 specialization_FLTE_engineering = 1 }
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_airf_3 }
+		has_tech = FLTE_tech_tier_airf_2
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 date > 1945.1.1 }
+		modifier = { factor = 5 date > 1950.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_airf_3
+				set_technology = { FLTE_tech_tier_airf_3 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_airf_tier_3
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_air_pr_scientist_exp_1
+		FLTE_sp_air_pr_scientist_exp_2
+		FLTE_sp_air_pr_scientist_exp_3
+		FLTE_sp_air_pr_scientist_exp_4
+		FLTE_sp_air_pr_scientist_exp_5
+		FLTE_sp_air_pr_air_exp_1
+		FLTE_sp_air_pr_air_exp_2
+	}
+}
+sp_FLTE_tech_airf_tier_4 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.difficulty.fast
+    breakthrough_cost = { specialization_air = 4 specialization_FLTE_engineering = 2 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_airf_4 }
+       has_tech = FLTE_tech_tier_airf_3
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1950.1.1 }
+       modifier = { factor = 5 date > 1960.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_airf_4
+             set_technology = { FLTE_tech_tier_airf_4 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_airf_tier_4
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_air_pr_scientist_exp_1
+       FLTE_sp_air_pr_scientist_exp_2
+       FLTE_sp_air_pr_scientist_exp_3
+       FLTE_sp_air_pr_scientist_exp_4
+       FLTE_sp_air_pr_scientist_exp_5
+       FLTE_sp_air_pr_air_exp_1
+       FLTE_sp_air_pr_air_exp_2
+    }
+}
+sp_FLTE_tech_airf_tier_5 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.difficulty.slow
+    breakthrough_cost = { specialization_air = 5 specialization_FLTE_engineering = 2 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_airf_5 }
+       has_tech = FLTE_tech_tier_airf_4
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1960.1.1 }
+       modifier = { factor = 5 date > 1975.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_airf_5
+             set_technology = { FLTE_tech_tier_airf_5 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_airf_tier_5
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_air_pr_scientist_exp_1
+       FLTE_sp_air_pr_scientist_exp_2
+       FLTE_sp_air_pr_scientist_exp_3
+       FLTE_sp_air_pr_scientist_exp_4
+       FLTE_sp_air_pr_scientist_exp_5
+       FLTE_sp_air_pr_air_exp_1
+       FLTE_sp_air_pr_air_exp_2
+    }
+}
+sp_FLTE_tech_airf_tier_6 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.very_difficult.fast
+    breakthrough_cost = { specialization_air = 6 specialization_FLTE_engineering = 2 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_airf_6 }
+       has_tech = FLTE_tech_tier_airf_5
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1975.1.1 }
+       modifier = { factor = 5 date > 1990.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_airf_6
+             set_technology = { FLTE_tech_tier_airf_6 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_airf_tier_6
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_air_pr_scientist_exp_1
+       FLTE_sp_air_pr_scientist_exp_2
+       FLTE_sp_air_pr_scientist_exp_3
+       FLTE_sp_air_pr_scientist_exp_4
+       FLTE_sp_air_pr_scientist_exp_5
+       FLTE_sp_air_pr_air_exp_1
+       FLTE_sp_air_pr_air_exp_2
+    }
+}
+sp_FLTE_tech_airf_tier_7 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.very_difficult.slow
+    breakthrough_cost = { specialization_air = 7 specialization_FLTE_engineering = 3 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_airf_7 }
+       has_tech = FLTE_tech_tier_airf_6
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1990.1.1 }
+       modifier = { factor = 5 date > 2000.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_airf_7
+             set_technology = { FLTE_tech_tier_airf_7 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_airf_tier_7
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_air_pr_scientist_exp_1
+       FLTE_sp_air_pr_scientist_exp_2
+       FLTE_sp_air_pr_scientist_exp_3
+       FLTE_sp_air_pr_scientist_exp_4
+       FLTE_sp_air_pr_scientist_exp_5
+       FLTE_sp_air_pr_air_exp_1
+       FLTE_sp_air_pr_air_exp_2
+    }
+}
+
+sp_FLTE_tech_naval_tier_1 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.easy.slow
+	breakthrough_cost = { specialization_air = 1 specialization_FLTE_engineering = 1 }
+	# allowed = { } 通用，每个国家都有一个实例
+	# available = { } 显示即可用
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_naval_1 }
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 5 date > 1940.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_naval_1
+				set_technology = { FLTE_tech_tier_naval_1 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_naval_tier_1
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_naval_pr_scientist_exp_1
+		FLTE_sp_naval_pr_scientist_exp_2
+		FLTE_sp_naval_pr_scientist_exp_3
+		FLTE_sp_naval_pr_scientist_exp_4
+		FLTE_sp_naval_pr_scientist_exp_5
+		FLTE_sp_naval_pr_naval_exp_1
+		FLTE_sp_naval_pr_naval_exp_2
+	}
+}
+sp_FLTE_tech_naval_tier_2 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.medium.fast
+	breakthrough_cost = { specialization_air = 2 specialization_FLTE_engineering = 1 }
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_naval_2 }
+		has_tech = FLTE_tech_tier_naval_1
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 date > 1940.1.1 }
+		modifier = { factor = 5 date > 1945.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_naval_2
+				set_technology = { FLTE_tech_tier_naval_2 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_naval_tier_2
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_naval_pr_scientist_exp_1
+		FLTE_sp_naval_pr_scientist_exp_2
+		FLTE_sp_naval_pr_scientist_exp_3
+		FLTE_sp_naval_pr_scientist_exp_4
+		FLTE_sp_naval_pr_scientist_exp_5
+		FLTE_sp_naval_pr_naval_exp_1
+		FLTE_sp_naval_pr_naval_exp_2
+	}
+}
+sp_FLTE_tech_naval_tier_3 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.medium.slow
+	breakthrough_cost = { specialization_air = 3 specialization_FLTE_engineering = 1 }
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_naval_3 }
+		has_tech = FLTE_tech_tier_naval_2
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 date > 1945.1.1 }
+		modifier = { factor = 5 date > 1950.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_naval_3
+				set_technology = { FLTE_tech_tier_naval_3 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_naval_tier_3
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_naval_pr_scientist_exp_1
+		FLTE_sp_naval_pr_scientist_exp_2
+		FLTE_sp_naval_pr_scientist_exp_3
+		FLTE_sp_naval_pr_scientist_exp_4
+		FLTE_sp_naval_pr_scientist_exp_5
+		FLTE_sp_naval_pr_naval_exp_1
+		FLTE_sp_naval_pr_naval_exp_2
+	}
+}
+sp_FLTE_tech_naval_tier_4 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.difficulty.fast
+    breakthrough_cost = { specialization_air = 4 specialization_FLTE_engineering = 2 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_naval_4 }
+       has_tech = FLTE_tech_tier_naval_3
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1950.1.1 }
+       modifier = { factor = 5 date > 1960.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_naval_4
+             set_technology = { FLTE_tech_tier_naval_4 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_naval_tier_4
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_naval_pr_scientist_exp_1
+       FLTE_sp_naval_pr_scientist_exp_2
+       FLTE_sp_naval_pr_scientist_exp_3
+       FLTE_sp_naval_pr_scientist_exp_4
+       FLTE_sp_naval_pr_scientist_exp_5
+       FLTE_sp_naval_pr_naval_exp_1
+       FLTE_sp_naval_pr_naval_exp_2
+    }
+}
+sp_FLTE_tech_naval_tier_5 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.difficulty.slow
+    breakthrough_cost = { specialization_air = 5 specialization_FLTE_engineering = 2 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_naval_5 }
+       has_tech = FLTE_tech_tier_naval_4
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1960.1.1 }
+       modifier = { factor = 5 date > 1975.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_naval_5
+             set_technology = { FLTE_tech_tier_naval_5 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_naval_tier_5
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_naval_pr_scientist_exp_1
+       FLTE_sp_naval_pr_scientist_exp_2
+       FLTE_sp_naval_pr_scientist_exp_3
+       FLTE_sp_naval_pr_scientist_exp_4
+       FLTE_sp_naval_pr_scientist_exp_5
+       FLTE_sp_naval_pr_naval_exp_1
+       FLTE_sp_naval_pr_naval_exp_2
+    }
+}
+sp_FLTE_tech_naval_tier_6 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.very_difficult.fast
+    breakthrough_cost = { specialization_air = 6 specialization_FLTE_engineering = 2 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_naval_6 }
+       has_tech = FLTE_tech_tier_naval_5
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1975.1.1 }
+       modifier = { factor = 5 date > 1990.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_naval_6
+             set_technology = { FLTE_tech_tier_naval_6 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_naval_tier_6
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_naval_pr_scientist_exp_1
+       FLTE_sp_naval_pr_scientist_exp_2
+       FLTE_sp_naval_pr_scientist_exp_3
+       FLTE_sp_naval_pr_scientist_exp_4
+       FLTE_sp_naval_pr_scientist_exp_5
+       FLTE_sp_naval_pr_naval_exp_1
+       FLTE_sp_naval_pr_naval_exp_2
+    }
+}
+sp_FLTE_tech_naval_tier_7 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.very_difficult.slow
+    breakthrough_cost = { specialization_air = 7 specialization_FLTE_engineering = 3 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_naval_7 }
+       has_tech = FLTE_tech_tier_naval_6
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1990.1.1 }
+       modifier = { factor = 5 date > 2000.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_naval_7
+             set_technology = { FLTE_tech_tier_naval_7 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_naval_tier_7
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_naval_pr_scientist_exp_1
+       FLTE_sp_naval_pr_scientist_exp_2
+       FLTE_sp_naval_pr_scientist_exp_3
+       FLTE_sp_naval_pr_scientist_exp_4
+       FLTE_sp_naval_pr_scientist_exp_5
+       FLTE_sp_naval_pr_naval_exp_1
+       FLTE_sp_naval_pr_naval_exp_2
+    }
+}
+
+sp_FLTE_tech_elec_tier_1 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.easy.slow
+	breakthrough_cost = { specialization_FLTE_engineering = 2 }
+	# allowed = { } 通用，每个国家都有一个实例
+	# available = { } 显示即可用
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_elec_1 }
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 5 date > 1940.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_elec_1
+				set_technology = { FLTE_tech_tier_elec_1 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_elec_tier_1
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_engineering_pr_scientist_exp_1
+		FLTE_sp_engineering_pr_scientist_exp_2
+		FLTE_sp_engineering_pr_scientist_exp_3
+		FLTE_sp_engineering_pr_scientist_exp_4
+		FLTE_sp_engineering_pr_scientist_exp_5
+	}
+}
+sp_FLTE_tech_elec_tier_2 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.medium.fast
+	breakthrough_cost = { specialization_FLTE_engineering = 3 }
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_elec_2 }
+		has_tech = FLTE_tech_tier_elec_1
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 date > 1940.1.1 }
+		modifier = { factor = 5 date > 1945.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_elec_2
+				set_technology = { FLTE_tech_tier_elec_2 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_elec_tier_2
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_engineering_pr_scientist_exp_1
+		FLTE_sp_engineering_pr_scientist_exp_2
+		FLTE_sp_engineering_pr_scientist_exp_3
+		FLTE_sp_engineering_pr_scientist_exp_4
+		FLTE_sp_engineering_pr_scientist_exp_5
+	}
+}
+sp_FLTE_tech_elec_tier_3 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.medium.slow
+	breakthrough_cost = { specialization_FLTE_engineering = 4 }
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_elec_3 }
+		has_tech = FLTE_tech_tier_elec_2
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 date > 1945.1.1 }
+		modifier = { factor = 5 date > 1950.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_elec_3
+				set_technology = { FLTE_tech_tier_elec_3 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_elec_tier_3
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_engineering_pr_scientist_exp_1
+		FLTE_sp_engineering_pr_scientist_exp_2
+		FLTE_sp_engineering_pr_scientist_exp_3
+		FLTE_sp_engineering_pr_scientist_exp_4
+		FLTE_sp_engineering_pr_scientist_exp_5
+	}
+}
+sp_FLTE_tech_elec_tier_4 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.difficulty.fast
+    breakthrough_cost = { specialization_FLTE_engineering = 6 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_elec_4 }
+       has_tech = FLTE_tech_tier_elec_3
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1950.1.1 }
+       modifier = { factor = 5 date > 1960.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_elec_4
+             set_technology = { FLTE_tech_tier_elec_4 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_elec_tier_4
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+    }
+}
+sp_FLTE_tech_elec_tier_5 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.difficulty.slow
+    breakthrough_cost = { specialization_FLTE_engineering = 7 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_elec_5 }
+       has_tech = FLTE_tech_tier_elec_4
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1960.1.1 }
+       modifier = { factor = 5 date > 1975.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_elec_5
+             set_technology = { FLTE_tech_tier_elec_5 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_elec_tier_5
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+    }
+}
+sp_FLTE_tech_elec_tier_6 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.very_difficult.fast
+    breakthrough_cost = { specialization_FLTE_engineering = 8 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_elec_6 }
+       has_tech = FLTE_tech_tier_elec_5
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1975.1.1 }
+       modifier = { factor = 5 date > 1990.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_elec_6
+             set_technology = { FLTE_tech_tier_elec_6 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_elec_tier_6
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+    }
+}
+sp_FLTE_tech_elec_tier_7 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.very_difficult.slow
+    breakthrough_cost = { specialization_FLTE_engineering = 10 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_elec_7 }
+       has_tech = FLTE_tech_tier_elec_6
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1990.1.1 }
+       modifier = { factor = 5 date > 2000.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_elec_7
+             set_technology = { FLTE_tech_tier_elec_7 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_elec_tier_7
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+    }
+}
+
+sp_FLTE_tech_spac_tier_1 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.easy.slow
+	breakthrough_cost = { specialization_FLTE_engineering = 2 }
+	# allowed = { } 通用，每个国家都有一个实例
+	# available = { } 显示即可用
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_spac_1 }
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 5 date > 1940.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_spac_1
+				set_technology = { FLTE_tech_tier_spac_1 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_spac_tier_1
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_engineering_pr_scientist_exp_1
+		FLTE_sp_engineering_pr_scientist_exp_2
+		FLTE_sp_engineering_pr_scientist_exp_3
+		FLTE_sp_engineering_pr_scientist_exp_4
+		FLTE_sp_engineering_pr_scientist_exp_5
+	}
+}
+sp_FLTE_tech_spac_tier_2 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.medium.fast
+	breakthrough_cost = { specialization_FLTE_engineering = 3 }
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_spac_2 }
+		has_tech = FLTE_tech_tier_spac_1
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 date > 1940.1.1 }
+		modifier = { factor = 5 date > 1945.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_spac_2
+				set_technology = { FLTE_tech_tier_spac_2 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_spac_tier_2
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_engineering_pr_scientist_exp_1
+		FLTE_sp_engineering_pr_scientist_exp_2
+		FLTE_sp_engineering_pr_scientist_exp_3
+		FLTE_sp_engineering_pr_scientist_exp_4
+		FLTE_sp_engineering_pr_scientist_exp_5
+	}
+}
+sp_FLTE_tech_spac_tier_3 = {
+	specialization = specialization_FLTE_engineering
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.medium.slow
+	breakthrough_cost = { specialization_FLTE_engineering = 4 }
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_spac_3 }
+		has_tech = FLTE_tech_tier_spac_2
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 date > 1945.1.1 }
+		modifier = { factor = 5 date > 1950.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_spac_3
+				set_technology = { FLTE_tech_tier_spac_3 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_spac_tier_3
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_engineering_pr_scientist_exp_1
+		FLTE_sp_engineering_pr_scientist_exp_2
+		FLTE_sp_engineering_pr_scientist_exp_3
+		FLTE_sp_engineering_pr_scientist_exp_4
+		FLTE_sp_engineering_pr_scientist_exp_5
+	}
+}
+sp_FLTE_tech_spac_tier_4 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.difficulty.fast
+    breakthrough_cost = { specialization_FLTE_engineering = 6 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_spac_4 }
+       has_tech = FLTE_tech_tier_spac_3
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1950.1.1 }
+       modifier = { factor = 5 date > 1960.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_spac_4
+             set_technology = { FLTE_tech_tier_spac_4 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_spac_tier_4
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+    }
+}
+sp_FLTE_tech_spac_tier_5 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.difficulty.slow
+    breakthrough_cost = { specialization_FLTE_engineering = 7 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_spac_5 }
+       has_tech = FLTE_tech_tier_spac_4
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1960.1.1 }
+       modifier = { factor = 5 date > 1975.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_spac_5
+             set_technology = { FLTE_tech_tier_spac_5 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_spac_tier_5
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+    }
+}
+sp_FLTE_tech_spac_tier_6 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.very_difficult.fast
+    breakthrough_cost = { specialization_FLTE_engineering = 8 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_spac_6 }
+       has_tech = FLTE_tech_tier_spac_5
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1975.1.1 }
+       modifier = { factor = 5 date > 1990.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_spac_6
+             set_technology = { FLTE_tech_tier_spac_6 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_spac_tier_6
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+    }
+}
+sp_FLTE_tech_spac_tier_7 = {
+    specialization = specialization_FLTE_engineering
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.very_difficult.slow
+    breakthrough_cost = { specialization_FLTE_engineering = 10 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_spac_7 }
+       has_tech = FLTE_tech_tier_spac_6
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1990.1.1 }
+       modifier = { factor = 5 date > 2000.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_spac_7
+             set_technology = { FLTE_tech_tier_spac_7 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_spac_tier_7
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+    }
+}

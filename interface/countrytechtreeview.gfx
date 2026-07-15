@@ -2103,8 +2103,13 @@ spriteType = {
 		play_on_show = yes
 		pause_on_loop = 0.0
 	}
-########################### FLTE FOLDER ITEM
+########################### FLTE ITEM
 ##### 不修改上面的内容，便于比对
+##### FLTE folder tag
+	spriteType = { name = "GFX_techtree_FLTE_vehc_tab" textureFile = "gfx//interface//FLTE_techtree//tabs//techtree_vehc_tab.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_techtree_FLTE_armor_tab" textureFile = "gfx//interface//FLTE_techtree//tabs//techtree_armor_tab.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_techtree_FLTE_elec_tab" textureFile = "gfx//interface//FLTE_techtree//tabs//techtree_elec_tab.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_techtree_FLTE_advance_tab" textureFile = "gfx//interface//FLTE_techtree//tabs//techtree_advance_tab.dds" noOfFrames = 2 }
 ##### FLTE ordnance (army)
   # small item
 	spriteType = { name = "GFX_technology_FLTE_ordn_folder_small_unavailable_item_bg" 		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds" }	
@@ -2441,10 +2446,10 @@ spriteType = {
 		pause_on_loop = 0.0
 	}
   # small item special project
-	spriteType = { name = "GFX_technology_FLTE_production_folder_special_project_small_available_item_bg" textureFile = "gfx//interface//techtree//technology_special_project_small_available_item_bg.dds" }	
-	spriteType = { name = "GFX_technology_FLTE_production_folder_special_project_small_unavailable_item_bg" textureFile = "gfx//interface//techtree//technology_special_project_small_unavailable_item_bg.dds" }
-	spriteType = { name = "GFX_technology_FLTE_production_folder_special_project_small_researched_item_bg" textureFile = "gfx//interface//techtree//technology_special_project_small_researched_item_bg.dds" }	
-	frameAnimatedSpriteType = { name = "GFX_technology_FLTE_production_folder_special_project_small_currently_researching_item_bg"
+	spriteType = { name = "GFX_technology_FLTE_prod_folder_special_project_small_available_item_bg" textureFile = "gfx//interface//techtree//technology_special_project_small_available_item_bg.dds" }
+	spriteType = { name = "GFX_technology_FLTE_prod_folder_special_project_small_unavailable_item_bg" textureFile = "gfx//interface//techtree//technology_special_project_small_unavailable_item_bg.dds" }
+	spriteType = { name = "GFX_technology_FLTE_prod_folder_special_project_small_researched_item_bg" textureFile = "gfx//interface//techtree//technology_special_project_small_researched_item_bg.dds" }
+	frameAnimatedSpriteType = { name = "GFX_technology_FLTE_prod_folder_special_project_small_currently_researching_item_bg"
 		texturefile = "gfx//interface//techtree//technology_special_project_small_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
@@ -2456,11 +2461,11 @@ spriteType = {
 	}
 ##### FLTE production (civilian)
   # item
-	spriteType = { name = "GFX_technology_FLTE_production_folder_unavailable_item_bg" 		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds" }	
-	spriteType = { name = "GFX_technology_FLTE_production_folder_available_item_bg" 		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds" }
-	spriteType = { name = "GFX_technology_FLTE_production_folder_researched_item_bg" textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds" }	
-	spriteType = { name = "GFX_technology_FLTE_production_folder_branch_item_bg" 	textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds" }	
-	frameAnimatedSpriteType = { name = "GFX_technology_FLTE_production_folder_currently_researching_item_bg"
+	spriteType = { name = "GFX_technology_FLTE_prod_folder_unavailable_item_bg" 		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds" }
+	spriteType = { name = "GFX_technology_FLTE_prod_folder_available_item_bg" 		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds" }
+	spriteType = { name = "GFX_technology_FLTE_prod_folder_researched_item_bg" textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds" }
+	spriteType = { name = "GFX_technology_FLTE_prod_folder_branch_item_bg" 	textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds" }
+	frameAnimatedSpriteType = { name = "GFX_technology_FLTE_prod_folder_currently_researching_item_bg"
 		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
@@ -2471,10 +2476,10 @@ spriteType = {
 		pause_on_loop = 0.0
 	}
   # item special project
-	spriteType = { name = "GFX_technology_FLTE_production_folder_special_project_available_item_bg" textureFile = "gfx//interface//techtree//technology_special_project_small_available_item_bg.dds" }	
-	spriteType = { name = "GFX_technology_FLTE_production_folder_special_project_unavailable_item_bg" textureFile = "gfx//interface//techtree//technology_special_project_small_unavailable_item_bg.dds" }
-	spriteType = { name = "GFX_technology_FLTE_production_folder_special_project_researched_item_bg" textureFile = "gfx//interface//techtree//technology_special_project_small_researched_item_bg.dds" }	
-	frameAnimatedSpriteType = { name = "GFX_technology_FLTE_production_folder_special_project_currently_researching_item_bg"
+	spriteType = { name = "GFX_technology_FLTE_prod_folder_special_project_available_item_bg" textureFile = "gfx//interface//techtree//technology_special_project_small_available_item_bg.dds" }
+	spriteType = { name = "GFX_technology_FLTE_prod_folder_special_project_unavailable_item_bg" textureFile = "gfx//interface//techtree//technology_special_project_small_unavailable_item_bg.dds" }
+	spriteType = { name = "GFX_technology_FLTE_prod_folder_special_project_researched_item_bg" textureFile = "gfx//interface//techtree//technology_special_project_small_researched_item_bg.dds" }
+	frameAnimatedSpriteType = { name = "GFX_technology_FLTE_prod_folder_special_project_currently_researching_item_bg"
 		texturefile = "gfx//interface//techtree//technology_special_project_small_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"

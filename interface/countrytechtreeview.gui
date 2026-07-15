@@ -628,9 +628,9 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 		}
-		#FLTE_production_folder
+		#FLTE_prod_folder
 		containerWindowType = {
-			name = "FLTE_production_folder"
+			name = "FLTE_prod_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
@@ -857,21 +857,21 @@ guiTypes = {
 			buttonType = {
 				name = "FLTE_support_folder_tab"
 				position = { x = 110 y = 0 }
-				quadTextureSprite = "GFX_infantry_folder_tab"
+				quadTextureSprite = "GFX_support_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}
 			buttonType = {
 				name = "FLTE_vehc_folder_tab"
 				position = { x = 210 y = 0 }
-				quadTextureSprite = "GFX_armour_folder_tab"
+				quadTextureSprite = "GFX_techtree_FLTE_vehc_tab"
 				frame = 1
 				clicksound = click_default
 			}
 			buttonType = {
 				name = "FLTE_armor_folder_tab"
 				position = { x = 300 y = 0 }
-				quadTextureSprite = "GFX_armour_folder_tab"
+				quadTextureSprite = "GFX_techtree_FLTE_armor_tab"
 				frame = 1
 				clicksound = ui_research_tab_armor
 			}
@@ -898,7 +898,7 @@ guiTypes = {
 			}
 			buttonType = {
 				position = { x = 690 y = 0 }
-				name = "FLTE_production_folder_tab"
+				name = "FLTE_prod_folder_tab"
 				quadTextureSprite = "GFX_techtree_engineering_tab"
 				frame = 1
 				clicksound = click_default
@@ -920,7 +920,7 @@ guiTypes = {
 			buttonType = {
 				position = { x = 980 y = 0 }
 				name = "FLTE_advance_folder_tab"
-				quadTextureSprite = "GFX_secret_weapons_folder_tab"
+				quadTextureSprite = "GFX_techtree_FLTE_advance_tab"
 				frame = 1
 				clicksound = click_default
 			}		
@@ -1945,9 +1945,9 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-	# FLTE_production_folder
+	# FLTE_prod_folder
 	containerWindowType = {
-		name = "techtree_FLTE_production_folder_item"
+		name = "techtree_FLTE_prod_folder_item"
 		position = { x=0 y=5 }
 		size = { width = 204 height = 72 }
 		clipping = no

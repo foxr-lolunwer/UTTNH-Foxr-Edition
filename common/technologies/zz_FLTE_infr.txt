@@ -78,7 +78,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier1_3 } }
-		dependencies = { FLTE_tech_tier_infr_1 = 1 }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = concentrated_industry } }
@@ -124,7 +123,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier2_3 } }
-		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = concentrated_industry3 } }
@@ -240,7 +238,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier5_3 } }
-		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry concentrated_industry_category
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
 		ai_will_do = { factor = 1 }
@@ -253,7 +250,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier1_3 } }
-		dependencies = { FLTE_tech_tier_infr_1 = 1 }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = dispersed_industry } }
@@ -293,7 +289,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier2_3 } }
-		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = dispersed_industry3 } }
@@ -333,7 +328,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier3_3 } }
-		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = dispersed_industry5 } }
@@ -366,7 +360,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier4_3 } }
-		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		categories = { industry dispersed_industry_category
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
 		ai_will_do = { factor = 1 }
@@ -391,7 +384,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier5_3 } }
-		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry dispersed_industry_category
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
 		ai_will_do = { factor = 1 }
@@ -404,7 +396,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier1_3 } }
-		dependencies = { FLTE_tech_tier_infr_1 = 1 }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = construction1 } }
@@ -448,7 +439,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier2_3 } }
-		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = construction3 } }
@@ -492,7 +482,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier3_3 } }
-		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = construction5 } }
@@ -530,7 +519,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier4_3 } }
-		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		categories = { industry construction_tech
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
 		ai_will_do = { factor = 1 }
@@ -560,7 +548,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier5_3 } }
-		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry construction_tech
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
 		ai_will_do = { factor = 1 }
@@ -1075,7 +1062,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier1_3 } }
-		dependencies = { FLTE_tech_tier_infr_1 = 1 }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = excavation1 } }
@@ -1118,7 +1104,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier2_3 } }
-		dependencies = { FLTE_tech_tier_infr_1 = 1 }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = excavation3 } }
@@ -1154,7 +1139,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier3_3 } }
-		dependencies = { FLTE_tech_tier_infr_1 = 1 }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = excavation5 } }
@@ -1183,7 +1167,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier4_3 } }
-		dependencies = { FLTE_tech_tier_infr_1 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
 		ai_will_do = { factor = 1 }
@@ -1204,7 +1187,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier5_3 } }
-		dependencies = { FLTE_tech_tier_infr_1 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
 		ai_will_do = { factor = 1 }
@@ -1259,7 +1241,6 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_1 y = @Tier4_3 } }
-		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = advanced_oil_processing } }

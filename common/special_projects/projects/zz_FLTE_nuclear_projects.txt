@@ -130,8 +130,7 @@ sp_nuclear_reactor = {
 				
 				iteration_output = {
 					country_effects = {
-						#Do nothing, this is the default option
-					}
+											}
 				}
 			}
 
@@ -146,8 +145,7 @@ sp_nuclear_reactor = {
 								popup = no
 							}
 						}
-						#custom_effect_tooltip = sp_nuclear_isotope_separation_choice_reward_tt
-						add_timed_idea = {
+												add_timed_idea = {
 							idea = special_project_consumer_costs_high
 							days = 365
 						}
@@ -157,7 +155,6 @@ sp_nuclear_reactor = {
 			}
 		}
 
-		# First Successful Test of a Nuclear Reactor
 		sp_nuclear_reactor_tested_reward = {
 			fire_only_once = yes
 
@@ -204,8 +201,7 @@ sp_nuclear_reactor = {
 								IF = {
 									limit = {
 										has_tech = atomic_research
-										NOT = { is_special_project_completed = sp:sp_nuclear_reactor } # This could probably not be the case, but just to be sure
-									}
+										NOT = { is_special_project_completed = sp:sp_nuclear_reactor } 									}
 									sp:sp_nuclear_reactor = { add_project_progress_ratio = 0.1 }
 								}
 								ELSE_IF = {
@@ -255,8 +251,6 @@ sp_nuclear_reactor = {
 	}
 }
 
-
-# ADVANDED NUCLEAR USAGE
 sp_commercial_nuclear_reactor = {
 	specialization = specialization_nuclear	
 	icon = GFX_sp_commercial_nuclear_reactor
@@ -399,7 +393,6 @@ sp_commercial_nuclear_reactor = {
 	}
 }
 
-
 sp_nuclear_engines = {
 	specialization = specialization_nuclear	
 	icon = GFX_sp_nuclear_engines
@@ -454,9 +447,6 @@ sp_nuclear_engines = {
 	}
 }
 
-
-
-# ATOMIC BOMBS
 sp_nuclear_bomb = {
 	specialization = specialization_nuclear	
 	icon = GFX_sp_nuclear_bomb
@@ -500,8 +490,7 @@ sp_nuclear_bomb = {
 			}
 		}
 
-		scientist_effects = { #The limit to only apply the effect if is_character = USA_robert_oppenheimer throws error and doesn't work.
-			set_character_flag = USA_oppenheimer_made_the_nuke_flag
+		scientist_effects = { 			set_character_flag = USA_oppenheimer_made_the_nuke_flag
 		}
 		
 	}
@@ -749,8 +738,7 @@ sp_thermo_nuclear_bomb = {
 				modifier = {
 					factor = 0
 					FROM = {
-						num_of_nukes < 5 # To minimize the risk of this not being a good option to get
-					}
+						num_of_nukes < 5 					}
 				}
 			}
 			option = {
@@ -800,8 +788,7 @@ sp_nuclear_warheads = {
 
 	special_project_parent = {
 		sp_nuclear_bomb
-		# Country must have Medium range ballistic missiles to be able to start this project
-		sp_rockets_medium_range_ballistic_missile
+				sp_rockets_medium_range_ballistic_missile
 	}
 	allowed = {
 		has_dlc = "Gotterdammerung"
@@ -839,28 +826,8 @@ sp_nuclear_warheads = {
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-### #   #   # ### #  #  ##      ###   ##  #   # ###   ## 
-#   #    # #   #  ## # #        #  # #  # ## ## #  # #   
-##  #     #    #  # ## # ##     ###  #  # # # # ###   #  
-#   #     #    #  #  # #  #     #  # #  # #   # #  #   # 
-#   ###   #   ### #  #  ##      ###   ##  #   # ###  ##  
-
-
 sp_rockets_flying_bomb = {
-	specialization = specialization_air 
+	specialization = specialization_nuclear 
 	icon = GFX_sp_rockets_flying_bomb
 
 	project_tags = {
@@ -869,7 +836,7 @@ sp_rockets_flying_bomb = {
 	}
 
 	breakthrough_cost = {
-		specialization_air = 2
+		specialization_nuclear = 2
 	}
 
 	resource_cost = {
@@ -891,8 +858,7 @@ sp_rockets_flying_bomb = {
 			ROOT = { is_major = no }
 		}
 		modifier = {
-			factor = 0.5 # Play a bit safe until we have radar
-			ROOT = { NOT = { has_tech = radio_detection } }
+			factor = 0.5 			ROOT = { NOT = { has_tech = radio_detection } }
 		}
 	}
 
@@ -965,8 +931,7 @@ sp_rockets_flying_bomb = {
 
 	unique_prototype_rewards = {
 		
-		# Design Choice
-		sp_rocket_design_choice_reward = {
+				sp_rocket_design_choice_reward = {
 			fire_only_once = yes
 
 			threshold = { 
@@ -1014,8 +979,7 @@ sp_rockets_flying_bomb = {
 
 		}
 
-		# Pulsejet Design
-		sp_rockets_flying_bomb_technical_breakthrough_in_pulsejet_design_reward = {
+				sp_rockets_flying_bomb_technical_breakthrough_in_pulsejet_design_reward = {
 			fire_only_once = yes
 			
 			threshold = { 
@@ -1041,8 +1005,7 @@ sp_rockets_flying_bomb = {
 			}
 		}
 
-		# Launch ramp innovations
-		sp_rockets_flying_bomb_launch_ramp_innovations_reward = {
+				sp_rockets_flying_bomb_launch_ramp_innovations_reward = {
 			fire_only_once = yes
 			
 			threshold = { 
@@ -1065,8 +1028,7 @@ sp_rockets_flying_bomb = {
 			}
 		}
 
-		# Mass Production
-		sp_rockets_flying_bomb_mass_production_scaling_reward = {
+				sp_rockets_flying_bomb_mass_production_scaling_reward = {
 			fire_only_once = yes
 			
 			threshold = { 
@@ -1091,8 +1053,7 @@ sp_rockets_flying_bomb = {
 			}
 		}
 
-		# Engine Optimization
-		sp_rockets_flying_bomb_engine_optimization_breakthrough_reward = {
+				sp_rockets_flying_bomb_engine_optimization_breakthrough_reward = {
 			fire_only_once = yes
 			
 			threshold = { 
@@ -1117,8 +1078,7 @@ sp_rockets_flying_bomb = {
 			}
 		}
 
-		# Technological Innovations
-		sp_rockets_flying_bomb_technological_innovation_in_guidance_systems_reward = {
+				sp_rockets_flying_bomb_technological_innovation_in_guidance_systems_reward = {
 			fire_only_once = yes
 			
 			threshold = { 
@@ -1143,8 +1103,7 @@ sp_rockets_flying_bomb = {
 				}
 			}
 		}
-		# Test Flight Failures
-		sp_rockets_flying_bomb_test_flight_failures_reward = {
+				sp_rockets_flying_bomb_test_flight_failures_reward = {
 			fire_only_once = yes
 			
 			threshold = { 
@@ -1166,7 +1125,7 @@ sp_rockets_flying_bomb = {
 					scientist_effects = {
 						add_scientist_xp = {
 							experience = constant:sp_scientist_xp_gain.very_high
-							specialization = specialization_air
+							specialization = specialization_nuclear
 						}
 					}
 				}
@@ -1175,19 +1134,10 @@ sp_rockets_flying_bomb = {
 	}
 }
 
-
-###   ##  #   #   ###  ## ### ###  ##      #   # ###  ##  ## ### #   ###  ## 
-#  # #  # #   #    #  #    #   #  #  #     ## ##  #  #   #    #  #   #   #   
-###  #### #   #    #   #   #   #  #        # # #  #   #   #   #  #   ##   #  
-#  # #  # #   #    #    #  #   #  #  #     #   #  #    #   #  #  #   #     # 
-###  #  # ### ### ### ##   #  ###  ##      #   # ### ##  ##  ### ### ### ##  
-
-
-# Ballistic Missiles - The V2 programme
 sp_rockets_ballistic_missile = {
-	specialization = specialization_air 
+	specialization = specialization_nuclear 
 	breakthrough_cost = {
-		specialization_air = 3
+		specialization_nuclear = 3
 	}
 	
 	icon = GFX_sp_rockets_ballistic_missile
@@ -1221,8 +1171,7 @@ sp_rockets_ballistic_missile = {
 			ROOT = { is_major = no }
 		}
 		modifier = {
-			factor = 0.5 # Play a bit safe until we have radar
-			ROOT = { NOT = { has_tech = radio_detection } }
+			factor = 0.5 			ROOT = { NOT = { has_tech = radio_detection } }
 		}
 	}
 	
@@ -1346,7 +1295,7 @@ sp_rockets_ballistic_missile = {
 					scientist_effects = {
 						add_scientist_xp = {
 							experience = constant:sp_scientist_xp_gain.low
-							specialization = specialization_air
+							specialization = specialization_nuclear
 						}
 					}
 				}
@@ -1408,10 +1357,8 @@ sp_rockets_ballistic_missile = {
 	}
 }
 
-
-# Medium range Missiles
 sp_rockets_medium_range_ballistic_missile = {
-	specialization = specialization_air 
+	specialization = specialization_nuclear 
 	
 	icon = GFX_sp_rockets_medium_range_ballistic_missiles
 	
@@ -1517,7 +1464,7 @@ sp_rockets_medium_range_ballistic_missile = {
 					scientist_effects = {
 						add_scientist_xp = {
 							experience = constant:sp_scientist_xp_gain.low
-							specialization = specialization_air
+							specialization = specialization_nuclear
 						}
 					}
 				}
@@ -1560,9 +1507,8 @@ sp_rockets_medium_range_ballistic_missile = {
 	}
 }
 
-# Long range Missiles
 sp_rockets_long_range_ballistic_missile = {
-	specialization = specialization_air 
+	specialization = specialization_nuclear 
 	
 	icon = GFX_sp_rockets_icbm
 	
@@ -1585,8 +1531,7 @@ sp_rockets_long_range_ballistic_missile = {
 
 	special_project_parent = {
 		sp_rockets_medium_range_ballistic_missile
-		# ICBMs are intended to be only nuclear warhead carriers, so need to be able to do create these in order to complete project
-		sp_nuclear_warheads
+				sp_nuclear_warheads
 	}
 
 	available = {
@@ -1605,8 +1550,7 @@ sp_rockets_long_range_ballistic_missile = {
 			}						
 		}	
 		enable_equipments = {
-			#ballistic_missile_equipment_3
-			nuclear_missile_equipment_2
+						nuclear_missile_equipment_2
 		}
 		
 	}
@@ -1682,8 +1626,7 @@ sp_rockets_long_range_ballistic_missile = {
 				
 				iteration_output = {
 					country_effects = {
-						#Do nothing, this is the default option
-						FROM = { add_project_progress_ratio = constant:sp_progress.loss.low }
+												FROM = { add_project_progress_ratio = constant:sp_progress.loss.low }
 					}
 				}
 			}
@@ -1723,18 +1666,10 @@ sp_rockets_long_range_ballistic_missile = {
 	}
 }
 
- ##  ###   ##  #  # #  # ###      ###  ##       ##  ### ###  
-#    #  # #  # #  # ## # #  #      #  #  #     #  #  #  #  # 
-# ## ###  #  # #  # # ## #  #      #  #  #     ####  #  ###  
-#  # #  # #  # #  # #  # #  #      #  #  #     #  #  #  #  # 
- ##  #  #  ##   ##  #  # ###       #   ##      #  # ### #  # 
-
-
-# Ground to Air Missiles - The Wasserfall Project
 sp_rockets_ground_to_air_missile = {
-	specialization = specialization_air 
+	specialization = specialization_nuclear 
 	breakthrough_cost = {
-		specialization_air = 2
+		specialization_nuclear = 2
 	}
 	
 	icon = GFX_sp_rockets_surface_to_air_missiles 
@@ -1808,8 +1743,7 @@ sp_rockets_ground_to_air_missile = {
 	}
 
 	unique_prototype_rewards = {
-		# Ground control improvements
-		sp_rockets_ground_control_improvements_reward = {
+				sp_rockets_ground_control_improvements_reward = {
 			fire_only_once = yes
 			
 			threshold = { 
@@ -1832,8 +1766,7 @@ sp_rockets_ground_to_air_missile = {
 			}
 		}
 
-		# Ground control improvements
-		sp_rockets_vertical_launch_reward = {
+				sp_rockets_vertical_launch_reward = {
 			fire_only_once = yes
 			
 			threshold = { 
@@ -1856,15 +1789,14 @@ sp_rockets_ground_to_air_missile = {
 					scientist_effects = {
 						add_scientist_xp = {
 							experience = constant:sp_scientist_xp_gain.low
-							specialization = specialization_air
+							specialization = specialization_nuclear
 						}
 					}
 				}
 			}
 		}
 
-		# High Speed Flight Control
-		sp_rockets_high_speed_flight_control_reward = {
+				sp_rockets_high_speed_flight_control_reward = {
 			fire_only_once = yes
 			
 			threshold = { 
@@ -1892,8 +1824,7 @@ sp_rockets_ground_to_air_missile = {
 			}
 		}
 
-		# Warhead Detonation Mechanisms
-		sp_rockets_warhead_detonation_mechanisms_reward = {
+				sp_rockets_warhead_detonation_mechanisms_reward = {
 			fire_only_once = yes
 			
 			threshold = { 
@@ -1923,7 +1854,7 @@ sp_rockets_ground_to_air_missile = {
 					scientist_effects = {
 						add_scientist_xp = {
 							experience = constant:sp_scientist_xp_gain.low
-							specialization = specialization_air
+							specialization = specialization_nuclear
 						}
 					}
 				}
@@ -1932,9 +1863,8 @@ sp_rockets_ground_to_air_missile = {
 	}
 }
 
-
 sp_rocket_interceptor = {
-	specialization = specialization_air 
+	specialization = specialization_nuclear 
 	
 	icon = GFX_sp_rockets_rocket_interceptor 
 
@@ -2022,9 +1952,304 @@ sp_rocket_interceptor = {
 	}
 }
 
-
-	
-
-
-
-
+sp_FLTE_tech_nuclear_tier_1 = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.easy.slow
+	breakthrough_cost = { specialization_nuclear = 2 }
+	# allowed = { } 通用，每个国家都有一个实例
+	# available = { } 显示即可用
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_nuclear_1 }
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 5 date > 1940.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_nuclear_1
+				set_technology = { FLTE_tech_tier_nuclear_1 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_nuclear_tier_1
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_engineering_pr_scientist_exp_1
+		FLTE_sp_engineering_pr_scientist_exp_2
+		FLTE_sp_engineering_pr_scientist_exp_3
+		FLTE_sp_engineering_pr_scientist_exp_4
+		FLTE_sp_engineering_pr_scientist_exp_5
+	}
+}
+sp_FLTE_tech_nuclear_tier_2 = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.medium.fast
+	breakthrough_cost = { specialization_nuclear = 3 }
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_nuclear_2 }
+		has_tech = FLTE_tech_tier_nuclear_1
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 date > 1940.1.1 }
+		modifier = { factor = 5 date > 1945.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_nuclear_2
+				set_technology = { FLTE_tech_tier_nuclear_2 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_nuclear_tier_2
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_engineering_pr_scientist_exp_1
+		FLTE_sp_engineering_pr_scientist_exp_2
+		FLTE_sp_engineering_pr_scientist_exp_3
+		FLTE_sp_engineering_pr_scientist_exp_4
+		FLTE_sp_engineering_pr_scientist_exp_5
+	}
+}
+sp_FLTE_tech_nuclear_tier_3 = {
+	specialization = specialization_nuclear
+	icon = GFX_sp_nuclear_radar
+	project_tags = sp_tag_FLTE_tier_upgrade
+	prototype_time = FLTE_sp_prototype_time.medium
+	complexity = FLTE_sp_difficulty_level.medium.slow
+	breakthrough_cost = { specialization_nuclear = 4 }
+	visible = { FROM = {
+		NOT = { has_tech = FLTE_tech_tier_nuclear_3 }
+		has_tech = FLTE_tech_tier_nuclear_2
+	} }
+	ai_will_do = { base = 5
+		modifier = { factor = 2 FROM = { is_major = yes } }
+		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 date > 1945.1.1 }
+		modifier = { factor = 5 date > 1950.1.1 }
+	}
+	project_output = {
+		country_effects = {
+			custom_override_tooltip = {
+				tooltip = tech_effect|FLTE_tech_tier_nuclear_3
+				set_technology = { FLTE_tech_tier_nuclear_3 = 1 popup = no }
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = FLTE_tech_nuclear_tier_3
+			}
+		}
+	}
+	generic_prototype_rewards = {
+		FLTE_sp_general_pr_br_1
+		FLTE_sp_general_pr_br_2
+		FLTE_sp_general_pr_br_3
+		FLTE_sp_general_pr_br_4
+		FLTE_sp_general_pr_br_5
+		FLTE_sp_general_pr_br_6
+		FLTE_sp_engineering_pr_scientist_exp_1
+		FLTE_sp_engineering_pr_scientist_exp_2
+		FLTE_sp_engineering_pr_scientist_exp_3
+		FLTE_sp_engineering_pr_scientist_exp_4
+		FLTE_sp_engineering_pr_scientist_exp_5
+	}
+}
+sp_FLTE_tech_nuclear_tier_4 = {
+    specialization = specialization_nuclear
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.difficulty.fast
+    breakthrough_cost = { specialization_nuclear = 6 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_nuclear_4 }
+       has_tech = FLTE_tech_tier_nuclear_3
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1950.1.1 }
+       modifier = { factor = 5 date > 1960.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_nuclear_4
+             set_technology = { FLTE_tech_tier_nuclear_4 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_nuclear_tier_4
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+    }
+}
+sp_FLTE_tech_nuclear_tier_5 = {
+    specialization = specialization_nuclear
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.difficulty.slow
+    breakthrough_cost = { specialization_nuclear = 7 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_nuclear_5 }
+       has_tech = FLTE_tech_tier_nuclear_4
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1960.1.1 }
+       modifier = { factor = 5 date > 1975.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_nuclear_5
+             set_technology = { FLTE_tech_tier_nuclear_5 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_nuclear_tier_5
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+    }
+}
+sp_FLTE_tech_nuclear_tier_6 = {
+    specialization = specialization_nuclear
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.very_difficult.fast
+    breakthrough_cost = { specialization_nuclear = 8 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_nuclear_6 }
+       has_tech = FLTE_tech_tier_nuclear_5
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1975.1.1 }
+       modifier = { factor = 5 date > 1990.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_nuclear_6
+             set_technology = { FLTE_tech_tier_nuclear_6 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_nuclear_tier_6
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+    }
+}
+sp_FLTE_tech_nuclear_tier_7 = {
+    specialization = specialization_nuclear
+    icon = GFX_sp_nuclear_radar
+    project_tags = sp_tag_FLTE_tier_upgrade
+    prototype_time = FLTE_sp_prototype_time.medium
+    complexity = FLTE_sp_difficulty_level.very_difficult.slow
+    breakthrough_cost = { specialization_nuclear = 10 }
+    visible = { FROM = {
+       NOT = { has_tech = FLTE_tech_tier_nuclear_7 }
+       has_tech = FLTE_tech_tier_nuclear_6
+    } }
+    ai_will_do = { base = 5
+       modifier = { factor = 2 FROM = { is_major = yes } }
+       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 date > 1990.1.1 }
+       modifier = { factor = 5 date > 2000.1.1 }
+    }
+    project_output = {
+       country_effects = {
+          custom_override_tooltip = {
+             tooltip = tech_effect|FLTE_tech_tier_nuclear_7
+             set_technology = { FLTE_tech_tier_nuclear_7 = 1 popup = no }
+          }
+          custom_effect_tooltip = {
+             localization_key = SP_UNLOCK_TECH
+             TECH = FLTE_tech_nuclear_tier_7
+          }
+       }
+    }
+    generic_prototype_rewards = {
+       FLTE_sp_general_pr_br_1
+       FLTE_sp_general_pr_br_2
+       FLTE_sp_general_pr_br_3
+       FLTE_sp_general_pr_br_4
+       FLTE_sp_general_pr_br_5
+       FLTE_sp_general_pr_br_6
+       FLTE_sp_engineering_pr_scientist_exp_1
+       FLTE_sp_engineering_pr_scientist_exp_2
+       FLTE_sp_engineering_pr_scientist_exp_3
+       FLTE_sp_engineering_pr_scientist_exp_4
+       FLTE_sp_engineering_pr_scientist_exp_5
+    }
+}

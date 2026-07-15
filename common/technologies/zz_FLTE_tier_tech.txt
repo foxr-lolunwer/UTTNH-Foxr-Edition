@@ -1,0 +1,73 @@
+technologies = {
+	FLTE_tech_tier_ordn_1 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_ordn_2 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_ordn_3 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_ordn_4 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_ordn_5 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_ordn_6 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_ordn_7 = { is_special_project_tech = yes research_cost = 1 }
+
+	FLTE_tech_tier_vehc_1 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_vehc_2 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_vehc_3 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_vehc_4 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_vehc_5 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_vehc_6 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_vehc_7 = { is_special_project_tech = yes research_cost = 1 }
+
+	FLTE_tech_tier_airf_1 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_airf_2 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_airf_3 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_airf_4 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_airf_5 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_airf_6 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_airf_7 = { is_special_project_tech = yes research_cost = 1 }
+
+	FLTE_tech_tier_naval_1 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_naval_2 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_naval_3 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_naval_4 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_naval_5 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_naval_6 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_naval_7 = { is_special_project_tech = yes research_cost = 1 }
+
+	FLTE_tech_tier_infr_1 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_infr_2 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_infr_3 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_infr_4 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_infr_5 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_infr_6 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_infr_7 = { is_special_project_tech = yes research_cost = 1 }
+
+	FLTE_tech_tier_prod_1 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_prod_2 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_prod_3 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_prod_4 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_prod_5 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_prod_6 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_prod_7 = { is_special_project_tech = yes research_cost = 1 }
+
+	FLTE_tech_tier_elec_1 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_elec_2 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_elec_3 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_elec_4 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_elec_5 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_elec_6 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_elec_7 = { is_special_project_tech = yes research_cost = 1 }
+
+	FLTE_tech_tier_spac_1 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_spac_2 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_spac_3 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_spac_4 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_spac_5 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_spac_6 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_spac_7 = { is_special_project_tech = yes research_cost = 1 }
+
+	FLTE_tech_tier_nuclear_1 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_nuclear_2 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_nuclear_3 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_nuclear_4 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_nuclear_5 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_nuclear_6 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_nuclear_7 = { is_special_project_tech = yes research_cost = 1 }
+}

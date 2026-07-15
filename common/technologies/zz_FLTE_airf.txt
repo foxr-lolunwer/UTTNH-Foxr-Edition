@@ -33,6 +33,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = bba_improved_transport_plane }
         folder = { name = FLTE_airf_folder position = { x = @transport_branch y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -57,6 +58,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = bba_strategic_airlifter }
         folder = { name = FLTE_airf_folder position = { x = @transport_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_airf_2 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -81,6 +83,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = bba_jet_transport }
         folder = { name = FLTE_airf_folder position = { x = @transport_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_airf_3 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -105,6 +108,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = bba_jet_transport_2 }
         folder = { name = FLTE_airf_folder position = { x = @transport_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_airf_4 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -129,6 +133,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = bba_jet_transport_3 }
         folder = { name = FLTE_airf_folder position = { x = @transport_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_airf_4 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -153,6 +158,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = bba_jet_transport_4 }
         folder = { name = FLTE_airf_folder position = { x = @transport_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_airf_6 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -176,6 +182,7 @@ technologies = {
         start_year = 1990
         research_cost = 2
         folder = { name = FLTE_airf_folder position = { x = @transport_branch y = @Tier8_1 } }
+        dependencies = { FLTE_tech_tier_airf_7 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -207,6 +214,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = basic_small_airframe }
         folder = { name = FLTE_airf_folder position = { x = @small_plane_branch y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -250,6 +258,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = improved_small_airframe }
         folder = { name = FLTE_airf_folder position = { x = @small_plane_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -305,6 +314,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = advanced_small_airframe }
         folder = { name = FLTE_airf_folder position = { x = @small_plane_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_airf_2 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = {
@@ -371,6 +381,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_small_airframe }
         folder = { name = FLTE_airf_folder position = { x = @small_plane_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_airf_2 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = {
@@ -432,6 +443,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_small_airframe_1 }
         folder = { name = FLTE_airf_folder position = { x = @small_plane_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_airf_3 = 1 }
 
         allow = {
             ROOT = {
@@ -480,6 +492,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_small_airframe_2 }
         folder = { name = FLTE_airf_folder position = { x = @small_plane_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_airf_4 = 1 }
 
         allow = {
             ROOT = {
@@ -528,6 +541,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_small_airframe_3 }
         folder = { name = FLTE_airf_folder position = { x = @small_plane_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_airf_4 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -570,6 +584,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_small_airframe_4 }
         folder = { name = FLTE_airf_folder position = { x = @small_plane_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_airf_5 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -612,6 +627,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_small_airframe_5 }
         folder = { name = FLTE_airf_folder position = { x = @small_plane_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_airf_5 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -654,6 +670,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_small_airframe_6 }
         folder = { name = FLTE_airf_folder position = { x = @small_plane_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_airf_6 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -696,6 +713,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_small_airframe_7 }
         folder = { name = FLTE_airf_folder position = { x = @small_plane_branch y = @Tier7_1 } }
+        dependencies = { FLTE_tech_tier_airf_7 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -737,6 +755,7 @@ technologies = {
         start_year = 1990
         research_cost = 2
         folder = { name = FLTE_airf_folder position = { x = @small_plane_branch y = @Tier8_1 } }
+        dependencies = { FLTE_tech_tier_airf_7 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -776,6 +795,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = basic_medium_airframe }
         folder = { name = FLTE_airf_folder position = { x = @medium_plane_branch y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -805,6 +825,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = improved_medium_airframe }
         folder = { name = FLTE_airf_folder position = { x = @medium_plane_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -853,6 +874,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = advanced_medium_airframe }
         folder = { name = FLTE_airf_folder position = { x = @medium_plane_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_airf_2 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = {
@@ -906,6 +928,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_medium_airframe }
         folder = { name = FLTE_airf_folder position = { x = @medium_plane_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_airf_2 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = {
@@ -954,6 +977,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_medium_airframe_1 }
         folder = { name = FLTE_airf_folder position = { x = @medium_plane_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_airf_4 = 1 }
 
         allow = {
             ROOT = {
@@ -989,6 +1013,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_medium_airframe_2 }
         folder = { name = FLTE_airf_folder position = { x = @medium_plane_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_airf_4 = 1 }
 
         allow = {
             ROOT = {
@@ -1024,6 +1049,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_medium_airframe_3 }
         folder = { name = FLTE_airf_folder position = { x = @medium_plane_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_airf_5 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1053,6 +1079,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_medium_airframe_4 }
         folder = { name = FLTE_airf_folder position = { x = @medium_plane_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_airf_6 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = {
@@ -1087,6 +1114,7 @@ technologies = {
         start_year = 1985
         research_cost = 2
         folder = { name = FLTE_airf_folder position = { x = @medium_plane_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_airf_7 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1115,6 +1143,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = basic_large_airframe }
         folder = { name = FLTE_airf_folder position = { x = @large_plane_branch y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1151,6 +1180,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = improved_large_airframe }
         folder = { name = FLTE_airf_folder position = { x = @large_plane_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1184,6 +1214,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = advanced_large_airframe }
         path = { research_cost_coeff = 1 leads_to_tech = reinforced_wings_mothership }
         folder = { name = FLTE_airf_folder position = { x = @large_plane_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_airf_2 = 1 }
 
         on_research_complete = {
             if = {
@@ -1231,6 +1262,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_large_airframe }
         folder = { name = FLTE_airf_folder position = { x = @large_plane_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_airf_2 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1263,6 +1295,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_large_airframe_1 }
         folder = { name = FLTE_airf_folder position = { x = @large_plane_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_airf_4 = 1 }
 
         allow = {
             ROOT = {
@@ -1299,6 +1332,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_large_airframe_2 }
         folder = { name = FLTE_airf_folder position = { x = @large_plane_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_airf_4 = 1 }
 
         allow = {
             ROOT = {
@@ -1335,6 +1369,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_large_airframe_3 }
         folder = { name = FLTE_airf_folder position = { x = @large_plane_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_airf_5 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1365,6 +1400,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_large_airframe_4 }
         folder = { name = FLTE_airf_folder position = { x = @large_plane_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_airf_6 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1394,6 +1430,7 @@ technologies = {
         start_year = 1985
         research_cost = 2
         folder = { name = FLTE_airf_folder position = { x = @large_plane_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_airf_7 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1427,6 +1464,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = armor_piercing_bombs }
         path = { research_cost_coeff = 1 leads_to_tech = heavy_bombs }
         folder = { name = FLTE_airf_folder position = { x = @bomb_main_branch y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         categories = {
             air_equipment
@@ -1458,6 +1496,7 @@ technologies = {
         start_year = 1936
         research_cost = 1
         folder = { name = FLTE_airf_folder position = { x = @bomb_right_branch y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1493,6 +1532,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = modern_bombs }
         path = { research_cost_coeff = 1 leads_to_tech = photoflashbomb }
         folder = { name = FLTE_airf_folder position = { x = @bomb_main_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_airf_2 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = {
@@ -1537,6 +1577,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tvguidedbomb }
         # path = { research_cost_coeff = 1 leads_to_tech = airtogroundmissile }
         folder = { name = FLTE_airf_folder position = { x = @bomb_main_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_airf_4 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1580,6 +1621,7 @@ technologies = {
         start_year = 1944
         research_cost = 1
         folder = { name = FLTE_airf_folder position = { x = @bomb_right_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_airf_2 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1611,6 +1653,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tarpspod }
         path = { research_cost_coeff = 1 leads_to_tech = laserguidedbomb }
         folder = { name = FLTE_airf_folder position = { x = @bomb_main_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_airf_5 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1654,6 +1697,7 @@ technologies = {
         start_year = 1970
         research_cost = 1
         folder = { name = FLTE_airf_folder position = { x = @bomb_right_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_airf_6 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1696,6 +1740,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = laserguidedbomb2 }
         folder = { name = FLTE_airf_folder position = { x = @bomb_main_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_airf_6 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1739,6 +1784,7 @@ technologies = {
         start_year = 1990
         research_cost = 1
         folder = { name = FLTE_airf_folder position = { x = @bomb_main_branch y = @Tier8_1 } }
+        dependencies = { FLTE_tech_tier_airf_7 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1782,6 +1828,7 @@ technologies = {
         start_year = 1922
         research_cost = 1
         folder = { name = FLTE_airf_folder position = { x = @photo_reconnaisance_x y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         allow_branch = {
             has_dlc = "La Resistance"
@@ -1812,6 +1859,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = air_torpedoe_2 }
         folder = { name = FLTE_airf_folder position = { x = @air_torpedo_branch y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1846,6 +1894,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = air_torpedoe_3 }
         folder = { name = FLTE_airf_folder position = { x = @air_torpedo_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_airf_2 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1879,6 +1928,7 @@ technologies = {
         start_year = 1944
         research_cost = 1
         folder = { name = FLTE_airf_folder position = { x = @air_torpedo_branch y = @Tier3_1 } }
+        dependencies = { FLTE_tech_tier_airf_3 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1917,6 +1967,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = aa_cannon_1 }
         path = { research_cost_coeff = 1 leads_to_tech = survivability_studies }
         folder = { name = FLTE_airf_folder position = { x = @weapon_mian_branch y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1954,6 +2005,7 @@ technologies = {
         start_year = 1936
         research_cost = 1
         folder = { name = FLTE_airf_folder position = { x = @weapon_left_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -1997,6 +2049,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = aa_hmg2 }
         folder = { name = FLTE_airf_folder position = { x = @weapon_mian_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2040,6 +2093,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = aa_cannon_3 }
         folder = { name = FLTE_airf_folder position = { x = @weapon_mian_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_airf_2 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2081,6 +2135,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = aa_cannon_2 }
         folder = { name = FLTE_airf_folder position = { x = @weapon_right_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_airf_2 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2129,6 +2184,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = aa_cannon_3 }
         folder = { name = FLTE_airf_folder position = { x = @weapon_right_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_airf_2 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2173,6 +2229,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = aa_cannon_4 }
         folder = { name = FLTE_airf_folder position = { x = @weapon_right_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_airf_3 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2217,6 +2274,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = aa_cannon_5 }
         folder = { name = FLTE_airf_folder position = { x = @weapon_right_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_airf_4 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2265,6 +2323,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = autocannon }
         folder = { name = FLTE_airf_folder position = { x = @weapon_right_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_airf_5 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2310,6 +2369,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = autocannon1 }
         folder = { name = FLTE_airf_folder position = { x = @weapon_right_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_airf_5 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2355,6 +2415,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = autocannon2 }
         folder = { name = FLTE_airf_folder position = { x = @weapon_right_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_airf_6 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2399,6 +2460,7 @@ technologies = {
         start_year = 1985
         research_cost = 1
         folder = { name = FLTE_airf_folder position = { x = @weapon_right_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_airf_7 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2450,6 +2512,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = range_improvements }
         path = { research_cost_coeff = 1 leads_to_tech = aircraft_construction }
         folder = { name = FLTE_airf_folder position = { x = @engine_main_branch y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2509,6 +2572,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = engines_3 }
         folder = { name = FLTE_airf_folder position = { x = @engine_main_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         on_research_complete = {
 			custom_effect_tooltip = {
@@ -2566,6 +2630,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = engines_4 }
         folder = { name = FLTE_airf_folder position = { x = @engine_main_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_airf_2 = 1 }
 
         on_research_complete = {
 			custom_effect_tooltip = {
@@ -2623,6 +2688,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = sp_centrifugal_jet_tech }
         folder = { name = FLTE_airf_folder position = { x = @engine_main_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_airf_2 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2673,6 +2739,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = range_improvements2 }
         folder = { name = FLTE_airf_folder position = { x = @engine_right_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2726,6 +2793,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = range_improvements3 }
         folder = { name = FLTE_airf_folder position = { x = @engine_right_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_airf_4 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2771,6 +2839,7 @@ technologies = {
         start_year = 1970
         research_cost = 1
         folder = { name = FLTE_airf_folder position = { x = @engine_right_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_airf_6 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2824,6 +2893,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = dragchut }
         folder = { name = FLTE_airf_folder position = { x = @engine_left_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_airf_1 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2851,6 +2921,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = dragchut2 }
         folder = { name = FLTE_airf_folder position = { x = @engine_left_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_airf_4 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2877,6 +2948,7 @@ technologies = {
         start_year = 1975
         research_cost = 1
         folder = { name = FLTE_airf_folder position = { x = @engine_left_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_airf_6 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -2942,6 +3014,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = advanced_turbojet_engine }
         folder = { name = FLTE_airf_folder position = { x = @engine_main_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_airf_3 = 1 }
 
         allow_branch = {
 			has_dlc = "Gotterdammerung"
@@ -2980,6 +3053,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = turbofan_engine }
         folder = { name = FLTE_airf_folder position = { x = @engine_main_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_airf_4 = 1 }
 
         allow = {
             ROOT = {
@@ -3014,6 +3088,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_turbofan_engine }
         folder = { name = FLTE_airf_folder position = { x = @engine_main_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_airf_6 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -3042,6 +3117,7 @@ technologies = {
         start_year = 1985
         research_cost = 2
         folder = { name = FLTE_airf_folder position = { x = @engine_main_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_airf_7 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -3068,6 +3144,7 @@ technologies = {
         research_cost = 1.75
         path = { research_cost_coeff = 1 leads_to_tech = miniature_fighters }
         folder = { name = FLTE_airf_folder position = { x = @mothership_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_airf_2 = 1 }
 
         allow_branch = {
             has_dlc = "Gotterdammerung"
@@ -3102,6 +3179,7 @@ technologies = {
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = aerial_hangars }
         folder = { name = FLTE_airf_folder position = { x = @mothership_branch y = @Tier3_1 } }
+        dependencies = { FLTE_tech_tier_airf_3 = 1 }
 
         allow = {
             ROOT = {
@@ -3132,6 +3210,7 @@ technologies = {
         start_year = 1946
         research_cost = 1.75
         folder = { name = FLTE_airf_folder position = { x = @mothership_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_airf_3 = 1 }
 
 
         allow = {

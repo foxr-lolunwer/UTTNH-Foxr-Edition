@@ -16,27 +16,45 @@ from typing import Dict, List, Optional
 # ==================== 用户配置区域 ====================
 
 # 1. 替换字典：{ "原始文本": "替换文本" }
+# REPLACEMENTS = {
+#     " y = 0 ": " y = @Tier1_1 ",
+#     " y = 2 ": " y = @Tier1_2 ",
+#     " y = 4 ": " y = @Tier2_1 ",
+#     " y = 6 ": " y = @Tier2_2 ",
+#     " y = 8 ": " y = @Tier3_1 ",
+#     " y = 10 ": " y = @Tier3_2 ",
+#     " y = 12 ": " y = @Tier4_1 ",
+#     " y = 14 ": " y = @Tier4_2 ",
+#     " y = 16 ": " y = @Tier5_1 ",
+#     " y = 18 ": " y = @Tier5_2 ",
+#     " y = 20 ": " y = @Tier6_1 ",
+#     " y = 22 ": " y = @Tier6_2 ",
+#     " y = 24 ": " y = @Tier7_1 ",
+#     " y = 26 ": " y = @Tier7_2 ",
+#     " y = 28 ": " y = @Tier8_1 ",
+#     " y = 30 ": " y = @Tier8_2 ",
+# }
 REPLACEMENTS = {
-    " y = 0 ": " y = @Tier1_1 ",
-    " y = 2 ": " y = @Tier1_2 ",
-    " y = 4 ": " y = @Tier2_1 ",
-    " y = 6 ": " y = @Tier2_2 ",
-    " y = 8 ": " y = @Tier3_1 ",
-    " y = 10 ": " y = @Tier3_2 ",
-    " y = 12 ": " y = @Tier4_1 ",
-    " y = 14 ": " y = @Tier4_2 ",
-    " y = 16 ": " y = @Tier5_1 ",
-    " y = 18 ": " y = @Tier5_2 ",
-    " y = 20 ": " y = @Tier6_1 ",
-    " y = 22 ": " y = @Tier6_2 ",
-    " y = 24 ": " y = @Tier7_1 ",
-    " y = 26 ": " y = @Tier7_2 ",
-    " y = 28 ": " y = @Tier8_1 ",
-    " y = 30 ": " y = @Tier8_2 ",
+    "y = @Tier8_2 } }": "y = @Tier8_2 } }\n        dependencies = { FLTE_tech_tier_ordn_8 = 1 }",
+    "y = @Tier8_1 } }": "y = @Tier8_1 } }\n        dependencies = { FLTE_tech_tier_ordn_8 = 1 }",
+    "y = @Tier7_2 } }": "y = @Tier7_2 } }\n        dependencies = { FLTE_tech_tier_ordn_7 = 1 }",
+    "y = @Tier7_1 } }": "y = @Tier7_1 } }\n        dependencies = { FLTE_tech_tier_ordn_7 = 1 }",
+    "y = @Tier6_2 } }": "y = @Tier6_2 } }\n        dependencies = { FLTE_tech_tier_ordn_6 = 1 }",
+    "y = @Tier6_1 } }": "y = @Tier6_1 } }\n        dependencies = { FLTE_tech_tier_ordn_6 = 1 }",
+    "y = @Tier5_2 } }": "y = @Tier5_2 } }\n        dependencies = { FLTE_tech_tier_ordn_5 = 1 }",
+    "y = @Tier5_1 } }": "y = @Tier5_1 } }\n        dependencies = { FLTE_tech_tier_ordn_5 = 1 }",
+    "y = @Tier4_2 } }": "y = @Tier4_2 } }\n        dependencies = { FLTE_tech_tier_ordn_4 = 1 }",
+    "y = @Tier4_1 } }": "y = @Tier4_1 } }\n        dependencies = { FLTE_tech_tier_ordn_4 = 1 }",
+    "y = @Tier3_2 } }": "y = @Tier3_2 } }\n        dependencies = { FLTE_tech_tier_ordn_3 = 1 }",
+    "y = @Tier3_1 } }": "y = @Tier3_1 } }\n        dependencies = { FLTE_tech_tier_ordn_3 = 1 }",
+    "y = @Tier2_2 } }": "y = @Tier2_2 } }\n        dependencies = { FLTE_tech_tier_ordn_2 = 1 }",
+    "y = @Tier2_1 } }": "y = @Tier2_1 } }\n        dependencies = { FLTE_tech_tier_ordn_2 = 1 }",
+    "y = @Tier1_2 } }": "y = @Tier1_2 } }\n        dependencies = { FLTE_tech_tier_ordn_1 = 1 }",
+    "y = @Tier1_1 } }": "y = @Tier1_1 } }\n        dependencies = { FLTE_tech_tier_ordn_1 = 1 }",
 }
 
 # 2. 目标文件或目录（二选一）
-TARGET_FILE = "./NSB_armor.txt" if len(sys.argv) < 2 else sys.argv[1]
+TARGET_FILE = r"./zz_FLTE_support.txt" if len(sys.argv) < 2 else sys.argv[1]
 TARGET_DIR = ""
 
 # 3. 处理选项

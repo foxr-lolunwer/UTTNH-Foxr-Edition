@@ -928,13 +928,15 @@ FLTE_sp_civilian_pr_scientist_exp_5 = { # 经验-
 FLTE_sp_land_pr_land_exp_1 = { # 陆军经验++
 	fire_only_once = no
 	threshold = { max = @threshold_army_exp_1_max min = @threshold_army_exp_1_min }
-	weight = { base = 3 }
-	allowed = { var:scientist = {
-		has_scientist_level = {
-			level < 5
-			specialization = specialization_land
+	weight = {
+		base = 3
+		modifier = {
+			factor = 0
+			var:scientist = {
+				has_scientist_level = { level < 3 specialization = specialization_land }
+			}
 		}
-	} }
+	}
 	option = {
 		token = FLTE_sp_land_pr_land_exp_1_option_1
 		default = yes
@@ -946,13 +948,16 @@ FLTE_sp_land_pr_land_exp_1 = { # 陆军经验++
 FLTE_sp_land_pr_land_exp_2 = { # 陆军经验+
 	fire_only_once = no
 	threshold = { max = @threshold_army_exp_2_max min = @threshold_army_exp_2_min }
-	weight = { base = 6 }
-	allowed = { var:scientist = {
-		has_scientist_level = {
-			level < 5
-			specialization = specialization_land
+	weight = {
+		base = 6
+		modifier = {
+			factor = 0
+			var:scientist = {
+				has_scientist_level = { level < 2 specialization = specialization_land }
+			}
 		}
-	} }
+	}
+
 	option = {
 		token = FLTE_sp_land_pr_land_exp_2_option_1
 		default = yes
@@ -964,13 +969,15 @@ FLTE_sp_land_pr_land_exp_2 = { # 陆军经验+
 FLTE_sp_naval_pr_naval_exp_1 = { # 海军经验++
 	fire_only_once = no
 	threshold = { max = @threshold_army_exp_1_max min = @threshold_army_exp_1_min }
-	weight = { base = 3 }
-	allowed = { var:scientist = {
-		has_scientist_level = {
-			level < 5
-			specialization = specialization_naval
+	weight = {
+		base = 3
+		modifier = {
+			factor = 0
+			var:scientist = {
+				has_scientist_level = { level < 3 specialization = specialization_naval }
+			}
 		}
-	} }
+	}
 	option = {
 		token = FLTE_sp_naval_pr_naval_exp_1_option_1
 		default = yes
@@ -982,13 +989,15 @@ FLTE_sp_naval_pr_naval_exp_1 = { # 海军经验++
 FLTE_sp_naval_pr_naval_exp_2 = { # 海军经验+
 	fire_only_once = no
 	threshold = { max = @threshold_army_exp_2_max min = @threshold_army_exp_2_min }
-	weight = { base = 6 }
-	allowed = { var:scientist = {
-		has_scientist_level = {
-			level < 5
-			specialization = specialization_naval
+	weight = {
+		base = 6
+		modifier = {
+			factor = 0
+			var:scientist = {
+				has_scientist_level = { level < 2 specialization = specialization_naval }
+			}
 		}
-	} }
+	}
 	option = {
 		token = FLTE_sp_naval_pr_naval_exp_2_option_1
 		default = yes
@@ -1000,13 +1009,15 @@ FLTE_sp_naval_pr_naval_exp_2 = { # 海军经验+
 FLTE_sp_air_pr_air_exp_1 = { # 空军经验++
 	fire_only_once = no
 	threshold = { max = @threshold_army_exp_1_max min = @threshold_army_exp_1_min }
-	weight = { base = 3 }
-	allowed = { var:scientist = {
-		has_scientist_level = {
-			level < 5
-			specialization = specialization_air
+	weight = {
+		base = 3
+		modifier = {
+			factor = 0
+			var:scientist = {
+				has_scientist_level = { level < 3 specialization = specialization_air }
+			}
 		}
-	} }
+	}
 	option = {
 		token = FLTE_sp_air_pr_air_exp_1_option_1
 		default = yes
@@ -1018,13 +1029,15 @@ FLTE_sp_air_pr_air_exp_1 = { # 空军经验++
 FLTE_sp_air_pr_air_exp_2 = { # 空军经验+
 	fire_only_once = no
 	threshold = { max = @threshold_army_exp_2_max min = @threshold_army_exp_2_min }
-	weight = { base = 6 }
-	allowed = { var:scientist = {
-		has_scientist_level = {
-			level < 5
-			specialization = specialization_air
+	weight = {
+		base = 6
+		modifier = {
+			factor = 0
+			var:scientist = {
+				has_scientist_level = { level < 2 specialization = specialization_air }
+			}
 		}
-	} }
+	}
 	option = {
 		token = FLTE_sp_air_pr_air_exp_2_option_1
 		default = yes

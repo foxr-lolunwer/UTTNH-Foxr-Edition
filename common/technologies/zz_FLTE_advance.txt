@@ -18,6 +18,7 @@ technologies = {
         start_year = 1940
         research_cost = 5
         folder = { name = FLTE_advance_folder position = { x = @atomic_branch y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_nuclear_1 = 1 }
 
         special_project_specialization = { specialization_nuclear }
         on_research_complete = {
@@ -119,6 +120,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = sp_rockets_rocket_bomber }
         path = { research_cost_coeff = 1 leads_to_tech = sp_rockets_dual_chamber_rocket_engine_1 }
         folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_airf_3 = 1 }
 
         on_research_complete = {
             if = {
@@ -188,6 +190,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = sp_rockets_dual_chamber_rocket_engine_2 }
         path = { research_cost_coeff = 1 leads_to_tech = aam46 }
         folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_airf_3 = 1 }
 
         allow = {
             ROOT = {
@@ -223,6 +226,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = aam50 }
         path = { research_cost_coeff = 1 leads_to_tech = heli_engines }
         folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier3_1 } }
+        dependencies = { FLTE_tech_tier_airf_4 = 1 }
 
         allow = {
             ROOT = {
@@ -252,6 +256,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = rocketry70 }
         path = { research_cost_coeff = 1 leads_to_tech = aam60 }
         folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_airf_4 = 1 }
 
         allow = {
             ROOT = {
@@ -284,6 +289,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = rocketry80 }
         path = { research_cost_coeff = 1 leads_to_tech = aam70 }
         folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_airf_5 = 1 }
 
         ai_will_do = {
             factor = 1
@@ -310,6 +316,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = rocketry90 }
         path = { research_cost_coeff = 1 leads_to_tech = aam80 }
         folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_airf_6 = 1 }
 
         ai_will_do = {
             factor = 1
@@ -334,6 +341,7 @@ technologies = {
         start_year = 1990
         research_cost = 1.5
         folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier7_1 } }
+        dependencies = { FLTE_tech_tier_airf_7 = 1 }
 
         ai_will_do = {
             factor = 1
@@ -400,6 +408,7 @@ technologies = {
         start_year = 1943
         research_cost = 1
         folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_elec_3 = 1 }
 
         allow = {
             ROOT = {
@@ -425,6 +434,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = sp_rockets_improved_rocket_bomber }
         folder = { name = FLTE_advance_folder position = { x = @rocket_right_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_elec_3 = 1 }
 
         allow = {
             ROOT = {
@@ -452,6 +462,7 @@ technologies = {
         start_year = 1945
         research_cost = 1
         folder = { name = FLTE_advance_folder position = { x = @rocket_right_branch y = @Tier3_1 } }
+        dependencies = { FLTE_tech_tier_elec_4 = 1 }
 
         allow = {
             ROOT = {
@@ -507,6 +518,7 @@ technologies = {
         start_year = 1950
         research_cost = 1.5
         folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_elec_4 = 1 }
 
         ai_will_do = {
             factor = 1
@@ -533,6 +545,7 @@ technologies = {
         start_year = 1960
         research_cost = 1.5
         folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier3_1 } }
+        dependencies = { FLTE_tech_tier_elec_4 = 1 }
 
         dependencies = {
             ir_guide = 1
@@ -563,6 +576,7 @@ technologies = {
         start_year = 1970
         research_cost = 1.5
         folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_elec_5 = 1 }
 
         dependencies = {
             esar = 1
@@ -593,6 +607,7 @@ technologies = {
         start_year = 1980
         research_cost = 1.5
         folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_elec_6 = 1 }
 
         dependencies = {
             pesa = 1
@@ -622,6 +637,7 @@ technologies = {
         start_year = 1990
         research_cost = 1.5
         folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_elec_7 = 1 }
 
         dependencies = {
             pesa = 1
@@ -644,6 +660,7 @@ technologies = {
         start_year = 1947
         research_cost = 2
         folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_airf_4 = 1 }
 
         ai_will_do = {
             factor = 1

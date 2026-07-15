@@ -39,6 +39,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = basic_light_battery }
         path = { research_cost_coeff = 1 leads_to_tech = basic_heavy_battery }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_main_branch y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_naval_1 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = light_battery_advice_tt
@@ -84,6 +85,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = basic_light_shell }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_left_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_naval_1 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = light_battery_advice_tt
@@ -138,6 +140,7 @@ technologies = {
         research_cost = 0.5
         path = { research_cost_coeff = 1 leads_to_tech = improved_light_battery }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_left_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_naval_2 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -168,6 +171,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = improved_light_shell }
         path = { research_cost_coeff = 1 leads_to_tech = basic_dp_light_battery }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_left_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_naval_2 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = light_battery_advice_tt
@@ -222,6 +226,7 @@ technologies = {
         research_cost = 0.5
         path = { research_cost_coeff = 1 leads_to_tech = advanced_light_battery }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_left_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_naval_3 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -252,6 +257,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = ship_light_ASM_battery_1 }
         path = { research_cost_coeff = 1 leads_to_tech = light_battery60 }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_left_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_naval_4 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = light_battery_advice_tt
@@ -285,6 +291,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = light_battery70 }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_left_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_naval_5 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -319,6 +326,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = light_battery80 }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_left_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_naval_5 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -353,6 +361,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = light_battery90 }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_left_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_naval_6 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -386,6 +395,7 @@ technologies = {
         start_year = 1990
         research_cost = 1
         folder = { name = FLTE_naval_support_folder position = { x = @bom_left_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_naval_6 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -423,6 +433,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = ship_light_ASM_battery_2 }
         path = { research_cost_coeff = 0.7 leads_to_tech = ship_heavy_ASM_battery_1 }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_light_asm_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_naval_4 = 1 }
 
         dependencies = {
             sp_rockets_dual_chamber_rocket_engine_1 = 1
@@ -458,6 +469,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = ship_light_ASM_battery_3 }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_light_asm_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_naval_5 = 1 }
 
         dependencies = {
             sp_rockets_dual_chamber_rocket_engine_1 = 1
@@ -493,6 +505,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = ship_light_ASM_battery_4 }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_light_asm_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_naval_5 = 1 }
 
         dependencies = {
             sp_rockets_dual_chamber_rocket_engine_1 = 1
@@ -529,6 +542,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = ship_light_ASM_battery_5 }
         path = { research_cost_coeff = 1 leads_to_tech = ship_ciws_1 }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_light_asm_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_naval_6 = 1 }
 
         dependencies = {
             sp_rockets_dual_chamber_rocket_engine_1 = 1
@@ -566,6 +580,7 @@ technologies = {
         start_year = 1990
         research_cost = 1
         folder = { name = FLTE_naval_support_folder position = { x = @bom_light_asm_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_naval_6 = 1 }
 
         dependencies = {
             sp_rockets_dual_chamber_rocket_engine_1 = 1
@@ -598,6 +613,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = ship_ciws_2 }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_ciws_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_naval_6 = 1 }
 
         dependencies = {
             sp_rockets_dual_chamber_rocket_engine_1 = 1
@@ -629,6 +645,7 @@ technologies = {
         start_year = 1990
         research_cost = 1
         folder = { name = FLTE_naval_support_folder position = { x = @bom_ciws_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_naval_6 = 1 }
 
         dependencies = {
             sp_rockets_dual_chamber_rocket_engine_1 = 1
@@ -663,6 +680,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = basic_heavy_shell }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_right_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_naval_1 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = heavy_battery_advice_tt
@@ -701,6 +719,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = improved_heavy_shell }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_right_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_naval_2 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = heavy_battery_advice_tt
@@ -739,6 +758,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = ship_heavy_ASM_battery_1 }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_right_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_naval_4 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = heavy_battery_advice_tt
@@ -786,6 +806,7 @@ technologies = {
         research_cost = 0.5
         path = { research_cost_coeff = 1 leads_to_tech = improved_heavy_battery }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_right_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_naval_2 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -822,6 +843,7 @@ technologies = {
         research_cost = 0.5
         path = { research_cost_coeff = 1 leads_to_tech = advanced_heavy_battery }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_right_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_naval_3 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -849,6 +871,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = ship_heavy_ASM_battery_2 }
         path = { research_cost_coeff = 0.7 leads_to_tech = ship_light_ASM_battery_1 }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_right_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_naval_4 = 1 }
 
         dependencies = {
             sp_rockets_dual_chamber_rocket_engine_1 = 1
@@ -877,6 +900,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = ship_heavy_ASM_battery_3 }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_right_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_naval_5 = 1 }
 
         dependencies = {
             sp_rockets_dual_chamber_rocket_engine_1 = 1
@@ -905,6 +929,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = ship_heavy_ASM_battery_4 }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_right_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_naval_5 = 1 }
 
         dependencies = {
             sp_rockets_dual_chamber_rocket_engine_1 = 1
@@ -933,6 +958,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = ship_heavy_ASM_battery_5 }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_right_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_naval_6 = 1 }
 
         dependencies = {
             sp_rockets_dual_chamber_rocket_engine_1 = 1
@@ -960,6 +986,7 @@ technologies = {
         start_year = 1990
         research_cost = 1
         folder = { name = FLTE_naval_support_folder position = { x = @bom_right_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_naval_6 = 1 }
 
         dependencies = {
             sp_rockets_dual_chamber_rocket_engine_1 = 1
@@ -991,6 +1018,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = improved_dp_light_battery }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_main_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_naval_2 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = secondary_battery_advice_tt
@@ -1029,6 +1057,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = advanced_dp_light_battery }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_main_branch y = @Tier3_1 } }
+        dependencies = { FLTE_tech_tier_naval_3 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = secondary_battery_advice_tt
@@ -1068,6 +1097,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = light_battery60 }
         folder = { name = FLTE_naval_support_folder position = { x = @bom_main_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_naval_4 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = secondary_battery_advice_tt
@@ -1106,6 +1136,7 @@ technologies = {
         research_cost = 2.0
         path = { research_cost_coeff = 1 leads_to_tech = improved_ship_torpedo_launcher }
         folder = { name = FLTE_naval_support_folder position = { x = @torpedo_branch y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_naval_1 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = torpedo_advice_tt
@@ -1159,6 +1190,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = advanced_ship_torpedo_launcher }
         folder = { name = FLTE_naval_support_folder position = { x = @torpedo_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_naval_2 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -1214,6 +1246,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = modern_ship_torpedo_launcher }
         folder = { name = FLTE_naval_support_folder position = { x = @torpedo_branch y = @Tier3_1 } }
+        dependencies = { FLTE_tech_tier_naval_3 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -1252,6 +1285,7 @@ technologies = {
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = magnetic_detonator }
         folder = { name = FLTE_naval_support_folder position = { x = @torpedo_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_naval_1 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = torpedo_advice_tt
@@ -1285,6 +1319,7 @@ technologies = {
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = homing_torpedo }
         folder = { name = FLTE_naval_support_folder position = { x = @torpedo_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_naval_2 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = torpedo_advice_tt
@@ -1318,6 +1353,7 @@ technologies = {
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = ship_torpedo_launcher_5 }
         folder = { name = FLTE_naval_support_folder position = { x = @torpedo_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_naval_3 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = torpedo_advice_tt
@@ -1351,6 +1387,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = ship_torpedo_launcher_6 }
         folder = { name = FLTE_naval_support_folder position = { x = @torpedo_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_naval_4 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = torpedo_advice_tt
@@ -1382,6 +1419,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = ship_torpedo_launcher_7 }
         folder = { name = FLTE_naval_support_folder position = { x = @torpedo_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_naval_4 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = torpedo_advice_tt
@@ -1414,6 +1452,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = ship_torpedo_launcher_8 }
         folder = { name = FLTE_naval_support_folder position = { x = @torpedo_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_naval_5 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = torpedo_advice_tt
@@ -1446,6 +1485,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = ship_torpedo_launcher_9 }
         folder = { name = FLTE_naval_support_folder position = { x = @torpedo_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_naval_5 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = torpedo_advice_tt
@@ -1478,6 +1518,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = ship_torpedo_launcher_10 }
         folder = { name = FLTE_naval_support_folder position = { x = @torpedo_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_naval_6 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = torpedo_advice_tt
@@ -1509,6 +1550,7 @@ technologies = {
         start_year = 1990
         research_cost = 1
         folder = { name = FLTE_naval_support_folder position = { x = @torpedo_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_naval_6 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = torpedo_advice_tt
@@ -1543,6 +1585,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = damage_control_2 }
         folder = { name = FLTE_naval_support_folder position = { x = @damage_control_branch y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_naval_1 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -1590,6 +1633,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = damage_control_3 }
         folder = { name = FLTE_naval_support_folder position = { x = @damage_control_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_naval_1 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -1631,6 +1675,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = sp_improved_repair_ship }
         folder = { name = FLTE_naval_support_folder position = { x = @damage_control_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_naval_2 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -1678,6 +1723,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = fire_control_methods_2 }
         folder = { name = FLTE_naval_support_folder position = { x = @fire_control_branch y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_naval_1 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -1728,6 +1774,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = fire_control_methods_3 }
         folder = { name = FLTE_naval_support_folder position = { x = @fire_control_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_naval_1 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -1779,6 +1826,7 @@ technologies = {
 
         research_cost = 2.5
         folder = { name = FLTE_naval_support_folder position = { x = @fire_control_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_naval_2 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -1815,6 +1863,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = improved_naval_mines }
         path = { research_cost_coeff = 1 leads_to_tech = submarine_mine_laying }
         folder = { name = FLTE_naval_support_folder position = { x = @mines_branch1 y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_naval_1 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -1856,6 +1905,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = improved_submarine_mine_laying }
         folder = { name = FLTE_naval_support_folder position = { x = @mines_branch3 y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_naval_1 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -1888,6 +1938,7 @@ technologies = {
         start_year = 1940
         research_cost = 2
         folder = { name = FLTE_naval_support_folder position = { x = @mines_branch3 y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_naval_4 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -1920,6 +1971,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = advanced_naval_mines }
         path = { research_cost_coeff = 1 leads_to_tech = degaussing }
         folder = { name = FLTE_naval_support_folder position = { x = @mines_branch1 y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_naval_2 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -1968,6 +2020,7 @@ technologies = {
         start_year = 1938
         research_cost = 1
         folder = { name = FLTE_naval_support_folder position = { x = @mines_branch2 y = @Tier3_1 } }
+        dependencies = { FLTE_tech_tier_naval_3 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -2006,6 +2059,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = airsweep_mines_bba }
         path = { research_cost_coeff = 1 leads_to_tech = airsweep_mines }
         folder = { name = FLTE_naval_support_folder position = { x = @mines_branch1 y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_naval_4 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -2042,6 +2096,7 @@ technologies = {
         start_year = 1942
         research_cost = 2
         folder = { name = FLTE_naval_support_folder position = { x = @mines_branch3 y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_naval_5 = 1 }
 
         allow_branch = {
             NOT = {
@@ -2075,6 +2130,7 @@ technologies = {
         start_year = 1942
         research_cost = 1
         folder = { name = FLTE_naval_support_folder position = { x = @mines_branch3 y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_naval_5 = 1 }
 
         allow_branch = {
             has_dlc = "By Blood Alone"
@@ -2109,6 +2165,7 @@ technologies = {
         start_year = 1942
         research_cost = 2
         folder = { name = FLTE_naval_support_folder position = { x = @mines_branch1 y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_naval_5 = 1 }
 
         allow_branch = {
             NOT = {
@@ -2134,6 +2191,7 @@ technologies = {
         start_year = 1942
         research_cost = 1
         folder = { name = FLTE_naval_support_folder position = { x = @mines_branch1 y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_naval_5 = 1 }
 
         allow_branch = {
             has_dlc = "By Blood Alone"
@@ -2161,6 +2219,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = mtg_landing_craft }
         path = { research_cost_coeff = 1 leads_to_tech = sp_multi_product_supply_ships }
         folder = { name = FLTE_naval_support_folder position = { x = @transport_branch y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_naval_1 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = {
@@ -2215,6 +2274,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = mtg_tank_landing_craft }
         path = { research_cost_coeff = 1 leads_to_tech = sp_improved_support_ship }
         folder = { name = FLTE_naval_support_folder position = { x = @transport_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_naval_2 = 1 }
 
         force_use_small_tech_layout = yes
         special_project_specialization = { specialization_naval }
@@ -2279,6 +2339,7 @@ technologies = {
         start_year = 1944
         research_cost = 2
         folder = { name = FLTE_naval_support_folder position = { x = @transport_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_naval_3 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -2322,6 +2383,7 @@ technologies = {
         research_cost = 2.0
         path = { research_cost_coeff = 1 leads_to_tech = sp_standard_tenshioned_replenishment_alongside_method }
         folder = { name = FLTE_naval_support_folder position = { x = @support_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_naval_2 = 1 }
 
         force_use_small_tech_layout = yes
         is_special_project_tech = yes
@@ -2351,6 +2413,7 @@ technologies = {
         start_year = 1943
         research_cost = 2.5
         folder = { name = FLTE_naval_support_folder position = { x = @support_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_naval_3 = 1 }
 
         force_use_small_tech_layout = yes
         is_special_project_tech = yes
@@ -2379,6 +2442,7 @@ technologies = {
         start_year = 1942
         research_cost = 2
         folder = { name = FLTE_naval_support_folder position = { x = @transport_branch y = @Tier3_1 } }
+        dependencies = { FLTE_tech_tier_naval_3 = 1 }
 
         is_special_project_tech = yes
         allow = {
@@ -2409,6 +2473,7 @@ technologies = {
         start_year = 1942
         research_cost = 2
         folder = { name = FLTE_naval_support_folder position = { x = @damage_control_branch y = @Tier3_1 } }
+        dependencies = { FLTE_tech_tier_naval_3 = 1 }
 
         is_special_project_tech = yes
         allow = {

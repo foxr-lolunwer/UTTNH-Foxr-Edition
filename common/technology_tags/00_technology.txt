@@ -177,7 +177,7 @@ technology_folders = {
 	FLTE_airf_folder = {
 		ledger = air
 	}
-	FLTE_production_folder = {
+	FLTE_prod_folder = {
 		ledger = civilian
 	}
 	FLTE_infr_folder = {

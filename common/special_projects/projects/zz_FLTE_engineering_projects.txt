@@ -52,7 +52,7 @@ sp_air_radar = {
 
 sp_FLTE_tech_ordn_tier_1 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.easy.slow
@@ -97,7 +97,7 @@ sp_FLTE_tech_ordn_tier_1 = {
 }
 sp_FLTE_tech_ordn_tier_2 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.fast
@@ -142,7 +142,7 @@ sp_FLTE_tech_ordn_tier_2 = {
 }
 sp_FLTE_tech_ordn_tier_3 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.slow
@@ -187,7 +187,7 @@ sp_FLTE_tech_ordn_tier_3 = {
 }
 sp_FLTE_tech_ordn_tier_4 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.fast
@@ -232,7 +232,7 @@ sp_FLTE_tech_ordn_tier_4 = {
 }
 sp_FLTE_tech_ordn_tier_5 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.slow
@@ -277,7 +277,7 @@ sp_FLTE_tech_ordn_tier_5 = {
 }
 sp_FLTE_tech_ordn_tier_6 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.fast
@@ -322,7 +322,7 @@ sp_FLTE_tech_ordn_tier_6 = {
 }
 sp_FLTE_tech_ordn_tier_7 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.slow
@@ -368,7 +368,7 @@ sp_FLTE_tech_ordn_tier_7 = {
 
 sp_FLTE_tech_vehc_tier_1 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.easy.slow
@@ -413,7 +413,7 @@ sp_FLTE_tech_vehc_tier_1 = {
 }
 sp_FLTE_tech_vehc_tier_2 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.fast
@@ -458,7 +458,7 @@ sp_FLTE_tech_vehc_tier_2 = {
 }
 sp_FLTE_tech_vehc_tier_3 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.slow
@@ -503,7 +503,7 @@ sp_FLTE_tech_vehc_tier_3 = {
 }
 sp_FLTE_tech_vehc_tier_4 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.fast
@@ -548,7 +548,7 @@ sp_FLTE_tech_vehc_tier_4 = {
 }
 sp_FLTE_tech_vehc_tier_5 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.slow
@@ -593,7 +593,7 @@ sp_FLTE_tech_vehc_tier_5 = {
 }
 sp_FLTE_tech_vehc_tier_6 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.fast
@@ -638,7 +638,7 @@ sp_FLTE_tech_vehc_tier_6 = {
 }
 sp_FLTE_tech_vehc_tier_7 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.slow
@@ -684,7 +684,7 @@ sp_FLTE_tech_vehc_tier_7 = {
 
 sp_FLTE_tech_airf_tier_1 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.easy.slow
@@ -729,7 +729,7 @@ sp_FLTE_tech_airf_tier_1 = {
 }
 sp_FLTE_tech_airf_tier_2 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.fast
@@ -774,7 +774,7 @@ sp_FLTE_tech_airf_tier_2 = {
 }
 sp_FLTE_tech_airf_tier_3 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.slow
@@ -819,7 +819,7 @@ sp_FLTE_tech_airf_tier_3 = {
 }
 sp_FLTE_tech_airf_tier_4 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.fast
@@ -864,7 +864,7 @@ sp_FLTE_tech_airf_tier_4 = {
 }
 sp_FLTE_tech_airf_tier_5 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.slow
@@ -909,7 +909,7 @@ sp_FLTE_tech_airf_tier_5 = {
 }
 sp_FLTE_tech_airf_tier_6 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.fast
@@ -954,7 +954,7 @@ sp_FLTE_tech_airf_tier_6 = {
 }
 sp_FLTE_tech_airf_tier_7 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.slow
@@ -1000,7 +1000,7 @@ sp_FLTE_tech_airf_tier_7 = {
 
 sp_FLTE_tech_naval_tier_1 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.easy.slow
@@ -1045,7 +1045,7 @@ sp_FLTE_tech_naval_tier_1 = {
 }
 sp_FLTE_tech_naval_tier_2 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.fast
@@ -1090,7 +1090,7 @@ sp_FLTE_tech_naval_tier_2 = {
 }
 sp_FLTE_tech_naval_tier_3 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.slow
@@ -1135,7 +1135,7 @@ sp_FLTE_tech_naval_tier_3 = {
 }
 sp_FLTE_tech_naval_tier_4 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.fast
@@ -1180,7 +1180,7 @@ sp_FLTE_tech_naval_tier_4 = {
 }
 sp_FLTE_tech_naval_tier_5 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.slow
@@ -1225,7 +1225,7 @@ sp_FLTE_tech_naval_tier_5 = {
 }
 sp_FLTE_tech_naval_tier_6 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.fast
@@ -1270,7 +1270,7 @@ sp_FLTE_tech_naval_tier_6 = {
 }
 sp_FLTE_tech_naval_tier_7 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.slow
@@ -1316,7 +1316,7 @@ sp_FLTE_tech_naval_tier_7 = {
 
 sp_FLTE_tech_elec_tier_1 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.easy.slow
@@ -1359,7 +1359,7 @@ sp_FLTE_tech_elec_tier_1 = {
 }
 sp_FLTE_tech_elec_tier_2 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.fast
@@ -1402,7 +1402,7 @@ sp_FLTE_tech_elec_tier_2 = {
 }
 sp_FLTE_tech_elec_tier_3 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.slow
@@ -1445,7 +1445,7 @@ sp_FLTE_tech_elec_tier_3 = {
 }
 sp_FLTE_tech_elec_tier_4 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.fast
@@ -1488,7 +1488,7 @@ sp_FLTE_tech_elec_tier_4 = {
 }
 sp_FLTE_tech_elec_tier_5 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.slow
@@ -1531,7 +1531,7 @@ sp_FLTE_tech_elec_tier_5 = {
 }
 sp_FLTE_tech_elec_tier_6 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.fast
@@ -1574,7 +1574,7 @@ sp_FLTE_tech_elec_tier_6 = {
 }
 sp_FLTE_tech_elec_tier_7 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.slow
@@ -1618,7 +1618,7 @@ sp_FLTE_tech_elec_tier_7 = {
 
 sp_FLTE_tech_spac_tier_1 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.easy.slow
@@ -1661,7 +1661,7 @@ sp_FLTE_tech_spac_tier_1 = {
 }
 sp_FLTE_tech_spac_tier_2 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.fast
@@ -1704,7 +1704,7 @@ sp_FLTE_tech_spac_tier_2 = {
 }
 sp_FLTE_tech_spac_tier_3 = {
 	specialization = specialization_FLTE_engineering
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.slow
@@ -1747,7 +1747,7 @@ sp_FLTE_tech_spac_tier_3 = {
 }
 sp_FLTE_tech_spac_tier_4 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.fast
@@ -1790,7 +1790,7 @@ sp_FLTE_tech_spac_tier_4 = {
 }
 sp_FLTE_tech_spac_tier_5 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.slow
@@ -1833,7 +1833,7 @@ sp_FLTE_tech_spac_tier_5 = {
 }
 sp_FLTE_tech_spac_tier_6 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.fast
@@ -1876,7 +1876,7 @@ sp_FLTE_tech_spac_tier_6 = {
 }
 sp_FLTE_tech_spac_tier_7 = {
     specialization = specialization_FLTE_engineering
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.slow

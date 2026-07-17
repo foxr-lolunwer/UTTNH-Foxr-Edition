@@ -1,40 +1,35 @@
 technologies = {
-	@main = 0
-	@small_branch_right_1 = 2
-	@small_branch_right_2 = 4
-	@small_branch_right_3 = 6
-	@small_branch_right_4 = 8
-	@small_branch_right_5 = 10
-	@small_branch_right_6 = 12
-	@small_branch_right_7 = 14
-	@small_branch_right_8 = 17
-	@small_branch_right_9 = 19
-	@small_branch_left_1 = -2
-	@small_branch_left_2 = -4
-	@excavation_branch = 21
-	@excavation_branch_right_1 = 23
-	@excavation_branch_right_2 = 25
-	@excavation_branch_right_3 = 27
-	@excavation_branch_right_4 = 29
-	@excavation_branch_right_5 = 31
-	@excavation_branch_right_6 = 33
-	@excavation_branch_right_7 = 35
+	@dispersed_industry_branch = -4
+	@concentrated_industry_branch = -2
+	@construction_branch = 0 # main
 
-	@Tier1_1 = 0
-	@Tier1_2 = 2
-	@Tier1_3 = 4
-	@Tier2_1 = 7
-	@Tier2_2 = 9
-	@Tier2_3 = 11
-	@Tier3_1 = 14
-	@Tier3_2 = 16
-	@Tier3_3 = 18
-	@Tier4_1 = 21
-	@Tier4_2 = 23
-	@Tier4_3 = 25
-	@Tier5_1 = 28
-	@Tier5_2 = 30
-	@Tier5_3 = 32
+	@construction_supply_node_branch = 2
+	@construction_factory_branch = 4
+	@construction_bunker_branch = 6
+	@construction_naval_base_branch = 8
+	@construction_air_base_branch = 10
+	@construction_facility_branch = 12
+	@construction_nuclear_branch = 14
+
+	@fuel_refining_branch = 17
+	@coal_energy_branch = 19
+	
+	@excavation_branch = 21
+	@synth_oil_branch = 23
+	@steel_branch = 25
+	@aluminium_branch = 27
+	@tungsten_branch = 29
+	@chromium_branch = 31
+	@rubber_branch = 33
+	@coal_branch = 35
+
+	@Tier1_1 = 0 @Tier1_2 = 2
+	@Tier2_1 = 4 @Tier2_2 = 6
+	@Tier3_1 = 8 @Tier3_2 = 10
+	@Tier4_1 = 12 @Tier4_2 = 14
+	@Tier5_1 = 16 @Tier5_2 = 18
+	@Tier6_1 = 20 @Tier6_2 = 22
+	@Tier7_1 = 24 @Tier7_2 = 26
 
 	capacity_industrial_construction = {
 		enable_building = { building = infrastructure level = 5 }
@@ -53,7 +48,7 @@ technologies = {
 		path = { leads_to_tech = excavation_1 research_cost_coeff = 1 }
 		research_cost = 0.2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier1_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_branch y = @Tier1_1 } }
 		dependencies = { FLTE_tech_tier_infr_1 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -71,13 +66,13 @@ technologies = {
 		enable_building = { building = industrial_complex level = 8 }
 		enable_building = { building = arms_factory level = 8 }
 		enable_building = { building = dockyard level = 2 }
-		cic_construction_boost = 0.5
+		cic_construction_boost = 0.1
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.2
 		path = { leads_to_tech = concentrated_industry_2 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier1_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @concentrated_industry_branch y = @Tier1_2 } }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = concentrated_industry } }
@@ -93,13 +88,13 @@ technologies = {
 		enable_building = { building = industrial_complex level = 10 }
 		enable_building = { building = arms_factory level = 10 }
 		enable_building = { building = dockyard level = 3 }
-		cic_construction_boost = 0.5
+		cic_construction_boost = 0.1
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.2
 		path = { leads_to_tech = concentrated_industry_3 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier2_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @concentrated_industry_branch y = @Tier2_1 } }
 		dependencies = { FLTE_tech_tier_infr_2 = 1 } 
 		on_research_complete = {
 			hidden_effect = {
@@ -116,13 +111,13 @@ technologies = {
 		enable_building = { building = industrial_complex level = 12 }
 		enable_building = { building = arms_factory level = 12 }
 		enable_building = { building = dockyard level = 4 }
-		cic_construction_boost = 0.5
+		cic_construction_boost = 0.1
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.2
 		path = { leads_to_tech = concentrated_industry_4 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier2_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @concentrated_industry_branch y = @Tier2_2 } }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = concentrated_industry3 } }
@@ -138,13 +133,13 @@ technologies = {
 		enable_building = { building = industrial_complex level = 15 }
 		enable_building = { building = arms_factory level = 15 }
 		enable_building = { building = dockyard level = 5 }
-		cic_construction_boost = 0.5
+		cic_construction_boost = 0.1
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.2
 		path = { leads_to_tech = concentrated_industry_5 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier3_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @concentrated_industry_branch y = @Tier3_1 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -161,13 +156,13 @@ technologies = {
 		enable_building = { building = industrial_complex level = 20 }
 		enable_building = { building = arms_factory level = 20 }
 		enable_building = { building = dockyard level = 6 }
-		cic_construction_boost = 0.5
+		cic_construction_boost = 0.1
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.2
 		path = { leads_to_tech = concentrated_industry_6 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier3_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @concentrated_industry_branch y = @Tier3_2 } }
 		dependencies = { FLTE_tech_tier_infr_1 = 3 }
 		on_research_complete = {
 			hidden_effect = {
@@ -184,13 +179,13 @@ technologies = {
 		enable_building = { building = industrial_complex level = 25 }
 		enable_building = { building = arms_factory level = 25 }
 		enable_building = { building = dockyard level = 7 }
-		cic_construction_boost = 0.5
+		cic_construction_boost = 0.1
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.2
 		path = { leads_to_tech = concentrated_industry_7 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier4_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @concentrated_industry_branch y = @Tier4_1 } }
 		dependencies = { FLTE_tech_tier_infr_1 = 4 }
 		categories = { industry concentrated_industry_category
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
@@ -200,13 +195,13 @@ technologies = {
 		enable_building = { building = industrial_complex level = 30 }
 		enable_building = { building = arms_factory level = 30 }
 		enable_building = { building = dockyard level = 8 }
-		cic_construction_boost = 0.5
+		cic_construction_boost = 0.1
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.2
 		path = { leads_to_tech = concentrated_industry_8 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier4_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @concentrated_industry_branch y = @Tier4_2 } }
 		dependencies = { FLTE_tech_tier_infr_1 = 4 }
 		categories = { industry concentrated_industry_category
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
@@ -216,13 +211,13 @@ technologies = {
 		enable_building = { building = industrial_complex level = 40 }
 		enable_building = { building = arms_factory level = 40 }
 		enable_building = { building = dockyard level = 9 }
-		cic_construction_boost = 0.5
+		cic_construction_boost = 0.1
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.2
 		path = { leads_to_tech = concentrated_industry_9 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier5_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @concentrated_industry_branch y = @Tier5_1 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry concentrated_industry_category
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
@@ -232,12 +227,64 @@ technologies = {
 		enable_building = { building = industrial_complex level = 50 }
 		enable_building = { building = arms_factory level = 50 }
 		enable_building = { building = dockyard level = 10 }
-		cic_construction_boost = 0.5
+		cic_construction_boost = 0.1
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.2
+		path = { leads_to_tech = concentrated_industry_10 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @concentrated_industry_branch y = @Tier5_2 } }
+		categories = { industry concentrated_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	concentrated_industry_10 = {
+		cic_construction_boost = 0.1
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.2
+		path = { leads_to_tech = concentrated_industry_11 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @concentrated_industry_branch y = @Tier6_1 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry concentrated_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	concentrated_industry_11 = {
+		cic_construction_boost = 0.1
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.2
+		path = { leads_to_tech = concentrated_industry_12 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @concentrated_industry_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry concentrated_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	concentrated_industry_12 = {
+		cic_construction_boost = 0.1
+		industrial_capacity_factory = 0.1
+		industrial_capacity_dockyard = 0.2
+		path = { leads_to_tech = concentrated_industry_13 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @concentrated_industry_branch y = @Tier7_1 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry concentrated_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	concentrated_industry_13 = {
+		cic_construction_boost = 0.1
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.2
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_1 y = @Tier5_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @concentrated_industry_branch y = @Tier7_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry concentrated_industry_category
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
 		ai_will_do = { factor = 1 }
@@ -249,7 +296,7 @@ technologies = {
 		path = { leads_to_tech = dispersed_industry_2 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier1_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @dispersed_industry_branch y = @Tier1_2 } }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = dispersed_industry } }
@@ -268,7 +315,7 @@ technologies = {
 		path = { leads_to_tech = dispersed_industry_3 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier2_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @dispersed_industry_branch y = @Tier2_1 } }
 		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -288,7 +335,7 @@ technologies = {
 		path = { leads_to_tech = dispersed_industry_4 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier2_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @dispersed_industry_branch y = @Tier2_2 } }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = dispersed_industry3 } }
@@ -307,7 +354,7 @@ technologies = {
 		path = { leads_to_tech = dispersed_industry_5 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier3_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @dispersed_industry_branch y = @Tier3_1 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -327,7 +374,7 @@ technologies = {
 		path = { leads_to_tech = dispersed_industry_6 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier3_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @dispersed_industry_branch y = @Tier3_2 } }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = dispersed_industry5 } }
@@ -346,7 +393,7 @@ technologies = {
 		path = { leads_to_tech = dispersed_industry_7 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier4_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @dispersed_industry_branch y = @Tier4_1 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		categories = { industry dispersed_industry_category
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
@@ -359,7 +406,7 @@ technologies = {
 		path = { leads_to_tech = dispersed_industry_8 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier4_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @dispersed_industry_branch y = @Tier4_2 } }
 		categories = { industry dispersed_industry_category
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
 		ai_will_do = { factor = 1 }
@@ -371,7 +418,7 @@ technologies = {
 		path = { leads_to_tech = dispersed_industry_9 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier5_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @dispersed_industry_branch y = @Tier5_1 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry dispersed_industry_category
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
@@ -381,9 +428,57 @@ technologies = {
 		industry_air_damage_factor = -0.1
 		production_factory_efficiency_gain_factor = 0.1
 		production_factory_max_efficiency_factor = -0.05
+		path = { leads_to_tech = dispersed_industry_10 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_left_2 y = @Tier5_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @dispersed_industry_branch y = @Tier5_2 } }
+		categories = { industry dispersed_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	dispersed_industry_10 = {
+		industry_air_damage_factor = -0.1
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = -0.05
+		path = { leads_to_tech = dispersed_industry_11 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @dispersed_industry_branch y = @Tier6_1 } }
+		categories = { industry dispersed_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	dispersed_industry_11 = {
+		industry_air_damage_factor = -0.1
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = -0.05
+		path = { leads_to_tech = dispersed_industry_12 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @dispersed_industry_branch y = @Tier6_2 } }
+		categories = { industry dispersed_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	dispersed_industry_12 = {
+		industry_air_damage_factor = -0.1
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = -0.05
+		path = { leads_to_tech = dispersed_industry_13 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @dispersed_industry_branch y = @Tier7_1 } }
+		categories = { industry dispersed_industry_category
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	dispersed_industry_13 = {
+		industry_air_damage_factor = -0.1
+		production_factory_efficiency_gain_factor = 0.1
+		production_factory_max_efficiency_factor = -0.05
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @dispersed_industry_branch y = @Tier7_2 } }
 		categories = { industry dispersed_industry_category
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
 		ai_will_do = { factor = 1 }
@@ -395,7 +490,7 @@ technologies = {
 		path = { leads_to_tech = construction_2 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier1_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_branch y = @Tier1_2 } }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = construction1 } }
@@ -419,7 +514,7 @@ technologies = {
 		path = { leads_to_tech = build_tech_facility_1 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier2_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_branch y = @Tier2_1 } }
 		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -438,7 +533,7 @@ technologies = {
 		path = { leads_to_tech = construction_4 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier2_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_branch y = @Tier2_2 } }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = construction3 } }
@@ -462,7 +557,7 @@ technologies = {
 		path = { leads_to_tech = build_tech_facility_2 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier3_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_branch y = @Tier3_1 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -481,7 +576,7 @@ technologies = {
 		path = { leads_to_tech = construction_6 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier3_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_branch y = @Tier3_2 } }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = construction5 } }
@@ -506,7 +601,7 @@ technologies = {
 		path = { leads_to_tech = build_tech_nuclear_1 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier4_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_branch y = @Tier4_1 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		categories = { industry construction_tech
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
@@ -518,7 +613,7 @@ technologies = {
 		path = { leads_to_tech = construction_8 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier4_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_branch y = @Tier4_2 } }
 		categories = { industry construction_tech
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
 		ai_will_do = { factor = 1 }
@@ -536,7 +631,7 @@ technologies = {
 		path = { leads_to_tech = build_tech_nuclear_2 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier5_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_branch y = @Tier5_1 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry construction_tech
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
@@ -545,9 +640,71 @@ technologies = {
 	construction_9 = {
 		production_speed_buildings_factor = 0.15
 		industry_repair_factor = 0.1
+		path = { leads_to_tech = construction_10 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @main y = @Tier5_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_branch y = @Tier5_2 } }
+		categories = { industry construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	construction_10 = {
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+		path = { leads_to_tech = construction_11 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_supply_node_5 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_factory_5 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_bunker_5 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_naval_base_5 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_air_base_5 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_facility_5 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_nuclear_3 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_branch y = @Tier6_1 } }
+		dependencies = { FLTE_tech_tier_infr_6 = 1 }
+		categories = { industry construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	construction_11 = {
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+		path = { leads_to_tech = construction_12 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_infr_6 = 1 }
+		categories = { industry construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	construction_12 = {
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+		path = { leads_to_tech = construction_13 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_supply_node_6 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_factory_6 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_bunker_6 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_naval_base_6 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_air_base_6 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_facility_6 research_cost_coeff = 1 }
+		path = { leads_to_tech = build_tech_nuclear_4 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_branch y = @Tier7_1 } }
+		dependencies = { FLTE_tech_tier_infr_7 = 1 }
+		categories = { industry construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	construction_13 = {
+		production_speed_buildings_factor = 0.1
+		industry_repair_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_branch y = @Tier7_2 } }
+		dependencies = { FLTE_tech_tier_infr_7 = 1 }
 		categories = { industry construction_tech
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
 		ai_will_do = { factor = 1 }
@@ -557,7 +714,7 @@ technologies = {
 		production_speed_rail_way_factor = 0.1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_1 y = @Tier2_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_supply_node_branch y = @Tier2_2 } }
 		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		categories = { industry
 			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
@@ -568,7 +725,7 @@ technologies = {
 		production_speed_rail_way_factor = 0.1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_1 y = @Tier3_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_supply_node_branch y = @Tier3_2 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		categories = { industry
 			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
@@ -579,7 +736,7 @@ technologies = {
 		production_speed_rail_way_factor = 0.1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_1 y = @Tier4_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_supply_node_branch y = @Tier4_2 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		categories = { industry
 			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
@@ -590,7 +747,29 @@ technologies = {
 		production_speed_rail_way_factor = 0.1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_1 y = @Tier5_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_supply_node_branch y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_supply_node_5 = {
+		production_speed_supply_node_factor = 0.15
+		production_speed_rail_way_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_supply_node_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_supply_node_6 = {
+		production_speed_supply_node_factor = 0.15
+		production_speed_rail_way_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_supply_node_branch y = @Tier7_2 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry
 			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
@@ -602,7 +781,7 @@ technologies = {
 		production_speed_dockyard_factor = 0.1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_2 y = @Tier2_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_factory_branch y = @Tier2_2 } }
 		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		categories = { industry
 			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
@@ -614,7 +793,7 @@ technologies = {
 		production_speed_dockyard_factor = 0.1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_2 y = @Tier3_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_factory_branch y = @Tier3_2 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		categories = { industry
 			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
@@ -626,7 +805,7 @@ technologies = {
 		production_speed_dockyard_factor = 0.1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_2 y = @Tier4_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_factory_branch y = @Tier4_2 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		categories = { industry
 			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
@@ -638,7 +817,31 @@ technologies = {
 		production_speed_dockyard_factor = 0.1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_2 y = @Tier5_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_factory_branch y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_factory_5 = {
+		production_speed_arms_factory_factor = 0.1
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_dockyard_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_factory_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_factory_6 = {
+		production_speed_arms_factory_factor = 0.1
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_dockyard_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_factory_branch y = @Tier7_2 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry
 			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
@@ -652,7 +855,7 @@ technologies = {
 		coastal_bunker_max_level_terrain_limit = 1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_3 y = @Tier2_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_bunker_branch y = @Tier2_2 } }
 		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -673,7 +876,7 @@ technologies = {
 		coastal_bunker_max_level_terrain_limit = 1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_3 y = @Tier3_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_bunker_branch y = @Tier3_2 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -697,7 +900,7 @@ technologies = {
 		coastal_bunker_max_level_terrain_limit = 1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_3 y = @Tier4_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_bunker_branch y = @Tier4_2 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -721,7 +924,35 @@ technologies = {
 		coastal_bunker_max_level_terrain_limit = 1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_3 y = @Tier5_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_bunker_branch y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_bunker_5 = {
+		production_speed_bunker_factor = 0.1
+		production_speed_coastal_bunker_factor = 0.1
+		production_speed_anti_air_building_factor = 0.1
+		bunker_max_level_terrain_limit = 1
+		coastal_bunker_max_level_terrain_limit = 1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_bunker_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_bunker_6 = {
+		production_speed_bunker_factor = 0.1
+		production_speed_coastal_bunker_factor = 0.1
+		production_speed_anti_air_building_factor = 0.1
+		bunker_max_level_terrain_limit = 1
+		coastal_bunker_max_level_terrain_limit = 1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_bunker_branch y = @Tier7_2 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry
 			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
@@ -735,7 +966,7 @@ technologies = {
 		naval_base_max_level_terrain_limit = 1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_4 y = @Tier2_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_naval_base_branch y = @Tier2_2 } }
 		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		categories = { industry
 			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
@@ -749,7 +980,7 @@ technologies = {
 		naval_base_max_level_terrain_limit = 1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_4 y = @Tier3_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_naval_base_branch y = @Tier3_2 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		categories = { industry
 			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
@@ -763,7 +994,7 @@ technologies = {
 		naval_base_max_level_terrain_limit = 1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_4 y = @Tier4_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_naval_base_branch y = @Tier4_2 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		categories = { industry
 			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
@@ -777,10 +1008,36 @@ technologies = {
 		naval_base_max_level_terrain_limit = 1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_4 y = @Tier5_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_naval_base_branch y = @Tier5_2 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry
 			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_naval_base_5 = {
+		production_speed_naval_base_factor = 0.1
+		production_speed_naval_supply_hub_factor = 0.1
+		production_speed_naval_headquarters_factor = 0.1
+		naval_base_max_level_terrain_limit = 1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_naval_base_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_infr_6 = 1 }
+		categories = { industry
+			FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_naval_base_6 = {
+		production_speed_naval_base_factor = 0.1
+		production_speed_naval_supply_hub_factor = 0.1
+		production_speed_naval_headquarters_factor = 0.1
+		naval_base_max_level_terrain_limit = 1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_naval_base_branch y = @Tier7_2 } }
+		dependencies = { FLTE_tech_tier_infr_7 = 1 }
+		categories = { industry
+			FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 	build_tech_air_base_1 = {
@@ -789,7 +1046,7 @@ technologies = {
 		repair_speed_air_base_factor = 0.2
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_5 y = @Tier2_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_air_base_branch y = @Tier2_2 } }
 		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		categories = { industry
 			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
@@ -802,7 +1059,7 @@ technologies = {
 		repair_speed_air_base_factor = 0.2
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_5 y = @Tier3_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_air_base_branch y = @Tier3_2 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		categories = { industry
 			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
@@ -815,7 +1072,7 @@ technologies = {
 		repair_speed_air_base_factor = 0.2
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_5 y = @Tier4_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_air_base_branch y = @Tier4_2 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		categories = { industry
 			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
@@ -828,8 +1085,34 @@ technologies = {
 		repair_speed_air_base_factor = 0.2
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_5 y = @Tier5_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_air_base_branch y = @Tier5_2 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_air_base_5 = {
+		enable_building = { building = air_base level = 20 }
+		production_speed_air_base_factor = 0.1
+		production_speed_radar_station_factor = 0.1
+		repair_speed_air_base_factor = 0.2
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_air_base_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_air_base_6 = {
+		enable_building = { building = air_base level = 20 }
+		production_speed_air_base_factor = 0.1
+		production_speed_radar_station_factor = 0.1
+		repair_speed_air_base_factor = 0.2
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_air_base_branch y = @Tier7_2 } }
+		dependencies = { FLTE_tech_tier_infr_7 = 1 }
 		categories = { industry
 			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
 		ai_will_do = { factor = 1 }
@@ -843,7 +1126,7 @@ technologies = {
 		production_speed_nuclear_facility_factor = 0.1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_6 y = @Tier2_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_facility_branch y = @Tier2_2 } }
 		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		categories = { industry
 			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
@@ -858,7 +1141,7 @@ technologies = {
 		production_speed_nuclear_facility_factor = 0.1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_6 y = @Tier3_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_facility_branch y = @Tier3_2 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		categories = { industry
 			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
@@ -873,7 +1156,7 @@ technologies = {
 		production_speed_nuclear_facility_factor = 0.1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_6 y = @Tier4_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_facility_branch y = @Tier4_2 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		categories = { industry
 			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
@@ -888,7 +1171,37 @@ technologies = {
 		production_speed_nuclear_facility_factor = 0.1
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_6 y = @Tier5_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_facility_branch y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_facility_5 = {
+		special_project_facility_supply_consumption_factor = 0.05
+		special_project_speed_factor = 0.1
+		production_speed_land_facility_factor = 0.1
+		production_speed_naval_facility_factor = 0.1
+		production_speed_air_facility_factor = 0.1
+		production_speed_nuclear_facility_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_facility_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_facility_6 = {
+		special_project_facility_supply_consumption_factor = 0.05
+		special_project_speed_factor = 0.1
+		production_speed_land_facility_factor = 0.1
+		production_speed_naval_facility_factor = 0.1
+		production_speed_air_facility_factor = 0.1
+		production_speed_nuclear_facility_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_facility_branch y = @Tier7_2 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry
 			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
@@ -902,7 +1215,7 @@ technologies = {
 		production_speed_commercial_nuclear_reactor_factor = 0.2
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_7 y = @Tier4_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_nuclear_branch y = @Tier4_2 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		categories = { industry
 			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
@@ -916,7 +1229,35 @@ technologies = {
 		production_speed_commercial_nuclear_reactor_factor = 0.2
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_7 y = @Tier5_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @construction_nuclear_branch y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_nuclear_3 = {
+		sp_nuclear_bomb_speed_factor = 0.15
+		sp_thermo_nuclear_bomb_speed_factor = 0.15
+		production_speed_nuclear_reactor_factor = 0.2
+		production_speed_nuclear_reactor_heavy_water_factor = 0.2
+		production_speed_commercial_nuclear_reactor_factor = 0.2
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_nuclear_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	build_tech_nuclear_4 = {
+		sp_nuclear_bomb_speed_factor = 0.15
+		sp_thermo_nuclear_bomb_speed_factor = 0.15
+		production_speed_nuclear_reactor_factor = 0.2
+		production_speed_nuclear_reactor_heavy_water_factor = 0.2
+		production_speed_commercial_nuclear_reactor_factor = 0.2
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @construction_nuclear_branch y = @Tier7_2 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry
 			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
@@ -928,7 +1269,7 @@ technologies = {
 		path = { leads_to_tech = fuel_refining_2 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_8 y = @Tier2_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @fuel_refining_branch y = @Tier2_1 } }
 		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -946,7 +1287,7 @@ technologies = {
 		path = { leads_to_tech = fuel_refining_3 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_8 y = @Tier3_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @fuel_refining_branch y = @Tier3_1 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -964,7 +1305,7 @@ technologies = {
 		path = { leads_to_tech = fuel_refining_4 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_8 y = @Tier4_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @fuel_refining_branch y = @Tier4_1 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -979,22 +1320,48 @@ technologies = {
 	}
 	fuel_refining_4 = {
 		fuel_gain_factor = 0.3
+		path = { leads_to_tech = fuel_refining_5 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_8 y = @Tier5_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @fuel_refining_branch y = @Tier5_1 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = fuel_refining4 } }
 					set_technology = { fuel_refining4 = 1 popup = no }
 				}
+			}
+		}
+		categories = { industry synth_resources cat_synth_oil
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	fuel_refining_5 = {
+		fuel_gain_factor = 0.3
+		path = { leads_to_tech = fuel_refining_6 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @fuel_refining_branch y = @Tier6_1 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		on_research_complete = {
+			hidden_effect = {
 				if = { limit = { NOT = { has_tech = fuel_refining5 } }
 					set_technology = { fuel_refining5 = 1 popup = no }
 				}
 			}
 		}
 		categories = { industry synth_resources cat_synth_oil
-			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+			FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
+		ai_will_do = { factor = 1 }
+	}
+	fuel_refining_6 = {
+		fuel_gain_factor = 0.3
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @fuel_refining_branch y = @Tier7_1 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry synth_resources cat_synth_oil
+			FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 
@@ -1003,7 +1370,7 @@ technologies = {
 		path = { leads_to_tech = coal_energy_2 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_9 y = @Tier2_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @coal_energy_branch y = @Tier2_1 } }
 		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -1021,7 +1388,7 @@ technologies = {
 		path = { leads_to_tech = coal_energy_3 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_9 y = @Tier3_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @coal_energy_branch y = @Tier3_1 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -1039,7 +1406,7 @@ technologies = {
 		path = { leads_to_tech = coal_energy_4 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_9 y = @Tier4_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @coal_energy_branch y = @Tier4_1 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		categories = { industry synth_resources cat_synth_oil
 			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
@@ -1047,12 +1414,34 @@ technologies = {
 	}
 	coal_energy_4 ={
 		energy_gain_factor = 0.1
+		path = { leads_to_tech = coal_energy_5 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @small_branch_right_9 y = @Tier5_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @coal_energy_branch y = @Tier5_1 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry synth_resources cat_synth_oil
 			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	coal_energy_5 ={
+		energy_gain_factor = 0.1
+		path = { leads_to_tech = coal_energy_6 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @coal_energy_branch y = @Tier6_1 } }
+		dependencies = { FLTE_tech_tier_infr_6 = 1 }
+		categories = { industry synth_resources cat_synth_oil
+			FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
+		ai_will_do = { factor = 1 }
+	}
+	coal_energy_6 ={
+		energy_gain_factor = 0.1
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @coal_energy_branch y = @Tier7_1 } }
+		dependencies = { FLTE_tech_tier_infr_7 = 1 }
+		categories = { industry synth_resources cat_synth_oil
+			FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 
@@ -1061,7 +1450,7 @@ technologies = {
 		path = { leads_to_tech = excavation_2 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier1_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier1_2 } }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = excavation1 } }
@@ -1103,7 +1492,7 @@ technologies = {
 		path = { leads_to_tech = excavation_4 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier2_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier2_2 } }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = excavation3 } }
@@ -1138,7 +1527,7 @@ technologies = {
 		path = { leads_to_tech = excavation_6 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier3_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier3_2 } }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = excavation5 } }
@@ -1166,7 +1555,7 @@ technologies = {
 		path = { leads_to_tech = excavation_8 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier4_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier4_2 } }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
 		ai_will_do = { factor = 1 }
@@ -1184,9 +1573,49 @@ technologies = {
 	}
 	excavation_9 = {
 		local_resources_factor = 0.10
+		path = { leads_to_tech = excavation_10 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier5_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier5_2 } }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	excavation_10 = {
+		local_resources_factor = 0.10
+		path = { leads_to_tech = excavation_11 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier6_1 } }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	excavation_11 = {
+		local_resources_factor = 0.10
+		path = { leads_to_tech = excavation_12 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier6_2 } }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	excavation_12 = {
+		local_resources_factor = 0.10
+		path = { leads_to_tech = excavation_13 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier7_1 } }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
+		ai_will_do = { factor = 1 }
+	}
+	excavation_13 = {
+		local_resources_factor = 0.10
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @excavation_branch y = @Tier7_2 } }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
 		ai_will_do = { factor = 1 }
@@ -1197,15 +1626,12 @@ technologies = {
 		path = { leads_to_tech = synth_oil_2 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_1 y = @Tier3_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @synth_oil_branch y = @Tier3_2 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = synth_oil_experiments } }
 					set_technology = { synth_oil_experiments = 1 popup = no }
-				}
-				if = { limit = { NOT = { has_tech = oil_processing } }
-					set_technology = { oil_processing = 1 popup = no }
 				}
 			}
 		}
@@ -1221,12 +1647,12 @@ technologies = {
 		path = { leads_to_tech = synth_oil_3 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_1 y = @Tier4_1 } }
+		folder = { name = FLTE_infr_folder position = { x = @synth_oil_branch y = @Tier4_1 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		on_research_complete = {
 			hidden_effect = {
-				if = { limit = { NOT = { has_tech = improved_oil_processing } }
-					set_technology = { improved_oil_processing = 1 popup = no }
+				if = { limit = { NOT = { has_tech = oil_processing } }
+					set_technology = { oil_processing = 1 popup = no }
 				}
 			}
 		}
@@ -1240,7 +1666,26 @@ technologies = {
 		path = { leads_to_tech = synth_oil_4 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_1 y = @Tier4_3 } }
+		folder = { name = FLTE_infr_folder position = { x = @synth_oil_branch y = @Tier4_2 } }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = improved_oil_processing } }
+					set_technology = { improved_oil_processing = 1 popup = no }
+				}
+			}
+		}
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	synth_oil_4 = {
+		enable_building = { building = synthetic_refinery level = 10 }
+		fuel_gain_factor_from_states = 0.5
+		path = { leads_to_tech = synth_oil_5 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @synth_oil_branch y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		on_research_complete = {
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = advanced_oil_processing } }
@@ -1252,12 +1697,12 @@ technologies = {
 			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
 		ai_will_do = { factor = 1 }
 	}
-	synth_oil_4 = {
-		enable_building = { building = synthetic_refinery level = 10 }
+	synth_oil_5 = {
 		fuel_gain_factor_from_states = 0.5
+		path = { leads_to_tech = synth_oil_6 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_1 y = @Tier5_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @synth_oil_branch y = @Tier6_2 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -1267,7 +1712,17 @@ technologies = {
 			}
 		}
 		categories = { industry excavation_tech construction_tech
-			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+			FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
+		ai_will_do = { factor = 1 }
+	}
+	synth_oil_6 = {
+		fuel_gain_factor_from_states = 0.5
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @synth_oil_branch y = @Tier7_2 } }
+		dependencies = { FLTE_tech_tier_infr_5 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 	resource_expansion_steel_1 = {
@@ -1275,7 +1730,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_steel_2 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_2 y = @Tier2_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @steel_branch y = @Tier2_2 } }
 		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
@@ -1289,7 +1744,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_steel_3 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_2 y = @Tier3_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @steel_branch y = @Tier3_2 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
@@ -1303,7 +1758,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_steel_4 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_2 y = @Tier4_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @steel_branch y = @Tier4_2 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
@@ -1314,12 +1769,38 @@ technologies = {
 		on_research_complete = {
 			modify_building_resources = { building = FLTE_resource_expansion_steel resource = steel amount = 2 } }
 		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_steel_5 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_2 y = @Tier5_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @steel_branch y = @Tier5_2 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_steel_5 = {
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_steel resource = steel amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_steel_6 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @steel_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_infr_6 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_steel_6 = {
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_steel resource = steel amount = 2 } }
+		show_effect_as_desc = yes
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @steel_branch y = @Tier7_2 } }
+		dependencies = { FLTE_tech_tier_infr_7 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 	resource_expansion_aluminium_1 = {
@@ -1327,7 +1808,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_aluminium_2 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_3 y = @Tier2_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @aluminium_branch y = @Tier2_2 } }
 		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
@@ -1341,7 +1822,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_aluminium_3 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_3 y = @Tier3_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @aluminium_branch y = @Tier3_2 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
@@ -1355,7 +1836,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_aluminium_4 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_3 y = @Tier4_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @aluminium_branch y = @Tier4_2 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
@@ -1366,12 +1847,38 @@ technologies = {
 		on_research_complete = {
 			modify_building_resources = { building = FLTE_resource_expansion_aluminium resource = aluminium amount = 2 } }
 		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_aluminium_5 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_3 y = @Tier5_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @aluminium_branch y = @Tier5_2 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_aluminium_5 = {
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_aluminium resource = aluminium amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_aluminium_6 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @aluminium_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_infr_6 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_aluminium_6 = {
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_aluminium resource = aluminium amount = 2 } }
+		show_effect_as_desc = yes
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @aluminium_branch y = @Tier7_2 } }
+		dependencies = { FLTE_tech_tier_infr_7 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 	resource_expansion_tungsten_1 = {
@@ -1379,7 +1886,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_tungsten_2 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_4 y = @Tier2_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @tungsten_branch y = @Tier2_2 } }
 		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
@@ -1393,7 +1900,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_tungsten_3 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_4 y = @Tier3_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @tungsten_branch y = @Tier3_2 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
@@ -1407,7 +1914,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_tungsten_4 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_4 y = @Tier4_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @tungsten_branch y = @Tier4_2 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
@@ -1418,12 +1925,38 @@ technologies = {
 		on_research_complete = {
 			modify_building_resources = { building = FLTE_resource_expansion_tungsten resource = tungsten amount = 2 } }
 		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_tungsten_5 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_4 y = @Tier5_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @tungsten_branch y = @Tier5_2 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_tungsten_5 = {
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_tungsten resource = tungsten amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_tungsten_6 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @tungsten_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_infr_6 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_tungsten_6 = {
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_tungsten resource = tungsten amount = 2 } }
+		show_effect_as_desc = yes
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @tungsten_branch y = @Tier7_2 } }
+		dependencies = { FLTE_tech_tier_infr_7 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 	resource_expansion_chromium_1 = {
@@ -1431,7 +1964,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_chromium_2 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_5 y = @Tier2_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @chromium_branch y = @Tier2_2 } }
 		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
@@ -1445,7 +1978,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_chromium_3 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_5 y = @Tier3_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @chromium_branch y = @Tier3_2 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
@@ -1459,7 +1992,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_chromium_4 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_5 y = @Tier4_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @chromium_branch y = @Tier4_2 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
@@ -1470,12 +2003,38 @@ technologies = {
 		on_research_complete = {
 			modify_building_resources = { building = FLTE_resource_expansion_chromium resource = chromium amount = 2 } }
 		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_chromium_5 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_5 y = @Tier5_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @chromium_branch y = @Tier5_2 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_chromium_5 = {
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_chromium resource = chromium amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_chromium_6 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @chromium_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_infr_6 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_chromium_6 = {
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_chromium resource = chromium amount = 2 } }
+		show_effect_as_desc = yes
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @chromium_branch y = @Tier7_2 } }
+		dependencies = { FLTE_tech_tier_infr_7 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 	resource_expansion_rubber_1 = {
@@ -1483,7 +2042,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_rubber_2 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_6 y = @Tier2_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @rubber_branch y = @Tier2_2 } }
 		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -1504,7 +2063,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_rubber_3 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_6 y = @Tier3_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @rubber_branch y = @Tier3_2 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -1525,7 +2084,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_rubber_4 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_6 y = @Tier4_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @rubber_branch y = @Tier4_2 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -1543,9 +2102,10 @@ technologies = {
 		on_research_complete = {
 			modify_building_resources = { building = FLTE_resource_expansion_rubber resource = rubber amount = 2 } }
 		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_rubber_5 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_6 y = @Tier5_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @rubber_branch y = @Tier5_2 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		on_research_complete = {
 			hidden_effect = {
@@ -1558,6 +2118,31 @@ technologies = {
 			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
 		ai_will_do = { factor = 1 }
 	}
+	resource_expansion_rubber_5 = {
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_rubber resource = rubber amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_rubber_6 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @rubber_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_infr_6 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_rubber_6 = {
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_rubber resource = rubber amount = 2 } }
+		show_effect_as_desc = yes
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @rubber_branch y = @Tier7_2 } }
+		dependencies = { FLTE_tech_tier_infr_7 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
+		ai_will_do = { factor = 1 }
+	}
 	resource_expansion_coal_1 = {
 		# allow_branch = {
 		# 	# TODO 添加特殊规则决定是否启用
@@ -1566,7 +2151,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_coal_2 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_7 y = @Tier2_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @coal_branch y = @Tier2_2 } }
 		dependencies = { FLTE_tech_tier_infr_2 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
@@ -1580,7 +2165,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_coal_3 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_7 y = @Tier3_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @coal_branch y = @Tier3_2 } }
 		dependencies = { FLTE_tech_tier_infr_3 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
@@ -1594,7 +2179,7 @@ technologies = {
 		path = { leads_to_tech = resource_expansion_coal_4 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_7 y = @Tier4_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @coal_branch y = @Tier4_2 } }
 		dependencies = { FLTE_tech_tier_infr_4 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
@@ -1605,12 +2190,38 @@ technologies = {
 		on_research_complete = {
 			modify_building_resources = { building = FLTE_resource_expansion_coal resource = coal amount = 2 } }
 		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_coal_5 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1936
-		folder = { name = FLTE_infr_folder position = { x = @excavation_branch_right_7 y = @Tier5_2 } }
+		folder = { name = FLTE_infr_folder position = { x = @coal_branch y = @Tier5_2 } }
 		dependencies = { FLTE_tech_tier_infr_5 = 1 }
 		categories = { industry excavation_tech construction_tech
 			FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_coal_5 = {
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_coal resource = coal amount = 2 } }
+		show_effect_as_desc = yes
+		path = { leads_to_tech = resource_expansion_coal_6 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @coal_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_infr_6 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
+		ai_will_do = { factor = 1 }
+	}
+	resource_expansion_coal_6 = {
+		on_research_complete = {
+			modify_building_resources = { building = FLTE_resource_expansion_coal resource = coal amount = 2 } }
+		show_effect_as_desc = yes
+		research_cost = 2
+		start_year = 1936
+		folder = { name = FLTE_infr_folder position = { x = @coal_branch y = @Tier7_2 } }
+		dependencies = { FLTE_tech_tier_infr_7 = 1 }
+		categories = { industry excavation_tech construction_tech
+			FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 }

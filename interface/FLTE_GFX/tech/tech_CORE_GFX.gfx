@@ -320,6 +320,10 @@ spriteTypes = {
 	spriteType= { name = "GFX_concentrated_industry_7_medium" texturefile = "gfx/interface/FLTE/tech/general/concentrated_industry7.dds" } # change
 	spriteType= { name = "GFX_concentrated_industry_8_medium" texturefile = "gfx/interface/FLTE/tech/general/concentrated_industry8.dds" } # change
 	spriteType= { name = "GFX_concentrated_industry_9_medium" texturefile = "gfx/interface/FLTE/tech/general/concentrated_industry9.dds" } # change
+	spriteType= { name = "GFX_concentrated_industry_10_medium" texturefile = "gfx/interface/FLTE/tech/general/concentrated_industry10.dds" } # change
+	spriteType= { name = "GFX_concentrated_industry_11_medium" texturefile = "gfx/interface/FLTE/tech/general/concentrated_industry11.dds" } # change
+	spriteType= { name = "GFX_concentrated_industry_12_medium" texturefile = "gfx/interface/FLTE/tech/general/concentrated_industry12.dds" } # change
+	spriteType= { name = "GFX_concentrated_industry_13_medium" texturefile = "gfx/interface/FLTE/tech/general/concentrated_industry13.dds" } # change
 
 	spriteType= { name = "GFX_dispersed_industry_1_medium" texturefile = "gfx/interface/technologies/dispersed_industry.dds" }  # use hoi4
 	spriteType= { name = "GFX_dispersed_industry_2_medium" texturefile = "gfx/interface/technologies/dispersed_industry2.dds" } # use hoi4
@@ -330,6 +334,10 @@ spriteTypes = {
 	spriteType= { name = "GFX_dispersed_industry_7_medium" texturefile = "gfx/interface/FLTE/tech/general/dispersed_industry7.dds" } # change
 	spriteType= { name = "GFX_dispersed_industry_8_medium" texturefile = "gfx/interface/FLTE/tech/general/dispersed_industry8.dds" } # change
 	spriteType= { name = "GFX_dispersed_industry_9_medium" texturefile = "gfx/interface/FLTE/tech/general/dispersed_industry9.dds" } # change
+	spriteType= { name = "GFX_dispersed_industry_10_medium" texturefile = "gfx/interface/FLTE/tech/general/dispersed_industry10.dds" } # change
+	spriteType= { name = "GFX_dispersed_industry_11_medium" texturefile = "gfx/interface/FLTE/tech/general/dispersed_industry11.dds" } # change
+	spriteType= { name = "GFX_dispersed_industry_12_medium" texturefile = "gfx/interface/FLTE/tech/general/dispersed_industry12.dds" } # change
+	spriteType= { name = "GFX_dispersed_industry_13_medium" texturefile = "gfx/interface/FLTE/tech/general/dispersed_industry13.dds" } # change
 
 	spriteType= { name = "GFX_construction_1_medium" texturefile = "gfx/interface/technologies/basic_construction.dds" }    # use hoi4
 	spriteType= { name = "GFX_construction_2_medium" texturefile = "gfx/interface/technologies/improved_construction.dds" } # use hoi4
@@ -340,49 +348,71 @@ spriteTypes = {
 	spriteType= { name = "GFX_construction_7_medium" texturefile = "gfx/interface/FLTE/tech/general/construction7.dds" }    # change
 	spriteType= { name = "GFX_construction_8_medium" texturefile = "gfx/interface/FLTE/tech/general/construction8.dds" }    # change
 	spriteType= { name = "GFX_construction_9_medium" texturefile = "gfx/interface/FLTE/tech/general/construction9.dds" }    # change
+	spriteType= { name = "GFX_construction_10_medium" texturefile = "gfx/interface/FLTE/tech/general/construction10.dds" }    # change
+	spriteType= { name = "GFX_construction_11_medium" texturefile = "gfx/interface/FLTE/tech/general/construction11.dds" }    # change
+	spriteType= { name = "GFX_construction_12_medium" texturefile = "gfx/interface/FLTE/tech/general/construction12.dds" }    # change
+	spriteType= { name = "GFX_construction_13_medium" texturefile = "gfx/interface/FLTE/tech/general/construction13.dds" }    # change
 
 	spriteType= { name = "GFX_build_tech_supply_node_1_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_1.dds" } # change
 	spriteType= { name = "GFX_build_tech_supply_node_2_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_2.dds" } # change
 	spriteType= { name = "GFX_build_tech_supply_node_3_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_3.dds" } # change
 	spriteType= { name = "GFX_build_tech_supply_node_4_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_4.dds" } # change
+	spriteType= { name = "GFX_build_tech_supply_node_5_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_5.dds" } # change
+	spriteType= { name = "GFX_build_tech_supply_node_6_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_6.dds" } # change
 
 	spriteType= { name = "GFX_build_tech_factory_1_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_1.dds" } # change
 	spriteType= { name = "GFX_build_tech_factory_2_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_2.dds" } # change
 	spriteType= { name = "GFX_build_tech_factory_3_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_3.dds" } # change
 	spriteType= { name = "GFX_build_tech_factory_4_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_4.dds" } # change
+	spriteType= { name = "GFX_build_tech_factory_5_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_5.dds" } # change
+	spriteType= { name = "GFX_build_tech_factory_6_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_6.dds" } # change
 
 	spriteType= { name = "GFX_build_tech_bunker_1_medium" texturefile = "gfx/interface/technologies/fort_1.dds" } # use hoi4
 	spriteType= { name = "GFX_build_tech_bunker_2_medium" texturefile = "gfx/interface/technologies/fort_1.dds" } # use hoi4
 	spriteType= { name = "GFX_build_tech_bunker_3_medium" texturefile = "gfx/interface/technologies/fort_1.dds" } # use hoi4
 	spriteType= { name = "GFX_build_tech_bunker_4_medium" texturefile = "gfx/interface/technologies/fort_1.dds" } # use hoi4
+	spriteType= { name = "GFX_build_tech_bunker_5_medium" texturefile = "gfx/interface/technologies/fort_1.dds" } # use hoi4
+	spriteType= { name = "GFX_build_tech_bunker_6_medium" texturefile = "gfx/interface/technologies/fort_1.dds" } # use hoi4
 
 	spriteType= { name = "GFX_build_tech_naval_base_1_medium" texturefile = "gfx/interface/technologies/coastal_fort_1.dds" } # use hoi4
 	spriteType= { name = "GFX_build_tech_naval_base_2_medium" texturefile = "gfx/interface/technologies/coastal_fort_1.dds" } # use hoi4
 	spriteType= { name = "GFX_build_tech_naval_base_3_medium" texturefile = "gfx/interface/technologies/coastal_fort_1.dds" } # use hoi4
 	spriteType= { name = "GFX_build_tech_naval_base_4_medium" texturefile = "gfx/interface/technologies/coastal_fort_1.dds" } # use hoi4
+	spriteType= { name = "GFX_build_tech_naval_base_5_medium" texturefile = "gfx/interface/technologies/coastal_fort_1.dds" } # use hoi4
+	spriteType= { name = "GFX_build_tech_naval_base_6_medium" texturefile = "gfx/interface/technologies/coastal_fort_1.dds" } # use hoi4
 
 	spriteType= { name = "GFX_build_tech_air_base_1_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_1.dds" } # change
 	spriteType= { name = "GFX_build_tech_air_base_2_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_2.dds" } # change
 	spriteType= { name = "GFX_build_tech_air_base_3_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_3.dds" } # change
 	spriteType= { name = "GFX_build_tech_air_base_4_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_4.dds" } # change
+	spriteType= { name = "GFX_build_tech_air_base_5_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_5.dds" } # change
+	spriteType= { name = "GFX_build_tech_air_base_6_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_6.dds" } # change
 
 	spriteType= { name = "GFX_build_tech_facility_1_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_1.dds" } # change
 	spriteType= { name = "GFX_build_tech_facility_2_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_2.dds" } # change
 	spriteType= { name = "GFX_build_tech_facility_3_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_3.dds" } # change
 	spriteType= { name = "GFX_build_tech_facility_4_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_4.dds" } # change
+	spriteType= { name = "GFX_build_tech_facility_5_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_5.dds" } # change
+	spriteType= { name = "GFX_build_tech_facility_6_medium" texturefile = "gfx/interface/FLTE/tech/general/supplyhub_6.dds" } # change
 
 	spriteType= { name = "GFX_build_tech_nuclear_1_medium" texturefile = "gfx/interface/technologies/atomic_research.dds" } # use hoi4
 	spriteType= { name = "GFX_build_tech_nuclear_2_medium" texturefile = "gfx/interface/technologies/atomic_research.dds" } # use hoi4
+	spriteType= { name = "GFX_build_tech_nuclear_3_medium" texturefile = "gfx/interface/technologies/atomic_research.dds" } # use hoi4
+	spriteType= { name = "GFX_build_tech_nuclear_4_medium" texturefile = "gfx/interface/technologies/atomic_research.dds" } # use hoi4
 
 	spriteType= { name = "GFX_fuel_refining_1_medium" texturefile = "gfx/interface/technologies/fuel_refining1.dds" } # use hoi4
 	spriteType= { name = "GFX_fuel_refining_2_medium" texturefile = "gfx/interface/technologies/fuel_refining2.dds" } # use hoi4
 	spriteType= { name = "GFX_fuel_refining_3_medium" texturefile = "gfx/interface/technologies/fuel_refining3.dds" } # use hoi4
 	spriteType= { name = "GFX_fuel_refining_4_medium" texturefile = "gfx/interface/technologies/fuel_refining4.dds" } # use hoi4
+	spriteType= { name = "GFX_fuel_refining_5_medium" texturefile = "gfx/interface/technologies/fuel_refining5.dds" } # use hoi4
+	spriteType= { name = "GFX_fuel_refining_6_medium" texturefile = "gfx/interface/technologies/fuel_refining5.dds" } # use hoi4
 
 	spriteType= { name = "GFX_coal_energy_1_medium" texturefile = "gfx/interface/technologies/coal_efficiency1.dds" } # use hoi4
 	spriteType= { name = "GFX_coal_energy_2_medium" texturefile = "gfx/interface/technologies/coal_efficiency1.dds" } # use hoi4
 	spriteType= { name = "GFX_coal_energy_3_medium" texturefile = "gfx/interface/technologies/coal_efficiency2.dds" } # use hoi4
 	spriteType= { name = "GFX_coal_energy_4_medium" texturefile = "gfx/interface/technologies/coal_efficiency2.dds" } # use hoi4
+	spriteType= { name = "GFX_coal_energy_5_medium" texturefile = "gfx/interface/technologies/coal_efficiency2.dds" } # use hoi4
+	spriteType= { name = "GFX_coal_energy_6_medium" texturefile = "gfx/interface/technologies/coal_efficiency2.dds" } # use hoi4
 
 	spriteType= { name = "GFX_excavation_1_medium" texturefile = "gfx/interface/technologies/excavation1.dds" } # use hoi4
 	spriteType= { name = "GFX_excavation_2_medium" texturefile = "gfx/interface/technologies/excavation2.dds" } # use hoi4
@@ -393,41 +423,59 @@ spriteTypes = {
 	spriteType= { name = "GFX_excavation_7_medium" texturefile = "gfx/interface/FLTE/tech/general/excavation7.dds" } # change
 	spriteType= { name = "GFX_excavation_8_medium" texturefile = "gfx/interface/FLTE/tech/general/excavation8.dds" } # change
 	spriteType= { name = "GFX_excavation_9_medium" texturefile = "gfx/interface/FLTE/tech/general/excavation9.dds" } # change
+	spriteType= { name = "GFX_excavation_10_medium" texturefile = "gfx/interface/FLTE/tech/general/excavation10.dds" } # change
+	spriteType= { name = "GFX_excavation_11_medium" texturefile = "gfx/interface/FLTE/tech/general/excavation11.dds" } # change
+	spriteType= { name = "GFX_excavation_12_medium" texturefile = "gfx/interface/FLTE/tech/general/excavation12.dds" } # change
+	spriteType= { name = "GFX_excavation_13_medium" texturefile = "gfx/interface/FLTE/tech/general/excavation13.dds" } # change
 
 	spriteType= { name = "GFX_synth_oil_1_medium" texturefile = "gfx/interface/technologies/synth_oil_experiments.dds" } # use hoi4
 	spriteType= { name = "GFX_synth_oil_2_medium" texturefile = "gfx/interface/technologies/synth_oil_experiments.dds" } # use hoi4
 	spriteType= { name = "GFX_synth_oil_3_medium" texturefile = "gfx/interface/technologies/synth_oil_experiments.dds" } # use hoi4
 	spriteType= { name = "GFX_synth_oil_4_medium" texturefile = "gfx/interface/technologies/synth_oil_experiments.dds" } # use hoi4
+	spriteType= { name = "GFX_synth_oil_5_medium" texturefile = "gfx/interface/technologies/synth_oil_experiments.dds" } # use hoi4
+	spriteType= { name = "GFX_synth_oil_6_medium" texturefile = "gfx/interface/technologies/synth_oil_experiments.dds" } # use hoi4
 
-	spriteType= { name = "GFX_resource_expansion_steel_1_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_steel_2_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_steel_3_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_steel_4_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
+	spriteType= { name = "GFX_resource_expansion_steel_1_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_steel_1.dds" }
+	spriteType= { name = "GFX_resource_expansion_steel_2_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_steel_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_steel_3_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_steel_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_steel_4_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_steel_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_steel_5_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_steel_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_steel_6_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_steel_1.dds" } # change
 
-	spriteType= { name = "GFX_resource_expansion_aluminium_1_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_aluminium_2_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_aluminium_3_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_aluminium_4_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
+	spriteType= { name = "GFX_resource_expansion_aluminium_1_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_aluminium_1.dds" }
+	spriteType= { name = "GFX_resource_expansion_aluminium_2_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_aluminium_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_aluminium_3_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_aluminium_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_aluminium_4_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_aluminium_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_aluminium_5_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_aluminium_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_aluminium_6_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_aluminium_1.dds" } # change
 
-	spriteType= { name = "GFX_resource_expansion_tungsten_1_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_tungsten_2_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_tungsten_3_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_tungsten_4_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
+	spriteType= { name = "GFX_resource_expansion_tungsten_1_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_tungsten_1.dds" }
+	spriteType= { name = "GFX_resource_expansion_tungsten_2_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_tungsten_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_tungsten_3_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_tungsten_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_tungsten_4_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_tungsten_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_tungsten_5_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_tungsten_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_tungsten_6_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_tungsten_1.dds" } # change
 
-	spriteType= { name = "GFX_resource_expansion_chromium_1_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_chromium_2_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_chromium_3_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_chromium_4_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
+	spriteType= { name = "GFX_resource_expansion_chromium_1_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_chromium_1.dds" }
+	spriteType= { name = "GFX_resource_expansion_chromium_2_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_chromium_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_chromium_3_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_chromium_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_chromium_4_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_chromium_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_chromium_5_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_chromium_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_chromium_6_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_chromium_1.dds" } # change
 
-	spriteType= { name = "GFX_resource_expansion_rubber_1_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_rubber_2_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_rubber_3_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_rubber_4_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
+	spriteType= { name = "GFX_resource_expansion_rubber_1_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_rubber_1.dds" }
+	spriteType= { name = "GFX_resource_expansion_rubber_2_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_rubber_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_rubber_3_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_rubber_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_rubber_4_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_rubber_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_rubber_5_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_rubber_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_rubber_6_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_rubber_1.dds" } # change
 
-	spriteType= { name = "GFX_resource_expansion_coal_1_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_coal_2_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_coal_3_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
-	spriteType= { name = "GFX_resource_expansion_coal_4_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
+	spriteType= { name = "GFX_resource_expansion_coal_1_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_coal_1.dds" }
+	spriteType= { name = "GFX_resource_expansion_coal_2_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_coal_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_coal_3_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_coal_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_coal_4_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_coal_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_coal_5_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_coal_1.dds" } # change
+	spriteType= { name = "GFX_resource_expansion_coal_6_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_coal_1.dds" } # change
 ## infantry
 	spriteType= { name = "GFX_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/general/infantry_weapons.dds" }
 	spriteType= { name = "GFX_infantry_weapons1_medium" texturefile = "gfx/interface/FLTE/tech/general/infantry_weapons1.dds" }

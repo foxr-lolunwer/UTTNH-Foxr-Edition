@@ -145,25 +145,22 @@ technology_categories = {
 	mio_cat_artillery #Includes Artillery only (no AT, AA or Rocketry)
 
 	# FLTE
-	FLTE_tech_tier_1 FLTE_tech_tier_2 FLTE_tech_tier_3 FLTE_tech_tier_4 FLTE_tech_tier_5
-	FLTE_tech_tier_ordn_1 FLTE_tech_tier_ordn_2 FLTE_tech_tier_ordn_3 FLTE_tech_tier_ordn_4 FLTE_tech_tier_ordn_5
-	FLTE_tech_tier_vehc_1 FLTE_tech_tier_vehc_2 FLTE_tech_tier_vehc_3 FLTE_tech_tier_vehc_4 FLTE_tech_tier_vehc_5
-	FLTE_tech_tier_airf_1 FLTE_tech_tier_airf_2 FLTE_tech_tier_airf_3 FLTE_tech_tier_airf_4 FLTE_tech_tier_airf_5
-	FLTE_tech_tier_naval_1 FLTE_tech_tier_naval_2 FLTE_tech_tier_naval_3 FLTE_tech_tier_naval_4 FLTE_tech_tier_naval_5
-	FLTE_tech_tier_infr_1 FLTE_tech_tier_infr_2 FLTE_tech_tier_infr_3 FLTE_tech_tier_infr_4 FLTE_tech_tier_infr_5
-	FLTE_tech_tier_elec_1 FLTE_tech_tier_elec_2 FLTE_tech_tier_elec_3 FLTE_tech_tier_elec_4 FLTE_tech_tier_elec_5
-	FLTE_tech_tier_spac_1 FLTE_tech_tier_spac_2 FLTE_tech_tier_spac_3 FLTE_tech_tier_spac_4 FLTE_tech_tier_spac_5
+	FLTE_tech_tier_1 FLTE_tech_tier_2 FLTE_tech_tier_3 FLTE_tech_tier_4 FLTE_tech_tier_5 FLTE_tech_tier_6 FLTE_tech_tier_7
+	FLTE_tech_tier_ordn_1 FLTE_tech_tier_ordn_2 FLTE_tech_tier_ordn_3 FLTE_tech_tier_ordn_4 FLTE_tech_tier_ordn_5 FLTE_tech_tier_ordn_6 FLTE_tech_tier_ordn_7
+	FLTE_tech_tier_vehc_1 FLTE_tech_tier_vehc_2 FLTE_tech_tier_vehc_3 FLTE_tech_tier_vehc_4 FLTE_tech_tier_vehc_5 FLTE_tech_tier_vehc_6 FLTE_tech_tier_vehc_7
+	FLTE_tech_tier_airf_1 FLTE_tech_tier_airf_2 FLTE_tech_tier_airf_3 FLTE_tech_tier_airf_4 FLTE_tech_tier_airf_5 FLTE_tech_tier_airf_6 FLTE_tech_tier_airf_7
+	FLTE_tech_tier_naval_1 FLTE_tech_tier_naval_2 FLTE_tech_tier_naval_3 FLTE_tech_tier_naval_4 FLTE_tech_tier_naval_5 FLTE_tech_tier_naval_6 FLTE_tech_tier_naval_7
+	FLTE_tech_tier_infr_1 FLTE_tech_tier_infr_2 FLTE_tech_tier_infr_3 FLTE_tech_tier_infr_4 FLTE_tech_tier_infr_5 FLTE_tech_tier_infr_6 FLTE_tech_tier_infr_7
+	FLTE_tech_tier_elec_1 FLTE_tech_tier_elec_2 FLTE_tech_tier_elec_3 FLTE_tech_tier_elec_4 FLTE_tech_tier_elec_5 FLTE_tech_tier_elec_6 FLTE_tech_tier_elec_7
+	FLTE_tech_tier_spac_1 FLTE_tech_tier_spac_2 FLTE_tech_tier_spac_3 FLTE_tech_tier_spac_4 FLTE_tech_tier_spac_5 FLTE_tech_tier_spac_6 FLTE_tech_tier_spac_7
 }
 
 technology_folders = {
-	FLTE_ordn_folder = {
-		ledger = army
+	FLTE_ordn_folder = { ledger = army
 	}
-	FLTE_support_folder = {
-		ledger = army
+	FLTE_support_folder = { ledger = army
 	}
-	FLTE_vehc_folder = {
-		ledger = army
+	FLTE_vehc_folder = { ledger = army
 	}
 	FLTE_armor_folder = {
 		ledger = army

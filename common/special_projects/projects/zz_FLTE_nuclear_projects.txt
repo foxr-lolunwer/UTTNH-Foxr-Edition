@@ -1954,7 +1954,7 @@ sp_rocket_interceptor = {
 
 sp_FLTE_tech_nuclear_tier_1 = {
 	specialization = specialization_nuclear
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.easy.slow
@@ -1997,7 +1997,7 @@ sp_FLTE_tech_nuclear_tier_1 = {
 }
 sp_FLTE_tech_nuclear_tier_2 = {
 	specialization = specialization_nuclear
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.fast
@@ -2040,7 +2040,7 @@ sp_FLTE_tech_nuclear_tier_2 = {
 }
 sp_FLTE_tech_nuclear_tier_3 = {
 	specialization = specialization_nuclear
-	icon = GFX_sp_nuclear_radar
+	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.slow
@@ -2083,7 +2083,7 @@ sp_FLTE_tech_nuclear_tier_3 = {
 }
 sp_FLTE_tech_nuclear_tier_4 = {
     specialization = specialization_nuclear
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.fast
@@ -2126,7 +2126,7 @@ sp_FLTE_tech_nuclear_tier_4 = {
 }
 sp_FLTE_tech_nuclear_tier_5 = {
     specialization = specialization_nuclear
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.slow
@@ -2169,7 +2169,7 @@ sp_FLTE_tech_nuclear_tier_5 = {
 }
 sp_FLTE_tech_nuclear_tier_6 = {
     specialization = specialization_nuclear
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.fast
@@ -2212,7 +2212,7 @@ sp_FLTE_tech_nuclear_tier_6 = {
 }
 sp_FLTE_tech_nuclear_tier_7 = {
     specialization = specialization_nuclear
-    icon = GFX_sp_nuclear_radar
+    icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.slow

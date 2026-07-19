@@ -239,7 +239,7 @@ spriteTypes = {
 	spriteType= { name = "GFX_radio65_medium" texturefile = "gfx/interface/technologies/radio.dds" } # import hoi4
 	spriteType= { name = "GFX_radio75_medium" texturefile = "gfx/interface/technologies/radio.dds" } # import hoi4
 	spriteType= { name = "GFX_radio90_medium" texturefile = "gfx/interface/technologies/radio.dds" } # import hoi4
-## FLTE_production
+## FLTE_prod
 	spriteType= { name = "GFX_improved_machine_tools_1_medium" texturefile = "gfx/interface/technologies/basic_machine_tools.dds" } # use hoi4
 	spriteType= { name = "GFX_improved_machine_tools_2_medium" texturefile = "gfx/interface/technologies/improved_machine_tools.dds" } # use hoi4
 	spriteType= { name = "GFX_improved_machine_tools_3_medium" texturefile = "gfx/interface/technologies/advanced_machine_tools.dds" } # use hoi4
@@ -250,15 +250,23 @@ spriteTypes = {
 	spriteType= { name = "GFX_improved_machine_tools_8_medium" texturefile = "gfx/interface/FLTE/tech/general/advanced_line_production5.dds" } # change
 	spriteType= { name = "GFX_improved_machine_tools_9_medium" texturefile = "gfx/interface/FLTE/tech/general/advanced_line_production6.dds" } # change
 	spriteType= { name = "GFX_improved_machine_tools_10_medium" texturefile = "gfx/interface/FLTE/tech/general/advanced_line_production7.dds" } # change
+	spriteType= { name = "GFX_improved_machine_tools_11_medium" texturefile = "gfx/interface/FLTE/tech/general/advanced_line_production8.dds" } # change
+	spriteType= { name = "GFX_improved_machine_tools_12_medium" texturefile = "gfx/interface/FLTE/tech/general/advanced_line_production9.dds" } # change
+	spriteType= { name = "GFX_improved_machine_tools_13_medium" texturefile = "gfx/interface/FLTE/tech/general/advanced_line_production10.dds" } # change
+	spriteType= { name = "GFX_improved_machine_tools_14_medium" texturefile = "gfx/interface/FLTE/tech/general/advanced_line_production10.dds" } # change
 
 	spriteType= { name = "GFX_flexible_line_1_medium" texturefile = "gfx/interface/technologies/flexible_line.dds" } # use hoi4
 	spriteType= { name = "GFX_flexible_line_2_medium" texturefile = "gfx/interface/technologies/flexible_line.dds" } # use hoi4
 	spriteType= { name = "GFX_flexible_line_3_medium" texturefile = "gfx/interface/technologies/flexible_line.dds" } # use hoi4
 	spriteType= { name = "GFX_flexible_line_4_medium" texturefile = "gfx/interface/technologies/flexible_line.dds" } # use hoi4
+	spriteType= { name = "GFX_flexible_line_5_medium" texturefile = "gfx/interface/technologies/flexible_line.dds" } # use hoi4
+	spriteType= { name = "GFX_flexible_line_6_medium" texturefile = "gfx/interface/technologies/flexible_line.dds" } # use hoi4
 	spriteType= { name = "GFX_streamlined_line_1_medium" texturefile = "gfx/interface/technologies/streamlined_line.dds" } # use hoi4
 	spriteType= { name = "GFX_streamlined_line_2_medium" texturefile = "gfx/interface/technologies/streamlined_line.dds" } # use hoi4
 	spriteType= { name = "GFX_streamlined_line_3_medium" texturefile = "gfx/interface/technologies/streamlined_line.dds" } # use hoi4
 	spriteType= { name = "GFX_streamlined_line_4_medium" texturefile = "gfx/interface/technologies/streamlined_line.dds" } # use hoi4
+	spriteType= { name = "GFX_streamlined_line_5_medium" texturefile = "gfx/interface/technologies/streamlined_line.dds" } # use hoi4
+	spriteType= { name = "GFX_streamlined_line_6_medium" texturefile = "gfx/interface/technologies/streamlined_line.dds" } # use hoi4
 	
 	spriteType= { name = "GFX_equipment_production_1_medium" texturefile = "gfx/interface/technologies/basic_machine_tools.dds" } # use hoi4
 	spriteType= { name = "GFX_equipment_production_2_medium" texturefile = "gfx/interface/technologies/basic_machine_tools.dds" } # use hoi4
@@ -270,44 +278,64 @@ spriteTypes = {
 	spriteType= { name = "GFX_equipment_production_8_medium" texturefile = "gfx/interface/technologies/basic_machine_tools.dds" } # use hoi4
 	spriteType= { name = "GFX_equipment_production_9_medium" texturefile = "gfx/interface/technologies/basic_machine_tools.dds" } # use hoi4
 	spriteType= { name = "GFX_equipment_production_10_medium" texturefile = "gfx/interface/technologies/basic_machine_tools.dds" } # use hoi4
+	spriteType= { name = "GFX_equipment_production_11_medium" texturefile = "gfx/interface/technologies/basic_machine_tools.dds" } # use hoi4
+	spriteType= { name = "GFX_equipment_production_12_medium" texturefile = "gfx/interface/technologies/basic_machine_tools.dds" } # use hoi4
+	spriteType= { name = "GFX_equipment_production_13_medium" texturefile = "gfx/interface/technologies/basic_machine_tools.dds" } # use hoi4
+	spriteType= { name = "GFX_equipment_production_14_medium" texturefile = "gfx/interface/technologies/basic_machine_tools.dds" } # use hoi4
 
 	spriteType= { name = "GFX_firearms_artillery_production_1_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_firearms_artillery_production_2_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_firearms_artillery_production_3_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_firearms_artillery_production_4_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
+	spriteType= { name = "GFX_firearms_artillery_production_5_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
+	spriteType= { name = "GFX_firearms_artillery_production_6_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 
 	spriteType= { name = "GFX_support_equipment_production_1_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_support_equipment_production_2_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_support_equipment_production_3_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_support_equipment_production_4_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
+	spriteType= { name = "GFX_support_equipment_production_5_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
+	spriteType= { name = "GFX_support_equipment_production_6_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 
 	spriteType= { name = "GFX_car_production_1_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_car_production_2_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_car_production_3_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_car_production_4_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
+	spriteType= { name = "GFX_car_production_5_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
+	spriteType= { name = "GFX_car_production_6_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 
 	spriteType= { name = "GFX_armor_production_1_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_armor_production_2_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_armor_production_3_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_armor_production_4_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
+	spriteType= { name = "GFX_armor_production_5_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
+	spriteType= { name = "GFX_armor_production_6_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 
 	spriteType= { name = "GFX_plane_production_1_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_plane_production_2_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_plane_production_3_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_plane_production_4_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
+	spriteType= { name = "GFX_plane_production_5_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
+	spriteType= { name = "GFX_plane_production_6_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 
 	spriteType= { name = "GFX_small_ship_production_1_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_small_ship_production_2_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_small_ship_production_3_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_small_ship_production_4_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
+	spriteType= { name = "GFX_small_ship_production_5_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
+	spriteType= { name = "GFX_small_ship_production_6_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 
 	spriteType= { name = "GFX_large_ship_production_1_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_large_ship_production_2_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_large_ship_production_3_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_large_ship_production_4_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
+	spriteType= { name = "GFX_large_ship_production_5_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
+	spriteType= { name = "GFX_large_ship_production_6_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 
 	spriteType= { name = "GFX_missile_production_1_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 	spriteType= { name = "GFX_missile_production_2_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
+	spriteType= { name = "GFX_missile_production_3_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
+	spriteType= { name = "GFX_missile_production_4_medium" texturefile = "gfx/interface/technologies/support_weapons.dds" } # use hoi4
 ## FLTE_infr
 	spriteType= { name = "GFX_capacity_industrial_construction_medium" texturefile = "gfx/interface/technologies/concentrated_industry.dds" } # use hoi4
 

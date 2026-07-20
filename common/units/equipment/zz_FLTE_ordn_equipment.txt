@@ -1,6 +1,5 @@
 equipments = {
   # 步兵装备
-	# T1
 	infantry_equipment = { # 步枪/冲锋枪/突击步枪/手榴弹等
 		year = 1936
 		is_archetype = yes
@@ -28,7 +27,7 @@ equipments = {
 		build_cost_ic = 0.4
 		resources = { steel = 1 }
 	}
-	# T2
+	# T1
 	infantry_equipment_0 = { # 低可靠性，便宜，资源需求低
 		year = 1936
 		archetype = infantry_equipment
@@ -52,7 +51,7 @@ equipments = {
 		build_cost_ic = 0.5
 		resources = { steel = 2 }
 	}
-	# T3
+	# T2
 	infantry_equipment_2 = { # 步枪+冲锋枪，全面升级，但资源需求和造价上升
 		year = 1936
 		archetype = infantry_equipment
@@ -69,6 +68,7 @@ equipments = {
 		build_cost_ic = 0.8
 		resources = { steel = 3 }
 	}
+	# T3
 	infantry_equipment_3 = { # 全面升级，性价比较高
 		year = 1936
 		archetype = infantry_equipment
@@ -84,7 +84,7 @@ equipments = {
 		ap_attack = 5
 		build_cost_ic = 0.85
 	}
-	# T4
+	# T4 突击步枪项目
 	infantry_equipment_4 = { # 高属性，造价昂贵
 		year = 1936
 		archetype = infantry_equipment
@@ -92,15 +92,16 @@ equipments = {
 		priority = 10
 		visual_level = 4
 
-		reliability = 0.8
-		defense = 20
-		breakthrough = 1.8
-		soft_attack = 7
+		reliability = 0.65
+		defense = 24
+		breakthrough = 2.5
+		soft_attack = 9
 		hard_attack = 2
-		ap_attack = 6
-		build_cost_ic = 1.2
+		ap_attack = 3
+		build_cost_ic = 1.5
+		resources = { steel = 3 chromium = 1 }
 	}
-	# T5 突击步枪项目
+	# T5
 	infantry_equipment_5 = { # 工程项目，低可靠性，高属性，高突破，造价十分昂贵，需要铬
 		year = 1936
 		archetype = infantry_equipment
@@ -108,14 +109,13 @@ equipments = {
 		priority = 10
 		visual_level = 5
 
-		reliability = 0.65
+		reliability = 0.7
 		defense = 26
 		breakthrough = 3
 		soft_attack = 10
 		hard_attack = 3
 		ap_attack = 4
 		build_cost_ic = 1.8
-		resources = { steel = 3 chromium = 1 }
 	}
 	infantry_equipment_6 = { # 战后全面升级
 		year = 1936

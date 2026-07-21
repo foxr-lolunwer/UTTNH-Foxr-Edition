@@ -6,7 +6,7 @@ technologies = {
 	@armored_car_branch = 12
 
     @train_branch = 16
-	@armor_train_branch = 18
+	@armor_train_branch = 20
 	@supplyhub_branch = 18
 
 	@Tier1_1 = 0 @Tier1_2 = 2
@@ -93,8 +93,8 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = motorised_infantry2 }
         path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry }
-        folder = { name = FLTE_vehc_folder position = { x = @mot_branch y = @Tier1_2 } }
-        dependencies = { FLTE_tech_tier_vehc_1 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @mot_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_vehc_2 = 1 }
 
         on_research_complete = {
             hidden_effect = {
@@ -142,8 +142,8 @@ technologies = {
         start_year = 1950
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = motorised_infantry3 }
-        folder = { name = FLTE_vehc_folder position = { x = @mot_branch y = @Tier3_2 } }
-        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @mot_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -184,8 +184,8 @@ technologies = {
         start_year = 1960
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = motorised_infantry4 }
-        folder = { name = FLTE_vehc_folder position = { x = @mot_branch y = @Tier4_1 } }
-        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @mot_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -225,8 +225,8 @@ technologies = {
 
         start_year = 1980
         research_cost = 2
-        folder = { name = FLTE_vehc_folder position = { x = @mot_branch y = @Tier5_1 } }
-        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @mot_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_vehc_6 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -407,7 +407,7 @@ technologies = {
         start_year = 1940
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = armored_car3 }
-        folder = { name = FLTE_vehc_folder position = { x = @armored_car_branch y = @Tier2_1 } }
+        folder = { name = FLTE_vehc_folder position = { x = @armored_car_branch y = @Tier2_2 } }
         dependencies = { FLTE_tech_tier_vehc_2 = 1 }
 
         special_project_specialization = { specialization_land }
@@ -450,8 +450,8 @@ technologies = {
         start_year = 1942
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = armored_car4 }
-        folder = { name = FLTE_vehc_folder position = { x = @armored_car_branch y = @Tier2_2 } }
-        dependencies = { FLTE_tech_tier_vehc_2 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @armored_car_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -488,8 +488,8 @@ technologies = {
         start_year = 1950
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = armored_car5 }
-        folder = { name = FLTE_vehc_folder position = { x = @armored_car_branch y = @Tier3_2 } }
-        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @armored_car_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -518,8 +518,8 @@ technologies = {
         start_year = 1960
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = armored_car6 }
-        folder = { name = FLTE_vehc_folder position = { x = @armored_car_branch y = @Tier4_1 } }
-        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @armored_car_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -547,8 +547,8 @@ technologies = {
 
         start_year = 1970
         research_cost = 2
-        folder = { name = FLTE_vehc_folder position = { x = @armored_car_branch y = @Tier4_2 } }
-        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @armored_car_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_vehc_6 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -610,8 +610,6 @@ technologies = {
 
     mechanised_infantry = {
         # Unknowns
-        
-
         enable_equipments = {
             mechanized_equipment_1
         }
@@ -645,8 +643,8 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry2 }
         path = { research_cost_coeff = 1 leads_to_tech = amphibious_mechanized_infantry }
-        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier2_1 } }
-        dependencies = { FLTE_tech_tier_vehc_2 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier3_1 } }
+        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -692,8 +690,8 @@ technologies = {
         start_year = 1942
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry3 }
-        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier2_2 } }
-        dependencies = { FLTE_tech_tier_vehc_2 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -723,8 +721,8 @@ technologies = {
         start_year = 1944
         research_cost = 3
         path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry4 }
-        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier3_1 } }
-        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -750,8 +748,8 @@ technologies = {
         start_year = 1950
         research_cost = 3
         path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry5 }
-        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier3_2 } }
-        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -786,8 +784,8 @@ technologies = {
         start_year = 1960
         research_cost = 3
         path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry6 }
-        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier4_1 } }
-        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -814,8 +812,8 @@ technologies = {
         start_year = 1970
         research_cost = 3
         path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry7 }
-        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier4_2 } }
-        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -842,8 +840,8 @@ technologies = {
         start_year = 1980
         research_cost = 3
         path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry8 }
-        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier5_1 } }
-        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_vehc_6 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -873,8 +871,8 @@ technologies = {
 
         start_year = 1990
         research_cost = 3
-        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier5_2 } }
-        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier7_1 } }
+        dependencies = { FLTE_tech_tier_vehc_7 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -900,8 +898,8 @@ technologies = {
         start_year = 1941
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = amphibious_mechanized_infantry_2 }
-        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier2_2 } }
-        dependencies = { FLTE_tech_tier_vehc_2 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
 
         allow_branch = {
             has_dlc = "Man the Guns"
@@ -931,8 +929,8 @@ technologies = {
         start_year = 1943
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = amphibious_mechanized_infantry_3 }
-        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier3_1 } }
-        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -955,8 +953,8 @@ technologies = {
         start_year = 1950
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = amphibious_mechanized_infantry_4 }
-        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier3_2 } }
-        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -979,8 +977,8 @@ technologies = {
         start_year = 1960
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = amphibious_mechanized_infantry_5 }
-        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier4_1 } }
-        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -1003,8 +1001,8 @@ technologies = {
         start_year = 1970
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = amphibious_mechanized_infantry_6 }
-        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier4_2 } }
-        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -1027,8 +1025,8 @@ technologies = {
         start_year = 1980
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = amphibious_mechanized_infantry_7 }
-        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier5_1 } }
-        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_vehc_6 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -1050,8 +1048,8 @@ technologies = {
 
         start_year = 1990
         research_cost = 2
-        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier5_2 } }
-        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @apm_mec_branch y = @Tier7_1 } }
+        dependencies = { FLTE_tech_tier_vehc_7 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -1194,7 +1192,7 @@ technologies = {
         start_year = 1936
         research_cost = 1.5
         # path = { research_cost_coeff = 1 leads_to_tech = sp_cluster_shells }
-        folder = { name = FLTE_vehc_folder position = { x = @armor_train_branch y = @Tier2_1 } }
+        folder = { name = FLTE_vehc_folder position = { x = @armor_train_branch y = @Tier2_2 } }
         dependencies = { FLTE_tech_tier_vehc_2 = 1 }
 
         on_research_complete = {
@@ -1223,41 +1221,6 @@ technologies = {
             }
         }
     }
-    wartime_train = {
-        enable_equipments = {
-            train_equipment_2
-        }
-
-        start_year = 1939
-        research_cost = 1.5
-        path = { research_cost_coeff = 1 leads_to_tech = train_50 }
-        path = { research_cost_coeff = 1 leads_to_tech = supplyhub_1 }
-        folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier2_2 } }
-        dependencies = { FLTE_tech_tier_vehc_2 = 1 }
-
-        categories = {
-            train_tech
-        }
-        ai_will_do = {
-            base = 2
-            modifier = {
-                has_war = yes
-                factor = 20
-            }
-            modifier = {
-                factor = 1.2
-                date > "1940.1.1"
-            }
-            modifier = {
-                factor = 1.2
-                date > "1941.1.1"
-            }
-            modifier = {
-                factor = 1.2
-                date > "1942.1.1"
-            }
-        }
-    }
     armored_train = {
         enable_equipments = {
             train_equipment_3
@@ -1266,8 +1229,8 @@ technologies = {
         start_year = 1936
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = railway_gun }
-        folder = { name = FLTE_vehc_folder position = { x = @armor_train_branch y = @Tier1_2 } }
-        dependencies = { FLTE_tech_tier_vehc_1 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @armor_train_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
 
         allow_branch = {
             has_dlc = "No Step Back"
@@ -1300,24 +1263,41 @@ technologies = {
             }
         }
     }
-    tech_recon_focus_bonus = {
-        category_recon = {
-            recon = 2
+    wartime_train = {
+        enable_equipments = {
+            train_equipment_2
         }
 
-        allow = {
-            always = no
-        }
+        start_year = 1939
+        research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = train_50 }
+        path = { research_cost_coeff = 1 leads_to_tech = supplyhub_1 }
+        folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_vehc_2 = 1 }
 
         categories = {
-            support_tech
-            recon_tech
+            train_tech
         }
         ai_will_do = {
-            factor = 0
+            base = 2
+            modifier = {
+                has_war = yes
+                factor = 20
+            }
+            modifier = {
+                factor = 1.2
+                date > "1940.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1941.1.1"
+            }
+            modifier = {
+                factor = 1.2
+                date > "1942.1.1"
+            }
         }
     }
-    
     train_50 = {
         # Unknowns
         production_speed_rail_way_factor = 0.10
@@ -1331,7 +1311,7 @@ technologies = {
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = train_60 }
         path = { research_cost_coeff = 1 leads_to_tech = supplyhub_2 }
-        folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier3_2 } }
+        folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_vehc_3 = 1 }
 
         categories = {
@@ -1409,8 +1389,8 @@ technologies = {
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = train_80 }
         path = { research_cost_coeff = 1 leads_to_tech = supplyhub_4 }
-        folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier4_2 } }
-        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
 
         categories = {
             train_tech
@@ -1448,8 +1428,8 @@ technologies = {
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = train_90 }
         path = { research_cost_coeff = 1 leads_to_tech = supplyhub_5 }
-        folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier5_1 } }
-        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_vehc_6 = 1 }
 
         categories = {
             train_tech
@@ -1486,8 +1466,8 @@ technologies = {
         start_year = 1990
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = supplyhub_6 }
-        folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier5_2 } }
-        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier7_1 } }
+        dependencies = { FLTE_tech_tier_vehc_7 = 1 }
 
         categories = {
             train_tech
@@ -1520,7 +1500,7 @@ technologies = {
         repair_speed_rail_way_factor = 0.05
 
         research_cost = 1
-        folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier2_2 } }
+        folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_vehc_2 = 1 }
 
         categories = {
@@ -1553,7 +1533,7 @@ technologies = {
         truck_attrition_factor = -0.05
 
         research_cost = 1
-        folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier3_2 } }
+        folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_vehc_3 = 1 }
 
         categories = {
@@ -1619,8 +1599,8 @@ technologies = {
         truck_attrition_factor = -0.05
 
         research_cost = 1
-        folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier4_2 } }
-        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
 
         categories = {
             train_tech
@@ -1652,8 +1632,8 @@ technologies = {
         truck_attrition_factor = -0.05
 
         research_cost = 1
-        folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier5_1 } }
-        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_vehc_6 = 1 }
 
         categories = {
             train_tech
@@ -1685,8 +1665,8 @@ technologies = {
         truck_attrition_factor = -0.05
 
         research_cost = 1
-        folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier5_2 } }
-        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+        folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier7_1 } }
+        dependencies = { FLTE_tech_tier_vehc_7 = 1 }
 
         categories = {
             train_tech

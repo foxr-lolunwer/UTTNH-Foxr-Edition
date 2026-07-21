@@ -87,6 +87,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier2_2 } }
+		dependencies = { FLTE_tech_tier_prod_2 = 1 }
 		on_research_complete = { 
 			hidden_effect = {
 				if = { limit = { NOT = { has_tech = assembly_line_production } }
@@ -119,6 +120,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier3_2 } }
+		dependencies = { FLTE_tech_tier_prod_3 = 1 }
 		categories = { industry cat_production FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
 		ai_will_do = { factor = 1 }
 	}
@@ -144,6 +146,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier4_2 } }
+		dependencies = { FLTE_tech_tier_prod_4 = 1 }
 		categories = { industry cat_production FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
 		ai_will_do = { factor = 1 }
 	}
@@ -169,6 +172,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_prod_5 = 1 }
 		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
 		ai_will_do = { factor = 1 }
 	}
@@ -182,6 +186,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier6_1 } }
+		dependencies = { FLTE_tech_tier_prod_6 = 1 }
 		categories = { industry cat_production FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
 		ai_will_do = { factor = 1 }
 	}
@@ -193,6 +198,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_prod_6 = 1 }
 		categories = { industry cat_production FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
 		ai_will_do = { factor = 1 }
 	}
@@ -206,6 +212,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier7_1 } }
+		dependencies = { FLTE_tech_tier_prod_7 = 1 }
 		categories = { industry cat_production FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
@@ -216,6 +223,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier7_2 } }
+		dependencies = { FLTE_tech_tier_prod_7 = 1 }
 		categories = { industry cat_production FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
@@ -373,6 +381,7 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier1_2 } }
+		dependencies = { FLTE_tech_tier_prod_1 = 1 }
 		categories = { industry cat_production FLTE_tech_tier_1 FLTE_tech_tier_infr_1 }
 		ai_will_do = { factor = 1 }
 	}
@@ -400,6 +409,7 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier2_2 } }
+		dependencies = { FLTE_tech_tier_prod_2 = 1 }
 		categories = { industry cat_production FLTE_tech_tier_2 FLTE_tech_tier_infr_2 }
 		ai_will_do = { factor = 1 }
 	}
@@ -427,6 +437,7 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier3_2 } }
+		dependencies = { FLTE_tech_tier_prod_3 = 1 }
 		categories = { industry cat_production FLTE_tech_tier_3 FLTE_tech_tier_infr_3 }
 		ai_will_do = { factor = 1 }
 	}
@@ -455,6 +466,7 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier4_2 } }
+		dependencies = { FLTE_tech_tier_prod_4 = 1 }
 		categories = { industry cat_production FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
 		ai_will_do = { factor = 1 }
 	}
@@ -483,6 +495,7 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_prod_5 = 1 }
 		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
 		ai_will_do = { factor = 1 }
 	}
@@ -500,7 +513,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier6_1 } }
-		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
 		ai_will_do = { factor = 1 }
 	}
 	equipment_production_12 = {
@@ -509,7 +523,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier6_2 } }
-		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
 		ai_will_do = { factor = 1 }
 	}
 	equipment_production_13 = {
@@ -526,7 +541,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier7_1 } }
-		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 	equipment_production_14 = {
@@ -534,7 +550,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier7_2 } }
-		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+		dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 
@@ -599,7 +616,7 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @production_firearms_artillery_branch y = @Tier6_2 } }
-        dependencies = { FLTE_tech_tier_prod_5 = 1 }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
 		categories = { industry cat_production FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
 		ai_will_do = { factor = 1 }
 	}
@@ -612,7 +629,7 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @production_firearms_artillery_branch y = @Tier7_2 } }
-        dependencies = { FLTE_tech_tier_prod_5 = 1 }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
 		categories = { industry cat_production FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
@@ -682,8 +699,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @production_support_equipment_branch y = @Tier6_2 } }
-        dependencies = { FLTE_tech_tier_prod_4 = 1 }
-		categories = { industry cat_production FLTE_tech_tier_4 FLTE_tech_tier_infr_4 }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
 		ai_will_do = { factor = 1 }
 	}
 	support_equipment_production_6 = {
@@ -696,8 +713,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @production_support_equipment_branch y = @Tier7_2 } }
-        dependencies = { FLTE_tech_tier_prod_5 = 1 }
-		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 	car_production_1 = {
@@ -761,8 +778,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @production_car_branch y = @Tier6_2 } }
-        dependencies = { FLTE_tech_tier_prod_5 = 1 }
-		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
 		ai_will_do = { factor = 1 }
 	}
 	car_production_6 = {
@@ -774,8 +791,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @production_car_branch y = @Tier7_2 } }
-        dependencies = { FLTE_tech_tier_prod_5 = 1 }
-		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 	armor_production_1 = {
@@ -834,8 +851,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @production_armor_branch y = @Tier6_2 } }
-        dependencies = { FLTE_tech_tier_prod_5 = 1 }
-		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
 		ai_will_do = { factor = 1 }
 	}
 	armor_production_6 = {
@@ -846,8 +863,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @production_armor_branch y = @Tier7_2 } }
-        dependencies = { FLTE_tech_tier_prod_5 = 1 }
-		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 	plane_production_1 = {
@@ -921,8 +938,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @production_plane_branch y = @Tier6_2 } }
-        dependencies = { FLTE_tech_tier_prod_5 = 1 }
-		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_6 }
 		ai_will_do = { factor = 1 }
 	}
 	plane_production_6 = {
@@ -936,8 +953,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @production_plane_branch y = @Tier7_2 } }
-        dependencies = { FLTE_tech_tier_prod_5 = 1 }
-		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 	small_ship_production_1 = {
@@ -1001,8 +1018,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @production_small_ship_branch y = @Tier6_2 } }
-        dependencies = { FLTE_tech_tier_prod_5 = 1 }
-		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
 		ai_will_do = { factor = 1 }
 	}
 	small_ship_production_6 = {
@@ -1014,8 +1031,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @production_small_ship_branch y = @Tier7_2 } }
-        dependencies = { FLTE_tech_tier_prod_5 = 1 }
-		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 	large_ship_production_1 = {
@@ -1079,8 +1096,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @production_large_ship_branch y = @Tier6_2 } }
-        dependencies = { FLTE_tech_tier_prod_5 = 1 }
-		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
 		ai_will_do = { factor = 1 }
 	}
 	large_ship_production_6 = {
@@ -1092,8 +1109,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @production_large_ship_branch y = @Tier7_2 } }
-        dependencies = { FLTE_tech_tier_prod_5 = 1 }
-		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 	missile_production_1 = {
@@ -1137,8 +1154,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @production_missile_branch y = @Tier6_2 } }
-        dependencies = { FLTE_tech_tier_prod_5 = 1 }
-		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_6 FLTE_tech_tier_infr_6 }
 		ai_will_do = { factor = 1 }
 	}
 	missile_production_4 = {
@@ -1152,8 +1169,8 @@ technologies = {
 		research_cost = 2.5
 		start_year = 1936
 		folder = { name = FLTE_prod_folder position = { x = @production_missile_branch y = @Tier7_2 } }
-        dependencies = { FLTE_tech_tier_prod_5 = 1 }
-		categories = { industry cat_production FLTE_tech_tier_5 FLTE_tech_tier_infr_5 }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		categories = { industry cat_production FLTE_tech_tier_7 FLTE_tech_tier_infr_7 }
 		ai_will_do = { factor = 1 }
 	}
 }

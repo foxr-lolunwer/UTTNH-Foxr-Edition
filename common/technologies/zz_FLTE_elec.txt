@@ -32,6 +32,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = mechanical_computing }
         path = { research_cost_coeff = 1 leads_to_tech = cavity_magnatron }
         folder = { name = FLTE_elec_folder position = { x = @eme_x y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_elec_1 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = {
@@ -65,6 +66,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = improved_radio }
         folder = { name = FLTE_elec_folder position = { x = @eme_radio_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_elec_1 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -101,6 +103,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = advanced_radio }
         folder = { name = FLTE_elec_folder position = { x = @eme_radio_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_elec_2 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -136,6 +139,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = radio55 }
         folder = { name = FLTE_elec_folder position = { x = @eme_radio_branch y = @Tier3_1 } }
+        dependencies = { FLTE_tech_tier_elec_3 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -171,6 +175,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = radio65 }
         folder = { name = FLTE_elec_folder position = { x = @eme_radio_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_elec_4 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -206,6 +211,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = radio75 }
         folder = { name = FLTE_elec_folder position = { x = @eme_radio_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_elec_5 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -240,6 +246,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = radio90 }
         folder = { name = FLTE_elec_folder position = { x = @eme_radio_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_elec_6 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -274,6 +281,7 @@ technologies = {
         start_year = 1975
         research_cost = 2
         folder = { name = FLTE_elec_folder position = { x = @eme_radio_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_elec_7 = 1 }
 
         special_project_specialization = { specialization_air }
 
@@ -336,6 +344,7 @@ technologies = {
         research_cost = 1.25
         path = { research_cost_coeff = 1 leads_to_tech = centimetric_radar }
         folder = { name = FLTE_elec_folder position = { x = @eme_radar_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_elec_2 = 1 }
 
         allow = {
             ROOT = {
@@ -381,6 +390,7 @@ technologies = {
         research_cost = 1.25
         path = { research_cost_coeff = 1 leads_to_tech = phased_array }
         folder = { name = FLTE_elec_folder position = { x = @eme_radar_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_elec_2 = 1 }
 
         allow = {
             ROOT = {
@@ -426,6 +436,7 @@ technologies = {
         research_cost = 1.25
         path = { research_cost_coeff = 1 leads_to_tech = monopulse_radar }
         folder = { name = FLTE_elec_folder position = { x = @eme_radar_branch y = @Tier3_1 } }
+        dependencies = { FLTE_tech_tier_elec_3 = 1 }
 
         is_special_project_tech = yes
         allow = {
@@ -471,6 +482,7 @@ technologies = {
         research_cost = 1.25
         path = { research_cost_coeff = 1 leads_to_tech = over_the_horizon_radar }
         folder = { name = FLTE_elec_folder position = { x = @eme_radar_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_elec_3 = 1 }
 
         is_special_project_tech = yes
         allow = {
@@ -507,6 +519,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = esar }
         folder = { name = FLTE_elec_folder position = { x = @eme_radar_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_elec_4 = 1 }
 
         is_special_project_tech = yes
         allow = {
@@ -548,6 +561,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = pesa }
         folder = { name = FLTE_elec_folder position = { x = @eme_radar_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_elec_5 = 1 }
 
         is_special_project_tech = yes
         allow = {
@@ -589,6 +603,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = aesa }
         folder = { name = FLTE_elec_folder position = { x = @eme_radar_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_elec_6 = 1 }
 
         is_special_project_tech = yes
         allow = {
@@ -629,6 +644,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = lpi_radar }
         folder = { name = FLTE_elec_folder position = { x = @eme_radar_branch y = @Tier7_1 } }
+        dependencies = { FLTE_tech_tier_elec_7 = 1 }
 
         is_special_project_tech = yes
         allow = {
@@ -669,6 +685,7 @@ technologies = {
         start_year = 1990
         research_cost = 2.5
         folder = { name = FLTE_elec_folder position = { x = @eme_radar_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_elec_7 = 1 }
 
         is_special_project_tech = yes
         allow = {
@@ -709,6 +726,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = computing_machine }
         path = { research_cost_coeff = 1 leads_to_tech = basic_fire_control_system }
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_elec_1 = 1 }
 
         special_project_specialization = { specialization_nuclear }
 
@@ -728,6 +746,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = improved_computing_machine }
         path = { research_cost_coeff = 1 leads_to_tech = improved_fire_control_system }
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_elec_2 = 1 }
 
 
 		on_research_complete = {
@@ -769,6 +788,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = advanced_computing_machine }
         path = { research_cost_coeff = 1 leads_to_tech = advanced_fire_control_system }
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_elec_2 = 1 }
 
         on_research_complete = {
             if = { limit = { NOT = { has_dlc = "La Resistance" } }
@@ -807,6 +827,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = improved_vacuum_computer }
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier3_1 } }
+        dependencies = { FLTE_tech_tier_elec_3 = 1 }
 
         on_research_complete = {
             if = { limit = { NOT = { has_dlc = "La Resistance" } }
@@ -1045,6 +1066,7 @@ technologies = {
 
         research_cost = 1
         folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_elec_1 = 1 }
 
         ai_will_do = {
             factor = 0.75
@@ -1077,10 +1099,7 @@ technologies = {
 
         research_cost = 1
         folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier2_1 } }
-
-        dependencies = {
-            basic_fire_control_system = 1
-        }
+        dependencies = { FLTE_tech_tier_elec_2 = 1 basic_fire_control_system = 1 }
 
         ai_will_do = {
             factor = 0.75
@@ -1113,9 +1132,7 @@ technologies = {
 
         research_cost = 1
         folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier2_2 } }
-        dependencies = {
-            improved_fire_control_system = 1
-        }
+        dependencies = { FLTE_tech_tier_elec_2 = 1 improved_fire_control_system = 1 }
 
         ai_will_do = {
             factor = 0.75
@@ -1205,6 +1222,7 @@ technologies = {
         start_year = 1947
         research_cost = 2.5
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_elec_5 = 1 }
 
         special_project_specialization = { specialization_nuclear }
 
@@ -1229,6 +1247,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = basic_transistor_computer }
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_elec_4 = 1 }
 
         on_research_complete = {
             if = { limit = { NOT = { has_dlc = "La Resistance" } }
@@ -1261,6 +1280,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = comp60 }
         path = { research_cost_coeff = 1 leads_to_tech = Early_modern_fire_control_system }
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_elec_4 = 1 }
 
         on_research_complete = {
             if = { limit = { NOT = { has_dlc = "La Resistance" } }
@@ -1295,6 +1315,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = comp65 }
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_elec_5 = 1 }
 
         special_project_specialization = { specialization_nuclear }
 
@@ -1324,6 +1345,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = comp70 }
         path = { research_cost_coeff = 1 leads_to_tech = tv_guide }
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_elec_5 = 1 }
 
         special_project_specialization = { specialization_nuclear }
 
@@ -1354,6 +1376,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = laser_guide }
         path = { research_cost_coeff = 1 leads_to_tech = Modern_fire_control_system }
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_elec_6 = 1 }
 
         special_project_specialization = { specialization_nuclear }
 
@@ -1382,6 +1405,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = comp90 }
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier7_1 } }
+        dependencies = { FLTE_tech_tier_elec_7 = 1 }
 
         special_project_specialization = { specialization_nuclear }
 
@@ -1417,6 +1441,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = Digital_fire_control_system }
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_elec_7 = 1 }
 
         special_project_specialization = { specialization_nuclear }
 
@@ -1444,6 +1469,7 @@ technologies = {
         start_year = 1955
         research_cost = 1.5
         folder = { name = FLTE_elec_folder position = { x = @eme_guide_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_elec_4 = 1 }
 
         is_special_project_tech = yes
 
@@ -1465,6 +1491,7 @@ technologies = {
         start_year = 1965
         research_cost = 1.5
         folder = { name = FLTE_elec_folder position = { x = @eme_guide_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_elec_5 = 1 }
 
         is_special_project_tech = yes
 
@@ -1485,6 +1512,7 @@ technologies = {
         start_year = 1970
         research_cost = 1.5
         folder = { name = FLTE_elec_folder position = { x = @eme_guide_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_elec_6 = 1 }
 
         is_special_project_tech = yes
 
@@ -1505,6 +1533,7 @@ technologies = {
         start_year = 1947
         research_cost = 1
         folder = { name = FLTE_elec_folder position = { x = 0 y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_elec_5 = 1 }
 
         allow_branch = {
             NOT = {
@@ -1652,6 +1681,7 @@ technologies = {
         start_year = 1955
         research_cost = 1
         folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_elec_4 = 1 }
 
         dependencies = {
             over_the_horizon_radar = 1
@@ -1681,6 +1711,7 @@ technologies = {
         start_year = 1970
         research_cost = 1
         folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_elec_6 = 1 }
 
         dependencies = {
             pesa = 1
@@ -1710,6 +1741,7 @@ technologies = {
         start_year = 1990
         research_cost = 1
         folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_elec_7 = 1 }
 
         dependencies = {
             lpi_radar = 1

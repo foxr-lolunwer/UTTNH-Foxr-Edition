@@ -763,19 +763,25 @@ sp_air_axial_jet_engine = {
 	project_output = {
 		country_effects = {
 			if = {
+				# TODO: sp
 				limit = { has_dlc = "By Blood Alone" }
-				custom_effect_tooltip = {
-					localization_key = SP_UNLOCK_TECH
-					TECH = modern_small_airframe
+				set_technology = {
+					modern_small_airframe = 1
+					modern_medium_airframe = 1
+					modern_large_airframe = 1
 				}
-				custom_effect_tooltip = {
-					localization_key = SP_UNLOCK_TECH
-					TECH = modern_medium_airframe
-				}
-				custom_effect_tooltip = {
-					localization_key = SP_UNLOCK_TECH
-					TECH = modern_large_airframe
-				}
+				# custom_effect_tooltip = {
+				# 	localization_key = SP_UNLOCK_TECH
+				# 	TECH = modern_small_airframe
+				# }
+				# custom_effect_tooltip = {
+				# 	localization_key = SP_UNLOCK_TECH
+				# 	TECH = modern_medium_airframe
+				# }
+				# custom_effect_tooltip = {
+				# 	localization_key = SP_UNLOCK_TECH
+				# 	TECH = modern_large_airframe
+				# }
 				add_design_template_bonus = {
 					name = air_equipment
 					uses = 1

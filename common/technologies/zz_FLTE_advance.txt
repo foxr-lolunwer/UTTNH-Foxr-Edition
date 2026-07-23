@@ -146,7 +146,7 @@ technologies = {
                 PROJECT = sp_rocket_interceptor
             }
         }
-        special_project_specialization = { specialization_air }
+        special_project_specialization = { specialization_nuclear }
 
         ai_will_do = {
             factor = 1
@@ -197,7 +197,7 @@ technologies = {
                 is_special_project_completed = sp:sp_rocket_interceptor
             }
         }
-        special_project_specialization = { specialization_air }
+        special_project_specialization = { specialization_nuclear }
         is_special_project_tech = yes
 
         ai_will_do = {
@@ -233,7 +233,7 @@ technologies = {
                 is_special_project_completed = sp:sp_rocket_interceptor
             }
         }
-        special_project_specialization = { specialization_air }
+        special_project_specialization = { specialization_nuclear }
         is_special_project_tech = yes
 
         ai_will_do = {
@@ -257,6 +257,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = aam60 }
         folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_airf_4 = 1 }
+        special_project_specialization = { specialization_nuclear }
 
         allow = {
             ROOT = {
@@ -290,6 +291,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = aam70 }
         folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_airf_5 = 1 }
+        special_project_specialization = { specialization_nuclear }
 
         ai_will_do = {
             factor = 1
@@ -317,6 +319,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = aam80 }
         folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_airf_6 = 1 }
+        special_project_specialization = { specialization_nuclear }
 
         ai_will_do = {
             factor = 1
@@ -342,6 +345,7 @@ technologies = {
         research_cost = 1.5
         folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_airf_7 = 1 }
+        special_project_specialization = { specialization_nuclear }
 
         ai_will_do = {
             factor = 1
@@ -415,7 +419,7 @@ technologies = {
                 is_special_project_completed = sp:sp_rockets_flying_bomb
             }
         }
-        special_project_specialization = { specialization_air }
+        special_project_specialization = { specialization_nuclear }
         is_special_project_tech = yes
 
         ai_will_do = {
@@ -444,7 +448,7 @@ technologies = {
         allow_branch = {
             has_dlc = "By Blood Alone"
         }
-        special_project_specialization = { specialization_air }
+        special_project_specialization = { specialization_nuclear }
         is_special_project_tech = yes
 
         ai_will_do = {
@@ -469,7 +473,7 @@ technologies = {
                 is_special_project_completed = sp:sp_rockets_flying_bomb
             }
         }
-        special_project_specialization = { specialization_air }
+        special_project_specialization = { specialization_nuclear }
         is_special_project_tech = yes
 
         ai_will_do = {
@@ -519,6 +523,7 @@ technologies = {
         research_cost = 1.5
         folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier2_2 } }
         dependencies = { FLTE_tech_tier_elec_4 = 1 }
+        special_project_specialization = { specialization_nuclear }
 
         ai_will_do = {
             factor = 1
@@ -545,11 +550,8 @@ technologies = {
         start_year = 1960
         research_cost = 1.5
         folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier3_1 } }
-        dependencies = { FLTE_tech_tier_elec_4 = 1 }
-
-        dependencies = {
-            ir_guide = 1
-        }
+        dependencies = { FLTE_tech_tier_elec_4 = 1 ir_guide = 1 }
+        special_project_specialization = { specialization_nuclear }
 
         ai_will_do = {
             factor = 1
@@ -576,11 +578,8 @@ technologies = {
         start_year = 1970
         research_cost = 1.5
         folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier4_1 } }
-        dependencies = { FLTE_tech_tier_elec_5 = 1 }
-
-        dependencies = {
-            esar = 1
-        }
+        dependencies = { FLTE_tech_tier_elec_5 = 1 esar = 1 }
+        special_project_specialization = { specialization_nuclear }
 
         ai_will_do = {
             factor = 1
@@ -607,11 +606,8 @@ technologies = {
         start_year = 1980
         research_cost = 1.5
         folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier5_1 } }
-        dependencies = { FLTE_tech_tier_elec_6 = 1 }
-
-        dependencies = {
-            pesa = 1
-        }
+        dependencies = { FLTE_tech_tier_elec_6 = 1 pesa = 1 }
+        special_project_specialization = { specialization_nuclear }
 
         ai_will_do = {
             factor = 1
@@ -637,11 +633,8 @@ technologies = {
         start_year = 1990
         research_cost = 1.5
         folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier6_1 } }
-        dependencies = { FLTE_tech_tier_elec_7 = 1 }
-
-        dependencies = {
-            pesa = 1
-        }
+        dependencies = { FLTE_tech_tier_elec_7 = 1 pesa = 1 }
+        special_project_specialization = { specialization_nuclear }
 
         ai_will_do = {
             factor = 1
@@ -661,6 +654,7 @@ technologies = {
         research_cost = 2
         folder = { name = FLTE_advance_folder position = { x = @rocket_main_branch y = @Tier3_2 } }
         dependencies = { FLTE_tech_tier_airf_4 = 1 }
+        special_project_specialization = { specialization_nuclear }
 
         ai_will_do = {
             factor = 1

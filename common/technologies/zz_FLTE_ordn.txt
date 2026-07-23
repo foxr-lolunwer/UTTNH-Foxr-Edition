@@ -1479,7 +1479,7 @@ technologies = {
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = artillery1 }
         folder = { name = FLTE_ordn_folder position = { x = @artillery_branch y = @Tier2_2 } }
-        dependencies = { FLTE_tech_tier_ordn_1 = 1 }
+        dependencies = { FLTE_tech_tier_ordn_2 = 1 }
 
         special_project_specialization = { specialization_land }
 

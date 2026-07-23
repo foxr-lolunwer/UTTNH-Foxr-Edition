@@ -902,7 +902,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_techtree_engineering_tab"
 				frame = 1
 				clicksound = click_default
-			}		
+			}
 			buttonType = {
 				position = { x = 780 y = 0 }
 				name = "FLTE_infr_folder_tab"
@@ -913,7 +913,7 @@ guiTypes = {
 			buttonType = {
 				position = { x = 880 y = 0 }
 				name = "FLTE_elec_folder_tab"
-				quadTextureSprite = "GFX_techtree_engineering_tab"
+				quadTextureSprite = "GFX_techtree_FLTE_elec_tab"
 				frame = 1
 				clicksound = click_default
 			}
@@ -923,7 +923,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_techtree_FLTE_advance_tab"
 				frame = 1
 				clicksound = click_default
-			}		
+			}
 		}
 		buttonType = {
 			name = "close_button"

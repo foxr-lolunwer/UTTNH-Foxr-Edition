@@ -2,7 +2,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "facilities_view"
 		position = { x=0 y=0 }
-		size = { width=620 height=-5 } # FLTE y +70
+		size = { width=550 height=-5 }
 
 
 		background = {
@@ -12,7 +12,7 @@ guiTypes = {
 	
 		background = {
 			name = "Background"
-			spriteType = "GFX_sp_top_bg"
+			spriteType = "GFX_FLTE_sp_top_bg" # FLTE replace gfx
 			position = { x=8 y=-1 }
 		}
 		
@@ -73,7 +73,7 @@ guiTypes = {
 				# contains specialization_item
 				name = "specialization_item_list"
 				position = { x = 0 y = 33 }
-				size = {x=524 y=148}
+				size = {x=524 y=225} # FLTE y +70
 				scrollbartype = "standardlistbox_slider"
 			}
 		}
@@ -83,7 +83,7 @@ guiTypes = {
 		#################################################################
 		containerWindowType = {
 			name = "facilities_overview_bottom_window"
-			position = { x = 1 y = 78 } # FLTE y +70
+			position = { x = 1 y = 0 } # FLTE y-8
 			size = { width = 100% height = 100%% }
 			
 			background = {

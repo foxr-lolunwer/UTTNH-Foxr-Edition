@@ -41,6 +41,8 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier1_1 } }
         dependencies = { FLTE_tech_tier_ordn_1 = 1 }
         
+        special_project_specialization = { specialization_land }
+
         categories = {
             infantry_weapons
             FLTE_TC_tier_1
@@ -60,6 +62,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = infantry_weapons2 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier1_2 } }
         dependencies = { FLTE_tech_tier_ordn_1 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -110,6 +113,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = infantry_at }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -156,6 +160,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = improved_infantry_weapons_2 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier2_2 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -194,6 +199,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = advanced_infantry_weapons }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -226,6 +232,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = advanced_infantry_weapons2 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier3_2 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -264,6 +271,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = infantry_cw1 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -296,6 +304,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = infantry_cw2 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier4_2 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -328,6 +337,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = infantry_cw3 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -360,6 +370,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = infantry_cw4 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier5_2 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -377,6 +388,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = infantry_cw5 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -394,6 +406,7 @@ technologies = {
         # path = { research_cost_coeff = 1 leads_to_tech = infantry_cw6 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -424,6 +437,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = infantry_at2 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -469,6 +483,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = infantry_at3 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -506,6 +521,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = infantry_at4 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -544,6 +560,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = infantry_aa1 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -581,6 +598,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = infantry_at6 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -613,6 +631,7 @@ technologies = {
         research_cost = 1.5
         folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -650,6 +669,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = infantry_aa2 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_aa_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -687,6 +707,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = infantry_aa3 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_aa_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -723,6 +744,7 @@ technologies = {
         research_cost = 1.5
         folder = { name = FLTE_ordn_folder position = { x = @inf_aa_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -754,6 +776,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = night_vision2 }
         folder = { name = FLTE_ordn_folder position = { x = @night_vision_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 FLTE_tech_tier_elec_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             night_vision
@@ -793,6 +816,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = night_vision3 }
         folder = { name = FLTE_ordn_folder position = { x = @night_vision_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 FLTE_tech_tier_elec_3 = 1  }
+        special_project_specialization = { specialization_land }
 
         categories = {
             night_vision
@@ -829,6 +853,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = night_vision4 }
         folder = { name = FLTE_ordn_folder position = { x = @night_vision_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1  FLTE_tech_tier_elec_4 = 1  }
+        special_project_specialization = { specialization_land }
 
         categories = {
             night_vision
@@ -865,6 +890,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = night_vision5 }
         folder = { name = FLTE_ordn_folder position = { x = @night_vision_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 FLTE_tech_tier_elec_5 = 1  }
+        special_project_specialization = { specialization_land }
 
         categories = {
             night_vision
@@ -900,6 +926,7 @@ technologies = {
         research_cost = 2
         folder = { name = FLTE_ordn_folder position = { x = @night_vision_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 FLTE_tech_tier_elec_6 = 1  }
+        special_project_specialization = { specialization_land }
 
         categories = {
             night_vision
@@ -932,6 +959,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = support_weapons2 }
         folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier1_2 } }
         dependencies = { FLTE_tech_tier_ordn_1 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -1000,6 +1028,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = support_weapons3 }
         folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -1063,6 +1092,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = support_weapons4 }
         folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier2_2 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -1114,6 +1144,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = support_weapons5 }
         folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -1165,6 +1196,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = support_weapons6 }
         folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier3_2 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -1216,6 +1248,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = support_weapons7 }
         folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -1267,6 +1300,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = support_weapons8 }
         folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -1318,6 +1352,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = support_weapons9 }
         folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -1368,6 +1403,7 @@ technologies = {
         research_cost = 1.5
         folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_weapons
@@ -1925,7 +1961,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @rocket_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
 
-        special_project_specialization = { specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -1934,6 +1970,7 @@ technologies = {
                 tag = SOV
             }
         }
+
         categories = {
             rocketry
             mio_cat_all_artillery_equipment
@@ -1955,7 +1992,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @rocket_branch y = @Tier4_2 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
 
-        special_project_specialization = { specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -1964,6 +2001,7 @@ technologies = {
                 tag = SOV
             }
         }
+
         categories = {
             rocketry
             mio_cat_all_artillery_equipment
@@ -1985,7 +2023,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @rocket_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
 
-        special_project_specialization = { specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -1994,6 +2032,7 @@ technologies = {
                 tag = SOV
             }
         }
+
         categories = {
             rocketry
             mio_cat_all_artillery_equipment
@@ -2018,7 +2057,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @rocket_branch y = @Tier5_2 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
 
-        special_project_specialization = { specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -2027,6 +2066,7 @@ technologies = {
                 tag = SOV
             }
         }
+
         categories = {
             rocketry
             mio_cat_all_artillery_equipment
@@ -2048,7 +2088,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @rocket_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
 
-        special_project_specialization = { specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -2057,6 +2097,7 @@ technologies = {
                 tag = SOV
             }
         }
+
         categories = {
             rocketry
             mio_cat_all_artillery_equipment
@@ -2081,7 +2122,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @rocket_branch y = @Tier6_2 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
 
-        special_project_specialization = { specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -2090,6 +2131,7 @@ technologies = {
                 tag = SOV
             }
         }
+
         categories = {
             rocketry
             mio_cat_all_artillery_equipment
@@ -2111,7 +2153,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @rocket_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
 
-        special_project_specialization = { specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -2120,6 +2162,7 @@ technologies = {
                 tag = SOV
             }
         }
+
         categories = {
             rocketry
             mio_cat_all_artillery_equipment
@@ -2140,7 +2183,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @rocket_branch y = @Tier7_2 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
 
-        special_project_specialization = { specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -2149,6 +2192,7 @@ technologies = {
                 tag = SOV
             }
         }
+
         categories = {
             rocketry
             mio_cat_all_artillery_equipment
@@ -2184,7 +2228,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier2_2 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
 
-        special_project_specialization = { specialization_land specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -2213,6 +2257,7 @@ technologies = {
                 date > "1939.1.1"
             }
         }
+
         categories = {
             artillery
             cat_anti_air
@@ -2245,7 +2290,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
 
-        special_project_specialization = { specialization_land specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -2263,6 +2308,7 @@ technologies = {
                 factor = 5
             }
         }
+
         categories = {
             artillery
             cat_anti_air
@@ -2293,7 +2339,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier3_2 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
 
-        special_project_specialization = { specialization_land specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 2
@@ -2311,6 +2357,7 @@ technologies = {
                 factor = 5
             }
         }
+
         categories = {
             artillery
             cat_anti_air
@@ -2346,7 +2393,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
 
-        special_project_specialization = { specialization_land specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -2364,6 +2411,7 @@ technologies = {
                 factor = 5
             }
         }
+
         categories = {
             artillery
             cat_anti_air
@@ -2396,7 +2444,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier4_2 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
 
-        special_project_specialization = { specialization_land specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -2414,6 +2462,7 @@ technologies = {
                 factor = 5
             }
         }
+
         categories = {
             artillery
             cat_anti_air
@@ -2444,7 +2493,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
 
-        special_project_specialization = { specialization_land specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -2462,6 +2511,7 @@ technologies = {
                 factor = 5
             }
         }
+
         categories = {
             artillery
             cat_anti_air
@@ -2486,7 +2536,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier5_2 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
 
-        special_project_specialization = { specialization_land specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -2504,6 +2554,7 @@ technologies = {
                 factor = 5
             }
         }
+
         categories = {
             artillery
             cat_anti_air
@@ -2528,7 +2579,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
 
-        special_project_specialization = { specialization_land specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -2546,6 +2597,7 @@ technologies = {
                 factor = 5
             }
         }
+
         categories = {
             artillery
             cat_anti_air
@@ -2569,7 +2621,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier6_2 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
 
-        special_project_specialization = { specialization_land specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -2587,6 +2639,7 @@ technologies = {
                 factor = 5
             }
         }
+
         categories = {
             artillery
             cat_anti_air
@@ -2611,7 +2664,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
 
-        special_project_specialization = { specialization_land specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -2629,6 +2682,7 @@ technologies = {
                 factor = 5
             }
         }
+
         categories = {
             artillery
             cat_anti_air
@@ -2651,7 +2705,7 @@ technologies = {
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier7_2 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
 
-        special_project_specialization = { specialization_land specialization_air }
+        special_project_specialization = { specialization_land }
 
         ai_will_do = {
             factor = 1
@@ -2669,6 +2723,7 @@ technologies = {
                 factor = 5
             }
         }
+
         categories = {
             artillery
             cat_anti_air
@@ -2750,6 +2805,7 @@ technologies = {
                 }
             }
         }
+
         categories = {
             artillery
             cat_anti_tank
@@ -2812,6 +2868,7 @@ technologies = {
                 date > "1940.1.1"
             }
         }
+
         categories = {
             artillery
             cat_anti_tank
@@ -2885,6 +2942,7 @@ technologies = {
                 }
             }
         }
+
         categories = {
             artillery
             cat_anti_tank
@@ -2951,6 +3009,7 @@ technologies = {
                 }
             }
         }
+
         categories = {
             artillery
             cat_anti_tank
@@ -3012,6 +3071,7 @@ technologies = {
                 }
             }
         }
+
         categories = {
             artillery
             cat_anti_tank
@@ -3078,6 +3138,7 @@ technologies = {
                 }
             }
         }
+
         categories = {
             artillery
             cat_anti_tank
@@ -3139,6 +3200,7 @@ technologies = {
                 }
             }
         }
+
         categories = {
             artillery
             cat_anti_tank
@@ -3199,6 +3261,7 @@ technologies = {
                 }
             }
         }
+
         categories = {
             artillery
             cat_anti_tank
@@ -3259,6 +3322,7 @@ technologies = {
                 }
             }
         }
+
         categories = {
             artillery
             cat_anti_tank
@@ -3319,7 +3383,8 @@ technologies = {
                     }
                 }
             }
-        }
+        } 
+
         categories = {
             artillery
             cat_anti_tank
@@ -3376,6 +3441,7 @@ technologies = {
                 }
             }
         }
+
         categories = {
             artillery
             cat_anti_tank
@@ -3490,7 +3556,8 @@ technologies = {
         }
         force_use_small_tech_layout = yes
         is_special_project_tech = yes
-        special_project_specialization = { specialization_land specialization_air }
+        
+        special_project_specialization = { specialization_land }
 
         categories = {
             artillery
@@ -3527,7 +3594,8 @@ technologies = {
         }
         force_use_small_tech_layout = yes
         is_special_project_tech = yes
-        special_project_specialization = { specialization_land specialization_air }
+        
+        special_project_specialization = { specialization_land }
 
         categories = {
             artillery

@@ -27,13 +27,6 @@
         "workbench.editor.enablePreview": false,
         "workbench.editor.enablePreviewFromQuickOpen": false,
 
-        // === 限制 CWTools 仅解析 BASE 文件夹 ===
-        "cwtools.ignore": [
-            "../A UTTNH Fxor Edition/**",
-            "../tech ep/**",
-            "../../../../../SteamLibrary/steamapps/workshop/content/394360/3413890094/**",
-            "E:/SteamLibrary/steamapps/common/Hearts of Iron IV"
-        ],
         "secondaryExplorer.paths": [
             "${workspaceFolders[4]}"
         ]

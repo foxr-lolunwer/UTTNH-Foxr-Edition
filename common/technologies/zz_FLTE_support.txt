@@ -50,6 +50,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_maintenance_company }
         folder = { name = FLTE_support_folder position = { x = @tech_support_x y = @tech_support_y } }
         dependencies = { FLTE_tech_tier_ordn_1 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -114,6 +115,7 @@ technologies = {
                 }
             }
         }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -174,6 +176,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_engineers3 }
         folder = { name = FLTE_support_folder position = { x = @engineers_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -256,6 +259,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_engineers4 }
         folder = { name = FLTE_support_folder position = { x = @engineers_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -334,6 +338,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_engineers5 }
         folder = { name = FLTE_support_folder position = { x = @engineers_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -414,6 +419,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_engineers6 }
         folder = { name = FLTE_support_folder position = { x = @engineers_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -478,6 +484,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_engineers7 }
         folder = { name = FLTE_support_folder position = { x = @engineers_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -542,6 +549,7 @@ technologies = {
         # path = { research_cost_coeff = 1 leads_to_tech = tech_engineers8 }
         folder = { name = FLTE_support_folder position = { x = @engineers_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -573,6 +581,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = sp_helicopter_artillery_observers_tech }
         folder = { name = FLTE_support_folder position = { x = @recon_branch y = @Tier1_1 } }
         dependencies = { FLTE_tech_tier_ordn_1 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -617,6 +626,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_recon3 }
         folder = { name = FLTE_support_folder position = { x = @recon_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -656,6 +666,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_recon4 }
         folder = { name = FLTE_support_folder position = { x = @recon_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -692,6 +703,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_recon5 }
         folder = { name = FLTE_support_folder position = { x = @recon_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -728,6 +740,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_recon6 }
         folder = { name = FLTE_support_folder position = { x = @recon_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -756,6 +769,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_recon7 }
         folder = { name = FLTE_support_folder position = { x = @recon_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -784,6 +798,7 @@ technologies = {
         # path = { research_cost_coeff = 1 leads_to_tech = tech_recon8 }
         folder = { name = FLTE_support_folder position = { x = @recon_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -841,6 +856,7 @@ technologies = {
                 }
             }
         }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -902,6 +918,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_military_police3 }
         folder = { name = FLTE_support_folder position = { x = @mp_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -933,6 +950,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_military_police4 }
         folder = { name = FLTE_support_folder position = { x = @mp_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -964,6 +982,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_military_police5 }
         folder = { name = FLTE_support_folder position = { x = @mp_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -995,6 +1014,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_military_police6 }
         folder = { name = FLTE_support_folder position = { x = @mp_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1028,6 +1048,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_military_police7 }
         folder = { name = FLTE_support_folder position = { x = @mp_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1061,6 +1082,7 @@ technologies = {
         # path = { research_cost_coeff = 1 leads_to_tech = tech_military_police8 }
         folder = { name = FLTE_support_folder position = { x = @mp_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1105,6 +1127,7 @@ technologies = {
 				}
 			}
 		}
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1147,6 +1170,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_maintenance_company3 }
         folder = { name = FLTE_support_folder position = { x = @maintenance_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1195,6 +1219,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_maintenance_company4 }
         folder = { name = FLTE_support_folder position = { x = @maintenance_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1233,6 +1258,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_maintenance_company5 }
         folder = { name = FLTE_support_folder position = { x = @maintenance_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1271,6 +1297,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_maintenance_company6 }
         folder = { name = FLTE_support_folder position = { x = @maintenance_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1301,6 +1328,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_maintenance_company7 }
         folder = { name = FLTE_support_folder position = { x = @maintenance_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1331,6 +1359,7 @@ technologies = {
         # path = { research_cost_coeff = 1 leads_to_tech = tech_maintenance_company8 }
         folder = { name = FLTE_support_folder position = { x = @maintenance_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1378,6 +1407,7 @@ technologies = {
                 }
             }
         }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1421,6 +1451,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_field_hospital3 }
         folder = { name = FLTE_support_folder position = { x = @hospital_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1473,6 +1504,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_field_hospital4 }
         folder = { name = FLTE_support_folder position = { x = @hospital_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1516,6 +1548,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_field_hospital5 }
         folder = { name = FLTE_support_folder position = { x = @hospital_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1555,6 +1588,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_field_hospital6 }
         folder = { name = FLTE_support_folder position = { x = @hospital_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1585,6 +1619,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_field_hospital7 }
         folder = { name = FLTE_support_folder position = { x = @hospital_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1615,6 +1650,7 @@ technologies = {
         # path = { research_cost_coeff = 1 leads_to_tech = tech_field_hospital8 }
         folder = { name = FLTE_support_folder position = { x = @hospital_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1672,6 +1708,7 @@ technologies = {
 				}
 			}
 		}
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1714,6 +1751,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_logistics_company3 }
         folder = { name = FLTE_support_folder position = { x = @logistics_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1760,6 +1798,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_logistics_company4 }
         folder = { name = FLTE_support_folder position = { x = @logistics_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1798,6 +1837,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_logistics_company5 }
         folder = { name = FLTE_support_folder position = { x = @logistics_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1837,6 +1877,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_logistics_company6 }
         folder = { name = FLTE_support_folder position = { x = @logistics_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1867,6 +1908,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_logistics_company7 }
         folder = { name = FLTE_support_folder position = { x = @logistics_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1897,6 +1939,7 @@ technologies = {
         # path = { research_cost_coeff = 1 leads_to_tech = tech_logistics_company8 }
         folder = { name = FLTE_support_folder position = { x = @logistics_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1930,6 +1973,7 @@ technologies = {
             radio = 1
             motorised_infantry = 1
         }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -1964,6 +2008,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_signal_company3 }
         folder = { name = FLTE_support_folder position = { x = @signal_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -2005,6 +2050,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_signal_company4 }
         folder = { name = FLTE_support_folder position = { x = @signal_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -2046,6 +2092,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_signal_company5 }
         folder = { name = FLTE_support_folder position = { x = @signal_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -2087,6 +2134,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_signal_company6 }
         folder = { name = FLTE_support_folder position = { x = @signal_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -2120,6 +2168,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_signal_company7 }
         folder = { name = FLTE_support_folder position = { x = @signal_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -2153,6 +2202,7 @@ technologies = {
         # path = { research_cost_coeff = 1 leads_to_tech = tech_signal_company8 }
         folder = { name = FLTE_support_folder position = { x = @signal_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             support_tech
@@ -2209,6 +2259,7 @@ technologies = {
                 }
             }
         }
+        special_project_specialization = { specialization_land }
 
         categories = {
             para_tech
@@ -2255,6 +2306,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = paratroopers3 }
         folder = { name = FLTE_support_folder position = { x = @paratroopers_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             para_tech
@@ -2291,6 +2343,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = paratroopers4 }
         folder = { name = FLTE_support_folder position = { x = @paratroopers_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             para_tech
@@ -2323,6 +2376,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = paratroopers5 }
         folder = { name = FLTE_support_folder position = { x = @paratroopers_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             para_tech
@@ -2355,6 +2409,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = paratroopers6 }
         folder = { name = FLTE_support_folder position = { x = @paratroopers_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             para_tech
@@ -2387,6 +2442,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = paratroopers7 }
         folder = { name = FLTE_support_folder position = { x = @paratroopers_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             para_tech
@@ -2418,6 +2474,7 @@ technologies = {
         research_cost = 2.0
         folder = { name = FLTE_support_folder position = { x = @paratroopers_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             para_tech
@@ -2463,6 +2520,7 @@ technologies = {
             }
             custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
         }
+        special_project_specialization = { specialization_land }
 
         categories = {
             marine_tech
@@ -2495,6 +2553,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = marines3 }
         folder = { name = FLTE_support_folder position = { x = @marines_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             marine_tech
@@ -2523,6 +2582,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = marines4 }
         folder = { name = FLTE_support_folder position = { x = @marines_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             marine_tech
@@ -2551,6 +2611,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = marines5 }
         folder = { name = FLTE_support_folder position = { x = @marines_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             marine_tech
@@ -2579,6 +2640,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = marines6 }
         folder = { name = FLTE_support_folder position = { x = @marines_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             marine_tech
@@ -2607,6 +2669,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = marines7 }
         folder = { name = FLTE_support_folder position = { x = @marines_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             marine_tech
@@ -2634,6 +2697,7 @@ technologies = {
         research_cost = 2.0
         folder = { name = FLTE_support_folder position = { x = @marines_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             marine_tech
@@ -2675,6 +2739,7 @@ technologies = {
             }
             custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
         }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_tech
@@ -2696,6 +2761,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_mountaineers3 }
         folder = { name = FLTE_support_folder position = { x = @tech_mountaineers_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_tech
@@ -2717,6 +2783,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_mountaineers4 }
         folder = { name = FLTE_support_folder position = { x = @tech_mountaineers_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_tech
@@ -2738,6 +2805,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_mountaineers5 }
         folder = { name = FLTE_support_folder position = { x = @tech_mountaineers_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_tech
@@ -2759,6 +2827,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_mountaineers6 }
         folder = { name = FLTE_support_folder position = { x = @tech_mountaineers_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_tech
@@ -2780,6 +2849,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = tech_mountaineers7 }
         folder = { name = FLTE_support_folder position = { x = @tech_mountaineers_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_tech
@@ -2800,6 +2870,7 @@ technologies = {
         research_cost = 2.0
         folder = { name = FLTE_support_folder position = { x = @tech_mountaineers_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_tech
@@ -2837,6 +2908,7 @@ technologies = {
             }
             custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
         }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_tech
@@ -2874,6 +2946,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = rangers_tech3 }
         folder = { name = FLTE_support_folder position = { x = @rangers_tech_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_tech
@@ -2895,6 +2968,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = rangers_tech4 }
         folder = { name = FLTE_support_folder position = { x = @rangers_tech_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_tech
@@ -2916,6 +2990,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = rangers_tech5 }
         folder = { name = FLTE_support_folder position = { x = @rangers_tech_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_tech
@@ -2937,6 +3012,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = rangers_tech6 }
         folder = { name = FLTE_support_folder position = { x = @rangers_tech_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_tech
@@ -2958,6 +3034,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = rangers_tech7 }
         folder = { name = FLTE_support_folder position = { x = @rangers_tech_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_tech
@@ -2978,6 +3055,7 @@ technologies = {
         research_cost = 1.5
         folder = { name = FLTE_support_folder position = { x = @rangers_tech_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             infantry_tech
@@ -3006,6 +3084,7 @@ technologies = {
         #         has_dlc = "Arms Against Tyranny"
         #     }
         # }
+        special_project_specialization = { specialization_land }
 
         categories = {
             mountaineers_tech
@@ -3034,6 +3113,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = extreme_environment_training }
         folder = { name = FLTE_support_folder position = { x = @force_left_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             mountaineers_tech
@@ -3058,6 +3138,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = survival_training }
         folder = { name = FLTE_support_folder position = { x = @force_right_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             mountaineers_tech
@@ -3084,6 +3165,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = elite_forces }
         folder = { name = FLTE_support_folder position = { x = @force_left_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             mountaineers_tech
@@ -3109,6 +3191,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = elite_forces }
         folder = { name = FLTE_support_folder position = { x = @force_right_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             mountaineers_tech
@@ -3135,6 +3218,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = coldimproved_special_forces }
         folder = { name = FLTE_support_folder position = { x = @force_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             mountaineers_tech
@@ -3162,6 +3246,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = coldextreme_environment_training }
         folder = { name = FLTE_support_folder position = { x = @force_left_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             mountaineers_tech
@@ -3186,6 +3271,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = coldsurvival_training }
         folder = { name = FLTE_support_folder position = { x = @force_right_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             mountaineers_tech
@@ -3211,6 +3297,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = coldelite_forces }
         folder = { name = FLTE_support_folder position = { x = @force_left_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             mountaineers_tech
@@ -3236,6 +3323,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = coldelite_forces }
         folder = { name = FLTE_support_folder position = { x = @force_right_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             mountaineers_tech
@@ -3261,6 +3349,7 @@ technologies = {
         research_cost = 2
         folder = { name = FLTE_support_folder position = { x = @force_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             mountaineers_tech

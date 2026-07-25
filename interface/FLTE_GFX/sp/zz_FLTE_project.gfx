@@ -1,0 +1,11 @@
+###CABINET ASSETS##
+
+spriteTypes = {
+  # replace
+	spriteType = { name = "GFX_sp_top_bg" texturefile = "gfx/interface/FLTE_gui/tech_tab_sp_view/sp_top_bg.dds" }
+  # add
+  # specialization_icon
+  
+  # sp_icon
+	spriteType= { name = "GFX_FLTE_sp_undefined" texturefile = "gfx/interface/FLTE/sp/undefined.dds" }
+}

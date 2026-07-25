@@ -1158,6 +1158,8 @@ technologies = {
         folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier1_1 } }
         dependencies = { FLTE_tech_tier_vehc_1 = 1 }
 
+        special_project_specialization = { specialization_land }
+
         categories = {
             train_tech
         }
@@ -1195,6 +1197,8 @@ technologies = {
         folder = { name = FLTE_vehc_folder position = { x = @armor_train_branch y = @Tier2_2 } }
         dependencies = { FLTE_tech_tier_vehc_2 = 1 }
 
+        special_project_specialization = { specialization_land }
+
         on_research_complete = {
             custom_effect_tooltip = {
                 localization_key = SP_UNLOCK_PROJECT
@@ -1231,6 +1235,8 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = railway_gun }
         folder = { name = FLTE_vehc_folder position = { x = @armor_train_branch y = @Tier3_2 } }
         dependencies = { FLTE_tech_tier_vehc_3 = 1 }
+
+        special_project_specialization = { specialization_land }
 
         allow_branch = {
             has_dlc = "No Step Back"
@@ -1275,6 +1281,8 @@ technologies = {
         folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_vehc_2 = 1 }
 
+        special_project_specialization = { specialization_land }
+
         categories = {
             train_tech
         }
@@ -1313,6 +1321,8 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = supplyhub_2 }
         folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_vehc_3 = 1 }
+
+        special_project_specialization = { specialization_land }
 
         categories = {
             train_tech
@@ -1353,6 +1363,8 @@ technologies = {
         folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
+        special_project_specialization = { specialization_land }
+
         categories = {
             train_tech
         }
@@ -1391,6 +1403,8 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = supplyhub_4 }
         folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+
+        special_project_specialization = { specialization_land }
 
         categories = {
             train_tech
@@ -1431,6 +1445,8 @@ technologies = {
         folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_vehc_6 = 1 }
 
+        special_project_specialization = { specialization_land }
+
         categories = {
             train_tech
         }
@@ -1469,6 +1485,8 @@ technologies = {
         folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_vehc_7 = 1 }
 
+        special_project_specialization = { specialization_land }
+
         categories = {
             train_tech
         }
@@ -1503,6 +1521,8 @@ technologies = {
         folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_vehc_2 = 1 }
 
+        special_project_specialization = { specialization_land }
+
         categories = {
             train_tech
         }
@@ -1535,6 +1555,8 @@ technologies = {
         research_cost = 1
         folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier3_1 } }
         dependencies = { FLTE_tech_tier_vehc_3 = 1 }
+
+        special_project_specialization = { specialization_land }
 
         categories = {
             train_tech
@@ -1569,6 +1591,8 @@ technologies = {
         folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
+        special_project_specialization = { specialization_land }
+
         categories = {
             train_tech
         }
@@ -1601,6 +1625,8 @@ technologies = {
         research_cost = 1
         folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+
+        special_project_specialization = { specialization_land }
 
         categories = {
             train_tech
@@ -1635,6 +1661,8 @@ technologies = {
         folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_vehc_6 = 1 }
 
+        special_project_specialization = { specialization_land }
+
         categories = {
             train_tech
         }
@@ -1667,6 +1695,8 @@ technologies = {
         research_cost = 1
         folder = { name = FLTE_vehc_folder position = { x = @supplyhub_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_vehc_7 = 1 }
+
+        special_project_specialization = { specialization_land }
 
         categories = {
             train_tech

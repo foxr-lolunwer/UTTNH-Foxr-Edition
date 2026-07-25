@@ -1,0 +1,180 @@
+# import AHET
+diff_very_easy_player = {
+	# 拿来参考的:
+	# production_factory_start_efficiency_factor		  # 基础生产效率
+	# production_factory_max_efficiency_factor = 0.5      # 生产效率上限
+	# research_speed_factor = 0.5                         # 科研速度加成
+	# political_power_factor = 0.5                        # 政治点百分比加成
+	# stability_factor = 0.5                              # 稳定度加成
+	# stability_weekly = 0.01                             # 每周稳定度
+	# war_stability_factor = 0                            # 战争造成的稳定度减成
+	# war_support_factor = 0.5                            # 战争支持度加成
+	# war_support_weekly = 0.01                           # 每周战争支持度
+	# command_power_gain = 50                             # 每日获取的指挥点数
+	# trade_opinion_factor = 2                            # 贸易关系修正
+	# generate_wargoal_tension = -0.5                     # 正当化战争目标所需要的紧张度
+	# join_faction_tension = -0.5                         # 加入阵营所需要的紧张度
+	# justify_war_goal_time = -0.75                       # 制造战争目标需要的时间
+	# autonomy_gain = 100                                 # 每日获取的自治点数
+	# legitimacy_daily = 10                               # 每日获取的正统性
+	# can_master_build_for_us = 1                         # bool 可以给附庸建造建筑
+	# production_lack_of_resource_penalty_factor = -0.8   # 缺乏战略资源惩罚
+	# industrial_capacity_factory = 0.5                   # 工厂产出
+	# industrial_capacity_dockyard = 0.5                  # 海军船坞产出
+	# conscription = 0.05                                 # 适役人口比例
+	# weekly_manpower = 5000                              # 每周获取的人力数量
+	# special_forces_min = 3000                           # 特种部队最小营数
+	# experience_loss_factor = -1                         # 战斗中经验损失
+	# experience_gain_army_factor = 3                     # 部队经验获取速度
+	# army_core_attack_factor = 1                         # 部队核心领土攻击
+	# army_core_defence_factor = 1                        # 部队核心领土防御
+	# army_attack_factor = 0.2                            # 部队攻击
+	# army_defence_factor = 0.5                           # 部队防御
+	# combat_width_factor = -0.2                          # 战斗宽度
+	# terrain_penalty_reduction = 0.3                     # 地形惩罚降低
+	# army_fuel_consumption_factor = -0.8                 # 陆军燃料消耗
+	# air_fuel_consumption_factor = -0.8                  # 空军燃料消耗
+ 	# navy_fuel_consumption_factor = -0.8                 # 海军燃料消耗
+	# supply_consumption_factor = -0.5                    # 补给消耗
+	# attrition = -0.3                                    # 陆军损耗
+	# no_supply_grace = 144                               # 携行补给
+	# amphibious_invasion = 1                             # 海军登陆速度
+	# naval_invasion_capacity = 120                       # 登陆部队数
+	# amphibious_invasion_defence = 1                     # 登陆防护
+	# naval_damage_factor = 1                             # 海军攻击系数
+	# naval_defense_factor = 1                            # 海军防御系数
+	# naval_detection = 1                                 # 海军侦测
+	# naval_enemy_retreat_chance = -1                     # 海战敌人撤退机会
+	# air_range_factor = 2                                # 空军航程系数
+	# compliance_growth = 0.5                             # 顺从度增长速度
+	# agency_upgrade_time = -0.5                          # 情报机构升级时间
+	# nuclear_production = 1                              # 允许制造核弹
+	# nuclear_production_factor = 10                      # 核武器制造速率
+	# unit_medal_effectiveness = -0.25
+	automatic_grant_medal_chance = 0.50
+	no_supply_grace = 72
+}
+diff_very_easy_ai = {
+	automatic_grant_medal_chance = 0.50
+	no_supply_grace = 72
+}
+# “少女前线”-娱乐
+diff_easy_player = {
+	automatic_grant_medal_chance = 0.50
+	can_generate_female_aces = 1
+	female_random_army_leader_chance = 1
+	female_random_admiral_chance = 1
+	female_random_country_leader_chance = 1
+	female_random_operative_chance = 1
+	no_supply_grace = 72
+}
+diff_easy_ai = {
+	automatic_grant_medal_chance = 0.75
+	can_generate_female_aces = 1
+	female_random_army_leader_chance = 1
+	female_random_admiral_chance = 1
+	female_random_country_leader_chance = 1
+	female_random_operative_chance = 1
+	automatic_grant_medal_chance = 0.75
+	production_factory_max_efficiency_factor = 0.1
+	production_factory_start_efficiency_factor = 0.2
+	research_speed_factor = 0.1
+	political_power_factor = 0.15
+	production_lack_of_resource_penalty_factor = -0.3
+	army_fuel_consumption_factor = -0.1
+	air_fuel_consumption_factor = -0.3
+	navy_fuel_consumption_factor = -0.1
+	no_supply_grace = 72
+}
+# 正常
+diff_normal_player = {
+	automatic_grant_medal_chance = 0.50
+	no_supply_grace = 48
+}
+diff_normal_ai = {
+	automatic_grant_medal_chance = 0.75
+	production_factory_max_efficiency_factor = 0.1
+	production_factory_start_efficiency_factor = 0.2
+	research_speed_factor = 0.1
+	political_power_factor = 0.15
+	production_lack_of_resource_penalty_factor = -0.3
+	army_fuel_consumption_factor = -0.1
+	air_fuel_consumption_factor = -0.3
+	navy_fuel_consumption_factor = -0.1
+	no_supply_grace = 48
+}
+# 多加强mod微平衡
+diff_hard_player = {
+	stability_weekly = -0.001
+	war_support_weekly = -0.001
+	automatic_grant_medal_chance = 0.50
+	air_fuel_consumption_factor = 0.2
+	navy_fuel_consumption_factor = 0.2
+	army_attack_factor = -0.05
+	army_defence_factor = -0.05
+	consumer_goods_factor = 0.1
+	no_supply_grace = 48
+	trade_opinion_factor = -10
+}
+diff_hard_ai = {
+	automatic_grant_medal_chance = 1
+    production_factory_max_efficiency_factor = 0.2
+	production_factory_start_efficiency_factor = 0.4
+	research_speed_factor = 0.15
+	political_power_factor = 0.25
+	production_lack_of_resource_penalty_factor = -0.4
+	weekly_manpower = 500
+	army_core_attack_factor = 0.15
+	army_core_defence_factor = 0.15
+	army_attack_factor = 0.05
+	army_defence_factor = 0.05
+	consumer_goods_factor = -0.1
+	attrition = -0.1
+	combat_width_factor = -0.1
+	terrain_penalty_reduction = 0.2
+	industrial_capacity_factory = 0.25
+	industrial_capacity_dockyard = 0.5
+	army_fuel_consumption_factor = -0.2
+	air_fuel_consumption_factor = -0.5
+ 	navy_fuel_consumption_factor = -0.5
+	supply_consumption_factor = -0.05
+	no_supply_grace = 72
+}
+# 魔怔加强mod平衡
+diff_very_hard_player = {
+	stability_weekly = -0.001
+	war_support_weekly = -0.001
+	automatic_grant_medal_chance = 0.50
+	army_fuel_consumption_factor = 0.2
+	air_fuel_consumption_factor = 0.2
+ 	navy_fuel_consumption_factor = 0.2
+	army_attack_factor = -0.15
+	army_defence_factor = -0.15
+	consumer_goods_factor = 0.2
+	no_supply_grace = 48
+	trade_opinion_factor = -20
+}
+diff_very_hard_ai = {
+	automatic_grant_medal_chance = 1
+    production_factory_max_efficiency_factor = 0.2
+	production_factory_start_efficiency_factor = 0.4
+	research_speed_factor = 0.3
+	political_power_factor = 0.5
+	production_lack_of_resource_penalty_factor = -0.8
+	weekly_manpower = 1000
+	army_core_attack_factor = 0.25
+	army_core_defence_factor = 0.25
+	army_attack_factor = 0.15
+	army_defence_factor = 0.15
+	consumer_goods_factor = -0.2
+	attrition = -0.15
+	combat_width_factor = -0.15
+	terrain_penalty_reduction = 0.3
+	industrial_capacity_factory = 0.3
+	industrial_capacity_dockyard = 1
+	army_fuel_consumption_factor = -0.3
+	air_fuel_consumption_factor = -0.8
+ 	navy_fuel_consumption_factor = -0.8
+	supply_consumption_factor = -0.05
+	no_supply_grace = 72
+}

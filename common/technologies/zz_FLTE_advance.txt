@@ -664,4 +664,69 @@ technologies = {
             jet_technology
         }
     }
+
+    nuclear_reactor = {
+        enable_building = {
+            building = nuclear_reactor
+            level = 1
+        }
+
+        start_year = 1943
+        research_cost = 5
+
+        special_project_specialization = { specialization_FLTE_engineering }
+
+        ai_will_do = {
+            factor = 3
+            modifier = {
+                tag = USA
+                factor = 2
+            }
+        }
+        categories = {
+            nuclear
+        }
+    }
+    nuclear_reactor_heavy_water = {
+        enable_building = {
+            building = nuclear_reactor_heavy_water
+            level = 1
+        }
+
+        start_year = 1943
+        research_cost = 5
+
+        special_project_specialization = { specialization_FLTE_engineering }
+
+        ai_will_do = {
+            factor = 1
+        }
+        categories = {
+            nuclear
+        }
+    }
+    nukes = {
+        nuclear_production = 0.5
+
+        start_year = 1945
+        research_cost = 5
+
+        on_research_complete = {
+            if = {
+                limit = {
+                    tag = USA
+                    has_war_with = JAP
+                }
+                play_warning_to_japan_effect = yes
+            }
+        }
+        special_project_specialization = { specialization_FLTE_engineering }
+
+        ai_will_do = {
+            factor = 10
+        }
+        categories = {
+            nuclear
+        }
+    }
 }

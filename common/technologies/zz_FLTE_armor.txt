@@ -381,6 +381,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = modern_light_tank_2 }
         folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier4_2 } }
         dependencies = { FLTE_tech_tier_vehc_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             armor
@@ -419,6 +420,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = modern_light_tank_3 }
         folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             armor
@@ -457,6 +459,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = modern_light_tank_4 }
         folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier5_2 } }
         dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             armor
@@ -495,6 +498,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = modern_light_tank_5 }
         folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier6_1_med } }
         dependencies = { FLTE_tech_tier_vehc_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             armor
@@ -533,6 +537,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = modern_light_tank_6 }
         folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_vehc_7 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             armor
@@ -570,6 +575,7 @@ technologies = {
         research_cost = 2
         folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier7_2 } }
         dependencies = { FLTE_tech_tier_vehc_7 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             armor
@@ -1072,6 +1078,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_2 }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier4_3 } }
         dependencies = { FLTE_tech_tier_vehc_4 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             armor
@@ -1106,6 +1113,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_3 }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             armor
@@ -1144,6 +1152,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_4 }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier5_2 } }
         dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             armor
@@ -1178,6 +1187,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_5 }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_vehc_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             armor
@@ -1215,6 +1225,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_6 }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier6_2 } }
         dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             armor
@@ -1253,6 +1264,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_7 }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_vehc_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             armor
@@ -1287,6 +1299,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_8 }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier7_2 } }
         dependencies = { FLTE_tech_tier_vehc_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             armor
@@ -1516,6 +1529,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = cw_heavy_tank_chassis_1 }
         folder = { name = FLTE_armor_folder position = { x = @heavy_chassis_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             armor
@@ -1550,6 +1564,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = cw_heavy_tank_chassis_2 }
         folder = { name = FLTE_armor_folder position = { x = @heavy_chassis_branch y = @Tier5_2 } }
         dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             armor
@@ -1584,6 +1599,7 @@ technologies = {
         # path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_5 }
         folder = { name = FLTE_armor_folder position = { x = @heavy_chassis_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_vehc_6 = 1 }
+        special_project_specialization = { specialization_land }
 
         categories = {
             armor

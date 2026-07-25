@@ -53,6 +53,7 @@ technologies = {
             electronics
         }
     }
+
     radio = {
         land_reinforce_rate = 0.02
         coordination_bonus = 0.02
@@ -304,6 +305,7 @@ technologies = {
             electronics
         }
     }
+
     radio_detection = {
         coordination_bonus = 0.01
 
@@ -714,6 +716,7 @@ technologies = {
             radar_tech
         }
     }
+
     mechanical_computing = {
         research_speed_factor = 0.04
 
@@ -853,367 +856,6 @@ technologies = {
             encryption_tech
             decryption_tech
             computing_tech
-        }
-    }
-    basic_encryption = {
-        encryption = 1
-
-        start_year = 1938
-        research_cost = 1
-
-        allow_branch = {
-            NOT = {
-                has_dlc = "La Resistance"
-            }
-        }
-
-        ai_will_do = {
-            factor = 1.75
-            modifier = {
-                has_war = yes
-                factor = 3
-            }
-            modifier = {
-                num_of_military_factories < 50
-                factor = 1.5
-            }
-            modifier = {
-                factor = 3
-                tag = GER
-            }
-            modifier = {
-                factor = 3
-                tag = SOV
-            }
-        }
-        categories = {
-            electronics
-            encryption_tech
-        }
-    }
-    improved_encryption = {
-        encryption = 1
-
-        start_year = 1940
-        research_cost = 1
-
-        allow_branch = {
-            NOT = {
-                has_dlc = "La Resistance"
-            }
-        }
-
-        ai_will_do = {
-            factor = 1.75
-            modifier = {
-                has_war = yes
-                factor = 3
-            }
-            modifier = {
-                num_of_military_factories < 50
-                factor = 1.5
-            }
-            modifier = {
-                factor = 3
-                tag = GER
-            }
-            modifier = {
-                factor = 3
-                tag = SOV
-            }
-        }
-        categories = {
-            electronics
-            encryption_tech
-        }
-    }
-    advanced_encryption = {
-        encryption = 1
-
-        start_year = 1942
-        research_cost = 1
-
-        allow_branch = {
-            NOT = {
-                has_dlc = "La Resistance"
-            }
-        }
-
-        ai_will_do = {
-            factor = 1.75
-            modifier = {
-                has_war = yes
-                factor = 3
-            }
-            modifier = {
-                num_of_military_factories < 50
-                factor = 1.5
-            }
-            modifier = {
-                factor = 3
-                tag = GER
-            }
-            modifier = {
-                factor = 3
-                tag = SOV
-            }
-        }
-        categories = {
-            electronics
-            encryption_tech
-        }
-    }
-    basic_decryption = {
-        decryption = 1
-
-        start_year = 1938
-        research_cost = 1.5
-
-        allow_branch = {
-            NOT = {
-                has_dlc = "La Resistance"
-            }
-        }
-
-        ai_will_do = {
-            factor = 1.5
-            modifier = {
-                num_of_military_factories < 50
-                factor = 1.5
-            }
-            modifier = {
-                factor = 3
-                tag = GER
-            }
-            modifier = {
-                factor = 3
-                tag = SOV
-            }
-        }
-        categories = {
-            electronics
-            decryption_tech
-        }
-    }
-    improved_decryption = {
-        decryption = 1
-
-        start_year = 1940
-        research_cost = 1.5
-
-        allow_branch = {
-            NOT = {
-                has_dlc = "La Resistance"
-            }
-        }
-
-        ai_will_do = {
-            factor = 1.5
-            modifier = {
-                num_of_military_factories < 50
-                factor = 1.5
-            }
-            modifier = {
-                factor = 3
-                tag = GER
-            }
-            modifier = {
-                factor = 3
-                tag = SOV
-            }
-        }
-        categories = {
-            electronics
-            decryption_tech
-        }
-    }
-    advanced_decryption = {
-        decryption = 1
-
-        start_year = 1942
-        research_cost = 1.5
-
-        allow_branch = {
-            NOT = {
-                has_dlc = "La Resistance"
-            }
-        }
-
-        ai_will_do = {
-            factor = 1.5
-            modifier = {
-                num_of_military_factories < 50
-                factor = 1.5
-            }
-            modifier = {
-                factor = 3
-                tag = GER
-            }
-            modifier = {
-                factor = 3
-                tag = SOV
-            }
-        }
-        categories = {
-            electronics
-            decryption_tech
-        }
-    }
-    basic_fire_control_system = {
-        enable_equipment_modules = {
-            ship_fire_control_system_1
-        }
-
-        research_cost = 1
-        folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier1_2 } }
-        dependencies = { FLTE_tech_tier_elec_1 = 1 }
-
-        ai_will_do = {
-            factor = 0.75
-            modifier = {
-                OR = {
-                    tag = ENG
-                    tag = USA
-                    tag = JAP
-                }
-                factor = 3
-            }
-            modifier = {
-                OR = {
-                    can_research = improved_fire_control_system
-                    has_tech = improved_fire_control_system
-                }
-                factor = 0
-            }
-        }
-        categories = {
-            electronics
-            computing_tech
-            naval_equipment
-        }
-    }
-    improved_fire_control_system = {
-        enable_equipment_modules = {
-            ship_fire_control_system_2
-        }
-
-        research_cost = 1
-        folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier2_1 } }
-        dependencies = { FLTE_tech_tier_elec_2 = 1 basic_fire_control_system = 1 }
-
-        ai_will_do = {
-            factor = 0.75
-            modifier = {
-                OR = {
-                    tag = ENG
-                    tag = USA
-                    tag = JAP
-                }
-                factor = 3
-            }
-            modifier = {
-                OR = {
-                    can_research = advanced_fire_control_system
-                    has_tech = advanced_fire_control_system
-                }
-                factor = 0
-            }
-        }
-        categories = {
-            electronics
-            computing_tech
-            naval_equipment
-        }
-    }
-    advanced_fire_control_system = {
-        enable_equipment_modules = {
-            ship_fire_control_system_3
-        }
-
-        research_cost = 1
-        folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier2_2 } }
-        dependencies = { FLTE_tech_tier_elec_2 = 1 improved_fire_control_system = 1 }
-
-        ai_will_do = {
-            factor = 0.75
-            modifier = {
-                OR = {
-                    tag = ENG
-                    tag = USA
-                    tag = JAP
-                }
-                factor = 3
-            }
-        }
-        categories = {
-            electronics
-            computing_tech
-            naval_equipment
-        }
-    }
-
-    nuclear_reactor = {
-        enable_building = {
-            building = nuclear_reactor
-            level = 1
-        }
-
-        start_year = 1943
-        research_cost = 5
-
-        special_project_specialization = { specialization_FLTE_engineering }
-
-        ai_will_do = {
-            factor = 3
-            modifier = {
-                tag = USA
-                factor = 2
-            }
-        }
-        categories = {
-            nuclear
-        }
-    }
-    nuclear_reactor_heavy_water = {
-        enable_building = {
-            building = nuclear_reactor_heavy_water
-            level = 1
-        }
-
-        start_year = 1943
-        research_cost = 5
-
-        special_project_specialization = { specialization_FLTE_engineering }
-
-        ai_will_do = {
-            factor = 1
-        }
-        categories = {
-            nuclear
-        }
-    }
-    nukes = {
-        nuclear_production = 0.5
-
-        start_year = 1945
-        research_cost = 5
-
-        on_research_complete = {
-            if = {
-                limit = {
-                    tag = USA
-                    has_war_with = JAP
-                }
-                play_warning_to_japan_effect = yes
-            }
-        }
-        special_project_specialization = { specialization_FLTE_engineering }
-
-        ai_will_do = {
-            factor = 10
-        }
-        categories = {
-            nuclear
         }
     }
     basic_vacuum_computer = {
@@ -1463,21 +1105,140 @@ technologies = {
             computing_tech
         }
     }
-    ir_guide = {
-        desc = ir_guide_effect_desc # Allows the development of the early Air to Air missiles.
-        
-        start_year = 1955
-        research_cost = 1.5
-        folder = { name = FLTE_elec_folder position = { x = @eme_guide_branch y = @Tier4_2 } }
-        dependencies = { FLTE_tech_tier_elec_4 = 1 }
 
-        is_special_project_tech = yes
+    basic_encryption = {
+        encryption = 1
+
+        start_year = 1938
+        research_cost = 1
+
+        allow_branch = {
+            NOT = {
+                has_dlc = "La Resistance"
+            }
+        }
 
         ai_will_do = {
-            factor = 1
+            factor = 1.75
             modifier = {
-                factor = 0
-                date < 1954.6.1
+                has_war = yes
+                factor = 3
+            }
+            modifier = {
+                num_of_military_factories < 50
+                factor = 1.5
+            }
+            modifier = {
+                factor = 3
+                tag = GER
+            }
+            modifier = {
+                factor = 3
+                tag = SOV
+            }
+        }
+        categories = {
+            electronics
+            encryption_tech
+        }
+    }
+    improved_encryption = {
+        encryption = 1
+
+        start_year = 1940
+        research_cost = 1
+
+        allow_branch = {
+            NOT = {
+                has_dlc = "La Resistance"
+            }
+        }
+
+        ai_will_do = {
+            factor = 1.75
+            modifier = {
+                has_war = yes
+                factor = 3
+            }
+            modifier = {
+                num_of_military_factories < 50
+                factor = 1.5
+            }
+            modifier = {
+                factor = 3
+                tag = GER
+            }
+            modifier = {
+                factor = 3
+                tag = SOV
+            }
+        }
+        categories = {
+            electronics
+            encryption_tech
+        }
+    }
+    advanced_encryption = {
+        encryption = 1
+
+        start_year = 1942
+        research_cost = 1
+
+        allow_branch = {
+            NOT = {
+                has_dlc = "La Resistance"
+            }
+        }
+
+        ai_will_do = {
+            factor = 1.75
+            modifier = {
+                has_war = yes
+                factor = 3
+            }
+            modifier = {
+                num_of_military_factories < 50
+                factor = 1.5
+            }
+            modifier = {
+                factor = 3
+                tag = GER
+            }
+            modifier = {
+                factor = 3
+                tag = SOV
+            }
+        }
+        categories = {
+            electronics
+            encryption_tech
+        }
+    }
+    basic_decryption = {
+        decryption = 1
+
+        start_year = 1938
+        research_cost = 1.5
+
+        allow_branch = {
+            NOT = {
+                has_dlc = "La Resistance"
+            }
+        }
+
+        ai_will_do = {
+            factor = 1.5
+            modifier = {
+                num_of_military_factories < 50
+                factor = 1.5
+            }
+            modifier = {
+                factor = 3
+                tag = GER
+            }
+            modifier = {
+                factor = 3
+                tag = SOV
             }
         }
         categories = {
@@ -1485,46 +1246,68 @@ technologies = {
             decryption_tech
         }
     }
-    tv_guide = {
-        air_cas_efficiency = 0.20
+    improved_decryption = {
+        decryption = 1
 
-        start_year = 1965
+        start_year = 1940
         research_cost = 1.5
-        folder = { name = FLTE_elec_folder position = { x = @eme_guide_branch y = @Tier5_2 } }
-        dependencies = { FLTE_tech_tier_elec_5 = 1 }
 
-        is_special_project_tech = yes
+        allow_branch = {
+            NOT = {
+                has_dlc = "La Resistance"
+            }
+        }
 
         ai_will_do = {
-            factor = 0
+            factor = 1.5
             modifier = {
-                factor = 0
-                date < 1964.6.1
+                num_of_military_factories < 50
+                factor = 1.5
+            }
+            modifier = {
+                factor = 3
+                tag = GER
+            }
+            modifier = {
+                factor = 3
+                tag = SOV
             }
         }
         categories = {
             electronics
+            decryption_tech
         }
     }
-    laser_guide = {
-        air_cas_efficiency = 0.20
+    advanced_decryption = {
+        decryption = 1
 
-        start_year = 1970
+        start_year = 1942
         research_cost = 1.5
-        folder = { name = FLTE_elec_folder position = { x = @eme_guide_branch y = @Tier6_1 } }
-        dependencies = { FLTE_tech_tier_elec_6 = 1 }
 
-        is_special_project_tech = yes
+        allow_branch = {
+            NOT = {
+                has_dlc = "La Resistance"
+            }
+        }
 
         ai_will_do = {
-            factor = 1
+            factor = 1.5
             modifier = {
-                factor = 0
-                date < 1969.6.1
+                num_of_military_factories < 50
+                factor = 1.5
+            }
+            modifier = {
+                factor = 3
+                tag = GER
+            }
+            modifier = {
+                factor = 3
+                tag = SOV
             }
         }
         categories = {
             electronics
+            decryption_tech
         }
     }
     vacuum_encryption = {
@@ -1673,6 +1456,102 @@ technologies = {
             decryption_tech
         }
     }
+
+    basic_fire_control_system = {
+        enable_equipment_modules = {
+            ship_fire_control_system_1
+        }
+
+        research_cost = 1
+        folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier1_2 } }
+        dependencies = { FLTE_tech_tier_elec_1 = 1 }
+        special_project_specialization = { specialization_FLTE_engineering }
+
+        ai_will_do = {
+            factor = 0.75
+            modifier = {
+                OR = {
+                    tag = ENG
+                    tag = USA
+                    tag = JAP
+                }
+                factor = 3
+            }
+            modifier = {
+                OR = {
+                    can_research = improved_fire_control_system
+                    has_tech = improved_fire_control_system
+                }
+                factor = 0
+            }
+        }
+        categories = {
+            electronics
+            computing_tech
+            naval_equipment
+        }
+    }
+    improved_fire_control_system = {
+        enable_equipment_modules = {
+            ship_fire_control_system_2
+        }
+
+        research_cost = 1
+        folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_elec_2 = 1 basic_fire_control_system = 1 }
+        special_project_specialization = { specialization_FLTE_engineering }
+
+        ai_will_do = {
+            factor = 0.75
+            modifier = {
+                OR = {
+                    tag = ENG
+                    tag = USA
+                    tag = JAP
+                }
+                factor = 3
+            }
+            modifier = {
+                OR = {
+                    can_research = advanced_fire_control_system
+                    has_tech = advanced_fire_control_system
+                }
+                factor = 0
+            }
+        }
+        categories = {
+            electronics
+            computing_tech
+            naval_equipment
+        }
+    }
+    advanced_fire_control_system = {
+        enable_equipment_modules = {
+            ship_fire_control_system_3
+        }
+
+        research_cost = 1
+        folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_elec_2 = 1 improved_fire_control_system = 1 }
+        special_project_specialization = { specialization_FLTE_engineering }
+
+        ai_will_do = {
+            factor = 0.75
+            modifier = {
+                OR = {
+                    tag = ENG
+                    tag = USA
+                    tag = JAP
+                }
+                factor = 3
+            }
+        }
+        categories = {
+            electronics
+            computing_tech
+            naval_equipment
+        }
+    }
     Early_modern_fire_control_system = {
         enable_equipment_modules = {
             ship_fire_control_system_4
@@ -1681,11 +1560,9 @@ technologies = {
         start_year = 1955
         research_cost = 1
         folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier4_2 } }
-        dependencies = { FLTE_tech_tier_elec_4 = 1 }
+        dependencies = { FLTE_tech_tier_elec_4 = 1 over_the_horizon_radar = 1 }
+        special_project_specialization = { specialization_FLTE_engineering }
 
-        dependencies = {
-            over_the_horizon_radar = 1
-        }
         ai_will_do = {
             factor = 0.75
             modifier = {
@@ -1711,11 +1588,9 @@ technologies = {
         start_year = 1970
         research_cost = 1
         folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier6_1 } }
-        dependencies = { FLTE_tech_tier_elec_6 = 1 }
+        dependencies = { FLTE_tech_tier_elec_6 = 1 pesa = 1 }
+        special_project_specialization = { specialization_FLTE_engineering }
 
-        dependencies = {
-            pesa = 1
-        }
         ai_will_do = {
             factor = 0.75
             modifier = {
@@ -1741,11 +1616,9 @@ technologies = {
         start_year = 1990
         research_cost = 1
         folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier7_2 } }
-        dependencies = { FLTE_tech_tier_elec_7 = 1 }
+        dependencies = { FLTE_tech_tier_elec_7 = 1 lpi_radar = 1 }
+        special_project_specialization = { specialization_FLTE_engineering }
 
-        dependencies = {
-            lpi_radar = 1
-        }
         ai_will_do = {
             factor = 0.75
             modifier = {
@@ -1761,6 +1634,74 @@ technologies = {
             electronics
             computing_tech
             naval_equipment
+        }
+    }
+
+    ir_guide = {
+        desc = ir_guide_effect_desc # Allows the development of the early Air to Air missiles.
+        
+        start_year = 1955
+        research_cost = 1.5
+        folder = { name = FLTE_elec_folder position = { x = @eme_guide_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_elec_4 = 1 }
+        special_project_specialization = { specialization_FLTE_engineering }
+
+        is_special_project_tech = yes
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                date < 1954.6.1
+            }
+        }
+        categories = {
+            electronics
+            decryption_tech
+        }
+    }
+    tv_guide = {
+        air_cas_efficiency = 0.20
+
+        start_year = 1965
+        research_cost = 1.5
+        folder = { name = FLTE_elec_folder position = { x = @eme_guide_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_elec_5 = 1 }
+        special_project_specialization = { specialization_FLTE_engineering }
+
+        is_special_project_tech = yes
+
+        ai_will_do = {
+            factor = 0
+            modifier = {
+                factor = 0
+                date < 1964.6.1
+            }
+        }
+        categories = {
+            electronics
+        }
+    }
+    laser_guide = {
+        air_cas_efficiency = 0.20
+
+        start_year = 1970
+        research_cost = 1.5
+        folder = { name = FLTE_elec_folder position = { x = @eme_guide_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_elec_6 = 1 }
+        special_project_specialization = { specialization_FLTE_engineering }
+
+        is_special_project_tech = yes
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 0
+                date < 1969.6.1
+            }
+        }
+        categories = {
+            electronics
         }
     }
 }

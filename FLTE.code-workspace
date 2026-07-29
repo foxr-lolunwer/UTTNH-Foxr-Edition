@@ -1,32 +1,36 @@
 {
     "folders": [
         {
-            "name": "BASE",
+            "name": "BASE", // 项目文件夹
             "path": "."
         },
         {
-            "name": "RELEASE",
+            "name": "RELEASE", // release.py的导出文件夹
             "path": "../A UTTNH Fxor Edition"
         },
         {
-            "name": "TECH EP",
+            "name": "TECH EP", // 我自己之前做的科技拓展模组，用于参考
             "path": "../tech ep"
         },
+        // ...在此处添加其他参考文件夹路径
         {
-            "name": "HOI4-RO",
+            "name": "HOI4-RO", // HOI4原版路径，用于查找用法等
             "path": "E:/SteamLibrary/steamapps/common/Hearts of Iron IV"
         }
     ],
     "settings": {
+        // 设置只读限制，防止误修改HOI4原版文件或创意工坊文件等
         "files.readonlyInclude": {
             "E:/SteamLibrary/steamapps/workshop/content/394360/**": true,
             "E:/SteamLibrary/steamapps/common/Hearts of Iron IV/**": true,
             "E:/Documents/Paradox Interactive/Hearts of Iron IV/mod/tech ep/**": true,
         },
+        // 关闭默认的点击文件自动在资源管理器定位
+        // 关闭编辑器的预览模式，这个模式会导致打开多个文件时会自动关闭未保存的文件
         "explorer.autoReveal": false,
         "workbench.editor.enablePreview": false,
         "workbench.editor.enablePreviewFromQuickOpen": false,
-
+        // Secondary Explorer设置，这里对应工作区的第四个文件夹，即HOI4-RO
         "secondaryExplorer.paths": [
             "${workspaceFolders[4]}"
         ]

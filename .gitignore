@@ -1,0 +1,6 @@
+*.code_workspace
+.cwtools.ignore
+zzz_codes/
+codes/
+*.bak
+gfx/

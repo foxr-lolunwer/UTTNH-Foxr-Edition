@@ -1,10 +1,10 @@
 FLTE_EFFECT_init_world_buildings = {
-	if = {
-		limit = { check_variable = { building_level@infrastructure > 0 } }
-		set_temp_variable = { FLTE_state_building_add_num = building_level@infrastructure }
-		multiply_temp_variable = { FLTE_state_building_add_num = 3 }
-		add_building_construction = { type = infrastructure level = FLTE_state_building_add_num }
-	}
+	# if = {
+	# 	limit = { check_variable = { building_level@infrastructure > 0 } }
+	# 	set_temp_variable = { FLTE_state_building_add_num = building_level@infrastructure }
+	# 	multiply_temp_variable = { FLTE_state_building_add_num = 3 }
+	# 	add_building_construction = { type = infrastructure level = FLTE_state_building_add_num }
+	# }
 	if = {
 		limit = { check_variable = { building_level@industrial_complex > 0 } }
 		set_temp_variable = { FLTE_state_building_add_num = building_level@industrial_complex }
@@ -17,27 +17,27 @@ FLTE_EFFECT_init_world_buildings = {
 		# multiply_temp_variable = { FLTE_state_building_add_num = 1 }
 		add_building_construction = { type = arms_factory level = FLTE_state_building_add_num }
 	}
-	if = {
-		limit = { check_variable = { building_level@bunker > 0 } }
-		set_temp_variable = { FLTE_state_building_add_num = building_level@bunker }
-		# multiply_temp_variable = { FLTE_state_building_add_num = 1 }
-		add_building_construction = { type = bunker level = FLTE_state_building_add_num }
-	}
-	if = {
-		limit = { check_variable = { building_level@air_base > 0 } }
-		set_temp_variable = { FLTE_state_building_add_num = building_level@air_base }
-		# multiply_temp_variable = { FLTE_state_building_add_num = 1 }
-		add_building_construction = { type = air_base level = FLTE_state_building_add_num }
-	}
-	if = {
-		limit = { check_variable = { building_level@naval_base > 0 } }
-		set_temp_variable = { FLTE_state_building_add_num = building_level@naval_base }
-		# multiply_temp_variable = { FLTE_state_building_add_num = 1 }
-		add_building_construction = { type = naval_base level = FLTE_state_building_add_num }
-	}
+	# if = {
+	# 	limit = { check_variable = { building_level@bunker > 0 } }
+	# 	set_temp_variable = { FLTE_state_building_add_num = building_level@bunker }
+	# 	# multiply_temp_variable = { FLTE_state_building_add_num = 1 }
+	# 	add_building_construction = { type = bunker level = FLTE_state_building_add_num }
+	# }
+	# if = {
+	# 	limit = { check_variable = { building_level@air_base > 0 } }
+	# 	set_temp_variable = { FLTE_state_building_add_num = building_level@air_base }
+	# 	# multiply_temp_variable = { FLTE_state_building_add_num = 1 }
+	# 	add_building_construction = { type = air_base level = FLTE_state_building_add_num }
+	# }
+	# if = {
+	# 	limit = { check_variable = { building_level@naval_base > 0 } }
+	# 	set_temp_variable = { FLTE_state_building_add_num = building_level@naval_base }
+	# 	# multiply_temp_variable = { FLTE_state_building_add_num = 1 }
+	# 	add_building_construction = { type = naval_base level = FLTE_state_building_add_num }
+	# }
 }
 FLTE_EFFECT_init_flte_tech = {
-	if = { # 初始工厂数量大于4的国家获得工业建设能力和科技映射
+	if = { # 初始工厂数量大于4的国家获得工业建设能力和科技映射判断
 		limit = { num_of_owned_factories > 4 }
 		if = { limit = { NOT = { has_tech = capacity_industrial_construction } }
 			set_technology = { popup = no capacity_industrial_construction = 1 } }

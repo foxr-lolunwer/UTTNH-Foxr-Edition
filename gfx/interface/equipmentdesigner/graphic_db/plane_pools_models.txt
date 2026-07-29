@@ -1,0 +1,5654 @@
+AST = {
+	small_plane_airframe = {
+		pool = {
+			models = {
+				ENG_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			models = {
+				AST_fighter_equipment_1_entity
+				AST_CAS_equipment_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			models = {
+				ENG_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			models = {
+				AST_fighter_equipment_1_entity
+				AST_CAS_equipment_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			models = {
+				ENG_medium_plane_entity
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			models = {
+				ENG_heavy_plane_entity
+			}
+		}
+	}
+}
+
+BRA = {
+	small_plane_airframe = {
+		pool = {
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_0 = {
+		pool = {
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_0 = {
+		pool = {
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_1 = {
+		pool = {
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_1 = {
+		pool = {
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_2 = {
+		pool = {
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_2 = {
+		pool = {
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_3 = {
+		pool = {
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_3 = {
+		pool = {
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_3 = {
+		pool = {
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_4 = {
+		pool = {
+			models = {
+				ENG_jet_fighter_equipment_1_entity
+			}
+		}
+	}
+	small_plane_airframe_5 = {
+		pool = {
+			models = {
+				ENG_jet_fighter_equipment_1_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_jet_fighter_equipment_3_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_airframe_7 = {
+		pool = {
+			models = {
+				FRA_jet_fighter_equipment_4_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_airframe_8 = {
+		pool = {
+			models = {
+				FRA_jet_fighter_equipment_4_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_8_entity
+			}
+		}
+	}
+	small_plane_airframe_9 = {
+		pool = {
+			models = {
+				FRA_jet_fighter_equipment_4_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_airframe_10 = {
+		pool = {
+			models = {
+				FRA_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_airframe_11 = {
+		pool = {
+			models = {
+				FRA_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_11_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_8 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_9 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_10_entity
+			}
+		}
+	}
+	medium_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_3_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_4 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_2_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_5 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_3_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_6 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_7_entity
+			}
+		}
+	}
+	medium_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_7 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_8_entity
+			}
+		}
+	}
+	medium_plane_airframe_8 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_8 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_9_entity
+			}
+		}
+	}
+	large_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_airframe_8 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_8 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			models = {
+				USA_medium_plane_entity
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			models = {
+				USA_heavy_plane_entity
+			}
+		}
+	}
+}
+
+BUL = {
+}
+
+CAN = {
+	small_plane_airframe = {
+		pool = {
+			models = {
+				ENG_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			models = {
+				ENG_light_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			models = {
+				ENG_medium_plane_entity
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			models = {
+				ENG_heavy_plane_entity
+			}
+		}
+	}
+}
+
+CHI = {
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			models = {
+				CHI_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			models = {
+				CHI_light_plane_entity
+			}
+		}
+	}
+}
+
+CZE = {
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			models = {
+				CZE_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_0 = {
+		pool = {
+			models = {
+				CZE_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_1 = {
+		pool = {
+			models = {
+				CZE_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_2 = {
+		pool = {
+			models = {
+				CZE_light_plane_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_2 = {
+		pool = {
+			models = {
+				CZE_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_3 = {
+		pool = {
+			models = {
+				CZE_light_plane_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_3 = {
+		pool = {
+			models = {
+				CZE_light_plane_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_3 = {
+		pool = {
+			models = {
+				CZE_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_4 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_1_entity
+			}
+		}
+	}
+	small_plane_airframe_5 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_1_entity
+			}
+		}
+	}
+	small_plane_airframe_6 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_3_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_airframe_7 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_4_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_airframe_8 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_4_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_8_entity
+			}
+		}
+	}
+	small_plane_airframe_9 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_4_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_airframe_10 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_airframe_11 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_11_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_11_entity
+			}
+		}
+	}
+}
+
+ENG = {
+	small_plane_airframe = {
+		pool = {
+			models = {
+				ENG_light_plane_entity
+				ENG_jet_plane_entity
+			}
+		}
+	}
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			models = {
+				RAJ_fighter_equipment_0_entity
+				AST_fighter_equipment_1_entity
+				AST_CAS_equipment_entity
+			}
+		}
+	}
+	small_plane_airframe_4 = {
+		pool = {
+			models = {
+				ENG_jet_fighter_equipment_1_entity
+			}
+		}
+	}
+	small_plane_airframe_5 = {
+		pool = {
+			models = {
+				ENG_jet_fighter_equipment_2_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				ENG_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				ENG_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_airframe_6 = {
+		pool = {
+			models = {
+				ENG_jet_fighter_equipment_3_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				ENG_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				ENG_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_airframe_7 = {
+		pool = {
+			models = {
+				ENG_jet_fighter_equipment_4_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				ENG_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				ENG_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_airframe_8 = {
+		pool = {
+			models = {
+				ENG_jet_fighter_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_8_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_8_entity
+			}
+		}
+	}
+	small_plane_airframe_9 = {
+		pool = {
+			models = {
+				ENG_jet_fighter_equipment_6_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_airframe_10 = {
+		pool = {
+			models = {
+				USA_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				ENG_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				ENG_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_airframe_11 = {
+		pool = {
+			models = {
+				USA_jet_fighter_equipment_8_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				ENG_CAS_equipment_11_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				ENG_CAS_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_4 = {
+		pool = {
+			models = {
+				ENG_cv_fighter_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_5 = {
+		pool = {
+			models = {
+				ENG_cv_fighter_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				ENG_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				ENG_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_6 = {
+		pool = {
+			models = {
+				ENG_cv_fighter_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				ENG_cv_CAS_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				ENG_cv_CAS_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_7 = {
+		pool = {
+			models = {
+				ENG_cv_fighter_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				ENG_cv_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				ENG_cv_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_8 = {
+		pool = {
+			models = {
+				ENG_cv_fighter_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				ENG_cv_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				ENG_cv_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_9 = {
+		pool = {
+			models = {
+				ENG_cv_fighter_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_10_entity
+			}
+		}
+	}
+	medium_plane_airframe_4 = {
+		pool = {
+			models = {
+				ENG_jet_tac_bomber_equipment_1_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_4 = {
+		pool = {
+			models = {
+				ENG_heavy_fighter_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_2_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_5 = {
+		pool = {
+			models = {
+				ENG_heavy_fighter_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_3_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_6 = {
+		pool = {
+			models = {
+				ENG_heavy_fighter_equipment_6_entity
+			}
+		}
+	}
+	medium_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_7 = {
+		pool = {
+			models = {
+				ENG_heavy_fighter_equipment_7_entity
+			}
+		}
+	}
+	medium_plane_airframe_8 = {
+		pool = {
+			models = {
+				ENG_jet_tac_bomber_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_8 = {
+		pool = {
+			models = {
+				ENG_heavy_fighter_equipment_8_entity
+			}
+		}
+	}
+	large_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_airframe_5 = {
+		pool = {
+			models = {
+				ENG_jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_airframe_6 = {
+		pool = {
+			models = {
+				ENG_jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_airframe_7 = {
+		pool = {
+			models = {
+				ENG_jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_airframe_8 = {
+		pool = {
+			models = {
+				ENG_jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_5 = {
+		pool = {
+			models = {
+				ENG_jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_6 = {
+		pool = {
+			models = {
+				ENG_jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_7 = {
+		pool = {
+			models = {
+				ENG_jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_8 = {
+		pool = {
+			models = {
+				ENG_jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			models = {
+				ENG_light_plane_entity
+				ENG_jet_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			models = {
+				RAJ_fighter_equipment_0_entity
+				AST_fighter_equipment_1_entity
+				AST_CAS_equipment_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			models = {
+				ENG_medium_plane_entity
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			models = {
+				ENG_heavy_plane_entity
+			}
+		}
+	}
+}
+
+EST = {
+}
+
+FRA = {
+	small_plane_airframe = {
+		pool = {
+			models = {
+				FRA_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_4 = {
+		pool = {
+			models = {
+				FRA_jet_fighter_equipment_1_entity
+			}
+		}
+	}
+	small_plane_airframe_5 = {
+		pool = {
+			models = {
+				FRA_jet_fighter_equipment_2_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_airframe_6 = {
+		pool = {
+			models = {
+				FRA_jet_fighter_equipment_3_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_airframe_7 = {
+		pool = {
+			models = {
+				FRA_jet_fighter_equipment_4_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_airframe_8 = {
+		pool = {
+			models = {
+				FRA_jet_fighter_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_8_entity
+			}
+		}
+	}
+	small_plane_airframe_9 = {
+		pool = {
+			models = {
+				FRA_jet_fighter_equipment_6_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_airframe_10 = {
+		pool = {
+			models = {
+				FRA_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_airframe_11 = {
+		pool = {
+			models = {
+				FRA_jet_fighter_equipment_8_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_11_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_4 = {
+		pool = {
+			models = {
+				FRA_jet_fighter_equipment_1_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_6 = {
+		pool = {
+			models = {
+				FRA_cv_fighter_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_7 = {
+		pool = {
+			models = {
+				FRA_cv_fighter_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_8 = {
+		pool = {
+			models = {
+				FRA_cv_fighter_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_9 = {
+		pool = {
+			models = {
+				FRA_cv_fighter_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				FRA_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_10 = {
+		pool = {
+			models = {
+				FRA_cv_fighter_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_11 = {
+		pool = {
+			models = {
+				FRA_cv_fighter_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_11_entity
+			}
+		}
+	}
+	medium_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_3_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_4 = {
+		pool = {
+			models = {
+				FRA_heavy_fighter_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_airframe_5 = {
+		pool = {
+			models = {
+				FRA_jet_tac_bomber_equipment_2_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_5 = {
+		pool = {
+			models = {
+				FRA_heavy_fighter_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_airframe_6 = {
+		pool = {
+			models = {
+				FRA_jet_tac_bomber_equipment_3_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_6 = {
+		pool = {
+			models = {
+				FRA_heavy_fighter_equipment_7_entity
+			}
+		}
+	}
+	medium_plane_airframe_7 = {
+		pool = {
+			models = {
+				FRA_jet_tac_bomber_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_7 = {
+		pool = {
+			models = {
+				FRA_heavy_fighter_equipment_8_entity
+			}
+		}
+	}
+	medium_plane_airframe_8 = {
+		pool = {
+			models = {
+				FRA_jet_tac_bomber_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_8 = {
+		pool = {
+			models = {
+				FRA_heavy_fighter_equipment_9_entity
+			}
+		}
+	}
+	large_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_airframe_5 = {
+		pool = {
+			models = {
+				FRA_jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_airframe_6 = {
+		pool = {
+			models = {
+				FRA_jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_airframe_7 = {
+		pool = {
+			models = {
+				FRA_jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_airframe_8 = {
+		pool = {
+			models = {
+				FRA_jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_5 = {
+		pool = {
+			models = {
+				FRA_jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_6 = {
+		pool = {
+			models = {
+				FRA_jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_7 = {
+		pool = {
+			models = {
+				FRA_jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_8 = {
+		pool = {
+			models = {
+				FRA_jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			models = {
+				FRA_light_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			models = {
+				FRA_medium_plane_entity
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			models = {
+				FRA_heavy_plane_entity
+			}
+		}
+	}
+}
+
+GER = {
+	small_plane_airframe = {
+		pool = {
+			models = {
+				GER_light_plane_entity
+				GER_jet_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_4 = {
+		pool = {
+			models = {
+				GER_jet_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_5 = {
+		pool = {
+			models = {
+				GER_jet_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_6 = {
+		pool = {
+			models = {
+				GER_jet_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_7 = {
+		pool = {
+			models = {
+				GER_jet_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_8 = {
+		pool = {
+			models = {
+				GER_jet_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_9 = {
+		pool = {
+			models = {
+				GER_jet_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_10 = {
+		pool = {
+			models = {
+				GER_jet_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_11 = {
+		pool = {
+			models = {
+				GER_jet_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			models = {
+				GER_light_plane_entity
+				GER_jet_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_4 = {
+		pool = {
+			models = {
+				GER_jet_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_5 = {
+		pool = {
+			models = {
+				GER_jet_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_6 = {
+		pool = {
+			models = {
+				GER_jet_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_7 = {
+		pool = {
+			models = {
+				GER_jet_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_8 = {
+		pool = {
+			models = {
+				GER_jet_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_9 = {
+		pool = {
+			models = {
+				GER_jet_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_10 = {
+		pool = {
+			models = {
+				GER_jet_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_11 = {
+		pool = {
+			models = {
+				GER_jet_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			models = {
+				GER_medium_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe_4 = {
+		pool = {
+			models = {
+				GER_medium_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe_5 = {
+		pool = {
+			models = {
+				GER_medium_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe_6 = {
+		pool = {
+			models = {
+				GER_medium_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe_7 = {
+		pool = {
+			models = {
+				GER_medium_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe_8 = {
+		pool = {
+			models = {
+				GER_medium_plane_entity
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			models = {
+				GER_heavy_plane_entity
+			}
+		}
+	}
+	large_plane_airframe_4 = {
+		pool = {
+			models = {
+				GER_heavy_plane_entity
+			}
+		}
+	}
+	large_plane_airframe_5 = {
+		pool = {
+			models = {
+				GER_heavy_plane_entity
+			}
+		}
+	}
+	large_plane_airframe_5 = {
+		pool = {
+			models = {
+				GER_heavy_plane_entity
+			}
+		}
+	}
+	large_plane_airframe_7 = {
+		pool = {
+			models = {
+				GER_heavy_plane_entity
+			}
+		}
+	}
+	large_plane_airframe_8 = {
+		pool = {
+			models = {
+				GER_heavy_plane_entity
+			}
+		}
+	}
+}
+
+GRE = {
+}
+
+GXC = {
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			models = {
+				CHI_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			models = {
+				CHI_light_plane_entity
+			}
+		}
+	}
+}
+
+HOL = {
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			models = {
+				HOL_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			models = {
+				HOL_light_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			models = {
+				HOL_medium_plane_entity
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			models = {
+				HOL_heavy_plane_entity
+			}
+		}
+	}
+}
+
+HUN = {
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			models = {
+				HUN_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			models = {
+				HUN_light_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			models = {
+				HUN_medium_plane_entity
+			}
+		}
+	}
+}
+
+ITA = {
+	small_plane_airframe = {
+		pool = {
+			models = {
+				ITA_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_fighter_equipment_1_entity
+			}
+		}
+	}
+	small_plane_airframe_5 = {
+		pool = {
+			models = {
+				ITA_jet_fighter_equipment_2_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				ITA_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				ITA_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_airframe_6 = {
+		pool = {
+			models = {
+				ITA_jet_fighter_equipment_3_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				ITA_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				ITA_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_airframe_7 = {
+		pool = {
+			models = {
+				ITA_jet_fighter_equipment_4_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				ITA_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_airframe_8 = {
+		pool = {
+			models = {
+				ITA_jet_fighter_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_8_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_8_entity
+			}
+		}
+	}
+	small_plane_airframe_9 = {
+		pool = {
+			models = {
+				ITA_jet_fighter_equipment_6_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				ITA_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				ITA_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_airframe_10 = {
+		pool = {
+			models = {
+				ITA_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				ITA_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				ITA_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_airframe_11 = {
+		pool = {
+			models = {
+				ITA_jet_fighter_equipment_8_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				ITA_CAS_equipment_11_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				ITA_CAS_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_8 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_9 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_10_entity
+			}
+		}
+	}
+	medium_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_3_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_4 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_2_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_5 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_3_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_6 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_6_entity
+			}
+		}
+	}
+	medium_plane_airframe_7 = {
+		pool = {
+			models = {
+				ITA_jet_tac_bomber_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_7 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_8_entity
+			}
+		}
+	}
+	medium_plane_airframe_8 = {
+		pool = {
+			models = {
+				ITA_jet_tac_bomber_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_8 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_9_entity
+			}
+		}
+	}
+	large_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_airframe_8 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_8 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			models = {
+				ITA_light_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			models = {
+				ITA_medium_plane_entity
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			models = {
+				ITA_heavy_plane_entity
+			}
+		}
+	}
+}
+
+JAP = {
+	small_plane_airframe = {
+		pool = {
+			models = {
+				JAP_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_fighter_equipment_1_entity
+			}
+		}
+	}
+	small_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_jet_fighter_equipment_2_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_airframe_6 = {
+		pool = {
+			models = {
+				JAP_jet_fighter_equipment_3_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_airframe_7 = {
+		pool = {
+			models = {
+				JAP_jet_fighter_equipment_4_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_airframe_8 = {
+		pool = {
+			models = {
+				JAP_jet_fighter_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_8_entity
+			}
+		}
+	}
+	small_plane_airframe_9 = {
+		pool = {
+			models = {
+				JAP_jet_fighter_equipment_6_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_airframe_10 = {
+		pool = {
+			models = {
+				JAP_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				JAP_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				JAP_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_airframe_11 = {
+		pool = {
+			models = {
+				JAP_jet_fighter_equipment_8_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_11_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_8 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_9 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_10_entity
+			}
+		}
+	}
+	medium_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_3_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_4 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_2_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_5 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_3_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_6 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_7_entity
+			}
+		}
+	}
+	medium_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_7 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_8_entity
+			}
+		}
+	}
+	medium_plane_airframe_8 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_8 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_9_entity
+			}
+		}
+	}
+	large_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_airframe_8 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_8 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			models = {
+				JAP_light_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			models = {
+				JAP_medium_plane_entity
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			models = {
+				JAP_heavy_plane_entity
+			}
+		}
+	}
+}
+
+LAT = {
+}
+
+LIT = {
+}
+
+MAN = {
+	small_plane_airframe = {
+		pool = {
+			models = {
+				JAP_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			models = {
+				JAP_light_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			models = {
+				JAP_medium_plane_entity
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			models = {
+				JAP_heavy_plane_entity
+			}
+		}
+	}
+}
+
+MEX = {
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			models = {
+				MEX_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			models = {
+				MEX_light_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			models = {
+				MEX_medium_plane_entity
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			models = {
+				MEX_heavy_plane_entity
+			}
+		}
+	}
+}
+
+NZL = {
+	small_plane_airframe = {
+		pool = {
+			models = {
+				ENG_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			models = {
+				ENG_light_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			models = {
+				ENG_medium_plane_entity
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			models = {
+				ENG_heavy_plane_entity
+			}
+		}
+	}
+}
+
+POL = {
+}
+
+POR = {
+}
+
+PRC = {
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			models = {
+				PRC_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_4 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_1_entity
+			}
+		}
+	}
+	small_plane_airframe_5 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_2_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_airframe_6 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_3_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_airframe_7 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_4_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_airframe_8 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_8_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_8_entity
+			}
+		}
+	}
+	small_plane_airframe_9 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_6_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				PRC_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				PRC_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_airframe_10 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				PRC_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				PRC_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_airframe_11 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_8_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				PRC_CAS_equipment_11_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				PRC_CAS_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_4 = {
+		pool = {
+			models = {
+				SOV_cv_fighter_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_5 = {
+		pool = {
+			models = {
+				SOV_cv_fighter_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_6 = {
+		pool = {
+			models = {
+				SOV_cv_fighter_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_7 = {
+		pool = {
+			models = {
+				SOV_cv_fighter_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_8 = {
+		pool = {
+			models = {
+				SOV_cv_fighter_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_9 = {
+		pool = {
+			models = {
+				SOV_cv_fighter_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_10 = {
+		pool = {
+			models = {
+				SOV_cv_fighter_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_11 = {
+		pool = {
+			models = {
+				SOV_cv_fighter_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_10_entity
+			}
+		}
+	}
+	medium_plane_airframe_4 = {
+		pool = {
+			models = {
+				SOV_jet_tac_bomber_equipment_1_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_4 = {
+		pool = {
+			models = {
+				SOV_heavy_fighter_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_airframe_5 = {
+		pool = {
+			models = {
+				SOV_jet_tac_bomber_equipment_2_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_5 = {
+		pool = {
+			models = {
+				SOV_heavy_fighter_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_airframe_6 = {
+		pool = {
+			models = {
+				SOV_jet_tac_bomber_equipment_3_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_6 = {
+		pool = {
+			models = {
+				SOV_heavy_fighter_equipment_7_entity
+			}
+		}
+	}
+	medium_plane_airframe_7 = {
+		pool = {
+			models = {
+				SOV_jet_tac_bomber_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_7 = {
+		pool = {
+			models = {
+				SOV_heavy_fighter_equipment_8_entity
+			}
+		}
+	}
+	medium_plane_airframe_8 = {
+		pool = {
+			models = {
+				SOV_jet_tac_bomber_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_8 = {
+		pool = {
+			models = {
+				SOV_heavy_fighter_equipment_9_entity
+			}
+		}
+	}
+	large_plane_airframe_4 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_airframe_5 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_airframe_6 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_airframe_7 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_airframe_8 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_4 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_5 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_6 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_7 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_8 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			models = {
+				PRC_light_plane_entity
+			}
+		}
+	}
+}
+
+RAJ = {
+	small_plane_airframe = {
+		pool = {
+			models = {
+				ENG_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			models = {
+				RAJ_fighter_equipment_0_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			models = {
+				ENG_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			models = {
+				RAJ_fighter_equipment_0_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			models = {
+				ENG_medium_plane_entity
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			models = {
+				ENG_heavy_plane_entity
+			}
+		}
+	}
+}
+
+ROM = {
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			models = {
+				ROM_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			models = {
+				ROM_light_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			models = {
+				ROM_medium_plane_entity
+			}
+		}
+	}
+}
+
+SAF = {
+	small_plane_airframe = {
+		pool = {
+			models = {
+				ENG_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			models = {
+				ENG_light_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			models = {
+				ENG_medium_plane_entity
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			models = {
+				ENG_heavy_plane_entity
+			}
+		}
+	}
+}
+
+SHX = {
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			models = {
+				CHI_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			models = {
+				CHI_light_plane_entity
+			}
+		}
+	}
+}
+
+SIK = {
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			models = {
+				CHI_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			models = {
+				CHI_light_plane_entity
+			}
+		}
+	}
+}
+
+SOV = {
+	small_plane_airframe = {
+		pool = {
+			models = {
+				SOV_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_4 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_1_entity
+			}
+		}
+	}
+	small_plane_airframe_5 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_2_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_airframe_6 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_3_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_airframe_7 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_4_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_airframe_8 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_8_entity
+			}
+		}
+	}
+	small_plane_airframe_9 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_6_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_airframe_10 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_airframe_11 = {
+		pool = {
+			models = {
+				SOV_jet_fighter_equipment_8_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_11_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				SOV_CAS_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			models = {
+				SOV_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_4 = {
+		pool = {
+			models = {
+				SOV_cv_fighter_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_5 = {
+		pool = {
+			models = {
+				SOV_cv_fighter_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_6 = {
+		pool = {
+			models = {
+				SOV_cv_fighter_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_7 = {
+		pool = {
+			models = {
+				SOV_cv_fighter_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_8 = {
+		pool = {
+			models = {
+				SOV_cv_fighter_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_9 = {
+		pool = {
+			models = {
+				SOV_cv_fighter_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_10 = {
+		pool = {
+			models = {
+				SOV_cv_fighter_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_11 = {
+		pool = {
+			models = {
+				SOV_cv_fighter_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				SOV_cv_CAS_equipment_10_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			models = {
+				SOV_medium_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe_4 = {
+		pool = {
+			models = {
+				SOV_jet_tac_bomber_equipment_1_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_4 = {
+		pool = {
+			models = {
+				SOV_heavy_fighter_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_airframe_5 = {
+		pool = {
+			models = {
+				SOV_jet_tac_bomber_equipment_2_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_5 = {
+		pool = {
+			models = {
+				SOV_heavy_fighter_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_airframe_6 = {
+		pool = {
+			models = {
+				SOV_jet_tac_bomber_equipment_3_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_6 = {
+		pool = {
+			models = {
+				SOV_heavy_fighter_equipment_7_entity
+			}
+		}
+	}
+	medium_plane_airframe_7 = {
+		pool = {
+			models = {
+				SOV_jet_tac_bomber_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_7 = {
+		pool = {
+			models = {
+				SOV_heavy_fighter_equipment_8_entity
+			}
+		}
+	}
+	medium_plane_airframe_8 = {
+		pool = {
+			models = {
+				SOV_jet_tac_bomber_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_8 = {
+		pool = {
+			models = {
+				SOV_heavy_fighter_equipment_9_entity
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			models = {
+				SOV_heavy_plane_entity
+			}
+		}
+	}
+	large_plane_airframe_4 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_airframe_5 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_airframe_6 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_airframe_7 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_airframe_8 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_4 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_5 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_6 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_7 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_8 = {
+		pool = {
+			models = {
+				SOV_jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+}
+
+SPR = {
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			models = {
+				SPA_light_plane_entity
+				SPR_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			models = {
+				SPA_light_plane_entity
+				SPR_light_plane_entity
+			}
+		}
+	}
+}
+
+SWE = {
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_light_plane_0_entity
+				SWE_light_plane_1_entity
+				SWE_light_plane_2_entity
+				SWE_light_plane_3_entity
+				SWE_modern_plane_entity
+				SWE_jet_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_0 = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_light_plane_0_entity
+			}
+		}
+	}
+	small_plane_airframe_1 = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_light_plane_1_entity
+			}
+		}
+	}
+	small_plane_airframe_2 = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_light_plane_2_entity
+			}
+		}
+	}
+	small_plane_airframe_3 = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_light_plane_3_entity
+			}
+		}
+	}
+	small_plane_airframe_4 = {
+		pool = {
+			models = {
+				SWE_jet_fighter_equipment_2_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_4 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_4_entity
+			}
+		}
+	}
+	small_plane_airframe_5 = {
+		pool = {
+			models = {
+				SWE_jet_fighter_equipment_3_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_airframe_6 = {
+		pool = {
+			models = {
+				SWE_jet_fighter_equipment_4_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_airframe_7 = {
+		pool = {
+			models = {
+				SWE_jet_fighter_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				SWE_CAS_equipment_8_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				SWE_CAS_equipment_8_entity
+			}
+		}
+	}
+	small_plane_airframe_8 = {
+		pool = {
+			models = {
+				SWE_jet_fighter_equipment_6_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				SWE_CAS_equipment_8_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				SWE_CAS_equipment_8_entity
+			}
+		}
+	}
+	small_plane_airframe_9 = {
+		pool = {
+			models = {
+				SWE_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				SWE_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				SWE_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_airframe_10 = {
+		pool = {
+			models = {
+				SWE_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				SWE_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				SWE_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_airframe_11 = {
+		pool = {
+			models = {
+				SWE_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				SWE_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				SWE_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_CAS_equipment_2_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_2 = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_CAS_equipment_2_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_light_plane_0_entity
+				SWE_light_plane_1_entity
+				SWE_light_plane_2_entity
+				SWE_light_plane_3_entity
+				SWE_modern_plane_entity
+				SWE_jet_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_0 = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_light_plane_0_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_1 = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_light_plane_1_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_2 = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_light_plane_2_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_3 = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_light_plane_3_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_4 = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_modern_plane_entity
+				SWE_jet_plane_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_CAS_equipment_2_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_2 = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_CAS_equipment_2_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_medium_plane_0_entity
+				SWE_medium_plane_1_entity
+				SWE_medium_plane_2_entity
+			}
+		}
+	}
+	medium_plane_airframe_0 = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_medium_plane_0_entity
+			}
+		}
+	}
+	medium_plane_airframe_1 = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_medium_plane_1_entity
+			}
+		}
+	}
+	medium_plane_airframe_2 = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_medium_plane_2_entity
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Arms Against Tyranny" }
+			models = {
+				SWE_heavy_plane_entity
+			}
+		}
+	}
+}
+
+SWI = {
+}
+
+TUR = {
+}
+
+USA = {
+	small_plane_airframe = {
+		pool = {
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	small_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_fighter_equipment_1_entity
+			}
+		}
+	}
+	small_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_jet_fighter_equipment_2_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_jet_fighter_equipment_3_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_jet_fighter_equipment_4_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_airframe_8 = {
+		pool = {
+			models = {
+				USA_jet_fighter_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_8_entity
+			}
+		}
+	}
+	small_plane_airframe_9 = {
+		pool = {
+			models = {
+				USA_jet_fighter_equipment_6_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_airframe_10 = {
+		pool = {
+			models = {
+				USA_jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_airframe_11 = {
+		pool = {
+			models = {
+				USA_jet_fighter_equipment_8_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_11_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				USA_CAS_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			models = {
+				USA_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_8 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_9 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_10_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			models = {
+				USA_medium_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_3_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_4 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_2_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_5 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_3_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_6 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_7_entity
+			}
+		}
+	}
+	medium_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_7 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_8_entity
+			}
+		}
+	}
+	medium_plane_airframe_8 = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_8 = {
+		pool = {
+			models = {
+				USA_heavy_fighter_equipment_9_entity
+			}
+		}
+	}
+	stealth_bomber_airframe = {
+		pool = {
+			models = {
+				jet_tac_bomber_equipment_5_entity
+			}
+		}
+	}
+	large_plane_airframe = {
+		pool = {
+			models = {
+				USA_heavy_plane_entity
+			}
+		}
+	}
+	large_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_airframe_8 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_8 = {
+		pool = {
+			models = {
+				USA_jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+}
+
+XSM = {
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			models = {
+				CHI_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			models = {
+				CHI_light_plane_entity
+			}
+		}
+	}
+}
+
+YUG = {
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			models = {
+				YUG_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			models = {
+				YUG_light_plane_entity
+			}
+		}
+	}
+	medium_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			models = {
+				YUG_medium_plane_entity
+			}
+		}
+	}
+}
+
+YUN = {
+	small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			models = {
+				CHI_light_plane_entity
+			}
+		}
+	}
+	cv_small_plane_airframe = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			models = {
+				CHI_light_plane_entity
+			}
+		}
+	}
+}
+
+default = {
+	small_plane_airframe_4 = {
+		pool = {
+			models = {
+				jet_fighter_equipment_1_entity
+			}
+		}
+	}
+	small_plane_airframe_5 = {
+		pool = {
+			models = {
+				jet_fighter_equipment_2_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				CAS_equipment_5_entity
+			}
+		}
+	}
+	small_plane_airframe_6 = {
+		pool = {
+			models = {
+				jet_fighter_equipment_3_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				CAS_equipment_6_entity
+			}
+		}
+	}
+	small_plane_airframe_7 = {
+		pool = {
+			models = {
+				jet_fighter_equipment_4_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				CAS_equipment_7_entity
+			}
+		}
+	}
+	small_plane_airframe_8 = {
+		pool = {
+			models = {
+				jet_fighter_equipment_5_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				CAS_equipment_8_entity
+			}
+		}
+	}
+	small_plane_airframe_9 = {
+		pool = {
+			models = {
+				jet_fighter_equipment_6_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				CAS_equipment_9_entity
+			}
+		}
+	}
+	small_plane_airframe_10 = {
+		pool = {
+			models = {
+				jet_fighter_equipment_7_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				CAS_equipment_10_entity
+			}
+		}
+	}
+	small_plane_airframe_11 = {
+		pool = {
+			models = {
+				jet_fighter_equipment_8_entity
+			}
+		}
+	}
+	small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				CAS_equipment_11_entity
+			}
+		}
+	}
+	small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				CAS_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_4 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_5 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_5_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_5 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_5 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_6 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_6 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_6 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_4_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_7 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_7 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_7 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_6_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_8 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_8 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_8 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_7_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_9 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_9 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_9 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_8_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_10 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_9_entity
+			}
+		}
+	}
+	cv_small_plane_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_fighter_equipment_11_entity
+			}
+		}
+	}
+	cv_small_plane_cas_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_10_entity
+			}
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_11 = {
+		pool = {
+			models = {
+				USA_cv_CAS_equipment_10_entity
+			}
+		}
+	}
+	medium_plane_airframe_4 = {
+		pool = {
+			models = {
+				jet_tac_bomber_equipment_1_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_4 = {
+		pool = {
+			models = {
+				heavy_fighter_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_airframe_5 = {
+		pool = {
+			models = {
+				jet_tac_bomber_equipment_2_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_5 = {
+		pool = {
+			models = {
+				heavy_fighter_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_airframe_6 = {
+		pool = {
+			models = {
+				jet_tac_bomber_equipment_3_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_6 = {
+		pool = {
+			models = {
+				heavy_fighter_equipment_7_entity
+			}
+		}
+	}
+	medium_plane_airframe_7 = {
+		pool = {
+			models = {
+				jet_tac_bomber_equipment_4_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_7 = {
+		pool = {
+			models = {
+				heavy_fighter_equipment_8_entity
+			}
+		}
+	}
+	medium_plane_airframe_8 = {
+		pool = {
+			models = {
+				jet_tac_bomber_equipment_5_entity
+			}
+		}
+	}
+	medium_plane_fighter_airframe_8 = {
+		pool = {
+			models = {
+				heavy_fighter_equipment_9_entity
+			}
+		}
+	}
+	stealth_bomber_airframe = {
+		pool = {
+			models = {
+				USA_jet_tac_bomber_equipment_6_entity
+			}
+		}
+	}
+	large_plane_airframe_4 = {
+		pool = {
+			models = {
+				jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_airframe_5 = {
+		pool = {
+			models = {
+				jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_airframe_6 = {
+		pool = {
+			models = {
+				jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_airframe_7 = {
+		pool = {
+			models = {
+				jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_airframe_8 = {
+		pool = {
+			models = {
+				jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_4 = {
+		pool = {
+			models = {
+				jet_strat_bomber_equipment_1_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_5 = {
+		pool = {
+			models = {
+				jet_strat_bomber_equipment_2_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_6 = {
+		pool = {
+			models = {
+				jet_strat_bomber_equipment_3_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_7 = {
+		pool = {
+			models = {
+				jet_strat_bomber_equipment_4_entity
+			}
+		}
+	}
+	large_plane_maritime_patrol_plane_airframe_8 = {
+		pool = {
+			models = {
+				jet_strat_bomber_equipment_5_entity
+			}
+		}
+	}
+}

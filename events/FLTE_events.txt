@@ -12,12 +12,7 @@ country_event = {
 	option = {
 		name = FLTE_events.1.a
 		hidden_effect = {
-			if = {
-				limit = { NOT = { has_global_flag = FLTE_GLFLAG_init_world_done } }
-				set_global_flag = FLTE_GLFLAG_init_world_done
-				every_country = { FLTE_EFFECT_init_flte_tech = yes }
-				every_state = { FLTE_EFFECT_init_world_buildings = yes }
-			}
+			
 		}
 	}
 	option = {

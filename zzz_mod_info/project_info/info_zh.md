@@ -16,9 +16,9 @@
 
 * **Recommended**
   * `chaofan.hoi4modutilities` - GUI/科技树预览
-  * `tboby.cwtools-vscode` - 代码提示规则库
   * `tboby.paradox-syntax` - 代码提示高亮
 * **Optional**
+  * `tboby.cwtools-vscode` - 代码提示规则库
   * `Thinker.secondary-explorer` - 右侧的第二个资源管理器，参考用
   * `ms-python.python` - Python编辑，编辑器快速运行.py文件
   * `ms-python.debugpy` - Python Debug 更推荐使用PyCharm

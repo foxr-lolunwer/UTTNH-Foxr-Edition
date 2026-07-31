@@ -1,91 +1,90 @@
 guiTypes = {
 	containerWindowType = {
-		name = "FLMB_researchmenu"
-		position = { x = -250 y = -250 }
-		size = { width = 565 height = 600 }
+		name = "FLTE_welocme_menu"
+		position = { x = -400 y = -241 }
+		size = { width = 800 height = 482 }
 		fade_time = 300
 		fade_type = linear
 		moveable = yes
 		show_sound = menu_open_window
-		click_to_front = yes
 		orientation = CENTER
 
 		background = {
-			name = "bg"
-			quadTextureSprite = "GFX_tiled_plain_bg"
+			name = "AHET_welcome_menu_bg"
+			quadTextureSprite = "GFX_FLTE_NONE"
 		}
-		instantTextBoxType = {
+		iconType = {
+			name = "titlebar"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_FLTE_welocme_menu_titlebar"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "bg"
+			position = { x = 0 y = 32 }
+			spriteType = "GFX_FLTE_welocme_menu_bg_default"
+		}
+		
+		iconType = {
 			name = "title"
-			position = { x = 30 y = 15 }
-			font = "hoi_30header"
-			borderSize = { x = 0 y = 0 }
-			text = "FLMB_GUI_researchmenu_title"
-			maxWidth = 500
-			maxHeight = 20
-			format = left
+			position = { x = 11 y = 83 }
+			spriteType = "GFX_FLTE_welocme_menu_title"
+		}
+		iconType = {
+			name = "msg"
+			position = { x = 11 y = 142 }
+			spriteType = "GFX_FLTE_welocme_menu_msg"
+		}
+		
+		buttonType = {
+			name = "start_button"
+			position = { x = 562 y = 381 }
+			spriteType = "GFX_FLTE_welocme_menu_start_btn"
+		}
+		iconType = {
+			name = "start_btn_icon_anim"
+			position = { x = 562 y = 381 } # = "start_button"
+			spriteType = "GFX_FLTE_welocme_menu_start_btn_icon_anim"
+			frame = 1
+			alwaystransparent = yes
+		}
+	}
+	containerWindowType = {
+		name = "FLTE_welocme_menu_sub_window"
+		position = { x = 16 y = 286 }
+		size = { width = 180 height = 180 }
+
+		buttonType = {
+			name = "main_button"
+			position = { x = 0 y = 60 }
+			spriteType = "GFX_FLTE_welocme_menu_main_button_normal"
+		}
+
+		buttonType = {
+			name = "sub_button_1"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_FLTE_welocme_menu_main_sub_button_1"
 		}
 		buttonType = {
-			name = "button_close"
-			position = { x = -44 y = 12 }
-			spriteType = "GFX_NV_btn_close"
-			pdx_tooltip = "CLOSE"
-			orientation = UPPER_RIGHT
+			name = "sub_button_2"
+			position = { x = 60 y = 0 }
+			spriteType = "GFX_FLTE_welocme_menu_main_sub_button_2"
 		}
-
-		containerWindowType = {
-			name = "FLMB_researchmenu_project_window"
-			position = { x = 10 y = 50 }
-			size = { width = 545 height = 540 }
-			margin = { top = 10 bottom = 10 }
-			verticalScrollbar = "right_vertical_slider"
-
-			background = {
-				name = "SCW_supplies_system_country_list_bg"
-				quadTextureSprite = "GFX_tiled_window_1b_thin_border"
-			}
-
-			containerWindowType = {
-				name = "FLMB_researchmenu_project_1"
-				position = { x = 15 y = 0 }
-				size = { width = 250 height = 100 }
-				background = {
-					name = "bg"
-					quadTextureSprite = "GFX_tiled_plain_bg"
-				}
-				iconType = {
-					name = "FLMB_researchmenu_project_1_icon"
-					position = { x = 15 y = 15 }
-					spriteType = "GFX_buildings_strip"
-				}
-				instantTextBoxType = {
-					name = "FLMB_researchmenu_project_1_name"
-					position = { x = 80 y = 25 }
-					text = "基础设施"
-					font = "hoi_20"
-					format = left
-					maxHeight = 20
-					maxWidth = 120
-				}
-				instantTextBoxType = {
-					name = "FLMB_researchmenu_project_1_cost"
-					position = { x = 20 y = 65 }
-					text = "研究时间"
-					font = "hoi_18"
-					format = left
-					maxHeight = 20
-					maxWidth = 120
-				}
-
-			}
-			containerWindowType = {
-				name = "FLMB_researchmenu_project_2"
-				position = { x = 265 y = 0 }
-				size = { width = 250 height = 100 }
-				background = {
-					name = "bg"
-					quadTextureSprite = "GFX_tiled_plain_bg"
-				}
-			}
+		buttonType = {
+			name = "sub_button_3"
+			position = { x = 100 y = 16 }
+			spriteType = "GFX_FLTE_welocme_menu_main_sub_button_3"
+		}
+		buttonType = {
+			name = "sub_button_4"
+			position = { x = 129 y = 60 }
+			spriteType = "GFX_FLTE_welocme_menu_main_sub_button_4"
+		}
+		buttonType = {
+			name = "sub_button_5"
+			position = { x = 129 y = 120 }
+			spriteType = "GFX_FLTE_welocme_menu_main_sub_button_5"
 		}
 	}
 }

@@ -15,3 +15,9 @@ descriptor.mod
 codes/
 codes_upload/
 .idea/
+AE*/
+zza_codes/
+zzb_codes_upload/
+zzz_mod_info/
+pyproject.toml
+uv.lock

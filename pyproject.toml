@@ -1,0 +1,10 @@
+[project]
+name = "flte"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "pathspec>=1.1.1",
+    "pillow>=12.3.0",
+    "pyinstaller>=6.21.0",
+    "wand>=0.7.2",
+]

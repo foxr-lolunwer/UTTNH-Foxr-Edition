@@ -16,9 +16,9 @@ VSCode is primarily used for code editing, GUI design, GFX reference editing, an
 
 * **Recommended**
   * `chaofan.hoi4modutilities` - GUI / Tech tree preview
-  * `tboby.cwtools-vscode` - Code completion rules library
   * `tboby.paradox-syntax` - Code highlighting
 * **Optional**
+  * `tboby.cwtools-vscode` - Code completion rules library
   * `Thinker.secondary-explorer` - A second file explorer on the right side, useful for reference
   * `ms-python.python` - Python editing, allows quickly running .py files in the editor
   * `ms-python.debugpy` - Python debugging (PyCharm is more recommended for this)

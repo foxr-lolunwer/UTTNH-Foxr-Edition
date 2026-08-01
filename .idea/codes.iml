@@ -4,7 +4,7 @@
     <content url="file://$MODULE_DIR$/zza_codes">
       <excludeFolder url="file://$MODULE_DIR$/zza_codes/.venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.14 (UTTNH Foxr Edition) (4)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="uv (UTTNH Foxr Edition) (2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

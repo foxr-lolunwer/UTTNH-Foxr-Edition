@@ -2,19 +2,19 @@ defined_text = {
 	name = FLTE_DLOC_UI_welcome_menu_bg
 	text = {
 		trigger = { has_country_flag = FLTE_FLAG_UI_welcome_menu_main_button_clicked }
-		localization_key = "GFX_FLTE_welocme_menu_bg_clicked"
+		localization_key = "GFX_FLTE_welcome_menu_bg_clicked"
 	}
     text = {
-		localization_key = "GFX_FLTE_welocme_menu_bg_default"
+		localization_key = "GFX_FLTE_welcome_menu_bg_default"
 	}
 }
 defined_text = {
-	name = FLTE_DLOC_UI_welocme_menu_sub_window_main_button
+	name = FLTE_DLOC_UI_welcome_menu_clicked_window_main_button
 	text = {
 		trigger = { has_country_flag = FLTE_FLAG_UI_welcome_menu_main_button_clicked }
-		localization_key = "GFX_FLTE_welocme_menu_main_button_clicked"
+		localization_key = "GFX_FLTE_welcome_menu_main_button_clicked"
 	}
     text = {
-		localization_key = "GFX_FLTE_welocme_menu_main_button_normal"
+		localization_key = "GFX_FLTE_welcome_menu_main_button_normal"
 	}
 }

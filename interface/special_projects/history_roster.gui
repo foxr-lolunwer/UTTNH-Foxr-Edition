@@ -32,7 +32,7 @@ guiTypes = {
 			# contains "project_list_filter_entry"
 			# FLTE ex w
 			name = "history_list_filter"
-			position = { x = 10 y = 40 }
+			position = { x = 15 y = 40 }
 			size = { width = 420 height = 40 }
 			slotsize = { width = 70 height = 40 }
 			format = "UPPER_LEFT"

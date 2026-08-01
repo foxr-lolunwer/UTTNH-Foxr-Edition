@@ -1,7 +1,7 @@
 scripted_gui = {
-    FLTE_welocme_menu = {
+    FLTE_welcome_menu = {
         context_type = player_context
-		window_name = "FLTE_welocme_menu"
+		window_name = "FLTE_welcome_menu"
         visible = {
 			has_country_flag = FLTE_FLAG_UI_welcome_menu_show
 		}
@@ -36,10 +36,10 @@ scripted_gui = {
             bg = { image = "[FLTE_DLOC_UI_welcome_menu_bg]" }
         }
     }
-    FLTE_welocme_menu_sub_window = {
+    FLTE_welcome_menu_clicked_window = {
         context_type = player_context
-		window_name = "FLTE_welocme_menu_sub_window"
-        parent_window_name = "FLTE_welocme_menu"
+		window_name = "FLTE_welcome_menu_clicked_window"
+        parent_window_name = "FLTE_welcome_menu"
         visible = {
 			has_country_flag = FLTE_FLAG_UI_welcome_menu_show
 		}
@@ -48,111 +48,117 @@ scripted_gui = {
                 if = {
                     limit = { has_country_flag = FLTE_FLAG_UI_welcome_menu_main_button_clicked }
                     clr_country_flag = FLTE_FLAG_UI_welcome_menu_main_button_clicked
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_0
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_3
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_4
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_5
                 }
                 else = {
                     set_country_flag = FLTE_FLAG_UI_welcome_menu_main_button_clicked
-                    set_country_flag = FLTE_FLAG_UI_welcome_menu_sub_window_show_0
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_1
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_2
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_3
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_4
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_5
+                    set_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_0
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_3
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_4
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_5
                 }
             }
             sub_button_1_click = {
                 if = {
-                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_1 } }
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_0
-                    set_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_1
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_2
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_3
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_4
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_5
+                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1 } }
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_0
+                    set_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_3
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_4
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_5
                 }
             }
             sub_button_2_click = {
                 if = {
-                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_1 } }
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_0
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_1
-                    set_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_2
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_3
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_4
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_5
+                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1 } }
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_0
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1
+                    set_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_3
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_4
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_5
                 }
             }
             sub_button_3_click = {
                 if = {
-                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_1 } }
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_0
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_1
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_2
-                    set_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_3
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_4
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_5
+                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1 } }
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_0
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2
+                    set_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_3
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_4
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_5
                 }
             }
             sub_button_4_click = {
                 if = {
-                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_1 } }
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_0
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_1
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_2
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_3
-                    set_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_4
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_5
+                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1 } }
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_0
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_3
+                    set_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_4
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_5
                 }
             }
             sub_button_5_click = {
                 if = {
-                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_1 } }
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_0
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_1
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_2
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_3
-                    clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_4
-                    set_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_5
+                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1 } }
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_0
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_3
+                    clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_4
+                    set_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_5
                 }
             }
             sub_button_1_right_click = {
-                set_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_0
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_1
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_2
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_3
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_4
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_5
+                set_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_0
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_3
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_4
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_5
             }
             sub_button_2_right_click = {
-                set_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_0
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_1
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_2
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_3
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_4
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_5
+                set_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_0
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_3
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_4
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_5
             }
             sub_button_3_right_click = {
-                set_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_0
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_1
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_2
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_3
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_4
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_5
+                set_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_0
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_3
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_4
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_5
             }
             sub_button_4_right_click = {
-                set_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_0
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_1
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_2
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_3
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_4
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_5
+                set_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_0
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_3
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_4
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_5
             }
             sub_button_5_right_click = {
-                set_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_0
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_1
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_2
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_3
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_4
-                clr_country_flag = FLTE_FLAG_UI_welocme_menu_sub_window_show_5
+                set_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_0
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_3
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_4
+                clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_5
             }
         }
         triggers = {
@@ -173,12 +179,60 @@ scripted_gui = {
 			}
         }
         properties = {
-            main_button = { image = "[FLTE_DLOC_UI_welocme_menu_sub_window_main_button]" }
-            # sub_button_1 = { image = "[FLTE_DLOC_UI_welocme_menu_sub_window_sub_button_1]" }
-            # sub_button_2 = { image = "[FLTE_DLOC_UI_welocme_menu_sub_window_sub_button_2]" }
-            # sub_button_3 = { image = "[FLTE_DLOC_UI_welocme_menu_sub_window_sub_button_3]" }
-            # sub_button_4 = { image = "[FLTE_DLOC_UI_welocme_menu_sub_window_sub_button_4]" }
-            # sub_button_5 = { image = "[FLTE_DLOC_UI_welocme_menu_sub_window_sub_button_5]" }
+            main_button = { image = "[FLTE_DLOC_UI_welcome_menu_clicked_window_main_button]" }
+            # sub_button_1 = { image = "[FLTE_DLOC_UI_welcome_menu_clicked_window_sub_button_1]" }
+            # sub_button_2 = { image = "[FLTE_DLOC_UI_welcome_menu_clicked_window_sub_button_2]" }
+            # sub_button_3 = { image = "[FLTE_DLOC_UI_welcome_menu_clicked_window_sub_button_3]" }
+            # sub_button_4 = { image = "[FLTE_DLOC_UI_welcome_menu_clicked_window_sub_button_4]" }
+            # sub_button_5 = { image = "[FLTE_DLOC_UI_welcome_menu_clicked_window_sub_button_5]" }
         }
+    }
+    FLTE_welcome_menu_clicked_window_0 = {
+        context_type = player_context
+		window_name = "FLTE_welcome_menu_clicked_window_0"
+        parent_window_name = "FLTE_welcome_menu"
+        visible = {
+			has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_0
+		}
+    }
+    FLTE_welcome_menu_clicked_window_1 = {
+        context_type = player_context
+		window_name = "FLTE_welcome_menu_clicked_window_1"
+        parent_window_name = "FLTE_welcome_menu"
+        visible = {
+			has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1
+		}
+    }
+    FLTE_welcome_menu_clicked_window_2 = {
+        context_type = player_context
+		window_name = "FLTE_welcome_menu_clicked_window_2"
+        parent_window_name = "FLTE_welcome_menu"
+        visible = {
+			has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2
+		}
+    }
+    FLTE_welcome_menu_clicked_window_3 = {
+        context_type = player_context
+		window_name = "FLTE_welcome_menu_clicked_window_3"
+        parent_window_name = "FLTE_welcome_menu"
+        visible = {
+			has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_3
+		}
+    }
+    FLTE_welcome_menu_clicked_window_4 = {
+        context_type = player_context
+		window_name = "FLTE_welcome_menu_clicked_window_4"
+        parent_window_name = "FLTE_welcome_menu"
+        visible = {
+			has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_4
+		}
+    }
+    FLTE_welcome_menu_clicked_window_5 = {
+        context_type = player_context
+		window_name = "FLTE_welcome_menu_clicked_window_5"
+        parent_window_name = "FLTE_welcome_menu"
+        visible = {
+			has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_5
+		}
     }
 }

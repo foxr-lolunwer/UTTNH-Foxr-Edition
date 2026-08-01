@@ -1,0 +1,12 @@
+﻿l_simp_chinese:
+# replace hoi4
+ FE_DIFFICULTY_VERY_EASY: "平等"
+ FE_DIFFICULTY_VERY_EASY_TOOLTIP: "§L“敌人尚未动员,而我已经赢下胜利。”§!\n§g这很公平,不是吗?§!"
+ FE_DIFFICULTY_EASY: "找点乐子"
+ FE_DIFFICULTY_EASY_TOOLTIP: "§L“我不知道,但他们喊着友情啊羁绊啊什么的就冲上来了!”§!\n§g第一档:少女前线(笑)§!\n注意,女性概率的修正在原版环境下大概率不会生效,因为原版游戏并没有为每个文化创建通用女性领导人/将领等类型的肖像"
+ FE_DIFFICULTY_NORMAL: "正常"
+ FE_DIFFICULTY_NORMAL_TOOLTIP: "§L“昨日试图征服世界,今日试图征服补给线。”§!\n§g这太不公平了,为什么AI总是能比玩家多出一堆加成?§!"
+ FE_DIFFICULTY_HARD: "加强mod环境"
+ FE_DIFFICULTY_HARD_TOOLTIP: "§L“你们要流血,流泪,流汗.我们将经历苦难,但我们不会投降。”§!\n§g请注意,如果你没有安装比较魔怔的模组,并且自己只是一个休闲玩家,请不要选择这个!§!"
+ FE_DIFFICULTY_VERY_HARD: "魔怔mod环境"
+ FE_DIFFICULTY_VERY_HARD_TOOLTIP: "§L“我本可以赢,但它们开挂。你问我就没有什么错误吗?我只是不小心点错了难度按钮而已。”§!\n§g哦,我的天哪,你在干什么?!§!"

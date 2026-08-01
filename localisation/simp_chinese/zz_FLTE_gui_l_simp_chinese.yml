@@ -1,0 +1,20 @@
+﻿l_simp_chinese:
+ # welcome menu
+  FLTE_welcome_menu_title_tooltip: "模组目前使用FLTE作为模组标识，UTTNH Foxr Edition为模组名\n当前版本：§Y0.2.0§!"
+  FLTE_welcome_menu_msg_tooltip: "此模组是UTTNH_2.0的一个独立分支，将来会添加更多独特内容。"
+  FLTE_welcome_menu_start_button_tooltip_delayed: "将会进行模组初始化，包括：\n- 原版开局科技映射\n- 开局建筑初始化\n- 覆盖开局单位（此版本不需要）\n\n多人模式下不会重复初始化（理论上，未经测试）"
+
+  FLTE_welcome_menu_clicked_window_main_button_tooltip_delayed: "打开信息界面，进行模组配置/查看模组信息"
+
+  FLTE_welcome_menu_clicked_window_0_title: "欢迎使用本模组"
+  FLTE_welcome_menu_clicked_window_0_text: "在左侧子按钮中选择要查看的子窗口：\n£FLTE_texticon_welcome_menu_main_sub_button_1 - 计划表-施工中\n£FLTE_texticon_welcome_menu_main_sub_button_2 - 新机制教程-施工中\n£FLTE_texticon_welcome_menu_main_sub_button_3 - 设置-施工中\n£FLTE_texticon_welcome_menu_main_sub_button_4 - Discord链接，目前点击按钮会直接跳转到本模组Discord服务器\n£FLTE_texticon_welcome_menu_main_sub_button_5 - 模组信息-施工中\n右键任意子按钮返回本页\n一切就绪后退出信息界面，然后点击右下角闪烁的的开始按钮进行初始化。初始化后的结果要到第二天才会完全显示\n\n\n提示：可以在游戏选项中勾选使用外部浏览器打开网页链接"
+
+  FLTE_welcome_menu_clicked_window_1_text: "施工中，待开发"
+
+  FLTE_welcome_menu_clicked_window_2_text: "施工中，待开发"
+
+  FLTE_welcome_menu_clicked_window_3_text: "施工中，待开发"
+
+  FLTE_welcome_menu_clicked_window_4_text: "施工中，待开发"
+
+  FLTE_welcome_menu_clicked_window_5_text: "施工中，待开发"

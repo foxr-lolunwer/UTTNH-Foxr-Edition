@@ -26,10 +26,11 @@ guiTypes = {
 
 		gridBoxType = {
 			# contains "project_list_filter_entry"
+			# FLTE copy from history line 34
 			name = "project_simple_roster_filters"
-			position = { x = 30 y = 40 }
-			size = { width = 400 height = 40 }
-			slotsize = { width = 75 height = 40 }
+			position = { x = 15 y = 40 }
+			size = { width = 420 height = 40 }
+			slotsize = { width = 70 height = 40 }
 			format = "UPPER_LEFT"
 		}
 		

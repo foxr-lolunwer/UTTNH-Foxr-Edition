@@ -26,9 +26,9 @@ guiTypes = {
 		}
 		iconType = {
 			name = "specialization_icon"
-			position = { x = 25 y = 0 }  # FLTE change pos
+			position = { x = 30 y = 5 }  # FLTE change pos
 			spriteType = "GFX_raid_unit_icon_nuclear_raids"
-			scale = 0.4
+			scale = 0.3
 			alwaystransparent = yes
 		}
 	}

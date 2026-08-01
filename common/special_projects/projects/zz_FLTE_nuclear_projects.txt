@@ -1952,7 +1952,7 @@ sp_rocket_interceptor = {
 	}
 }
 
-sp_FLTE_tech_nuclear_tier_1 = {
+sp_FLTE_tech_tier_nuclear_1 = {
 	specialization = specialization_nuclear
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
@@ -1977,7 +1977,7 @@ sp_FLTE_tech_nuclear_tier_1 = {
 			}
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
-				TECH = FLTE_tech_nuclear_tier_1
+				TECH = FLTE_tech_tier_nuclear_1
 			}
 		}
 	}
@@ -1995,7 +1995,7 @@ sp_FLTE_tech_nuclear_tier_1 = {
 		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
-sp_FLTE_tech_nuclear_tier_2 = {
+sp_FLTE_tech_tier_nuclear_2 = {
 	specialization = specialization_nuclear
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
@@ -2020,7 +2020,7 @@ sp_FLTE_tech_nuclear_tier_2 = {
 			}
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
-				TECH = FLTE_tech_nuclear_tier_2
+				TECH = FLTE_tech_tier_nuclear_2
 			}
 		}
 	}
@@ -2038,7 +2038,7 @@ sp_FLTE_tech_nuclear_tier_2 = {
 		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
-sp_FLTE_tech_nuclear_tier_3 = {
+sp_FLTE_tech_tier_nuclear_3 = {
 	specialization = specialization_nuclear
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
@@ -2063,7 +2063,7 @@ sp_FLTE_tech_nuclear_tier_3 = {
 			}
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
-				TECH = FLTE_tech_nuclear_tier_3
+				TECH = FLTE_tech_tier_nuclear_3
 			}
 		}
 	}
@@ -2081,7 +2081,7 @@ sp_FLTE_tech_nuclear_tier_3 = {
 		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
-sp_FLTE_tech_nuclear_tier_4 = {
+sp_FLTE_tech_tier_nuclear_4 = {
     specialization = specialization_nuclear
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
@@ -2106,7 +2106,7 @@ sp_FLTE_tech_nuclear_tier_4 = {
           }
           custom_effect_tooltip = {
              localization_key = SP_UNLOCK_TECH
-             TECH = FLTE_tech_nuclear_tier_4
+             TECH = FLTE_tech_tier_nuclear_4
           }
        }
     }
@@ -2124,7 +2124,7 @@ sp_FLTE_tech_nuclear_tier_4 = {
        FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
-sp_FLTE_tech_nuclear_tier_5 = {
+sp_FLTE_tech_tier_nuclear_5 = {
     specialization = specialization_nuclear
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
@@ -2149,7 +2149,7 @@ sp_FLTE_tech_nuclear_tier_5 = {
           }
           custom_effect_tooltip = {
              localization_key = SP_UNLOCK_TECH
-             TECH = FLTE_tech_nuclear_tier_5
+             TECH = FLTE_tech_tier_nuclear_5
           }
        }
     }
@@ -2167,7 +2167,7 @@ sp_FLTE_tech_nuclear_tier_5 = {
        FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
-sp_FLTE_tech_nuclear_tier_6 = {
+sp_FLTE_tech_tier_nuclear_6 = {
     specialization = specialization_nuclear
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
@@ -2192,7 +2192,7 @@ sp_FLTE_tech_nuclear_tier_6 = {
           }
           custom_effect_tooltip = {
              localization_key = SP_UNLOCK_TECH
-             TECH = FLTE_tech_nuclear_tier_6
+             TECH = FLTE_tech_tier_nuclear_6
           }
        }
     }
@@ -2210,7 +2210,7 @@ sp_FLTE_tech_nuclear_tier_6 = {
        FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
-sp_FLTE_tech_nuclear_tier_7 = {
+sp_FLTE_tech_tier_nuclear_7 = {
     specialization = specialization_nuclear
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
@@ -2235,7 +2235,7 @@ sp_FLTE_tech_nuclear_tier_7 = {
           }
           custom_effect_tooltip = {
              localization_key = SP_UNLOCK_TECH
-             TECH = FLTE_tech_nuclear_tier_7
+             TECH = FLTE_tech_tier_nuclear_7
           }
        }
     }

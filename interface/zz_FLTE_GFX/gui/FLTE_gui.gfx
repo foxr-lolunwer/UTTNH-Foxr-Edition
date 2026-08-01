@@ -1,0 +1,102 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_FLTE_welcome_menu_bg_default
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_bg_default.dds"
+	}
+	spriteType = {
+		name = GFX_FLTE_welcome_menu_bg_clicked
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_bg_clicked.dds"
+	}
+	spriteType = {
+		name = GFX_FLTE_welcome_menu_main_button_normal
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_main_button_normal.dds"
+	}
+	spriteType = {
+		name = GFX_FLTE_welcome_menu_main_button_clicked
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_main_button_clicked.dds"
+	}
+	spriteType = {
+		name = GFX_FLTE_welcome_menu_main_sub_button_1
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_main_sub_button_1.dds"
+	}
+	spriteType = {
+		name = GFX_FLTE_welcome_menu_main_sub_button_2
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_main_sub_button_2.dds"
+	}
+	spriteType = {
+		name = GFX_FLTE_welcome_menu_main_sub_button_3
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_main_sub_button_3.dds"
+	}
+	spriteType = {
+		name = GFX_FLTE_welcome_menu_main_sub_button_4
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_main_sub_button_4.dds"
+	}
+	spriteType = {
+		name = GFX_FLTE_welcome_menu_main_sub_button_5
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_main_sub_button_5.dds"
+	}
+	spriteType = {
+		name = GFX_FLTE_welcome_menu_title
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_title.dds"
+	}
+	spriteType = {
+		name = GFX_FLTE_welcome_menu_msg
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_msg.dds"
+	}
+	spriteType = {
+		name = GFX_FLTE_welcome_menu_titlebar
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_titlebar.dds"
+	}
+	spriteType = {
+		name = GFX_FLTE_welcome_menu_info_window_bg
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_titlebar_close.dds"
+	}
+	spriteType = {
+		name = GFX_FLTE_welcome_menu_titlebar_close
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_titlebar_close.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = GFX_FLTE_welcome_menu_start_btn
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_start_btn.dds"
+		noOfFrames = 48
+		animation_rate_fps = 24
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0
+	}
+	corneredTileSpriteType = {
+		name = "GFX_FLTE_NONE"
+		texturefile = "gfx/interface/FLTE_gui/common/FLTE_NONE.dds"
+		size = { x = 10 y = 10 }
+		borderSize = { x = 0 y = 0 }
+		# allwaystransparent = yes
+	}
+
+	# texticon 黑色图标，仅用于浅色GUI，不要用于tooltip
+	spriteType = {
+		name = GFX_FLTE_texticon_welcome_menu_main_sub_button_1
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_texticon_main_sub_button_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = GFX_FLTE_texticon_welcome_menu_main_sub_button_2
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_texticon_main_sub_button_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = GFX_FLTE_texticon_welcome_menu_main_sub_button_3
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_texticon_main_sub_button_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = GFX_FLTE_texticon_welcome_menu_main_sub_button_4
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_texticon_main_sub_button_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = GFX_FLTE_texticon_welcome_menu_main_sub_button_5
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_texticon_main_sub_button_5.dds"
+		legacy_lazy_load = no
+	}
+	
+}

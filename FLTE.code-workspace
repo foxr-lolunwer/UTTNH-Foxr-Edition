@@ -32,7 +32,8 @@
         "workbench.editor.enablePreviewFromQuickOpen": false,
         // Secondary Explorer设置，这里对应工作区的第四个文件夹，即HOI4-RO
         "secondaryExplorer.paths": [
-            "${workspaceFolders[4]}"
+            "${workspaceFolders[4]}",
+            "${workspaceFolders[3]}"
         ]
     }
 }

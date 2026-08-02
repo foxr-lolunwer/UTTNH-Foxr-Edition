@@ -1,0 +1,2495 @@
+﻿l_simp_chinese:
+ # FLTE code replace fighter_equipment_desc
+ # FLTE code replace jet_fighter_equipment
+ # FLTE code replace jet_fighter_equipment_desc
+ # FLTE code replace heavy_fighter_equipment_desc
+ # FLTE code replace strat_bomber_equipment_desc
+ # FLTE code replace tac_bomber_equipment_desc
+ # FLTE code replace cv_CAS_equipment
+ # FLTE code replace cv_CAS_equipment_desc
+ # FLTE code replace cv_fighter_equipment_desc
+ # FLTE code replace fighter_equipment_0
+ # FLTE code replace tac_bomber_equipment_0
+ # FLTE code replace cv_nav_bomber_equipment
+ # FLTE code replace cv_CAS_equipment
+ # FLTE code replace cv_nav_bomber_equipment_1_short
+ # FLTE code replace cv_nav_bomber_equipment_2_short
+ # FLTE code replace cv_nav_bomber_equipment_3_short
+ # FLTE code replace cv_CAS_equipment_1
+ # FLTE code replace cv_CAS_equipment_1_short
+ # FLTE code replace cv_CAS_equipment_2
+ # FLTE code replace cv_CAS_equipment_2_short
+ # FLTE code replace cv_CAS_equipment_3
+ # FLTE code replace cv_CAS_equipment_3_short
+ # FLTE code replace cv_fighter_equipment_0
+ # FLTE code replace cv_fighter_equipment_0_short
+ # FLTE code replace cv_fighter_equipment_1_short
+ # FLTE code replace cv_fighter_equipment_2_short
+ # FLTE code replace cv_fighter_equipment_3_short
+###JET ERA
+ utility_helicopter_equipment_1: "1950 多用途直升机"
+ utility_helicopter_equipment_1_short: "1950 多用途直升机"
+ utility_helicopter_equipment_2: "1960 多用途直升机"
+ utility_helicopter_equipment_2_short: "1960 多用途直升机"
+ utility_helicopter_equipment_3: "1970 多用途直升机"
+ utility_helicopter_equipment_3_short: "1970 多用途直升机"
+ utility_helicopter_equipment_4: "1980 多用途直升机"
+ utility_helicopter_equipment_4_short: "1980 多用途直升机"
+ utility_helicopter_equipment_5: "1990 多用途直升机"
+ utility_helicopter_equipment_5_short: "1990 多用途直升机"
+ cas_drone_equipment_1: "1970 攻击无人机"
+ cas_drone_equipment_1_short: "1970 攻击无人机"
+ cas_drone_equipment_2: "1980 攻击无人机"
+ cas_drone_equipment_2_short: "1980 攻击无人机"
+ cas_drone_equipment_3: "1990 攻击无人机"
+ cas_drone_equipment_3_short: "1990 攻击无人机"
+ attack_helicopter_equipment_1: "1955 武装直升机"
+ attack_helicopter_equipment_1_short: "1955 武装直升机"
+ attack_helicopter_equipment_2: "1965 武装直升机"
+ attack_helicopter_equipment_2_short: "1965 武装直升机"
+ attack_helicopter_equipment_3: "1975 武装直升机"
+ attack_helicopter_equipment_3_short: "1975 武装直升机"
+ attack_helicopter_equipment_4: "1985 武装直升机"
+ attack_helicopter_equipment_4_short: "1985 武装直升机"
+ attack_helicopter_equipment_5: "1995 武装直升机"
+ attack_helicopter_equipment_5_short: "1995 武装直升机"
+ marine_helicopter_equipment_1: "1960 海上直升机"
+ marine_helicopter_equipment_1_short: "1960 海上直升机"
+ marine_helicopter_equipment_2: "1970 海上直升机"
+ marine_helicopter_equipment_2_short: "1970 海上直升机"
+ marine_helicopter_equipment_3: "1980 海上直升机"
+ marine_helicopter_equipment_3_short: "1980 海上直升机"
+ marine_helicopter_equipment_4: "1990 海上直升机"
+ marine_helicopter_equipment_4_short: "1990 海上直升机"
+ USA_utility_helicopter_equipment_1: "西科斯基 H-19 契卡索"
+ USA_utility_helicopter_equipment_1_short: "H-19 契卡索"
+ USA_utility_helicopter_equipment_2: "贝尔 UH-1 易洛魁"
+ USA_utility_helicopter_equipment_2_short: "UH-1 易洛魁"
+ USA_utility_helicopter_equipment_3: "波音 CH-47 支奴干"
+ USA_utility_helicopter_equipment_3_short: "CH-47 支奴干"
+ USA_utility_helicopter_equipment_4: "西科斯基 UH-60 黑鹰"
+ USA_utility_helicopter_equipment_4_short: "UH-60"
+ USA_utility_helicopter_equipment_5: "西科斯基 UH-60L 黑鹰"
+ USA_utility_helicopter_equipment_5_short: " UH-60L"
+ USA_Helicopter_1: "H-34"
+ USA_Helicopter_1_short: "H-34"
+ USA_Helicopter_2: "UH-1"
+ USA_Helicopter_2_short: "UH-1"
+ USA_Helicopter_3: "AH-1"
+ USA_Helicopter_3_short: "AH-1"
+ USA_Helicopter_4: "YAH-64"
+ USA_Helicopter_4_short: "YAH-64"
+ USA_Helicopter_5: "AH-64 "
+ USA_Helicopter_5_short: "AH-64 "
+ USA_attack_helicopter_equipment_1: "贝尔 UH-1C"
+ USA_attack_helicopter_equipment_1_short: "UH-1C"
+ USA_attack_helicopter_equipment_2: "贝尔 AH-1 眼镜蛇"
+ USA_attack_helicopter_equipment_2_short: "AH-1"
+ USA_attack_helicopter_equipment_2_desc: ""
+ USA_attack_helicopter_equipment_3: "波音 AH-64A 阿帕奇"
+ USA_attack_helicopter_equipment_3_short: "AH-64A"
+ USA_attack_helicopter_equipment_3_desc: ""
+ USA_attack_helicopter_equipment_4: "波音 AH-64D 长弓阿帕奇 I"
+ USA_attack_helicopter_equipment_4_short: "AH-64D I"
+ USA_attack_helicopter_equipment_4_desc: ""
+ USA_attack_helicopter_equipment_5: "波音 AH-64D 长弓阿帕奇 II"
+ USA_attack_helicopter_equipment_5_short: "AH-64D II"
+ # FLTE code replace jet_fighter_equipment_1
+ # FLTE code replace jet_fighter_equipment_1_short
+ # FLTE code replace jet_fighter_equipment_1_desc
+ # FLTE code replace jet_fighter_equipment_2
+ # FLTE code replace jet_fighter_equipment_2_short
+ # FLTE code replace jet_fighter_equipment_2_desc
+ jet_fighter_equipment_3: "1955 喷气式战斗机"
+ jet_fighter_equipment_3_short: "1955 喷气式战斗机"
+ jet_fighter_equipment_3_desc: "在朝鲜战争空战经验的基础上，加之核战争环境下的作战需求，推动了第二代战斗机技术的快速发展。该代战机的研发同时受益于空气动力学、推进系统及航空材料（以铝合金为主）的技术飞跃，从而能够应用后掠翼、三角翼及面积律机身等先进设计。后燃式涡轮喷气发动机的普遍应用，使得这一代战机成为首批实现批量超音速飞行的机型，而具备稳定地保持水平超音速飞行的能力也成为了其显著特征。"
+ jet_fighter_equipment_4: "1960 喷气式战斗机"
+ jet_fighter_equipment_4_short: "1960 喷气式战斗机"
+ jet_fighter_equipment_4_desc: "战斗机设计采纳了新型电子科技，使高性能雷达得以小型化并集成于轻型平台。机载雷达赋予了战机超视距探测能力，增强了远程地面雷达目标指示效能。制导空空导弹的发展使导弹在战斗机发展历程中首次取代机炮，成为首选的攻击性武器。"
+ jet_fighter_equipment_5: "1965 喷气式战斗机"
+ jet_fighter_equipment_5_short: "1965 喷气式战斗机"
+ jet_fighter_equipment_5_desc: "第三代战斗机是第二代战斗机技术积累的延续，但最显著的特点是重新强调机动性和传统的对地打击能力。在20世纪60年代，越来越多的导弹作战经验表明，空战正逐渐演变为近距离的缠斗。模拟航空电子设备开始引入，取代了老式的“蒸汽表”座舱仪表。"
+ jet_fighter_equipment_6: "1970 喷气式战斗机"
+ jet_fighter_equipment_6_short: "1970 喷气式战斗机"
+ jet_fighter_equipment_6_desc: "在第三代战机的发展阶段，对地攻击能力得到大幅提升，主要体现在制导导弹技术的进步上。此外，也出现了首批真正有效的、用于提升对地攻击效果的航空电子设备，例如地形规避系统。 装备有光电对比导引头的空地导弹（ASM），如广泛应用的 AGM-65 “小牛” 导弹的早期型号，成为了标准配置武器。 同时，为了进一步提升精确打击能力，激光制导炸弹（LGB）也得到了普及。"
+ jet_fighter_equipment_7: "1980 喷气式战斗机"
+ jet_fighter_equipment_7_short: "1980 喷气式战斗机"
+ jet_fighter_equipment_7_desc: ""
+ jet_fighter_equipment_8: "1990 喷气式战斗机"
+ jet_fighter_equipment_8_short: "1990 喷气式战斗机"
+ jet_fighter_equipment_8_desc: ""
+ cv_fighter_equipment_4: "1946 舰载喷气式战斗机"
+ cv_fighter_equipment_4_short: "1946 舰载喷气式战斗机"
+ cv_fighter_equipment_4_desc: "首次采用喷气发动机的战斗机被归类为第一代喷气式战斗机。少数此类飞机在第二次世界大战的最后阶段问世，但仅参与了极少的战斗行动。"
+ cv_fighter_equipment_5: "1950 舰载喷气式战斗机"
+ cv_fighter_equipment_5_short: "1950 舰载喷气式战斗机"
+ cv_fighter_equipment_5_desc: "以朝鲜战争期间使用的F-86为例，成熟的后掠翼喷气战斗机设计已经能够在跨音速范围内提供良好的可控性。"
+ cv_fighter_equipment_6: "1955 舰载喷气式战斗机"
+ cv_fighter_equipment_6_short: "1955 舰载喷气式战斗机"
+ cv_fighter_equipment_6_desc: "在朝鲜战争空战经验的基础上，加之核战争环境下的作战需求，推动了第二代战斗机技术的快速发展。该代战机的研发同时受益于空气动力学、推进系统及航空材料（以铝合金为主）的技术飞跃，从而能够应用后掠翼、三角翼及面积律机身等先进设计。后燃式涡轮喷气发动机的普遍应用，使得这一代战机成为首批实现批量超音速飞行的机型，而具备稳定地保持水平超音速飞行的能力也成为了其显著特征。"
+ cv_fighter_equipment_7: "1960 舰载喷气式战斗机"
+ cv_fighter_equipment_7_short: "1960 舰载喷气式战斗机"
+ cv_fighter_equipment_7_desc: "战斗机设计采纳了新型电子科技，使高性能雷达得以小型化并集成于轻型平台。机载雷达赋予了战机超视距探测能力，增强了远程地面雷达目标指示效能。制导空空导弹的发展使导弹在战斗机发展历程中首次取代机炮，成为首选的攻击性武器。"
+ cv_fighter_equipment_8: "1965 舰载喷气式战斗机"
+ cv_fighter_equipment_8_short: "1965 舰载喷气式战斗机"
+ cv_fighter_equipment_8_desc: "第三代战斗机是第二代战斗机技术积累的延续，但最显著的特点是重新强调机动性和传统的对地打击能力。在20世纪60年代，越来越多的导弹作战经验表明，空战正逐渐演变为近距离的缠斗。模拟航空电子设备开始引入，取代了老式的“蒸汽表”座舱仪表。"
+ cv_fighter_equipment_9: "1975 舰载喷气式战斗机"
+ cv_fighter_equipment_9_short: "1975 舰载喷气式战斗机"
+ cv_fighter_equipment_9_desc: "在第三代战机的发展阶段，对地攻击能力得到大幅提升，主要体现在制导导弹技术的进步上。此外，也出现了首批真正有效的、用于提升对地攻击效果的航空电子设备，例如地形规避系统。 装备有光电对比导引头的空地导弹（ASM），如广泛应用的 AGM-65 “小牛” 导弹的早期型号，成为了标准配置武器。 同时，为了进一步提升精确打击能力，激光制导炸弹（LGB）也得到了普及。"
+ cv_fighter_equipment_10: "1980 舰载喷气式战斗机"
+ cv_fighter_equipment_10_short: "1980 舰载喷气式战斗机"
+ cv_fighter_equipment_11: "1990 舰载喷气式战斗机"
+ cv_fighter_equipment_11_short: "1990 舰载喷气式战斗机"
+ cv_fighter_equipment_11_desc: ""
+ heavy_fighter_equipment_4: "1950 截击机"
+ heavy_fighter_equipment_4_short: "1950 截击机"
+ heavy_fighter_equipment_4_desc: ""
+ heavy_fighter_equipment_5: "1955 截击机"
+ heavy_fighter_equipment_5_short: "1955 截击机"
+ heavy_fighter_equipment_5_desc: ""
+ heavy_fighter_equipment_6: "1960 截击机"
+ heavy_fighter_equipment_6_short: "1960 截击机"
+ heavy_fighter_equipment_6_desc: ""
+ heavy_fighter_equipment_7: "1965 截击机"
+ heavy_fighter_equipment_7_short: "1965 截击机"
+ heavy_fighter_equipment_7_desc: ""
+ heavy_fighter_equipment_8: "1970 截击机"
+ heavy_fighter_equipment_8_short: "1970 截击机"
+ heavy_fighter_equipment_8_desc: ""
+ heavy_fighter_equipment_9: "1980 截击机"
+ heavy_fighter_equipment_9_short: "1980 截击机"
+ heavy_fighter_equipment_9_desc: ""
+ heavy_fighter_equipment_10: "1990 截击机"
+ heavy_fighter_equipment_10_short: "1990 截击机"
+ heavy_fighter_equipment_10_desc: ""
+ CAS_equipment_5: "1950 喷气式近距支援机"
+ CAS_equipment_5_short: "1950 喷气式近距支援机"
+ CAS_equipment_5_desc: ""
+ CAS_equipment_6: "1955 喷气式近距支援机"
+ CAS_equipment_6_short: "1955 喷气式近距支援机"
+ CAS_equipment_6_desc: ""
+ CAS_equipment_7: "1960 喷气式近距支援机"
+ CAS_equipment_7_short: "1960 喷气式近距支援机"
+ CAS_equipment_7_desc: ""
+ CAS_equipment_8: "1965 喷气式近距支援机"
+ CAS_equipment_8_short: "1965 喷气式近距支援机"
+ CAS_equipment_8_desc: ""
+ CAS_equipment_9: "1970 喷气式近距支援机"
+ CAS_equipment_9_short: "1970 喷气式近距支援机"
+ CAS_equipment_9_desc: ""
+ CAS_equipment_10: "1980 喷气式近距支援机"
+ CAS_equipment_10_short: "喷气式近距支援机 1980"
+ CAS_equipment_10_desc: ""
+ CAS_equipment_11: "1990 喷气式近距支援机"
+ CAS_equipment_11_short: "1990 喷气式近距支援机"
+ CAS_equipment_11_desc: ""
+ cv_CAS_equipment_4: "1950 舰载近距支援机"
+ cv_CAS_equipment_4_short: "1950 舰载近距支援机"
+ cv_CAS_equipment_4_desc: ""
+ cv_CAS_equipment_5: "1955 舰载近距支援机"
+ cv_CAS_equipment_5_short: "1955 舰载近距支援机"
+ cv_CAS_equipment_5_desc: ""
+ cv_CAS_equipment_6: "1960 舰载近距支援机"
+ cv_CAS_equipment_6_short: "1960 舰载近距支援机"
+ cv_CAS_equipment_6_desc: ""
+ cv_CAS_equipment_7: "1965 舰载近距支援机"
+ cv_CAS_equipment_7_short: "1965 舰载近距支援机"
+ cv_CAS_equipment_7_desc: ""
+ cv_CAS_equipment_8: "1970 舰载近距支援机"
+ cv_CAS_equipment_8_short: "1970 舰载近距支援机"
+ cv_CAS_equipment_8_desc: ""
+ cv_CAS_equipment_9: "1980 舰载近距支援机"
+ cv_CAS_equipment_9_short: "1980 舰载近距支援机"
+ cv_CAS_equipment_9_desc: ""
+ cv_CAS_equipment_10: "1990 舰载近距支援机"
+ cv_CAS_equipment_10_short: "1990 舰载近距支援机"
+ cv_CAS_equipment_10_desc: ""
+ # FLTE code replace jet_strat_bomber_equipment_1
+ # FLTE code replace jet_strat_bomber_equipment_1_short
+ # FLTE code replace jet_strat_bomber_equipment_1_desc
+ jet_strat_bomber_equipment_2: "早期喷气式轰炸机"
+ jet_strat_bomber_equipment_2_short: "早期喷气式轰炸机"
+ jet_strat_bomber_equipment_2_desc: ""
+ jet_strat_bomber_equipment_3: "1960 战略轰炸机"
+ jet_strat_bomber_equipment_3_short: "1960 战略轰炸机"
+ jet_strat_bomber_equipment_3_desc: ""
+ jet_strat_bomber_equipment_4: "1970 战略轰炸机"
+ jet_strat_bomber_equipment_4_short: "1970 战略轰炸机"
+ jet_strat_bomber_equipment_4_desc: ""
+ jet_strat_bomber_equipment_5: "1985 战略轰炸机"
+ jet_strat_bomber_equipment_5_short: "1985 战略轰炸机"
+ jet_strat_bomber_equipment_5_desc: ""
+ # FLTE code replace jet_tac_bomber_equipment_1
+ # FLTE code replace jet_tac_bomber_equipment_1_short
+ # FLTE code replace jet_tac_bomber_equipment_1_desc
+ # FLTE code replace jet_tac_bomber_equipment_2
+ # FLTE code replace jet_tac_bomber_equipment_2_short
+ # FLTE code replace jet_tac_bomber_equipment_2_desc
+ jet_tac_bomber_equipment_3: "1965 战术轰炸机"
+ jet_tac_bomber_equipment_3_short: "1965 战术轰炸机"
+ jet_tac_bomber_equipment_3_desc: ""
+ jet_tac_bomber_equipment_4: "1975 战术轰炸机"
+ jet_tac_bomber_equipment_4_short: "1975 战术轰炸机"
+ jet_tac_bomber_equipment_4_desc: ""
+ jet_tac_bomber_equipment_5: "1985 战术轰炸机"
+ jet_tac_bomber_equipment_5_short: "1985 战术轰炸机"
+ jet_tac_bomber_equipment_5_desc: ""
+ nav_bomber_equipment_4: "1946 海上巡逻机"
+ nav_bomber_equipment_4_short: "1946 海上巡逻机"
+ nav_bomber_equipment_4_desc: ""
+ nav_bomber_equipment_5: "1955 海上巡逻机"
+ nav_bomber_equipment_5_short: "1955 海上巡逻机"
+ nav_bomber_equipment_5_desc: ""
+ nav_bomber_equipment_6: "1965 海上巡逻机"
+ nav_bomber_equipment_6_short: "1965 海上巡逻机"
+ nav_bomber_equipment_6_desc: ""
+ nav_bomber_equipment_7: "1975 海上巡逻机"
+ nav_bomber_equipment_7_short: "1975 海上巡逻机"
+ nav_bomber_equipment_7_desc: ""
+ nav_bomber_equipment_8: "1985 海上巡逻机"
+ nav_bomber_equipment_8_short: "1985 海上巡逻机"
+ nav_bomber_equipment_8_desc: ""
+ CAS_equipment_4: "战后活塞式近距支援机"
+ CAS_equipment_4_short: "战后活塞式近距支援机"
+ CAS_equipment_4_desc: ""
+ # FLTE code replace transport_plane_equipment_1
+ # FLTE code replace transport_plane_equipment_1_short
+ # FLTE code replace transport_plane_equipment_1_desc
+ # FLTE code replace transport_plane_equipment_2
+ # FLTE code replace transport_plane_equipment_2_short
+ # FLTE code replace transport_plane_equipment_2_desc
+ # FLTE code replace transport_plane_equipment_3
+ # FLTE code replace transport_plane_equipment_3_short
+ # FLTE code replace transport_plane_equipment_3_desc
+ transport_plane_equipment_4: "1946 运输机"
+ transport_plane_equipment_4_short: "1946 运输机"
+ transport_plane_equipment_4_desc: ""
+ transport_plane_equipment_5: "1960 运输机"
+ transport_plane_equipment_5_short: "1960 运输机"
+ transport_plane_equipment_5_desc: ""
+ transport_plane_equipment_6: "1970 运输机"
+ transport_plane_equipment_6_short: "1970 运输机"
+ transport_plane_equipment_6_desc: ""
+ transport_plane_equipment_7: "1990 运输机"
+ transport_plane_equipment_7_short: "1990 运输机"
+ transport_plane_equipment_7_desc: ""
+##SOVIET TREE## 
+ SOV_utility_helicopter_equipment_1: "米尔 米-4直升机"
+ SOV_utility_helicopter_equipment_1_short: "米-4"
+ SOV_utility_helicopter_equipment_2: "米尔 米-8"
+ SOV_utility_helicopter_equipment_2_short: "米-8"
+ SOV_utility_helicopter_equipment_3: "米尔 米-8T"
+ SOV_utility_helicopter_equipment_3_short: "米-8T"
+ SOV_utility_helicopter_equipment_4: "米尔 米-17"
+ SOV_utility_helicopter_equipment_4_short: "米-17"
+ SOV_utility_helicopter_equipment_4_desc: ""
+ SOV_utility_helicopter_equipment_5: "米尔 米-26"
+ SOV_utility_helicopter_equipment_5_short: "米-26"
+ SOV_utility_helicopter_equipment_5_desc: ""
+ SOV_attack_helicopter_equipment_1: "米尔 米-24A"
+ SOV_attack_helicopter_equipment_1_short: "米-24A"
+ SOV_attack_helicopter_equipment_2: "米尔 米-24"
+ SOV_attack_helicopter_equipment_2_short: "米-24"
+ SOV_attack_helicopter_equipment_3: "米尔 米-28"
+ SOV_attack_helicopter_equipment_3_short: "米-28"
+ SOV_attack_helicopter_equipment_4: "卡莫夫 卡-50"
+ SOV_attack_helicopter_equipment_4_short: "卡-50"
+ SOV_attack_helicopter_equipment_5: "卡莫夫 卡-52"
+ SOV_attack_helicopter_equipment_5_short: "卡-52"
+ # SOV_jet_fighter_equipment_3: "Mikoyan-Guerevich MiG-19"
+ # SOV_jet_fighter_equipment_3_short: "MiG-19"
+ SOV_jet_fighter_equipment_4: "米高扬-格列维奇 米格-21"
+ SOV_jet_fighter_equipment_4_short: "米格-21"
+ SOV_jet_fighter_equipment_4_desc: "米高扬-格列维奇 米格-21（北约代号：鱼窝）是一款超音速喷气式战斗机和拦截机，由苏联米高扬-格列维奇设计局设计。"
+ SOV_jet_fighter_equipment_5: "米高扬-格列维奇 米格-21S"
+ SOV_jet_fighter_equipment_5_short: "MiG-21S"
+ SOV_jet_fighter_equipment_6: "米高扬-格列维奇 米格-23"
+ SOV_jet_fighter_equipment_6_short: "米格-23"
+ SOV_jet_fighter_equipment_6_desc: "米高扬-格列维奇 米格-23（北约代号：鞭挞者）是一种可变后掠角战斗机，由苏联米高扬-格列维奇设计局设计。它是第三代喷气式战斗机，是世界上产量最多的可变后掠翼飞机，与苏-15 “鱼嘴瓶”等苏联战斗机一样。它是第一架配备俯视/击落雷达的苏联战斗机，也是首批配备超视距导弹的战斗机之一。"
+ SOV_jet_fighter_equipment_7: "米高扬-格列维奇 米格-29"
+ SOV_jet_fighter_equipment_7_short: "米格-29"
+ SOV_jet_fighter_equipment_7_desc: ""
+ SOV_jet_fighter_equipment_8: "苏霍伊 苏-27"
+ SOV_jet_fighter_equipment_8_short: "苏-27"
+ SOV_jet_fighter_equipment_8_desc: ""
+ SOV_cv_fighter_equipment_4: "米高扬-格列维奇 米格-9K "
+ SOV_cv_fighter_equipment_4_short: "米格-9K"
+ SOV_cv_fighter_equipment_5: "米高扬-格列维奇 米格-15K"
+ SOV_cv_fighter_equipment_5_short: "米格-15K"
+ SOV_cv_fighter_equipment_6: "米高扬-格列维奇 米格-19K"
+ SOV_cv_fighter_equipment_6_short: "米格-19K"
+ SOV_cv_fighter_equipment_7: "米高扬-格列维奇 米格-21K"
+ SOV_cv_fighter_equipment_7_short: "米格-21K"
+ SOV_cv_fighter_equipment_7_desc: "米高扬-格列维奇 米格-21（北约代号：鱼窝）是一款超音速喷气式战斗机和拦截机，由苏联米高扬-格列维奇设计局设计。"
+ SOV_cv_fighter_equipment_8: "米高扬-格列维奇 米格-21SK"
+ SOV_cv_fighter_equipment_8_short: "米格-21SK"
+ SOV_cv_fighter_equipment_9: "米高扬-格列维奇 米格-23K"
+ SOV_cv_fighter_equipment_9_short: "米高扬-古列维奇 米格-23K"
+ SOV_cv_fighter_equipment_9_desc: "米高扬-格列维奇 米格-23（北约代号：鞭挞者）是一种可变后掠角战斗机，由苏联米高扬-格列维奇设计局设计。它是第三代喷气式战斗机，是世界上产量最多的可变后掠翼飞机，与苏-15 “鱼嘴瓶”等苏联战斗机一样。它是第一架配备俯视/击落雷达的苏联战斗机，也是首批配备超视距导弹的战斗机之一。"
+ SOV_cv_fighter_equipment_11: "苏霍伊 苏-33"
+ SOV_cv_fighter_equipment_11_short: "苏-33"
+ SOV_heavy_fighter_equipment_4: "米高扬-格列维奇 米格-17"
+ SOV_heavy_fighter_equipment_4_short: "米格-17"
+ SOV_heavy_fighter_equipment_5: "拉沃契金 拉-190"
+ SOV_heavy_fighter_equipment_5_short: "拉-190"
+ SOV_heavy_fighter_equipment_6: "苏霍伊 苏-9"
+ SOV_heavy_fighter_equipment_6_short: "苏-9"
+ SOV_heavy_fighter_equipment_7: "苏霍伊 苏-11"
+ SOV_heavy_fighter_equipment_7_short: "苏-11"
+ SOV_heavy_fighter_equipment_8: "苏霍伊 苏-15"
+ SOV_heavy_fighter_equipment_8_short: "苏-15"
+ SOV_heavy_fighter_equipment_9: "米高扬-格列维奇 米格-25"
+ SOV_heavy_fighter_equipment_9_short: "米格-25"
+ SOV_heavy_fighter_equipment_10: "米高扬-格列维奇 米格-31"
+ SOV_heavy_fighter_equipment_10_short: "米格-31"
+ SOV_CAS_equipment_5: "图波列夫 图-12"
+ SOV_CAS_equipment_5_short: "图-12"
+ SOV_CAS_equipment_6: "伊留申 伊尔-40"
+ SOV_CAS_equipment_6_short: "伊尔-40"
+ SOV_CAS_equipment_7: "苏霍伊 苏-7"
+ SOV_CAS_equipment_7_short: "苏-7"
+ SOV_CAS_equipment_8: "苏霍伊 苏-7BM"
+ SOV_CAS_equipment_8_short: "苏-7BM"
+ SOV_CAS_equipment_9: "苏霍伊 苏-17"
+ SOV_CAS_equipment_9_short: "苏-17"
+ SOV_CAS_equipment_10: "苏霍伊 苏-25A"
+ SOV_CAS_equipment_10_short: "苏-25A"
+ SOV_CAS_equipment_11: "苏霍伊 苏-25UB"
+ SOV_CAS_equipment_11_short: "苏-25UB"
+ SOV_cv_CAS_equipment_4: "图波列夫 图-12K"
+ SOV_cv_CAS_equipment_4_short: "图-12K"
+ SOV_cv_CAS_equipment_5: "伊留申 伊尔-40K"
+ SOV_cv_CAS_equipment_5_short: "伊尔-40K"
+ SOV_cv_CAS_equipment_6: "苏霍伊 苏-7K"
+ SOV_cv_CAS_equipment_6_short: "苏-7K"
+ SOV_cv_CAS_equipment_7: "苏霍伊 苏-7BMK"
+ SOV_cv_CAS_equipment_7_short: "苏-7BMK"
+ SOV_cv_CAS_equipment_8: "苏霍伊 苏-7BKLK"
+ SOV_cv_CAS_equipment_8_short: "苏-7BKLK"
+ SOV_cv_CAS_equipment_9: "苏霍伊 苏-25AK"
+ SOV_cv_CAS_equipment_9_short: "苏-25AK"
+ SOV_cv_CAS_equipment_10: "苏霍伊 苏-25UBK"
+ SOV_cv_CAS_equipment_10_short: "苏-25UBK"
+ # SOV_jet_strat_bomber_equipment_2: "Tupolev Tu-16"
+ # SOV_jet_strat_bomber_equipment_2_short: "Tu-16"
+ # SOV_jet_strat_bomber_equipment_3: "Tupolev Tu-95"
+ # SOV_jet_strat_bomber_equipment_3_short: "Tu-95"
+ SOV_jet_strat_bomber_equipment_4: "图-22"
+ SOV_jet_strat_bomber_equipment_4_short: "图-22"
+ SOV_jet_strat_bomber_equipment_5: "图-160"
+ SOV_jet_strat_bomber_equipment_5_short: "图-160"
+ # FLTE code replace SOV_jet_tac_bomber_equipment_2
+ # FLTE code replace SOV_jet_tac_bomber_equipment_2_short
+ SOV_jet_tac_bomber_equipment_3: "图波列夫 图-28B"
+ SOV_jet_tac_bomber_equipment_3_short: "图-28B"
+ SOV_jet_tac_bomber_equipment_4: "米高扬-格列维奇 米格-27K"
+ SOV_jet_tac_bomber_equipment_4_short: "米格-27K"
+ SOV_jet_tac_bomber_equipment_5: "苏霍伊 苏-24"
+ SOV_jet_tac_bomber_equipment_5_short: "苏-24"
+ # SOV_nav_bomber_equipment_4: "Tupolev Tu-8"
+ # SOV_nav_bomber_equipment_4_short: "Tu-8"
+ SOV_nav_bomber_equipment_5: "别里耶夫 别-10"
+ SOV_nav_bomber_equipment_5_short: "别-10"
+ SOV_nav_bomber_equipment_6: "别里耶夫 别-12"
+ SOV_nav_bomber_equipment_6_short: "别-12"
+ SOV_nav_bomber_equipment_7: "伊留申 伊尔-38"
+ SOV_nav_bomber_equipment_7_short: "伊尔-38"
+ # SOV_CAS_equipment_4: "Ilyushin Il-16"
+ # SOV_CAS_equipment_4_short: "Il-16"
+ # FLTE code replace SOV_transport_plane_equipment_1
+ # FLTE code replace SOV_transport_plane_equipment_1_short
+ SOV_transport_plane_equipment_3_short: "伊尔-12"
+ SOV_transport_plane_equipment_4: "伊留申 伊尔-14"
+ SOV_transport_plane_equipment_4_short: "伊尔-14"
+ SOV_transport_plane_equipment_5: "安东诺夫 安-12"
+ SOV_transport_plane_equipment_5_short: "安-12"
+ SOV_transport_plane_equipment_6: "伊留申 伊尔-76"
+ SOV_transport_plane_equipment_6_short: "伊尔-76"
+ SOV_transport_plane_equipment_7: "安东诺夫 安-225"
+ SOV_transport_plane_equipment_7_short: "安-225"
+ SOV_marine_helicopter_equipment_1: "卡莫夫 卡-20"
+ SOV_marine_helicopter_equipment_1_short: "卡-20"
+ SOV_marine_helicopter_equipment_2: "卡莫夫 卡-25"
+ SOV_marine_helicopter_equipment_2_short: "卡-25"
+ SOV_marine_helicopter_equipment_3: "卡莫夫 卡-27"
+ SOV_marine_helicopter_equipment_3_short: "卡-27"
+ SOV_marine_helicopter_equipment_4: "卡莫夫 卡-31"
+ SOV_marine_helicopter_equipment_4_short: "卡-31"
+ #FRA HELI
+ FRA_utility_helicopter_equipment_1: "H-19"
+ FRA_utility_helicopter_equipment_1_short: "H-19"
+ FRA_utility_helicopter_equipment_2: "云雀 III"
+ FRA_utility_helicopter_equipment_2_short: "云雀 III"
+ FRA_utility_helicopter_equipment_3: "SA330 美洲狮"
+ FRA_utility_helicopter_equipment_3_short: "SA330"
+ FRA_utility_helicopter_equipment_4: "AS365 海豚"
+ FRA_utility_helicopter_equipment_4_short: "AS365"
+ FRA_utility_helicopter_equipment_4_desc: ""
+ FRA_utility_helicopter_equipment_5: "AS550 非洲狐"
+ FRA_utility_helicopter_equipment_5_short: "AS550"
+ FRA_utility_helicopter_equipment_5_desc: ""
+ FRA_attack_helicopter_equipment_1: "CH-34"
+ FRA_attack_helicopter_equipment_1_short: "CH-34"
+ FRA_attack_helicopter_equipment_2: "SA 321G 超级黄蜂"
+ FRA_attack_helicopter_equipment_2_short: "SA 321G"
+ FRA_attack_helicopter_equipment_3: "山猫"
+ FRA_attack_helicopter_equipment_3_short: "山猫"
+ FRA_attack_helicopter_equipment_4: "AS565 黑豹"
+ FRA_attack_helicopter_equipment_4_short: "AS565"
+ FRA_attack_helicopter_equipment_5: "AS550 非洲狐"
+ FRA_attack_helicopter_equipment_5_short: "AS550"
+ TUR_attack_helicopter_equipment_1: "UH-1 易洛魁"
+ TUR_attack_helicopter_equipment_1_short: "UH-1"
+ TUR_attack_helicopter_equipment_2: "AH-1 休伊眼镜蛇"
+ TUR_attack_helicopter_equipment_2_short: "AH-1H"
+ TUR_attack_helicopter_equipment_3: "AH-1 超级眼镜蛇"
+ TUR_attack_helicopter_equipment_3_short: "AH-1S"
+ TUR_attack_helicopter_equipment_5: "A-129 猫鼬"
+ TUR_attack_helicopter_equipment_5_short: "A-129"
+ TUR_attack_helicopter_equipment_5_desc: ""
+ TUR_utility_helicopter_equipment_1: "H-34"
+ TUR_utility_helicopter_equipment_1_short: "H-34"
+ TUR_utility_helicopter_equipment_2: "贝尔 204"
+ TUR_utility_helicopter_equipment_2_short: "贝尔 204"
+ TUR_utility_helicopter_equipment_3: "贝尔 206"
+ TUR_utility_helicopter_equipment_3_short: "贝尔 206"
+ TUR_utility_helicopter_equipment_4: "UH-60 黑鹰"
+ TUR_utility_helicopter_equipment_4_short: "UH-60"
+ TUR_utility_helicopter_equipment_5: "空客 H-135"
+ TUR_utility_helicopter_equipment_5_short: "H-135"
+ FRA_marine_helicopter_equipment_2: "SA 321G 超级黄蜂"
+ FRA_marine_helicopter_equipment_2_short: "SA321G"
+ FRA_marine_helicopter_equipment_3: "超级山猫"
+ FRA_marine_helicopter_equipment_3_short: "超级山猫"
+ FRA_marine_helicopter_equipment_4: "AS565 黑豹"
+ FRA_marine_helicopter_equipment_4_short: "AS565"
+ USA_marine_helicopter_equipment_1: "SH-3 海王"
+ USA_marine_helicopter_equipment_1_short: "SH-3"
+ USA_marine_helicopter_equipment_3: "SH-60"
+ USA_marine_helicopter_equipment_3_short: "SH-60"
+ USA_marine_helicopter_equipment_4: "SH-60F"
+ USA_marine_helicopter_equipment_4_short: "SH-60F"
+ JAP_utility_helicopter_equipment_1: "H-19"
+ JAP_utility_helicopter_equipment_1_short: "H-19"
+ JAP_utility_helicopter_equipment_2: "UH-1B"
+ JAP_utility_helicopter_equipment_2_short: "UH-1B"
+ JAP_utility_helicopter_equipment_3: "UH-1N"
+ JAP_utility_helicopter_equipment_3_short: "UH-1N"
+ JAP_utility_helicopter_equipment_4: "贝尔 412"
+ JAP_utility_helicopter_equipment_4_short: "贝尔 412"
+ JAP_utility_helicopter_equipment_4_desc: ""
+ JAP_attack_helicopter_equipment_1: "CH-34"
+ JAP_attack_helicopter_equipment_1_short: "CH-34"
+ JAP_attack_helicopter_equipment_2: "UH-1C"
+ JAP_attack_helicopter_equipment_2_short: "UH-1C"
+ JAP_attack_helicopter_equipment_3: "AH-1S"
+ JAP_attack_helicopter_equipment_3_short: "AH-1S"
+ JAP_attack_helicopter_equipment_4: "AH-64A"
+ JAP_attack_helicopter_equipment_4_short: "AH-64A"
+ JAP_attack_helicopter_equipment_5: "AH-64DJP"
+ JAP_attack_helicopter_equipment_5_short: "AH-64DJP"
+ JAP_marine_helicopter_equipment_1: "西科斯基 S-62J"
+ JAP_marine_helicopter_equipment_1_short: "西科斯基 S-62J"
+ JAP_marine_helicopter_equipment_3: "SH-60 海鹰"
+ JAP_marine_helicopter_equipment_3_short: "SH-60 海鹰"
+ ENG_utility_helicopter_equipment_1: "H-19"
+ ENG_utility_helicopter_equipment_1_short: "H-19"
+ ENG_utility_helicopter_equipment_2: "CH-47 契努克"
+ ENG_utility_helicopter_equipment_2_short: "CH-47"
+ ENG_utility_helicopter_equipment_3: "SA330 美洲狮"
+ ENG_utility_helicopter_equipment_3_short: "SA330"
+ ENG_utility_helicopter_equipment_4: "贝尔 412"
+ ENG_utility_helicopter_equipment_4_short: "贝尔 412"
+ ENG_utility_helicopter_equipment_4_desc: ""
+ ENG_utility_helicopter_equipment_5: "AS550 非洲狐"
+ ENG_utility_helicopter_equipment_5_short: "AS550"
+ ENG_attack_helicopter_equipment_2: "BO-105"
+ ENG_attack_helicopter_equipment_2_short: "BO-105"
+ ENG_attack_helicopter_equipment_3: "山猫"
+ ENG_attack_helicopter_equipment_3_short: "山猫"
+ ENG_attack_helicopter_equipment_4: "AH-64A"
+ ENG_attack_helicopter_equipment_4_short: "AH-64A"
+ ENG_attack_helicopter_equipment_5: "CH-146 狮鹫"
+ ENG_attack_helicopter_equipment_5_short: "CH-146"
+ ENG_marine_helicopter_equipment_1: "SH-3 海王"
+ ENG_marine_helicopter_equipment_1_short: "SH-3"
+ ENG_marine_helicopter_equipment_3: "超级山猫"
+ ENG_marine_helicopter_equipment_3_short: "超级山猫"
+ ENG_marine_helicopter_equipment_4: "AS565 黑豹"
+ ENG_marine_helicopter_equipment_4_short: "AS565"
+ ##PRC TREE##
+ PRC_jet_fighter_equipment_1: "米高扬-格列维奇 米格-9"
+ PRC_jet_fighter_equipment_1_short: "米格-9"
+ PRC_jet_fighter_equipment_2: "米高扬-格列维奇 米格-15"
+ PRC_jet_fighter_equipment_2_short: "米格-15"
+ PRC_jet_fighter_equipment_3: "沈飞 歼-5"
+ PRC_jet_fighter_equipment_3_short: "歼-5"
+ PRC_jet_fighter_equipment_4: "米高扬-格列维奇 米格-21"
+ PRC_jet_fighter_equipment_4_short: "米格-21"
+ PRC_jet_fighter_equipment_4_desc: ""
+ PRC_jet_fighter_equipment_5: "沈飞 歼-6"
+ PRC_jet_fighter_equipment_5_short: "歼-6"
+ PRC_jet_fighter_equipment_6: "米高扬-格列维奇 米格-23"
+ PRC_jet_fighter_equipment_6_short: "米格-23"
+ PRC_jet_fighter_equipment_6_desc: ""
+ PRC_jet_fighter_equipment_7: "沈飞 歼-8"
+ PRC_jet_fighter_equipment_7_short: "歼-8"
+ PRC_jet_fighter_equipment_7_desc: ""
+ PRC_jet_fighter_equipment_8: "苏霍伊  苏-27"
+ PRC_jet_fighter_equipment_8_short: "苏-27"
+ PRC_jet_fighter_equipment_8_desc: ""
+ PRC_cv_fighter_equipment_4: "米高扬-格列维奇 米格-9K "
+ PRC_cv_fighter_equipment_4_short: "米格-9K"
+ PRC_cv_fighter_equipment_5: "米高扬-格列维奇 米格-15K"
+ PRC_cv_fighter_equipment_5_short: "米格-15K"
+ PRC_cv_fighter_equipment_6: "沈飞 歼-5"
+ PRC_cv_fighter_equipment_6_short: "歼-5"
+ PRC_cv_fighter_equipment_7: "米高扬-格列维奇 米格-21K"
+ PRC_cv_fighter_equipment_7_short: "米格-21K"
+ PRC_cv_fighter_equipment_7_desc: ""
+ PRC_cv_fighter_equipment_8: "沈飞 歼-6"
+ PRC_cv_fighter_equipment_8_short: "歼-6"
+ PRC_cv_fighter_equipment_9: "米高扬-格列维奇 米格-23K"
+ PRC_cv_fighter_equipment_9_short: "米格-23K"
+ PRC_cv_fighter_equipment_9_desc: ""
+ PRC_cv_fighter_equipment_10: "沈飞 歼-8"
+ PRC_cv_fighter_equipment_10_short: "歼-8"
+ PRC_cv_fighter_equipment_11: "苏霍伊  苏-27"
+ PRC_cv_fighter_equipment_11_short: "苏-27K"
+ PRC_heavy_fighter_equipment_4: "米高扬-格列维奇 米格-17"
+ PRC_heavy_fighter_equipment_4_short: "米格-17"
+ PRC_heavy_fighter_equipment_5: "米高扬-格列维奇 米格-19"
+ PRC_heavy_fighter_equipment_5_short: "米格-19"
+ PRC_heavy_fighter_equipment_6: "苏霍伊 苏-9"
+ PRC_heavy_fighter_equipment_6_short: "苏-9"
+ PRC_heavy_fighter_equipment_7: "沈飞 歼-6"
+ PRC_heavy_fighter_equipment_7_short: "歼-6"
+ PRC_heavy_fighter_equipment_8: "米高扬-格列维奇 米格-23"
+ PRC_heavy_fighter_equipment_8_short: "米格-23"
+ PRC_heavy_fighter_equipment_9: "沈飞 歼-7"
+ PRC_heavy_fighter_equipment_9_short: "歼-7"
+ PRC_heavy_fighter_equipment_10: "米高扬-格列维奇 米格-31"
+ PRC_heavy_fighter_equipment_10_short: "米格-31"
+ PRC_CAS_equipment_5: "图波列夫 图-12"
+ PRC_CAS_equipment_5_short: "图-12"
+ PRC_CAS_equipment_6: "伊留申 伊尔-40"
+ PRC_CAS_equipment_6_short: "伊尔-40"
+ PRC_CAS_equipment_7: "苏霍伊 苏-7"
+ PRC_CAS_equipment_7_short: "苏-7"
+ PRC_CAS_equipment_8: "苏霍伊 苏-7BM"
+ PRC_CAS_equipment_8_short: "苏-7BM"
+ PRC_CAS_equipment_9: "南飞 强-5"
+ PRC_CAS_equipment_9_short: "强-5"
+ PRC_CAS_equipment_10: "沈飞 歼-7"
+ PRC_CAS_equipment_10_short: "歼-7"
+ PRC_CAS_equipment_11: "西飞 歼轰-7"
+ PRC_CAS_equipment_11_short: "歼轰-7"
+ PRC_cv_CAS_equipment_4: "图波列夫 图-12K"
+ PRC_cv_CAS_equipment_4_short: "图-12K"
+ PRC_cv_CAS_equipment_5: "伊留申 伊尔-40K"
+ PRC_cv_CAS_equipment_5_short: "伊尔-40K"
+ PRC_cv_CAS_equipment_6: "苏霍伊 苏-7K"
+ PRC_cv_CAS_equipment_6_short: "苏-7K"
+ PRC_cv_CAS_equipment_7: "苏霍伊 苏-7BMK"
+ PRC_cv_CAS_equipment_7_short: "苏-7BMK"
+ PRC_cv_CAS_equipment_8: "苏霍伊 苏-7BKLK"
+ PRC_cv_CAS_equipment_8_short: "苏-7BKLK"
+ PRC_jet_strat_bomber_equipment_1: "图波列夫 图-16"
+ PRC_jet_strat_bomber_equipment_1_short: "图波列夫 图-16"
+ PRC_jet_strat_bomber_equipment_2: "西飞 轰-6"
+ PRC_jet_strat_bomber_equipment_2_short: "轰-6"
+ PRC_jet_strat_bomber_equipment_3: "图波列夫 图-95"
+ PRC_jet_strat_bomber_equipment_3_short: "图-95"
+ PRC_jet_strat_bomber_equipment_4: "图-22"
+ PRC_jet_strat_bomber_equipment_4_short: "图-22"
+ PRC_jet_tac_bomber_equipment_1: "西飞 轰-5"
+ PRC_jet_tac_bomber_equipment_1_short: "轰-5"
+ PRC_jet_tac_bomber_equipment_2: "雅克福列夫 雅克-26"
+ PRC_jet_tac_bomber_equipment_2_short: "雅克福列夫 雅克-26"
+ PRC_jet_tac_bomber_equipment_3: "图波列夫 图-28B"
+ PRC_jet_tac_bomber_equipment_3_short: "图-28B"
+ PRC_jet_tac_bomber_equipment_4: "米高扬-格列维奇 米格-27K"
+ PRC_jet_tac_bomber_equipment_4_short: "米格-27K"
+ PRC_jet_tac_bomber_equipment_5: "苏霍伊 苏-24"
+ PRC_jet_tac_bomber_equipment_5_short: "苏-24"
+ PRC_nav_bomber_equipment_4: "图波列夫 图-8"
+ PRC_nav_bomber_equipment_4_short: "图-8"
+ PRC_nav_bomber_equipment_5: "伊留申 伊尔-18"
+ PRC_nav_bomber_equipment_5_short: "伊尔-18"
+ PRC_nav_bomber_equipment_6: "别里耶夫 别-12"
+ PRC_nav_bomber_equipment_6_short: "别-12"
+ PRC_nav_bomber_equipment_7: "伊留申  伊尔-38"
+ PRC_nav_bomber_equipment_7_short: "伊尔-38"
+ PRC_nav_bomber_equipment_8: "哈飞 水轰-5"
+ PRC_nav_bomber_equipment_8_short: "水轰-5"
+ PRC_CAS_equipment_4: "伊留申 伊尔-16"
+ PRC_CAS_equipment_4_short: "伊尔-16"
+ PRC_transport_plane_equipment_1: "图波列夫 图波-3"
+ PRC_transport_plane_equipment_1_short: "图波-3"
+ PRC_transport_plane_equipment_2: "里苏诺夫 里-2"
+ PRC_transport_plane_equipment_2_short: "里-2"
+ PRC_transport_plane_equipment_3: "伊留申 伊尔-12"
+ PRC_transport_plane_equipment_3_short: "伊尔-12"
+ PRC_transport_plane_equipment_4: "伊留申 伊尔-18"
+ PRC_transport_plane_equipment_4_short: "伊尔-18"
+ PRC_transport_plane_equipment_5: "安东诺夫 安-12"
+ PRC_transport_plane_equipment_5_short: "安-12"
+ PRC_transport_plane_equipment_6: "伊留申 伊尔-76"
+ PRC_transport_plane_equipment_6_short: "伊尔-76"
+ PRC_transport_plane_equipment_7: "空客 320"
+ PRC_transport_plane_equipment_7_short: "A320"
+ # FLTE code replace POL_jet_tac_bomber_equipment_1
+ # FLTE code replace POL_jet_tac_bomber_equipment_1_short
+ POL_transport_plane_equipment_5: "安东诺夫 安-12"
+ POL_transport_plane_equipment_5_short: "安-12"
+ POL_transport_plane_equipment_6: "安东诺夫 安-24"
+ POL_transport_plane_equipment_6_short: "安-24"
+ POL_transport_plane_equipment_7: "安东诺夫 安-26"
+ POL_transport_plane_equipment_7_short: "安东诺夫 安-26"
+ # FLTE code replace POL_jet_fighter_equipment_1
+ # FLTE code replace POL_jet_fighter_equipment_1_short
+ # FLTE code replace POL_jet_fighter_equipment_2
+ # FLTE code replace POL_jet_fighter_equipment_2_short
+ POL_jet_fighter_equipment_3: "米高扬-格列维奇 米格-17"
+ POL_jet_fighter_equipment_3_short: "米格-17"
+ POL_jet_fighter_equipment_4: "米高扬-格列维奇 米格-21"
+ POL_jet_fighter_equipment_4_short: "米格-21"
+ POL_jet_fighter_equipment_4_desc: ""
+ POL_jet_fighter_equipment_5: "米高扬-格列维奇 米格-21S"
+ POL_jet_fighter_equipment_5_short: "米格-21S"
+ POL_jet_fighter_equipment_6: "米高扬-格列维奇 米格-23"
+ POL_jet_fighter_equipment_6_short: "米格-23"
+ POL_jet_fighter_equipment_6_desc: ""
+ POL_jet_fighter_equipment_7: "米高扬-格列维奇 米格-29"
+ POL_jet_fighter_equipment_7_short: "米格-29"
+ POL_jet_fighter_equipment_7_desc: ""
+ POL_jet_fighter_equipment_8: "通用动力 F-16D 战隼"
+ POL_jet_fighter_equipment_8_short: "F-16D"
+ POL_jet_fighter_equipment_8_desc: ""
+ POL_CAS_equipment_5: "图波列夫 图-12"
+ POL_CAS_equipment_5_short: "图-12"
+ POL_CAS_equipment_6: "伊留申 伊尔-40"
+ POL_CAS_equipment_6_short: "伊尔-40"
+ POL_CAS_equipment_7: "苏霍伊 苏-7"
+ POL_CAS_equipment_7_short: "苏-7"
+ POL_CAS_equipment_8: "苏霍伊 苏-7BM"
+ POL_CAS_equipment_8_short: "苏-7BM"
+ POL_CAS_equipment_9: "苏霍伊 苏-17"
+ POL_CAS_equipment_9_short: "苏霍伊 苏-17"
+ POL_CAS_equipment_10: "苏霍伊 苏-20"
+ POL_CAS_equipment_10_short: "苏-20"
+ POL_CAS_equipment_11: "苏霍伊 苏-22"
+ POL_CAS_equipment_11_short: "苏-22"
+ POL_heavy_fighter_equipment_8: "米高扬-格列维奇 米格-23"
+ POL_heavy_fighter_equipment_8_short: "米格-23"
+ POL_nav_bomber_equipment_5: "伊留申 伊尔-18"
+ POL_nav_bomber_equipment_5_short: "伊尔-18"
+ POL_utility_helicopter_equipment_1: "米尔 米-4直升机"
+ POL_utility_helicopter_equipment_1_short: "米-4"
+ POL_utility_helicopter_equipment_2: "米尔 米-6"
+ POL_utility_helicopter_equipment_2_short: "米-6"
+ POL_utility_helicopter_equipment_3: "米尔 米-8"
+ POL_utility_helicopter_equipment_3_short: "米-8"
+ POL_utility_helicopter_equipment_4: "米尔 米-26"
+ POL_utility_helicopter_equipment_4_short: "米-26"
+ POL_utility_helicopter_equipment_4_desc: ""
+ POL_utility_helicopter_equipment_5: "波兰国家航空局 W-3 索科尔"
+ POL_utility_helicopter_equipment_5_short: "W-3"
+ POL_utility_helicopter_equipment_5_desc: ""
+ POL_attack_helicopter_equipment_1: "米尔 米-4直升机"
+ POL_attack_helicopter_equipment_1_short: "米-4"
+ POL_attack_helicopter_equipment_2: "米尔 米-8"
+ POL_attack_helicopter_equipment_2_short: "米-8"
+ POL_attack_helicopter_equipment_3: "米尔 米-24"
+ POL_attack_helicopter_equipment_3_short: "米-24"
+ POL_attack_helicopter_equipment_4: "波兰国家航空局 W-3 索科尔"
+ POL_attack_helicopter_equipment_4_short: "W-3"
+ POL_marine_helicopter_equipment_1: "卡曼 SH-2 海妖"
+ POL_marine_helicopter_equipment_1_short: "SH-2 海妖"
+ POL_marine_helicopter_equipment_3: "米里 米-14"
+ POL_marine_helicopter_equipment_3_short: "米-14"
+ POL_marine_helicopter_equipment_4: "莱昂纳多 AW109"
+ POL_marine_helicopter_equipment_4_short: "AW109"
+ # FLTE code replace GER_heavy_fighter_equipment_3
+ # FLTE code replace GER_heavy_fighter_equipment_3_short
+ # FLTE code replace GER_heavy_fighter_equipment_2
+ # FLTE code replace GER_heavy_fighter_equipment_2_short
+ # FLTE code replace GER_strat_bomber_equipment_3
+ # FLTE code replace GER_strat_bomber_equipment_3_short
+ # FLTE code replace GER_transport_plane_equipment_1
+ # FLTE code replace GER_transport_plane_equipment_1_short
+ # FLTE code replace GER_transport_plane_equipment_2
+ # FLTE code replace GER_transport_plane_equipment_2_short
+ # FLTE code replace GER_transport_plane_equipment_3
+ # FLTE code replace GER_transport_plane_equipment_3_short
+ GER_transport_plane_equipment_4: "容克斯 Ju 390"
+ GER_transport_plane_equipment_4_short: "Ju 390"
+ GER_transport_plane_equipment_5: "特兰萨尔 C-160"
+ GER_transport_plane_equipment_5_short: "C-160"
+ GER_CAS_equipment_5: "阿拉多 Ar 233"
+ GER_CAS_equipment_5_short: "Ar 233"
+ GER_CAS_equipment_6: "阿拉多 Ar 233G"
+ GER_CAS_equipment_6_short: "Ar 233G"
+ GER_CAS_equipment_7: "阿拉多 Ar 387"
+ GER_CAS_equipment_7_short: "阿拉多 Ar 387"
+ GER_CAS_equipment_8: "容克斯 Ju 687"
+ GER_CAS_equipment_8_short: "Ju 687"
+ GER_CAS_equipment_9: "容克斯 Ju 688"
+ GER_CAS_equipment_9_short: "Ju 688"
+ GER_cv_CAS_equipment_4: "阿拉多 Ar 233T"
+ GER_cv_CAS_equipment_4_short: "Ar 233T"
+ GER_cv_CAS_equipment_5: "阿拉多 Ar 233GT"
+ GER_cv_CAS_equipment_5_short: "Ar 233GT"
+ GER_cv_CAS_equipment_6: "阿拉多 Ar 387T"
+ GER_cv_CAS_equipment_6_short: "阿拉多 Ar 387T"
+ GER_cv_CAS_equipment_7: "容克斯 Ju 687T"
+ GER_cv_CAS_equipment_7_short: "Ju 687T"
+ GER_cv_CAS_equipment_8: "容克斯 Ju 688T"
+ GER_cv_CAS_equipment_8_short: "Ju 688T"
+ GER_cv_fighter_equipment_4: "梅塞施密特 Me 262T"
+ GER_cv_fighter_equipment_4_short: "梅塞施密特 Me 262T"
+ GER_cv_fighter_equipment_5: "霍顿 Ho 229T A-2"
+ GER_cv_fighter_equipment_5_short: "Ho 229T"
+ GER_cv_fighter_equipment_6: "梅塞施密特 P.1110T"
+ GER_cv_fighter_equipment_6_short: "Me P.1110T"
+ GER_cv_fighter_equipment_7: "梅塞施密特 P.1112T"
+ GER_cv_fighter_equipment_7_short: "Me P.1112T"
+ GER_cv_fighter_equipment_8: "福克-沃尔夫 Ta 300T"
+ GER_cv_fighter_equipment_8_short: "Ta 300T"
+ GER_cv_fighter_equipment_9: "福克-沃尔夫 Ta 318T"
+ GER_cv_fighter_equipment_9_short: "Ta 318T"
+ GER_heavy_fighter_equipment_4: "亨舍尔 Hs 132"
+ GER_heavy_fighter_equipment_4_short: "Hs 132"
+ GER_heavy_fighter_equipment_5: "梅塞施密特 Me 262 HG III"
+ GER_heavy_fighter_equipment_5_short: "Me 262 HG III"
+ GER_heavy_fighter_equipment_6: "道尼尔 K.01"
+ GER_heavy_fighter_equipment_6_short: "道尼尔 K.01"
+ GER_heavy_fighter_equipment_7: "梅塞施密特 Me 290"
+ GER_heavy_fighter_equipment_7_short: "Me 290"
+ GER_heavy_fighter_equipment_8: "梅塞施密特 Me 294"
+ GER_heavy_fighter_equipment_8_short: "Me 294"
+ # FLTE code replace GER_jet_fighter_equipment_1
+ # FLTE code replace GER_jet_fighter_equipment_1_short
+ # FLTE code replace GER_jet_fighter_equipment_2
+ # FLTE code replace GER_jet_fighter_equipment_2_short
+ GER_jet_fighter_equipment_3: "梅塞施密特 P.1110"
+ GER_jet_fighter_equipment_3_short: "Me P.1110"
+ GER_jet_fighter_equipment_4: "梅塞施密特 P.1112"
+ GER_jet_fighter_equipment_4_short: "Me P.1112"
+ GER_jet_fighter_equipment_5: "福克-沃尔夫 Ta 300"
+ GER_jet_fighter_equipment_5_short: "Ta 300"
+ GER_jet_fighter_equipment_6: "福克-沃尔夫 Ta 318"
+ GER_jet_fighter_equipment_6_short: "Ta 318"
+ GER_jet_fighter_equipment_7: "福克-沃尔夫 Ta 400"
+ GER_jet_fighter_equipment_7_short: "Ta 400"
+ GER_jet_fighter_equipment_8: "福克-沃尔夫 Ta 442"
+ GER_jet_fighter_equipment_8_short: "Ta 442"
+ GER_jet_strat_bomber_equipment_2: "容克斯 EF 132"
+ GER_jet_strat_bomber_equipment_2_short: "EF 132"
+ GER_jet_strat_bomber_equipment_3: "阿拉多 E.555"
+ GER_jet_strat_bomber_equipment_3_short: "Ar E.555"
+ GER_jet_strat_bomber_equipment_4: "阿拉多 E.700"
+ GER_jet_strat_bomber_equipment_4_short: "Ar E.700"
+ # FLTE code replace GER_tac_bomber_equipment_2
+ # FLTE code replace GER_tac_bomber_equipment_2_short
+ # FLTE code replace GER_jet_tac_bomber_equipment_1
+ # FLTE code replace GER_jet_tac_bomber_equipment_1_short
+ GER_jet_tac_bomber_equipment_3: "Fw-251 方案 五"
+ GER_jet_tac_bomber_equipment_3_short: "Fw-251 方案 五"
+ GER_jet_tac_bomber_equipment_4: "布洛姆&福斯 Bv P188.02"
+ GER_jet_tac_bomber_equipment_4_short: "Bv P188.02"
+ # FLTE code replace GER_nav_bomber_equipment_1
+ # FLTE code replace GER_nav_bomber_equipment_1_short
+ # FLTE code replace GER_nav_bomber_equipment_2
+ # FLTE code replace GER_nav_bomber_equipment_2_short
+ # FLTE code replace GER_nav_bomber_equipment_3
+ # FLTE code replace GER_nav_bomber_equipment_3_short
+ GER_nav_bomber_equipment_4: "布洛姆&福斯 BV 238"
+ GER_nav_bomber_equipment_4_short: "BV 238"
+ GER_nav_bomber_equipment_5: "布洛姆&福斯 BV 245"
+ GER_nav_bomber_equipment_5_short: "BV 245"
+ GER_nav_bomber_equipment_6: "布洛姆&福斯 BV 300"
+ GER_nav_bomber_equipment_6_short: "BV 300"
+ GER_nav_bomber_equipment_7: "布洛姆&福斯 BV 322"
+ GER_nav_bomber_equipment_7_short: "BV 322"
+ # FLTE code replace GER_CAS_equipment_2
+ # FLTE code replace GER_CAS_equipment_2_short
+ # FLTE code replace GER_CAS_equipment_3
+ # FLTE code replace GER_CAS_equipment_3_short
+ GER_CAS_equipment_4: "容克斯 Ju 388 斯托特贝克"
+ GER_CAS_equipment_4_short: "Ju 388 斯托特贝克"
+ # FLTE code replace GER_rocket_interceptor_equipment_1
+ # FLTE code replace GER_rocket_interceptor_equipment_1_short
+ # FLTE code replace GER_rocket_interceptor_equipment_2
+ # FLTE code replace GER_rocket_interceptor_equipment_2_short
+ # FLTE code replace GER_rocket_interceptor_equipment_3
+ # FLTE code replace GER_rocket_interceptor_equipment_3_short
+ # FLTE code replace GER_cv_nav_bomber_equipment_1
+ # FLTE code replace GER_cv_nav_bomber_equipment_1_short
+ # FLTE code replace GER_cv_nav_bomber_equipment_2
+ # FLTE code replace GER_cv_nav_bomber_equipment_2_short
+ # FLTE code replace GER_cv_nav_bomber_equipment_3
+ # FLTE code replace GER_cv_nav_bomber_equipment_3_short
+ # FLTE code replace GER_cv_CAS_equipment_2
+ # FLTE code replace GER_cv_CAS_equipment_2_short
+ # FLTE code replace GER_cv_fighter_equipment_0
+ # FLTE code replace GER_cv_fighter_equipment_0_short
+ # FLTE code replace GER_cv_fighter_equipment_1
+ # FLTE code replace GER_cv_fighter_equipment_1_short
+ # FLTE code replace GER_cv_fighter_equipment_2
+ # FLTE code replace GER_cv_fighter_equipment_2_short
+ # FLTE code replace GER_cv_fighter_equipment_3
+ # FLTE code replace GER_cv_fighter_equipment_3_short
+ # FLTE code replace ENG_fighter_equipment_0
+ # FLTE code replace ENG_fighter_equipment_0_short
+ # FLTE code replace ENG_fighter_equipment_1
+ # FLTE code replace ENG_fighter_equipment_1_short
+ # FLTE code replace ENG_fighter_equipment_3
+ # FLTE code replace ENG_fighter_equipment_3_short
+ # FLTE code replace ENG_heavy_fighter_equipment_1
+ # FLTE code replace ENG_heavy_fighter_equipment_1_short
+ # FLTE code replace ENG_heavy_fighter_equipment_3
+ # FLTE code replace ENG_heavy_fighter_equipment_3_short
+ # FLTE code replace ENG_strat_bomber_equipment_1
+ # FLTE code replace ENG_strat_bomber_equipment_1_short
+ # FLTE code replace ENG_strat_bomber_equipment_2
+ # FLTE code replace ENG_strat_bomber_equipment_2_short
+ # FLTE code replace ENG_strat_bomber_equipment_3
+ # FLTE code replace ENG_strat_bomber_equipment_3_short
+ # FLTE code replace ENG_jet_fighter_equipment_2
+ # FLTE code replace ENG_jet_fighter_equipment_2_short
+ ENG_jet_fighter_equipment_3: "霍克 猎手"
+ ENG_jet_fighter_equipment_3_short: "猎手"
+ ENG_jet_fighter_equipment_4: "霍克 P.1121"
+ ENG_jet_fighter_equipment_4_short: "霍克 P.1121"
+ ENG_jet_fighter_equipment_5: "F-4K 鬼怪 FG.1"
+ ENG_jet_fighter_equipment_5_short: "F-4K 鬼怪 FG.1"
+ ENG_jet_fighter_equipment_6: "F-4M 鬼怪 FGR.2"
+ ENG_jet_fighter_equipment_6_short: "F-4M 鬼怪 FGR.2"
+ ENG_cv_fighter_equipment_4: "德-哈维兰 海吸血鬼"
+ ENG_cv_fighter_equipment_4_short: "海吸血鬼"
+ ENG_cv_fighter_equipment_5: "德-哈维兰 海毒液"
+ ENG_cv_fighter_equipment_5_short: "海毒液"
+ ENG_cv_fighter_equipment_6: "德-哈维兰 海雌狐"
+ ENG_cv_fighter_equipment_6_short: "海雌狐"
+ ENG_cv_fighter_equipment_7: "霍克  海P.1121"
+ ENG_cv_fighter_equipment_7_short: "霍克  海P.1121"
+ ENG_cv_fighter_equipment_8: "鹞式Gr.1"
+ ENG_cv_fighter_equipment_8_short: "鹞式Gr.1"
+ ENG_cv_fighter_equipment_9: "鹞式 T.2"
+ ENG_cv_fighter_equipment_9_short: "鹞式 T.2"
+ ENG_heavy_fighter_equipment_4: "德-哈维兰 毒液夜间战斗机"
+ ENG_heavy_fighter_equipment_4_short: "毒液夜间战斗机"
+ ENG_heavy_fighter_equipment_5: "格洛斯特 标枪"
+ ENG_heavy_fighter_equipment_5_short: "标枪"
+ ENG_heavy_fighter_equipment_6: "英国电气 闪电F.1A"
+ ENG_heavy_fighter_equipment_6_short: "闪电F.1A"
+ ENG_heavy_fighter_equipment_7: "英国电气 闪电T.4"
+ ENG_heavy_fighter_equipment_7_short: "闪电T.4"
+ ENG_heavy_fighter_equipment_8: "英国电气 闪电F.MK6"
+ ENG_heavy_fighter_equipment_8_short: "闪电 F.MK6"
+ # ENG_jet_strat_bomber_equipment_2: "Vickers Valiant"
+ # ENG_jet_strat_bomber_equipment_2_short: "Valiant"
+ # ENG_jet_strat_bomber_equipment_3: "Handley Page Victor"
+ # ENG_jet_strat_bomber_equipment_3_short: "Victor"
+ ENG_jet_strat_bomber_equipment_4: "阿芙罗 火神"
+ ENG_jet_strat_bomber_equipment_4_short: "火神"
+ # FLTE code replace ENG_tac_bomber_equipment_0
+ # FLTE code replace ENG_tac_bomber_equipment_0_short
+ # FLTE code replace ENG_tac_bomber_equipment_1
+ # FLTE code replace ENG_tac_bomber_equipment_1_short
+ # FLTE code replace ENG_jet_tac_bomber_equipment_1
+ # FLTE code replace ENG_jet_tac_bomber_equipment_1_short
+ ENG_jet_tac_bomber_equipment_5: "帕纳维亚 旋风"
+ ENG_jet_tac_bomber_equipment_5_short: "旋风"
+ # SWE_jet_tac_bomber_equipment_1: "English Electric Canberra B(I)"
+ # SWE_jet_tac_bomber_equipment_1_short: "Canberra B(I)"
+ # FLTE code replace ENG_nav_bomber_equipment_1
+ # FLTE code replace ENG_nav_bomber_equipment_1_short
+ # FLTE code replace ENG_nav_bomber_equipment_2
+ # FLTE code replace ENG_nav_bomber_equipment_2_short
+ # FLTE code replace ENG_nav_bomber_equipment_3
+ # FLTE code replace ENG_nav_bomber_equipment_3_short
+ ENG_nav_bomber_equipment_4: "洛克希德 PV-2 海王星"
+ ENG_nav_bomber_equipment_4_short: "海王星"
+ # FLTE code replace ENG_CAS_equipment_1
+ # FLTE code replace ENG_CAS_equipment_1_short
+ # FLTE code replace ENG_CAS_equipment_3
+ # FLTE code replace ENG_CAS_equipment_3_short
+ ENG_CAS_equipment_4: "韦斯特兰 飞龙"
+ ENG_CAS_equipment_4_short: "飞龙"
+ ENG_jet_CAS_equipment_1: "德-哈维兰 吸血鬼战斗轰炸机"
+ ENG_jet_CAS_equipment_1_short: "吸血鬼战斗轰炸机"
+ ENG_jet_CAS_equipment_2: "超级马林 迅捷"
+ ENG_jet_CAS_equipment_2_short: "迅捷"
+ ENG_jet_CAS_equipment_3: "超级马林 迅捷 Mk.2"
+ ENG_jet_CAS_equipment_3_short: "迅捷 Mk.2"
+ ENG_cv_CAS_equipment_4: "超级马林 袭击者"
+ ENG_cv_CAS_equipment_4_short: "袭击者"
+ ENG_cv_CAS_equipment_5: "霍克 海鹰"
+ ENG_cv_CAS_equipment_5_short: "海鹰"
+ ENG_cv_CAS_equipment_6: "布莱克本 海盗"
+ ENG_cv_CAS_equipment_6_short: "海盗"
+ ENG_cv_CAS_equipment_7: "布莱克本 海盗 S.2"
+ ENG_cv_CAS_equipment_7_short: "海盗 S.2"
+ # FLTE code replace ENG_cv_nav_bomber_equipment_1
+ # FLTE code replace ENG_cv_nav_bomber_equipment_1_short
+ # FLTE code replace ENG_cv_nav_bomber_equipment_2
+ # FLTE code replace ENG_cv_nav_bomber_equipment_2_short
+ # FLTE code replace ENG_cv_CAS_equipment_1
+ # FLTE code replace ENG_cv_CAS_equipment_1_short
+ # FLTE code replace ENG_cv_CAS_equipment_2
+ # FLTE code replace ENG_cv_CAS_equipment_2_short
+ # FLTE code replace ENG_cv_CAS_equipment_3
+ # FLTE code replace ENG_cv_CAS_equipment_3_short
+ # FLTE code replace ENG_cv_fighter_equipment_3
+ # FLTE code replace ENG_cv_fighter_equipment_3_short
+ # FLTE code replace ENG_transport_plane_equipment_1
+ # FLTE code replace ENG_transport_plane_equipment_1_short
+ # FLTE code replace ENG_transport_plane_equipment_2
+ # FLTE code replace ENG_transport_plane_equipment_2_short
+ # FLTE code replace ENG_transport_plane_equipment_3
+ # FLTE code replace ENG_transport_plane_equipment_3_short
+ ENG_transport_plane_equipment_4: "维克斯 瓦莱塔"
+ ENG_transport_plane_equipment_4_short: "瓦莱塔"
+ ENG_transport_plane_equipment_5: "‌阿姆斯特朗·惠特沃斯 阿戈西"
+ ENG_transport_plane_equipment_5_short: "阿戈西"
+ # FLTE code replace USA_transport_plane_equipment_1
+ # FLTE code replace USA_transport_plane_equipment_1_short
+ # FLTE code replace USA_transport_plane_equipment_2
+ # FLTE code replace USA_transport_plane_equipment_2_short
+ # FLTE code replace USA_transport_plane_equipment_3
+ # FLTE code replace USA_transport_plane_equipment_3_short
+ USA_transport_plane_equipment_4: "费尔查尔德 C-119 飞行货车"
+ USA_transport_plane_equipment_4_short: "C-119 飞行货车"
+ USA_transport_plane_equipment_5: "洛克希德 C-130 大力神"
+ USA_transport_plane_equipment_5_short: "C-130 大力神"
+ USA_transport_plane_equipment_6: "洛克希德 C-5 银河"
+ USA_transport_plane_equipment_6_short: "C-5 银河"
+ USA_transport_plane_equipment_7: "C-17 环球霸王 III型"
+ USA_transport_plane_equipment_7_short: "C-17 环球霸王"
+ # FLTE code replace USA_fighter_equipment_0
+ # FLTE code replace USA_fighter_equipment_0_short
+ # FLTE code replace USA_fighter_equipment_1
+ # FLTE code replace USA_fighter_equipment_1_short
+ # FLTE code replace USA_fighter_equipment_2
+ # FLTE code replace USA_fighter_equipment_2_short
+ USA_jet_fighter_equipment_3: "北美 F-100 超级军刀"
+ USA_jet_fighter_equipment_3_short: "F-100 超级军刀"
+ USA_jet_fighter_equipment_3_desc: "北美航空公司F-100 超级军刀是美国一款超音速喷气战斗机，曾在1954至1971年间在美国空军服役，其后在美国空军国民警卫队服役至1979年。作为美国空军“世纪系列”的首架战斗机，它是美国空军第一种具备水平超音速飞行能力的战斗机。F-100由北美航空公司开发，设计用于取代F-86“佩刀”战斗机，成为性能更强大的新一代空优战斗机。"
+ USA_jet_fighter_equipment_4: "麦克唐纳 F-101 巫毒"
+ USA_jet_fighter_equipment_4_short: "F-101 巫毒"
+ USA_jet_fighter_equipment_4_desc: "麦克唐纳F-101 巫毒是一款超音速喷气式战斗机，曾在美国空军和加拿大皇家空军服役。"
+ USA_jet_fighter_equipment_5: "麦克唐纳-道格拉斯 F-4C 幻影 II型"
+ USA_jet_fighter_equipment_5_short: "F-4C 幻影 II型"
+ USA_jet_fighter_equipment_5_desc: "麦克唐纳·道格拉斯 F-4 幻影II型，由麦克唐纳飞行器公司为美国海军研制，是一种串列双座、双引擎、全天候、远程超音速喷气式飞机，兼具截击机和战斗轰炸机的能力。"
+ USA_jet_fighter_equipment_6: "麦克唐纳 F-4E 幻影 II型"
+ USA_jet_fighter_equipment_6_short: "麦克唐纳 F-4E 幻影 II型"
+ USA_jet_fighter_equipment_6_desc: "F-4C 进行了升级，包括更先进的航空电子设备和AN/APQ-109雷达。于1965年6月首飞。在美国空军中，一位飞行员和两位武器系统官驾驶F-4D成为了击落多架敌机的王牌飞行员。"
+ USA_jet_fighter_equipment_7: "通用动力 F-16A 战隼"
+ USA_jet_fighter_equipment_7_short: "F-16A"
+ USA_jet_fighter_equipment_7_desc: ""
+ USA_jet_fighter_equipment_8: "通用动力 F-16C 战隼"
+ USA_jet_fighter_equipment_8_short: "通用动力 F-16C 战隼"
+ USA_jet_fighter_equipment_8_desc: ""
+ USA_cv_fighter_equipment_4: "北美 FJ-1 狂怒"
+ USA_cv_fighter_equipment_4_short: "FJ-1 狂怒"
+ USA_cv_fighter_equipment_5: "麦克唐纳 F2H 女妖"
+ USA_cv_fighter_equipment_5_short: "F2H 女妖"
+ USA_cv_fighter_equipment_6: "格鲁曼 F9F-8 美洲狮"
+ USA_cv_fighter_equipment_6_short: "F9F-8 美洲狮"
+ USA_cv_fighter_equipment_7: "沃特 F-8 十字军"
+ USA_cv_fighter_equipment_7_short: "F-8 十字军"
+ USA_cv_fighter_equipment_8: "麦克唐纳-道格拉斯 F-4J"
+ USA_cv_fighter_equipment_8_short: "F-4J"
+ USA_cv_fighter_equipment_9: "麦克唐纳-道格拉斯 F-4S"
+ USA_cv_fighter_equipment_9_short: "F-4S"
+ USA_cv_fighter_equipment_10: "格鲁曼 F-14 雄猫"
+ USA_cv_fighter_equipment_10_short: "F-14 雄猫"
+ USA_cv_fighter_equipment_11: "麦克唐纳-道格拉斯 F/A-18C 大黄蜂"
+ USA_cv_fighter_equipment_11_short: "F/A-18C 大黄蜂"
+ # FLTE code replace USA_heavy_fighter_equipment_1
+ # FLTE code replace USA_heavy_fighter_equipment_1_short
+ # FLTE code replace USA_heavy_fighter_equipment_2
+ # FLTE code replace USA_heavy_fighter_equipment_2_short
+ # FLTE code replace USA_heavy_fighter_equipment_3
+ # FLTE code replace USA_heavy_fighter_equipment_3_short
+ USA_heavy_fighter_equipment_4: "洛克希德 F-94 星火"
+ USA_heavy_fighter_equipment_4_short: "F-94 星火"
+ USA_heavy_fighter_equipment_5: "康维尔 F-102 三角剑"
+ USA_heavy_fighter_equipment_5_short: "F-102 三角剑"
+ USA_heavy_fighter_equipment_6: "洛克希德 F104 星战士"
+ USA_heavy_fighter_equipment_6_short: "F-104 星战士"
+ USA_heavy_fighter_equipment_7: "康维尔 F-106 三角标枪"
+ USA_heavy_fighter_equipment_7_short: "F-106 三角标枪"
+ USA_heavy_fighter_equipment_8: "康维尔 F-106B 三角标枪"
+ USA_heavy_fighter_equipment_8_short: "F-106B 三角飞镖"
+ USA_heavy_fighter_equipment_9: "麦克唐纳-道格拉斯 F-15A 鹰"
+ USA_heavy_fighter_equipment_9_short: "F-15A 鹰"
+ USA_heavy_fighter_equipment_10: "麦克唐纳-道格拉斯 F-15C 鹰"
+ USA_heavy_fighter_equipment_10_short: "F-15C 鹰"
+ USA_CAS_equipment_5: "共和 F-84 雷电"
+ USA_CAS_equipment_5_short: "F-84 雷电"
+ USA_CAS_equipment_6: "共和 F-84F 雷电"
+ USA_CAS_equipment_6_short: "F-84F 雷电"
+ USA_CAS_equipment_7: "F-105  雷公"
+ USA_CAS_equipment_7_short: "F-105  雷公"
+ USA_CAS_equipment_8: "共和 F-105D 雷公"
+ USA_CAS_equipment_8_short: "F-105D 雷公"
+ USA_CAS_equipment_9: "凌·特姆科·沃特 A-7 海盗二型"
+ USA_CAS_equipment_9_short: "凌·特姆科·沃特 A-7 海盗二型"
+ USA_CAS_equipment_10: "费尔柴尔德 A-10 雷电二型"
+ USA_CAS_equipment_10_short: "A-10 雷电二型"
+ USA_CAS_equipment_11: "费尔柴尔德 A-10C 雷电二型"
+ USA_CAS_equipment_11_short: "A-10C 雷电二型"
+ USA_cv_CAS_equipment_4: "格鲁曼 F9F 黑豹"
+ USA_cv_CAS_equipment_4_short: "F9F 黑豹"
+ USA_cv_CAS_equipment_5: "道格拉斯 A3D 空中战士"
+ USA_cv_CAS_equipment_5_short: "A3D 空中战士"
+ USA_cv_CAS_equipment_6: "道格拉斯 A-4 天鹰"
+ USA_cv_CAS_equipment_6_short: "A-4 天鹰"
+ USA_cv_CAS_equipment_7: "道格拉斯 A-4F 天鹰"
+ USA_cv_CAS_equipment_7_short: "A-4F 天鹰"
+ USA_cv_CAS_equipment_8: "格鲁曼 A-6 入侵者"
+ USA_cv_CAS_equipment_8_short: "A-6 入侵者"
+ USA_cv_CAS_equipment_9: "麦克唐纳-道格拉斯 F/A-18B 大黄蜂"
+ USA_cv_CAS_equipment_9_short: "F/A-18B 大黄蜂"
+ USA_cv_CAS_equipment_10: "麦克唐纳-道格拉斯 F/A-18D 大黄蜂"
+ USA_cv_CAS_equipment_10_short: "F/A-18D 大黄蜂"
+ # FLTE code replace USA_jet_strat_bomber_equipment_1
+ # FLTE code replace USA_jet_strat_bomber_equipment_1_short
+ USA_jet_strat_bomber_equipment_2: "波音 B-47 同温层喷射机"
+ USA_jet_strat_bomber_equipment_2_short: "B-47 同温层喷射机"
+ USA_jet_strat_bomber_equipment_3: "波音 B-52 同温层堡垒"
+ USA_jet_strat_bomber_equipment_3_short: "B-52 同温层堡垒"
+ USA_jet_strat_bomber_equipment_4: "波音 B-52H 同温层堡垒"
+ USA_jet_strat_bomber_equipment_4_short: "B-52H 同温层堡垒"
+ USA_jet_strat_bomber_equipment_5: "罗克韦尔 B-1B 枪骑兵"
+ USA_jet_strat_bomber_equipment_5_short: "B-1B 枪骑兵"
+ # FLTE code replace USA_tac_bomber_equipment_0
+ # FLTE code replace USA_tac_bomber_equipment_0_short
+ # FLTE code replace USA_tac_bomber_equipment_1
+ # FLTE code replace USA_tac_bomber_equipment_1_short
+ # FLTE code replace USA_tac_bomber_equipment_3
+ # FLTE code replace USA_tac_bomber_equipment_3_short
+ USA_jet_tac_bomber_equipment_1: "北美 B-45 龙卷风"
+ USA_jet_tac_bomber_equipment_1_short: "B-45 龙卷风"
+ # FLTE code replace USA_jet_tac_bomber_equipment_2
+ # FLTE code replace USA_jet_tac_bomber_equipment_2_short
+ USA_jet_tac_bomber_equipment_3: "通用动力 F-111 土豚"
+ USA_jet_tac_bomber_equipment_3_short: "F-111 土豚"
+ USA_jet_tac_bomber_equipment_4: "通用动力 F-111F"
+ USA_jet_tac_bomber_equipment_4_short: "F-111F"
+ USA_jet_tac_bomber_equipment_5: "通用动力 F-15E 攻击鹰"
+ USA_jet_tac_bomber_equipment_5_short: "F-15E 攻击鹰"
+ # FLTE code replace USA_nav_bomber_equipment_1
+ # FLTE code replace USA_nav_bomber_equipment_1_short
+ # FLTE code replace USA_nav_bomber_equipment_2
+ # FLTE code replace USA_nav_bomber_equipment_2_short
+ # FLTE code replace USA_nav_bomber_equipment_3
+ # FLTE code replace USA_nav_bomber_equipment_3_short
+ USA_nav_bomber_equipment_4: "洛克希德 P2V 海王星"
+ USA_nav_bomber_equipment_4_short: "P2V 海王星"
+ USA_nav_bomber_equipment_5: "洛克希德 SP2-H"
+ USA_nav_bomber_equipment_5_short: "SP2-H"
+ USA_nav_bomber_equipment_6: "洛克希德 P-3 猎户座"
+ USA_nav_bomber_equipment_6_short: "P-3 猎户座"
+ USA_nav_bomber_equipment_7: "洛克希德 P-3B"
+ USA_nav_bomber_equipment_7_short: "P-3B"
+ USA_nav_bomber_equipment_8: "波音 P-8 海神"
+ USA_nav_bomber_equipment_8_short: "P-8 海神"
+ # FLTE code replace USA_CAS_equipment_2
+ # FLTE code replace USA_CAS_equipment_2_short
+ # FLTE code replace USA_CAS_equipment_3
+ # FLTE code replace USA_CAS_equipment_3_short
+ USA_CAS_equipment_4: "道格拉斯 AD-1 天袭者"
+ USA_CAS_equipment_4_short: "AD-1 天袭者"
+ SWE_CAS_equipment_4: "道格拉斯 A-1 天袭者"
+ SWE_CAS_equipment_4_short: "A-1 天袭者"
+ # FLTE code replace USA_cv_nav_bomber_equipment_3
+ # FLTE code replace USA_cv_nav_bomber_equipment_3_short
+ # FLTE code replace USA_CAS_equipment_1
+ # FLTE code replace USA_CAS_equipment_1_short
+ # FLTE code replace USA_cv_CAS_equipment_3
+ # FLTE code replace USA_cv_CAS_equipment_3_short
+ # FLTE code replace USA_cv_fighter_equipment_1
+ # FLTE code replace USA_cv_fighter_equipment_1_short
+ # FLTE code replace USA_cv_fighter_equipment_2
+ # FLTE code replace USA_cv_fighter_equipment_2_short
+ USA_rocket_interceptor_equipment_1: "P-51D（火箭助推）"
+ USA_rocket_interceptor_equipment_1_short: "XP-51"
+ USA_rocket_interceptor_equipment_2: "贝尔 X-1"
+ USA_rocket_interceptor_equipment_2_short: "X-1"
+ USA_rocket_interceptor_equipment_3: "北美航空 X-15"
+ USA_rocket_interceptor_equipment_3_short: "X-15"
+ # FLTE code replace SOV_fighter_equipment_2
+ # FLTE code replace SOV_fighter_equipment_2_short
+ # FLTE code replace SOV_fighter_equipment_3
+ # FLTE code replace SOV_fighter_equipment_3_short
+ # FLTE code replace SOV_heavy_fighter_equipment_1
+ # FLTE code replace SOV_heavy_fighter_equipment_1_short
+ # FLTE code replace SOV_heavy_fighter_equipment_3
+ # FLTE code replace SOV_heavy_fighter_equipment_3_short
+ SOV_jet_heavy_fighter_equipment_1: "米高扬-格列维奇 米格-17"
+ SOV_jet_heavy_fighter_equipment_1_short: "米格-17"
+ SOV_jet_heavy_fighter_equipment_2: "拉沃契金 拉-190"
+ SOV_jet_heavy_fighter_equipment_2_short: "拉-190"
+ SOV_jet_CAS_equipment_1: "图波列夫 图-12"
+ SOV_jet_CAS_equipment_1_short: "图-12"
+ SOV_jet_CAS_equipment_2: "伊留申 伊尔-40"
+ SOV_jet_CAS_equipment_2_short: "伊尔-40"
+ # FLTE code replace SOV_strat_bomber_equipment_1
+ # FLTE code replace SOV_strat_bomber_equipment_1_short
+ # FLTE code replace SOV_strat_bomber_equipment_2
+ # FLTE code replace SOV_strat_bomber_equipment_2_short
+ SOV_jet_fighter_equipment_3: "米高扬-格列耶维奇 米格-19"
+ SOV_jet_fighter_equipment_3_short: "米格-19"
+ # FLTE code replace SOV_jet_strat_bomber_equipment_1
+ # FLTE code replace SOV_jet_strat_bomber_equipment_1_short
+ SOV_jet_strat_bomber_equipment_2: "图波列夫 图-16"
+ SOV_jet_strat_bomber_equipment_2_short: "图-16"
+ SOV_jet_strat_bomber_equipment_3: "图波列夫 图-95"
+ SOV_jet_strat_bomber_equipment_3_short: "图-95"
+ # FLTE code replace SOV_tac_bomber_equipment_0
+ # FLTE code replace SOV_tac_bomber_equipment_0_short
+ # FLTE code replace SOV_tac_bomber_equipment_3
+ # FLTE code replace SOV_tac_bomber_equipment_3_short
+ # FLTE code replace SOV_jet_tac_bomber_equipment_2
+ # FLTE code replace SOV_jet_tac_bomber_equipment_2_short
+ # FLTE code replace SOV_nav_bomber_equipment_1
+ # FLTE code replace SOV_nav_bomber_equipment_1_short
+ # FLTE code replace SOV_nav_bomber_equipment_2
+ # FLTE code replace SOV_nav_bomber_equipment_2_short
+ # FLTE code replace SOV_nav_bomber_equipment_3
+ # FLTE code replace SOV_nav_bomber_equipment_3_short
+ SOV_nav_bomber_equipment_4: "图波列夫 图-8"
+ SOV_nav_bomber_equipment_4_short: "图-8"
+ # FLTE code replace SOV_CAS_equipment_1
+ # FLTE code replace SOV_CAS_equipment_1_short
+ # FLTE code replace SOV_CAS_equipment_3
+ # FLTE code replace SOV_CAS_equipment_3_short
+ SOV_CAS_equipment_4: "伊留申 伊尔-16"
+ SOV_CAS_equipment_4_short: "伊尔-16"
+ # FLTE code replace SOV_cv_nav_bomber_equipment_1
+ # FLTE code replace SOV_cv_nav_bomber_equipment_1_short
+ # FLTE code replace SOV_cv_nav_bomber_equipment_2
+ # FLTE code replace SOV_cv_nav_bomber_equipment_2_short
+ # FLTE code replace SOV_cv_nav_bomber_equipment_3
+ # FLTE code replace SOV_cv_nav_bomber_equipment_3_short
+ # FLTE code replace SOV_cv_CAS_equipment_1
+ # FLTE code replace SOV_cv_CAS_equipment_1_short
+ # FLTE code replace SOV_cv_fighter_equipment_3
+ # FLTE code replace SOV_cv_fighter_equipment_3_short
+ # FLTE code replace JAP_transport_plane_equipment_1
+ # FLTE code replace JAP_transport_plane_equipment_1_short
+ # FLTE code replace JAP_transport_plane_equipment_2
+ # FLTE code replace JAP_transport_plane_equipment_3
+ # FLTE code replace JAP_transport_plane_equipment_3_short
+ JAP_transport_plane_equipment_4: "立川 试作九二输送机C型"
+ JAP_transport_plane_equipment_4_short: "试作九二输送机C型"
+ JAP_transport_plane_equipment_5: "C-130 大力神"
+ JAP_transport_plane_equipment_5_short: "C-130"
+ JAP_transport_plane_equipment_6: "川崎 C-1"
+ JAP_transport_plane_equipment_6_short: "C-1"
+ JAP_transport_plane_equipment_7: "新明和 US-2"
+ JAP_transport_plane_equipment_7_short: "新明和 US-2"
+ SWE_transport_plane_equipment_5: "C-130 大力神"
+ SWE_transport_plane_equipment_5_short: "C-130"
+ SWE_transport_plane_equipment_6: "C-212"
+ SWE_transport_plane_equipment_6_short: "C-212"
+ SWE_transport_plane_equipment_7: "BAe 146"
+ SWE_transport_plane_equipment_7_short: "BAe 146"
+ # FLTE code replace JAP_fighter_equipment_0
+ # FLTE code replace JAP_fighter_equipment_0_short
+ # FLTE code replace JAP_heavy_fighter_equipment_1
+ # FLTE code replace JAP_heavy_fighter_equipment_1_short
+ # FLTE code replace JAP_heavy_fighter_equipment_2
+ # FLTE code replace JAP_heavy_fighter_equipment_2_short
+ # FLTE code replace JAP_strat_bomber_equipment_1
+ # FLTE code replace JAP_strat_bomber_equipment_1_short
+ # FLTE code replace JAP_strat_bomber_equipment_2
+ # FLTE code replace JAP_strat_bomber_equipment_2_short
+ JAP_rocket_interceptor_equipment_1: "三菱 局地战 秋水"
+ JAP_rocket_interceptor_equipment_1_short: "局地战 秋水"
+ # FLTE code replace JAP_tac_bomber_equipment_0
+ # FLTE code replace JAP_tac_bomber_equipment_0_short
+ # FLTE code replace JAP_tac_bomber_equipment_1
+ # FLTE code replace JAP_tac_bomber_equipment_1_short
+ # FLTE code replace JAP_tac_bomber_equipment_2
+ # FLTE code replace JAP_tac_bomber_equipment_2_short
+ # FLTE code replace JAP_tac_bomber_equipment_3
+ # FLTE code replace JAP_CAS_equipment_1
+ # FLTE code replace JAP_CAS_equipment_1_short
+ # FLTE code replace JAP_CAS_equipment_3
+ # FLTE code replace JAP_CAS_equipment_3_short
+ JAP_CAS_equipment_4: "满州 九八试作战袭"
+ JAP_CAS_equipment_4_short: "九八试作战袭"
+ JAP_CAS_equipment_10: "三菱 F-1"
+ JAP_CAS_equipment_10_short: "F-1"
+ # FLTE code replace JAP_nav_bomber_equipment_1
+ # FLTE code replace JAP_nav_bomber_equipment_1_short
+ JAP_nav_bomber_equipment_4: "洛克希德 PV2J"
+ JAP_nav_bomber_equipment_4_short: "PV2J"
+ JAP_nav_bomber_equipment_5: "川崎 P-2J"
+ JAP_nav_bomber_equipment_5_short: "P-2J"
+ JAP_nav_bomber_equipment_6: "P-3 猎户座"
+ JAP_nav_bomber_equipment_6_short: "P-3 猎户座"
+ JAP_nav_bomber_equipment_7: "EP-3C 猎户座"
+ JAP_nav_bomber_equipment_7_short: "EP-3C 猎户座"
+ JAP_nav_bomber_equipment_8: "盖茨·利尔 35"
+ JAP_nav_bomber_equipment_8_short: "盖茨·利尔 35"
+ # FLTE code replace JAP_cv_CAS_equipment_1
+ # FLTE code replace JAP_cv_CAS_equipment_1_short
+ # FLTE code replace JAP_cv_fighter_equipment_0
+ # FLTE code replace JAP_cv_fighter_equipment_0_short
+ # FLTE code replace JAP_cv_fighter_equipment_3
+ # FLTE code replace JAP_cv_fighter_equipment_3_short
+ JAP_jet_heavy_fighter_equipment_1: "川崎 二一三试作复战"
+ JAP_jet_heavy_fighter_equipment_1_short: "二一三试作复战"
+ JAP_jet_heavy_fighter_equipment_2: "川崎 二二零试作复战"
+ JAP_jet_heavy_fighter_equipment_2_short: "二二零试作复战"
+ # FLTE code replace JAP_jet_fighter_equipment_1
+ # FLTE code replace JAP_jet_fighter_equipment_1_short
+ JAP_cv_fighter_equipment_4: "中岛 橘花特攻"
+ JAP_cv_fighter_equipment_4_short: "橘花特攻"
+ JAP_jet_fighter_equipment_5: "F-104J 荣光"
+ JAP_jet_fighter_equipment_5_short: "F-104J 荣光"
+ JAP_cv_jet_fighter_equipment_2: "三菱 A9M"
+ JAP_cv_jet_fighter_equipment_2_short: "A9M"
+ JAP_jet_fighter_equipment_3: "F-86F 极光"
+ JAP_jet_fighter_equipment_3_short: "F-86F 极光"
+ JAP_jet_fighter_equipment_4: "F-86D 月光"
+ JAP_jet_fighter_equipment_4_short: "F-86D 月光"
+ JAP_jet_fighter_equipment_6: "F-4EJ"
+ JAP_jet_fighter_equipment_6_short: "F-4EJ"
+ JAP_jet_fighter_equipment_7: "三菱 F-15J"
+ JAP_jet_fighter_equipment_7_short: "三菱 F-15J"
+ JAP_jet_fighter_equipment_8: "F-4EJ 改"
+ JAP_jet_fighter_equipment_8_short: "F-4EJ 改"
+ JAP_cv_jet_fighter_equipment_3: "三菱 A10M"
+ JAP_cv_jet_fighter_equipment_3_short: "A10M"
+ JAP_jet_CAS_equipment_1: "横须贺 景云司侦"
+ JAP_jet_CAS_equipment_1_short: "景云司侦"
+ JAP_jet_CAS_equipment_2: "爱知 M9A"
+ JAP_jet_CAS_equipment_2_short: "M9A"
+ JAP_cv_jet_CAS_equipment_1: "爱知 木星舰攻"
+ JAP_cv_jet_CAS_equipment_1_short: "木星舰攻"
+ JAP_cv_jet_CAS_equipment_2: "爱知 流星舰攻"
+ JAP_cv_jet_CAS_equipment_2_short: "流星舰攻"
+ JAP_jet_strat_bomber_equipment_1: "中岛 富岳陆攻"
+ JAP_jet_strat_bomber_equipment_1_short: "富岳陆攻"
+ JAP_jet_strat_bomber_equipment_2: "中岛 G13N"
+ JAP_jet_strat_bomber_equipment_2_short: "G13N"
+ JAP_jet_strat_bomber_equipment_3: "中岛 G17N"
+ JAP_jet_strat_bomber_equipment_3_short: "G17N"
+ JAP_jet_tac_bomber_equipment_1: "川西 G11K"
+ JAP_jet_tac_bomber_equipment_1_short: "G11K"
+ JAP_jet_tac_bomber_equipment_2: "川西 G19K"
+ JAP_jet_tac_bomber_equipment_2_short: "G19K"
+#ITALY# 
+ # FLTE code replace ITA_CAS_equipment_2
+ # FLTE code replace ITA_CAS_equipment_2_short
+ # FLTE code replace ITA_CAS_equipment_3
+ # FLTE code replace ITA_CAS_equipment_3_short
+ ITA_CAS_equipment_4: "萨伏亚-马尔凯蒂 SM.92 重型战斗轰炸机"
+ ITA_CAS_equipment_4_short: "SM.92"
+ # FLTE code replace ITA_heavy_fighter_equipment_1
+ # FLTE code replace ITA_heavy_fighter_equipment_1_short
+ # FLTE code replace ITA_heavy_fighter_equipment_2
+ # FLTE code replace ITA_heavy_fighter_equipment_2_short
+ # FLTE code replace ITA_heavy_fighter_equipment_3
+ # FLTE code replace ITA_heavy_fighter_equipment_3_short
+ # FLTE code replace ITA_fighter_equipment_3
+ # FLTE code replace ITA_fighter_equipment_3_short
+ ITA_cv_jet_fighter_equipment_1: "卡普罗尼·坎皮尼 C.C.2"
+ ITA_cv_jet_fighter_equipment_1_short: "C.C.2"
+ # FLTE code replace ITA_jet_fighter_equipment_1
+ # FLTE code replace ITA_jet_fighter_equipment_1_short
+ # FLTE code replace ITA_jet_fighter_equipment_2
+ # FLTE code replace ITA_jet_fighter_equipment_2_short
+ ITA_jet_fighter_equipment_3: "菲亚特 G.91"
+ ITA_jet_fighter_equipment_3_short: "G.91"
+ ITA_jet_fighter_equipment_4: "菲亚特 G.91R"
+ ITA_jet_fighter_equipment_4_short: "G.91R"
+ ITA_jet_fighter_equipment_5: "菲亚特 G.91Y"
+ ITA_jet_fighter_equipment_5_short: "G.91Y"
+ ITA_jet_fighter_equipment_6: "阿利塔利亚 F-104S"
+ ITA_jet_fighter_equipment_6_short: "F-104S"
+ ITA_jet_fighter_equipment_7: "通用动力 F-16A"
+ ITA_jet_fighter_equipment_7_short: "F-16A"
+ ITA_jet_fighter_equipment_8: "通用动力 F-16B"
+ ITA_jet_fighter_equipment_8_short: "F-16B"
+ ITA_CAS_equipment_5: "F-84G"
+ ITA_CAS_equipment_5_short: "F-84G"
+ ITA_CAS_equipment_6: "F-84F"
+ ITA_CAS_equipment_6_short: "F-84F"
+ ITA_CAS_equipment_7: "菲亚特 G.91R"
+ ITA_CAS_equipment_7_short: "G.91R"
+ ITA_CAS_equipment_9: "菲亚特 G.91Y"
+ ITA_CAS_equipment_9_short: "G.91Y"
+ ITA_CAS_equipment_10: "帕纳维亚 狂风 截袭击型"
+ ITA_CAS_equipment_10_short: "狂风 截袭击型"
+ ITA_CAS_equipment_11: "AMX 国际"
+ ITA_CAS_equipment_11_short: "AMX 国际"
+ ITA_heavy_fighter_equipment_6: "洛克希德 F-104G"
+ ITA_heavy_fighter_equipment_6_short: "F-104G"
+ ITA_heavy_fighter_equipment_10: "帕纳维亚 狂风 防空型"
+ ITA_heavy_fighter_equipment_10_short: "狂风 防空型"
+ ITA_nav_bomber_equipment_6: "布雷格 大西洋"
+ ITA_nav_bomber_equipment_6_short: "布雷格 大西洋"
+ ITA_transport_plane_equipment_7: "阿莱尼亚 C-27J"
+ ITA_transport_plane_equipment_7_short: "C-27J"
+ ITA_jet_tac_bomber_equipment_4: "帕纳维亚 狂风 截袭击型"
+ ITA_jet_tac_bomber_equipment_4_short: "狂风 截袭击型"
+ ITA_jet_tac_bomber_equipment_5: "帕纳维亚 狂风 电子侦察型"
+ ITA_jet_tac_bomber_equipment_5_short: "狂风 电子侦察型"
+ # FLTE code replace ITA_nav_bomber_equipment_3
+ # FLTE code replace ITA_nav_bomber_equipment_3_short
+ # FLTE code replace ITA_strat_bomber_equipment_1
+ # FLTE code replace ITA_strat_bomber_equipment_1_short
+ # FLTE code replace ITA_strat_bomber_equipment_2
+ # FLTE code replace ITA_strat_bomber_equipment_2_short
+ # FLTE code replace ITA_strat_bomber_equipment_3
+ # FLTE code replace ITA_strat_bomber_equipment_3_short
+ # FLTE code replace ITA_transport_plane_equipment_1
+ # FLTE code replace ITA_transport_plane_equipment_1_short
+ # FLTE code replace ITA_transport_plane_equipment_2
+ # FLTE code replace ITA_transport_plane_equipment_2_short
+ # FLTE code replace ITA_transport_plane_equipment_3
+ # FLTE code replace ITA_transport_plane_equipment_3_short
+ ITA_transport_plane_equipment_4: "费尔查尔德 C-119 飞行货车"
+ ITA_transport_plane_equipment_4_short: "C-119 飞行货车"
+ ITA_transport_plane_equipment_5: "协同 C-160"
+ ITA_transport_plane_equipment_5_short: "C-160"
+ # FLTE code replace ITA_tac_bomber_equipment_1
+ # FLTE code replace ITA_tac_bomber_equipment_1_short
+ # FLTE code replace ITA_tac_bomber_equipment_2
+ # FLTE code replace ITA_tac_bomber_equipment_2_short
+ # FLTE code replace ITA_tac_bomber_equipment_3
+ # FLTE code replace ITA_cv_nav_bomber_equipment_1
+ # FLTE code replace ITA_cv_nav_bomber_equipment_1_short
+ # FLTE code replace ITA_cv_nav_bomber_equipment_2
+ # FLTE code replace ITA_cv_nav_bomber_equipment_2_short
+ # FLTE code replace ITA_cv_nav_bomber_equipment_3
+ # FLTE code replace ITA_cv_nav_bomber_equipment_3_short
+ # FLTE code replace ITA_cv_CAS_equipment_2
+ # FLTE code replace ITA_cv_CAS_equipment_2_short
+ # FLTE code replace ITA_cv_CAS_equipment_3
+ # FLTE code replace ITA_cv_CAS_equipment_3_short
+ # FLTE code replace ITA_cv_fighter_equipment_0
+ # FLTE code replace ITA_cv_fighter_equipment_0_short
+ # FLTE code replace ITA_cv_fighter_equipment_1
+ # FLTE code replace ITA_cv_fighter_equipment_1_short
+ # FLTE code replace ITA_cv_fighter_equipment_2
+ # FLTE code replace ITA_cv_fighter_equipment_2_short
+ # FLTE code replace ITA_cv_fighter_equipment_3
+ # FLTE code replace ITA_cv_fighter_equipment_3_short
+#FRENCH AIR FORCE
+ # FLTE code replace FRA_transport_plane_equipment_1
+ # FLTE code replace FRA_transport_plane_equipment_1_short
+ # FLTE code replace FRA_transport_plane_equipment_2
+ # FLTE code replace FRA_transport_plane_equipment_2_short
+ # FLTE code replace FRA_transport_plane_equipment_3
+ # FLTE code replace FRA_transport_plane_equipment_3_short
+ FRA_transport_plane_equipment_4: "北方 1500 诺拉特拉斯"
+ FRA_transport_plane_equipment_4_short: "诺拉特拉斯"
+ FRA_transport_plane_equipment_5: "协同 C-160"
+ FRA_transport_plane_equipment_5_short: "C-160"
+ FRA_transport_plane_equipment_6: "洛克希德 C-5 银河"
+ FRA_transport_plane_equipment_6_short: "C-5 银河"
+ FRA_transport_plane_equipment_7: "洛克希德 C-17"
+ FRA_transport_plane_equipment_7_short: "C-17"
+ # FLTE code replace FRA_CAS_equipment_1
+ # FLTE code replace FRA_CAS_equipment_1_short
+ # FLTE code replace FRA_CAS_equipment_2
+ # FLTE code replace FRA_CAS_equipment_2_short
+ FRA_CAS_equipment_4: "道格拉斯 AD-1 天袭者"
+ FRA_CAS_equipment_4_short: "AD-1 天袭者"
+ FRA_CAS_equipment_5: "达索 MD.450 飓风"
+ FRA_CAS_equipment_5_short: "飓风"
+ FRA_CAS_equipment_6: "共和 F-84F 雷电"
+ FRA_CAS_equipment_6_short: "F-84F 雷电"
+ FRA_CAS_equipment_7: "北美 F-100DF"
+ FRA_CAS_equipment_7_short: "F-100DF"
+ FRA_CAS_equipment_8: "达索 幻影 5型"
+ FRA_CAS_equipment_8_short: "幻影 5型"
+ FRA_CAS_equipment_9: "达索 幻影 5F型"
+ FRA_CAS_equipment_9_short: "幻影 5F型"
+ FRA_CAS_equipment_10: "达索 阿尔法喷气式"
+ FRA_CAS_equipment_10_short: "阿尔法喷气式"
+ FRA_CAS_equipment_11: "达索 幻影 6型"
+ FRA_CAS_equipment_11_short: "幻影 6型"
+ # FLTE code replace FRA_nav_bomber_equipment_1
+ # FLTE code replace FRA_nav_bomber_equipment_1_short
+ # FLTE code replace FRA_nav_bomber_equipment_2
+ # FLTE code replace FRA_nav_bomber_equipment_2_short
+ # FLTE code replace FRA_nav_bomber_equipment_3
+ # FLTE code replace FRA_nav_bomber_equipment_3_short
+ FRA_nav_bomber_equipment_4: "北方 1402 西北风"
+ FRA_nav_bomber_equipment_4_short: "西北风"
+ # FLTE code replace FRA_strat_bomber_equipment_3
+ # FLTE code replace FRA_strat_bomber_equipment_3_short
+ # FLTE code replace FRA_tac_bomber_equipment_0
+ # FLTE code replace FRA_tac_bomber_equipment_0_short
+ # FLTE code replace FRA_tac_bomber_equipment_1
+ # FLTE code replace FRA_tac_bomber_equipment_1_short
+ # FLTE code replace FRA_tac_bomber_equipment_3
+ # FLTE code replace FRA_tac_bomber_equipment_3_short
+ # FLTE code replace FRA_cv_nav_bomber_equipment_1
+ # FLTE code replace FRA_cv_nav_bomber_equipment_1_short
+ # FLTE code replace FRA_cv_nav_bomber_equipment_2
+ # FLTE code replace FRA_cv_nav_bomber_equipment_2_short
+ # FLTE code replace FRA_cv_nav_bomber_equipment_3
+ # FLTE code replace FRA_cv_nav_bomber_equipment_3_short
+ # FLTE code replace FRA_cv_CAS_equipment_1
+ # FLTE code replace FRA_cv_CAS_equipment_1_short
+ # FLTE code replace FRA_cv_CAS_equipment_2
+ # FLTE code replace FRA_cv_CAS_equipment_2_short
+ # FLTE code replace FRA_cv_CAS_equipment_3_short
+ # FLTE code replace FRA_cv_fighter_equipment_3
+ # FLTE code replace FRA_cv_fighter_equipment_3_short
+ FRA_cv_fighter_equipment_7: "达索 军旗 IV"
+ FRA_cv_fighter_equipment_7_short: "军旗 IV"
+ FRA_cv_fighter_equipment_8: "幻影 IIIM型"
+ FRA_cv_fighter_equipment_8_short: "幻影 IIIM型"
+ FRA_cv_fighter_equipment_9: "幻影 IIIMB型"
+ FRA_cv_fighter_equipment_9_short: "幻影 IIIMB型"
+ FRA_cv_fighter_equipment_10: "达索 超级军旗"
+ FRA_cv_fighter_equipment_10_short: "超级军旗"
+ FRA_cv_fighter_equipment_11: "达索 超级军旗 II型"
+ FRA_cv_fighter_equipment_11_short: "达索 超级军旗 II型"
+ # FLTE code replace FRA_jet_fighter_equipment_1
+ # FLTE code replace FRA_jet_fighter_equipment_1_short
+ FRA_jet_fighter_equipment_2: "达索 MD.452 神秘II型"
+ FRA_jet_fighter_equipment_2_short: "MD.452 神秘II型"
+ FRA_jet_fighter_equipment_3: "达索 MD.452 神秘IV型"
+ FRA_jet_fighter_equipment_3_short: "神秘IV型"
+ FRA_jet_fighter_equipment_4: "达索 幻影 IIIE型"
+ FRA_jet_fighter_equipment_4_short: "幻影 IIIE型"
+ FRA_jet_fighter_equipment_5: "幻影 IIIE2型"
+ FRA_jet_fighter_equipment_5_short: "幻影 IIIE2型"
+ FRA_jet_fighter_equipment_6: "幻影 F1E型"
+ FRA_jet_fighter_equipment_6_short: "幻影 F1E型"
+ FRA_jet_fighter_equipment_7: "达索 幻影 2000"
+ FRA_jet_fighter_equipment_7_short: "幻影 2000"
+ FRA_jet_fighter_equipment_8: "达索 幻影 2000C型"
+ FRA_jet_fighter_equipment_8_short: "幻影 2000C型"
+ # FLTE code replace FRA_heavy_fighter_equipment_2
+ # FLTE code replace FRA_heavy_fighter_equipment_2_short
+ # FLTE code replace FRA_heavy_fighter_equipment_3
+ # FLTE code replace FRA_heavy_fighter_equipment_3_short
+ FRA_heavy_fighter_equipment_4: "北美 F-86K 佩刀"
+ FRA_heavy_fighter_equipment_4_short: "F-86K 佩刀"
+ FRA_heavy_fighter_equipment_5: "西南航空 D.4050 秃鹫 IIN型"
+ FRA_heavy_fighter_equipment_5_short: "秃鹫 IIN型"
+ FRA_heavy_fighter_equipment_6: "达索 幻影 IIIC型"
+ FRA_heavy_fighter_equipment_6_short: "幻影 IIIC型"
+ FRA_heavy_fighter_equipment_7: "北方 1500 狮鹫"
+ FRA_heavy_fighter_equipment_7_short: "狮鹫"
+ FRA_heavy_fighter_equipment_8: "幻影 F1C型"
+ FRA_heavy_fighter_equipment_8_short: "幻影 F1C型"
+ FRA_heavy_fighter_equipment_9: "达索 幻影 4000"
+ FRA_heavy_fighter_equipment_9_short: "幻影 4000"
+ FRA_heavy_fighter_equipment_10: "达索 幻影 4000C型"
+ FRA_heavy_fighter_equipment_10_short: "幻影 4000C型"
+ FRA_jet_tac_bomber_equipment_1: "国营西南航空 SO.2000"
+ FRA_jet_tac_bomber_equipment_1_short: "SO.2000"
+ FRA_jet_tac_bomber_equipment_2: "国营西南航空 4050 秃鹫 IIB型"
+ FRA_jet_tac_bomber_equipment_2_short: "秃鹫 IIB型"
+ FRA_jet_tac_bomber_equipment_3: "通用动力 F-111 土豚"
+ FRA_jet_tac_bomber_equipment_3_short: "F-111 土豚"
+ FRA_jet_tac_bomber_equipment_4: "通用动力 F-111F型"
+ FRA_jet_tac_bomber_equipment_4_short: "F-111F型"
+ FRA_jet_tac_bomber_equipment_5: "达索 幻影 2000B型"
+ FRA_jet_tac_bomber_equipment_5_short: "幻影 2000B型"
+ FRA_jet_strat_bomber_equipment_1: "北美 B-45 龙卷风"
+ FRA_jet_strat_bomber_equipment_1_short: "B-45 龙卷风"
+ FRA_jet_strat_bomber_equipment_2: "波音 B-47 同温层喷射机"
+ FRA_jet_strat_bomber_equipment_2_short: "B-47 同温层喷射机"
+ FRA_jet_strat_bomber_equipment_3: "达索 幻影 IV型"
+ FRA_jet_strat_bomber_equipment_3_short: "幻影 IV型"
+ FRA_jet_strat_bomber_equipment_4: "达索 幻影 IVB型"
+ FRA_jet_strat_bomber_equipment_4_short: "幻影 IVB型"
+ FRA_jet_strat_bomber_equipment_5: "达索 幻影 IVC型"
+ FRA_jet_strat_bomber_equipment_5_short: "幻影 IVC型"
+ #chinese planes
+ # FLTE code replace CHI_fighter_equipment_0
+ # FLTE code replace CHI_fighter_equipment_0_short
+ # FLTE code replace CHI_fighter_equipment_1
+ # FLTE code replace CHI_fighter_equipment_1_short
+ # FLTE code replace CHI_fighter_equipment_2
+ # FLTE code replace CHI_fighter_equipment_2_short
+ # FLTE code replace CHI_fighter_equipment_3
+ # FLTE code replace CHI_fighter_equipment_3_short
+ CHI_cv_fighter_equipment_3: "沃特 F4U 海盗"
+ CHI_cv_fighter_equipment_3_short: "F4U 海盗"
+ # FLTE code replace CHI_heavy_fighter_equipment_1
+ # FLTE code replace CHI_heavy_fighter_equipment_1_short
+ # FLTE code replace CHI_heavy_fighter_equipment_2
+ # FLTE code replace CHI_heavy_fighter_equipment_2_short
+ # FLTE code replace CHI_CAS_equipment_2
+ # FLTE code replace CHI_CAS_equipment_2_short
+ CHI_early_bomber_equipment: "图波列夫 图波-3"
+ CHI_early_bomber_equipment_short: "图波-3"
+ # FLTE code replace CHI_tac_bomber_equipment_1
+ # FLTE code replace CHI_tac_bomber_equipment_1_short
+ # FLTE code replace CHI_tac_bomber_equipment_2
+ # FLTE code replace CHI_tac_bomber_equipment_2_short
+ # FLTE code replace CHI_nav_bomber_equipment_1
+ # FLTE code replace CHI_nav_bomber_equipment_1_short
+ # FLTE code replace CHI_nav_bomber_equipment_2
+ # FLTE code replace CHI_nav_bomber_equipment_2_short
+ # FLTE code replace CHI_nav_bomber_equipment_3
+ # FLTE code replace CHI_nav_bomber_equipment_3_short
+ # FLTE code replace CHI_strat_bomber_equipment_1
+ # FLTE code replace CHI_strat_bomber_equipment_1_short
+ # FLTE code replace CHI_strat_bomber_equipment_2
+ # FLTE code replace CHI_strat_bomber_equipment_2_short
+ # FLTE code replace CHI_strat_bomber_equipment_3
+ # FLTE code replace CHI_strat_bomber_equipment_3_short
+ ###Planes###
+ # Australia 
+ # FLTE code replace AST_fighter_equipment_1
+ # FLTE code replace AST_fighter_equipment_1_short
+ # FLTE code replace AST_fighter_equipment_2
+ # FLTE code replace AST_fighter_equipment_2_short
+ # FLTE code replace AST_fighter_equipment_3
+ # FLTE code replace AST_fighter_equipment_3_short
+ # FLTE code replace AST_CAS_equipment_1_short
+ # FLTE code replace AST_CAS_equipment_2
+ # FLTE code replace AST_CAS_equipment_2_short
+ # FLTE code replace AST_CAS_equipment_3
+ # FLTE code replace AST_CAS_equipment_3_short
+ # FLTE code replace AST_jet_fighter_equipment_2
+ # FLTE code replace AST_jet_fighter_equipment_2_short
+ #Argentinia
+ #Belgium
+ # canadian
+ #Romania
+ #Holland
+ # herr fokker wins the race, with a single Koolhoven interloper 
+ # FLTE code replace HOL_heavy_fighter_equipment_1
+ # FLTE code replace HOL_heavy_fighter_equipment_1_short
+ # FLTE code replace HOL_heavy_fighter_equipment_2
+ # FLTE code replace HOL_heavy_fighter_equipment_2_short
+ # FLTE code replace HOL_heavy_fighter_equipment_3
+ # FLTE code replace HOL_heavy_fighter_equipment_3_short
+ # FLTE code replace HOL_CAS_equipment_1
+ # FLTE code replace HOL_CAS_equipment_1_short
+ # FLTE code replace HOL_CAS_equipment_2
+ # FLTE code replace HOL_CAS_equipment_2_short
+ # FLTE code replace HOL_CAS_equipment_3
+ # FLTE code replace HOL_CAS_equipment_3_short
+ # FLTE code replace HOL_strat_bomber_equipment_1
+ # FLTE code replace HOL_strat_bomber_equipment_1_short
+ # FLTE code replace HOL_strat_bomber_equipment_2
+ # FLTE code replace HOL_strat_bomber_equipment_2_short
+ # FLTE code replace HOL_strat_bomber_equipment_3
+ # FLTE code replace HOL_strat_bomber_equipment_3_short
+ #Finland
+ # FLTE code replace FIN_fighter_equipment_0
+ # FLTE code replace FIN_fighter_equipment_0_short
+ FIN_cv_fighter_equipment_0: "布里斯托尔 斗牛犬 IIA型"
+ FIN_cv_fighter_equipment_0_short: "斗牛犬"
+ FIN_fighter_equipment_1: "VL 风暴"
+ FIN_fighter_equipment_1_short: "VL 风暴"
+ FIN_cv_fighter_equipment_1: "格罗斯特 海斗士"
+ FIN_cv_fighter_equipment_1_short: "斗士"
+ # FLTE code replace FIN_fighter_equipment_2
+ # FLTE code replace FIN_fighter_equipment_2_short
+ # FLTE code replace FIN_fighter_equipment_3
+ # FLTE code replace FIN_fighter_equipment_3_short
+ FIN_nav_bomber_equipment_2: "挪威皇家海军飞机制造厂  MF-11"
+ FIN_nav_bomber_equipment_2_short: "MF-11"
+ FIN_nav_bomber_equipment_3: "亨克尔 He 115N"
+ FIN_nav_bomber_equipment_3_short: "He 115N"
+ FIN_tac_bomber_equipment_0: "福克 VL C.VD型"
+ FIN_tac_bomber_equipment_0_short: "福克 VL C.VD型"
+ FIN_tac_bomber_equipment_2: "容克斯 Ju 88"
+ FIN_tac_bomber_equipment_2_short: "Ju 88"
+ FIN_transport_plane_equipment_1: "道格拉斯 DC-2"
+ FIN_transport_plane_equipment_1_short: "DC-2"
+ FIN_transport_plane_equipment_2: "道格拉斯 DC-3"
+ FIN_transport_plane_equipment_2_short: "DC-3"
+ #Norway
+ NOR_transport_plane_equipment_1: "容克斯 Ju 52"
+ NOR_transport_plane_equipment_1_short: "Ju-52"
+ #Hungary
+ #British Raj
+ #Spain
+ SPA_fighter_equipment_2: "西班牙航空 HA-1112"
+ SPA_fighter_equipment_2_short: "HA-1112"
+ #Sweden
+ # FLTE code replace SWE_fighter_equipment_0
+ # FLTE code replace SWE_fighter_equipment_0_short
+ SWE_cv_fighter: "格洛斯特 角斗士"
+ SWE_cv_fighter_short: "J-8"
+ # FLTE code replace SWE_fighter_equipment_1
+ # FLTE code replace SWE_fighter_equipment_1_short
+ # FLTE code replace SWE_fighter_equipment_2
+ # FLTE code replace SWE_fighter_equipment_2_short
+ # FLTE code replace SWE_fighter_equipment_3
+ # FLTE code replace SWE_fighter_equipment_3_short
+ # SWE_heavy_fighter_equipment_1: "Saab 19"
+ # SWE_heavy_fighter_equipment_1_short: "J-19"
+ # SWE_heavy_fighter_equipment_2: "Saab 23"
+ # SWE_heavy_fighter_equipment_2_short: "J-23"
+ # SWE_heavy_fighter_equipment_3: "Saab 24"
+ # SWE_heavy_fighter_equipment_3_short: "J-24"
+ # SWE_strat_bomber_equipment_1: "Junkers Ju 86"
+ # SWE_strat_bomber_equipment_1_short: "B-3"
+ # SWE_strat_bomber_equipment_2: "Heinkel He 177 'Greif'"
+ # SWE_strat_bomber_equipment_2_short: "B-41"
+ # SWE_strat_bomber_equipment_3: "Messerschmitt 264"
+ # SWE_strat_bomber_equipment_3_short: "B-44"
+ # FLTE code replace SWE_jet_fighter_equipment_1
+ # FLTE code replace SWE_jet_fighter_equipment_1_short
+ # FLTE code replace SWE_jet_fighter_equipment_2
+ # FLTE code replace SWE_jet_fighter_equipment_2_short
+ SWE_jet_fighter_equipment_3: "萨博 J-32 兰森"
+ SWE_jet_fighter_equipment_3_short: "J-32"
+ SWE_jet_fighter_equipment_4: "霍克 猎手"
+ SWE_jet_fighter_equipment_4_short: "猎手"
+ SWE_jet_fighter_equipment_5: "萨博 35 龙"
+ SWE_jet_fighter_equipment_5_short: "J-35 龙"
+ SWE_jet_fighter_equipment_6: "萨博 37 雷霆"
+ SWE_jet_fighter_equipment_6_short: "JA-37"
+ SWE_jet_fighter_equipment_7: "萨博 37C 雷霆"
+ SWE_jet_fighter_equipment_7_short: "JA-37C"
+ SWE_jet_fighter_equipment_8: "萨博 AJS-37 雷霆"
+ SWE_jet_fighter_equipment_8_short: "AJS-37"
+ SWE_CAS_equipment_6: "萨博 J-32 兰森"
+ SWE_CAS_equipment_6_short: "J-32"
+ SWE_CAS_equipment_7: "霍克 猎手"
+ SWE_CAS_equipment_7_short: "猎手"
+ SWE_CAS_equipment_8: "萨博 A-32A 兰森"
+ SWE_CAS_equipment_8_short: "A-32A"
+ SWE_CAS_equipment_9: "萨博 105"
+ SWE_CAS_equipment_9_short: "萨博 105"
+ SWE_heavy_fighter_equipment_6: "霍克 猎手"
+ SWE_heavy_fighter_equipment_6_short: "猎手"
+ SWE_heavy_fighter_equipment_8: "萨博 37 雷霆"
+ SWE_heavy_fighter_equipment_8_short: "JA-37"
+ # SWE_jet_strat_bomber_equipment_1: "Saab 36 Vargen"
+ # SWE_jet_strat_bomber_equipment_1_short: "B-36"
+ # SWE_jet_strat_bomber_equipment_1_desc: "The experimental flying wing design is the future of stealth bombing planes. Combined with intercontintal range, this bomber can strike even our most distant enemies before they are able to respond."
+ # FLTE code replace SWE_tac_bomber_equipment_0
+ # FLTE code replace SWE_tac_bomber_equipment_0_short
+ # FLTE code replace SWE_tac_bomber_equipment_1
+ # FLTE code replace SWE_tac_bomber_equipment_1_short
+ # FLTE code replace SWE_tac_bomber_equipment_2
+ # FLTE code replace SWE_tac_bomber_equipment_2_short
+ # SWE_tac_bomber_equipment_3: "Saab 18"
+ # SWE_tac_bomber_equipment_3_short: "B-18"
+ # SWE_jet_tac_bomber_equipment_1: "de Havilland Vampire"
+ # SWE_jet_tac_bomber_equipment_1_short: "A-28"
+ # SWE_jet_tac_bomber_equipment_2: "Saab 36 Vargen"
+ # SWE_jet_tac_bomber_equipment_2_short: "A-36"
+ # FLTE code replace SWE_nav_bomber_equipment_1
+ # FLTE code replace SWE_nav_bomber_equipment_1_short
+ # SWE_nav_bomber_equipment_2: "Saab 17"
+ # SWE_nav_bomber_equipment_2_short: "T-17"
+ # SWE_nav_bomber_equipment_3: "Saab 18"
+ # SWE_nav_bomber_equipment_3_short: "T-18"
+ # FLTE code replace SWE_CAS_equipment_1
+ # FLTE code replace SWE_CAS_equipment_1_short
+ # FLTE code replace SWE_CAS_equipment_2
+ # FLTE code replace SWE_CAS_equipment_2_short
+ # FLTE code replace SWE_CAS_equipment_3
+ # FLTE code replace SWE_CAS_equipment_3_short
+ #switzerland
+ #Turkish planes, all fictional, licence, or fictional licence builds
+ # FLTE code replace TUR_fighter_equipment_0
+ # FLTE code replace TUR_fighter_equipment_0_short
+ # FLTE code replace TUR_fighter_equipment_1
+ # FLTE code replace TUR_fighter_equipment_1_short
+ # FLTE code replace TUR_fighter_equipment_3
+ # FLTE code replace TUR_fighter_equipment_3_short
+ # FLTE code replace TUR_jet_fighter_equipment_1
+ # FLTE code replace TUR_jet_fighter_equipment_1_short
+ # FLTE code replace TUR_jet_fighter_equipment_2
+ # FLTE code replace TUR_jet_fighter_equipment_2_short
+ TUR_jet_fighter_equipment_3: "北美 F-100 超级佩刀"
+ TUR_jet_fighter_equipment_3_short: "F-100 超级佩刀"
+ TUR_jet_fighter_equipment_4: "F-4 鬼怪II型"
+ TUR_jet_fighter_equipment_4_short: "F-4"
+ TUR_jet_fighter_equipment_5: "F-5 自由斗士"
+ TUR_jet_fighter_equipment_5_short: "F-5"
+ TUR_jet_fighter_equipment_6: "加拿大航空 CF-5 自由斗士"
+ TUR_jet_fighter_equipment_6_short: "CF-5"
+ TUR_jet_fighter_equipment_7: "通用动力公司 F-16 战隼"
+ TUR_jet_fighter_equipment_7_short: "F-16A型"
+ TUR_jet_fighter_equipment_8: "通用动力公司 F-16D型 战隼"
+ TUR_jet_fighter_equipment_8_short: "F-16D型"
+ # FLTE code replace TUR_heavy_fighter_equipment_1
+ # FLTE code replace TUR_heavy_fighter_equipment_1_short
+ # FLTE code replace TUR_heavy_fighter_equipment_2
+ # FLTE code replace TUR_heavy_fighter_equipment_2_short
+ TUR_heavy_fighter_equipment_5: "F-102 三角剑"
+ TUR_heavy_fighter_equipment_5_short: "F-102"
+ TUR_heavy_fighter_equipment_6: "F-104G 星战士"
+ TUR_heavy_fighter_equipment_6_short: "F-104G"
+ TUR_heavy_fighter_equipment_7: "加拿大航空 CF-104 星战士"
+ TUR_heavy_fighter_equipment_7_short: "CF-104"
+ # FLTE code replace TUR_CAS_equipment_1
+ # FLTE code replace TUR_CAS_equipment_1_short
+ TUR_CAS_equipment_5: "共和 F-84G 雷电喷气"
+ TUR_CAS_equipment_5_short: "F-84G 雷电喷气"
+ TUR_CAS_equipment_6: "F-100"
+ TUR_CAS_equipment_6_short: "F-100"
+ TUR_CAS_equipment_7: "F-4 鬼怪II型"
+ TUR_CAS_equipment_7_short: "F-4"
+ TUR_CAS_equipment_8: "F-5 自由斗士"
+ TUR_CAS_equipment_8_short: "F-5"
+ TUR_CAS_equipment_9: "加拿大航空 CF-116 自由斗士"
+ TUR_CAS_equipment_9_short: "CF-116"
+ TUR_CAS_equipment_10: "通用动力公司 F-16 战隼"
+ TUR_CAS_equipment_10_short: "F-16A型"
+ # FLTE code replace TUR_tac_bomber_equipment_0
+ # FLTE code replace TUR_tac_bomber_equipment_0_short
+ # FLTE code replace TUR_tac_bomber_equipment_1
+ # FLTE code replace TUR_tac_bomber_equipment_1_short
+ # FLTE code replace TUR_nav_bomber_equipment_1
+ # FLTE code replace TUR_nav_bomber_equipment_1_short
+ # FLTE code replace TUR_nav_bomber_equipment_2
+ # FLTE code replace TUR_nav_bomber_equipment_2_short
+ # FLTE code replace TUR_nav_bomber_equipment_3
+ # FLTE code replace TUR_nav_bomber_equipment_3_short
+ TUR_transport_plane_equipment_1: "图波列夫 ANT-9"
+ TUR_transport_plane_equipment_1_short: "ANT-9"
+ TUR_transport_plane_equipment_2: "道格拉斯 C-47 空中列车"
+ TUR_transport_plane_equipment_2_short: "C-47 空中列车"
+ TUR_transport_plane_equipment_3: "道格拉斯 C-54 空中霸主"
+ TUR_transport_plane_equipment_3_short: "C-54 空中霸主"
+ TUR_transport_plane_equipment_4: "费尔查尔德 C-119 飞行货车"
+ TUR_transport_plane_equipment_4_short: "C-119 飞行货车"
+ TUR_transport_plane_equipment_5: "洛克希德 C-130 大力神"
+ TUR_transport_plane_equipment_5_short: "C-130 大力神"
+ #yugoslavian planes
+ YUG_jet_fighter_equipment_1: "洛克希德 T-33 流星"
+ YUG_jet_fighter_equipment_1_short: "T-33"
+ YUG_jet_fighter_equipment_2: "加拿大航空 佩刀"
+ YUG_jet_fighter_equipment_2_short: "CL-13"
+ YUG_jet_fighter_equipment_3: "北美 F-86D 佩刀"
+ YUG_jet_fighter_equipment_3_short: "F-86D"
+ YUG_jet_fighter_equipment_4: "米高扬-格列维奇 米格-21"
+ YUG_jet_fighter_equipment_4_short: "米格-21"
+ YUG_jet_fighter_equipment_4_desc: "米高扬-格列维奇 米格-21战斗机 (北约代号：鱼窝) 是苏联米高扬-格列维奇设计局开发的超音速喷气式战斗机及截击机。"
+ YUG_jet_fighter_equipment_5: "米高扬-格列维奇 米格-21 萨普菲尔雷达型"
+ YUG_jet_fighter_equipment_5_short: "米格-21S"
+ YUG_jet_fighter_equipment_6: "米高扬-格列维奇 米格-23"
+ YUG_jet_fighter_equipment_6_short: "米格-23"
+ YUG_jet_fighter_equipment_6_desc: "米高扬-格列维奇 米格-23（北约代号：鞭挞者）是由苏联米高扬-格列维奇设计局出品的一款革命性的变后掠翼战斗机。 作为第三代喷气式战斗机，它不仅是全球产量最高的变后掠翼飞机，也代表了苏联航空工业的巅峰水准，其设计思路与苏-15 酒壶等机型一脉相承。 米格-23率先装备了下视下射雷达和超视距导弹，使得苏联空军首次具备了全天候、超视距的空战能力。"
+ YUG_jet_fighter_equipment_7: "米高扬-格列耶维奇 米格-23 萨普菲尔ML雷达型"
+ YUG_jet_fighter_equipment_7_short: "米格-23ML"
+ YUG_jet_fighter_equipment_7_desc: "米高扬-格列维奇 米格-23（北约代号：鞭挞者）是由苏联米高扬-格列维奇设计局出品的一款革命性的变后掠翼战斗机。 作为第三代喷气式战斗机，它不仅是全球产量最高的变后掠翼飞机，也代表了苏联航空工业的巅峰水准，其设计思路与苏-15 酒壶等机型一脉相承。 米格-23率先装备了下视下射雷达和超视距导弹，使得南斯拉夫空军首次具备了全天候、超视距的空战能力。"
+ YUG_jet_fighter_equipment_8: "米高扬-古列维奇 米格-29 教练战斗型"
+ YUG_jet_fighter_equipment_8_short: "米格-29UB"
+ YUG_jet_fighter_equipment_8_desc: ""
+ YUG_heavy_fighter_equipment_8: "米高扬-格列维奇 米格-23"
+ YUG_heavy_fighter_equipment_8_short: "米格-23"
+ YUG_CAS_equipment_5: "共和 F-84D 雷电喷气"
+ YUG_CAS_equipment_5_short: "F-84D"
+ YUG_CAS_equipment_8: "索古 J-21 鹰"
+ YUG_CAS_equipment_8_short: "J-21"
+ YUG_CAS_equipment_9: "索古 G-2 海鸥"
+ YUG_CAS_equipment_9_short: "G-2"
+ YUG_CAS_equipment_10: "索古 J-22 鹫"
+ YUG_CAS_equipment_10_short: "J-22"
+ YUG_CAS_equipment_11: "索古 G-2 超级海鸥"
+ YUG_CAS_equipment_11_short: "G-4"
+ # FLTE code replace CAN_fighter_equipment_0
+ # FLTE code replace CAN_fighter_equipment_0_short
+ # FLTE code replace CAN_fighter_equipment_1
+ # FLTE code replace CAN_fighter_equipment_1_short
+ # FLTE code replace CAN_fighter_equipment_3
+ # FLTE code replace CAN_fighter_equipment_3_short
+ # FLTE code replace CAN_heavy_fighter_equipment_1
+ # FLTE code replace CAN_heavy_fighter_equipment_1_short
+ # FLTE code replace CAN_heavy_fighter_equipment_3
+ # FLTE code replace CAN_heavy_fighter_equipment_3_short
+ # FLTE code replace CAN_strat_bomber_equipment_1
+ # FLTE code replace CAN_strat_bomber_equipment_1_short
+ # FLTE code replace CAN_strat_bomber_equipment_2
+ # FLTE code replace CAN_strat_bomber_equipment_2_short
+ # FLTE code replace CAN_strat_bomber_equipment_3
+ # FLTE code replace CAN_strat_bomber_equipment_3_short
+ # FLTE code replace CAN_jet_fighter_equipment_1
+ # FLTE code replace CAN_jet_fighter_equipment_1_short
+ # FLTE code replace CAN_jet_fighter_equipment_2
+ # FLTE code replace CAN_jet_fighter_equipment_2_short
+ CAN_jet_fighter_equipment_3: "霍克 猎手"
+ CAN_jet_fighter_equipment_3_short: "猎手"
+ CAN_cv_jet_fighter_equipment_1: "德-哈维兰 海吸血鬼"
+ CAN_cv_jet_fighter_equipment_1_short: "海吸血鬼"
+ CAN_cv_jet_fighter_equipment_2: "德-哈维兰 海毒液"
+ CAN_cv_jet_fighter_equipment_2_short: "海毒液"
+ CAN_cv_jet_fighter_equipment_3: "德-哈维兰 海雌狐"
+ CAN_cv_jet_fighter_equipment_3_short: "海雌狐"
+ CAN_jet_fighter_equipment_4: "德-哈维兰 毒液夜间战斗机"
+ CAN_jet_fighter_equipment_4_short: "毒液夜间战斗机"
+ CAN_jet_fighter_equipment_5: "格洛斯特 标枪"
+ CAN_jet_fighter_equipment_5_short: "标枪"
+ # FLTE code replace CAN_tac_bomber_equipment_0
+ # FLTE code replace CAN_tac_bomber_equipment_0_short
+ # FLTE code replace CAN_tac_bomber_equipment_1
+ # FLTE code replace CAN_tac_bomber_equipment_1_short
+ # FLTE code replace CAN_jet_tac_bomber_equipment_1
+ # FLTE code replace CAN_jet_tac_bomber_equipment_1_short
+ # FLTE code replace CAN_jet_tac_bomber_equipment_2
+ # FLTE code replace CAN_jet_tac_bomber_equipment_2_short
+ # FLTE code replace CAN_nav_bomber_equipment_1
+ # FLTE code replace CAN_nav_bomber_equipment_1_short
+ # FLTE code replace CAN_nav_bomber_equipment_2
+ # FLTE code replace CAN_nav_bomber_equipment_2_short
+ # FLTE code replace CAN_nav_bomber_equipment_3
+ # FLTE code replace CAN_nav_bomber_equipment_3_short
+ CAN_nav_bomber_equipment_4: "洛克希德 PV-2 海王星"
+ CAN_nav_bomber_equipment_4_short: "海王星"
+ # FLTE code replace CAN_CAS_equipment_1
+ # FLTE code replace CAN_CAS_equipment_1_short
+ # FLTE code replace CAN_CAS_equipment_3
+ # FLTE code replace CAN_CAS_equipment_3_short
+ CAN_CAS_equipment_4: "韦斯特兰 飞龙"
+ CAN_CAS_equipment_4_short: "飞龙"
+ CAN_jet_CAS_equipment_1: "德-哈维兰 吸血鬼战斗轰炸机"
+ CAN_jet_CAS_equipment_1_short: "吸血鬼战斗轰炸机"
+ CAN_jet_CAS_equipment_2: "超级马林 迅捷"
+ CAN_jet_CAS_equipment_2_short: "迅捷"
+ CAN_cv_jet_CAS_equipment_1: "超级马林 袭击者"
+ CAN_cv_jet_CAS_equipment_1_short: "袭击者"
+ CAN_cv_jet_CAS_equipment_2: "霍克 海鹰"
+ CAN_cv_jet_CAS_equipment_2_short: "海鹰"
+ # FLTE code replace CAN_cv_nav_bomber_equipment_1
+ # FLTE code replace CAN_cv_nav_bomber_equipment_1_short
+ # FLTE code replace CAN_cv_nav_bomber_equipment_2
+ # FLTE code replace CAN_cv_nav_bomber_equipment_2_short
+ # FLTE code replace CAN_cv_CAS_equipment_1
+ # FLTE code replace CAN_cv_CAS_equipment_1_short
+ # FLTE code replace CAN_cv_CAS_equipment_2
+ # FLTE code replace CAN_cv_CAS_equipment_2_short
+ # FLTE code replace CAN_cv_CAS_equipment_3
+ # FLTE code replace CAN_cv_CAS_equipment_3_short
+ # FLTE code replace CAN_cv_fighter_equipment_3
+ # FLTE code replace CAN_cv_fighter_equipment_3_short
+ CAN_transport_plane_equipment_1: "布里斯托尔 孟买"
+ CAN_transport_plane_equipment_1_short: "孟买"
+ CAN_transport_plane_equipment_2: "‌阿姆斯特朗·惠特沃斯 阿尔比马尔"
+ CAN_transport_plane_equipment_2_short: "阿尔比马尔"
+ CAN_transport_plane_equipment_3: "阿弗罗 约克"
+ CAN_transport_plane_equipment_3_short: "约克"
+ CAN_transport_plane_equipment_4: "维克斯 瓦莱塔"
+ CAN_transport_plane_equipment_4_short: "瓦列塔"
+ CAN_transport_plane_equipment_5: "‌阿姆斯特朗·惠特沃斯 阿戈西"
+ CAN_transport_plane_equipment_5_short: "阿戈西"
+ # FLTE code replace SAF_fighter_equipment_0
+ # FLTE code replace SAF_fighter_equipment_0_short
+ # FLTE code replace SAF_fighter_equipment_1
+ # FLTE code replace SAF_fighter_equipment_1_short
+ # FLTE code replace SAF_fighter_equipment_3
+ # FLTE code replace SAF_fighter_equipment_3_short
+ # FLTE code replace SAF_heavy_fighter_equipment_1
+ # FLTE code replace SAF_heavy_fighter_equipment_1_short
+ # FLTE code replace SAF_heavy_fighter_equipment_3
+ # FLTE code replace SAF_heavy_fighter_equipment_3_short
+ # FLTE code replace SAF_strat_bomber_equipment_1
+ # FLTE code replace SAF_strat_bomber_equipment_1_short
+ # FLTE code replace SAF_strat_bomber_equipment_2
+ # FLTE code replace SAF_strat_bomber_equipment_2_short
+ # FLTE code replace SAF_strat_bomber_equipment_3
+ # FLTE code replace SAF_strat_bomber_equipment_3_short
+ # FLTE code replace SAF_jet_fighter_equipment_2
+ # FLTE code replace SAF_jet_fighter_equipment_2_short
+ SAF_jet_fighter_equipment_3: "霍克 猎手"
+ SAF_jet_fighter_equipment_3_short: "猎手"
+ SAF_cv_jet_fighter_equipment_1: "德-哈维兰 海吸血鬼"
+ SAF_cv_jet_fighter_equipment_1_short: "海吸血鬼"
+ SAF_cv_jet_fighter_equipment_2: "德-哈维兰 海毒液"
+ SAF_cv_jet_fighter_equipment_2_short: "海毒液"
+ SAF_cv_jet_fighter_equipment_3: "德-哈维兰 海雌狐"
+ SAF_cv_jet_fighter_equipment_3_short: "海雌狐"
+ SAF_jet_heavy_fighter_equipment_1: "德-哈维兰 毒液夜间战斗机"
+ SAF_jet_heavy_fighter_equipment_1_short: "毒液夜间战斗机"
+ SAF_jet_heavy_fighter_equipment_2: "格洛斯特 标枪"
+ SAF_jet_heavy_fighter_equipment_2_short: "标枪"
+ # FLTE code replace SAF_tac_bomber_equipment_0
+ # FLTE code replace SAF_tac_bomber_equipment_0_short
+ # FLTE code replace SAF_tac_bomber_equipment_1
+ # FLTE code replace SAF_tac_bomber_equipment_1_short
+ # FLTE code replace SAF_jet_tac_bomber_equipment_1
+ # FLTE code replace SAF_jet_tac_bomber_equipment_1_short
+ # FLTE code replace SAF_jet_tac_bomber_equipment_2
+ # FLTE code replace SAF_jet_tac_bomber_equipment_2_short
+ # FLTE code replace SAF_nav_bomber_equipment_1
+ # FLTE code replace SAF_nav_bomber_equipment_1_short
+ # FLTE code replace SAF_nav_bomber_equipment_2
+ # FLTE code replace SAF_nav_bomber_equipment_2_short
+ # FLTE code replace SAF_nav_bomber_equipment_3
+ # FLTE code replace SAF_nav_bomber_equipment_3_short
+ SAF_nav_bomber_equipment_4: "洛克希德 PV-2 海王星"
+ SAF_nav_bomber_equipment_4_short: "海王星"
+ # FLTE code replace SAF_CAS_equipment_1
+ # FLTE code replace SAF_CAS_equipment_1_short
+ # FLTE code replace SAF_CAS_equipment_3
+ # FLTE code replace SAF_CAS_equipment_3_short
+ SAF_CAS_equipment_4: "韦斯特兰 飞龙"
+ SAF_CAS_equipment_4_short: "飞龙"
+ SAF_jet_CAS_equipment_1: "德-哈维兰 吸血鬼战斗轰炸机"
+ SAF_jet_CAS_equipment_1_short: "吸血鬼战斗轰炸机"
+ SAF_jet_CAS_equipment_2: "超级马林 迅捷"
+ SAF_jet_CAS_equipment_2_short: "迅捷"
+ SAF_cv_jet_CAS_equipment_1: "超级马林 袭击者"
+ SAF_cv_jet_CAS_equipment_1_short: "袭击者"
+ SAF_cv_jet_CAS_equipment_2: "霍克 海鹰"
+ SAF_cv_jet_CAS_equipment_2_short: "海鹰"
+ # FLTE code replace SAF_cv_nav_bomber_equipment_1
+ # FLTE code replace SAF_cv_nav_bomber_equipment_1_short
+ # FLTE code replace SAF_cv_nav_bomber_equipment_2
+ # FLTE code replace SAF_cv_nav_bomber_equipment_2_short
+ # FLTE code replace SAF_cv_CAS_equipment_1
+ # FLTE code replace SAF_cv_CAS_equipment_1_short
+ # FLTE code replace SAF_cv_CAS_equipment_2
+ # FLTE code replace SAF_cv_CAS_equipment_2_short
+ # FLTE code replace SAF_cv_CAS_equipment_3
+ # FLTE code replace SAF_cv_CAS_equipment_3_short
+ # FLTE code replace SAF_cv_fighter_equipment_3
+ # FLTE code replace SAF_cv_fighter_equipment_3_short
+ SAF_transport_plane_equipment_1: "布里斯托尔 孟买"
+ SAF_transport_plane_equipment_1_short: "孟买"
+ SAF_transport_plane_equipment_2: "‌阿姆斯特朗·惠特沃斯 阿尔比马尔"
+ SAF_transport_plane_equipment_2_short: "阿尔比马尔"
+ SAF_transport_plane_equipment_3: "阿弗罗 约克"
+ SAF_transport_plane_equipment_3_short: "约克"
+ SAF_transport_plane_equipment_4: "维克斯 瓦莱塔"
+ SAF_transport_plane_equipment_4_short: "瓦列塔"
+ SAF_transport_plane_equipment_5: "‌阿姆斯特朗·惠特沃斯 阿戈西"
+ SAF_transport_plane_equipment_5_short: "阿戈西"
+ # FLTE code replace AST_fighter_equipment_0
+ # FLTE code replace AST_fighter_equipment_0_short
+ # FLTE code replace AST_fighter_equipment_1
+ # FLTE code replace AST_fighter_equipment_1_short
+ # FLTE code replace AST_fighter_equipment_2
+ # FLTE code replace AST_fighter_equipment_2_short
+ # FLTE code replace AST_fighter_equipment_3
+ # FLTE code replace AST_fighter_equipment_3_short
+ # FLTE code replace AST_heavy_fighter_equipment_1
+ # FLTE code replace AST_heavy_fighter_equipment_1_short
+ # FLTE code replace AST_heavy_fighter_equipment_3
+ # FLTE code replace AST_heavy_fighter_equipment_3_short
+ # FLTE code replace AST_strat_bomber_equipment_2
+ # FLTE code replace AST_strat_bomber_equipment_2_short
+ # FLTE code replace AST_strat_bomber_equipment_3
+ # FLTE code replace AST_strat_bomber_equipment_3_short
+ # FLTE code replace AST_jet_fighter_equipment_1
+ # FLTE code replace AST_jet_fighter_equipment_1_short
+ # FLTE code replace AST_jet_fighter_equipment_2
+ # FLTE code replace AST_jet_fighter_equipment_2_short
+ AST_jet_fighter_equipment_3: "霍克 猎手"
+ AST_jet_fighter_equipment_3_short: "猎手"
+ AST_cv_jet_fighter_equipment_1: "德-哈维兰 海吸血鬼"
+ AST_cv_jet_fighter_equipment_1_short: "海吸血鬼"
+ AST_cv_jet_fighter_equipment_2: "德-哈维兰 海毒液"
+ AST_cv_jet_fighter_equipment_2_short: "海毒液"
+ AST_cv_jet_fighter_equipment_3: "德-哈维兰 海雌狐"
+ AST_cv_jet_fighter_equipment_3_short: "海雌狐"
+ AST_jet_heavy_fighter_equipment_1: "德-哈维兰 毒液夜间战斗机"
+ AST_jet_heavy_fighter_equipment_1_short: "毒液夜间战斗机"
+ AST_jet_heavy_fighter_equipment_2: "格洛斯特 标枪"
+ AST_jet_heavy_fighter_equipment_2_short: "标枪"
+ # FLTE code replace AST_tac_bomber_equipment_0
+ # FLTE code replace AST_tac_bomber_equipment_0_short
+ # FLTE code replace AST_tac_bomber_equipment_1
+ # FLTE code replace AST_tac_bomber_equipment_1_short
+ # FLTE code replace AST_tac_bomber_equipment_2
+ # FLTE code replace AST_tac_bomber_equipment_2_short
+ # FLTE code replace AST_tac_bomber_equipment_3
+ # FLTE code replace AST_tac_bomber_equipment_3_short
+ # FLTE code replace AST_jet_tac_bomber_equipment_1
+ # FLTE code replace AST_jet_tac_bomber_equipment_1_short
+ AST_jet_tac_bomber_equipment_2: "阿芙罗 火神"
+ AST_jet_tac_bomber_equipment_2_short: "火神"
+ # FLTE code replace AST_nav_bomber_equipment_1
+ # FLTE code replace AST_nav_bomber_equipment_1_short
+ # FLTE code replace AST_nav_bomber_equipment_2
+ # FLTE code replace AST_nav_bomber_equipment_2_short
+ # FLTE code replace AST_nav_bomber_equipment_3
+ # FLTE code replace AST_nav_bomber_equipment_3_short
+ AST_nav_bomber_equipment_4: "洛克希德 PV-2 海王星"
+ AST_nav_bomber_equipment_4_short: "海王星"
+ # FLTE code replace AST_CAS_equipment_1
+ # FLTE code replace AST_CAS_equipment_1_short
+ # FLTE code replace AST_CAS_equipment_2
+ # FLTE code replace AST_CAS_equipment_2_short
+ # FLTE code replace AST_CAS_equipment_3
+ # FLTE code replace AST_CAS_equipment_3_short
+ AST_CAS_equipment_4: "韦斯特兰 飞龙"
+ AST_CAS_equipment_4_short: "飞龙"
+ AST_jet_CAS_equipment_1: "德-哈维兰 吸血鬼战斗轰炸机"
+ AST_jet_CAS_equipment_1_short: "吸血鬼战斗轰炸机"
+ AST_jet_CAS_equipment_2: "超级马林 迅捷"
+ AST_jet_CAS_equipment_2_short: "迅捷"
+ AST_cv_jet_CAS_equipment_1: "超级马林 袭击者"
+ AST_cv_jet_CAS_equipment_1_short: "袭击者"
+ AST_cv_jet_CAS_equipment_2: "霍克 海鹰"
+ AST_cv_jet_CAS_equipment_2_short: "海鹰"
+ # FLTE code replace AST_cv_nav_bomber_equipment_1
+ # FLTE code replace AST_cv_nav_bomber_equipment_1_short
+ # FLTE code replace AST_cv_nav_bomber_equipment_2
+ # FLTE code replace AST_cv_nav_bomber_equipment_2_short
+ # FLTE code replace AST_cv_CAS_equipment_1
+ # FLTE code replace AST_cv_CAS_equipment_1_short
+ # FLTE code replace AST_cv_CAS_equipment_2
+ # FLTE code replace AST_cv_CAS_equipment_2_short
+ # FLTE code replace AST_cv_CAS_equipment_3
+ # FLTE code replace AST_cv_CAS_equipment_3_short
+ # FLTE code replace AST_cv_fighter_equipment_3
+ # FLTE code replace AST_cv_fighter_equipment_3_short
+ # FLTE code replace AST_transport_plane_equipment_1
+ # FLTE code replace AST_transport_plane_equipment_1_short
+ # FLTE code replace AST_transport_plane_equipment_2
+ # FLTE code replace AST_transport_plane_equipment_2_short
+ # FLTE code replace AST_transport_plane_equipment_3
+ # FLTE code replace AST_transport_plane_equipment_3_short
+ AST_transport_plane_equipment_4: "维克斯 瓦莱塔"
+ AST_transport_plane_equipment_4_short: "瓦列塔"
+ AST_transport_plane_equipment_5: "‌阿姆斯特朗·惠特沃斯 阿戈西"
+ AST_transport_plane_equipment_5_short: "阿戈西"
+ # FLTE code replace NZL_fighter_equipment_0
+ # FLTE code replace NZL_fighter_equipment_0_short
+ # FLTE code replace NZL_fighter_equipment_1
+ # FLTE code replace NZL_fighter_equipment_1_short
+ # FLTE code replace NZL_fighter_equipment_3
+ # FLTE code replace NZL_fighter_equipment_3_short
+ # FLTE code replace NZL_heavy_fighter_equipment_1
+ # FLTE code replace NZL_heavy_fighter_equipment_1_short
+ # FLTE code replace NZL_heavy_fighter_equipment_3
+ # FLTE code replace NZL_heavy_fighter_equipment_3_short
+ # FLTE code replace NZL_strat_bomber_equipment_1
+ # FLTE code replace NZL_strat_bomber_equipment_1_short
+ # FLTE code replace NZL_strat_bomber_equipment_2
+ # FLTE code replace NZL_strat_bomber_equipment_2_short
+ # FLTE code replace NZL_strat_bomber_equipment_3
+ # FLTE code replace NZL_strat_bomber_equipment_3_short
+ # FLTE code replace NZL_jet_fighter_equipment_2
+ # FLTE code replace NZL_jet_fighter_equipment_2_short
+ NZL_jet_fighter_equipment_3: "霍克 猎手"
+ NZL_jet_fighter_equipment_3_short: "猎手"
+ NZL_cv_jet_fighter_equipment_1: "德-哈维兰 海吸血鬼"
+ NZL_cv_jet_fighter_equipment_1_short: "海吸血鬼"
+ NZL_cv_jet_fighter_equipment_2: "德-哈维兰 海毒液"
+ NZL_cv_jet_fighter_equipment_2_short: "海毒液"
+ NZL_cv_jet_fighter_equipment_3: "德-哈维兰 海雌狐"
+ NZL_cv_jet_fighter_equipment_3_short: "海雌狐"
+ NZL_jet_heavy_fighter_equipment_1: "德-哈维兰 毒液夜间战斗机"
+ NZL_jet_heavy_fighter_equipment_1_short: "毒液夜间战斗机"
+ NZL_jet_heavy_fighter_equipment_2: "格洛斯特 标枪"
+ NZL_jet_heavy_fighter_equipment_2_short: "标枪"
+ # FLTE code replace NZL_tac_bomber_equipment_0
+ # FLTE code replace NZL_tac_bomber_equipment_0_short
+ # FLTE code replace NZL_tac_bomber_equipment_1
+ # FLTE code replace NZL_tac_bomber_equipment_1_short
+ # FLTE code replace NZL_jet_tac_bomber_equipment_1
+ # FLTE code replace NZL_jet_tac_bomber_equipment_1_short
+ # FLTE code replace NZL_jet_tac_bomber_equipment_2
+ # FLTE code replace NZL_jet_tac_bomber_equipment_2_short
+ # FLTE code replace NZL_nav_bomber_equipment_1
+ # FLTE code replace NZL_nav_bomber_equipment_1_short
+ # FLTE code replace NZL_nav_bomber_equipment_2
+ # FLTE code replace NZL_nav_bomber_equipment_2_short
+ # FLTE code replace NZL_nav_bomber_equipment_3
+ # FLTE code replace NZL_nav_bomber_equipment_3_short
+ NZL_nav_bomber_equipment_4: "洛克希德 PV-2 海王星"
+ NZL_nav_bomber_equipment_4_short: "海王星"
+ # FLTE code replace NZL_CAS_equipment_1
+ # FLTE code replace NZL_CAS_equipment_1_short
+ # FLTE code replace NZL_CAS_equipment_3
+ # FLTE code replace NZL_CAS_equipment_3_short
+ NZL_CAS_equipment_4: "韦斯特兰 飞龙"
+ NZL_CAS_equipment_4_short: "飞龙"
+ NZL_jet_CAS_equipment_1: "德-哈维兰 吸血鬼战斗轰炸机"
+ NZL_jet_CAS_equipment_1_short: "吸血鬼战斗轰炸机"
+ NZL_jet_CAS_equipment_2: "超级马林 迅捷"
+ NZL_jet_CAS_equipment_2_short: "迅捷"
+ NZL_cv_jet_CAS_equipment_1: "超级马林 袭击者"
+ NZL_cv_jet_CAS_equipment_1_short: "袭击者"
+ NZL_cv_jet_CAS_equipment_2: "霍克 海鹰"
+ NZL_cv_jet_CAS_equipment_2_short: "海鹰"
+ # FLTE code replace NZL_cv_nav_bomber_equipment_1
+ # FLTE code replace NZL_cv_nav_bomber_equipment_1_short
+ # FLTE code replace NZL_cv_nav_bomber_equipment_2
+ # FLTE code replace NZL_cv_nav_bomber_equipment_2_short
+ # FLTE code replace NZL_cv_CAS_equipment_1
+ # FLTE code replace NZL_cv_CAS_equipment_1_short
+ # FLTE code replace NZL_cv_CAS_equipment_2
+ # FLTE code replace NZL_cv_CAS_equipment_2_short
+ # FLTE code replace NZL_cv_CAS_equipment_3
+ # FLTE code replace NZL_cv_CAS_equipment_3_short
+ # FLTE code replace NZL_cv_fighter_equipment_3
+ # FLTE code replace NZL_cv_fighter_equipment_3_short
+ NZL_transport_plane_equipment_1: "布里斯托尔 孟买"
+ NZL_transport_plane_equipment_1_short: "孟买"
+ NZL_transport_plane_equipment_2: "‌阿姆斯特朗·惠特沃斯 阿尔比马尔"
+ NZL_transport_plane_equipment_2_short: "阿尔比马尔"
+ NZL_transport_plane_equipment_3: "阿弗罗 约克"
+ NZL_transport_plane_equipment_3_short: "约克"
+ NZL_transport_plane_equipment_4: "维克斯 瓦莱塔"
+ NZL_transport_plane_equipment_4_short: "瓦列塔"
+ NZL_transport_plane_equipment_5: "‌阿姆斯特朗·惠特沃斯 阿戈西"
+ NZL_transport_plane_equipment_5_short: "阿戈西"
+ # FLTE code replace RAJ_fighter_equipment_0
+ # FLTE code replace RAJ_fighter_equipment_0_short
+ # FLTE code replace RAJ_fighter_equipment_1
+ # FLTE code replace RAJ_fighter_equipment_1_short
+ # FLTE code replace RAJ_fighter_equipment_3
+ # FLTE code replace RAJ_fighter_equipment_3_short
+ # FLTE code replace RAJ_heavy_fighter_equipment_1
+ # FLTE code replace RAJ_heavy_fighter_equipment_1_short
+ # FLTE code replace RAJ_heavy_fighter_equipment_3
+ # FLTE code replace RAJ_heavy_fighter_equipment_3_short
+ # FLTE code replace RAJ_strat_bomber_equipment_1
+ # FLTE code replace RAJ_strat_bomber_equipment_1_short
+ # FLTE code replace RAJ_strat_bomber_equipment_2
+ # FLTE code replace RAJ_strat_bomber_equipment_2_short
+ # FLTE code replace RAJ_strat_bomber_equipment_3
+ # FLTE code replace RAJ_strat_bomber_equipment_3_short
+ # FLTE code replace RAJ_jet_fighter_equipment_2
+ # FLTE code replace RAJ_jet_fighter_equipment_2_short
+ RAJ_jet_fighter_equipment_3: "霍克 猎手"
+ RAJ_jet_fighter_equipment_3_short: "猎手"
+ RAJ_cv_jet_fighter_equipment_1: "德-哈维兰 海吸血鬼"
+ RAJ_cv_jet_fighter_equipment_1_short: "海吸血鬼"
+ RAJ_cv_jet_fighter_equipment_2: "德-哈维兰 海毒液"
+ RAJ_cv_jet_fighter_equipment_2_short: "海毒液"
+ RAJ_cv_jet_fighter_equipment_3: "德-哈维兰 海雌狐"
+ RAJ_cv_jet_fighter_equipment_3_short: "海雌狐"
+ RAJ_jet_heavy_fighter_equipment_1: "德-哈维兰 毒液夜间战斗机"
+ RAJ_jet_heavy_fighter_equipment_1_short: "毒液夜间战斗机"
+ RAJ_jet_heavy_fighter_equipment_2: "格洛斯特 标枪"
+ RAJ_jet_heavy_fighter_equipment_2_short: "标枪"
+ # FLTE code replace RAJ_tac_bomber_equipment_0
+ # FLTE code replace RAJ_tac_bomber_equipment_0_short
+ # FLTE code replace RAJ_tac_bomber_equipment_1
+ # FLTE code replace RAJ_tac_bomber_equipment_1_short
+ # FLTE code replace RAJ_jet_tac_bomber_equipment_1
+ # FLTE code replace RAJ_jet_tac_bomber_equipment_1_short
+ # FLTE code replace RAJ_jet_tac_bomber_equipment_2
+ # FLTE code replace RAJ_jet_tac_bomber_equipment_2_short
+ # FLTE code replace RAJ_nav_bomber_equipment_1
+ # FLTE code replace RAJ_nav_bomber_equipment_1_short
+ # FLTE code replace RAJ_nav_bomber_equipment_2
+ # FLTE code replace RAJ_nav_bomber_equipment_2_short
+ # FLTE code replace RAJ_nav_bomber_equipment_3
+ # FLTE code replace RAJ_nav_bomber_equipment_3_short
+ RAJ_nav_bomber_equipment_4: "洛克希德 PV-2 海王星"
+ RAJ_nav_bomber_equipment_4_short: "海王星"
+ # FLTE code replace RAJ_CAS_equipment_1
+ # FLTE code replace RAJ_CAS_equipment_1_short
+ # FLTE code replace RAJ_CAS_equipment_3
+ # FLTE code replace RAJ_CAS_equipment_3_short
+ RAJ_CAS_equipment_4: "韦斯特兰 飞龙"
+ RAJ_CAS_equipment_4_short: "飞龙"
+ RAJ_jet_CAS_equipment_1: "德-哈维兰 吸血鬼战斗轰炸机"
+ RAJ_jet_CAS_equipment_1_short: "吸血鬼战斗轰炸机"
+ RAJ_jet_CAS_equipment_2: "超级马林 迅捷"
+ RAJ_jet_CAS_equipment_2_short: "迅捷"
+ RAJ_cv_jet_CAS_equipment_1: "超级马林 袭击者"
+ RAJ_cv_jet_CAS_equipment_1_short: "袭击者"
+ RAJ_cv_jet_CAS_equipment_2: "霍克 海鹰"
+ RAJ_cv_jet_CAS_equipment_2_short: "海鹰"
+ # FLTE code replace RAJ_cv_nav_bomber_equipment_1
+ # FLTE code replace RAJ_cv_nav_bomber_equipment_1_short
+ # FLTE code replace RAJ_cv_nav_bomber_equipment_2
+ # FLTE code replace RAJ_cv_nav_bomber_equipment_2_short
+ # FLTE code replace RAJ_cv_CAS_equipment_1
+ # FLTE code replace RAJ_cv_CAS_equipment_1_short
+ # FLTE code replace RAJ_cv_CAS_equipment_2
+ # FLTE code replace RAJ_cv_CAS_equipment_2_short
+ # FLTE code replace RAJ_cv_CAS_equipment_3
+ # FLTE code replace RAJ_cv_CAS_equipment_3_short
+ # FLTE code replace RAJ_cv_fighter_equipment_0
+ # FLTE code replace RAJ_cv_fighter_equipment_0_short
+ # FLTE code replace RAJ_cv_fighter_equipment_3
+ # FLTE code replace RAJ_cv_fighter_equipment_3_short
+ RAJ_transport_plane_equipment_1: "布里斯托尔 孟买"
+ RAJ_transport_plane_equipment_1_short: "孟买"
+ RAJ_transport_plane_equipment_2: "‌阿姆斯特朗·惠特沃斯 阿尔比马尔"
+ RAJ_transport_plane_equipment_2_short: "阿尔比马尔"
+ RAJ_transport_plane_equipment_3: "阿弗罗 约克"
+ RAJ_transport_plane_equipment_3_short: "约克"
+ RAJ_transport_plane_equipment_4: "维克斯 瓦莱塔"
+ RAJ_transport_plane_equipment_4_short: "瓦列塔"
+ RAJ_transport_plane_equipment_5: "‌阿姆斯特朗·惠特沃斯 阿戈西"
+ RAJ_transport_plane_equipment_5_short: "阿戈西"
+ ENG_jet_strat_bomber_equipment_2: "维克斯 勇士"
+ ENG_jet_strat_bomber_equipment_2_short: "勇士"
+ ENG_jet_strat_bomber_equipment_3: "汉德利 佩奇 胜利"
+ ENG_jet_strat_bomber_equipment_3_short: "胜利"
+ # FLTE code replace CAN_jet_strat_bomber_equipment_1
+ # FLTE code replace CAN_jet_strat_bomber_equipment_1_short
+ CAN_jet_strat_bomber_equipment_2: "维克斯 勇士"
+ CAN_jet_strat_bomber_equipment_2_short: "勇士"
+ CAN_jet_strat_bomber_equipment_3: "汉德利 佩奇 胜利"
+ CAN_jet_strat_bomber_equipment_3_short: "胜利"
+ # FLTE code replace RAJ_jet_strat_bomber_equipment_1
+ # FLTE code replace RAJ_jet_strat_bomber_equipment_1_short
+ RAJ_jet_strat_bomber_equipment_2: "维克斯 勇士"
+ RAJ_jet_strat_bomber_equipment_2_short: "勇士"
+ RAJ_jet_strat_bomber_equipment_3: "汉德利 佩奇 胜利"
+ RAJ_jet_strat_bomber_equipment_3_short: "胜利"
+ # FLTE code replace SAF_jet_strat_bomber_equipment_1
+ # FLTE code replace SAF_jet_strat_bomber_equipment_1_short
+ SAF_jet_strat_bomber_equipment_2: "维克斯 勇士"
+ SAF_jet_strat_bomber_equipment_2_short: "勇士"
+ SAF_jet_strat_bomber_equipment_3: "汉德利 佩奇 胜利"
+ SAF_jet_strat_bomber_equipment_3_short: "胜利"
+ # FLTE code replace NZL_jet_strat_bomber_equipment_1
+ # FLTE code replace NZL_jet_strat_bomber_equipment_1_short
+ NZL_jet_strat_bomber_equipment_2: "维克斯 勇士"
+ NZL_jet_strat_bomber_equipment_2_short: "勇士"
+ NZL_jet_strat_bomber_equipment_3: "汉德利 佩奇 胜利"
+ NZL_jet_strat_bomber_equipment_3_short: "胜利"
+ # FLTE code replace AST_jet_strat_bomber_equipment_1
+ # FLTE code replace AST_jet_strat_bomber_equipment_1_short
+ AST_jet_strat_bomber_equipment_2: "维克斯 勇士"
+ AST_jet_strat_bomber_equipment_2_short: "勇士"
+ AST_jet_strat_bomber_equipment_3: "汉德利 佩奇 胜利"
+ AST_jet_strat_bomber_equipment_3_short: "胜利"
+ ### Content formally of equip_air01_l_english
+ FRA_cv_jet_CAS_equipment_1: "北方 2200 鼠海豚"
+ FRA_cv_jet_CAS_equipment_1_short: "鼠海豚"
+ FRA_cv_jet_CAS_equipment_2: "国营中央航空 NC.1090 鲨鱼"
+ FRA_cv_jet_CAS_equipment_2_short: "鲨鱼"
+ FRA_cv_jet_fighter_equipment_1: "国营东南航空 SE.533 西北风"
+ FRA_cv_jet_fighter_equipment_1_short: "SE.533 西北风"
+ FRA_cv_jet_fighter_equipment_2: "国营东南航空 朔风"
+ FRA_cv_jet_fighter_equipment_2_short: "朔风"
+ FRA_cv_jet_fighter_equipment_3: "达索 MD.454-PA 旋风"
+ FRA_cv_jet_fighter_equipment_3_short: "旋风"
+ # FLTE code replace SWE_fighter_equipment_0
+ # FLTE code replace SWE_fighter_equipment_0_short
+ # FLTE code replace SWE_fighter_equipment_1
+ # FLTE code replace SWE_fighter_equipment_1_short
+ # FLTE code replace SWE_fighter_equipment_2
+ # FLTE code replace SWE_fighter_equipment_2_short
+ # FLTE code replace SWE_fighter_equipment_3
+ # FLTE code replace SWE_fighter_equipment_3_short
+ # FLTE code replace SWE_CAS_equipment_1
+ # FLTE code replace SWE_CAS_equipment_1_short
+ # FLTE code replace SWE_CAS_equipment_2
+ # FLTE code replace SWE_CAS_equipment_2_short
+ # FLTE code replace SWE_CAS_equipment_3
+ # FLTE code replace SWE_CAS_equipment_3_short
+ # FLTE code replace SWE_tac_bomber_equipment_0
+ # FLTE code replace SWE_tac_bomber_equipment_0_short
+ # FLTE code replace SWE_tac_bomber_equipment_1
+ # FLTE code replace SWE_tac_bomber_equipment_1_short
+ # FLTE code replace SWE_tac_bomber_equipment_2
+ # FLTE code replace SWE_tac_bomber_equipment_2_short
+ SWE_tac_bomber_equipment_3: "瑞典航空 B-20"
+ SWE_tac_bomber_equipment_3_short: "瑞典航空 B-20"
+ SWE_jet_tac_bomber_equipment_1: "瑞典航空 B-30"
+ SWE_jet_tac_bomber_equipment_1_short: "瑞典航空 B-30"
+ SWE_jet_tac_bomber_equipment_2: "瑞典航空 B-32"
+ SWE_jet_tac_bomber_equipment_2_short: "瑞典航空 B-32"
+ # FLTE code replace SWE_jet_fighter_equipment_1
+ # FLTE code replace SWE_jet_fighter_equipment_1_short
+ # FLTE code replace SWE_jet_fighter_equipment_2
+ # FLTE code replace SWE_jet_fighter_equipment_2_short
+ SWE_heavy_fighter_equipment_1: "瑞典航空 J-14"
+ SWE_heavy_fighter_equipment_1_short: "瑞典航空 J-14"
+ SWE_heavy_fighter_equipment_2: "瑞典航空 J-16"
+ SWE_heavy_fighter_equipment_2_short: "瑞典航空 J-16"
+ SWE_heavy_fighter_equipment_3: "瑞典航空 J-21"
+ SWE_heavy_fighter_equipment_3_short: "瑞典航空 J-21"
+ SWE_strat_bomber_equipment_1: "瑞典航空 TB-3"
+ SWE_strat_bomber_equipment_1_short: "瑞典航空 TB-3"
+ SWE_strat_bomber_equipment_2: "瑞典航空 TB-9"
+ SWE_strat_bomber_equipment_2_short: "瑞典航空 TB-9"
+ SWE_strat_bomber_equipment_3: "瑞典航空 TB-12"
+ SWE_strat_bomber_equipment_3_short: "瑞典航空 TB-12"
+ SWE_jet_strat_bomber_equipment_1: "瑞典航空 B-36"
+ SWE_jet_strat_bomber_equipment_1_short: "瑞典航空 B-36"
+ # FLTE code replace SWE_nav_bomber_equipment_1
+ # FLTE code replace SWE_nav_bomber_equipment_1_short
+ SWE_nav_bomber_equipment_2: "瑞典航空 T-2"
+ SWE_nav_bomber_equipment_2_short: "瑞典航空 T-2"
+ SWE_nav_bomber_equipment_3: "瑞典航空 T-3"
+ SWE_nav_bomber_equipment_3_short: "瑞典航空 T-3"
+ # FLTE code replace CZE_transport_plane_equipment_1
+ # FLTE code replace CZE_transport_plane_equipment_1_short
+ # FLTE code replace CZE_transport_plane_equipment_2
+ # FLTE code replace CZE_transport_plane_equipment_2_short
+ # FLTE code replace CZE_transport_plane_equipment_3
+ # FLTE code replace CZE_transport_plane_equipment_3_short
+ CZE_transport_plane_equipment_4: "伊留申 伊尔-14"
+ CZE_transport_plane_equipment_4_short: "伊尔-14"
+ CZE_transport_plane_equipment_5: "安东诺夫 安-12"
+ CZE_transport_plane_equipment_5_short: "安-12"
+ # FLTE code replace CZE_fighter_equipment_0
+ # FLTE code replace CZE_fighter_equipment_0_short
+ # FLTE code replace CZE_fighter_equipment_1_short
+ # FLTE code replace CZE_fighter_equipment_2
+ # FLTE code replace CZE_fighter_equipment_2_short
+ # FLTE code replace CZE_fighter_equipment_3
+ # FLTE code replace CZE_fighter_equipment_3_short
+ # FLTE code replace CZE_jet_fighter_equipment_1
+ # FLTE code replace CZE_jet_fighter_equipment_1_short
+ CZE_jet_fighter_equipment_2: "列托夫 S-103"
+ CZE_jet_fighter_equipment_2_short: "列托夫 S-103"
+ CZE_jet_fighter_equipment_3: "沃多乔迪航空 S-105"
+ CZE_jet_fighter_equipment_3_short: "沃多乔迪航空 S-105"
+ # FLTE code replace CZE_CAS_equipment_1
+ # FLTE code replace CZE_CAS_equipment_1_short
+ # FLTE code replace CZE_CAS_equipment_2
+ # FLTE code replace CZE_CAS_equipment_2_short
+ # FLTE code replace CZE_CAS_equipment_3
+ # FLTE code replace CZE_CAS_equipment_3_short
+ CZE_CAS_equipment_4: "伊留申 伊尔-16"
+ CZE_CAS_equipment_4_short: "伊留申 伊尔-16"
+ CZE_jet_CAS_equipment_1: "图波列夫 图-12"
+ CZE_jet_CAS_equipment_1_short: "图波列夫 图-12"
+ CZE_jet_CAS_equipment_2: "伊留申 伊尔-40"
+ CZE_jet_CAS_equipment_2_short: "伊留申 伊尔-40"
+ CZE_cv_jet_CAS_equipment_1: "图波列夫 图-12"
+ CZE_cv_jet_CAS_equipment_1_short: "图波列夫 图-12"
+ CZE_cv_jet_CAS_equipment_2: "伊留申 伊尔-40K"
+ CZE_cv_jet_CAS_equipment_2_short: "伊留申 伊尔-40K"
+ CZE_cv_fighter_equipment_0: "阿维亚 B-34海军型"
+ CZE_cv_fighter_equipment_0_short: "阿维亚 B-34海军型"
+ CZE_cv_fighter_equipment_1: "阿维亚 B-34海军型"
+ CZE_cv_fighter_equipment_1_short: "阿维亚 B-34海军型"
+ CZE_cv_fighter_equipment_2: "阿维亚 B.35海军型"
+ CZE_cv_fighter_equipment_2_short: "阿维亚 B.35海军型"
+ CZE_cv_fighter_equipment_3: "阿维亚 S-97海军型"
+ CZE_cv_fighter_equipment_3_short: "阿维亚 S-97海军型"
+ CZE_cv_jet_fighter_equipment_1: "阿维亚 S-92海军型"
+ CZE_cv_jet_fighter_equipment_1_short: "阿维亚 S-92海军型"
+ CZE_cv_jet_fighter_equipment_2: "列托夫 S-103海军型"
+ CZE_cv_jet_fighter_equipment_2_short: "列托夫 S-103海军型"
+ CZE_cv_jet_fighter_equipment_3: "沃多乔迪航空 S-105海军型"
+ CZE_cv_jet_fighter_equipment_3_short: "沃多乔迪航空 S-105海军型"
+ CZE_jet_heavy_fighter_equipment_1: "列托夫 S-101"
+ CZE_jet_heavy_fighter_equipment_1_short: "列托夫 S-101"
+ CZE_jet_heavy_fighter_equipment_2: "列托夫 S-104"
+ CZE_jet_heavy_fighter_equipment_2_short: "列托夫 S-104"
+ CZE_cv_CAS_equipment_1: "沃多乔迪航空 A.101海军型"
+ CZE_cv_CAS_equipment_1_short: "沃多乔迪航空 A.101海军型"
+ CZE_cv_CAS_equipment_2: "沃多乔迪航空 A.104海军型"
+ CZE_cv_CAS_equipment_2_short: "沃多乔迪航空 A.104海军型"
+ CZE_cv_CAS_equipment_3: "阿维亚 B.33海军型"
+ CZE_cv_CAS_equipment_3_short: "阿维亚 B.33海军型"
+ # FLTE code replace CZE_tac_bomber_equipment_0
+ # FLTE code replace CZE_tac_bomber_equipment_0_short
+ # FLTE code replace CZE_tac_bomber_equipment_1
+ # FLTE code replace CZE_tac_bomber_equipment_1_short
+ # FLTE code replace CZE_tac_bomber_equipment_2
+ # FLTE code replace CZE_tac_bomber_equipment_2_short
+ # FLTE code replace CZE_tac_bomber_equipment_3
+ # FLTE code replace CZE_tac_bomber_equipment_3_short
+ CZE_jet_tac_bomber_equipment_1: "伊留申 伊尔-28"
+ CZE_jet_tac_bomber_equipment_1_short: "伊留申 伊尔-28"
+ CZE_jet_tac_bomber_equipment_2: "雅克福列夫 雅克-25B"
+ CZE_jet_tac_bomber_equipment_2_short: "雅克福列夫 雅克-25B"
+ # FLTE code replace CZE_strat_bomber_equipment_1
+ # FLTE code replace CZE_strat_bomber_equipment_1_short
+ # FLTE code replace CZE_strat_bomber_equipment_2
+ # FLTE code replace CZE_strat_bomber_equipment_2_short
+ # FLTE code replace CZE_strat_bomber_equipment_3
+ # FLTE code replace CZE_strat_bomber_equipment_3_short
+ CZE_jet_strat_bomber_equipment_1: "伊留申 伊尔-18"
+ CZE_jet_strat_bomber_equipment_1_short: "伊留申 伊尔-18"
+ CZE_jet_strat_bomber_equipment_2: "图波列夫 Tu-26"
+ CZE_jet_strat_bomber_equipment_2_short: "图波列夫 Tu-26"
+ CZE_jet_strat_bomber_equipment_3: "图波列夫 图-95"
+ CZE_jet_strat_bomber_equipment_3_short: "图波列夫 图-95"
+ # FLTE code replace CZE_nav_bomber_equipment_1
+ # FLTE code replace CZE_nav_bomber_equipment_1_short
+ # FLTE code replace CZE_nav_bomber_equipment_2
+ # FLTE code replace CZE_nav_bomber_equipment_2_short
+ # FLTE code replace CZE_nav_bomber_equipment_3
+ # FLTE code replace CZE_nav_bomber_equipment_3_short
+ CZE_cv_nav_bomber_equipment_1: "莱托夫 Š.328.v"
+ CZE_cv_nav_bomber_equipment_1_short: "Š.328.v"
+ CZE_cv_nav_bomber_equipment_1_desc: "这个版本是莱托夫 Š.328的一个变种，装备了英国肖特兄弟有限公司的浮标。主要用于南斯拉夫的训练目的。"
+ # FLTE code replace CZE_heavy_fighter_equipment_1
+ # FLTE code replace CZE_heavy_fighter_equipment_1_short
+ CZE_heavy_fighter_equipment_1_desc: "阿维亚 B.534的主要改型之一便是Bk.534，其设计在机头处安装一门 20 毫米（0.79 英寸）厄利孔FFS-20机炮，而在两侧只安装两挺 7.92 毫米机枪。\n\n然而，由于在改装新机炮时遇到了一些问题。因此，只有少数飞机被交付给捷克斯洛伐克空军，其余 63 架被订购的飞机则为德国人完工。"
+ # FLTE code replace CZE_heavy_fighter_equipment_2
+ # FLTE code replace CZE_heavy_fighter_equipment_2_short
+ CZE_heavy_fighter_equipment_2_desc: "普拉加 E.51是一种新型双引擎飞机的有趣原型，于1938年末首次飞行。唯一的原型机在被占领后由德国人缴获。"
+ # FLTE code replace CZE_heavy_fighter_equipment_3
+ # FLTE code replace CZE_heavy_fighter_equipment_3_short
+ FIN_heavy_fighter_equipment_1: "霍克 飓风"
+ FIN_heavy_fighter_equipment_1_short: "飓风"
+ FIN_heavy_fighter_equipment_2: "博尔顿-保罗 超级无畏"
+ FIN_heavy_fighter_equipment_2_short: "超级无畏"
+ FIN_CAS_equipment_2: "容克 斯图卡D型"
+ FIN_CAS_equipment_2_short: "斯图卡D型"
+ FIN_transport_plane_equipment: "道格拉斯 DC-3"
+ FIN_transport_plane_equipment_short: "DC-3"
+ # FLTE code replace NOR_fighter_equipment_0
+ # FLTE code replace NOR_fighter_equipment_0_short
+ NOR_fighter_equipment_1: "柯蒂斯 75A-6"
+ NOR_fighter_equipment_1_short: "75A-6 鹰"
+ NOR_fighter_equipment_2: "超级马林 喷火 Mk.IX型"
+ NOR_fighter_equipment_2_short: "喷火 Mk.IX型"
+ NOR_fighter_equipment_3: "超级马林 喷火 Mk.XIX型"
+ NOR_fighter_equipment_3_short: "喷火 Mk.XIX型"
+ NOR_heavy_fighter_equipment_1: "霍克 飓风"
+ NOR_heavy_fighter_equipment_1_short: "飓风"
+ NOR_CAS_equipment_1: "福克 CV-D型"
+ NOR_CAS_equipment_1_short: "福克 CV-D型"
+ # FLTE code replace NOR_nav_bomber_equipment_1
+ # FLTE code replace NOR_nav_bomber_equipment_1_short
+ NOR_nav_bomber_equipment_2: "挪威皇家海军飞机制造厂  MF-11"
+ NOR_nav_bomber_equipment_2_short: "M.F. 11"
+ NOR_nav_bomber_equipment_3: "亨克尔 He 115挪威型"
+ NOR_nav_bomber_equipment_3_short: "He 115挪威型"
+ # FLTE code replace AUS_fighter_equipment_0
+ # FLTE code replace AUS_fighter_equipment_0_short
+ SWI_fighter_equipment_1: "梅塞施密特 Bf 109"
+ SWI_fighter_equipment_1_short: "Bf 109"
+ SWI_fighter_equipment_2: "莫拉纳-索尼埃 D-3800"
+ SWI_fighter_equipment_2_short: "D-3800"
+ SWI_fighter_equipment_3: "北美 P-51 野马"
+ SWI_fighter_equipment_3_short: "P-51"
+ SWI_heavy_fighter_equipment_1: "波泰 630"
+ SWI_heavy_fighter_equipment_1_short: "波泰 630"
+ SWI_CAS_equipment_1: "联邦建筑工程公司 C-3603"
+ SWI_CAS_equipment_1_short: "联邦建筑工程公司 C.35"
+ SWI_CAS_equipment_2: "联邦建筑工程公司 C-35"
+ SWI_CAS_equipment_2_short: "联邦建筑工程公司 C.3603"
+ #Mexico
+ ##SPY##
+ # FLTE code replace scout_plane_equipment
+ scout_plane_equipment_3: "1950 侦察机"
+ scout_plane_equipment_3_desc: ""
+ scout_plane_equipment_4: "1960 侦察机"
+ scout_plane_equipment_4_desc: ""
+ scout_plane_equipment_5: "1970 侦察机"
+ scout_plane_equipment_5_desc: ""
+ # FLTE code replace USA_scout_plane_equipment_2
+ # FLTE code replace USA_scout_plane_equipment_2_short
+ USA_scout_plane_equipment_3: "马丁 RB-57D 堪培拉"
+ USA_scout_plane_equipment_3_short: "RB-57D"
+ USA_scout_plane_equipment_4: "洛克希德 U-2"
+ USA_scout_plane_equipment_4_short: "U-2"
+ USA_scout_plane_equipment_5: "洛克希德 SR-71 黑鸟"
+ USA_scout_plane_equipment_5_short: "SR-71"
+ # FLTE code replace SOV_scout_plane_equipment_1
+ SOV_scout_plane_equipment_1_short: "卡-5"
+ # FLTE code replace SOV_scout_plane_equipment_2
+ SOV_scout_plane_equipment_2_short: "雅克-2"
+ SOV_scout_plane_equipment_3: "伊留申 伊尔-28侦察型"
+ SOV_scout_plane_equipment_3_short: "伊尔-28侦察型"
+ SOV_scout_plane_equipment_4: "雅克福列夫 雅克-25侦察型"
+ SOV_scout_plane_equipment_4_short: "雅克-25侦察型"
+ SOV_scout_plane_equipment_5: "齐宾 RS侦察型"
+ SOV_scout_plane_equipment_5_short: "RS侦察型"
+ FRA_scout_plane_equipment_2_short: "CAO-700"
+ # FLTE code replace ENG_scout_plane_equipment_1
+ # FLTE code replace ENG_scout_plane_equipment_2
+ ENG_scout_plane_equipment_3: "阿弗罗 沙克尔顿"
+ ENG_scout_plane_equipment_4: "阿弗罗 730"
+ GER_scout_plane_equipment_3: "福克-沃尔夫 Fw 289"
+ GER_scout_plane_equipment_3_short: "Fw 289"

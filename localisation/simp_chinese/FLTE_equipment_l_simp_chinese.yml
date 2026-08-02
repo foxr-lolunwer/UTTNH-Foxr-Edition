@@ -1,0 +1,2316 @@
+﻿l_simp_chinese:
+ ARMOUR_TITLE_PARA: "空降坦克"
+ ARMOUR_TITLE_WHEELED: "轮式坦克"
+ AIR_TITLE_DRONES: "无人机"
+ # FLTE code replace modern_tank_chassis
+ high_performance_aircraft: "高性能飞机"
+ front_line_supp: "前线支援"
+ low_level_penetration: "低空渗透"
+ interdiction_mission: "拦截任务"
+ deep_strike_mission: "深度打击任务"
+ all_weather_tacti: "全天候作战"
+ defence_suppression: "压制防御"
+ solve_vulnerability: "解决地对空导弹漏洞"
+ isolate_enemy: "孤立敌人"
+ inertial_navigation_systems: "惯性导航系统"
+ housed_park_plan: "封闭式机库"
+ improved_weapon_aim_system: "改进武器瞄准系统"
+ high_split: "航线分层"
+ jet_formations: "喷气机队形"
+ waves_method: "多波次进攻"
+ attacker_bomber_capability: "攻击机轰炸能力"
+ steep_dive_attack: "大角度俯冲攻击"
+ all_weather_interceptor: "全天候截击机"
+ integrate_air_defence_system: "综合防空系统"
+ low_altitude_radar_dodge: "低空雷达躲避"
+ secured_data_linked_command: "安全数据链命令"
+ improve_operational_capability: "提高作战能力"
+ defend_high_level_airspace: "高空防卫"
+ low_altitude_detection: "低空侦查"
+ housed_park_plane: "封闭式机库"
+ counter_air_operation: "防空作战"
+ etablish_air_supremacy_corridor: "划定制空权区域"
+ improved_weapon_aiming_systems: "改进武器瞄准系统"
+ coordination_between_jet_bomber: "战机轰炸协同"
+ intense_bombing: "密集轰炸"
+ continuous_bombing: "连续轰炸"
+ railway_interdiction: "铁路管制"
+ bombing_accuracy_improved: "改进轰炸精度"
+ focus_on_enemy_vital: "聚焦敌军关键系统"
+ figure_out_jet_tactics: "探索新战术"
+ all_weather_tactic: "全天候战术"
+ air_refuel: "空中加油"
+ electronic_warfare: "电子战"
+ simultanous_attack: "同步进攻"
+ high_flying_method: "高空飞行方案"
+ housed_park_planes: "封闭式机库"
+ improved_weapon_aiming_system: "改进武器瞄准系统"
+ new_doctrine: "新时代学说"
+ new_doctrine_desc: ""
+ asymmetric1: "不对称作战"
+ asymmetric1_desc: ""
+ organised1: "集群渗透"
+ organised1_desc: ""
+ hitandrun1: "袭扰游击"
+ hitandrun1_desc: ""
+ tactical1: "战场回收"
+ tactical1_desc: ""
+ pocketcell1: "渗透伏击"
+ pocketcell1_desc: ""
+ conscripted1: "应征民兵"
+ conscripted1_desc: ""
+ militia1: "训练民兵"
+ militia1_desc: ""
+ cutting1: "速效战术"
+ cutting1_desc: ""
+ local1: "地方训练项目"
+ local1_desc: ""
+ desperate1: "殊死防御"
+ desperate1_desc: ""
+ reformed1: "国民警卫队"
+ reformed1_desc: ""
+ fleet_in_being001: "海军火力学说"
+ fleet_in_being001_desc: ""
+ fleet_in_being011: "决战重点"
+ fleet_in_being011_desc: ""
+ fleet_in_being012: "辅助航母舰载机任务"
+ fleet_in_being012_desc: ""
+ fleet_in_being013: "空中雷达侦查"
+ fleet_in_being013_desc: ""
+ fleet_in_being014: "火控系统"
+ fleet_in_being014_desc: ""
+ fleet_in_being015: "航海安全协议"
+ fleet_in_being015_desc: ""
+ fleet_in_being016: "水面舰艇接战优先级"
+ fleet_in_being016_desc: ""
+ fleet_in_being021: "空中防御力量"
+ fleet_in_being021_desc: ""
+ fleet_in_being022: "反潜作战部队"
+ fleet_in_being022_desc: ""
+ fleet_in_being023: "贸易防御"
+ fleet_in_being023_desc: ""
+ fleet_in_being024: "声呐学习训练"
+ fleet_in_being024_desc: ""
+ fleet_in_being031: "舰队辅助潜艇"
+ fleet_in_being031_desc: ""
+ fleet_in_being032: "情报行动"
+ fleet_in_being032_desc: ""
+ fleet_in_being033: "现代化潜艇作战"
+ fleet_in_being033_desc: ""
+ fleet_in_being034: "无线电静默"
+ fleet_in_being034_desc: ""
+ trade_interdiction001: "海上力量投射学说"
+ trade_interdiction001_desc: ""
+ trade_interdiction011: "航海安全协议"
+ trade_interdiction011_desc: ""
+ trade_interdiction012: "空中雷达侦查"
+ trade_interdiction012_desc: ""
+ trade_interdiction013: "火控系统"
+ trade_interdiction013_desc: ""
+ trade_interdiction014: "反潜作战部队"
+ trade_interdiction014_desc: ""
+ trade_interdiction021: "舰队后勤"
+ trade_interdiction021_desc: ""
+ trade_interdiction022: "重视屏卫舰"
+ trade_interdiction022_desc: ""
+ trade_interdiction023: "迟滞"
+ trade_interdiction023_desc: ""
+ trade_interdiction024: "贸易防御"
+ trade_interdiction024_desc: ""
+ trade_interdiction031: "破坏贸易"
+ trade_interdiction031_desc: ""
+ trade_interdiction032: "伏击"
+ trade_interdiction032_desc: ""
+ trade_interdiction033: "潜艇避战战术"
+ trade_interdiction033_desc: ""
+ trade_interdiction034: "情报行动"
+ trade_interdiction034_desc: ""
+ trade_interdiction035: "现代化潜艇作战"
+ trade_interdiction035_desc: ""
+ trade_interdiction036: "无线电静默"
+ trade_interdiction036_desc: ""
+ base_strike001: "海外部署学说"
+ base_strike001_desc: ""
+ base_strike011: "反潜作战部队"
+ base_strike011_desc: ""
+ base_strike012: "空中雷达侦查"
+ base_strike012_desc: ""
+ base_strike013: "声呐学习训练"
+ base_strike013_desc: ""
+ base_strike014: "贸易防御"
+ base_strike014_desc: ""
+ base_strike021: "舰队辅助潜艇"
+ base_strike021_desc: ""
+ base_strike022: "情报行动"
+ base_strike022_desc: ""
+ base_strike023: "现代化潜艇作战"
+ base_strike023_desc: ""
+ base_strike024: "无线电静默"
+ base_strike024_desc: ""
+ base_strike031: "辅助航母舰载机任务"
+ base_strike031_desc: ""
+ base_strike032: "空中防御力量"
+ base_strike032_desc: ""
+ base_strike033: "火控系统"
+ base_strike033_desc: ""
+ base_strike034: "地面力量投射"
+ base_strike034_desc: ""
+ base_strike035: "海空霸权"
+ base_strike035_desc: ""
+ base_strike036: "海域统治者"
+ base_strike036_desc: ""
+ combinedarm1: "联合兵种战术"
+ combinedarm1_desc: ""
+ desperatedeterrence: "防御性威慑"
+ desperatedeterrence_desc: ""
+ mechanizedwarfare: "重视机械化"
+ mechanizedwarfare_desc: ""
+ longterm: "长期作战计划"
+ longterm_desc: ""
+ anticonventional: "非常规作战"
+ anticonventional_desc: ""
+ COINWARFARE: "非常规作战"
+ COINWARFARE_desc: ""
+ flexibleorder: "机动作战"
+ flexibleorder_desc: ""
+ moderndefenceindepth: "纵深防御"
+ moderndefenceindepth_desc: ""
+ coordinatedattack: "协同进攻"
+ coordinatedattack_desc: ""
+ aerialsupremacy: "空中优势"
+ aerialsupremacy_desc: ""
+ longtermplanning: "长期作战计划"
+ longtermplanning_desc: ""
+ elitesaboteur: "精英特种部队"
+ elitesaboteur_desc: ""
+ defenceindepthmodern: "纵深防御"
+ defenceindepthmodern_desc: ""
+ massedbreak: "集中突破"
+ massedbreak_desc: ""
+ hitandrun2: "游击袭扰"
+ hitandrun2_desc: ""
+ commandotrait: "特种突袭"
+ commandotrait_desc: ""
+ veterancycling: "老兵指导"
+ veterancycling_desc: ""
+ organised2: "集群渗透"
+ organised2_desc: ""
+ ascensionofwarfare: "冲突升级"
+ ascensionofwarfare_desc: ""
+ 20thcenturywarfare: "二十世纪军事学说"
+ 20thcenturywarfare_desc: ""
+ manoeuverwarfare: "机动作战"
+ manoeuverwarfare_desc: ""
+ attritionwarfare: "堑壕战"
+ attritionwarfare_desc: ""
+ modernbreakthrough: "现代化突破战术"
+ modernbreakthrough_desc: ""
+ armourwave: "钢铁洪流"
+ armourwave_desc: ""
+ armourtide: "装甲攻势"
+ armourtide_desc: ""
+ rapidbuildup: "快速集结"
+ rapidbuildup_desc: ""
+ mechanisedrevolution: "机械化改革"
+ mechanisedrevolution_desc: ""
+ infantrypriority: "步兵优先"
+ infantrypriority_desc: ""
+ veterancycling1: "老兵指导"
+ veterancycling1_desc: ""
+ massedbreakthrough: "集中突破"
+ massedbreakthrough_desc: ""
+ concentratedassault: "集中攻击"
+ concentratedassault_desc: ""
+ conscriptwave: "征兵计划"
+ conscriptwave_desc: ""
+ massedbreakthrough1: "集中突破"
+ massedbreakthrough1_desc: ""
+ conscriptprogram: "新兵集训"
+ conscriptprogram_desc: ""
+ manoeuverwarfare1: "机动作战"
+ manoeuverwarfare1_desc: ""
+ grandarmy: "步兵为主"
+ grandarmy_desc: ""
+ # FLTE code replace both_cruisers_desc
+ # FLTE code replace motorized_equipment
+ # FLTE code replace motorized_equipment_desc
+ # FLTE code replace motorized_equipment_1
+ # FLTE code replace PRC_modern_tank_equipment_1_short
+ PRC_modern_tank_equipment_2_short: "T-55"
+ PRC_modern_tank_equipment_3_short: "北方工业 59式"
+ PRC_modern_tank_equipment_5_short: "北方工业 59式-I型"
+ PRC_modern_tank_equipment_6_short: "北方工业 69式"
+ PRC_modern_tank_equipment_7_short: "北方工业 69式-II型"
+ PRC_modern_tank_equipment_8_short: "北方工业 85式"
+ PRC_modern_tank_equipment_9_short: "北方工业 90式"
+ # FLTE code replace POL_modern_tank_equipment_1_short
+ POL_modern_tank_equipment_2_short: "T-55"
+ POL_modern_tank_equipment_5_short: "T-72"
+ POL_modern_tank_equipment_7_short: "豹 2"
+ POL_modern_tank_equipment_9_short: "坚韧 PT-91主战坦克"
+ PRC_amphibious_mechanized_equipment_3: "PT-76"
+ PRC_amphibious_mechanized_equipment_3_short: "PT-76"
+ PRC_amphibious_mechanized_equipment_4: "63式"
+ PRC_amphibious_mechanized_equipment_4_short: "63式"
+ PRC_amphibious_mechanized_equipment_6: "Type 63-II型"
+ PRC_amphibious_mechanized_equipment_6_short: "Type 63-II型"
+ # FLTE code replace EQUIPMENT_MOTORIZED
+ EQUIPMENT_AIR_FIGHTER: "战斗机"
+ EQUIPMENT_AIR_FIGHTER_DESC: "战斗机"
+ EQUIPMENT_AIR_CAS: "近距支援机"
+ EQUIPMENT_HELICOPTER: "直升机"
+ # FLTE code replace EQUIPMENT_MISSILE
+ # FLTE code replace GER_EQUIPMENT_VERSION_9
+ # FLTE code replace GER_EQUIPMENT_VERSION_10
+ # FLTE code replace GER_EQUIPMENT_VERSION_11
+ # FLTE code replace GER_EQUIPMENT_VERSION_12
+ # FLTE code replace GER_EQUIPMENT_VERSION_13
+ # FLTE code replace GER_EQUIPMENT_VERSION_14
+ # FLTE code replace GER_EQUIPMENT_VERSION_15
+ # FLTE code replace GER_EQUIPMENT_VERSION_16
+##GENERIC TREE##
+ # FLTE code replace infantry_equipment_0
+ # FLTE code replace infantry_equipment_0_short
+ # FLTE code replace infantry_equipment_1
+ # FLTE code replace infantry_equipment_1_short
+ # FLTE code replace infantry_equipment_2
+ # FLTE code replace infantry_equipment_2_short
+ # FLTE code replace infantry_equipment_3
+ # FLTE code replace infantry_equipment_3_short
+ infantry_equipment_4: "突击步枪 I"
+ infantry_equipment_4_short: "突击步枪 I"
+ infantry_equipment_4_desc: "突击步枪，一种可选择射击模式、发射中间威力弹药的步枪。既能提供持续火力，也能确保500米以上的精确射击能力。尽管突击步枪的体积大于早期型号，但其性能全面超越了同时代最优秀的栓动步枪和半自动步枪。因此，除机枪和手枪外，它取代了绝大多数其他现役轻武器。"
+ infantry_equipment_5: "突击步枪 II"
+ infantry_equipment_5_short: "突击步枪 II"
+ infantry_equipment_5_desc: "纵使时代变迁，在任何军队中，一名普通的步枪兵依然是最重要的组成部分。因此，采用合成材料、中间威力枪弹和特种塑料等技术进行现代化的突击步枪，能使单兵火力达到三十名栓动步枪手的水平。"
+ infantry_equipment_6: "突击步枪 III"
+ infantry_equipment_6_short: "突击步枪 III"
+ infantry_equipment_6_desc: "人体工程学与新材料技术的突破，新一代突击步枪在重量与体积上得以进一步优化。得益于可扩展的模块化导轨系统，能够灵活加装握把、瞄准镜等战术配件，堪称划时代的“太空时代”枪械。"
+ infantry_equipment_7: "突击步枪 IV"
+ infantry_equipment_7_short: "突击步枪 IV"
+ infantry_equipment_7_desc: "在早期，卡宾枪是指骑兵使用的短管步枪。无烟火药的应用曾一度使卡宾枪的地位大幅下降，仅有少数型号得以保留。但近几十年来，卡宾枪又重焕生机。相较于传统的突击步枪，新式“突击卡宾枪”的弹药口径有所缩小，但在便携性与城市战环境适应性方面优势显著，成为了战场上一种不可忽视的火力补充。"
+ infantry_equipment_8: "突击步枪 V"
+ infantry_equipment_8_short: "突击步枪 V"
+ infantry_equipment_8_desc: "伴随着无壳弹药、无托结构和电子系统的应用，突击步枪至今仍在不断进化。现代突击步枪追求轻量化设计，发射中间威力弹药，具备全自动、点射和半自动射击能力，采用便捷的弹匣供弹，并能根据需求加装各种附件。"
+ infantry_at3: "RPG I"
+ infantry_at4: "RPG II"
+ infantry_at5: "RPG III"
+ infantry_at6: "RPG IV"
+ # FLTE code replace motorized_equipment_0
+ # FLTE code replace motorized_equipment_1
+ motorized_equipment_2: "M54卡车"
+ motorized_equipment_2_desc: "为适应我军机械化、装甲化部队日益提升的机动能力，必须确保摩托化部队的同步发展。采用新型发动机和创新型五速变速箱的现代军用卡车，足以伴随高速行驶的坦克一同推进。"
+ motorized_equipment_3: "M55卡车"
+ motorized_equipment_3_desc: "随着增压器的普及，重型货运卡车即使采用普通柴油发动机，也能获得媲美高性能发动机的动力输出，从而轻松胜任高速公路运输任务。"
+ motorized_equipment_4: "1980 卡车"
+ motorized_equipment_4_desc: "现代卡车不仅要拥有出色的公路性能，更要具备全地形适应能力。全轮驱动系统、多级变速器以及大功率涡轮增压发动机的协同作用，使得车辆的越野速度相较以往大幅提升。"
+ motorized_equipment_5: "1980 卡车"
+ # FLTE code add error motorized_equipment_5_desc
+ motorized_equipment_6: "1990 卡车"
+ motorized_equipment_6_desc: "通过使用燃油喷射和涡轮增压器，以及电子控制单元，未来的车辆速度甚至将超过上一代最快的卡车。"
+ motorized_rocket_equipment_2: "1950 自行火箭炮"
+ motorized_rocket_equipment_2_desc: ""
+ motorized_rocket_equipment_3: "1960 自行火箭炮"
+ motorized_rocket_equipment_3_short: "1960 自行火箭炮"
+ motorized_rocket_equipment_3_desc: ""
+ mechanized_equipment_4: "1950 机械化装备"
+ mechanized_equipment_4_short: "1950 机械化装备"
+ mechanized_equipment_4_desc: ""
+ mechanized_equipment_5: "1960 机械化装备"
+ mechanized_equipment_5_short: "1960 机械化装备"
+ mechanized_equipment_5_desc: ""
+ mechanized_equipment_6: "1970 机械化装备"
+ mechanized_equipment_6_short: "1970 机械化装备"
+ mechanized_equipment_6_desc: ""
+ mechanized_equipment_7: "1980 机械化装备"
+ mechanized_equipment_7_short: "1980 机械化装备"
+ mechanized_equipment_7_desc: ""
+ mechanized_equipment_8: "1990 机械化装备"
+ mechanized_equipment_8_short: "1990 机械化装备"
+ mechanized_equipment_8_desc: ""
+ heavy_mechanized_equipment_1: "1950 步兵战车"
+ heavy_mechanized_equipment_1_short: "1950 步兵战车"
+ heavy_mechanized_equipment_1_desc: ""
+ heavy_mechanized_equipment_2: "1960 步兵战车"
+ heavy_mechanized_equipment_2_short: "1960 步兵战车"
+ heavy_mechanized_equipment_2_desc: ""
+ heavy_mechanized_equipment_3: "1970 步兵战车"
+ heavy_mechanized_equipment_3_short: "1970 步兵战车"
+ heavy_mechanized_equipment_3_desc: ""
+ heavy_mechanized_equipment_4: "1980 步兵战车"
+ heavy_mechanized_equipment_4_short: "1980 步兵战车"
+ heavy_mechanized_equipment_4_desc: ""
+ heavy_mechanized_equipment_5: "1990 步兵战车"
+ heavy_mechanized_equipment_5_short: "1990 步兵战车"
+ heavy_mechanized_equipment_5_desc: ""
+ GER_mechanized_equipment_5: "SdKfz 411号特种机动车"
+ GER_mechanized_equipment_5_short: "Sd.Kfz 411号特种机动车"
+ GER_mechanized_equipment_5_desc: ""
+ GER_mechanized_equipment_6: "狐1 装甲运兵车"
+ GER_mechanized_equipment_6_short: "TPZ 狐1"
+ GER_mechanized_equipment_6_desc: ""
+ GER_mechanized_equipment_7: "狐1A7 装甲运兵车"
+ GER_mechanized_equipment_7_short: "TPZ 狐1A7"
+ GER_mechanized_equipment_7_desc: ""
+ GER_mechanized_equipment_8: "狐1A8 装甲运兵车"
+ GER_mechanized_equipment_8_short: "TPZ 狐1A8"
+ GER_mechanized_equipment_8_desc: ""
+ GER_heavy_mechanized_equipment_1: " LG 12 步兵战车"
+ GER_heavy_mechanized_equipment_1_short: "SPZ. LG 12"
+ GER_heavy_mechanized_equipment_1_desc: ""
+ GER_heavy_mechanized_equipment_2: "“黄鼠狼” 1 步兵战车"
+ GER_heavy_mechanized_equipment_2_short: "“黄鼠狼” 1 步兵战车"
+ GER_heavy_mechanized_equipment_2_desc: ""
+ GER_heavy_mechanized_equipment_3: "“黄鼠狼” 1A1 步兵战车"
+ GER_heavy_mechanized_equipment_3_short: "“黄鼠狼” 1A1"
+ GER_heavy_mechanized_equipment_3_desc: ""
+ GER_heavy_mechanized_equipment_4: "“黄鼠狼” 1A2 步兵战车"
+ GER_heavy_mechanized_equipment_4_short: "“黄鼠狼” 1A2"
+ GER_heavy_mechanized_equipment_4_desc: ""
+ GER_heavy_mechanized_equipment_5: "“黄鼠狼” 1A3 步兵战车"
+ GER_heavy_mechanized_equipment_5_short: "“黄鼠狼” 1A3"
+ GER_heavy_mechanized_equipment_5_desc: ""
+ amechanized_equipment: "1960机械化装备 空降型"
+ amechanized_equipment_short: "1960机械化装备 空降型"
+ amechanized_equipment_desc: ""
+ amechanized_equipment_1: "1970 空降步兵战车"
+ amechanized_equipment_1_short: "1970 空降步兵战车"
+ amechanized_equipment_1_desc: ""
+ amechanized_equipment_2: "1980 空降步兵战车"
+ amechanized_equipment_2_short: "1980 空降步兵战车"
+ amechanized_equipment_2_desc: ""
+ amechanized_equipment_3: "1990 空降步兵战车"
+ amechanized_equipment_3_short: "1990 空降步兵战车"
+ amechanized_equipment_3_desc: ""
+ # FLTE code replace anti_air_equipment_1
+ # FLTE code replace anti_air_equipment_1_short
+ # FLTE code replace anti_air_equipment_1_desc
+ anti_air_equipment_4: "1950 防空炮"
+ anti_air_equipment_4_desc: "凭借小口径、高膛速的火炮，即便现代喷气机也难逃防空炮的火力封锁。"
+ anti_air_equipment_5: "1960 防空炮"
+ anti_air_equipment_5_desc: "防空火炮的固有缺陷在于炮管需要冷却，限制了持续射击能力。而多炮管旋转机构通过交替射击，有效解决了散热问题，从而大幅提升了射速。这种武器发射的子弹在空中会划出一道火力弹幕，足以将任何飞机撕成碎片。"
+ anti_air_equipment_6: "1970 防空导弹"
+ anti_air_equipment_6_desc: "地对空导弹是一种使装填高爆炸药的，自动制导导弹击落飞机的系统，而不是简单的机炮。"
+ anti_air_equipment_7: "1980 防空导弹"
+ anti_air_equipment_7_desc: "通过进一步将雷达集成到地对空导弹发射装置中，以及使用更先进的跟踪电路，导弹的精度可以大大提高。"
+ anti_air_equipment_8: "1990 防空导弹"
+ anti_air_equipment_8_desc: "闪光和箔条干扰会导致地空导弹错过目标，冗余系统和更严格的容差会给予导弹在任何距离击落任何飞机的结果。"
+ TUR_anti_air_equipment_4: "MIM-14 奈基"
+ TUR_anti_air_equipment_4_desc: "凭借小口径、高膛速的火炮，即便现代喷气机也难逃防空炮的火力封锁。"
+ TUR_anti_air_equipment_5: "MIM-23 鹰"
+ TUR_anti_air_equipment_5_desc: "防空火炮的固有缺陷在于炮管需要冷却，限制了持续射击能力。而多炮管旋转机构通过交替射击，有效解决了散热问题，从而大幅提升了射速。这种武器发射的子弹在空中会划出一道火力弹幕，足以将任何飞机撕成碎片。"
+ TUR_anti_air_equipment_6: "轻剑"
+ artillery_equipment_4: "1950 火炮"
+ artillery_equipment_4_desc: "采用新型下落式炮闩、优化型炮架及模块化设计的火炮系统，在显著提升了机动性能的同时，确保了强大的火力和远距离打击能力。"
+ artillery_equipment_5: "1960 火炮"
+ artillery_equipment_5_desc: "火炮总是可以改进的，于是在模拟计算机和集成无线电的配合下产生了更好的野战炮。"
+ artillery_equipment_6: "1970 火炮"
+ artillery_equipment_6_desc: "在坦克、喷气式飞机、直升机和其他武器之间，火炮仍然是现代军队中最致命的武器之一。这些新型号的范围更大，也更准确。"
+ artillery_equipment_7: "1980 火炮"
+ artillery_equipment_7_desc: "第一代火炮已经研制出来，它有计算机来帮助瞄准和射击。"
+ artillery_equipment_8: "1990 火炮"
+ artillery_equipment_8_desc: "开发更精确的火炮意味着我们可以在25公里外夷平一座建筑物，而不会伤害到旁边的任何人。"
+ rocket_artillery_equipment_3: "1950 火箭炮"
+ rocket_artillery_equipment_3_desc: ""
+ rocket_artillery_equipment_4: "1960 火箭炮"
+ rocket_artillery_equipment_4_desc: ""
+ rocket_artillery_equipment_5: "1970 火箭"
+ rocket_artillery_equipment_5_desc: ""
+ rocket_artillery_equipment_6: "1980 火箭炮"
+ rocket_artillery_equipment_6_desc: ""
+ # FLTE code replace anti_tank_equipment_1_desc
+ anti_tank_equipment_4: "1950 反坦克炮"
+ anti_tank_equipment_4_desc: ""
+ anti_tank_equipment_5: "1960 反坦克导弹"
+ anti_tank_equipment_5_desc: ""
+ anti_tank_equipment_6: "1970 反坦克导弹"
+ anti_tank_equipment_6_desc: ""
+ anti_tank_equipment_7: "1980 反坦克导弹"
+ anti_tank_equipment_7_desc: ""
+ anti_tank_equipment_8: "1990 反坦克导弹"
+ anti_tank_equipment_8_desc: ""
+ JAP_anti_tank_equipment_8: "87式 反坦克导弹"
+ JAP_anti_tank_equipment_8_desc: "87式"
+ amphibious_mechanized_equipment_3: "1950 履带登陆车"
+ amphibious_mechanized_equipment_3_short: "1950 履带登陆车"
+ amphibious_mechanized_equipment_3_desc: ""
+ amphibious_mechanized_equipment_4: "1960 履带登陆车"
+ amphibious_mechanized_equipment_4_short: "1960 履带登陆车"
+ amphibious_mechanized_equipment_4_desc: ""
+ amphibious_mechanized_equipment_5: "1970 履带登陆车"
+ amphibious_mechanized_equipment_5_short: "1970 履带登陆车"
+ amphibious_mechanized_equipment_5_desc: ""
+ amphibious_mechanized_equipment_6: "1980 履带登陆车"
+ amphibious_mechanized_equipment_6_short: "1980 履带登陆车"
+ amphibious_mechanized_equipment_6_desc: ""
+ amphibious_mechanized_equipment_7: "1990 履带登陆车"
+ amphibious_mechanized_equipment_7_short: "1990 履带登陆车"
+ amphibious_mechanized_equipment_7_desc: ""
+ medium_tank_equipment_4: "晚期中型坦克"
+ medium_tank_equipment_4_short: "晚期中型坦克"
+ medium_tank_equipment_4_desc: "晚期中型坦克"
+ # FLTE code replace USA_medium_tank_destroyer_equipment_2
+ # FLTE code replace USA_medium_tank_destroyer_equipment_2_short
+ # FLTE code replace USA_medium_tank_destroyer_equipment_3
+ # FLTE code replace USA_medium_tank_destroyer_equipment_3_short
+ # FLTE code replace USA_modern_tank_equipment_1
+ USA_modern_tank_equipment_2: "T95E1主战坦克"
+ USA_modern_tank_equipment_3: "巴顿 M60主战坦克"
+ USA_modern_tank_equipment_4: "巴顿 M60A1主战坦克"
+ USA_modern_tank_equipment_5: "MBT-70主战坦克"
+ USA_modern_tank_equipment_6: "巴顿 M60A3主战坦克"
+ USA_modern_tank_equipment_7: "M1 艾布拉姆斯主战坦克"
+ USA_modern_tank_equipment_8: "M1A1 艾布拉姆斯主战坦克"
+ USA_modern_tank_equipment_9: "M1A2 艾布拉姆斯主战坦克"
+ # FLTE code replace SWE_modern_tank_equipment_1
+ SWE_modern_tank_equipment_2: "Strv 104主战坦克"
+ SWE_modern_tank_equipment_3: "Strv 74轻型坦克"
+ SWE_modern_tank_equipment_4: "Strv 103-0主战坦克"
+ SWE_modern_tank_equipment_5: "Strv 103A主战坦克"
+ SWE_modern_tank_equipment_7: "Strv 121主战坦克"
+ SWE_modern_tank_equipment_8: "Strv 103C主战坦克"
+ # FLTE code replace USA_light_tank_equipment_3
+ # FLTE code replace USA_light_tank_equipment_3_short
+ USA_light_tank_equipment_4: "M24 霞飞 轻型坦克"
+ USA_light_tank_equipment_4_short: "M24 霞飞"
+ USA_light_tank_equipment_5: "T92 轻型坦克"
+ USA_light_tank_equipment_5_short: "T92"
+ USA_light_tank_equipment_6: "M41轻型坦克"
+ USA_light_tank_equipment_6_short: "M41"
+ USA_light_tank_equipment_7: "M551 谢里登 轻型坦克"
+ USA_light_tank_equipment_7_short: "M551"
+ USA_light_tank_equipment_8: "M551A1&热像仪 谢里登 轻型坦克"
+ USA_light_tank_equipment_8_short: "M551A1&热像仪"
+ USA_light_tank_equipment_9: "M8 装甲火炮系统"
+ USA_light_tank_equipment_9_short: "M8"
+ USA_para_tank_equipment_1_short: "T92"
+ USA_para_tank_equipment_2_short: "M551 谢里登"
+ USA_para_tank_equipment_3_short: "M551A1&热像仪 谢里登 轻型坦克"
+ USA_para_tank_equipment_4_short: "M8 装甲火炮系统"
+ USA_wheeled_tank_equipment_2: "LAV-25轮式突击炮"
+ # light_tank_equipment_4: "45' Light Tank"
+ # light_tank_equipment_5: "50' Light Tank"
+ # light_tank_equipment_6: "60' Light Tank"
+ # light_tank_equipment_7: "70' Light Tank"
+ # light_tank_equipment_8: "80' Light Tank"
+ light_tank_equipment_9: "1990 轻型坦克"
+ heavy_tank_equipment_4: "1945 重型坦克"
+ heavy_tank_equipment_4_short: "1945 重型坦克"
+ heavy_tank_equipment_4_desc: ""
+ heavy_tank_equipment_5: "1950 重型坦克"
+ heavy_tank_equipment_5_short: "1950 重型坦克"
+ heavy_tank_equipment_5_desc: ""
+ heavy_tank_equipment_6: "1960 重型坦克"
+ heavy_tank_equipment_6_short: "1960 重型坦克"
+ heavy_tank_equipment_6_desc: ""
+ # FLTE code replace modern_tank_equipment
+ modern_tank_equipment_short: "1945 现代主战坦克"
+ # FLTE code replace modern_tank_equipment_desc
+ # FLTE code replace modern_tank_equipment_1
+ # FLTE code replace modern_tank_equipment_1_short
+ # FLTE code replace modern_tank_equipment_1_desc
+ modern_tank_equipment_2: "1955 现代主战坦克"
+ modern_tank_equipment_2_short: "1955 现代主战坦克"
+ modern_tank_equipment_2_desc: ""
+ modern_tank_equipment_3: "1960 现代主战坦克"
+ modern_tank_equipment_3_short: "1960 现代主战坦克"
+ modern_tank_equipment_3_desc: ""
+ modern_tank_equipment_4: "1965 现代主战坦克"
+ modern_tank_equipment_4_short: "1965 现代主战坦克"
+ modern_tank_equipment_4_desc: ""
+ modern_tank_equipment_9: "1990 现代主战坦克"
+ modern_tank_equipment_9_short: "1990 现代主战坦克"
+ ITA_modern_tank_equipment: "菲亚特 M46 罗索"
+ ITA_modern_tank_equipment_short: "M46 罗索"
+ wheeled_tank_equipment_1: "1970 轮式坦克"
+ wheeled_tank_equipment_2: "1980 轮式坦克"
+ wheeled_tank_equipment_3: "1990 轮式坦克"
+ CZE_wheeled_tank_equipment_3: "ZUBR PSP轮式突击炮"
+ para_tank_equipment_1: "1960 空降坦克"
+ para_tank_equipment_2: "1970 空降坦克"
+ para_tank_equipment_3: "1980 空降坦克"
+ para_tank_equipment_4: "1990 空降坦克"
+ super_heavy_tank_chassis_2: "先进超重型坦克底盘"
+ super_heavy_tank_equipment_2: "P.1000 巨鼠"
+ # FLTE code replace amphibious_tank_equipment_2
+ amphibious_tank_equipment_3: "1965 两栖坦克"
+ amphibious_tank_equipment_4: "1975 两栖坦克"
+ amphibious_tank_equipment_5: "1985 两栖坦克"
+ SWE_amphibious_tank_equipment_4_short: "Ikv 91"
+ SWE_amphibious_tank_equipment_5_short: "Ikv 91-105"
+ # FLTE code replace modern_tank_destroyer_equipment_1
+ # FLTE code replace modern_tank_destroyer_equipment_1_short
+ # FLTE code replace modern_tank_destroyer_equipment_1_desc
+ modern_tank_destroyer_equipment_2: "现代坦克歼击车 II"
+ modern_tank_destroyer_equipment_2_short: "1955 坦克歼击车"
+ modern_tank_destroyer_equipment_2_desc: ""
+ modern_tank_destroyer_equipment_3: "现代坦克歼击车 III"
+ modern_tank_destroyer_equipment_3_short: "1960 坦克歼击车"
+ modern_tank_destroyer_equipment_3_desc: ""
+ modern_tank_destroyer_equipment_4: "现代坦克歼击车 IV"
+ modern_tank_destroyer_equipment_4_short: "1965 坦克歼击车"
+ modern_tank_destroyer_equipment_4_desc: ""
+ modern_tank_destroyer_equipment_5: "现代坦克歼击车 V"
+ modern_tank_destroyer_equipment_5_short: "1970 坦克歼击车"
+ modern_tank_destroyer_equipment_5_desc: ""
+ modern_tank_destroyer_equipment_6: "现代坦克歼击车 VI"
+ modern_tank_destroyer_equipment_6_short: "1975 坦克歼击车"
+ modern_tank_destroyer_equipment_6_desc: ""
+ modern_tank_destroyer_equipment_7: "现代坦克歼击车 VII"
+ modern_tank_destroyer_equipment_7_short: "1980 坦克歼击车"
+ modern_tank_destroyer_equipment_7_desc: ""
+ modern_tank_destroyer_equipment_8: "现代坦克歼击车 VIII"
+ modern_tank_destroyer_equipment_8_short: "1990 坦克歼击车"
+ modern_tank_destroyer_equipment_8_desc: ""
+ # FLTE code replace modern_tank_artillery_equipment_1
+ # FLTE code replace modern_tank_artillery_equipment_1_short
+ # FLTE code replace modern_tank_artillery_equipment_1_desc
+ modern_tank_artillery_equipment_2: "现代自行火炮 II"
+ modern_tank_artillery_equipment_2_short: "1955 自行火炮"
+ modern_tank_artillery_equipment_2_desc: ""
+ modern_tank_artillery_equipment_3: "现代自行火炮 III"
+ modern_tank_artillery_equipment_3_short: "1960 自行火炮"
+ modern_tank_artillery_equipment_3_desc: ""
+ modern_tank_artillery_equipment_4: "现代自行火炮 IV"
+ modern_tank_artillery_equipment_4_short: "1965 自行火炮"
+ modern_tank_artillery_equipment_4_desc: ""
+ modern_tank_artillery_equipment_5: "现代自行火炮 V"
+ modern_tank_artillery_equipment_5_short: "1970 自行火炮"
+ modern_tank_artillery_equipment_5_desc: ""
+ modern_tank_artillery_equipment_6: "现代自行火炮 VI"
+ modern_tank_artillery_equipment_6_short: "1975 自行火炮"
+ modern_tank_artillery_equipment_6_desc: ""
+ modern_tank_artillery_equipment_7: "现代自行火炮 VII"
+ modern_tank_artillery_equipment_7_short: "1980 自行火炮"
+ modern_tank_artillery_equipment_7_desc: ""
+ modern_tank_artillery_equipment_8: "现代自行火炮 VIII"
+ modern_tank_artillery_equipment_8_short: "1990 自行火炮"
+ modern_tank_artillery_equipment_8_desc: ""
+ # FLTE code replace modern_tank_aa_equipment_1
+ # FLTE code replace modern_tank_aa_equipment_1_short
+ # FLTE code replace modern_tank_aa_equipment_1_desc
+ modern_tank_aa_equipment_2: "现代自行防空炮 II"
+ modern_tank_aa_equipment_2_short: "1955 自行防空炮"
+ modern_tank_aa_equipment_2_desc: ""
+ modern_tank_aa_equipment_3: "现代自行防空炮 III"
+ modern_tank_aa_equipment_3_short: "1960 自行防空炮"
+ modern_tank_aa_equipment_3_desc: ""
+ modern_tank_aa_equipment_4: "现代自行防空炮 IV"
+ modern_tank_aa_equipment_4_short: "1965 自行防空炮"
+ modern_tank_aa_equipment_4_desc: ""
+ modern_tank_aa_equipment_5: "现代自行防空炮 V"
+ modern_tank_aa_equipment_5_short: "1970 自行防空炮"
+ modern_tank_aa_equipment_5_desc: ""
+ modern_tank_aa_equipment_6: "现代自行防空炮 VI"
+ modern_tank_aa_equipment_6_short: "1975 自行防空炮"
+ modern_tank_aa_equipment_6_desc: ""
+ modern_tank_aa_equipment_7: "现代自行防空炮 VII"
+ modern_tank_aa_equipment_7_short: "1980 自行防空炮"
+ modern_tank_aa_equipment_7_desc: ""
+ modern_tank_aa_equipment_8: "现代自行防空炮 VIII"
+ modern_tank_aa_equipment_8_short: "1990 自行防空炮"
+ modern_tank_aa_equipment_8_desc: ""
+ medium_tank_artillery_equipment_4: "晚期中型自行火炮"
+ medium_tank_artillery_equipment_4_short: "晚期中型自行火炮"
+ medium_tank_artillery_equipment_4_desc: ""
+##SOVIET UNION##
+ # FLTE code replace SOV_infantry_equipment_3
+ # FLTE code replace SOV_infantry_equipment_3_short
+ SOV_infantry_equipment_4: "AK-47突击步枪"
+ SOV_infantry_equipment_4_short: "AK-47"
+ SOV_infantry_equipment_5: "AKM突击步枪"
+ SOV_infantry_equipment_5_short: "AKM突击步枪"
+ SOV_infantry_equipment_6: "AK-74突击步枪"
+ SOV_infantry_equipment_6_short: "AK-74突击步枪"
+ SOV_infantry_equipment_7: "AKS-74突击步枪"
+ SOV_infantry_equipment_7_short: "AKS-74突击步枪"
+ SOV_infantry_equipment_8: "AK-74M突击步枪"
+ SOV_infantry_equipment_8_short: "AK-74M突击步枪"
+#CZE STUFF
+ # FLTE code replace CZE_infantry_equipment_0
+ # FLTE code replace CZE_infantry_equipment_0_short
+ # FLTE code replace CZE_infantry_equipment_1
+ # FLTE code replace CZE_infantry_equipment_1_short
+ # FLTE code replace CZE_infantry_equipment_2
+ # FLTE code replace CZE_infantry_equipment_2_short
+ # FLTE code replace CZE_infantry_equipment_3
+ # FLTE code replace CZE_infantry_equipment_3_short
+ CZE_infantry_equipment_4: "Vz.52半自动步枪"
+ CZE_infantry_equipment_4_short: "Vz.52半自动步枪"
+ CZE_infantry_equipment_5: "Vz.58冲锋枪"
+ CZE_infantry_equipment_5_short: "Vz.58冲锋枪"
+ CZE_infantry_equipment_6: "通用手持自动步枪"
+ CZE_infantry_equipment_6_short: "URZ AP"
+ CZE_infantry_equipment_7: "捷克兵工厂 2000S 拉达短突击步枪"
+ CZE_infantry_equipment_7_short: "ČZ 2000S突击步枪"
+ CZE_infantry_equipment_8: "捷克兵工厂 2000N突击步枪"
+ CZE_infantry_equipment_8_short: "ČZ 2000N突击步枪"
+ # FLTE code replace CZE_anti_tank_equipment_1
+ # FLTE code replace CZE_anti_tank_equipment_1_short
+ # FLTE code replace CZE_anti_tank_equipment_2
+ # FLTE code replace CZE_anti_tank_equipment_2_short
+ # FLTE code replace CZE_anti_tank_equipment_3
+ # FLTE code replace CZE_anti_tank_equipment_3_short
+ CZE_anti_tank_equipment_4: "Vz.52 85毫米火炮"
+ CZE_anti_tank_equipment_4_short: "Vz.52 85毫米火炮"
+ CZE_anti_tank_equipment_5: "100 mm Vz. 53反坦克炮"
+ CZE_anti_tank_equipment_5_short: "Vz.53 100毫米反坦克炮"
+ CZE_anti_tank_equipment_6: "巴松管 9K111反坦克导弹"
+ CZE_anti_tank_equipment_6_short: "巴松管 9K111反坦克导弹"
+ CZE_anti_tank_equipment_7: "混血儿 9K115反坦克导弹"
+ CZE_anti_tank_equipment_7_short: "混血儿 9K115反坦克导弹"
+ CZE_anti_tank_equipment_8: "混血儿-M 9K115-2反坦克导弹"
+ CZE_anti_tank_equipment_8_short: "混血儿-M 9K115-2反坦克导弹"
+ # FLTE code replace CZE_anti_air_equipment_1
+ # CZE_anti_air_equipment_1_short: "7.5 cm kanon vz.37"
+ # FLTE code replace CZE_anti_air_equipment_2
+ # FLTE code replace CZE_anti_air_equipment_2_short
+ # FLTE code replace CZE_anti_air_equipment_3
+ # FLTE code replace CZE_anti_air_equipment_3_short
+ CZE_anti_air_equipment_4: "Vz.53 12.7毫米防空炮"
+ CZE_anti_air_equipment_4_short: "Vz.53 12.7毫米防空炮"
+ CZE_anti_air_equipment_5: "ZU双联23毫米防空炮"
+ CZE_anti_air_equipment_5_short: "ZU双联23毫米防空炮"
+ CZE_anti_air_equipment_6: "德维纳河 S-75防空导弹"
+ CZE_anti_air_equipment_6_short: "德维纳河 S-75防空导弹"
+ CZE_anti_air_equipment_7: "SA-5(S-200) 防空导弹"
+ CZE_anti_air_equipment_7_short: "SA-5(S-200) 防空导弹"
+ CZE_anti_air_equipment_8: "轰鸣(S-300) SA-10防空导弹"
+ CZE_anti_air_equipment_8_short: "轰鸣(S-300) SA-10防空导弹"
+ # FLTE code replace CZE_artillery_equipment_1
+ # FLTE code replace CZE_artillery_equipment_1_short
+ # FLTE code replace CZE_artillery_equipment_2
+ # FLTE code replace CZE_artillery_equipment_2
+ # FLTE code replace CZE_artillery_equipment_3
+ # FLTE code replace CZE_artillery_equipment_3
+ CZE_artillery_equipment_4: "M1955 D-20型152毫米火炮"
+ # FLTE code add error CZE_artillery_equipment_4_desc
+ CZE_artillery_equipment_5: "M1958 D-25型122毫米火炮"
+ # FLTE code add error CZE_artillery_equipment_5_desc
+ CZE_artillery_equipment_6: "2A18 D-30型122毫米榴弹炮"
+ # FLTE code add error CZE_artillery_equipment_6_desc
+ CZE_artillery_equipment_7: "2A18 D-30M型122毫米榴弹炮"
+ # FLTE code add error CZE_artillery_equipment_7_desc
+ CZE_artillery_equipment_8: "2A18M2 D-30M2型122毫米榴弹炮"
+ # FLTE code add error CZE_artillery_equipment_8_desc
+ # FLTE code replace CZE_motorized_equipment_1
+ CZE_motorized_equipment_2: "普拉加 V3S 卡车"
+ CZE_motorized_equipment_3: "太脱拉 T-813载重汽车"
+ CZE_motorized_equipment_4: "太拖拉 T-815越野卡车"
+ # FLTE code replace CZE_mechanized_equipment_1
+ # FLTE code replace CZE_mechanized_equipment_1_short
+ # FLTE code replace CZE_mechanized_equipment_2
+ # FLTE code replace CZE_mechanized_equipment_2_short
+ # FLTE code replace CZE_mechanized_equipment_3
+ # FLTE code replace CZE_mechanized_equipment_3_short
+ CZE_mechanized_equipment_4: "太拖拉 OT-810半履带装甲运兵车"
+ CZE_mechanized_equipment_4_short: "OT-810半履带装甲运兵车"
+ CZE_mechanized_equipment_5: "OT-62装甲运兵车"
+ CZE_mechanized_equipment_5_short: "OT-62装甲运兵车"
+ CZE_mechanized_equipment_6: "BVP-1步兵战车"
+ CZE_mechanized_equipment_6_short: "BVP-1步兵战车"
+ CZE_mechanized_equipment_7: "BVP-2 步兵战车"
+ CZE_mechanized_equipment_7_short: "BVP-2步兵战车"
+ CZE_mechanized_equipment_8: "90式战斗车"
+ CZE_mechanized_equipment_8_short: "CV-90战斗车"
+ CZE_amphibious_mechanized_equipment_1: "LWS 水陆两栖牵引车 I型"
+ CZE_amphibious_mechanized_equipment_1_short: "LWS I型"
+ CZE_amphibious_mechanized_equipment_2: "LWS 水陆两栖牵引车 II型"
+ CZE_amphibious_mechanized_equipment_2_short: "LWS II型"
+ CZE_amphibious_mechanized_equipment_3: "BTR-40P 装甲运输车"
+ CZE_amphibious_mechanized_equipment_3_short: "BTR-40P 装甲运输车"
+ CZE_amphibious_mechanized_equipment_4: "OT-64A 两栖装甲运输车"
+ CZE_amphibious_mechanized_equipment_4_short: "OT-64A"
+ CZE_amphibious_mechanized_equipment_5: "OT-64-2AP 两栖装甲运输车"
+ CZE_amphibious_mechanized_equipment_5_short: "OT-64-2AP"
+ CZE_amphibious_mechanized_equipment_6: "BVP-2 步兵战车"
+ CZE_amphibious_mechanized_equipment_6_short: "BVP-2步兵战车"
+ CZE_amphibious_mechanized_equipment_7: "潘德 一号B型步兵战车"
+ CZE_amphibious_mechanized_equipment_7_short: "潘德 一号B型"
+ # FLTE code replace CZE_gw_armored_car_equipment
+ # FLTE code replace CZE_gw_armored_car_equipment_short
+ # FLTE code replace CZE_armored_car_equipment_1
+ # FLTE code replace CZE_armored_car_equipment_1_short
+ # FLTE code replace CZE_armored_car_equipment_2
+ # FLTE code replace CZE_armored_car_equipment_2_short
+ CZE_armored_car_equipment_3: "雅尔米拉 OA-82 II型装甲车"
+ CZE_armored_car_equipment_3_short: "雅尔米拉 OA-82 II型装甲车"
+ CZE_armored_car_equipment_4: "BRDM-2型两栖侦察车"
+ CZE_armored_car_equipment_4_short: "BRDM-2型两栖侦察车"
+ CZE_armored_car_equipment_5: "BRDM-2M型两栖侦察车"
+ CZE_armored_car_equipment_5_short: "BRDM-2M型两栖侦察车"
+# GRE
+ # FLTE code replace GRE_infantry_equipment_2
+ # FLTE code replace GRE_infantry_equipment_2_short
+# END
+ # FLTE code replace BRA_infantry_equipment_0
+ # FLTE code replace BRA_infantry_equipment_0_short
+ # FLTE code replace BRA_infantry_equipment_3
+ # FLTE code replace BRA_infantry_equipment_3_short
+ BRA_infantry_equipment_4: "国营埃斯塔勒兵工厂 1949 半自动步枪"
+ BRA_infantry_equipment_4_short: "FN-49 半自动步枪"
+ BRA_infantry_equipment_5: "M964 伞兵型FAL突击步枪"
+ BRA_infantry_equipment_5_short: "M964 伞兵型FAL突击步枪"
+ BRA_infantry_equipment_6: "巴西自动武器研究实验室 FA-03突击步枪"
+ BRA_infantry_equipment_6_short: "巴西自动武器研究实验室 FA-03突击步枪"
+ BRA_infantry_equipment_7: "巴西军用器材工业集团 MD2突击步枪"
+ BRA_infantry_equipment_7_short: "巴西军用器材工业集团 MD2突击步枪"
+ BRA_infantry_equipment_8: "巴西军用器材工业集团 MD97突击步枪"
+ BRA_infantry_equipment_8_short: "巴西军用器材工业集团 MD97突击步枪"
+ YUG_infantry_equipment_4: "AK-47突击步枪"
+ YUG_infantry_equipment_4_short: "AK-47突击步枪"
+ YUG_infantry_equipment_5: "扎斯塔瓦 M59/66半自动步枪"
+ YUG_infantry_equipment_5_short: "扎斯塔瓦 M59/66半自动步枪"
+ YUG_infantry_equipment_6: "扎斯塔瓦 M70突击步枪"
+ YUG_infantry_equipment_6_short: "扎斯塔瓦 M70突击步枪"
+ YUG_infantry_equipment_7: "扎斯塔瓦 M80突击步枪"
+ YUG_infantry_equipment_7_short: "扎斯塔瓦 M80突击步枪"
+ YUG_infantry_equipment_8: "扎斯塔瓦 M90突击步枪"
+ YUG_infantry_equipment_8_short: "扎斯塔瓦 M90突击步枪"
+ SPA_infantry_equipment_4: "西班牙特种材料技术研究中心 赛特迈 A2突击步枪"
+ SPA_infantry_equipment_4_short: "赛特迈 A2突击步枪"
+ SPA_infantry_equipment_5: "西班牙特种材料技术研究中心 赛特迈 B突击步枪"
+ SPA_infantry_equipment_5_short: "赛特迈 B突击步枪"
+ SPA_infantry_equipment_6: "西班牙特种材料技术研究中心 赛特迈 C突击步枪"
+ SPA_infantry_equipment_6_short: "赛特迈 C突击步枪"
+ SPA_infantry_equipment_7: "西班牙特种材料技术研究中心 赛特迈 L突击步枪"
+ SPA_infantry_equipment_7_short: "赛特迈 L突击步枪"
+ SPA_infantry_equipment_8: "西班牙特种材料技术研究中心 赛特迈 LC突击步枪"
+ SPA_infantry_equipment_8_short: "赛特迈 LC突击步枪"
+ POL_infantry_equipment_4: "AK-47突击步枪"
+ POL_infantry_equipment_4_short: "AK-47突击步枪"
+ POL_infantry_equipment_5: "AKM突击步枪"
+ POL_infantry_equipment_5_short: "AKM突击步枪"
+ POL_infantry_equipment_6: "AK-74突击步枪"
+ POL_infantry_equipment_6_short: "AK-74突击步枪"
+ POL_infantry_equipment_7: "AKS-74突击步枪"
+ POL_infantry_equipment_7_short: "AKS-74突击步枪"
+ POL_infantry_equipment_8: "Kbk wz. 1988钽式突击步枪"
+ POL_infantry_equipment_8_short: "wz. 88钽式突击步枪"
+ TUR_infantry_equipment_5: "G3A7突击步枪"
+ TUR_infantry_equipment_5_short: "G3A7突击步枪"
+ TUR_infantry_equipment_6: "HK33E突击步枪"
+ TUR_infantry_equipment_6_short: "HK33E突击步枪"
+ # SWE_infantry_equipment_5: "HK G3"
+ # SWE_infantry_equipment_5_short: "HK G3"
+ # SWE_infantry_equipment_7: "FN FNC"
+ # SWE_infantry_equipment_7_short: "FN FNC"
+ # SWE_infantry_equipment_8: "Saab Bofors AK-5"
+ # SWE_infantry_equipment_8_short: "AK-5"
+ infantry_aa1: "FIM-43红眼防空导弹"
+ infantry_aa2: "FIM-92A毒刺防空导弹"
+ infantry_aa3: "FIM-92E毒刺防空导弹"
+ SOV_infantry_aa1: "9K32 箭-2防空导弹"
+ SOV_infantry_aa2: "9K310 针-1防空导弹"
+ SOV_infantry_aa3: "9K38 针式防空导弹"
+ TUR_infantry_at3: "卡尔·古斯塔夫 M2无后坐力炮"
+ TUR_infantry_at4: "RPG-7火箭筒"
+ TUR_infantry_at5: "BGM Tow-I型"
+ TUR_infantry_at6: "AT-5 短号式反坦克导弹"
+ JAP_infantry_at6: "铁拳-3无后坐力炮"
+ FRA_infantry_at5: "LRAC F1反坦克火箭筒"
+ FRA_infantry_at6: "APILAS反坦克导弹"
+ YUG_infantry_at4: "RPG-7火箭筒"
+ YUG_infantry_at5: "M70 黄蜂反坦克火箭筒"
+ YUG_infantry_at6: "M80 黄蜂反坦克火箭筒"
+ # FLTE code replace CZE_infantry_at
+ # FLTE code replace CZE_infantry_at2
+ CZE_infantry_at3: "RPG-2火箭筒"
+ CZE_infantry_at4: "RPG-7火箭筒"
+ CZE_infantry_at5: "RPG-7V火箭筒"
+ CZE_infantry_at6: "卡尔·古斯塔夫 M3无后坐力炮"
+ SOV_support_weapons5: "RP-46式机枪&M-37M迫击炮"
+ SOV_support_weapons6: "捷格加廖夫 RPD式机枪&M-37M迫击炮"
+ SOV_support_weapons7: "PKM通用机枪&矢车菊 2B9迫击炮"
+ SOV_support_weapons8: "PKM通用机枪&雪橇 2B11迫击炮"
+ SOV_support_weapons9: "PKM通用机枪&雪橇 2B11A迫击炮"
+ support_weapons5: "约翰逊 M1944式机枪&M30迫击炮 "
+ support_weapons6: "M60 7.62毫米机枪&M30迫击炮 "
+ support_weapons7: "M60E2 7.62毫米机枪&M30迫击炮 "
+ support_weapons8: "M60E3 7.62毫米机枪&M30迫击炮 "
+ support_weapons9: "M249班用机枪&M252迫击炮"
+ SOV_motorized_equipment_2: "吉尔-157卡车"
+ SOV_motorized_equipment_3: "乌拉尔-375卡车"
+ SOV_motorized_equipment_4: "卡马-4310卡车"
+ SOV_motorized_rocket_equipment_2: "BM-24自行火箭炮"
+ SOV_motorized_rocket_equipment_2_short: "BM-24自行火箭炮"
+ SOV_motorized_rocket_equipment_3: "BM-21冰雹自行火箭炮"
+ SOV_motorized_rocket_equipment_3_short: "BM-21冰雹自行火箭炮"
+ SOV_motorized_rocket_equipment_4: "BM-30龙卷风自行火箭炮"
+ SOV_motorized_rocket_equipment_4_short: "BM-30龙卷风自行火箭炮"
+ BRA_motorized_rocket_equipment_4: "阿维布拉斯 阿斯特罗斯II型多管火箭炮系统"
+ BRA_motorized_rocket_equipment_4_short: "阿斯特罗斯 II型多管火箭炮系统"
+ # FLTE code replace SOV_mechanized_equipment_1
+ # FLTE code replace SOV_mechanized_equipment_1_short
+ # FLTE code replace SOV_mechanized_equipment_2
+ # FLTE code replace SOV_mechanized_equipment_2_short
+ SOV_mechanized_equipment_4: "BTR-40B 装甲运兵车"
+ SOV_mechanized_equipment_4_short: "BTR-40B"
+ SOV_mechanized_equipment_5: "BTR-60PB 装甲运兵车"
+ SOV_mechanized_equipment_5_short: "BTR-60PB"
+ SOV_mechanized_equipment_6: "BTR-70 装甲运兵车"
+ SOV_mechanized_equipment_6_short: "BTR-70"
+ SOV_mechanized_equipment_7: "BTR-80 装甲运兵车"
+ SOV_mechanized_equipment_7_short: "BTR-80"
+ SOV_mechanized_equipment_8: "BTR-90 装甲运兵车"
+ SOV_mechanized_equipment_8_short: "BTR-90装甲运兵车"
+ SOV_heavy_mechanized_equipment_1: "BTR-50P 装甲运兵车"
+ SOV_heavy_mechanized_equipment_1_short: "BTR-50B"
+ SOV_heavy_mechanized_equipment_2: "BMP-1 步兵战车"
+ SOV_heavy_mechanized_equipment_2_short: "BMP-1"
+ SOV_heavy_mechanized_equipment_3: "BMP-1P 步兵战车"
+ SOV_heavy_mechanized_equipment_3_short: "BMP-1P"
+ SOV_heavy_mechanized_equipment_4: "BMP-2 步兵战车"
+ SOV_heavy_mechanized_equipment_4_short: "BMP-2"
+ SOV_heavy_mechanized_equipment_5: "BMP-3 步兵战车"
+ SOV_heavy_mechanized_equipment_5_short: "BMP-3"
+ FIN_mechanized_equipment_5: "BMP-1步兵战车"
+ FIN_mechanized_equipment_5_short: "BMP-1步兵战车"
+ FIN_mechanized_equipment_6: "MT-LB多用途装甲运输车"
+ FIN_mechanized_equipment_6_short: "MT-LB多用途装甲运输车"
+ FIN_mechanized_equipment_7: "BMP-2步兵战车"
+ FIN_mechanized_equipment_7_short: "BMP-2步兵战车"
+ FIN_mechanized_equipment_8: "CV9040装甲战斗车"
+ FIN_mechanized_equipment_8_short: "CV9040装甲战斗车"
+ D01_mechanized_equipment_4: "M59装甲运兵车"
+ D01_mechanized_equipment_4_short: "M59装甲运兵车"
+ D01_mechanized_equipment_5: "M113全履带装甲运兵车"
+ D01_mechanized_equipment_5_short: "M113全履带装甲运兵车"
+ D01_mechanized_equipment_6: "M113装甲骑兵突击车&厄利孔 20毫米机关炮"
+ D01_mechanized_equipment_6_short: "M113装甲骑兵突击车&厄利孔 20毫米机关炮"
+ D01_mechanized_equipment_7: "M113A2全履带装甲运兵车"
+ D01_mechanized_equipment_7_short: "M113A2全履带装甲运兵车"
+ D01_mechanized_equipment_8: "奥西合作研发 皮萨罗 步兵战车"
+ D01_mechanized_equipment_8_short: "ASCADO 皮萨罗步兵战车"
+ POL_mechanized_equipment_4: "BTR M50装甲运兵车"
+ POL_mechanized_equipment_4_short: "BTR M50装甲运兵车"
+ POL_mechanized_equipment_5: "BMP-1步兵战车"
+ POL_mechanized_equipment_5_short: "BMP-1步兵战车"
+ POL_mechanized_equipment_6: "MT-LB多用途装甲运输车"
+ POL_mechanized_equipment_6_short: "MT-LB多用途装甲运输车"
+ POL_mechanized_equipment_7: "BMP-2步兵战车"
+ POL_mechanized_equipment_7_short: "BMP-2步兵战车"
+ POL_mechanized_equipment_8: "悍马装甲车"
+ POL_mechanized_equipment_8_short: "悍马装甲车"
+ TUR_mechanized_equipment_8: "BTR-80装甲运兵车"
+ TUR_mechanized_equipment_8_short: "BTR-80装甲运兵车"
+ POL_amechanized_equipment_: "BRDM-1两栖侦察车"
+ POL_amechanized_equipment_short: "BRDM-1两栖侦察车"
+ POL_amechanized_equipment_1: "BMP-1P步兵战车"
+ POL_amechanized_equipment_1_short: "BMP-1P步兵战车"
+ POL_amechanized_equipment_2: "BMP-2步兵战车"
+ POL_amechanized_equipment_2_short: "BMP-2步兵战车"
+ SOV_amechanized_equipment: "BMD-1伞兵战车"
+ SOV_amechanized_equipment_short: "BMD-1伞兵战车"
+ SOV_amechanized_equipment_1: "BTR -D伞兵战车"
+ SOV_amechanized_equipment_1_short: "BTR -D伞兵战车"
+ SOV_amechanized_equipment_2: "BMD-2伞兵战车"
+ SOV_amechanized_equipment_2_short: "BMD-2伞兵战车"
+ SOV_amechanized_equipment_3: "BMD-3伞兵战车"
+ SOV_amechanized_equipment_3_short: "BMD-3伞兵战车"
+ USA_amechanized_equipment: "M113 装甲骑兵突击车"
+ USA_amechanized_equipment_short: "M113 装甲骑兵突击车"
+ USA_amechanized_equipment_1: "M113装甲骑兵突击车&厄利孔 20毫米机关炮"
+ USA_amechanized_equipment_1_short: "M113装甲骑兵突击车&厄利孔 20毫米机关炮"
+ USA_amechanized_equipment_2: "M113A2全履带装甲运兵车"
+ USA_amechanized_equipment_2_short: "M113A2全履带装甲运兵车"
+ USA_amechanized_equipment_3: "M113A3装甲运兵车"
+ USA_amechanized_equipment_3_short: "M113A3装甲运兵车"
+ ENG_amechanized_equipment: "撒拉逊 Mk2装甲车"
+ ENG_amechanized_equipment_short: "撒拉逊 Mk2装甲车"
+ ENG_amechanized_equipment_1: "撒拉逊 Mk3装甲车"
+ ENG_amechanized_equipment_1_short: "撒拉逊 Mk3装甲车"
+ ENG_amechanized_equipment_2: "萨克森装甲车"
+ ENG_amechanized_equipment_2_short: "萨克森装甲车"
+ ENG_amechanized_equipment_3: "战士装甲车"
+ ENG_amechanized_equipment_3_short: "战士装甲车"
+ ITA_amechanized_equipment_1: "菲亚特 CM6614装甲车"
+ ITA_amechanized_equipment_1_short: "菲亚特 CM6614装甲车"
+ ITA_amechanized_equipment_2: "VCC-2装甲运兵车"
+ ITA_amechanized_equipment_2_short: "VCC-2装甲运兵车"
+ ITA_amechanized_equipment_3: "美洲狮 6x6装甲车"
+ ITA_amechanized_equipment_3_short: "美洲狮 6x6装甲车"
+ JAP_amechanized_equipment: "60式装甲运兵车"
+ JAP_amechanized_equipment_short: "60式装甲运兵车"
+ JAP_amechanized_equipment_1: "七三式装甲运兵车"
+ JAP_amechanized_equipment_1_short: "七三式装甲运兵车"
+ JAP_amechanized_equipment_2: "七三式装甲运兵车&20毫米机关炮"
+ JAP_amechanized_equipment_2_short: "七三式装甲运兵车&20毫米机关炮"
+ JAP_amechanized_equipment_3: "九六式装甲运兵车"
+ JAP_amechanized_equipment_3_short: "九六式装甲运兵车"
+ FRA_amechanized_equipment: "AMX-VTT装甲运兵车"
+ FRA_amechanized_equipment_short: "AMX-VTT装甲运兵车"
+ FRA_amechanized_equipment_1: "AMX-VTT装甲运兵车&20毫米机关炮"
+ FRA_amechanized_equipment_1_short: "AMX-VTT装甲运兵车&20毫米机关炮"
+ FRA_amechanized_equipment_2: "VAB 4x4装甲车&20毫米机关炮/霍特反坦克导弹"
+ FRA_amechanized_equipment_2_short: "VAB 4x4装甲车&20毫米机关炮/霍特反坦克导弹"
+ FRA_amechanized_equipment_3: "VAB 6X6装甲车&20毫米机关炮/霍特二代反坦克导弹"
+ FRA_amechanized_equipment_3_short: "VAB 6X6装甲车&20毫米机关炮/霍特二代反坦克导弹"
+ SWE_mechanized_equipment_5: "M113全履带装甲运兵车"
+ SWE_mechanized_equipment_5_short: "M113全履带装甲运兵车"
+ SWE_mechanized_equipment_6: "Pbv 302装甲运兵车"
+ SWE_mechanized_equipment_6_short: "Pbv 302装甲运兵车"
+ SWE_mechanized_equipment_7: "206S型全履带装甲运兵车"
+ SWE_mechanized_equipment_7_short: "206S型全履带装甲运兵车"
+ SOV_amphibious_mechanized_equipment_3: "BTR-40P两栖装甲运兵车"
+ SOV_amphibious_mechanized_equipment_3_short: "BTR-40P两栖装甲运兵车"
+ SOV_amphibious_mechanized_equipment_4: "BTR-60P两栖装甲运兵车"
+ SOV_amphibious_mechanized_equipment_4_short: "BTR-60P两栖装甲运兵车"
+ SOV_amphibious_mechanized_equipment_5: "BTR-70两栖装甲运兵车"
+ SOV_amphibious_mechanized_equipment_5_short: "BTR-70两栖装甲运兵车"
+ SOV_amphibious_mechanized_equipment_6: "BTR-80两栖装甲运兵车"
+ SOV_amphibious_mechanized_equipment_6_short: "BTR-80两栖装甲运兵车"
+ SOV_amphibious_mechanized_equipment_7: "BTR-90两栖装甲运兵车"
+ SOV_amphibious_mechanized_equipment_7_short: "BTR-90两栖装甲运兵车"
+ # FRA_amphibious_mechanized_equipment_3: "AMX-VTP"
+ # FRA_amphibious_mechanized_equipment_3_short: "AMX-VTP"
+ # FRA_amphibious_mechanized_equipment_4: "AMX-VTT"
+ # FRA_amphibious_mechanized_equipment_4_short: "AMX-VTT"
+ # FRA_amphibious_mechanized_equipment_5: "AMX-VTT 20mm"
+ # FRA_amphibious_mechanized_equipment_5_short: "AMX-VTT 20mm"
+ # FRA_amphibious_mechanized_equipment_6: "VAB 20mm/HOT 4x4"
+ # FRA_amphibious_mechanized_equipment_6_short: "VAB 20mm/HOT 4x4"
+ # FRA_amphibious_mechanized_equipment_7: "VAB 20mm/HOT II 6x6"
+ # FRA_amphibious_mechanized_equipment_7_short: "VAB 20mm/HOT II 6x6"
+ SOV_light_tank_equipment_4: "PT-76A轻型坦克"
+ SOV_light_tank_equipment_4_short: "PT-76A轻型坦克"
+ SOV_light_tank_equipment_5: "PT-76B轻型坦克"
+ SOV_light_tank_equipment_5_short: "PT-76B轻型坦克"
+ SOV_light_tank_equipment_6: "T-55AM2B主战坦克"
+ SOV_light_tank_equipment_6_short: "T-55AM2B主战坦克"
+ SOV_light_tank_equipment_7: "T-26M2轻型坦克"
+ SOV_light_tank_equipment_7_short: "T-26M轻型坦克"
+ SOV_light_tank_equipment_8: "T-26M2轻型坦克"
+ SOV_light_tank_equipment_8_short: "T-26M2轻型坦克"
+ # FLTE code replace SOV_light_tank_artillery_equipment_1
+ # FLTE code replace SOV_light_tank_artillery_equipment_1_short
+ # FLTE code replace SOV_light_tank_artillery_equipment_2
+ # FLTE code replace SOV_light_tank_artillery_equipment_2_short
+ # FLTE code replace SOV_light_tank_destroyer_equipment_1
+ # FLTE code replace SOV_light_tank_destroyer_equipment_1_short
+ # FLTE code replace SOV_light_tank_destroyer_equipment_2
+ # FLTE code replace SOV_light_tank_destroyer_equipment_2_short
+ # FLTE code replace SOV_amphibious_tank_equipment_1
+ # FLTE code replace SOV_amphibious_tank_equipment_2
+ SOV_amphibious_tank_equipment_3: "PT-76N两栖坦克"
+ SOV_amphibious_tank_equipment_4: "PT-76N2两栖坦克"
+ SOV_amphibious_tank_equipment_5: "PT-78两栖坦克"
+ SOV_amphibious_tank_equipment_6: "PT-78M两栖坦克"
+ # FLTE code replace SOV_medium_tank_equipment_1
+ # FLTE code replace SOV_medium_tank_equipment_1_short
+ # FLTE code replace SOV_medium_tank_equipment_2
+ # FLTE code replace SOV_medium_tank_equipment_2_short
+ # FLTE code replace SOV_medium_tank_equipment_3
+ # FLTE code replace SOV_medium_tank_equipment_3_short
+ SOV_medium_tank_equipment_4: "T-44中型坦克"
+ SOV_medium_tank_equipment_4_short: "T-44中型坦克"
+ # FLTE code replace SOV_medium_tank_artillery_equipment_1
+ # FLTE code replace SOV_medium_tank_artillery_equipment_1_short
+ # FLTE code replace SOV_medium_tank_artillery_equipment_2
+ # FLTE code replace SOV_medium_tank_artillery_equipment_2_short
+ # FLTE code replace SOV_medium_tank_artillery_equipment_3
+ # FLTE code replace SOV_medium_tank_artillery_equipment_3_short
+ SOV_modern_tank_artillery_equipment_2: "康乃馨 2S1自行火炮"
+ SOV_modern_tank_artillery_equipment_2_short: "康乃馨 2S1自行火炮"
+ SOV_modern_tank_artillery_equipment_3: "郁金香 2S4自行火炮"
+ SOV_modern_tank_artillery_equipment_3_short: "郁金香 2S4自行火炮"
+ SOV_modern_tank_artillery_equipment_4: "刺槐 2S3自行火炮"
+ SOV_modern_tank_artillery_equipment_4_short: "刺槐 2S3自行火炮"
+ SOV_modern_tank_artillery_equipment_5: "刺槐 2S3自行火炮"
+ SOV_modern_tank_artillery_equipment_5_short: "刺槐 2S3自行火炮"
+ SOV_modern_tank_artillery_equipment_6: "风信子-S 2S5自行火炮"
+ SOV_modern_tank_artillery_equipment_6_short: "风信子-S 2S5自行火炮"
+ SOV_modern_tank_artillery_equipment_7: "2S19 MSTA自行火炮"
+ SOV_modern_tank_artillery_equipment_7_short: "2S19 MSTA自行火炮"
+ # FLTE code replace SOV_modern_tank_destroyer_equipment_1
+ # FLTE code replace SOV_modern_tank_destroyer_equipment_1_short
+ SOV_modern_tank_destroyer_equipment_2: "BRDM-1U 2P32坦克歼击车"
+ SOV_modern_tank_destroyer_equipment_2_short: "BRDM-1U 2P32坦克歼击车"
+ SOV_modern_tank_destroyer_equipment_3: "ASU-85坦克歼击车"
+ SOV_modern_tank_destroyer_equipment_3_short: "ASU-85坦克歼击车"
+ SOV_modern_tank_destroyer_equipment_4: "ASU-85坦克歼击车"
+ SOV_modern_tank_destroyer_equipment_4_short: "ASU-85坦克歼击车"
+ SOV_modern_tank_aa_equipment_2: "石勒喀河 ZSU 三联23毫米自行防空炮 "
+ SOV_modern_tank_aa_equipment_2_short: "石勒喀河 ZSU 三联23毫米自行防空炮 "
+ SOV_modern_tank_aa_equipment_3: "石勒喀河 ZSU 四联23毫米自行防空炮 "
+ SOV_modern_tank_aa_equipment_3_short: "石勒喀河 ZSU 四联23毫米自行防空炮 "
+ SOV_modern_tank_aa_equipment_4: "9K31 箭-1防空导弹系统"
+ SOV_modern_tank_aa_equipment_4_short: "9K31 箭-1防空导弹系统"
+ SOV_modern_tank_aa_equipment_5: "9K33 黄蜂防空导弹系统"
+ SOV_modern_tank_aa_equipment_5_short: "9K33 黄蜂防空导弹系统"
+ SOV_modern_tank_aa_equipment_6: "9K330 道尔防空导弹系统"
+ SOV_modern_tank_aa_equipment_6_short: "9K330 道尔防空导弹系统"
+ SOV_modern_tank_aa_equipment_7: "2K22 通古斯防空导弹系统"
+ SOV_modern_tank_aa_equipment_7_short: "2K22 通古斯防空导弹系统"
+ # FLTE code replace SOV_heavy_tank_equipment_3
+ # FLTE code replace SOV_heavy_tank_equipment_3_short
+ SOV_heavy_tank_equipment_4: "IS-3重型坦克"
+ SOV_heavy_tank_equipment_4_short: "IS-3重型坦克"
+ SOV_heavy_tank_equipment_5: "IS-4重型坦克"
+ SOV_heavy_tank_equipment_5_short: "IS-4重型坦克"
+ # FLTE code replace SOV_heavy_tank_artillery_equipment_1
+ # FLTE code replace SOV_heavy_tank_artillery_equipment_1_short
+ # FLTE code replace SOV_anti_tank_equipment_1
+ # FLTE code replace SOV_anti_tank_equipment_1_short
+ # FLTE code replace SOV_anti_tank_equipment_2
+ # FLTE code replace SOV_anti_tank_equipment_3
+ SOV_anti_tank_equipment_4: "T-12 100毫米反坦克炮"
+ SOV_anti_tank_equipment_5: "婴儿 9M14反坦克导弹"
+ SOV_anti_tank_equipment_6: "巴松管 9K111反坦克导弹"
+ SOV_anti_tank_equipment_7: "混血儿 9K115反坦克导弹"
+ SOV_anti_tank_equipment_8: "混血儿-M 9K115-2反坦克导弹"
+ SOV_anti_air_equipment_4: "ZPU四联防空炮"
+ SOV_anti_air_equipment_5: "ZU双联23毫米防空炮"
+ SOV_anti_air_equipment_6: "德维纳河 S-75防空导弹"
+ SOV_anti_air_equipment_7: "SA-5(S-200) 防空导弹"
+ SOV_anti_air_equipment_8: "SA-10 轰鸣(S-300) 防空导弹"
+ # FLTE code replace SOV_artillery_equipment_1
+ # FLTE code replace SOV_artillery_equipment_1_short
+ # FLTE code replace SOV_artillery_equipment_2
+ # FLTE code replace SOV_artillery_equipment_3
+ SOV_artillery_equipment_4: "M1955 D-20型152毫米火炮"
+ SOV_artillery_equipment_5: "M1958 D-25型122毫米火炮"
+ SOV_artillery_equipment_6: "2A18 D-30型122毫米榴弹炮"
+ SOV_artillery_equipment_7: "2A18 D-30M型122毫米榴弹炮"
+ SOV_artillery_equipment_8: "2A18M2 D-30M2型122毫米榴弹炮"
+ # FLTE code replace SOV_rocket_artillery_equipment_2
+ # FLTE code replace SOV_rocket_artillery_equipment_2_short
+##UNITED STATES##
+ USA_infantry_equipment_4: "M14 步枪"
+ USA_infantry_equipment_4_short: "M14 步枪"
+ USA_infantry_equipment_5: "M16 步枪"
+ USA_infantry_equipment_5_short: "M16 步枪"
+ USA_infantry_equipment_6: "M16A1步枪"
+ USA_infantry_equipment_6_short: "M16A1步枪"
+ USA_infantry_equipment_7: "M16A2步枪"
+ USA_infantry_equipment_7_short: "M16A2步枪"
+ USA_infantry_equipment_8: "M16A4步枪"
+ USA_infantry_equipment_8_short: "M16A4步枪"
+ USA_motorized_equipment_2: "M54卡车"
+ USA_motorized_equipment_3: "M55卡车"
+ USA_motorized_equipment_4: "M939卡车"
+ ENG_motorized_equipment_2: "贝德福德 RL卡车"
+ ENG_motorized_equipment_3: "阿尔维斯 拥护者卡车"
+ ENG_motorized_equipment_4: "贝德福德 TM卡车"
+ ITA_motorized_equipment_2: "阿尔法 罗密欧 900卡车"
+ ITA_motorized_equipment_3: "菲亚特 6505卡车"
+ ITA_motorized_equipment_4: "伊维柯 320 PTM45 6X6卡车"
+ USA_motorized_rocket_equipment_2: "1950 自行火箭炮"
+ # FLTE code add error USA_motorized_rocket_equipment_2_short
+ USA_motorized_rocket_equipment_3: "1960 自行火箭炮"
+ USA_motorized_rocket_equipment_3_short: "1960 自行火箭炮"
+ USA_motorized_rocket_equipment_4: "M270自行火箭炮"
+ USA_motorized_rocket_equipment_4_short: "M270自行火箭炮"
+ USA_mechanized_equipment_4: "M59装甲运兵车"
+ USA_mechanized_equipment_4_short: "M59装甲运兵车"
+ USA_mechanized_equipment_5: "M113装甲运兵车"
+ USA_mechanized_equipment_5_short: "M113全履带装甲运兵车"
+ USA_mechanized_equipment_6: "M113A1 装甲运兵车"
+ USA_mechanized_equipment_6_short: "M113A1 装甲运兵车"
+ USA_mechanized_equipment_7: "M113A2 装甲运兵车"
+ USA_mechanized_equipment_7_short: "M113A2 装甲运兵车"
+ USA_mechanized_equipment_8: "M113A3 装甲运兵车"
+ USA_mechanized_equipment_8_short: "M113A3 装甲运兵车"
+ USA_heavy_mechanized_infantry1: "M75 装甲运兵车"
+ USA_heavy_mechanized_infantry1_short: "M75 APC"
+ USA_heavy_mechanized_infantry2: "M113 装甲骑兵突击车"
+ USA_heavy_mechanized_infantry2_short: "M113 ACAV"
+ USA_heavy_mechanized_infantry3: "XM800 装甲侦察车"
+ USA_heavy_mechanized_infantry3_short: "XM800 ARSV"
+ USA_heavy_mechanized_infantry4: "M2 “布拉德利” 步兵战车"
+ USA_heavy_mechanized_infantry4_short: "M2 步兵战车"
+ USA_heavy_mechanized_infantry5: "M2A2 “布拉德利” 步兵战车"
+ USA_heavy_mechanized_infantry5_short: "M2A2 步兵战车"
+ USA_heavy_mechanized_equipment_1: "M75 装甲运兵车"
+ USA_heavy_mechanized_equipment_1_short: "M75 APC"
+ USA_heavy_mechanized_equipment_2: "M113 装甲骑兵突击车"
+ USA_heavy_mechanized_equipment_2_short: "M113 ACAV"
+ USA_heavy_mechanized_equipment_3: "XM800 装甲侦察车"
+ USA_heavy_mechanized_equipment_3_short: "XM800 ARSV"
+ USA_heavy_mechanized_equipment_4: "M2 “布拉德利” 步兵战车"
+ USA_heavy_mechanized_equipment_4_short: "M2 步兵战车"
+ USA_heavy_mechanized_equipment_5: "M2A2 “布拉德利” 步兵战车"
+ USA_heavy_mechanized_equipment_5_short: "M2A2 步兵战车"
+ # FLTE code replace USA_amphibious_tank_equipment_1
+ USA_amphibious_mechanized_equipment_3: "LVTP-5两栖坦克"
+ USA_amphibious_mechanized_equipment_3_short: "LVTP-5两栖坦克"
+ USA_amphibious_mechanized_equipment_4: "LVTP-5B两栖坦克"
+ USA_amphibious_mechanized_equipment_4_short: "LVTP-5B两栖坦克"
+ USA_amphibious_mechanized_equipment_5: "LVTP-7两栖坦克"
+ USA_amphibious_mechanized_equipment_5_short: "LVTP-7两栖坦克"
+ USA_amphibious_mechanized_equipment_6: "AAVP-7A两栖突击车"
+ USA_amphibious_mechanized_equipment_6_short: "AAVP-7A两栖突击车"
+ USA_amphibious_mechanized_equipment_7: "AAVP-7A1两栖突击车"
+ USA_amphibious_mechanized_equipment_7_short: "AAVP-7A1两栖突击车"
+ FRA_amphibious_mechanized_equipment_3: "AMX-VTP两栖运兵车"
+ FRA_amphibious_mechanized_equipment_3_short: "AMX-VTP两栖运兵车"
+ FRA_amphibious_mechanized_equipment_4: "AMX VTT两栖运兵车"
+ FRA_amphibious_mechanized_equipment_4_short: "AMX VTT两栖运兵车"
+ FRA_amphibious_mechanized_equipment_5: "AMX-10P两栖步兵战车"
+ FRA_amphibious_mechanized_equipment_5_short: "AMX-10P两栖步兵战车"
+ FRA_amphibious_mechanized_equipment_6: "VAB 4x4装甲车&20毫米机关炮/霍特反坦克导弹"
+ FRA_amphibious_mechanized_equipment_6_short: "VAB 4x4装甲车&20毫米机关炮/霍特反坦克导弹"
+ FRA_amphibious_mechanized_equipment_7: "VAB 6X6装甲车&20毫米机关炮/霍特二代反坦克导弹"
+ FRA_amphibious_mechanized_equipment_7_short: "VAB 6X6装甲车&20毫米机关炮/霍特二代反坦克导弹"
+ ENG_amphibious_mechanized_equipment_3: "撒拉逊 Mk1两栖装甲车"
+ ENG_amphibious_mechanized_equipment_3_short: "撒拉逊 Mk1两栖装甲车"
+ ENG_amphibious_mechanized_equipment_4: "FV432两栖装甲车"
+ ENG_amphibious_mechanized_equipment_4_short: "FV432两栖装甲车"
+ ENG_amphibious_mechanized_equipment_5: "FV432两栖装甲车"
+ ENG_amphibious_mechanized_equipment_5_short: "FV432两栖装甲车"
+ ENG_amphibious_mechanized_equipment_6: "阿尔维斯\"风暴者\"两栖装甲运兵车"
+ ENG_amphibious_mechanized_equipment_6_short: "风暴者两栖装甲运兵车"
+ ENG_amphibious_mechanized_equipment_7: "BvS10 “维京” 装甲履带式全地形车"
+ ENG_amphibious_mechanized_equipment_7_short: "BvS10装甲履带式全地形车"
+ ITA_amphibious_mechanized_equipment_5: "菲亚特 CM6614装甲车"
+ ITA_amphibious_mechanized_equipment_5_short: "菲亚特 CM6614装甲车"
+ ITA_amphibious_mechanized_equipment_6: "VCC-2装甲运兵车"
+ ITA_amphibious_mechanized_equipment_6_short: "VCC-2装甲运兵车"
+ ITA_amphibious_mechanized_equipment_7: "特种应用改造和特殊装备公司 鳄鱼 VCC两栖装甲运兵车"
+ ITA_amphibious_mechanized_equipment_7_short: "特种应用改造和特殊装备公司 鳄鱼 VCC两栖装甲运兵车"
+ JAP_amphibious_mechanized_equipment_3: "特四式内火艇"
+ JAP_amphibious_mechanized_equipment_3_short: "特四式内火艇"
+ JAP_amphibious_mechanized_equipment_4: "60式装甲运兵车"
+ JAP_amphibious_mechanized_equipment_4_short: "60式装甲运兵车"
+ JAP_amphibious_mechanized_equipment_5: "七三式装甲运兵车"
+ JAP_amphibious_mechanized_equipment_5_short: "七三式装甲运兵车"
+ JAP_amphibious_mechanized_equipment_6: "七三式装甲运兵车&20毫米机关炮"
+ JAP_amphibious_mechanized_equipment_6_short: "七三式装甲运兵车&20毫米机关炮"
+ SWE_light_tank_equipment_6: "Strv 74轻型坦克"
+ SWE_light_tank_equipment_6_short: "Strv 74轻型坦克"
+ SWE_light_tank_equipment_7: "BMP-1步兵战车"
+ SWE_light_tank_equipment_7_short: "BMP-1步兵战车"
+ SWE_light_tank_equipment_9_short: "CV90战斗装甲车"
+ SWE_light_tank_equipment_9: "CV90战斗装甲车"
+ # FLTE code replace SWE_modern_tank_equipment_1_short
+ SWE_modern_tank_equipment_2_short: "Strv 104主战坦克"
+ SWE_modern_tank_equipment_3_short: "Strv 74轻型坦克"
+ SWE_modern_tank_equipment_4_short: "Strv 1030主战坦克"
+ SWE_modern_tank_equipment_5_short: "Strv 103A主战坦克"
+ SWE_modern_tank_equipment_7_short: "Strv 121主战坦克"
+ SWE_modern_tank_equipment_8_short: "Strv 103C主战坦克"
+ FRA_heavy_tank_equipment_5_short: "ARL-44重型坦克"
+ FRA_wheeled_tank_equipment_2_short: "AMX-10 RC轮式突击炮"
+ FRA_wheeled_tank_equipment_3_short: "维克斯特拉轮式突击炮"
+ # FLTE code replace FRA_modern_tank_equipment_1_short
+ FRA_modern_tank_equipment_2_short: "洛林 40吨主战坦克"
+ FRA_modern_tank_equipment_3_short: "AMX M4主战坦克"
+ FRA_modern_tank_equipment_4_short: "AMX-30B主战坦克"
+ FRA_modern_tank_equipment_5_short: "AMX-30S主战坦克"
+ FRA_modern_tank_equipment_6_short: "AMX-30B2主战坦克"
+ FRA_modern_tank_equipment_7_short: "AMX-32主战坦克"
+ FRA_modern_tank_equipment_8_short: "AMX-30B2 布努伦斯 主战坦克"
+ FRA_modern_tank_equipment_9_short: "勒克莱尔 S1主战坦克"
+ BRA_medium_tank_equipment_1: "M3 李 中型坦克"
+ BRA_medium_tank_equipment_1_short: "M3 李 中型坦克"
+ BRA_medium_tank_equipment_2: "M4 谢尔曼 中型坦克"
+ BRA_medium_tank_equipment_2_short: "M4 谢尔曼 中型坦克"
+ BRA_medium_tank_equipment_3: "M26 潘兴 中型坦克"
+ BRA_medium_tank_equipment_3_short: "M26 潘兴 中型坦克"
+ BRA_modern_tank_equipment_1_short: "巴顿 M48主战坦克"
+ BRA_modern_tank_equipment_2_short: "T95E1主战坦克"
+ BRA_modern_tank_equipment_3_short: "M60主战坦克"
+ BRA_modern_tank_equipment_4_short: "M60A1主战坦克"
+ BRA_modern_tank_equipment_5_short: "M60A3&热像仪"
+ BRA_modern_tank_equipment_6_short: "豹 1A1主战坦克"
+ BRA_modern_tank_equipment_7_short: "豹 1A5主战坦克"
+ BRA_modern_tank_equipment_8_short: "MB-3 塔穆约 主战坦克"
+ BRA_modern_tank_equipment_9_short: "EE-T1 奥索里约 主战坦克"
+ BRA_light_tank_equipment_1: "L3/33轻型坦克"
+ BRA_light_tank_equipment_1_short: "L3/33轻型坦克"
+ BRA_light_tank_equipment_2: "M3 斯图亚特 轻型坦克"
+ BRA_light_tank_equipment_2_short: "M3 斯图亚特 轻型坦克"
+ BRA_light_tank_equipment_3: "M5 斯图亚特轻型坦克"
+ BRA_light_tank_equipment_3_short: "M5 斯图亚特轻型坦克"
+ BRA_light_tank_equipment_4: "M24 霞飞 轻型坦克"
+ BRA_light_tank_equipment_4_short: "M24 霞飞 轻型坦克"
+ BRA_light_tank_equipment_5: "M41轻型坦克"
+ BRA_light_tank_equipment_5_short: "M41轻型坦克"
+ BRA_light_tank_equipment_6: "M41C 卡希亚斯 轻型坦克"
+ BRA_light_tank_equipment_6_short: "M41C 卡希亚斯 轻型坦克"
+ BRA_light_tank_equipment_7: "X1 先锋 轻型坦克"
+ BRA_light_tank_equipment_7_short: "X1 先锋 轻型坦克"
+ BRA_light_tank_equipment_8: "卡卡拉 X1A1轻型坦克"
+ BRA_light_tank_equipment_8_short: "卡卡拉 X1A1轻型坦克"
+ BRA_light_tank_equipment_9: "卡卡拉 X1A2轻型坦克"
+ BRA_light_tank_equipment_9_short: "卡卡拉 X1A2轻型坦克"
+ # FLTE code replace ENG_modern_tank_equipment_1_short
+ ENG_modern_tank_equipment_2_short: "百夫长 Mk.8主战坦克"
+ ENG_modern_tank_equipment_3_short: "百夫长 Mk.10主战坦克"
+ ENG_modern_tank_equipment_4_short: "酋长 Mk.1主战坦克"
+ ENG_modern_tank_equipment_5_short: "酋长 Mk.2主战坦克"
+ ENG_modern_tank_equipment_6_short: "酋长 Mk.5主战坦克"
+ ENG_modern_tank_equipment_7_short: "酋长 Mk.10主战坦克"
+ ENG_modern_tank_equipment_8_short: "挑战者1主战坦克"
+ ENG_modern_tank_equipment_9_short: "挑战者2主战坦克"
+ # FLTE code replace JAP_modern_tank_equipment_1_short
+ JAP_modern_tank_equipment_2_short: "ST-A1主战坦克"
+ JAP_modern_tank_equipment_3_short: "ST-A3主战坦克"
+ JAP_modern_tank_equipment_4_short: "六一式主战坦克"
+ JAP_modern_tank_equipment_5_short: "STB-1主战坦克"
+ JAP_modern_tank_equipment_6_short: "七四式 A型主战坦克"
+ JAP_modern_tank_equipment_7_short: "七四式 B型主战坦克"
+ JAP_modern_tank_equipment_8_short: "七四式 G型主战坦克"
+ JAP_modern_tank_equipment_9_short: "九零式 A型轻战车"
+ # FLTE code replace YUG_modern_tank_equipment_1_short
+ YUG_modern_tank_equipment_2_short: "T-55主战坦克"
+ YUG_modern_tank_equipment_4_short: "T-55AI型"
+ YUG_modern_tank_equipment_5_short: "T-72主战坦克"
+ YUG_modern_tank_equipment_6_short: "T-72M主战坦克"
+ YUG_modern_tank_equipment_7_short: "M-84主战坦克"
+ YUG_modern_tank_equipment_8_short: "M-84A主战坦克"
+ YUG_modern_tank_equipment_9_short: "旋风 M-91主战坦克"
+ YUG_light_tank_equipment_5: "AMX-13轻型坦克"
+ YUG_light_tank_equipment_5_short: "AMX-13轻型坦克"
+ YUG_light_tank_equipment_6: "PT-76B轻型坦克"
+ YUG_light_tank_equipment_6_short: "PT-76B轻型坦克"
+ # FLTE code replace ITA_modern_tank_equipment_1_short
+ ITA_modern_tank_equipment_2_short: "M48A2C主战坦克"
+ ITA_modern_tank_equipment_3_short: "M60A1主战坦克"
+ ITA_modern_tank_equipment_4_short: "豹 1A2主战坦克"
+ ITA_modern_tank_equipment_5_short: "豹 1A5主战坦克"
+ ITA_modern_tank_equipment_6_short: "OF-40 Mk1主战坦克"
+ ITA_modern_tank_equipment_7_short: "奥托·梅莱拉 MCC-80主战坦克"
+ ITA_modern_tank_equipment_8_short: "OF-40 Mk2A主战坦克"
+ ITA_modern_tank_equipment_9_short: "公羊主战坦克&PSO复合装甲套件"
+ ITA_light_tank_equipment_8: "VCC 80/60轻型坦克"
+ ITA_light_tank_equipment_8_short: "VCC 80/60轻型坦克"
+ ITA_light_tank_equipment_9: "C13/90轻型坦克"
+ ITA_light_tank_equipment_9_short: "C13/90轻型坦克"
+ ITA_wheeled_tank_equipment_2_short: "半人马 B1轮式装甲车"
+ ITA_wheeled_tank_equipment_3_short: "半人马 B1轮式装甲车&120毫米火炮"
+ # FLTE code replace TUR_modern_tank_equipment_1_short
+ TUR_modern_tank_equipment_2_short: "巴顿 M48主战坦克"
+ TUR_modern_tank_equipment_3_short: "巴顿 M60主战坦克"
+ TUR_modern_tank_equipment_4_short: "豹 1A3主战坦克"
+ TUR_modern_tank_equipment_6_short: "豹 T1主战坦克"
+ TUR_modern_tank_equipment_7_short: "豹 2主战坦克"
+ TUR_modern_tank_equipment_8_short: "M60A3&热像仪"
+ TUR_modern_tank_equipment_9_short: "豹 2A4T主战坦克"
+ FRA_light_tank_equipment_4_short: "M24 霞飞 轻型坦克"
+ FRA_light_tank_equipment_5_short: "AMX-13轻型坦克&75毫米炮"
+ FRA_light_tank_equipment_6_short: "查狄伦 25吨轻型坦克"
+ FRA_light_tank_equipment_7_short: "AMX-13轻型坦克&90毫米炮"
+ FRA_light_tank_equipment_8_short: "AMX-13轻型坦克&105毫米炮"
+ SOV_modern_tank_equipment_2_short: "T-55主战坦克"
+ SOV_modern_tank_equipment_3_short: "T-62主战坦克"
+ SOV_modern_tank_equipment_4_short: "T-64主战坦克"
+ SOV_modern_tank_equipment_5_short: "T-72主战坦克"
+ SOV_modern_tank_equipment_6_short: "T-80主战坦克"
+ SOV_modern_tank_equipment_7_short: "T-80B主战坦克"
+ SOV_modern_tank_equipment_8_short: "T-80U主战坦克"
+ SOV_modern_tank_equipment_9_short: "T-90主战坦克"
+ # FLTE code replace USA_modern_tank_equipment_1_short
+ USA_modern_tank_equipment_2_short: "T95E1主战坦克"
+ USA_modern_tank_equipment_3_short: "巴顿 M60主战坦克"
+ USA_modern_tank_equipment_4_short: "巴顿 M60A1主战坦克"
+ USA_modern_tank_equipment_5_short: "MBT 70主战坦克"
+ USA_modern_tank_equipment_6_short: "巴顿 M60A3主战坦克"
+ USA_modern_tank_equipment_7_short: "M1 艾布拉姆斯主战坦克"
+ USA_modern_tank_equipment_8_short: "M1A1 艾布拉姆斯主战坦克"
+ USA_modern_tank_equipment_9_short: "M1A2 艾布拉姆斯主战坦克"
+
+ # FLTE code replace USA_light_tank_destroyer_equipment_2
+ # FLTE code replace USA_light_tank_destroyer_equipment_2_short
+ # FLTE code replace USA_light_tank_aa_equipment_2
+ # FLTE code replace USA_light_tank_aa_equipment_2_short
+ # FLTE code replace USA_light_tank_aa_equipment_3_short
+ # FLTE code replace USA_medium_tank_equipment_3
+ # FLTE code replace USA_medium_tank_equipment_3_short
+ USA_medium_tank_equipment_4: "巴顿 M47主战坦克"
+ USA_medium_tank_equipment_4_short: "巴顿 M47主战坦克"
+ # FLTE code replace USA_medium_tank_destroyer_equipment_2
+ # FLTE code replace USA_medium_tank_destroyer_equipment_2_short
+ # FLTE code replace USA_medium_tank_destroyer_equipment_3
+ # FLTE code replace USA_medium_tank_destroyer_equipment_3_short
+ # FLTE code replace USA_heavy_tank_equipment_2
+ # FLTE code replace USA_heavy_tank_equipment_2_short
+ # FLTE code replace USA_heavy_tank_equipment_3
+ # FLTE code replace USA_heavy_tank_equipment_3_short
+ USA_heavy_tank_equipment_4: "M26 潘兴 中型坦克"
+ USA_heavy_tank_equipment_4_short: "M26 潘兴 中型坦克"
+ USA_heavy_tank_equipment_5: "巴顿 M46主战坦克"
+ USA_heavy_tank_equipment_5_short: "巴顿 M46主战坦克"
+ USA_heavy_tank_equipment_6: "M103重型坦克"
+ USA_heavy_tank_equipment_6_short: "M103重型坦克"
+ # FLTE code replace SWE_heavy_tank_equipment_3
+ # FLTE code replace SWE_heavy_tank_equipment_3_short
+ USA_modern_tank_destroyer_equipment_1: "M36坦克歼击车"
+ USA_modern_tank_destroyer_equipment_1_short: "M36坦克歼击车"
+ USA_modern_tank_destroyer_equipment_2: "T58坦克歼击车"
+ USA_modern_tank_destroyer_equipment_2_short: "T58坦克歼击车"
+ USA_modern_tank_destroyer_equipment_3: "M56 蝎式坦克歼击车"
+ USA_modern_tank_destroyer_equipment_3_short: "M56 蝎式坦克歼击车"
+ USA_modern_tank_destroyer_equipment_4: "M552坦克歼击车"
+ USA_modern_tank_destroyer_equipment_4_short: "M552坦克歼击车"
+ USA_modern_tank_artillery_equipment_1: "M44自行火炮"
+ USA_modern_tank_artillery_equipment_1_short: "M44自行火炮"
+ USA_modern_tank_artillery_equipment_2: "M50自行火炮"
+ USA_modern_tank_artillery_equipment_2_short: "M50自行火炮"
+ USA_modern_tank_artillery_equipment_3: "M108自行火炮"
+ USA_modern_tank_artillery_equipment_3_short: "M108自行火炮"
+ USA_modern_tank_artillery_equipment_4: "M109自行火炮"
+ USA_modern_tank_artillery_equipment_4_short: "M109自行火炮"
+ USA_modern_tank_artillery_equipment_5: "M109A1自行火炮"
+ USA_modern_tank_artillery_equipment_5_short: "M109A1自行火炮"
+ USA_modern_tank_artillery_equipment_6: "M109A2自行火炮"
+ USA_modern_tank_artillery_equipment_6_short: "M109A2自行火炮"
+ USA_modern_tank_artillery_equipment_7: "M109A5自行火炮"
+ USA_modern_tank_artillery_equipment_7_short: "M109A5自行火炮"
+ # FLTE code replace USA_modern_tank_aa_equipment_1_short
+ USA_modern_tank_aa_equipment_2: "义警 T249自行防空炮"
+ USA_modern_tank_aa_equipment_2_short: "义警 T249自行防空炮"
+ USA_modern_tank_aa_equipment_4: "M163自行防空炮"
+ USA_modern_tank_aa_equipment_4_short: "M163自行防空炮"
+ USA_modern_tank_aa_equipment_5: "M163A1自行防空炮"
+ USA_modern_tank_aa_equipment_5_short: "M163A1自行防空炮"
+ USA_modern_tank_aa_equipment_6: "荆棘林 MIM-72防空导弹系统"
+ USA_modern_tank_aa_equipment_6_short: "荆棘林 MIM-72防空导弹系统"
+ USA_modern_tank_aa_equipment_7: "复仇者 AN/TWQ-1防空导弹系统"
+ USA_modern_tank_aa_equipment_7_short: "复仇者 AN/TWQ-1防空导弹系统"
+ USA_anti_tank_equipment_4: "M5A2反坦克炮"
+ USA_anti_tank_equipment_5: "BGM-62反坦克导弹"
+ USA_anti_tank_equipment_6: "BGM-71 陶式"
+ USA_anti_tank_equipment_7: "龙式 M47反坦克导弹"
+ USA_anti_tank_equipment_8: "FGM-148 标枪反坦克导弹"
+ # FLTE code replace USA_anti_air_equipment_2
+ # FLTE code replace USA_anti_air_equipment_3
+ USA_anti_air_equipment_4: "天空扫荡者 M51防空炮"
+ USA_anti_air_equipment_5: "M51A2防空炮"
+ USA_anti_air_equipment_6: "鹰式 MIM-23地对空导弹"
+ USA_anti_air_equipment_7: "MIM-23D地对空导弹"
+ USA_anti_air_equipment_8: "爱国者 MIM-104地对空导弹"
+ # FLTE code replace USA_artillery_equipment_1
+ # FLTE code replace USA_artillery_equipment_2
+ # FLTE code replace USA_artillery_equipment_3
+ USA_artillery_equipment_4: "M114A1 155毫米火炮"
+ # USA_artillery_equipment_5: "155 mm M114A2"
+ USA_artillery_equipment_6: "M114A3 155毫米火炮"
+ # USA_artillery_equipment_7: "M198 howitzer"
+ # USA_artillery_equipment_8: "M198A3"
+###GERMANY
+ # FLTE code replace GER_infantry_equipment_2
+ # FLTE code replace GER_infantry_equipment_2_short
+ GER_infantry_equipment_2_desc: "1938年，德国枪械设计师海因里希·沃尔默在借鉴早期MP 38冲锋枪的设计基础上，完成了该武器的设计。 它被广泛配发给东线和西线的步兵，尤其是各步兵排和班的指挥官，以及伞兵部队。 由于其在当时非常先进的设计理念和技术特点，该枪深受士兵们的青睐。 二战结束后， 它还在世界各地的多个国家获得了极高的人气。"
+ # FLTE code replace GER_infantry_equipment_3
+ # FLTE code replace GER_infantry_equipment_3_short
+ GER_infantry_equipment_4: "G3A2突击步枪"
+ GER_infantry_equipment_4_short: "G3A2突击步枪"
+ GER_infantry_equipment_5: "G3A3突击步枪"
+ GER_infantry_equipment_5_short: "G3A3突击步枪"
+ GER_infantry_equipment_6: "黑克勒-科赫 G3A4突击步枪"
+ GER_infantry_equipment_6_short: "黑克勒-科赫 G3A4突击步枪"
+ GER_infantry_equipment_7: "黑克勒-科赫 G41突击步枪"
+ GER_infantry_equipment_7_short: "黑克勒-科赫 G3A4突击步枪"
+ GER_infantry_equipment_8: "黑克勒-科赫 G36突击步枪"
+ GER_infantry_equipment_8_short: "黑克勒-科赫 G36突击步枪"
+ GER_motorized_equipment_2: "欧宝闪电 II型"
+ GER_motorized_equipment_3: "欧宝闪电"
+ # FLTE code replace GER_mechanized_equipment_1
+ # FLTE code replace GER_mechanized_equipment_1_short
+ # FLTE code replace GER_mechanized_equipment_2_desc
+ # FLTE code replace GER_mechanized_equipment_3
+ # FLTE code replace GER_mechanized_equipment_3_short
+ # FLTE code replace GER_mechanized_equipment_3_desc
+ GER_mechanized_equipment_4: "HS.30长款步兵战车"
+ GER_mechanized_equipment_4_short: "HS.30步兵战车"
+ # ?????
+ # GER_mechanized_equipment_5: "Sd.Kfz. 411"
+ # GER_mechanized_equipment_5_short: "Sonderkraftfahrzeug 411"
+ GER_amphibious_tank_equipment_3: "四号潜水坦克"
+ GER_amphibious_mechanized_equipment_3: "三号水陆两栖牵引车"
+ GER_amphibious_mechanized_equipment_3_short: "LWS III型"
+ GER_amphibious_mechanized_equipment_4: "四号水陆两栖牵引车"
+ GER_amphibious_mechanized_equipment_4_short: "LWS IV型"
+ # FLTE code replace GER_gw_tank_equipment
+ # FLTE code replace GER_gw_tank_equipment_short
+ # FLTE code replace GER_gw_tank_equipment_desc
+ # FLTE code replace GER_light_tank_equipment_2_desc
+ # FLTE code replace GER_light_tank_equipment_3_desc
+ GER_light_tank_equipment_5: "KanJPz 火炮式坦克歼击车"
+ GER_light_tank_equipment_5_short: "KanJPz 火炮式坦克歼击车"
+ GER_light_tank_equipment_6: "鼬鼠 AWC轻型坦克"
+ GER_light_tank_equipment_6_short: "鼬鼠 AWC轻型坦克"
+ GER_light_tank_equipment_7: "鼬鼠 AWC轻型坦克"
+ GER_light_tank_equipment_7_short: "鼬鼠 AWC轻型坦克"
+ GER_light_tank_equipment_7_desc: "轻型坦克以其体积小、行动敏捷的特点，不仅能够承担侦察任务，还具备一定的对付轻型装甲目标的能力。"
+ GER_light_tank_equipment_8: "鼬鼠 2 AWC轻型坦克"
+ GER_light_tank_equipment_8_short: "鼬鼠 2 AWC轻型坦克"
+ # FLTE code replace GER_light_tank_artillery_equipment_1
+ # FLTE code replace GER_light_tank_artillery_equipment_1_short
+ # FLTE code replace GER_light_tank_artillery_equipment_3
+ # FLTE code replace GER_light_tank_aa_equipment_1_desc
+ # FLTE code replace GER_light_tank_aa_equipment_2
+ # FLTE code replace GER_light_tank_aa_equipment_2_short
+ # FLTE code replace GER_light_tank_aa_equipment_3_desc
+ # FLTE code replace GER_medium_tank_equipment_2_desc
+ GER_medium_tank_equipment_4: "狮式 七号坦克"
+ GER_medium_tank_equipment_4_short: "狮式 七号坦克"
+ GER_medium_tank_equipment_4_desc: "狮式 七号坦克是克虏伯公司在二战期间为德国政府设计的一种超重型坦克。该项目最初的代号为VK 70.01 (K)，但其从未离开设计图纸，并于1942年3月5至6日被放弃，转而支持保时捷公司更为重型的鼠式 八号坦克。"
+ GER_heavy_tank_artillery_equipment_1: "大麦克斯 四号自行火炮"
+ GER_heavy_tank_artillery_equipment_1_short: "大麦克斯 四号自行火炮"
+ # FLTE code replace GER_heavy_tank_artillery_equipment_3
+ GER_heavy_tank_artillery_equipment_4: "E-100自行火炮"
+ GER_heavy_tank_artillery_equipment_4_short: "E-100自行火炮"
+ GER_heavy_tank_artillery_equipment_4_desc: "这款自行火炮采用超重型坦克底盘，并搭载一门210毫米口径的火炮，其威力足以媲美某些铁道炮。"
+ # FLTE code replace GER_medium_tank_artillery_equipment_1_desc
+ GER_medium_tank_artillery_equipment_4: "灰熊II型突击炮"
+ GER_medium_tank_artillery_equipment_4_short: "灰熊II型突击炮"
+ # FLTE code replace GER_medium_tank_destroyer_equipment_2_desc
+ GER_medium_tank_destroyer_equipment_4: "E-50 猎豹 II型坦克歼击车 "
+ GER_medium_tank_destroyer_equipment_4_short: "E-50 猎豹 II型坦克歼击车 "
+ GER_medium_tank_destroyer_equipment_4_desc: ""
+ # FLTE code replace GER_medium_tank_aa_equipment_1_desc
+ GER_medium_tank_aa_equipment_4: "球状闪电 四号防空坦克"
+ GER_medium_tank_aa_equipment_4_short: "球状闪电 四号防空坦克"
+ # FLTE code replace GER_heavy_tank_equipment_1_desc
+ GER_heavy_tank_equipment_4: "鼠式 八号重型坦克"
+ GER_heavy_tank_equipment_4_short: "鼠式 八号重型坦克"
+ GER_heavy_tank_equipment_4_desc: "Königstiger，常被盟军士兵半直译为虎王，也是该坦克的俗称。在设计理念上，虎 II型重型坦克沿袭了虎 I型重型坦克的思路，但力求达到更强大的性能。为此，虎 II型重型坦克融合了虎 I型重型坦克的厚重装甲与黑豹中型坦克所采用的倾斜装甲技术。这使得虎II的战斗全重接近70吨，正面装甲厚度达到100至180毫米，主武器则是一门威力强大的KwK 43 71倍径/88毫米炮长身管火炮。"
+ GER_heavy_tank_equipment_5: "E-100重型坦克"
+ GER_heavy_tank_equipment_5_short: "E-100重型坦克"
+ GER_heavy_tank_equipment_5_desc: "E-100型坦克（Gerät 383）（TG-01）是二战末期德国研发设计的一款超重型坦克。 该设计曾计划作为重型火炮系统、防空车辆和重型坦克歼击车的基础。"
+ # FLTE code replace GER_heavy_tank_destroyer_equipment_3_desc
+ GER_heavy_tank_destroyer_equipment_4: "猎鼠坦克歼击车"
+ GER_heavy_tank_destroyer_equipment_4_short: "猎鼠坦克歼击车"
+ GER_heavy_tank_destroyer_equipment_4_desc: "基于鼠式坦克的底盘，安装有一门固定式150毫米火炮。"
+ GER_heavy_tank_aa_equipment_1: "Sd.Kfz. 7/2 Flak八吨自行防空炮"
+ GER_heavy_tank_aa_equipment_1_short: "Sd.Kfz. 7/2 Flak八吨自行防空炮"
+ GER_heavy_tank_aa_equipment_1_desc: "安装在重型底盘上的强大防空武器。"
+ GER_heavy_tank_aa_equipment_2: "球状闪电 四号防空坦克"
+ GER_heavy_tank_aa_equipment_2_short: "球状闪电 四号防空坦克"
+ GER_heavy_tank_aa_equipment_2_desc: "安装在重型底盘上的强大防空武器。"
+ GER_heavy_tank_aa_equipment_3: "蟋蟀10式 FlakPz V 88毫米自行防空炮"
+ GER_heavy_tank_aa_equipment_3_short: "蟋蟀10式 FlakPz V 88毫米自行防空炮"
+ GER_heavy_tank_aa_equipment_3_desc: "安装在重型底盘上的强大防空武器。"
+ # FLTE code replace GER_modern_tank_equipment_1
+ # FLTE code replace GER_modern_tank_equipment_1_short
+ # FLTE code replace GER_modern_tank_equipment_1_desc
+ GER_modern_tank_equipment_2: "E-90主战坦克"
+ GER_modern_tank_equipment_2_short: "E-90主战坦克"
+ GER_modern_tank_equipment_3: "豹 1主战坦克"
+ GER_modern_tank_equipment_3_short: "豹 1主战坦克"
+ GER_modern_tank_equipment_3_desc: "豹式主战坦克，是由联邦德国保时捷公司于1965年推出并服役的一款经典型号。研发时期，人们普遍认为HEAT破甲弹技术的发展使得传统重型装甲的防护价值降低，因此在设计上，\"豹\"式主战坦克更侧重于火力投射能力和越野机动性。在火力方面，它装备了当时西方阵营标准的L7系列德国产105毫米线膛炮，越野性能在同代坦克中也鲜有匹敌。"
+ GER_modern_tank_equipment_4: "豹1 主战坦克"
+ GER_modern_tank_equipment_4_short: "豹1 主战坦克"
+ GER_modern_tank_equipment_4_desc: "豹式主战坦克，是由联邦德国保时捷公司于1965年推出并服役的一款经典型号。研发时期，人们普遍认为HEAT破甲弹技术的发展使得传统重型装甲的防护价值降低，因此在设计上，\"豹\"式主战坦克更侧重于火力投射能力和越野机动性。在火力方面，它装备了当时西方阵营标准的L7系列德国产105毫米线膛炮，越野性能在同代坦克中也鲜有匹敌。"
+ GER_modern_tank_equipment_5: "豹 1A3主战坦克"
+ GER_modern_tank_equipment_5_short: "豹 1A3主战坦克"
+ GER_modern_tank_equipment_5_desc: ""
+ GER_modern_tank_equipment_6: "豹1 A4 主战坦克"
+ GER_modern_tank_equipment_6_short: "豹1 A4 主战坦克"
+ GER_modern_tank_equipment_6_desc: ""
+ GER_modern_tank_equipment_7: "豹 2主战坦克"
+ GER_modern_tank_equipment_7_short: "豹 2主战坦克"
+ GER_modern_tank_equipment_7_desc: "\""
+ GER_modern_tank_artillery_equipment_1: "PzH 52式自行榴弹炮"
+ GER_modern_tank_artillery_equipment_1_short: "PzH 52式自行榴弹炮"
+ GER_modern_tank_artillery_equipment_2: "PzH 55式自行榴弹炮"
+ GER_modern_tank_artillery_equipment_2_short: "PzH 55式自行榴弹炮"
+ GER_modern_tank_artillery_equipment_3: "PzH 60式自行榴弹炮"
+ GER_modern_tank_artillery_equipment_3_short: "PzH 60式自行榴弹炮"
+ GER_modern_tank_artillery_equipment_4: "PzH 64式自行榴弹炮"
+ GER_modern_tank_artillery_equipment_4_short: "PzH 64式自行榴弹炮"
+ GER_modern_tank_artillery_equipment_5: "M109A1自行火炮（德国版）"
+ GER_modern_tank_artillery_equipment_5_short: "M109A1自行火炮（德国版）"
+ GER_modern_tank_artillery_equipment_6: "M109A3自行火炮（德国版）"
+ GER_modern_tank_artillery_equipment_6_short: "M109A3自行火炮（德国版）"
+ GER_modern_tank_artillery_equipment_7: "PzH 2000式自行榴弹炮"
+ GER_modern_tank_artillery_equipment_7_short: "PzH 2000式自行榴弹炮"
+ GER_modern_tank_destroyer_equipment_2: "KanJPz 90毫米火炮式坦克歼击车"
+ GER_modern_tank_destroyer_equipment_2_short: "KanJPz 90毫米火炮式坦克歼击车"
+ GER_modern_tank_destroyer_equipment_3: "RU251侦查坦克"
+ GER_modern_tank_destroyer_equipment_3_short: "RU251侦查坦克"
+ GER_modern_tank_destroyer_equipment_4: "KanJPz 100毫米火炮式坦克歼击车"
+ GER_modern_tank_destroyer_equipment_4_short: "KanJPz 100毫米火炮式坦克歼击车"
+ # FLTE code replace GER_modern_tank_aa_equipment_1
+ # FLTE code replace GER_modern_tank_aa_equipment_1_short
+ GER_modern_tank_aa_equipment_2: "E-90防空坦克"
+ GER_modern_tank_aa_equipment_2_short: "E-90防空坦克"
+ GER_modern_tank_aa_equipment_3: "豹式 防空坦克"
+ GER_modern_tank_aa_equipment_3_short: "豹式 防空坦克"
+ GER_modern_tank_aa_equipment_4: "M163自行防空炮"
+ GER_modern_tank_aa_equipment_4_short: "M163自行防空炮"
+ GER_modern_tank_aa_equipment_5: "猎豹 防空坦克"
+ GER_modern_tank_aa_equipment_5_short: "猎豹 防空坦克"
+ GER_modern_tank_aa_equipment_6: "猎豹A1 防空坦克"
+ GER_modern_tank_aa_equipment_6_short: "猎豹A1 FlakPz防空坦克"
+ GER_modern_tank_aa_equipment_7: "猎豹A2 防空坦克"
+ GER_modern_tank_aa_equipment_7_short: "猎豹A2 防空坦克"
+ GER_utility_helicopter_equipment_1: "Fl 282 V21直升机"
+ GER_utility_helicopter_equipment_1_short: "Fl 282 V21直升机"
+ GER_utility_helicopter_equipment_2: "福克-安格里斯 Fa.223直升机"
+ GER_utility_helicopter_equipment_2_short: "福克-安格里斯 Fa.223直升机"
+ GER_utility_helicopter_equipment_3: "福克-安格里斯 Fa.225直升机"
+ GER_utility_helicopter_equipment_3_short: "福克-安格里斯 Fa.225直升机"
+ GER_utility_helicopter_equipment_4: "福克-安格里斯 Fa.245直升机"
+ GER_utility_helicopter_equipment_4_short: "福克-安格里斯 Fa.245直升机"
+ GER_utility_helicopter_equipment_5: "UH-1D直升机"
+ GER_utility_helicopter_equipment_5_short: "UH-1D直升机"
+ GER_utility_helicopter_equipment_6: "CH-53G直升机"
+ GER_utility_helicopter_equipment_6_short: "CH-53G直升机"
+ GER_attack_helicopter_equipment_1: "BO-105攻击直升机"
+ GER_attack_helicopter_equipment_1_short: "BO-105攻击直升机"
+##UNITED KINGDOM
+ # FLTE code replace ENG_infantry_equipment_0
+ # FLTE code replace ENG_infantry_equipment_0_short
+ # FLTE code replace ENG_infantry_equipment_1
+ # FLTE code replace ENG_infantry_equipment_1_short
+ # FLTE code replace ENG_infantry_equipment_2
+ # FLTE code replace ENG_infantry_equipment_2_short
+ # FLTE code replace ENG_infantry_equipment_3
+ # FLTE code replace ENG_infantry_equipment_3_short
+ ENG_infantry_equipment_4: "FN FAL突击步枪"
+ ENG_infantry_equipment_4_short: "FN FAL突击步枪"
+ ENG_infantry_equipment_5: "L1A1突击步枪"
+ ENG_infantry_equipment_5_short: "L1A1突击步枪"
+ ENG_infantry_equipment_6: "L64突击步枪"
+ ENG_infantry_equipment_6_short: "L64突击步枪"
+ ENG_infantry_equipment_7: "L85A1突击步枪"
+ ENG_infantry_equipment_7_short: "L85A1突击步枪"
+ ENG_infantry_equipment_8: "L85A2突击步枪"
+ ENG_infantry_equipment_8_short: "L85A2突击步枪"
+ ENG_mechanized_equipment_4: "FV603 装甲运兵车"
+ ENG_mechanized_equipment_4_short: "FV603 撒拉森"
+ ENG_mechanized_equipment_4_desc: ""
+ ENG_mechanized_equipment_5: "FV432 装甲运兵车"
+ ENG_mechanized_equipment_5_short: "FV432 装甲运兵车"
+ ENG_mechanized_equipment_5_desc: ""
+ ENG_mechanized_equipment_6: "FV103 “斯巴达” 装甲运兵车"
+ ENG_mechanized_equipment_6_short: "FV103"
+ ENG_mechanized_equipment_6_desc: ""
+ ENG_mechanized_equipment_7: "“撒克逊” 装甲运兵车"
+ ENG_mechanized_equipment_7_short: "“撒克逊” 装甲运兵车"
+ ENG_mechanized_equipment_7_desc: ""
+ ENG_mechanized_equipment_8: "FV430 \"斗牛犬\" MK3 装甲运兵车"
+ ENG_mechanized_equipment_8_short: "FV430 Mk3"
+ ENG_mechanized_equipment_8_desc: ""
+ ENG_heavy_mechanized_equipment_3: "FV432 “拉登” 装甲运兵车"
+ ENG_heavy_mechanized_equipment_3_desc: ""
+ ENG_heavy_mechanized_equipment_3_short: "“拉登” 装甲运兵车"
+ ENG_heavy_mechanized_equipment_4: "FV510 “战士” 装甲运兵车"
+ ENG_heavy_mechanized_equipment_4_desc: ""
+ ENG_heavy_mechanized_equipment_4_short: "“战士” 装甲运兵车"
+ ENG_heavy_mechanized_equipment_5: "FV510 “战士” 装甲运兵车爆炸反应装甲型"
+ # FLTE code add error ENG_heavy_mechanized_equipment_5_desc
+ ENG_heavy_mechanized_equipment_5_short: "“战士” ERA 装甲运兵车爆反型"
+ ENG_medium_tank_equipment_4: "FV 4401 百夫长中型坦克"
+ ENG_medium_tank_equipment_4_short: "FV 4401 百夫长中型坦克"
+ # FLTE code replace ENG_medium_tank_aa_equipment_1
+ # FLTE code replace ENG_medium_tank_aa_equipment_1_short
+ # FLTE code replace ENG_medium_tank_aa_equipment_2
+ # FLTE code replace ENG_medium_tank_aa_equipment_2_short
+ ENG_heavy_tank_equipment_4: "土龟 超重型坦克"
+ ENG_heavy_tank_equipment_4_short: "土龟 超重型坦克"
+ ENG_heavy_tank_equipment_5: "FV214 征服者重型坦克"
+ ENG_heavy_tank_equipment_5_short: "FV214 征服者重型坦克"
+ ENG_utility_helicopter_equipment_1: "H-19"
+ ENG_utility_helicopter_equipment_1_short: "H-19"
+ ENG_utility_helicopter_equipment_2: "CH-47 契努克"
+ ENG_utility_helicopter_equipment_2_short: "CH-47"
+ ENG_utility_helicopter_equipment_3: "SA330 美洲狮"
+ ENG_utility_helicopter_equipment_3_short: "SA330"
+ ENG_utility_helicopter_equipment_4: "贝尔 412"
+ ENG_utility_helicopter_equipment_4_short: "贝尔 412"
+ ENG_utility_helicopter_equipment_5: "AS550 非洲狐"
+ ENG_utility_helicopter_equipment_5_short: "AS550"
+ ENG_utility_helicopter_equipment_6: "韦斯特兰 山猫II型直升机"
+ ENG_utility_helicopter_equipment_6_short: "韦斯特兰 山猫II型直升机"
+ ENG_attack_helicopter_equipment_1: "韦斯特兰 瞪羚 AH.1攻击直升机"
+ ENG_attack_helicopter_equipment_1_short: "韦斯特兰 瞪羚 AH.1攻击直升机"
+ ENG_attack_helicopter_equipment_2: "BO-105"
+ ENG_attack_helicopter_equipment_2_short: "BO-105"
+ ENG_attack_helicopter_equipment_3: "山猫"
+ ENG_attack_helicopter_equipment_3_short: "山猫"
+ ENG_attack_helicopter_equipment_4: "AH-64A"
+ ENG_attack_helicopter_equipment_4_short: "AH-64A"
+###PRC
+ PRC_utility_helicopter_equipment_1: "米尔 米-4直升机"
+ PRC_utility_helicopter_equipment_1_short: "米尔 米-4直升机"
+ PRC_utility_helicopter_equipment_2: "米-6直升机"
+ PRC_utility_helicopter_equipment_2_short: "米-6直升机"
+ PRC_utility_helicopter_equipment_3: "米尔 米-8"
+ PRC_utility_helicopter_equipment_3_short: "米尔 米-8直升机"
+ PRC_utility_helicopter_equipment_4: "昌河 直-8"
+ PRC_utility_helicopter_equipment_4_short: "昌河 直-8"
+ PRC_utility_helicopter_equipment_5: "哈尔滨 直-9"
+ PRC_utility_helicopter_equipment_5_short: "哈尔滨 直-9"
+ PRC_utility_helicopter_equipment_5_desc: ""
+ PRC_utility_helicopter_equipment_6: "米尔 米-26"
+ PRC_utility_helicopter_equipment_6_short: "米尔 米-26直升机"
+ PRC_utility_helicopter_equipment_6_desc: ""
+ PRC_attack_helicopter_equipment_1: "米尔 米-24A"
+ PRC_attack_helicopter_equipment_1_short: "米-24A攻击直升机"
+ PRC_attack_helicopter_equipment_2: "米尔 米-24"
+ PRC_attack_helicopter_equipment_2_short: "米尔 米-24攻击直升机"
+ PRC_attack_helicopter_equipment_3: "米尔 米-28"
+ PRC_attack_helicopter_equipment_3_short: "米尔 米-28攻击直升机"
+ PRC_attack_helicopter_equipment_4: "卡莫夫 卡-50攻击直升机"
+ PRC_attack_helicopter_equipment_4_short: "卡莫夫 卡-50攻击直升机"
+ PRC_infantry_equipment_4: "AK-47突击步枪"
+ PRC_infantry_equipment_4_short: "AK-47突击步枪"
+ PRC_infantry_equipment_5: "北方工业 五六式突击步枪"
+ PRC_infantry_equipment_5_short: "北方工业 五六式突击步枪"
+ PRC_infantry_equipment_6: "北方工业 八一式突击步枪"
+ PRC_infantry_equipment_6_short: "八一式"
+ PRC_infantry_equipment_7: "北方工业 八七式突击步枪"
+ PRC_infantry_equipment_7_short: "八七式"
+ PRC_infantry_equipment_8: "北方工业 九五式突击步枪"
+ PRC_infantry_equipment_8_short: "北方工业 九五式突击步枪"
+ PRC_mechanized_equipment_4: "BTR-40装甲运兵车"
+ PRC_mechanized_equipment_4_short: "BTR-40装甲运兵车"
+ PRC_mechanized_equipment_5: "北方工业 六三式装甲运兵车"
+ PRC_mechanized_equipment_5_short: "北方工业 六三式装甲运兵车"
+ PRC_mechanized_equipment_7: "北方工业 九二式装甲运兵车"
+ PRC_mechanized_equipment_7_short: "北方工业 九二式装甲运兵车"
+ PRC_mechanized_equipment_8: "北方工业 八九式装甲运兵车"
+ PRC_mechanized_equipment_8_short: "北方工业 八九式装甲运兵车"
+###FRANCE
+ FRA_infantry_equipment_4: "圣艾蒂安兵工厂 MAS-44式半自动步枪"
+ FRA_infantry_equipment_4_short: "圣艾蒂安兵工厂 MAS-44式半自动步枪"
+ FRA_infantry_equipment_5: "圣艾蒂安兵工厂 MAS-49式半自动步枪"
+ FRA_infantry_equipment_5_short: "圣艾蒂安兵工厂 MAS-49式半自动步枪"
+ FRA_infantry_equipment_6: "圣艾蒂安兵工厂 MAS-44式突击步枪"
+ FRA_infantry_equipment_6_short: "圣艾蒂安兵工厂 MAS-44式突击步枪"
+ FRA_infantry_equipment_7: "法玛斯 F1突击步枪"
+ FRA_infantry_equipment_7_short: "法玛斯 F1突击步枪"
+ FRA_infantry_equipment_8: "法玛斯 G1突击步枪"
+ FRA_infantry_equipment_8_short: "法玛斯 G1突击步枪"
+ # FLTE code replace FRA_mechanized_equipment_1
+ # FLTE code replace FRA_mechanized_equipment_1_short
+ # FLTE code replace FRA_mechanized_equipment_3
+ # FLTE code replace FRA_mechanized_equipment_3_short
+ FRA_mechanized_equipment_4: "AMX-VTP全履带装甲运兵车"
+ FRA_mechanized_equipment_4_short: "AMX-VTP全履带装甲运兵车"
+ FRA_mechanized_equipment_5: "AMX-VTT 装甲运兵车"
+ FRA_mechanized_equipment_5_short: "AMX-VTT"
+ FRA_mechanized_equipment_6: "VAB-VTT 装甲运兵车"
+ FRA_mechanized_equipment_6_short: "VAB-VTT"
+ FRA_mechanized_equipment_7: "VAB “米兰” 装甲运兵车"
+ FRA_mechanized_equipment_7_short: "VAB “米兰”"
+ FRA_mechanized_equipment_8: "T.20/13 装甲运兵车"
+ FRA_mechanized_equipment_8_short: "VCI T.20/13"
+ FRA_heavy_mechanized_equipment_2: "AMX-VCI M.56步兵战车"
+ FRA_heavy_mechanized_equipment_2_short: "AMX-VCI M.56步兵战车"
+ FRA_heavy_mechanized_equipment_3: "AMX-10P步兵战车"
+ FRA_heavy_mechanized_equipment_3_short: "AMX-10P"
+ FRA_heavy_mechanized_equipment_4: "AMX-10P “米兰” 步兵战车"
+ FRA_heavy_mechanized_equipment_4_short: "AMX-10P “米兰” 步兵战车"
+ FRA_heavy_mechanized_equipment_5: "AMX-10P步兵战车改进型"
+ FRA_heavy_mechanized_equipment_5_short: "AMX-10P步兵战车改"
+ FRA_medium_tank_equipment_2_desc: "索玛 S35是第二次世界大战期间法国骑兵部队使用的一款主力坦克。 它于1936年至1940年间生产并装备骑兵部队的装甲师。 以当时的眼光来看，这是一款机动性相对较好的中型坦克，在装甲防护和火力方面都优于其法国以及国外的竞争对手，例如同时期的德国三号坦克。 S35采用倾斜式铸造装甲结构，这种设计虽然强化了防护性能，但也增加了生产成本和维护难度。"
+ FRA_utility_helicopter_equipment_1: "H-19"
+ FRA_utility_helicopter_equipment_1_short: "H-19"
+ FRA_utility_helicopter_equipment_2: "云雀 III"
+ FRA_utility_helicopter_equipment_2_short: "云雀 III"
+ FRA_utility_helicopter_equipment_3: "SA330 美洲狮"
+ FRA_utility_helicopter_equipment_3_short: "SA330"
+ FRA_utility_helicopter_equipment_4: "AS365 海豚"
+ FRA_utility_helicopter_equipment_4_short: "AS365"
+ FRA_utility_helicopter_equipment_5: "AS550 非洲狐"
+ FRA_utility_helicopter_equipment_5_short: "AS550"
+ FRA_utility_helicopter_equipment_6: "欧洲直升机 美洲狮 AS532型直升机"
+ FRA_utility_helicopter_equipment_6_short: "欧洲直升机 美洲狮 AS532型直升机"
+ FRA_attack_helicopter_equipment_1: "CH-34"
+ FRA_attack_helicopter_equipment_1_short: "CH-34"
+ FRA_attack_helicopter_equipment_2: "SA 321G 超级黄蜂"
+ FRA_attack_helicopter_equipment_2_short: "SA 321G"
+ FRA_attack_helicopter_equipment_4: "AS565 黑豹"
+ FRA_attack_helicopter_equipment_4_short: "AS565"
+##SPA##
+ SPA_gw_armored_car_equipment: "希斯巴诺-苏莎 MC-36装甲车"
+ SPA_gw_armored_car_equipment_short: "希斯巴诺-苏莎 MC-36装甲车"
+ # FLTE code replace SOV_armored_car_equipment_1
+ # FLTE code replace SOV_armored_car_equipment_1_short
+ # FLTE code replace SOV_armored_car_at_equipment
+ # FLTE code replace SOV_armored_car_at_equipment_short
+ # SOV_armored_car_equipment_3: "BRDM-1"
+ # SOV_armored_car_equipment_3_short: "BRDM-1"
+ # SOV_armored_car_equipment_4: "BRDM-2"
+ # SOV_armored_car_equipment_4_short: "BRDM-2"
+ # SOV_armored_car_equipment_5: "BRDM-2M"
+ # SOV_armored_car_equipment_5_short: "BRDM-2M"
+ # FLTE code replace SPA_light_tank_equipment_2
+ # FLTE code replace SPA_light_tank_equipment_2_short
+ #tanks
+ # FLTE code replace AST_gw_tank_equipment
+ # FLTE code replace AST_gw_tank_equipment_short
+ # FLTE code replace AST_light_tank_equipment_1
+ # FLTE code replace AST_light_tank_equipment_1_short
+ # FLTE code replace AST_light_tank_equipment_2
+ # FLTE code replace AST_light_tank_equipment_2_short
+ # FLTE code replace AST_light_tank_equipment_3
+ # FLTE code replace AST_light_tank_equipment_3_short
+ # FLTE code replace AST_light_tank_artillery_equipment_1
+ # FLTE code replace AST_light_tank_artillery_equipment_1_short
+ # FLTE code replace AST_light_tank_artillery_equipment_3
+ # FLTE code replace AST_light_tank_artillery_equipment_3_short
+ # FLTE code replace AST_light_tank_destroyer_equipment_3
+ # FLTE code replace AST_light_tank_destroyer_equipment_3_short
+ # FLTE code replace AST_light_tank_destroyer_equipment_1
+ # FLTE code replace AST_light_tank_destroyer_equipment_1_short
+ # FLTE code replace AST_light_tank_aa_equipment_1
+ # FLTE code replace AST_light_tank_aa_equipment_1_short
+ # FLTE code replace AST_light_tank_aa_equipment_2
+ # FLTE code replace AST_light_tank_aa_equipment_2_short
+ # FLTE code replace AST_light_tank_aa_equipment_3
+ # FLTE code replace AST_light_tank_aa_equipment_3_short
+ # FLTE code replace AST_medium_tank_equipment_1
+ # FLTE code replace AST_medium_tank_equipment_1_short
+ # FLTE code replace AST_medium_tank_destroyer_equipment_1
+ # FLTE code replace AST_medium_tank_destroyer_equipment_1_short
+ # FLTE code replace AST_medium_tank_destroyer_equipment_2
+ # FLTE code replace AST_medium_tank_destroyer_equipment_2_short
+ # FLTE code replace AST_medium_tank_artillery_equipment_1
+ # FLTE code replace AST_medium_tank_artillery_equipment_1_short
+ # FLTE code replace AST_medium_tank_artillery_equipment_2
+ # FLTE code replace AST_medium_tank_artillery_equipment_2_short
+ # FLTE code replace AST_medium_tank_artillery_equipment_3
+ # FLTE code replace AST_medium_tank_artillery_equipment_3_short
+ # FLTE code replace AST_medium_tank_aa_equipment_1
+ # FLTE code replace AST_medium_tank_aa_equipment_1_short
+ # FLTE code replace AST_medium_tank_aa_equipment_2
+ # FLTE code replace AST_medium_tank_aa_equipment_2_short
+ # FLTE code replace AST_medium_tank_aa_equipment_3
+ # FLTE code replace AST_medium_tank_aa_equipment_3_short
+ # FLTE code replace AST_light_tank_destroyer_equipment_2
+ # FLTE code replace AST_light_tank_destroyer_equipment_2_short
+ # FLTE code replace AST_light_tank_artillery_equipment_2
+ # FLTE code replace AST_light_tank_artillery_equipment_2_short
+ # FLTE code replace AST_medium_tank_destroyer_equipment_3
+ # FLTE code replace AST_medium_tank_destroyer_equipment_3_short
+ # FLTE code replace AST_heavy_tank_equipment_1
+ # FLTE code replace AST_heavy_tank_equipment_1_short
+ # FLTE code replace AST_heavy_tank_equipment_2_short
+ # FLTE code replace AST_heavy_tank_equipment_3_short
+ # FLTE code replace AST_heavy_tank_artillery_equipment_1
+ # FLTE code replace AST_heavy_tank_artillery_equipment_1_short
+ # FLTE code replace AST_heavy_tank_artillery_equipment_2
+ # FLTE code replace AST_heavy_tank_artillery_equipment_2_short
+ # FLTE code replace AST_heavy_tank_artillery_equipment_3
+ # FLTE code replace AST_heavy_tank_artillery_equipment_3_short
+ # FLTE code replace AST_heavy_tank_destroyer_equipment_2
+ # FLTE code replace AST_heavy_tank_destroyer_equipment_2_short
+ # FLTE code replace AST_heavy_tank_destroyer_equipment_3
+ # FLTE code replace AST_heavy_tank_destroyer_equipment_3_short
+ # FLTE code replace AST_heavy_tank_aa_equipment_2
+ # FLTE code replace AST_heavy_tank_aa_equipment_3
+ # FLTE code replace AST_heavy_tank_aa_equipment_3_short
+ # FLTE code replace BEL_light_tank_destroyer_equipment_1
+ # FLTE code replace BEL_light_tank_destroyer_equipment_1_short
+ # FLTE code replace BEL_light_tank_equipment_2
+ modern_tank_equipment_5: "1970年型主战坦克"
+ modern_tank_equipment_5_short: "1970年型主战坦克"
+ modern_tank_equipment_5_desc: ""
+ modern_tank_equipment_6: "1975年型主战坦克"
+ modern_tank_equipment_6_short: "1975年型主战坦克"
+ modern_tank_equipment_6_desc: ""
+ modern_tank_equipment_7: "1980年型主战坦克"
+ modern_tank_equipment_7_short: "1980年型主战坦克"
+ modern_tank_equipment_7_desc: ""
+ modern_tank_equipment_8: "1990年型主战坦克"
+ modern_tank_equipment_8_short: "1990年型主战坦克"
+ modern_tank_equipment_8_desc: "\""
+ # FLTE code replace CZE_gw_tank_equipment
+ # FLTE code replace CZE_gw_tank_equipment_short
+ # FLTE code replace CZE_light_tank_destroyer_equipment_2
+ # FLTE code replace CZE_light_tank_destroyer_equipment_2_short
+ # FLTE code replace CZE_medium_tank_equipment_1
+ # FLTE code replace CZE_medium_tank_equipment_1_short
+ # FLTE code replace CZE_medium_tank_destroyer_equipment_1
+ # FLTE code replace CZE_medium_tank_equipment_2
+ # FLTE code replace CZE_medium_tank_equipment_2_short
+ # FLTE code replace CZE_medium_tank_equipment_3
+ # FLTE code replace CZE_medium_tank_equipment_3_short
+ # FLTE code replace CZE_heavy_tank_equipment_1
+ # FLTE code replace CZE_heavy_tank_equipment_1_short
+ # FLTE code replace CZE_heavy_tank_equipment_2
+ # FLTE code replace CZE_heavy_tank_equipment_2_short
+ # FLTE code replace CZE_heavy_tank_equipment_3
+ # FLTE code replace CZE_heavy_tank_equipment_3_short
+ # FLTE code replace CZE_super_heavy_tank_equipment_1
+ # FLTE code replace CZE_super_heavy_tank_equipment_1_short
+ # FLTE code replace CZE_modern_tank_equipment_1
+ # FLTE code replace CZE_modern_tank_equipment_1_short
+ FRA_heavy_tank_destroyer_equipment_2: "ARL-44坦克歼击车"
+ FRA_heavy_tank_destroyer_equipment_3: "ARL-44坦克歼击车"
+ # FLTE code replace FRA_medium_tank_artillery_equipment_1
+ # FLTE code replace FRA_medium_tank_artillery_equipment_1_short
+ # FLTE code replace HOL_light_tank_equipment_1
+ # FLTE code replace HOL_light_tank_equipment_1_short
+ # FLTE code replace HOL_light_tank_equipment_2
+ # FLTE code replace HOL_light_tank_equipment_2_short
+ # FLTE code replace HOL_light_tank_equipment_3
+ # FLTE code replace HOL_light_tank_equipment_3_short
+ # FLTE code replace HUN_light_tank_equipment_1
+ JAP_infantry_equipment_4: "R2突击步枪"
+ JAP_infantry_equipment_4_short: "R2突击步枪"
+ JAP_infantry_equipment_5: "丰和 64式突击步枪"
+ JAP_infantry_equipment_5_short: "64式突击步枪"
+ JAP_infantry_equipment_7: "89式突击步枪"
+ JAP_infantry_equipment_7_short: "89式突击步枪"
+ JAP_infantry_equipment_8: "89-F式突击步枪"
+ JAP_infantry_equipment_8_short: "89-F式突击步枪"
+ ITA_infantry_equipment_4: "M1 加兰德"
+ ITA_infantry_equipment_4_short: "M1 加兰德"
+ ITA_infantry_equipment_5: "伯莱塔 M59突击步枪"
+ ITA_infantry_equipment_5_short: "M59突击步枪"
+ ITA_infantry_equipment_6: "伯莱塔 AR 70/223突击步枪"
+ ITA_infantry_equipment_6_short: "AR 70/223突击步枪"
+ ITA_infantry_equipment_7: "贝雷塔 AR70/90 突击步枪"
+ ITA_infantry_equipment_7_short: "贝雷塔 AR70/90"
+ ITA_infantry_equipment_8: "贝雷塔 SC 70/90"
+ ITA_infantry_equipment_8_short: "贝雷塔 SC 70/90"
+ # FLTE code replace NOR_light_tank_equipment_1
+ # FLTE code replace NOR_light_tank_equipment_1_short
+ # FLTE code replace SWE_medium_tank_equipment_3
+ # FLTE code replace SWE_medium_tank_equipment_3_short
+ FIN_gw_tank_equipment: "科伊拉斯坦克"
+ FIN_gw_tank_equipment_short: "科伊拉斯坦克"
+ FIN_light_tank_equipment_1: "维克斯E型轻型坦克"
+ FIN_light_tank_equipment_1_short: "E型6吨轻型坦克"
+ FIN_light_tank_equipment_1_desc: ""
+ FIN_light_tank_equipment_2: "BT-7型快速坦克"
+ FIN_light_tank_equipment_2_short: "BT-7型快速坦克"
+ FIN_light_tank_equipment_2_desc: ""
+ FIN_light_tank_equipment_3: "BT-42型快速坦克"
+ FIN_light_tank_equipment_3_short: "BT-42型快速坦克"
+ FIN_light_tank_equipment_3_desc: "缴获的BT-7快速坦克经过改装，搭载了一门由芬兰研制的114 毫米榴弹炮，并为此专门设计了炮塔上部结构。 但由于整体重心较高，操纵稳定性不佳，BT-42坦克在1942年苏芬战争的战场上，无法有效击穿苏军制式坦克的厚重倾斜装甲。"
+ FIN_light_tank_equipment_4: "T-50轻型坦克"
+ FIN_light_tank_equipment_4_short: "T-50轻型坦克"
+ # FLTE code replace gw_tank_equipment_desc
+ # FLTE code replace light_tank_equipment_desc
+ # FLTE code replace light_tank_equipment_1_desc
+ light_tank_equipment_4: "1950年代轻型坦克"
+ light_tank_equipment_4_short: "1950年代轻型坦克"
+ light_tank_equipment_4_desc: "轻型坦克通常设计紧凑、机动性高，主要用于执行战场侦察任务，同时也具备一定的作战能力，能够对抗敌方的轻型装甲车辆和步兵单位。"
+ light_tank_equipment_5: "1960年代轻型坦克"
+ light_tank_equipment_5_short: "1960年代轻型坦克"
+ light_tank_equipment_5_desc: "轻型坦克通常设计紧凑、机动性高，主要用于执行战场侦察任务，同时也具备一定的作战能力，能够对抗敌方的轻型装甲车辆和步兵单位。"
+ light_tank_equipment_6: "1970年代轻型坦克"
+ light_tank_equipment_6_short: "1970年代轻型坦克"
+ light_tank_equipment_6_desc: "轻型坦克通常设计紧凑、机动性高，主要用于执行战场侦察任务，同时也具备一定的作战能力，能够对抗敌方的轻型装甲车辆和步兵单位。"
+ light_tank_equipment_7: "1980年代轻型坦克"
+ light_tank_equipment_7_short: "1980年代轻型坦克"
+ light_tank_equipment_7_desc: "轻型坦克通常设计紧凑、机动性高，主要用于执行战场侦察任务，同时也具备一定的作战能力，能够对抗敌方的轻型装甲车辆和步兵单位。"
+ light_tank_equipment_8: "1990年代轻型坦克"
+ light_tank_equipment_8_short: "1990年代轻型坦克"
+ light_tank_equipment_8_desc: "轻型坦克通常设计紧凑、机动性高，主要用于执行战场侦察任务，同时也具备一定的作战能力，能够对抗敌方的轻型装甲车辆和步兵单位。"
+ # FLTE code replace light_tank_equipment_2_desc
+ # FLTE code replace light_tank_equipment_3_desc
+ # FLTE code replace light_tank_destroyer_equipment_desc
+ # FLTE code replace light_tank_destroyer_equipment_1_desc
+ # FLTE code replace light_tank_destroyer_equipment_2_desc
+ # FLTE code replace light_tank_destroyer_equipment_3_desc
+ # FLTE code replace light_tank_aa_equipment_desc
+ # FLTE code replace light_tank_aa_equipment_1_desc
+ # FLTE code replace light_tank_aa_equipment_2_desc
+ # FLTE code replace light_tank_aa_equipment_3_desc
+ # FLTE code replace medium_tank_equipment_desc
+ # FLTE code replace medium_tank_equipment_1_desc
+ # FLTE code replace medium_tank_equipment_2_desc
+ # FLTE code replace SWE_medium_tank_equipment_2_short
+ # FLTE code replace medium_tank_equipment_3_desc
+ # FLTE code replace medium_tank_destroyer_equipment_desc
+ # FLTE code replace medium_tank_destroyer_equipment_1_desc
+ # FLTE code replace medium_tank_destroyer_equipment_2_desc
+ # FLTE code replace medium_tank_destroyer_equipment_3_desc
+ medium_tank_destroyer_equipment_4: "中型坦克歼击车 IV型"
+ medium_tank_destroyer_equipment_4_short: "中型坦克歼击车 IV型"
+ medium_tank_destroyer_equipment_4_desc: "坦克歼击车，也称自行反坦克炮，是一种以大口径反坦克炮取代传统旋转炮塔，并将火炮固定安装于车体之上的装甲战斗车辆。 中型坦克歼击车采用中型坦克底盘，因此在保持一定机动性的同时，也具备较为可观的反装甲火力。"
+ # FLTE code replace medium_tank_aa_equipment_desc
+ # FLTE code replace medium_tank_aa_equipment_1_desc
+ # FLTE code replace medium_tank_aa_equipment_2_desc
+ # FLTE code replace medium_tank_aa_equipment_3_desc
+ medium_tank_aa_equipment_4: "中型自行火炮防空炮 IV型"
+ medium_tank_aa_equipment_4_short: "中型自行火炮防空炮 IV型"
+ medium_tank_aa_equipment_4_desc: "装备在中型坦克底盘上的中型自行防空炮。"
+ heavy_tank_artillery_equipment_4: "重型自行火炮 IV"
+ heavy_tank_artillery_equipment_4_short: "重型自行火炮 IV型"
+ heavy_tank_artillery_equipment_4_desc: "安装在重型底盘上的大型火炮，可以提供很强的火力。"
+ # FLTE code replace heavy_tank_destroyer_equipment_desc
+ # FLTE code replace heavy_tank_destroyer_equipment_1_desc
+ # FLTE code replace heavy_tank_destroyer_equipment_2_desc
+ # FLTE code replace heavy_tank_destroyer_equipment_3_desc
+ heavy_tank_destroyer_equipment_4: "重型坦克歼击车 IV"
+ heavy_tank_destroyer_equipment_4_short: "重型坦克歼击车 IV型"
+ heavy_tank_destroyer_equipment_4_desc: "重型坦克歼击车移除了炮塔以搭载更大口径的火炮"
+ # FLTE code replace heavy_tank_aa_equipment_desc
+ # FLTE code replace heavy_tank_aa_equipment_1_desc
+ # FLTE code replace heavy_tank_aa_equipment_2_desc
+ # FLTE code replace heavy_tank_aa_equipment_3_desc
+ # FLTE code replace super_heavy_tank_equipment_desc
+ # FLTE code replace super_heavy_tank_equipment_1_desc
+ # FLTE code replace super_heavy_tank_artillery_equipment_desc
+ # FLTE code replace super_heavy_tank_artillery_equipment_1_desc
+ # FLTE code replace super_heavy_tank_destroyer_equipment_desc
+ # FLTE code replace super_heavy_tank_destroyer_equipment_1_desc
+ # FLTE code replace super_heavy_tank_aa_equipment_desc
+ # FLTE code replace super_heavy_tank_aa_equipment_1
+ # FLTE code replace super_heavy_tank_aa_equipment_1_desc
+ # FLTE code replace modern_tank_equipment_desc
+ # FLTE code replace modern_tank_equipment_1_desc
+ # FLTE code replace modern_tank_destroyer_equipment_desc
+ # FLTE code replace modern_tank_destroyer_equipment_1_desc
+ # FLTE code replace modern_tank_aa_equipment
+ # FLTE code replace modern_tank_aa_equipment_desc
+ # FLTE code replace modern_tank_aa_equipment_1_desc
+ # FLTE code replace SWE_motorized_equipment_1
+ # FLTE code replace FRA_motorized_equipment_1
+ # FLTE code replace JAP_motorized_equipment_1
+ # FLTE code replace POL_motorized_equipment_1
+ # FLTE code replace mechanized_equipment_desc
+ # FLTE code replace mechanized_equipment_1_desc
+ # FLTE code replace mechanized_equipment_2_desc
+ # FLTE code replace mechanized_equipment_3_desc
+ # FLTE code replace SWE_mechanized_equipment_3
+ # FLTE code replace SWE_mechanized_equipment_3_short
+ JAP_mechanized_equipment_5: "60式装甲运兵车"
+ JAP_mechanized_equipment_5_short: "60式装甲运兵车"
+ JAP_mechanized_equipment_6: "73式装甲运兵车"
+ JAP_mechanized_equipment_6_short: "73式装甲运兵车"
+ JAP_mechanized_equipment_8: "小松 96式装甲运兵车"
+ JAP_mechanized_equipment_8_short: "九六式装甲运兵车"
+ JAP_heavy_mechanized_equipment_4: "89式步兵战车"
+ JAP_heavy_mechanized_equipment_4_short: "89式步兵战车"
+ # FLTE code replace CAN_mechanized_equipment_1
+ # FLTE code replace CAN_mechanized_equipment_1_short
+ # FLTE code replace AST_mechanized_equipment_3
+ # FLTE code replace AST_mechanized_equipment_3_short
+ # FLTE code replace ITA_mechanized_equipment_1
+ # FLTE code replace ITA_mechanized_equipment_1_short
+ # FLTE code replace ITA_mechanized_equipment_2
+ # FLTE code replace ITA_mechanized_equipment_2_short
+ # FLTE code replace ITA_mechanized_equipment_3
+ # FLTE code replace ITA_mechanized_equipment_3_short
+ ITA_mechanized_equipment_4: "M113 装甲运兵车"
+ ITA_mechanized_equipment_4_short: "M113 VTT"
+ ITA_mechanized_equipment_5: "M113A2 装甲运兵车"
+ ITA_mechanized_equipment_5_short: "M113A2 VTT"
+ ITA_mechanized_equipment_6: "菲亚特 6614 装甲车"
+ ITA_mechanized_equipment_6_short: "菲亚特 6614"
+ ITA_mechanized_equipment_7: "VCC-2 装甲运兵车"
+ ITA_mechanized_equipment_7_short: "VCC-2"
+ ITA_mechanized_equipment_8: "\"美洲狮\" 装甲运兵车"
+ ITA_mechanized_equipment_8_short: "“美洲狮” TT"
+ ITA_heavy_mechanized_equipment_1: "M113 装甲骑兵突击车"
+ ITA_heavy_mechanized_equipment_1_short: "M113 ACAV"
+ ITA_heavy_mechanized_equipment_2: "M113A1 装甲骑兵突击车"
+ ITA_heavy_mechanized_equipment_2_short: "M113A1 ACAV"
+ ITA_heavy_mechanized_equipment_3: "VCC-1 “卡米利诺” 步兵战车"
+ ITA_heavy_mechanized_equipment_3_short: "VCC-1 “卡米利诺”"
+ ITA_heavy_mechanized_equipment_4: "VCC-1 步兵战车 附加装甲型"
+ ITA_heavy_mechanized_equipment_4_short: "VCC-1 步兵战车 附加装甲型"
+ ITA_heavy_mechanized_equipment_5: "“标枪” 步兵战车"
+ ITA_heavy_mechanized_equipment_5_short: "“标枪” 步兵战车"
+ # FLTE code replace anti_air_equipment
+ # FLTE code replace anti_air_equipment_short
+ # FLTE code replace anti_air_equipment_desc
+ # FLTE code replace anti_tank_equipment_desc
+#anti-tank
+ # FLTE code replace FRA_anti_tank_equipment_1
+ # FLTE code replace FRA_anti_tank_equipment_2
+ # FLTE code replace GER_anti_tank_equipment_3
+ # FLTE code replace JAP_anti_tank_equipment_1
+ # FLTE code replace JAP_anti_tank_equipment_1_short
+ # FLTE code replace JAP_anti_tank_equipment_2
+ # FLTE code replace JAP_anti_tank_equipment_3
+ # FLTE code replace HUN_anti_tank_equipment_1
+ # FLTE code replace HUN_anti_tank_equipment_1_short
+ # FLTE code replace ITA_anti_tank_equipment_1
+ # FLTE code replace ITA_anti_tank_equipment_1_short
+ # FLTE code replace ITA_anti_tank_equipment_2
+ # FLTE code replace ITA_anti_tank_equipment_3
+ # FLTE code replace DEN_anti_tank_equipment_1
+ # FLTE code replace DEN_anti_tank_equipment_1_short
+ # FLTE code replace NOR_anti_tank_equipment_3
+#anti-air
+ # FLTE code replace FRA_anti_air_equipment_1
+ # FLTE code replace FRA_anti_air_equipment_2
+ # FLTE code replace GER_anti_air_equipment_3
+ # FLTE code replace JAP_anti_air_equipment_1
+ # FLTE code replace JAP_anti_air_equipment_2
+ # FLTE code replace JAP_anti_air_equipment_3
+ # FLTE code replace ITA_anti_air_equipment_1
+ # FLTE code replace ITA_anti_air_equipment_1_short
+ # FLTE code replace ITA_anti_air_equipment_3
+ # FLTE code replace SWE_anti_air_equipment_1
+ SWE_anti_air_equipment_1_short: "m/40 20毫米机关炮"
+ # FLTE code replace SWE_anti_air_equipment_2
+ # FLTE code replace SWE_anti_air_equipment_3
+ # FLTE code replace CZE_anti_air_equipment_1
+ CZE_anti_air_equipment_1_short: "布尔诺兵工厂 vz. 60型防空炮"
+ # FLTE code replace CZE_anti_air_equipment_2
+ # FLTE code replace CZE_anti_air_equipment_3
+ # FLTE code replace DEN_anti_air_equipment_1
+ # FLTE code replace DEN_anti_air_equipment_1_short
+ # FLTE code replace ROM_anti_air_equipment_1
+ # FLTE code replace ROM_anti_air_equipment_1_short
+ # FLTE code replace ROM_anti_air_equipment_2
+ # FLTE code replace ROM_anti_air_equipment_3
+ # FLTE code replace FIN_anti_air_equipment_1
+ # FLTE code replace FIN_anti_air_equipment_1_short
+ # FLTE code replace NOR_anti_air_equipment_1
+ # FLTE code replace artillery_equipment_desc
+ #artillery
+ FRA_artillery_equipment_4: "Mle 50 155毫米榴弹炮"
+ FRA_artillery_equipment_8: "F1牵引式火炮"
+ ENG_artillery_equipment_6: "L118火炮"
+ ENG_artillery_equipment_7: "FH70榴弹炮"
+ ENG_artillery_equipment_8: "FH70榴弹炮"
+ USA_artillery_equipment_5: "M102榴弹炮"
+ USA_artillery_equipment_7: "M198榴弹炮"
+ USA_artillery_equipment_8: "M198A1榴弹炮"
+ ITA_artillery_equipment_7: "FH70榴弹炮"
+ JAP_artillery_equipment_7: "FH70榴弹炮"
+ GER_artillery_equipment_7: "FH70榴弹炮"
+ # FLTE code replace GER_artillery_equipment_1
+ # FLTE code replace GER_artillery_equipment_1_short
+ # FLTE code replace GER_artillery_equipment_2
+ # FLTE code replace GER_artillery_equipment_3
+ # FLTE code replace ITA_artillery_equipment_2
+ # FLTE code replace ITA_artillery_equipment_2_short
+ # FLTE code replace JAP_artillery_equipment_1
+ # FLTE code replace JAP_artillery_equipment_1_short
+ # FLTE code replace JAP_artillery_equipment_2
+ # FLTE code replace JAP_artillery_equipment_3
+ # FLTE code replace NOR_artillery_equipment_1
+ # FLTE code replace NOR_artillery_equipment_1_short
+ # FLTE code replace NOR_artillery_equipment_2
+ # FLTE code replace NOR_artillery_equipment_3
+ # FLTE code replace POL_artillery_equipment_1
+ # FLTE code replace POL_artillery_equipment_1_short
+ # FLTE code replace POL_artillery_equipment_2
+ # FLTE code replace POL_artillery_equipment_3
+ # FLTE code replace SWE_artillery_equipment_1
+ # FLTE code replace SWE_artillery_equipment_1_short
+ # FLTE code replace SWE_artillery_equipment_2
+ # FLTE code replace SWE_artillery_equipment_3
+ # FLTE code replace AUS_artillery_equipment_2
+ # FLTE code replace AUS_artillery_equipment_2_short
+ # FLTE code replace BEL_artillery_equipment_1
+ # FLTE code replace BEL_artillery_equipment_2
+ # FLTE code replace ROM_artillery_equipment_1
+ # FLTE code replace ROM_artillery_equipment_1_short
+ # FLTE code replace ROM_artillery_equipment_2
+ # FLTE code replace ROM_artillery_equipment_2_short
+ # FLTE code replace ROM_artillery_equipment_3
+ # FLTE code replace ROM_artillery_equipment_3_short
+ # FLTE code replace HUN_artillery_equipment_2
+ # FLTE code replace HUN_artillery_equipment_2_short
+ # FLTE code replace HUN_artillery_equipment_3
+ # FLTE code replace HUN_artillery_equipment_3_short
+ YUG_artillery_equipment_1: "施耐德 mle 1913 105毫米火炮"
+ YUG_artillery_equipment_1_short: "mle 1913 105毫米火炮"
+ YUG_artillery_equipment_2: "斯柯达 vz.35 100毫米火炮"
+ YUG_artillery_equipment_2_short: "vz.35 100毫米火炮"
+ YUG_artillery_equipment_3: "斯柯达 vz.34K1 150毫米榴弹炮"
+ YUG_artillery_equipment_3_short: "斯柯达 vz.34K1 150毫米榴弹炮"
+ # FLTE code replace rocket_artillery_equipment_desc
+ # FLTE code replace JAP_rocket_artillery_equipment_2
+ # small arms
+ # FLTE code replace ITA_infantry_equipment_2
+ # FLTE code replace ITA_infantry_equipment_2_short
+ # FLTE code replace ITA_infantry_equipment_3
+ # FLTE code replace ITA_infantry_equipment_3_short
+ # FLTE code replace JAP_infantry_equipment_0
+ # FLTE code replace JAP_infantry_equipment_1
+ # FLTE code replace JAP_infantry_equipment_2
+ # FLTE code replace JAP_infantry_equipment_3
+ # FLTE code replace JAP_infantry_equipment_3_short
+ # FLTE code replace POL_infantry_equipment_3
+ # FLTE code replace POL_infantry_equipment_3_short
+ # FLTE code replace POL_support_weapons
+ # FLTE code replace POL_support_weapons3
+ # FLTE code replace POL_support_weapons4
+ # FLTE code replace SWE_infantry_equipment_0
+ # FLTE code replace SWE_infantry_equipment_0_short
+ # FLTE code replace SWE_infantry_equipment_1
+ # FLTE code replace SWE_infantry_equipment_1_short
+ # FLTE code replace SWE_infantry_equipment_2
+ # FLTE code replace SWE_infantry_equipment_2_short
+ # FLTE code replace SWE_infantry_equipment_3
+ # FLTE code replace SWE_infantry_equipment_3_short
+ SWE_infantry_equipment_4: "m/45冲锋枪"
+ SWE_infantry_equipment_4_short: "m/45冲锋枪"
+ SWE_infantry_equipment_5: "萨博-博福斯 AK-4自动卡宾枪"
+ SWE_infantry_equipment_5_short: "AK-4自动卡宾枪"
+ SWE_infantry_equipment_6: "FFV 890C突击步枪"
+ SWE_infantry_equipment_6_short: "FFV 890C突击步枪"
+ SWE_infantry_equipment_7: "萨博-博福斯 AK-5自动卡宾枪"
+ SWE_infantry_equipment_7_short: "AK-5自动卡宾枪"
+ SWE_infantry_equipment_8: "萨博-博福斯 AK-5B自动卡宾枪"
+ SWE_infantry_equipment_8_short: "AK-5B自动卡宾枪"
+ # FLTE code replace FIN_infantry_equipment_0
+ # FLTE code replace FIN_infantry_equipment_0_short
+ # FLTE code replace FIN_infantry_equipment_1
+ # FLTE code replace FIN_infantry_equipment_1_short
+ # FLTE code replace FIN_infantry_equipment_2
+ # FLTE code replace FIN_infantry_equipment_2_short
+ # FLTE code replace FIN_infantry_equipment_3
+ # FLTE code replace FIN_infantry_equipment_3_short
+ FIN_infantry_equipment_4: "RK-54突击步枪"
+ FIN_infantry_equipment_4_short: "RK-54突击步枪"
+ FIN_infantry_equipment_5: "RK-62突击步枪"
+ FIN_infantry_equipment_5_short: "RK-62突击步枪"
+ FIN_infantry_equipment_6: "RK-62/76突击步枪"
+ FIN_infantry_equipment_6_short: "RK-62/76突击步枪"
+ FIN_infantry_equipment_8: "RK-95突击步枪"
+ FIN_infantry_equipment_8_short: "RK-95突击步枪"
+ FIN_motorized_equipment_2: "吉尔-157卡车"
+ FIN_motorized_equipment_3: "西苏 A-45卡车"
+ FIN_motorized_equipment_4: "克列缅楚格汽车厂-255B卡车"
+ # FLTE code replace SWI_infantry_equipment_0
+ # FLTE code replace SWI_infantry_equipment_0_short
+ # FLTE code replace SWI_infantry_equipment_1
+ # FLTE code replace SWI_infantry_equipment_1_short
+ # FLTE code replace SWI_infantry_equipment_2
+ # FLTE code replace SWI_infantry_equipment_2_short
+ # FLTE code replace SWI_infantry_equipment_3
+ # FLTE code replace SWI_infantry_equipment_3_short
+ SWI_infantry_equipment_4: "西格&绍尔 510突击步枪"
+ SWI_infantry_equipment_4_short: "西格 510突击步枪"
+ SWI_infantry_equipment_5: "西格&绍尔 530突击步枪"
+ SWI_infantry_equipment_5_short: "西格 530突击步枪"
+ SWI_infantry_equipment_6: "西格&绍尔 540突击步枪"
+ SWI_infantry_equipment_6_short: "西格 540突击步枪"
+ SWI_infantry_equipment_7: "西格&绍尔 550突击步枪"
+ SWI_infantry_equipment_7_short: "西格 550突击步枪"
+ SWI_infantry_equipment_8: "西格&绍尔 543突击步枪"
+ SWI_infantry_equipment_8_short: "西格 543突击步枪"
+ # FLTE code replace BEL_infantry_equipment_0
+ # FLTE code replace BEL_infantry_equipment_0_short
+ # FLTE code replace BEL_infantry_equipment_2
+ # FLTE code replace BEL_infantry_equipment_2_short
+ # FLTE code replace BEL_infantry_equipment_3
+ # FLTE code replace BEL_infantry_equipment_3_short
+ BEL_infantry_equipment_4: "FN FAL突击步枪"
+ BEL_infantry_equipment_4_short: "FN FAL突击步枪"
+ BEL_infantry_equipment_7: "FN FNC突击步枪"
+ BEL_infantry_equipment_7_short: "FN FNC突击步枪"
+ # FLTE code replace BUL_infantry_equipment_1
+ # FLTE code replace BUL_infantry_equipment_1_short
+ # FLTE code replace tank_reliability_upgrade_desc
+ # FLTE code replace REQUESTED_MANPOWER_DETAILS
+ # FLTE code replace NOT_ENOUGH_MANPOWER_TO_REINFORCE
+ # FLTE code replace MANPOWER_REINFORCEMENT_NOT_POSSIBLE
+ # FLTE code replace nuclear_missile_equipment_1
+ # FLTE code replace nuclear_missile_equipment_2
+ # FLTE code replace EQUIPMENT_MODULE_NOT_ALLOWED
+##AC##
+ # FLTE code replace train_equipment_2_desc
+ train_equipment_4: "1950 火车"
+ train_equipment_5: "1960 火车"
+ train_equipment_6: "1970 火车"
+ train_equipment_7: "1980 火车"
+ train_equipment_8: "1990 火车"
+ # FLTE code replace GER_railway_gun_equipment_1
+ ###Flamey bois - just the defaults here
+ ###Amphib - Defaults
+ ##### Mobile Infantry & Special Forces #####
+ ##### Weapons & Equipment #####
+ # FLTE code replace LAT_infantry_equipment_0
+ # FLTE code replace LAT_infantry_equipment_0_short
+ ##### Air Equipment #####
+ ##### Train Equipment #####
+ # FLTE code replace gw_armored_car_equipment
+ armored_car_equipment_3: "1950 装甲车"
+ armored_car_equipment_3_desc: ""
+ armored_car_equipment_4: "1960 装甲车"
+ armored_car_equipment_4_desc: ""
+ armored_car_equipment_5: "1970 装甲车"
+ armored_car_equipment_5_desc: ""
+ # FLTE code replace SOV_armored_car_equipment_1
+ # FLTE code replace SOV_armored_car_equipment_1_short
+ # FLTE code replace SOV_armored_car_at_equipment
+ # FLTE code replace SOV_armored_car_at_equipment_short
+ SOV_armored_car_equipment_3: "BRDM-1两栖侦察车"
+ SOV_armored_car_equipment_3_short: "BRDM-1两栖侦察车"
+ SOV_armored_car_equipment_4: "BRDM-2型两栖侦察车"
+ SOV_armored_car_equipment_4_short: "BRDM-2型两栖侦察车"
+ SOV_armored_car_equipment_5: "BRDM-2M型两栖侦察车"
+ SOV_armored_car_equipment_5_short: "BRDM-2M型两栖侦察车"
+ TUR_armored_car_equipment_5: "LAV-150装甲车"
+ TUR_armored_car_equipment_5_short: "LAV-150装甲车"
+ # FLTE code replace USA_armored_car_equipment_2
+ # FLTE code replace USA_armored_car_equipment_2_short
+ # FLTE code replace USA_armored_car_at_equipment
+ # FLTE code replace USA_armored_car_at_equipment_short
+ USA_armored_car_equipment_3: "M3A2侦察车"
+ USA_armored_car_equipment_3_short: "M3A2侦察车"
+ USA_armored_car_equipment_4: "凯迪拉克盖奇 M706突击车"
+ USA_armored_car_equipment_4_short: "凯迪拉克盖奇 V100装甲车"
+ USA_armored_car_equipment_5: "德事隆 LAV-150装甲车"
+ USA_armored_car_equipment_5_short: "LAV-150装甲车"
+ # FLTE code replace FRA_armored_car_at_equipment
+ # FLTE code replace FRA_armored_car_at_equipment_short
+ FRA_armored_car_equipment_3: "潘哈德 EBR装甲侦察车"
+ FRA_armored_car_equipment_3_short: "潘哈德 EBR装甲侦察车"
+ FRA_armored_car_equipment_4: "AML-20装甲车"
+ FRA_armored_car_equipment_4_short: "AML-20装甲车"
+ FRA_armored_car_equipment_5: "AML-60-20装甲车"
+ FRA_armored_car_equipment_5_short: "AML-60-20装甲车"
+ ENG_armored_car_equipment_3: "费雷特 Mk.2/2装甲车"
+ ENG_armored_car_equipment_3_short: "费雷特 Mk.2/2装甲车"
+ ENG_armored_car_equipment_4: "费雷特 Mk.5装甲车"
+ ENG_armored_car_equipment_4_short: "费雷特 Mk.5装甲车"
+ ENG_armored_car_equipment_5: "萨拉丁 FV601装甲车"
+ ENG_armored_car_equipment_5_short: "萨拉丁 FV601装甲车"
+ GER_armored_car_equipment_3: "Sd.Kfz 256号特种机动车"
+ GER_armored_car_equipment_3_short: "Sd.Kfz 256号特种机动车"
+ ITA_armored_car_equipment_5: "菲亚特6614装甲车"
+ ITA_armored_car_equipment_5_short: "菲亚特6614装甲车"
+ JAP_armored_car_equipment_5: "八七式侦察装甲车"
+ JAP_armored_car_equipment_5_short: "八七式侦察装甲车"
+ ###SPECIAL PROJECTS - armopred engineers
+ # FLTE code replace strat_bomber_intercontinental_equipment_desc
+ # FLTE code replace strat_bomber_intercontinental_equipment_1_desc
+ PHI_infantry_equipment_0: "春田 M1903"
+ PHI_infantry_equipment_0_short: "春田 M1903"
+ PHI_infantry_equipment_1: "M1 加兰德"
+ PHI_infantry_equipment_1_short: "M1 加兰德"
+ PHI_infantry_equipment_2: "M1 汤姆森冲锋枪"
+ PHI_infantry_equipment_2_short: "M1 汤姆森冲锋枪"
+ PHI_infantry_equipment_3: "M2 卡宾枪"
+ PHI_infantry_equipment_3_short: "M2 卡宾枪"
+ PHI_infantry_equipment_4: "M14 步枪"
+ PHI_infantry_equipment_4_short: "M14 步枪"
+ PHI_infantry_equipment_5: "M16 步枪"
+ PHI_infantry_equipment_5_short: "M16 步枪"
+ PHI_infantry_equipment_6: "M16A1 步枪"
+ PHI_infantry_equipment_6_short: "M16A1 步枪"
+ PHI_infantry_equipment_7: "M16A3 步枪"
+ PHI_infantry_equipment_7_short: "M16A3 步枪"
+ PHI_motorized_equipment_3: "道奇 M35 2½吨 6×6 卡车"
+ PHI_motorized_equipment_3_short: "M35A1"
+ PHI_motorized_equipment_3_desc: "M35 2½吨载货卡车是一款拥有极长服役历史的2½吨级6×6驱动载货卡车。该车最初由美国陆军列装，随后被全球多个国家广泛采用。随着时间的推移，它已发展成为一个包含多种专用变种型号的庞大车族。该车继承了二战时期GMC CCKW型2½吨卡车的经典绰号——“两吨半”"
+ PHI_heavy_mechanized_equipment_3: "装甲步兵战车"
+ PHI_heavy_mechanized_equipment_3_short: "装甲步兵战车"
+ PHI_heavy_mechanized_equipment_3_desc: "AIFV，即装甲步兵战车，是一款美制履带式轻型装甲车，主要被多国军队用作步兵战车。该车系M113A1装甲输送车的衍生型号。虽未获美国国内采用，但其外销成绩斐然，现役于全球十多个国家。"
+ PHI_heavy_mechanized_equipment_5: "FNSS 15式装甲步兵战车"
+ PHI_heavy_mechanized_equipment_5_short: "ACV-15"
+ PHI_heavy_mechanized_equipment_5_desc: "ACV-15 是一款两栖步兵战车系列的型号，由土耳其国防公司FNSS防务系统公司研制，同时也由马来西亚的DRB-HICOM防务技术公司生产。该车设计融合了步兵战车与装甲运兵车的特性。ACV-15基于美国的先进步兵战车研发，而AIFV的前身则是著名的美制M113A1装甲运兵车。"
+ CHI_infantry_equipment_4: "M14 步枪"
+ CHI_infantry_equipment_4_short: "M14 步枪"
+ CHI_infantry_equipment_5: "M16A1 步枪"
+ CHI_infantry_equipment_5_short: "M16A1 步枪"
+ CHI_infantry_equipment_6: "T65 步枪"
+ CHI_infantry_equipment_6_short: "T65 步枪"
+ CHI_infantry_equipment_6_desc: "T65突击步枪是由中华民国国军联勤总部开发并制造的一款突击步枪。该枪最初以采用短行程活塞传动系统的阿玛莱特 AR-18 为原型，但其在1975年亮相的原型枪则显示出深受 AR-15 系列步枪的影响，并对机械瞄具、枪托形状及护木进行了重新设计。其型号中的数字“65”代表民国65年（1976年），即该步枪定型的年份。"
+ CHI_infantry_equipment_7: "T65K 步枪"
+ CHI_infantry_equipment_7_short: "T65K 步枪"
+ CHI_infantry_equipment_7_desc: "T65突击步枪是由中华民国国军联勤总部开发并制造的一款突击步枪。该枪最初以采用短行程活塞传动系统的阿玛莱特 AR-18 为原型，但其在1975年亮相的原型枪则显示出深受 AR-15 系列步枪的影响，并对机械瞄具、枪托形状及护木进行了重新设计。其型号中的数字“65”代表民国65年（1976年），即该步枪定型的年份。"
+ CHI_infantry_equipment_8: "T86 卡宾枪"
+ CHI_infantry_equipment_8_short: "T86 卡宾枪"
+ CHI_infantry_equipment_8_desc: "T86步枪是一款导气式、弹匣供弹的突击步枪。它是中华民国国军联勤总部第二〇五兵工厂开展的第二个原创步枪设计项目。"
+ CHI_mechanized_equipment_1: "27式 装甲运输车"
+ CHI_mechanized_equipment_1_short: "27式"
+ CHI_mechanized_equipment_2: "31式 装甲运输车"
+ CHI_mechanized_equipment_2_short: "31式"
+ CHI_mechanized_equipment_3: "33式 装甲运输车"
+ CHI_mechanized_equipment_3_short: "33式"
+ CHI_mechanized_equipment_4: "37式 装甲运输车"
+ CHI_mechanized_equipment_4_short: "37式"
+ CHI_mechanized_equipment_7: "CM-21装甲车"
+ CHI_mechanized_equipment_7_short: "CM-21"
+ CHI_mechanized_equipment_7_desc: "CM-21装甲车是由中华民国陆军装甲兵技术发展中心基于美制 M113 装甲运兵车（APC）设计并制造的一款装甲车辆。其首架原型车于1979年生产，并于1982年正式投入现役。CM-21 至今仍在服役中，总产量超过1,000辆，并衍生出了多种不同的改型。"

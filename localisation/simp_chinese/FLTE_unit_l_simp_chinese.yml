@@ -1,0 +1,22 @@
+﻿l_simp_chinese:
+ # FLTE code replace CLICK_NAVY_SEE_DETAILS
+ # FLTE code replace UNIT_LEADER_SKILL_LAND_DESC
+ # FLTE code replace ENTRENCHMENT_TT2
+ # FLTE code replace ENTRENCHMENT_INCREASE_BY_X_REACH_MAX_IN
+ # FLTE code replace DISBAND_ALL_UNIT
+ # FLTE code replace TASK_FORCE_COMPOSITION_ANY_ROLE_CLICK_TO_SELECT
+ deserti: "沙漠步兵"
+ shock: "突击部队"
+ amechanized: "空降步兵战车"
+ # FLTE code replace light_tank_recon_desc
+ para_tank: "空降坦克"
+ wheel_tank: "轮式坦克"
+ # FLTE code replace MORALE_TITLE
+ # FLTE code replace category_support_battalions
+ # FLTE code replace MODIFIER_AIR_INVASION_DIVISION_CAP_DESC
+ # FLTE code replace CLICK_TO_ASSIGN_COMMANDER
+ # FLTE code replace DIVISION_VIEW_SELECT_ARMY
+ # FLTE code replace rangers_support_desc
+ # FLTE code replace pioneer_support_desc
+ # FLTE code replace marines_shore_parties_desc
+ # FLTE code replace helicopter_field_hospital_desc

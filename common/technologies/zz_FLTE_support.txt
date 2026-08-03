@@ -28,11 +28,11 @@ technologies = {
     @tech_support_y = 0
     @Tier1_1 = 2   @Tier1_2 = 4   @Tier1_mid = 3
     @Tier2_1 = 6   @Tier2_2 = 8   @Tier2_mid = 7
-    @Tier3_mid = 10  @Tier3_2 = 12  @Tier3_mid = 11
-    @Tier4_mid = 14  @Tier4_2 = 16  @Tier4_mid = 15
-    @Tier5_mid = 18  @Tier5_2 = 20  @Tier5_mid = 19
-    @Tier6_mid = 22  @Tier6_2 = 24  @Tier6_mid = 23
-    @Tier7_mid = 26  @Tier7_2 = 28  @Tier7_mid = 27
+    @Tier3_1 = 10  @Tier3_2 = 12  @Tier3_mid = 11
+    @Tier4_1 = 14  @Tier4_2 = 16  @Tier4_mid = 15
+    @Tier5_1 = 18  @Tier5_2 = 20  @Tier5_mid = 19
+    @Tier6_1 = 22  @Tier6_2 = 24  @Tier6_mid = 23
+    @Tier7_1 = 26  @Tier7_2 = 28  @Tier7_mid = 27
 
     tech_support = {
         enable_equipments = {

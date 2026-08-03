@@ -14,14 +14,13 @@ technologies = {
 	@para_chassis_branch = 6
 	@wheeled_chassis_branch = 18
 
-    @Tier2_1 = 0 @Tier2_2 = 2
-    @Tier3_1 = 4 @Tier3_2 = 6 @Tier3_3 = 8
-    @Tier4_1 = 10 @Tier4_2 = 12 @Tier4_3 = 14
-    @Tier5_1 = 16 @Tier5_2 = 18
-    @Tier6_1 = 20 @Tier6_2 = 22
-    @Tier7_1 = 24 @Tier7_2 = 26
-    @Tier8_1 = 28 @Tier8_2 = 30
-    @Tier6_1_med = 21
+    @Tier1_1 = 0   @Tier1_2 = 2   @Tier1_mid = 1
+    @Tier2_1 = 4   @Tier2_2 = 6   @Tier2_mid = 5
+    @Tier3_1 = 8   @Tier3_2 = 10  @Tier3_3 = 12     @Tier3_mid_1 = 9    @Tier3_mid_2 = 11
+    @Tier4_1 = 14  @Tier4_2 = 16  @Tier4_3 = 18     @Tier4_mid_1 = 15   @Tier4_mid_2 = 17
+    @Tier5_1 = 20  @Tier5_2 = 22  @Tier5_mid = 21
+    @Tier6_1 = 24  @Tier6_2 = 26  @Tier6_mid = 25
+    @Tier7_1 = 28  @Tier7_2 = 30  @Tier7_mid = 29
 
     gwtank_chassis = {
         # Unknowns
@@ -88,13 +87,13 @@ technologies = {
             heavy_armor
         }
 
-        start_year = 1918
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = basic_light_tank_chassis }
         path = { research_cost_coeff = 1 leads_to_tech = basic_heavy_tank_chassis }
         path = { research_cost_coeff = 1 leads_to_tech = basic_medium_tank_chassis }
         path = { research_cost_coeff = 1 leads_to_tech = sp_armored_advanced_flamethrower_tech }
-        folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier2_1 } }
+        folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier2_mid } }
         dependencies = { FLTE_tech_tier_vehc_2 = 1 }
 
         on_research_complete = {
@@ -168,7 +167,7 @@ technologies = {
             light_armor
         }
 
-        start_year = 1934
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = improved_light_tank_chassis }
         folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier3_1 } }
@@ -236,7 +235,7 @@ technologies = {
             light_tank_aa_chassis_2
         }
 
-        start_year = 1936
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = advanced_light_tank_chassis }
         path = { research_cost_coeff = 1 leads_to_tech = amphibious_tank_chassis }
@@ -334,7 +333,7 @@ technologies = {
             light_tank_aa_chassis_3
         }
 
-        start_year = 1941
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_light_tank_1 }
         folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier4_2 } }
@@ -376,7 +375,7 @@ technologies = {
             light_tank_aa_chassis_4
         }
 
-        start_year = 1945
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_light_tank_2 }
         folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier4_2 } }
@@ -415,7 +414,7 @@ technologies = {
             light_tank_aa_chassis_5
         }
 
-        start_year = 1950
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_light_tank_3 }
         folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier5_1 } }
@@ -454,7 +453,7 @@ technologies = {
             light_tank_aa_chassis_6
         }
 
-        start_year = 1960
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_light_tank_4 }
         folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier5_2 } }
@@ -493,10 +492,10 @@ technologies = {
             light_tank_aa_chassis_7
         }
 
-        start_year = 1970
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_light_tank_5 }
-        folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier6_1_med } }
+        folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier6_mid } }
         dependencies = { FLTE_tech_tier_vehc_6 = 1 }
         special_project_specialization = { specialization_land }
 
@@ -532,7 +531,7 @@ technologies = {
             light_tank_aa_chassis_8
         }
 
-        start_year = 1980
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_light_tank_6 }
         folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier7_1 } }
@@ -571,7 +570,7 @@ technologies = {
             light_tank_aa_chassis_9
         }
 
-        start_year = 1990
+        start_year = 1
         research_cost = 2
         folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier7_2 } }
         dependencies = { FLTE_tech_tier_vehc_7 = 1 }
@@ -610,15 +609,12 @@ technologies = {
             amphibious_armor
         }
 
-        start_year = 1938
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = amphibious_drive }
-        folder = { name = FLTE_armor_folder position = { x = @amp_chassis_branch y = @Tier4_1 } }
+        folder = { name = FLTE_armor_folder position = { x = @amp_chassis_branch y = @Tier4_mid_1 } }
         dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
-        allow_branch = {
-            has_dlc = "Man the Guns"
-        }
         special_project_specialization = { specialization_land }
 
         categories = {
@@ -672,9 +668,9 @@ technologies = {
             amphibious_drive
         }
 
-        start_year = 1941
+        start_year = 1
         research_cost = 2
-        folder = { name = FLTE_armor_folder position = { x = @amp_chassis_branch y = @Tier4_2 } }
+        folder = { name = FLTE_armor_folder position = { x = @amp_chassis_branch y = @Tier4_3 } }
         dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         special_project_specialization = { specialization_land }
@@ -733,7 +729,7 @@ technologies = {
             medium_armor
         }
 
-        start_year = 1936
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = improved_medium_tank_chassis }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier3_1 } }
@@ -824,7 +820,7 @@ technologies = {
             medium_tank_aa_chassis_2
         }
 
-        start_year = 1940
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = advanced_medium_tank_chassis }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier3_3 } }
@@ -944,10 +940,10 @@ technologies = {
             medium_tank_aa_chassis_3
         }
 
-        start_year = 1943
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_1 }
-        folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier4_1 } }
+        folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier4_mid_1 } }
         dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         on_research_complete = {
@@ -1073,7 +1069,7 @@ technologies = {
             modern_armor
         }
 
-        start_year = 1950
+        start_year = 1
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_2 }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier4_3 } }
@@ -1108,7 +1104,7 @@ technologies = {
             modern_tank_aa_chassis_2
         }
 
-        start_year = 1955
+        start_year = 1
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_3 }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier5_1 } }
@@ -1147,7 +1143,7 @@ technologies = {
             atgm
         }
 
-        start_year = 1960
+        start_year = 1
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_4 }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier5_2 } }
@@ -1182,7 +1178,7 @@ technologies = {
             modern_tank_aa_chassis_4
         }
 
-        start_year = 1965
+        start_year = 1
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_5 }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier6_1 } }
@@ -1220,7 +1216,7 @@ technologies = {
             apfsds
         }
 
-        start_year = 1970
+        start_year = 1
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_6 }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier6_2 } }
@@ -1259,7 +1255,7 @@ technologies = {
             modern_auto_loader
         }
 
-        start_year = 1975
+        start_year = 1
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_7 }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier7_1 } }
@@ -1294,7 +1290,7 @@ technologies = {
             modern_tank_aa_chassis_7
         }
 
-        start_year = 1980
+        start_year = 1
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_8 }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier7_2 } }
@@ -1346,7 +1342,7 @@ technologies = {
             heavy_armor
         }
 
-        start_year = 1934
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = improved_heavy_tank_chassis }
         folder = { name = FLTE_armor_folder position = { x = @heavy_chassis_branch y = @Tier3_1 } }
@@ -1412,7 +1408,7 @@ technologies = {
             heavy_tank_aa_chassis_2
         }
 
-        start_year = 1940
+        start_year = 1
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = advanced_heavy_tank_chassis }
         path = { research_cost_coeff = 1 leads_to_tech = super_heavy_tank_chassis }
@@ -1476,7 +1472,7 @@ technologies = {
             heavy_tank_aa_chassis_3
         }
 
-        start_year = 1943
+        start_year = 1
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_1 }
         path = { research_cost_coeff = 1 leads_to_tech = cw_heavy_tank_chassis }
@@ -1524,7 +1520,7 @@ technologies = {
             heavy_tank_aa_chassis_4
         }
 
-        start_year = 1945
+        start_year = 1
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = cw_heavy_tank_chassis_1 }
         folder = { name = FLTE_armor_folder position = { x = @heavy_chassis_branch y = @Tier5_1 } }
@@ -1559,7 +1555,7 @@ technologies = {
             heavy_tank_aa_chassis_5
         }
 
-        start_year = 1950
+        start_year = 1
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = cw_heavy_tank_chassis_2 }
         folder = { name = FLTE_armor_folder position = { x = @heavy_chassis_branch y = @Tier5_2 } }
@@ -1594,7 +1590,7 @@ technologies = {
             heavy_tank_aa_chassis_6
         }
 
-        start_year = 1960
+        start_year = 1
         research_cost = 2.5
         # path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_5 }
         folder = { name = FLTE_armor_folder position = { x = @heavy_chassis_branch y = @Tier6_1 } }
@@ -1636,13 +1632,13 @@ technologies = {
             super_heavy_armor
         }
 
-        start_year = 1941
+        start_year = 1
         research_cost = 3
         path = { research_cost_coeff = 1 leads_to_tech = sp_armored_lc_high_impact_obliterator_cannon_tech }
         path = { research_cost_coeff = 1 leads_to_tech = sp_armored_lc_naval_engine_conversion_tech }
         path = { research_cost_coeff = 1 leads_to_tech = sp_armored_lc_transmission_improvements_tech }
         path = { research_cost_coeff = 1 leads_to_tech = sp_armored_lc_specialized_field_manuals_tech }
-        folder = { name = FLTE_armor_folder position = { x = @super_chassis_branch y = @Tier4_3 } }
+        folder = { name = FLTE_armor_folder position = { x = @super_chassis_branch y = @Tier4_2 } }
         dependencies = { FLTE_tech_tier_vehc_3 = 1 }
 
         on_research_complete = {
@@ -1728,10 +1724,10 @@ technologies = {
             tank_welded_armor
         }
 
-        start_year = 1934
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = armor_tech_2 }
-        folder = { name = FLTE_armor_folder position = { x = @armor_branch y = @Tier3_1 } }
+        folder = { name = FLTE_armor_folder position = { x = @armor_branch y = @Tier3_mid_1 } }
         dependencies = { FLTE_tech_tier_vehc_3 = 1 }
 
         on_research_complete = {
@@ -1778,10 +1774,10 @@ technologies = {
             armor_skirts
         }
 
-        start_year = 1936
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = armor_tech_3 }
-        folder = { name = FLTE_armor_folder position = { x = @armor_branch y = @Tier3_2 } }
+        folder = { name = FLTE_armor_folder position = { x = @armor_branch y = @Tier3_mid_2 } }
         dependencies = { FLTE_tech_tier_vehc_3 = 1 }
 
         on_research_complete = {
@@ -1828,11 +1824,11 @@ technologies = {
 			lc_armored_skirts #Module for Land Cruiser
 		}
 
-        start_year = 1941
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = armor_tech_4 }
-        folder = { name = FLTE_armor_folder position = { x = @armor_branch y = @Tier3_3 } }
-        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
+        folder = { name = FLTE_armor_folder position = { x = @armor_branch y = @Tier4_mid_1 } }
+        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = armor_tech_3_tt
@@ -1874,10 +1870,10 @@ technologies = {
         # Unknowns
         show_effect_as_desc = yes
 
-        start_year = 1944
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = armor_tech_5 }
-        folder = { name = FLTE_armor_folder position = { x = @armor_branch y = @Tier4_2 } }
+        folder = { name = FLTE_armor_folder position = { x = @armor_branch y = @Tier4_mid_2 } }
         dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         on_research_complete = {
@@ -1924,7 +1920,7 @@ technologies = {
             slopped_turret_armor
         }
 
-        start_year = 1950
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = armor_tech_7 }
         folder = { name = FLTE_armor_folder position = { x = @armor_branch y = @Tier5_1 } }
@@ -1974,7 +1970,7 @@ technologies = {
             tank_composite_armor
         }
 
-        start_year = 1960
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = armor_tech_9 }
         folder = { name = FLTE_armor_folder position = { x = @armor_branch y = @Tier5_2 } }
@@ -2026,7 +2022,7 @@ technologies = {
             add_on_armor
         }
 
-        start_year = 1970
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = armor_tech_10 }
         folder = { name = FLTE_armor_folder position = { x = @armor_branch y = @Tier6_1 } }
@@ -2077,7 +2073,7 @@ technologies = {
             advanced_tank_composite_armor
         }
 
-        start_year = 1980
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = armor_tech_11 }
         folder = { name = FLTE_armor_folder position = { x = @armor_branch y = @Tier6_2 } }
@@ -2127,9 +2123,9 @@ technologies = {
             tank_nera_armor
         }
 
-        start_year = 1990
+        start_year = 1
         research_cost = 1
-        folder = { name = FLTE_armor_folder position = { x = @armor_branch y = @Tier7_1 } }
+        folder = { name = FLTE_armor_folder position = { x = @armor_branch y = @Tier7_mid } }
         dependencies = { FLTE_tech_tier_vehc_7 = 1 }
 
         on_research_complete = {
@@ -2172,10 +2168,10 @@ technologies = {
         # Unknowns
         show_effect_as_desc = yes
 
-        start_year = 1934
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = engine_tech_2 }
-        folder = { name = FLTE_armor_folder position = { x = @engine_branch y = @Tier3_1 } }
+        folder = { name = FLTE_armor_folder position = { x = @engine_branch y = @Tier3_mid_1 } }
         dependencies = { FLTE_tech_tier_vehc_3 = 1 }
 
         on_research_complete = {
@@ -2218,10 +2214,10 @@ technologies = {
         # Unknowns
         show_effect_as_desc = yes
 
-        start_year = 1936
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = engine_tech_3 }
-        folder = { name = FLTE_armor_folder position = { x = @engine_branch y = @Tier3_2 } }
+        folder = { name = FLTE_armor_folder position = { x = @engine_branch y = @Tier3_mid_2 } }
         dependencies = { FLTE_tech_tier_vehc_3 = 1 }
 
         on_research_complete = {
@@ -2264,11 +2260,11 @@ technologies = {
         # Unknowns
         show_effect_as_desc = yes
 
-        start_year = 1941
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = engine_tech_4 }
-        folder = { name = FLTE_armor_folder position = { x = @engine_branch y = @Tier3_3 } }
-        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
+        folder = { name = FLTE_armor_folder position = { x = @engine_branch y = @Tier4_mid_1 } }
+        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = engine_tech_3_tt
@@ -2310,10 +2306,10 @@ technologies = {
         # Unknowns
         show_effect_as_desc = yes
 
-        start_year = 1944
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = engine_tech_5 }
-        folder = { name = FLTE_armor_folder position = { x = @engine_branch y = @Tier4_2 } }
+        folder = { name = FLTE_armor_folder position = { x = @engine_branch y = @Tier4_mid_2 } }
         dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         on_research_complete = {
@@ -2356,7 +2352,7 @@ technologies = {
         # Unknowns
         show_effect_as_desc = yes
 
-        start_year = 1950
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = engine_tech_7 }
         folder = { name = FLTE_armor_folder position = { x = @engine_branch y = @Tier5_1 } }
@@ -2407,7 +2403,7 @@ technologies = {
             tank_cold_war_gas_turbine_engine
         }
 
-        start_year = 1960
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = engine_tech_9 }
         folder = { name = FLTE_armor_folder position = { x = @engine_branch y = @Tier5_2 } }
@@ -2453,7 +2449,7 @@ technologies = {
         # Unknowns
         show_effect_as_desc = yes
 
-        start_year = 1970
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = engine_tech_10 }
         folder = { name = FLTE_armor_folder position = { x = @engine_branch y = @Tier6_1 } }
@@ -2504,7 +2500,7 @@ technologies = {
             tank_near_end_cold_war_gas_turbine_engine
         }
 
-        start_year = 1980
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = engine_tech_11 }
         folder = { name = FLTE_armor_folder position = { x = @engine_branch y = @Tier6_2 } }
@@ -2550,9 +2546,9 @@ technologies = {
         # Unknowns
         show_effect_as_desc = yes
 
-        start_year = 1990
+        start_year = 1
         research_cost = 1
-        folder = { name = FLTE_armor_folder position = { x = @engine_branch y = @Tier7_1 } }
+        folder = { name = FLTE_armor_folder position = { x = @engine_branch y = @Tier7_mid } }
         dependencies = { FLTE_tech_tier_vehc_7 = 1 }
 
         on_research_complete = {
@@ -2651,9 +2647,9 @@ technologies = {
             advanced_flamethrower
         }
 
-        start_year = 1941
+        start_year = 1
         research_cost = 1
-        folder = { name = FLTE_armor_folder position = { x = @sp_flame_branch y = @Tier3_1 } }
+        folder = { name = FLTE_armor_folder position = { x = @sp_flame_branch y = @Tier3_2 } }
         dependencies = { FLTE_tech_tier_vehc_3 = 1 }
 
         is_special_project_tech = yes
@@ -2708,11 +2704,11 @@ technologies = {
             supply_consumption = -0.02
         }
 
-        start_year = 1943
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = sp_armored_lc_weapon_fire_control_tech }
-        folder = { name = FLTE_armor_folder position = { x = @sp_cruiser_branch1 y = @Tier5_1 } }
-        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
+        folder = { name = FLTE_armor_folder position = { x = @sp_cruiser_branch1 y = @Tier4_3 } }
+        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         is_special_project_tech = yes
         allow = {
@@ -2788,11 +2784,11 @@ technologies = {
             }
         }
 
-        start_year = 1943
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = sp_armored_lc_weapon_fire_control_tech }
-        folder = { name = FLTE_armor_folder position = { x = @sp_cruiser_branch2 y = @Tier5_1 } }
-        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
+        folder = { name = FLTE_armor_folder position = { x = @sp_cruiser_branch2 y = @Tier4_3 } }
+        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         is_special_project_tech = yes
         allow = {
@@ -2840,11 +2836,11 @@ technologies = {
         }
         show_effect_as_desc = yes
 
-        start_year = 1943
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = sp_armored_lc_weapon_fire_control_tech }
-        folder = { name = FLTE_armor_folder position = { x = @sp_cruiser_branch3 y = @Tier5_1 } }
-        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
+        folder = { name = FLTE_armor_folder position = { x = @sp_cruiser_branch3 y = @Tier4_3 } }
+        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         is_special_project_tech = yes
         allow = {
@@ -2891,10 +2887,10 @@ technologies = {
         }
         show_effect_as_desc = yes
 
-        start_year = 1945
+        start_year = 1
         research_cost = 1
-        folder = { name = FLTE_armor_folder position = { x = @sp_cruiser_branch2 y = @Tier5_2 } }
-        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
+        folder = { name = FLTE_armor_folder position = { x = @sp_cruiser_branch2 y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
 
         is_special_project_tech = yes
         allow = {
@@ -2941,10 +2937,10 @@ technologies = {
             lc_high_impact_obliterator_cannon
         }
 
-        start_year = 1943
+        start_year = 1
         research_cost = 1
-        folder = { name = FLTE_armor_folder position = { x = @sp_cruiser_branch4 y = @Tier5_1 } }
-        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
+        folder = { name = FLTE_armor_folder position = { x = @sp_cruiser_branch4 y = @Tier4_3 } }
+        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         is_special_project_tech = yes
         allow = {

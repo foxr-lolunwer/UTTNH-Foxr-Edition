@@ -14,13 +14,13 @@ technologies = {
 	@sp_branch1 = 18
 	@sp_branch2 = 16
 	
-	@Tier1_1 = 0 @Tier1_2 = 2
-	@Tier2_1 = 4 @Tier2_2 = 6
-	@Tier3_1 = 8 @Tier3_2 = 10
-	@Tier4_1 = 12 @Tier4_2 = 14
-	@Tier5_1 = 16 @Tier5_2 = 18
-	@Tier6_1 = 20 @Tier6_2 = 22
-	@Tier7_1 = 24 @Tier7_2 = 26
+	@Tier1_1 = 0   @Tier1_2 = 2   @Tier1_mid = 1
+    @Tier2_1 = 4   @Tier2_2 = 6   @Tier2_mid = 5
+    @Tier3_1 = 8   @Tier3_2 = 10  @Tier3_mid = 9
+    @Tier4_1 = 12  @Tier4_2 = 14  @Tier4_mid = 13
+    @Tier5_1 = 16  @Tier5_2 = 18  @Tier5_mid = 17
+    @Tier6_1 = 20  @Tier6_2 = 22  @Tier6_mid = 21
+    @Tier7_1 = 24  @Tier7_2 = 26  @Tier7_mid = 25
 
     infantry_weapons = {
         enable_equipments = {
@@ -35,7 +35,7 @@ technologies = {
             infantry
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = infantry_weapons1 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier1_1 } }
@@ -57,7 +57,7 @@ technologies = {
             infantry_equipment_1
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = infantry_weapons2 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier1_2 } }
@@ -107,7 +107,7 @@ technologies = {
             soft_attack = 0.05
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = improved_infantry_weapons }
         path = { research_cost_coeff = 1 leads_to_tech = infantry_at }
@@ -155,7 +155,7 @@ technologies = {
             infantry_equipment_2
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = improved_infantry_weapons_2 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier2_2 } }
@@ -194,7 +194,7 @@ technologies = {
             soft_attack = 0.05
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = advanced_infantry_weapons }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier3_1 } }
@@ -227,7 +227,7 @@ technologies = {
             infantry_equipment_3
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = advanced_infantry_weapons2 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier3_2 } }
@@ -266,7 +266,7 @@ technologies = {
             soft_attack = 0.05
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = infantry_cw1 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier4_1 } }
@@ -299,7 +299,7 @@ technologies = {
             infantry_equipment_4
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = infantry_cw2 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier4_2 } }
@@ -332,7 +332,7 @@ technologies = {
             infantry_equipment_5
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = infantry_cw3 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier5_1 } }
@@ -365,7 +365,7 @@ technologies = {
             infantry_equipment_6
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = infantry_cw4 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier5_2 } }
@@ -383,10 +383,10 @@ technologies = {
             infantry_equipment_7
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = infantry_cw5 }
-        folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier6_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier6_mid } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
         special_project_specialization = { specialization_land }
 
@@ -401,10 +401,10 @@ technologies = {
             infantry_equipment_8
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         # path = { research_cost_coeff = 1 leads_to_tech = infantry_cw6 }
-        folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier7_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @inf_weapon_branch y = @Tier7_mid } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
         special_project_specialization = { specialization_land }
 
@@ -432,7 +432,7 @@ technologies = {
 			ap_attack = 0.5
 		}
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = infantry_at2 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier2_1 } }
@@ -478,10 +478,10 @@ technologies = {
 			ap_attack = 0.5
 		}
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = infantry_at3 }
-        folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier3_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier3_mid } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
         special_project_specialization = { specialization_land }
 
@@ -516,10 +516,10 @@ technologies = {
             ap_attack = 0.4
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = infantry_at4 }
-        folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier4_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier4_mid } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
         special_project_specialization = { specialization_land }
 
@@ -554,11 +554,11 @@ technologies = {
             ap_attack = 0.4
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = infantry_at5 }
         path = { research_cost_coeff = 1 leads_to_tech = infantry_aa1 }
-        folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier5_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier5_mid } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
         special_project_specialization = { specialization_land }
 
@@ -593,10 +593,10 @@ technologies = {
             ap_attack = 0.4
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = infantry_at6 }
-        folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier6_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier6_mid } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
         special_project_specialization = { specialization_land }
 
@@ -627,9 +627,9 @@ technologies = {
             ap_attack = 1
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
-        folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier7_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier7_mid } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
         special_project_specialization = { specialization_land }
 
@@ -664,10 +664,10 @@ technologies = {
             defense = 0.02
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = infantry_aa2 }
-        folder = { name = FLTE_ordn_folder position = { x = @inf_aa_branch y = @Tier5_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @inf_aa_branch y = @Tier5_mid } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
         special_project_specialization = { specialization_land }
 
@@ -702,10 +702,10 @@ technologies = {
             defense = 0.02
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = infantry_aa3 }
-        folder = { name = FLTE_ordn_folder position = { x = @inf_aa_branch y = @Tier6_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @inf_aa_branch y = @Tier6_mid } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
         special_project_specialization = { specialization_land }
 
@@ -740,9 +740,9 @@ technologies = {
             defense = 0.02
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
-        folder = { name = FLTE_ordn_folder position = { x = @inf_aa_branch y = @Tier7_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @inf_aa_branch y = @Tier7_mid } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
         special_project_specialization = { specialization_land }
 
@@ -771,10 +771,10 @@ technologies = {
         # Unknowns
         land_night_attack = 0.1
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = night_vision2 }
-        folder = { name = FLTE_ordn_folder position = { x = @night_vision_branch y = @Tier3_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @night_vision_branch y = @Tier3_mid } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 FLTE_tech_tier_elec_2 = 1 }
         special_project_specialization = { specialization_land }
 
@@ -811,10 +811,10 @@ technologies = {
             com_night_vision
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = night_vision3 }
-        folder = { name = FLTE_ordn_folder position = { x = @night_vision_branch y = @Tier4_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @night_vision_branch y = @Tier4_mid } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 FLTE_tech_tier_elec_3 = 1  }
         special_project_specialization = { specialization_land }
 
@@ -848,10 +848,10 @@ technologies = {
             gen1_night_vision
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = night_vision4 }
-        folder = { name = FLTE_ordn_folder position = { x = @night_vision_branch y = @Tier5_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @night_vision_branch y = @Tier5_mid } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1  FLTE_tech_tier_elec_4 = 1  }
         special_project_specialization = { specialization_land }
 
@@ -885,10 +885,10 @@ technologies = {
             gen2_night_vision
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = night_vision5 }
-        folder = { name = FLTE_ordn_folder position = { x = @night_vision_branch y = @Tier6_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @night_vision_branch y = @Tier6_mid } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 FLTE_tech_tier_elec_5 = 1  }
         special_project_specialization = { specialization_land }
 
@@ -922,9 +922,9 @@ technologies = {
             gen3_night_vision
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
-        folder = { name = FLTE_ordn_folder position = { x = @night_vision_branch y = @Tier7_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @night_vision_branch y = @Tier7_mid } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 FLTE_tech_tier_elec_6 = 1  }
         special_project_specialization = { specialization_land }
 
@@ -954,10 +954,10 @@ technologies = {
 			fire_support
 			mot_fire_support
 		}
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = support_weapons2 }
-        folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier1_2 } }
+        folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier1_mid } }
         dependencies = { FLTE_tech_tier_ordn_1 = 1 }
         special_project_specialization = { specialization_land }
 
@@ -1023,7 +1023,7 @@ technologies = {
 			soft_attack = 0.1
 		}
         
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = support_weapons3 }
         folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier2_1 } }
@@ -1087,7 +1087,7 @@ technologies = {
 			soft_attack = 0.1
 		}
         
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = support_weapons4 }
         folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier2_2 } }
@@ -1139,7 +1139,7 @@ technologies = {
 			soft_attack = 0.1
 		}
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = support_weapons5 }
         folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier3_1 } }
@@ -1191,7 +1191,7 @@ technologies = {
 			soft_attack = 0.1
 		}
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = support_weapons6 }
         folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier3_2 } }
@@ -1243,10 +1243,10 @@ technologies = {
 			soft_attack = 0.1
 		}
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = support_weapons7 }
-        folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier4_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier4_mid } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
         special_project_specialization = { specialization_land }
 
@@ -1295,10 +1295,10 @@ technologies = {
 			soft_attack = 0.1
 		}
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = support_weapons8 }
-        folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier5_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier5_mid } }
         dependencies = { FLTE_tech_tier_ordn_5 = 1 }
         special_project_specialization = { specialization_land }
 
@@ -1347,10 +1347,10 @@ technologies = {
 			soft_attack = 0.1
 		}
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = support_weapons9 }
-        folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier6_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier6_mid } }
         dependencies = { FLTE_tech_tier_ordn_6 = 1 }
         special_project_specialization = { specialization_land }
 
@@ -1399,9 +1399,9 @@ technologies = {
 			soft_attack = 0.1
 		}
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
-        folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier7_1 } }
+        folder = { name = FLTE_ordn_folder position = { x = @support_weapon_branch y = @Tier7_mid } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
         special_project_specialization = { specialization_land }
 
@@ -1564,7 +1564,7 @@ technologies = {
             lc_assault_gun
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = artillery2 }
         path = { research_cost_coeff = 1 leads_to_tech = sp_artillery_rocket_assisted_projectiles_tech }
@@ -1611,7 +1611,7 @@ technologies = {
             soft_attack = 0.1
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = artillery3 }
         path = { research_cost_coeff = 1 leads_to_tech = rocket_artillery }
@@ -1660,7 +1660,7 @@ technologies = {
             tank_medium_howitzer_2
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = artillery4 }
         folder = { name = FLTE_ordn_folder position = { x = @artillery_branch y = @Tier4_1 } }
@@ -1698,7 +1698,7 @@ technologies = {
             tank_medium_cannon_2
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = artillery5 }
         folder = { name = FLTE_ordn_folder position = { x = @artillery_branch y = @Tier4_2 } }
@@ -1747,7 +1747,7 @@ technologies = {
             auto_loader
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = cwart1 }
         folder = { name = FLTE_ordn_folder position = { x = @artillery_branch y = @Tier5_1 } }
@@ -1787,7 +1787,7 @@ technologies = {
             tank_early_modern_howitzer
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = cwart2 }
         folder = { name = FLTE_ordn_folder position = { x = @artillery_branch y = @Tier5_2 } }
@@ -1818,7 +1818,7 @@ technologies = {
             tank_modern_howitzer
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = cwart3 }
         folder = { name = FLTE_ordn_folder position = { x = @artillery_branch y = @Tier6_1 } }
@@ -1846,7 +1846,7 @@ technologies = {
             artillery_equipment_6
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = cwart4 }
         folder = { name = FLTE_ordn_folder position = { x = @artillery_branch y = @Tier6_2 } }
@@ -1877,7 +1877,7 @@ technologies = {
             tank_advanced_modern_howitzer
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = cwart5 }
         folder = { name = FLTE_ordn_folder position = { x = @artillery_branch y = @Tier7_1 } }
@@ -1905,7 +1905,7 @@ technologies = {
             artillery_equipment_8
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         folder = { name = FLTE_ordn_folder position = { x = @artillery_branch y = @Tier7_2 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
@@ -1955,7 +1955,7 @@ technologies = {
             lc_rocket_launcher
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = rocket_artillery2 }
         folder = { name = FLTE_ordn_folder position = { x = @rocket_branch y = @Tier4_1 } }
@@ -1986,7 +1986,7 @@ technologies = {
 			soft_attack = 0.15
 		}
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = rocket_artillery3 }
         folder = { name = FLTE_ordn_folder position = { x = @rocket_branch y = @Tier4_2 } }
@@ -2017,7 +2017,7 @@ technologies = {
 			soft_attack = 0.15
 		}
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = rocket_artillery4 }
         folder = { name = FLTE_ordn_folder position = { x = @rocket_branch y = @Tier5_1 } }
@@ -2051,7 +2051,7 @@ technologies = {
             tank_rocket_launcher_2
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = rocket_artillery5 }
         folder = { name = FLTE_ordn_folder position = { x = @rocket_branch y = @Tier5_2 } }
@@ -2082,7 +2082,7 @@ technologies = {
             rocket_artillery_equipment_3
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = rocket_artillery6 }
         folder = { name = FLTE_ordn_folder position = { x = @rocket_branch y = @Tier6_1 } }
@@ -2116,7 +2116,7 @@ technologies = {
             rocket_pod
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = rocket_artillery7 }
         folder = { name = FLTE_ordn_folder position = { x = @rocket_branch y = @Tier6_2 } }
@@ -2147,7 +2147,7 @@ technologies = {
             rocket_artillery_equipment_5
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = rocket_artillery8 }
         folder = { name = FLTE_ordn_folder position = { x = @rocket_branch y = @Tier7_1 } }
@@ -2178,7 +2178,7 @@ technologies = {
             rocket_artillery_equipment_6
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         folder = { name = FLTE_ordn_folder position = { x = @rocket_branch y = @Tier7_2 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
@@ -2222,7 +2222,7 @@ technologies = {
             lc_light_anti_air_battery
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = antiair1 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier2_2 } }
@@ -2284,7 +2284,7 @@ technologies = {
 		}
         tech_air_damage_factor = -0.02
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antiair2 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier3_1 } }
@@ -2332,7 +2332,7 @@ technologies = {
         }
         static_anti_air_damage_factor = 0.1
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antiair3 }
         path = { research_cost_coeff = 1 leads_to_tech = sp_shock_hardening_techniques }
@@ -2387,7 +2387,7 @@ technologies = {
         }
         tech_air_damage_factor = -0.02
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antiair4 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier4_1 } }
@@ -2438,7 +2438,7 @@ technologies = {
 		}
         tech_air_damage_factor = -0.02
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antiair5 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier4_2 } }
@@ -2487,7 +2487,7 @@ technologies = {
         }
         static_anti_air_damage_factor = 0.1
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antiair6 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier5_1 } }
@@ -2530,7 +2530,7 @@ technologies = {
         }
         static_anti_air_damage_factor = 0.1
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antiair7 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier5_2 } }
@@ -2573,7 +2573,7 @@ technologies = {
         }
         static_anti_air_damage_factor = 0.1
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antiair8 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier6_1 } }
@@ -2615,7 +2615,7 @@ technologies = {
         }
         static_anti_air_damage_factor = 0.1
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antiair9 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier6_2 } }
@@ -2658,7 +2658,7 @@ technologies = {
         }
         static_anti_air_damage_factor = 0.1
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antiair10 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier7_1 } }
@@ -2700,7 +2700,7 @@ technologies = {
         }
         static_anti_air_damage_factor = 0.1
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_branch y = @Tier7_2 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
@@ -2745,7 +2745,7 @@ technologies = {
             tank_buster_1
             lc_high_velocity_cannon_turret
         }
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = antitank1 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_tank_branch y = @Tier2_2 } }
@@ -2828,7 +2828,7 @@ technologies = {
             squeezebore_adaptor
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antitank2 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_tank_branch y = @Tier3_1 } }
@@ -2893,7 +2893,7 @@ technologies = {
             tank_buster_2
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antitank3 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_tank_branch y = @Tier3_2 } }
@@ -2964,7 +2964,7 @@ technologies = {
             tank_medium_cannon_2
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antitank4 }
         path = { research_cost_coeff = 1 leads_to_tech = sp_advance_sabot_shells }
@@ -3031,7 +3031,7 @@ technologies = {
             tank_high_velocity_cannon_2
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antitank5 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_tank_branch y = @Tier4_2 } }
@@ -3094,7 +3094,7 @@ technologies = {
             lc_heavy_high_velocity_cannons
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antitank6 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_tank_branch y = @Tier5_1 } }
@@ -3156,7 +3156,7 @@ technologies = {
             early_light_modern_cannon
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antitank7 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_tank_branch y = @Tier5_2 } }
@@ -3217,7 +3217,7 @@ technologies = {
             tank_modern_cannon
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antitank8 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_tank_branch y = @Tier6_1 } }
@@ -3278,7 +3278,7 @@ technologies = {
             light_modern_cannon
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antitank9 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_tank_branch y = @Tier6_2 } }
@@ -3340,7 +3340,7 @@ technologies = {
             tank_buster_3
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = antitank10 }
         folder = { name = FLTE_ordn_folder position = { x = @anti_tank_branch y = @Tier7_1 } }
@@ -3398,7 +3398,7 @@ technologies = {
             anti_tank_equipment_8
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1
         folder = { name = FLTE_ordn_folder position = { x = @anti_tank_branch y = @Tier7_2 } }
         dependencies = { FLTE_tech_tier_ordn_7 = 1 }
@@ -3459,7 +3459,7 @@ technologies = {
             soft_attack = 0.1
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         folder = { name = FLTE_ordn_folder position = { x = @sp_branch1 y = @Tier3_2 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
@@ -3503,7 +3503,7 @@ technologies = {
             supply_consumption = -0.1
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         folder = { name = FLTE_ordn_folder position = { x = @sp_branch2 y = @Tier3_2 } }
         dependencies = { FLTE_tech_tier_ordn_3 = 1 }
@@ -3540,7 +3540,7 @@ technologies = {
         static_anti_air_damage_factor = 0.15
         static_anti_air_hit_chance_factor = 0.3
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = sp_variable_time_fuze_shells }
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_sub_branch y = @Tier4_1 } }
@@ -3579,7 +3579,7 @@ technologies = {
             soft_attack = 0.1
         }
 
-        start_year = 1900
+        start_year = 1
         research_cost = 1.5
         folder = { name = FLTE_ordn_folder position = { x = @anti_air_sub_branch y = @Tier4_2 } }
         dependencies = { FLTE_tech_tier_ordn_4 = 1 }
@@ -3634,7 +3634,7 @@ technologies = {
 
 		force_use_small_tech_layout = yes
 		research_cost = 1.5
-		start_year = 1900
+		start_year = 1
 		is_special_project_tech = yes
 			
 		folder = {

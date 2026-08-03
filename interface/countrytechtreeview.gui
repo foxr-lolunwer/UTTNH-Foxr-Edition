@@ -1,4 +1,35 @@
 guiTypes = {
+	# folder size
+	# width = max(max_x * 70 + 275[180(左边界) + 35(内部偏移) + 60(右边界)], 1200)
+	# height = n*280 + 180(上边界) default: 280 * 7 + 180 = 2140
+	# 上面的误差应用到右边界/底边，计算width时，如果边界为大容器，需要偏移
+	@width_ordn 	= 2235		@height_ordn 	= 2140 # 27+[大容器偏移70px], 7
+	@width_support 	= 2165		@height_support = 2280 # 27, 7.5
+	@width_vehc 	= 1745		@height_vehc 	= 2140 # 20+[大容器偏移70px], 7
+	@width_armor 	= 2165		@height_armor 	= 2420 # 27, 8
+	@width_naval 	= 3175		@height_naval 	= 2140 # 40+[x偏移100px], 7
+	@width_naval_s	= 2095		@height_naval_s	= 2140 # 26, 7
+	@width_airf 	= 2375		@height_airf 	= 2140 # 30, 7
+	@width_prod 	= 1815		@height_prod 	= 2140 # 22, 7
+	@width_infr 	= 3005		@height_infr 	= 2140 # 39, 7
+	@width_elec 	= 1200		@height_elec 	= 2140 # 12, 7
+	@width_advance 	= 1200		@height_advance = 2140 # 06, 7
+	# trt: tiled_research_tier
+	@x_trt_1_bg = 0
+	@y_trt_1_bg = 145
+	@y_trt_2_bg = 425	@y_trt_2_bg_support = 565
+	@y_trt_3_bg = 705	@y_trt_3_bg_support = 845
+	@y_trt_4_bg = 985	@y_trt_4_bg_support = 1125	@y_trt_4_bg_armor = 1125
+	@y_trt_5_bg = 1265	@y_trt_5_bg_support = 1405	@y_trt_5_bg_armor = 1545
+	@y_trt_6_bg = 1545	@y_trt_6_bg_support = 1685	@y_trt_6_bg_armor = 1825
+	@y_trt_7_bg = 1825	@y_trt_7_bg_support = 1965	@y_trt_7_bg_armor = 2105
+	@height_trt_2 = 280 # Tier?_1-2 4*70
+	@height_trt_3 = 420 # Tier?_1-3 6*70
+	# tti: title_tier_icon
+	@x_tti_1 = 30
+	@y_tti_h2 = 128	@y_tti_h3 = 192
+
+
 	positionType = {
 		name = "special_project_tech_icon_offset"
 		position = { x = -10 y = -10 }
@@ -50,61 +81,65 @@ guiTypes = {
 			containerWindowType = {
 				name = "folder_frame"
 				position = { x=0 y=0 }
-				size = {
-					width = 3900 height = 1820
-					min = { width=100%% height=100%% }
-				}
+				size = { width = @width_ordn height = @height_ordn min = { width=100%% height=100%% } }
 				clipping = no
-				iconType = {
-					name ="infantry_techtree_bg"
-					spriteType = "GFX_infantry_techtree_bg"
-					position = { x=0 y=0 }
-					alwaystransparent = yes
-				}
 				containerWindowType = {
-					name = "subtitles"
-					position = { x=0 y=0 }
-					instantTextBoxType = {
-						name = "infantry_subtitle_weapons"
-						position = { x = 250 y = 100 }
-						font = "hoi_33"
-						text = "INFANTRY_TITLE_WEAPONS"
-						maxWidth = 280 maxHeight = 40 format = center
+					name = "tiled_research_tier_bg" position = { x = 0 y = 0 }
+					containerWindowType = {
+						name = "tiled_research_tier_1_bg" position = { x = @x_trt_1_bg y = @y_trt_1_bg } size = { width = @width_ordn height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_1_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 1 }
 					}
-					instantTextBoxType = {
-						name = "infantry_subtitle_specialists"
-						position = { x = 2420 y = 100 }
-						font = "hoi_33"
-						text = "INFANTRY_TITLE_SPECIAL"
-						maxWidth = 280 maxHeight = 40 format = center
+					containerWindowType = {
+						name = "tiled_research_tier_2_bg" position = { x = @x_trt_1_bg y = @y_trt_2_bg } size = { width = @width_ordn height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_2_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 2 }
 					}
-					instantTextBoxType = {
-						name = "infantry_subtitle_motorized"
-						position = { x = 1020 y = 100 }
-						font = "hoi_33"
-						text = "INFANTRY_TITLE_MOTORISED"
-						maxWidth = 280 maxHeight = 40 format = center
+					containerWindowType = {
+						name = "tiled_research_tier_3_bg" position = { x = @x_trt_1_bg y = @y_trt_3_bg } size = { width = @width_ordn height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_3_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 3 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_4_bg" position = { x = @x_trt_1_bg y = @y_trt_4_bg } size = { width = @width_ordn height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_4_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 4 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_5_bg" position = { x = @x_trt_1_bg y = @y_trt_5_bg } size = { width = @width_ordn height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_5_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 5 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_6_bg" position = { x = @x_trt_1_bg y = @y_trt_6_bg } size = { width = @width_ordn height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_6_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 6 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_7_bg" position = { x = @x_trt_1_bg y = @y_trt_7_bg } size = { width = @width_ordn height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_7_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 7 }
 					}
 				}
 			}
 			gridboxtype = {
 				name = "support_weapons_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}	
 			gridboxtype = {
 				name = "night_vision_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}		
 			gridboxtype = {
 				name = "infantry_weapons_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "gw_artillery_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 		}
@@ -124,57 +159,75 @@ guiTypes = {
 			containerWindowType = {
 				name = "folder_frame"
 				position = { x=0 y=0 }
-				size = {
-					width = 1600 height = 1600
-					min = { width=100%% height=100%% }
-				}
+				size = { width = @width_support height = @height_support min = { width=100%% height=100%% } }
 				clipping = no
-				iconType = {
-					name ="infantry_techtree_bg"
-					spriteType = "GFX_support_techtree_bg"
-					position = { x=0 y=0 }
-					alwaystransparent = yes
-				}
 				containerWindowType = {
-					name = "subtitles"
-					position = { x=0 y=0 }
-					instantTextBoxType = {
-						name = "support_subtitle_trains"
-						position = { x = 1160 y = 120 }
-						font = "hoi_33"
-						text = "SUPPORT_TITLE_TRAINS"
-						maxWidth = 280 maxHeight = 40 format = center
+					name = "tiled_research_tier_bg" position = { x = 0 y = 0 }
+					containerWindowType = {
+						name = "tiled_research_tier_1_bg" position = { x = @x_trt_1_bg y = @y_trt_1_bg } size = { width = @width_support height = @height_trt_3 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_1_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h3 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 1 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_2_bg" position = { x = @x_trt_1_bg y = @y_trt_2_bg_support } size = { width = @width_support height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_2_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 2 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_3_bg" position = { x = @x_trt_1_bg y = @y_trt_3_bg_support } size = { width = @width_support height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_3_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 3 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_4_bg" position = { x = @x_trt_1_bg y = @y_trt_4_bg_support } size = { width = @width_support height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_4_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 4 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_5_bg" position = { x = @x_trt_1_bg y = @y_trt_5_bg_support } size = { width = @width_support height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_5_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 5 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_6_bg" position = { x = @x_trt_1_bg y = @y_trt_6_bg_support } size = { width = @width_support height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_6_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 6 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_7_bg" position = { x = @x_trt_1_bg y = @y_trt_7_bg_support } size = { width = @width_support height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_7_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 7 }
 					}
 				}
 			}	
 			gridboxtype = {
 				name = "tech_support_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "marines_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "tech_mountaineers_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "paratroopers_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "rangers_tech_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "tech_special_forces_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 		}
@@ -194,20 +247,55 @@ guiTypes = {
 			containerWindowType = {
 				name = "folder_frame"
 				position = { x=0 y=0 }
-				size = {
-					width = 1600 height = 1600
-					min = { width=100%% height=100%% }
-				}
+				size = { width = @width_vehc height = @height_vehc min = { width=100%% height=100%% } }
 				clipping = no
+				containerWindowType = {
+					name = "tiled_research_tier_bg" position = { x = 0 y = 0 }
+					containerWindowType = {
+						name = "tiled_research_tier_1_bg" position = { x = @x_trt_1_bg y = @y_trt_1_bg } size = { width = @width_vehc height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_1_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 1 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_2_bg" position = { x = @x_trt_1_bg y = @y_trt_2_bg } size = { width = @width_vehc height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_2_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 2 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_3_bg" position = { x = @x_trt_1_bg y = @y_trt_3_bg } size = { width = @width_vehc height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_3_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 3 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_4_bg" position = { x = @x_trt_1_bg y = @y_trt_4_bg } size = { width = @width_vehc height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_4_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 4 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_5_bg" position = { x = @x_trt_1_bg y = @y_trt_5_bg } size = { width = @width_vehc height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_5_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 5 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_6_bg" position = { x = @x_trt_1_bg y = @y_trt_6_bg } size = { width = @width_vehc height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_6_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 6 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_7_bg" position = { x = @x_trt_1_bg y = @y_trt_7_bg } size = { width = @width_vehc height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_7_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 7 }
+					}
+				}
 			}
 			gridboxtype = {
 				name = "tech_trucks_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "basic_train_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 		}
@@ -228,10 +316,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "folder_frame"
 				position = { x=0 y=0 }
-				size = {
-					width = 2160 height = 2400
-					min = { width=100%% height=100%% }
-				}
+				size = { width = @width_armor height = @height_armor min = { width=100%% height=100%% } }
 				clipping = no
 				iconType = {
 					name ="armortech_bg"
@@ -240,65 +325,57 @@ guiTypes = {
 					alwaystransparent = yes
 				}
 				containerWindowType = {
-					name = "subtitles"
-					position = { x=0 y=0 }
-					instantTextBoxType = {
-						name = "armour_subtitle_heavy"
-						position = { x = 1300 y = 210 }
-						font = "hoi_33"
-						text = "ARMOUR_TITLE_HEAVY"
-						maxWidth = 280 maxHeight = 40 format = center
-					}				
-					instantTextBoxType = {
-						name = "armour_subtitle_medium"
-						position = { x = 1020 y = 120 }
-						font = "hoi_33"
-						text = "ARMOUR_TITLE_MEDIUM"
-						maxWidth = 280 maxHeight = 40 format = center
+					name = "tiled_research_tier_bg" position = { x = 0 y = 0 }
+					containerWindowType = {
+						name = "tiled_research_tier_1_bg" position = { x = @x_trt_1_bg y = @y_trt_1_bg } size = { width = @width_armor height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_1_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 1 }
 					}
-					instantTextBoxType = {
-						name = "armour_subtitle_light"
-						position = { x = 740 y = 210  }
-						font = "hoi_33"
-						text = "ARMOUR_TITLE_LIGHT"
-						maxWidth = 280 maxHeight = 40 format = center
+					containerWindowType = {
+						name = "tiled_research_tier_2_bg" position = { x = @x_trt_1_bg y = @y_trt_2_bg } size = { width = @width_armor height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_2_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 2 }
 					}
-					instantTextBoxType = {
-						name = "armour_subtitle_amphibious"
-						position = { x = 460 y = 490 }
-						font = "hoi_33"
-						text = "ARMOUR_TITLE_AMPH"
-						maxWidth = 280 maxHeight = 40 format = center
+					containerWindowType = {
+						name = "tiled_research_tier_3_bg" position = { x = @x_trt_1_bg y = @y_trt_3_bg } size = { width = @width_armor height = @height_trt_3 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_3_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h3 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 3 }
 					}
-					instantTextBoxType = {
-						name = "armour_subtitle_para"
-						position = { x = 460 y = 1380 }
-						font = "hoi_33"
-						text = "ARMOUR_TITLE_PARA"
-						maxWidth = 280 maxHeight = 40 format = center
+					containerWindowType = {
+						name = "tiled_research_tier_4_bg" position = { x = @x_trt_1_bg y = @y_trt_4_bg_armor } size = { width = @width_armor height = @height_trt_3 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_4_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h3 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 4 }
 					}
-					instantTextBoxType = {
-						name = "armour_subtitle_wheeled"
-						position = { x = 1300 y = 1660 }
-						font = "hoi_33"
-						text = "ARMOUR_TITLE_WHEELED"
-						maxWidth = 280 maxHeight = 40 format = center
+					containerWindowType = {
+						name = "tiled_research_tier_5_bg" position = { x = @x_trt_1_bg y = @y_trt_5_bg_armor } size = { width = @width_armor height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_5_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 5 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_6_bg" position = { x = @x_trt_1_bg y = @y_trt_6_bg_armor } size = { width = @width_armor height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_6_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 6 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_7_bg" position = { x = @x_trt_1_bg y = @y_trt_7_bg_armor } size = { width = @width_armor height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_7_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 7 }
 					}
 				}
 			}
 			gridboxtype = {
 				name = "gwtank_chassis_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "armor_tech_1_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "engine_tech_1_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 		}
@@ -319,59 +396,44 @@ guiTypes = {
 			containerWindowType = {
 				name = "folder_frame"
 				position = { x=0 y=0 }
-				size = {
-					width = 3200 height = 1820
-					min = { width=100%% height=100%% }
-				}
+				size = { width = @width_naval height = @height_naval min = { width=100%% height=100%% } }
 				clipping = no
-				iconType = {
-					name ="mtgnavaltechtree_bg"
-					spriteType = "GFX_naval_techtree_bg"
-					position = { x=0 y=0 }
-					alwaystransparent = yes
-				}
 				containerWindowType = {
-					name = "subtitles"
-					position = { x=0 y=0 }
-					instantTextBoxType = {
-						name = "naval_subtitle_destroyer"
-						position = { x = 140 y = 100 }
-						font = "hoi_33"
-						text = "NAVAL_TITLE_DESTROYERS"
-						maxWidth = 280 maxHeight = 40 format = center
-						pdx_tooltip = "destroyer_desc"
-					}				
-					instantTextBoxType = {
-						name = "naval_subtitle_cruiser"
-						position = { x = 840 y = 100 }
-						font = "hoi_33"
-						text = "NAVAL_TITLE_CRUISERS"
-						maxWidth = 280 maxHeight = 40 format = center
-						pdx_tooltip = "both_cruisers_desc"
-					}	
-					instantTextBoxType = {
-						name = "naval_subtitle_battleship"
-						position = { x = 1260 y = 100 }
-						font = "hoi_33"
-						text = "NAVAL_TITLE_BATTLESHIPS"
-						maxWidth = 280 maxHeight = 40 format = center
-						pdx_tooltip = "battleship_desc"
-					}				
-					instantTextBoxType = {
-						name = "naval_subtitle_carrier"
-						position = { x = 2100 y = 100 }
-						font = "hoi_33"
-						text = "NAVAL_TITLE_CARRIERS"
-						maxWidth = 280 maxHeight = 40 format = center
-						pdx_tooltip = "carrier_desc"
-					}	
-					instantTextBoxType = {
-						name = "naval_subtitle_sub"
-						position = { x = 2660 y = 100 }
-						font = "hoi_33"
-						text = "NAVAL_TITLE_SUBMARINES"
-						maxWidth = 280 maxHeight = 40 format = center
-						pdx_tooltip = "submarine_desc"
+					name = "tiled_research_tier_bg" position = { x = 0 y = 0 }
+					containerWindowType = {
+						name = "tiled_research_tier_1_bg" position = { x = @x_trt_1_bg y = @y_trt_1_bg } size = { width = @width_naval height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_1_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 1 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_2_bg" position = { x = @x_trt_1_bg y = @y_trt_2_bg } size = { width = @width_naval height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_2_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 2 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_3_bg" position = { x = @x_trt_1_bg y = @y_trt_3_bg } size = { width = @width_naval height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_3_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 3 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_4_bg" position = { x = @x_trt_1_bg y = @y_trt_4_bg } size = { width = @width_naval height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_4_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 4 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_5_bg" position = { x = @x_trt_1_bg y = @y_trt_5_bg } size = { width = @width_naval height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_5_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 5 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_6_bg" position = { x = @x_trt_1_bg y = @y_trt_6_bg } size = { width = @width_naval height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_6_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 6 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_7_bg" position = { x = @x_trt_1_bg y = @y_trt_7_bg } size = { width = @width_naval height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_7_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 7 }
 					}
 				}
 			}
@@ -423,96 +485,79 @@ guiTypes = {
 			containerWindowType = {
 				name = "folder_frame"
 				position = { x=0 y=0 }
-				size = {
-					width = 2160 height = 1820
-					min = { width=100%% height=100%% }
-				}
+				size = { width = @width_naval_s height = @height_naval_s min = { width=100%% height=100%% } }
 				clipping = no
-				iconType = {
-					name ="mtgnavaltechtree_bg"
-					spriteType = "GFX_naval_techtree_bg"
-					position = { x=0 y=0 }
-					alwaystransparent = yes
-				}
 				containerWindowType = {
-					name = "subtitles"
-					position = { x=0 y=0 }
-					instantTextBoxType = {
-						name = "naval_subtitle_armaments"
-						position = { x = 250 y = 100 }
-						font = "hoi_33"
-						text = "NAVAL_TITLE_ARMAMENT"
-						maxWidth = 280 maxHeight = 40 format = center
+					name = "tiled_research_tier_bg" position = { x = 0 y = 0 }
+					containerWindowType = {
+						name = "tiled_research_tier_1_bg" position = { x = @x_trt_1_bg y = @y_trt_1_bg } size = { width = @width_naval_s height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_1_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 1 }
 					}
-					instantTextBoxType = {
-						name = "naval_subtitle_torpedoes"
-						position = { x = 670 y = 100 }
-						font = "hoi_33"
-						text = "NAVAL_TITLE_TORPEDOES"
-						maxWidth = 280 maxHeight = 40 format = center
+					containerWindowType = {
+						name = "tiled_research_tier_2_bg" position = { x = @x_trt_1_bg y = @y_trt_2_bg } size = { width = @width_naval_s height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_2_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 2 }
 					}
-					instantTextBoxType = {
-						name = "naval_subtitle_damage_control"
-						position = { x = 950 y = 100 }
-						font = "hoi_33"
-						text = "NAVAL_TITLE_DAMAGE_CONTROL"
-						maxWidth = 280 maxHeight = 40 format = center
+					containerWindowType = {
+						name = "tiled_research_tier_3_bg" position = { x = @x_trt_1_bg y = @y_trt_3_bg } size = { width = @width_naval_s height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_3_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 3 }
 					}
-					instantTextBoxType = {
-						name = "naval_subtitle_fire_control"
-						position = { x = 1090 y = 100 }
-						font = "hoi_33"
-						text = "NAVAL_TITLE_FIRE_CONTROL"
-						maxWidth = 280 maxHeight = 40 format = center
+					containerWindowType = {
+						name = "tiled_research_tier_4_bg" position = { x = @x_trt_1_bg y = @y_trt_4_bg } size = { width = @width_naval_s height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_4_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 4 }
 					}
-					instantTextBoxType = {
-						name = "naval_subtitle_transport"
-						position = { x = 1370 y = 100 }
-						font = "hoi_33"
-						text = "NAVAL_TITLE_TRANSPORTS"
-						maxWidth = 280 maxHeight = 40 format = center
+					containerWindowType = {
+						name = "tiled_research_tier_5_bg" position = { x = @x_trt_1_bg y = @y_trt_5_bg } size = { width = @width_naval_s height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_5_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 5 }
 					}
-					instantTextBoxType = {
-						name = "naval_subtitle_mines"
-						position = { x = 1720 y = 100 }
-						font = "hoi_33"
-						text = "NAVAL_TITLE_MINES"
-						maxWidth = 280 maxHeight = 40 format = center
+					containerWindowType = {
+						name = "tiled_research_tier_6_bg" position = { x = @x_trt_1_bg y = @y_trt_6_bg } size = { width = @width_naval_s height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_6_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 6 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_7_bg" position = { x = @x_trt_1_bg y = @y_trt_7_bg } size = { width = @width_naval_s height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_7_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 7 }
 					}
 				}
 			}
 			gridboxtype = {
 				name = "basic_battery_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "basic_torpedo_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "damage_control_1_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "fire_control_methods_1_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "mtg_transport_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "basic_naval_mines_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 		}
-		#FLTE_airf_folder
+		# FLTE_airf_folder
 		containerWindowType = {
 			name = "FLTE_airf_folder"
 			position = { x=0 y=47 }
@@ -529,10 +574,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "folder_frame"
 				position = { x=0 y=0 }
-				size = {
-					width = 2350 height = 2250
-					min = { width=100%% height=100%% }
-				}
+				size = { width = @width_airf height = @height_airf min = { width=100%% height=100%% } }
 				clipping = no
 				iconType = {
 					name ="artillery_techtree_bg"
@@ -541,94 +583,97 @@ guiTypes = {
 					alwaystransparent = yes
 				}
 				containerWindowType = {
-					name = "tiled_research_bg"
-					position = { x=70 y=807 }
-					size = { width = 780 height = 1450 }
-					clipping = no
-					background = {
-						name = "Background"
-						quadTextureSprite ="GFX_tiled_research_bg"
+					name = "tiled_research_tier_bg" position = { x = 0 y = 0 }
+					containerWindowType = {
+						name = "tiled_research_tier_1_bg" position = { x = @x_trt_1_bg y = @y_trt_1_bg } size = { width = @width_airf height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_1_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 1 }
 					}
-				}
-				containerWindowType = {
-					name = "subtitles"
-					position = { x=0 y=0 }
-					instantTextBoxType = {
-						name = "airtech_subtitle_airframe"
-						position = { x = 320 y = 110 }
-						font = "hoi_33"
-						text = "AIR_TITLE_AIRFRAME"
-						maxWidth = 280 maxHeight = 40 format = center
+					containerWindowType = {
+						name = "tiled_research_tier_2_bg" position = { x = @x_trt_1_bg y = @y_trt_2_bg } size = { width = @width_airf height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_2_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 2 }
 					}
-					instantTextBoxType = {
-						name = "airtech_subtitle_weapons"
-						position = { x = 1600 y = 110 }
-						font = "hoi_33"
-						text = "AIR_TITLE_WEAPONS"
-						maxWidth = 280 maxHeight = 40 format = center
+					containerWindowType = {
+						name = "tiled_research_tier_3_bg" position = { x = @x_trt_1_bg y = @y_trt_3_bg } size = { width = @width_airf height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_3_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 3 }
 					}
-					instantTextBoxType = {
-						name = "airtech_subtitle_engines"
-						position = { x = 2000 y = 110 }
-						font = "hoi_33"
-						text = "AIR_TITLE_ENGINES"
-						maxWidth = 280 maxHeight = 40 format = center
-						pdx_tooltip = "nav_bomber_equipment_desc"
+					containerWindowType = {
+						name = "tiled_research_tier_4_bg" position = { x = @x_trt_1_bg y = @y_trt_4_bg } size = { width = @width_airf height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_4_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 4 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_5_bg" position = { x = @x_trt_1_bg y = @y_trt_5_bg } size = { width = @width_airf height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_5_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 5 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_6_bg" position = { x = @x_trt_1_bg y = @y_trt_6_bg } size = { width = @width_airf height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_6_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 6 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_7_bg" position = { x = @x_trt_1_bg y = @y_trt_7_bg } size = { width = @width_airf height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_7_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 7 }
 					}
 				}
 			}
+
 			gridboxtype = {
 				name = "iw_small_airframe_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "iw_medium_airframe_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "iw_large_airframe_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "bba_early_transport_plane_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "early_bombs_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "aa_lmg_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "photo_reconnaisance_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "engines_1_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "air_torpedoe_1_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "experimental_rockets_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 		}
-		#FLTE_prod_folder
+		# FLTE_prod_folder
 		containerWindowType = {
 			name = "FLTE_prod_folder"
 			position = { x=0 y=47 }
@@ -644,63 +689,60 @@ guiTypes = {
 			containerWindowType = {
 				name = "folder_frame"
 				position = { x=0 y=0 }
-				size = {
-					width = 1600 height = 2400
-					min = { width=100%% height=100%% }
-				}
+				size = { width = @width_prod height = @height_prod min = { width=100%% height=100%% } }
 				clipping = no
-				iconType = {
-					name ="GFX_industry_techtree_bg"
-					spriteType = "GFX_industry_techtree_bg"
-					position = { x=0 y=0 }
-					alwaystransparent = yes
-				}
 				containerWindowType = {
-					name = "subtitles"
-					position = { x=0 y=0 }
-					instantTextBoxType = {
-						name = "industry_subtitle"
-						position = { x = 390 y = 210 }
-						font = "hoi_22tech"
-						text = "INDUSTRY_TITLE"
-						maxWidth = 280 maxHeight = 40 format = center
+					name = "tiled_research_tier_bg" position = { x = 0 y = 0 }
+					containerWindowType = {
+						name = "tiled_research_tier_1_bg" position = { x = @x_trt_1_bg y = @y_trt_1_bg } size = { width = @width_prod height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_1_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 1 }
 					}
-					instantTextBoxType = {
-						name = "industry_subtitle_production"
-						position = { x = 40 y = 120  }
-						font = "hoi_22tech"
-						text = "INDUSTRY_TITLE_PRODUCTION"
-						maxWidth = 280 maxHeight = 40 format = center
-					}				
-					instantTextBoxType = {
-						name = "industry_subtitle_synthetic_oil"
-						position = { x = 1020 y = 120  }
-						font = "hoi_22tech"
-						text = "INDUSTRY_TITLE_OIL"
-						maxWidth = 280 maxHeight = 40 format = center
+					containerWindowType = {
+						name = "tiled_research_tier_2_bg" position = { x = @x_trt_1_bg y = @y_trt_2_bg } size = { width = @width_prod height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_2_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 2 }
 					}
-					instantTextBoxType = {
-						name = "industry_subtitle_construction"
-						position = { x = 600 y = 120  }
-						font = "hoi_22tech"
-						text = "INDUSTRY_TITLE_CONSTRUCTION"
-						maxWidth = 280 maxHeight = 40 format = center
+					containerWindowType = {
+						name = "tiled_research_tier_3_bg" position = { x = @x_trt_1_bg y = @y_trt_3_bg } size = { width = @width_prod height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_3_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 3 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_4_bg" position = { x = @x_trt_1_bg y = @y_trt_4_bg } size = { width = @width_prod height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_4_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 4 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_5_bg" position = { x = @x_trt_1_bg y = @y_trt_5_bg } size = { width = @width_prod height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_5_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 5 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_6_bg" position = { x = @x_trt_1_bg y = @y_trt_6_bg } size = { width = @width_prod height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_6_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 6 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_7_bg" position = { x = @x_trt_1_bg y = @y_trt_7_bg } size = { width = @width_prod height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_7_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 7 }
 					}
 				}
 			}
 			gridboxtype = {
 				name = "improved_machine_tools_1_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "equipment_production_1_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "construction1_tree"
-				position = { x = 180 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 		}
@@ -720,15 +762,50 @@ guiTypes = {
 			containerWindowType = {
 				name = "folder_frame"
 				position = { x=0 y=0 }
-				size = {
-					width = 1600 height = 1600
-					min = { width=100%% height=100%% }
-				}
+				size = { width = @width_infr height = @height_infr min = { width=100%% height=100%% } }
 				clipping = no
+				containerWindowType = {
+					name = "tiled_research_tier_bg" position = { x = 0 y = 0 }
+					containerWindowType = {
+						name = "tiled_research_tier_1_bg" position = { x = @x_trt_1_bg y = @y_trt_1_bg } size = { width = @width_infr height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_1_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 1 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_2_bg" position = { x = @x_trt_1_bg y = @y_trt_2_bg } size = { width = @width_infr height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_2_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 2 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_3_bg" position = { x = @x_trt_1_bg y = @y_trt_3_bg } size = { width = @width_infr height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_3_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 3 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_4_bg" position = { x = @x_trt_1_bg y = @y_trt_4_bg } size = { width = @width_infr height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_4_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 4 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_5_bg" position = { x = @x_trt_1_bg y = @y_trt_5_bg } size = { width = @width_infr height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_5_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 5 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_6_bg" position = { x = @x_trt_1_bg y = @y_trt_6_bg } size = { width = @width_infr height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_6_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 6 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_7_bg" position = { x = @x_trt_1_bg y = @y_trt_7_bg } size = { width = @width_infr height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_7_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 7 }
+					}
+				}
 			}
 			gridboxtype = {
 				name = "capacity_industrial_construction_tree"
-				position = { x = 460 y = 170 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 		}
@@ -748,64 +825,55 @@ guiTypes = {
 			containerWindowType = {
 				name = "folder_frame"
 				position = { x=0 y=0 }
-				size = {
-					width = 1600 height = 2150
-					min = { width=100%% height=100%% }
-				}
+				size = { width = @width_elec height = @height_elec min = { width=100%% height=100%% } }
 				clipping = no
-				iconType = {
-					name ="engineering_techtree_bg"
-					spriteType = "GFX_engineering_techtree_bg"
-					position = { x = 0 y = 0 }
-					alwaystransparent = yes
-				}		
-				iconType = {
-					name ="wonderweapons_bg"
-					spriteType = "GFX_wonderweapons_bg"
-					position = { x = 980 y = 0 }
-					alwaystransparent = yes
-				}
 				containerWindowType = {
-					name = "subtitles"
-					position = { x=0 y=0 }
-					instantTextBoxType = {
-						name = "electronic_eng_subtitle"
-						position = { x = 295 y = 100 }
-						font = "hoi_22tech"
-						text = "TITLE_ELECTRONIC_SUBTITLE"
-						maxWidth = 280 maxHeight = 40 format = center
+					name = "tiled_research_tier_bg" position = { x = 0 y = 0 }
+					containerWindowType = {
+						name = "tiled_research_tier_1_bg" position = { x = @x_trt_1_bg y = @y_trt_1_bg } size = { width = @width_elec height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_1_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 1 }
 					}
-					instantTextBoxType = {
-						name = "experimental_rockets_subtitle"
-						position = { x = 1095 y = 325 }
-						font = "hoi_22tech"
-						text = "TITLE_EXP_ROCKETS_SUBTITLE"
-						maxWidth = 280 maxHeight = 40 format = center
+					containerWindowType = {
+						name = "tiled_research_tier_2_bg" position = { x = @x_trt_1_bg y = @y_trt_2_bg } size = { width = @width_elec height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_2_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 2 }
 					}
-					instantTextBoxType = {
-						name = "atomic_research_subtitle"
-						position = { x = 900 y = 220 }
-						font = "hoi_22tech"
-						text = "TITLE_ATOMIC_RESEARCH_SUBTITLE"
-						maxWidth = 280 maxHeight = 40 format = center
+					containerWindowType = {
+						name = "tiled_research_tier_3_bg" position = { x = @x_trt_1_bg y = @y_trt_3_bg } size = { width = @width_elec height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_3_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 3 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_4_bg" position = { x = @x_trt_1_bg y = @y_trt_4_bg } size = { width = @width_elec height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_4_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 4 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_5_bg" position = { x = @x_trt_1_bg y = @y_trt_5_bg } size = { width = @width_elec height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_5_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 5 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_6_bg" position = { x = @x_trt_1_bg y = @y_trt_6_bg } size = { width = @width_elec height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_6_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 6 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_7_bg" position = { x = @x_trt_1_bg y = @y_trt_7_bg } size = { width = @width_elec height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_7_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 7 }
 					}
 				}
 			}
 			gridboxtype = {
 				name = "electronic_mechanical_engineering_tree"
-				position = { x = 240 y = 210 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
-			iconType = {
-				name = "highlight_engineering_1"
-				spriteType = "GFX_tutorial_research_small_item_icon_glow"
-				position = { x=355 y=172}
-				hide = yes
-				alwaystransparent = yes
-			}			
 			gridboxtype = {
 				name = "basic_fortification_tech_tree"
-				position = { x = 240 y = 210 }
+				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 		}
@@ -825,20 +893,66 @@ guiTypes = {
 			containerWindowType = {
 				name = "folder_frame"
 				position = { x=0 y=0 }
-				size = {
-					width = 1600 height = 1600
-					min = { width=100%% height=100%% }
-				}
+				size = { width = @width_advance height = @height_advance min = { width=100%% height=100%% } }
 				clipping = no
+				containerWindowType = {
+					name = "tiled_research_tier_bg" position = { x = 0 y = 0 }
+					containerWindowType = {
+						name = "tiled_research_tier_1_bg" position = { x = @x_trt_1_bg y = @y_trt_1_bg } size = { width = @width_advance height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_1_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 1 }
+						# 有BUG不能用，手动定位麻烦很多
+						# orientation = center_left/right
+						# 原设计左右各一个
+						# iconType = {
+						# 	name = "title_tier_icon_2"
+						# 	position = { x = -70 y = 0 }
+						# 	spriteType = "GFX_FLTE_techtree_title_tier_icons"
+						# 	# 有BUG不能用
+						# 	# orientation = center_left
+						# }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_2_bg" position = { x = @x_trt_1_bg y = @y_trt_2_bg } size = { width = @width_advance height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_2_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 2 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_3_bg" position = { x = @x_trt_1_bg y = @y_trt_3_bg } size = { width = @width_advance height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_3_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 3 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_4_bg" position = { x = @x_trt_1_bg y = @y_trt_4_bg } size = { width = @width_advance height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_4_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 4 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_5_bg" position = { x = @x_trt_1_bg y = @y_trt_5_bg } size = { width = @width_advance height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_5_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 5 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_6_bg" position = { x = @x_trt_1_bg y = @y_trt_6_bg } size = { width = @width_advance height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_6_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 6 }
+					}
+					containerWindowType = {
+						name = "tiled_research_tier_7_bg" position = { x = @x_trt_1_bg y = @y_trt_7_bg } size = { width = @width_advance height = @height_trt_2 }
+						background = { name = "tier" quadTextureSprite ="GFX_FLTE_techtree_tier_7_bg" }
+						iconType = { name = "title_tier_icon_1" position = { x = @x_tti_1 y = @y_tti_h2 } spriteType = "GFX_FLTE_techtree_title_tier_icons" frame = 7 }
+					}
+				}
 			}
+
 			gridboxtype = {
 				name = "experimental_rockets_tree"
-				position = { x = 240 y = 210 }
+				position = { x = 240 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
 				name = "atomic_research_tree"
-				position = { x = 240 y = 210 }
+				position = { x = 240 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 		}

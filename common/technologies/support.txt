@@ -56,14 +56,14 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 1
 
 		logistics_company = {
 			supply_consumption_factor = -0.15
 		}
 
 		research_cost = 1
-		start_year = 1936
+		start_year = 1
 
 		categories = {
 			support_tech

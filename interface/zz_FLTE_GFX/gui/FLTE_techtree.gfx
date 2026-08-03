@@ -1,0 +1,57 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_FLTE_techtree_title_tier_icons
+		textureFile = "gfx/interface/FLTE_techtree/gui/FLTE_techtree_title_tier_icons.dds"
+		noOfFrames = 7
+	}
+
+    corneredTileSpriteType = {
+		name = "GFX_FLTE_techtree_tier_1_bg"
+		texturefile = "gfx/interface/FLTE_techtree/gui/FLTE_techtree_tier_1_bg.dds"
+		size = { x = 16 y = 16 }
+		borderSize = { x = 3 y = 3 }
+		allwaystransparent = yes
+	}
+    corneredTileSpriteType = {
+		name = "GFX_FLTE_techtree_tier_2_bg"
+		texturefile = "gfx/interface/FLTE_techtree/gui/FLTE_techtree_tier_2_bg.dds"
+		size = { x = 16 y = 16 }
+		borderSize = { x = 3 y = 3 }
+		allwaystransparent = yes
+	}
+    corneredTileSpriteType = {
+		name = "GFX_FLTE_techtree_tier_3_bg"
+		texturefile = "gfx/interface/FLTE_techtree/gui/FLTE_techtree_tier_3_bg.dds"
+		size = { x = 16 y = 16 }
+		borderSize = { x = 3 y = 3 }
+		allwaystransparent = yes
+	}
+    corneredTileSpriteType = {
+		name = "GFX_FLTE_techtree_tier_4_bg"
+		texturefile = "gfx/interface/FLTE_techtree/gui/FLTE_techtree_tier_4_bg.dds"
+		size = { x = 16 y = 16 }
+		borderSize = { x = 3 y = 3 }
+		allwaystransparent = yes
+	}
+    corneredTileSpriteType = {
+		name = "GFX_FLTE_techtree_tier_5_bg"
+		texturefile = "gfx/interface/FLTE_techtree/gui/FLTE_techtree_tier_5_bg.dds"
+		size = { x = 16 y = 16 }
+		borderSize = { x = 3 y = 3 }
+		allwaystransparent = yes
+	}
+    corneredTileSpriteType = {
+		name = "GFX_FLTE_techtree_tier_6_bg"
+		texturefile = "gfx/interface/FLTE_techtree/gui/FLTE_techtree_tier_6_bg.dds"
+		size = { x = 16 y = 16 }
+		borderSize = { x = 3 y = 3 }
+		allwaystransparent = yes
+	}
+    corneredTileSpriteType = {
+		name = "GFX_FLTE_techtree_tier_7_bg"
+		texturefile = "gfx/interface/FLTE_techtree/gui/FLTE_techtree_tier_7_bg.dds"
+		size = { x = 16 y = 16 }
+		borderSize = { x = 3 y = 3 }
+		allwaystransparent = yes
+	}
+}

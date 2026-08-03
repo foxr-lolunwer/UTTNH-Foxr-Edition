@@ -6,7 +6,7 @@ technologies = {
 		}
 				
 		research_cost = 1.5 #Carrier Variant
-		start_year = 1944
+		start_year = 1
 
 		# only from focus!!! #####
 		allow = {

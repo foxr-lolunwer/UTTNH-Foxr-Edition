@@ -8,9 +8,11 @@ equipments = {
 		picture = archetype_fighter_equipment
 		sprite = light_plane
 		interface_category = interface_category_air
-		can_be_produced = { if = { limit = { has_dlc = "Arms Against Tyranny" } NOT = { has_idea = BUL_army_restrictions_aat } } else = { NOT = { has_idea = BUL_army_restrictions } } } allowed_types = { fighter interceptor cas naval_bomber suicide }
+		can_be_produced = { if = { limit = { has_dlc = "Arms Against Tyranny" } NOT = { has_idea = BUL_army_restrictions_aat } } else = { NOT = { has_idea = BUL_army_restrictions } } }
 		allow_mission_type = training
 		type = fighter
+		type_override = fixed_main_weapon_slot
+		allowed_types = { fighter interceptor cas naval_bomber suicide }
 		module_slots = {
 			fixed_main_weapon_slot = {
 				required = yes
@@ -1419,9 +1421,11 @@ equipments = {
 		picture = archetype_fighter_equipment
 		sprite = light_plane
 		interface_category = interface_category_air
-		can_be_produced = { if = { limit = { has_dlc = "Arms Against Tyranny" } NOT = { has_idea = BUL_army_restrictions_aat } } else = { NOT = { has_idea = BUL_army_restrictions } } } allowed_types = { fighter interceptor cas naval_bomber suicide }
+		can_be_produced = { if = { limit = { has_dlc = "Arms Against Tyranny" } NOT = { has_idea = BUL_army_restrictions_aat } } else = { NOT = { has_idea = BUL_army_restrictions } } }
 		allow_mission_type = training
 		type = fighter
+		type_override = fixed_main_weapon_slot
+		allowed_types = { fighter interceptor cas naval_bomber suicide }
 		module_slots = {
 			fixed_main_weapon_slot = {
 				required = yes
@@ -2843,9 +2847,11 @@ equipments = {
 		picture = archetype_strat_bomber_equipment
 		sprite = medium_plane
 		interface_category = interface_category_air
-		can_be_produced = { if = { limit = { has_dlc = "Arms Against Tyranny" } NOT = { has_idea = BUL_army_restrictions_aat } } else = { NOT = { has_idea = BUL_army_restrictions } } } allowed_types = { tactical_bomber heavy_fighter scout_plane }
+		can_be_produced = { if = { limit = { has_dlc = "Arms Against Tyranny" } NOT = { has_idea = BUL_army_restrictions_aat } } else = { NOT = { has_idea = BUL_army_restrictions } } }
 		allow_mission_type = training
 		type = tactical_bomber
+		type_override = fixed_main_weapon_slot
+		allowed_types = { tactical_bomber heavy_fighter scout_plane }
 		module_slots = {
 			fixed_main_weapon_slot = {
 				required = yes
@@ -4332,9 +4338,11 @@ equipments = {
 		picture = archetype_strat_bomber_equipment
 		sprite = heavy_plane
 		interface_category = interface_category_air
-		can_be_produced = { if = { limit = { has_dlc = "Arms Against Tyranny" } NOT = { has_idea = BUL_army_restrictions_aat } } else = { NOT = { has_idea = BUL_army_restrictions } } } allowed_types = { strategic_bomber maritime_patrol_plane }
+		can_be_produced = { if = { limit = { has_dlc = "Arms Against Tyranny" } NOT = { has_idea = BUL_army_restrictions_aat } } else = { NOT = { has_idea = BUL_army_restrictions } } }
 		allow_mission_type = training
 		type = strategic_bomber
+		type_override = fixed_main_weapon_slot
+		allowed_types = { strategic_bomber maritime_patrol_plane }
 		module_slots = {
 			fixed_main_weapon_slot = {
 				required = yes

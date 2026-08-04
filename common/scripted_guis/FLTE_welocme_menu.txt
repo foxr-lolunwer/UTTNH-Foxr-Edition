@@ -3,6 +3,7 @@ scripted_gui = {
         context_type = player_context
 		window_name = "FLTE_welcome_menu"
         visible = {
+            has_global_flag = FLTE_GLFLAG_mod_running
 			has_country_flag = FLTE_FLAG_UI_welcome_menu_show
 		}
 
@@ -14,7 +15,7 @@ scripted_gui = {
                 if = {
                     limit = { NOT = { has_global_flag = FLTE_GLFLAG_init_world_done } }
                     set_global_flag = FLTE_GLFLAG_init_world_done
-                    every_country = { FLTE_EFFECT_init_flte_tech = yes }
+                    every_country = { FLTE_EFFECT_init_start_tech = yes }
                     every_state = { FLTE_EFFECT_init_world_buildings = yes }
                 }
 
@@ -40,9 +41,6 @@ scripted_gui = {
         context_type = player_context
 		window_name = "FLTE_welcome_menu_clicked_window"
         parent_window_name = "FLTE_welcome_menu"
-        visible = {
-			has_country_flag = FLTE_FLAG_UI_welcome_menu_show
-		}
         effects = {
             main_button_click = {
                 if = {

@@ -189,7 +189,7 @@ technologies = {
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = sp_rockets_dual_chamber_rocket_engine_2 }
         path = { research_cost_coeff = 1 leads_to_tech = aam46 }
-        folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier2_2 } }
+        folder = { name = FLTE_advance_folder position = { x = @rocket_left_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_airf_3 = 1 }
 
         allow = {

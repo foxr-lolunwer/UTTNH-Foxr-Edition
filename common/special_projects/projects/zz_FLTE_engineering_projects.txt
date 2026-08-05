@@ -1,5 +1,5 @@
 sp_air_radar = {
-	specialization = specialization_FLTE_engineering
+	specialization = specialization_engineering
 	icon = GFX_sp_nuclear_radar
 	prototype_time = sp_time.prototype.medium
 	complexity = sp_complexity.medium
@@ -46,17 +46,16 @@ sp_air_radar = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
 
 sp_FLTE_tech_tier_ordn_1 = {
-	specialization = specialization_FLTE_engineering
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.easy.slow
-	breakthrough_cost = { specialization_land = 1 specialization_FLTE_engineering = 1 }
+	breakthrough_cost = { specialization_land = 1 specialization_engineering = 1 }
 	# allowed = { } 通用，每个国家都有一个实例
 	# available = { } 显示即可用
 	visible = { FROM = {
@@ -90,18 +89,17 @@ sp_FLTE_tech_tier_ordn_1 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 		FLTE_sp_land_pr_land_exp_1
 		FLTE_sp_land_pr_land_exp_2
 	}
 }
 sp_FLTE_tech_tier_ordn_2 = {
-	specialization = specialization_FLTE_engineering
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.fast
-	breakthrough_cost = { specialization_land = 2 specialization_FLTE_engineering = 1 }
+	breakthrough_cost = { specialization_land = 2 specialization_engineering = 1 }
 	visible = { FROM = {
 		NOT = { has_tech = FLTE_tech_tier_ordn_2 }
 		has_tech = FLTE_tech_tier_ordn_1
@@ -135,18 +133,17 @@ sp_FLTE_tech_tier_ordn_2 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 		FLTE_sp_land_pr_land_exp_1
 		FLTE_sp_land_pr_land_exp_2
 	}
 }
 sp_FLTE_tech_tier_ordn_3 = {
-	specialization = specialization_FLTE_engineering
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.slow
-	breakthrough_cost = { specialization_land = 3 specialization_FLTE_engineering = 1 }
+	breakthrough_cost = { specialization_land = 3 specialization_engineering = 1 }
 	visible = { FROM = {
 		NOT = { has_tech = FLTE_tech_tier_ordn_3 }
 		has_tech = FLTE_tech_tier_ordn_2
@@ -180,18 +177,17 @@ sp_FLTE_tech_tier_ordn_3 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 		FLTE_sp_land_pr_land_exp_1
 		FLTE_sp_land_pr_land_exp_2
 	}
 }
 sp_FLTE_tech_tier_ordn_4 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.fast
-    breakthrough_cost = { specialization_land = 4 specialization_FLTE_engineering = 2 }
+    breakthrough_cost = { specialization_land = 4 specialization_engineering = 2 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_ordn_4 }
        has_tech = FLTE_tech_tier_ordn_3
@@ -225,18 +221,17 @@ sp_FLTE_tech_tier_ordn_4 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
        FLTE_sp_land_pr_land_exp_1
        FLTE_sp_land_pr_land_exp_2
     }
 }
 sp_FLTE_tech_tier_ordn_5 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.slow
-    breakthrough_cost = { specialization_land = 5 specialization_FLTE_engineering = 2 }
+    breakthrough_cost = { specialization_land = 5 specialization_engineering = 2 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_ordn_5 }
        has_tech = FLTE_tech_tier_ordn_4
@@ -270,18 +265,17 @@ sp_FLTE_tech_tier_ordn_5 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
        FLTE_sp_land_pr_land_exp_1
        FLTE_sp_land_pr_land_exp_2
     }
 }
 sp_FLTE_tech_tier_ordn_6 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.fast
-    breakthrough_cost = { specialization_land = 6 specialization_FLTE_engineering = 2 }
+    breakthrough_cost = { specialization_land = 6 specialization_engineering = 2 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_ordn_6 }
        has_tech = FLTE_tech_tier_ordn_5
@@ -315,18 +309,17 @@ sp_FLTE_tech_tier_ordn_6 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
        FLTE_sp_land_pr_land_exp_1
        FLTE_sp_land_pr_land_exp_2
     }
 }
 sp_FLTE_tech_tier_ordn_7 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.slow
-    breakthrough_cost = { specialization_land = 7 specialization_FLTE_engineering = 3 }
+    breakthrough_cost = { specialization_land = 7 specialization_engineering = 3 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_ordn_7 }
        has_tech = FLTE_tech_tier_ordn_6
@@ -360,19 +353,18 @@ sp_FLTE_tech_tier_ordn_7 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
        FLTE_sp_land_pr_land_exp_1
        FLTE_sp_land_pr_land_exp_2
     }
 }
 
 sp_FLTE_tech_tier_vehc_1 = {
-	specialization = specialization_FLTE_engineering
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.easy.slow
-	breakthrough_cost = { specialization_land = 1 specialization_FLTE_engineering = 1 }
+	breakthrough_cost = { specialization_land = 1 specialization_engineering = 1 }
 	# allowed = { } 通用，每个国家都有一个实例
 	# available = { } 显示即可用
 	visible = { FROM = {
@@ -406,18 +398,17 @@ sp_FLTE_tech_tier_vehc_1 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 		FLTE_sp_land_pr_land_exp_1
 		FLTE_sp_land_pr_land_exp_2
 	}
 }
 sp_FLTE_tech_tier_vehc_2 = {
-	specialization = specialization_FLTE_engineering
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.fast
-	breakthrough_cost = { specialization_land = 2 specialization_FLTE_engineering = 1 }
+	breakthrough_cost = { specialization_land = 2 specialization_engineering = 1 }
 	visible = { FROM = {
 		NOT = { has_tech = FLTE_tech_tier_vehc_2 }
 		has_tech = FLTE_tech_tier_vehc_1
@@ -451,18 +442,17 @@ sp_FLTE_tech_tier_vehc_2 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 		FLTE_sp_land_pr_land_exp_1
 		FLTE_sp_land_pr_land_exp_2
 	}
 }
 sp_FLTE_tech_tier_vehc_3 = {
-	specialization = specialization_FLTE_engineering
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.slow
-	breakthrough_cost = { specialization_land = 3 specialization_FLTE_engineering = 1 }
+	breakthrough_cost = { specialization_land = 3 specialization_engineering = 1 }
 	visible = { FROM = {
 		NOT = { has_tech = FLTE_tech_tier_vehc_3 }
 		has_tech = FLTE_tech_tier_vehc_2
@@ -496,18 +486,17 @@ sp_FLTE_tech_tier_vehc_3 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 		FLTE_sp_land_pr_land_exp_1
 		FLTE_sp_land_pr_land_exp_2
 	}
 }
 sp_FLTE_tech_tier_vehc_4 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.fast
-    breakthrough_cost = { specialization_land = 4 specialization_FLTE_engineering = 2 }
+    breakthrough_cost = { specialization_land = 4 specialization_engineering = 2 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_vehc_4 }
        has_tech = FLTE_tech_tier_vehc_3
@@ -541,18 +530,17 @@ sp_FLTE_tech_tier_vehc_4 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
        FLTE_sp_land_pr_land_exp_1
        FLTE_sp_land_pr_land_exp_2
     }
 }
 sp_FLTE_tech_tier_vehc_5 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.slow
-    breakthrough_cost = { specialization_land = 5 specialization_FLTE_engineering = 2 }
+    breakthrough_cost = { specialization_land = 5 specialization_engineering = 2 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_vehc_5 }
        has_tech = FLTE_tech_tier_vehc_4
@@ -586,18 +574,17 @@ sp_FLTE_tech_tier_vehc_5 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
        FLTE_sp_land_pr_land_exp_1
        FLTE_sp_land_pr_land_exp_2
     }
 }
 sp_FLTE_tech_tier_vehc_6 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.fast
-    breakthrough_cost = { specialization_land = 6 specialization_FLTE_engineering = 2 }
+    breakthrough_cost = { specialization_land = 6 specialization_engineering = 2 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_vehc_6 }
        has_tech = FLTE_tech_tier_vehc_5
@@ -631,18 +618,17 @@ sp_FLTE_tech_tier_vehc_6 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
        FLTE_sp_land_pr_land_exp_1
        FLTE_sp_land_pr_land_exp_2
     }
 }
 sp_FLTE_tech_tier_vehc_7 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.slow
-    breakthrough_cost = { specialization_land = 7 specialization_FLTE_engineering = 3 }
+    breakthrough_cost = { specialization_land = 7 specialization_engineering = 3 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_vehc_7 }
        has_tech = FLTE_tech_tier_vehc_6
@@ -676,23 +662,22 @@ sp_FLTE_tech_tier_vehc_7 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
        FLTE_sp_land_pr_land_exp_1
        FLTE_sp_land_pr_land_exp_2
     }
 }
 
-sp_FLTE_tech_tier_airf_1 = {
-	specialization = specialization_FLTE_engineering
+sp_FLTE_tech_tier_air_1 = {
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.easy.slow
-	breakthrough_cost = { specialization_air = 1 specialization_FLTE_engineering = 1 }
+	breakthrough_cost = { specialization_air = 1 specialization_engineering = 1 }
 	# allowed = { } 通用，每个国家都有一个实例
 	# available = { } 显示即可用
 	visible = { FROM = {
-		NOT = { has_tech = FLTE_tech_tier_airf_1 }
+		NOT = { has_tech = FLTE_tech_tier_air_1 }
 	} }
 	ai_will_do = { base = 5
 		modifier = { factor = 2 FROM = { is_major = yes } }
@@ -702,12 +687,12 @@ sp_FLTE_tech_tier_airf_1 = {
 	project_output = {
 		country_effects = {
 			custom_override_tooltip = {
-				tooltip = tech_effect|FLTE_tech_tier_airf_1
-				set_technology = { FLTE_tech_tier_airf_1 = 1 popup = no }
+				tooltip = tech_effect|FLTE_tech_tier_air_1
+				set_technology = { FLTE_tech_tier_air_1 = 1 popup = no }
 			}
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
-				TECH = FLTE_tech_tier_airf_1
+				TECH = FLTE_tech_tier_air_1
 			}
 		}
 	}
@@ -722,21 +707,20 @@ sp_FLTE_tech_tier_airf_1 = {
 		FLTE_sp_air_pr_scientist_exp_2
 		FLTE_sp_air_pr_scientist_exp_3
 		FLTE_sp_air_pr_scientist_exp_4
-		FLTE_sp_air_pr_scientist_exp_5
 		FLTE_sp_air_pr_air_exp_1
 		FLTE_sp_air_pr_air_exp_2
 	}
 }
-sp_FLTE_tech_tier_airf_2 = {
-	specialization = specialization_FLTE_engineering
+sp_FLTE_tech_tier_air_2 = {
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.fast
-	breakthrough_cost = { specialization_air = 2 specialization_FLTE_engineering = 1 }
+	breakthrough_cost = { specialization_air = 2 specialization_engineering = 1 }
 	visible = { FROM = {
-		NOT = { has_tech = FLTE_tech_tier_airf_2 }
-		has_tech = FLTE_tech_tier_airf_1
+		NOT = { has_tech = FLTE_tech_tier_air_2 }
+		has_tech = FLTE_tech_tier_air_1
 	} }
 	ai_will_do = { base = 5
 		modifier = { factor = 2 FROM = { is_major = yes } }
@@ -747,12 +731,12 @@ sp_FLTE_tech_tier_airf_2 = {
 	project_output = {
 		country_effects = {
 			custom_override_tooltip = {
-				tooltip = tech_effect|FLTE_tech_tier_airf_2
-				set_technology = { FLTE_tech_tier_airf_2 = 1 popup = no }
+				tooltip = tech_effect|FLTE_tech_tier_air_2
+				set_technology = { FLTE_tech_tier_air_2 = 1 popup = no }
 			}
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
-				TECH = FLTE_tech_tier_airf_2
+				TECH = FLTE_tech_tier_air_2
 			}
 		}
 	}
@@ -767,21 +751,20 @@ sp_FLTE_tech_tier_airf_2 = {
 		FLTE_sp_air_pr_scientist_exp_2
 		FLTE_sp_air_pr_scientist_exp_3
 		FLTE_sp_air_pr_scientist_exp_4
-		FLTE_sp_air_pr_scientist_exp_5
 		FLTE_sp_air_pr_air_exp_1
 		FLTE_sp_air_pr_air_exp_2
 	}
 }
-sp_FLTE_tech_tier_airf_3 = {
-	specialization = specialization_FLTE_engineering
+sp_FLTE_tech_tier_air_3 = {
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.slow
-	breakthrough_cost = { specialization_air = 3 specialization_FLTE_engineering = 1 }
+	breakthrough_cost = { specialization_air = 3 specialization_engineering = 1 }
 	visible = { FROM = {
-		NOT = { has_tech = FLTE_tech_tier_airf_3 }
-		has_tech = FLTE_tech_tier_airf_2
+		NOT = { has_tech = FLTE_tech_tier_air_3 }
+		has_tech = FLTE_tech_tier_air_2
 	} }
 	ai_will_do = { base = 5
 		modifier = { factor = 2 FROM = { is_major = yes } }
@@ -792,12 +775,12 @@ sp_FLTE_tech_tier_airf_3 = {
 	project_output = {
 		country_effects = {
 			custom_override_tooltip = {
-				tooltip = tech_effect|FLTE_tech_tier_airf_3
-				set_technology = { FLTE_tech_tier_airf_3 = 1 popup = no }
+				tooltip = tech_effect|FLTE_tech_tier_air_3
+				set_technology = { FLTE_tech_tier_air_3 = 1 popup = no }
 			}
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
-				TECH = FLTE_tech_tier_airf_3
+				TECH = FLTE_tech_tier_air_3
 			}
 		}
 	}
@@ -812,21 +795,20 @@ sp_FLTE_tech_tier_airf_3 = {
 		FLTE_sp_air_pr_scientist_exp_2
 		FLTE_sp_air_pr_scientist_exp_3
 		FLTE_sp_air_pr_scientist_exp_4
-		FLTE_sp_air_pr_scientist_exp_5
 		FLTE_sp_air_pr_air_exp_1
 		FLTE_sp_air_pr_air_exp_2
 	}
 }
-sp_FLTE_tech_tier_airf_4 = {
-    specialization = specialization_FLTE_engineering
+sp_FLTE_tech_tier_air_4 = {
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.fast
-    breakthrough_cost = { specialization_air = 4 specialization_FLTE_engineering = 2 }
+    breakthrough_cost = { specialization_air = 4 specialization_engineering = 2 }
     visible = { FROM = {
-       NOT = { has_tech = FLTE_tech_tier_airf_4 }
-       has_tech = FLTE_tech_tier_airf_3
+       NOT = { has_tech = FLTE_tech_tier_air_4 }
+       has_tech = FLTE_tech_tier_air_3
     } }
     ai_will_do = { base = 5
        modifier = { factor = 2 FROM = { is_major = yes } }
@@ -837,12 +819,12 @@ sp_FLTE_tech_tier_airf_4 = {
     project_output = {
        country_effects = {
           custom_override_tooltip = {
-             tooltip = tech_effect|FLTE_tech_tier_airf_4
-             set_technology = { FLTE_tech_tier_airf_4 = 1 popup = no }
+             tooltip = tech_effect|FLTE_tech_tier_air_4
+             set_technology = { FLTE_tech_tier_air_4 = 1 popup = no }
           }
           custom_effect_tooltip = {
              localization_key = SP_UNLOCK_TECH
-             TECH = FLTE_tech_tier_airf_4
+             TECH = FLTE_tech_tier_air_4
           }
        }
     }
@@ -857,21 +839,20 @@ sp_FLTE_tech_tier_airf_4 = {
        FLTE_sp_air_pr_scientist_exp_2
        FLTE_sp_air_pr_scientist_exp_3
        FLTE_sp_air_pr_scientist_exp_4
-       FLTE_sp_air_pr_scientist_exp_5
        FLTE_sp_air_pr_air_exp_1
        FLTE_sp_air_pr_air_exp_2
     }
 }
-sp_FLTE_tech_tier_airf_5 = {
-    specialization = specialization_FLTE_engineering
+sp_FLTE_tech_tier_air_5 = {
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.slow
-    breakthrough_cost = { specialization_air = 5 specialization_FLTE_engineering = 2 }
+    breakthrough_cost = { specialization_air = 5 specialization_engineering = 2 }
     visible = { FROM = {
-       NOT = { has_tech = FLTE_tech_tier_airf_5 }
-       has_tech = FLTE_tech_tier_airf_4
+       NOT = { has_tech = FLTE_tech_tier_air_5 }
+       has_tech = FLTE_tech_tier_air_4
     } }
     ai_will_do = { base = 5
        modifier = { factor = 2 FROM = { is_major = yes } }
@@ -882,12 +863,12 @@ sp_FLTE_tech_tier_airf_5 = {
     project_output = {
        country_effects = {
           custom_override_tooltip = {
-             tooltip = tech_effect|FLTE_tech_tier_airf_5
-             set_technology = { FLTE_tech_tier_airf_5 = 1 popup = no }
+             tooltip = tech_effect|FLTE_tech_tier_air_5
+             set_technology = { FLTE_tech_tier_air_5 = 1 popup = no }
           }
           custom_effect_tooltip = {
              localization_key = SP_UNLOCK_TECH
-             TECH = FLTE_tech_tier_airf_5
+             TECH = FLTE_tech_tier_air_5
           }
        }
     }
@@ -902,21 +883,20 @@ sp_FLTE_tech_tier_airf_5 = {
        FLTE_sp_air_pr_scientist_exp_2
        FLTE_sp_air_pr_scientist_exp_3
        FLTE_sp_air_pr_scientist_exp_4
-       FLTE_sp_air_pr_scientist_exp_5
        FLTE_sp_air_pr_air_exp_1
        FLTE_sp_air_pr_air_exp_2
     }
 }
-sp_FLTE_tech_tier_airf_6 = {
-    specialization = specialization_FLTE_engineering
+sp_FLTE_tech_tier_air_6 = {
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.fast
-    breakthrough_cost = { specialization_air = 6 specialization_FLTE_engineering = 2 }
+    breakthrough_cost = { specialization_air = 6 specialization_engineering = 2 }
     visible = { FROM = {
-       NOT = { has_tech = FLTE_tech_tier_airf_6 }
-       has_tech = FLTE_tech_tier_airf_5
+       NOT = { has_tech = FLTE_tech_tier_air_6 }
+       has_tech = FLTE_tech_tier_air_5
     } }
     ai_will_do = { base = 5
        modifier = { factor = 2 FROM = { is_major = yes } }
@@ -927,12 +907,12 @@ sp_FLTE_tech_tier_airf_6 = {
     project_output = {
        country_effects = {
           custom_override_tooltip = {
-             tooltip = tech_effect|FLTE_tech_tier_airf_6
-             set_technology = { FLTE_tech_tier_airf_6 = 1 popup = no }
+             tooltip = tech_effect|FLTE_tech_tier_air_6
+             set_technology = { FLTE_tech_tier_air_6 = 1 popup = no }
           }
           custom_effect_tooltip = {
              localization_key = SP_UNLOCK_TECH
-             TECH = FLTE_tech_tier_airf_6
+             TECH = FLTE_tech_tier_air_6
           }
        }
     }
@@ -947,21 +927,20 @@ sp_FLTE_tech_tier_airf_6 = {
        FLTE_sp_air_pr_scientist_exp_2
        FLTE_sp_air_pr_scientist_exp_3
        FLTE_sp_air_pr_scientist_exp_4
-       FLTE_sp_air_pr_scientist_exp_5
        FLTE_sp_air_pr_air_exp_1
        FLTE_sp_air_pr_air_exp_2
     }
 }
-sp_FLTE_tech_tier_airf_7 = {
-    specialization = specialization_FLTE_engineering
+sp_FLTE_tech_tier_air_7 = {
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.slow
-    breakthrough_cost = { specialization_air = 7 specialization_FLTE_engineering = 3 }
+    breakthrough_cost = { specialization_air = 7 specialization_engineering = 3 }
     visible = { FROM = {
-       NOT = { has_tech = FLTE_tech_tier_airf_7 }
-       has_tech = FLTE_tech_tier_airf_6
+       NOT = { has_tech = FLTE_tech_tier_air_7 }
+       has_tech = FLTE_tech_tier_air_6
     } }
     ai_will_do = { base = 5
        modifier = { factor = 2 FROM = { is_major = yes } }
@@ -972,12 +951,12 @@ sp_FLTE_tech_tier_airf_7 = {
     project_output = {
        country_effects = {
           custom_override_tooltip = {
-             tooltip = tech_effect|FLTE_tech_tier_airf_7
-             set_technology = { FLTE_tech_tier_airf_7 = 1 popup = no }
+             tooltip = tech_effect|FLTE_tech_tier_air_7
+             set_technology = { FLTE_tech_tier_air_7 = 1 popup = no }
           }
           custom_effect_tooltip = {
              localization_key = SP_UNLOCK_TECH
-             TECH = FLTE_tech_tier_airf_7
+             TECH = FLTE_tech_tier_air_7
           }
        }
     }
@@ -992,19 +971,18 @@ sp_FLTE_tech_tier_airf_7 = {
        FLTE_sp_air_pr_scientist_exp_2
        FLTE_sp_air_pr_scientist_exp_3
        FLTE_sp_air_pr_scientist_exp_4
-       FLTE_sp_air_pr_scientist_exp_5
        FLTE_sp_air_pr_air_exp_1
        FLTE_sp_air_pr_air_exp_2
     }
 }
 
 sp_FLTE_tech_tier_naval_1 = {
-	specialization = specialization_FLTE_engineering
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.easy.slow
-	breakthrough_cost = { specialization_air = 1 specialization_FLTE_engineering = 1 }
+	breakthrough_cost = { specialization_air = 1 specialization_engineering = 1 }
 	# allowed = { } 通用，每个国家都有一个实例
 	# available = { } 显示即可用
 	visible = { FROM = {
@@ -1038,18 +1016,17 @@ sp_FLTE_tech_tier_naval_1 = {
 		FLTE_sp_naval_pr_scientist_exp_2
 		FLTE_sp_naval_pr_scientist_exp_3
 		FLTE_sp_naval_pr_scientist_exp_4
-		FLTE_sp_naval_pr_scientist_exp_5
 		FLTE_sp_naval_pr_naval_exp_1
 		FLTE_sp_naval_pr_naval_exp_2
 	}
 }
 sp_FLTE_tech_tier_naval_2 = {
-	specialization = specialization_FLTE_engineering
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.fast
-	breakthrough_cost = { specialization_air = 2 specialization_FLTE_engineering = 1 }
+	breakthrough_cost = { specialization_air = 2 specialization_engineering = 1 }
 	visible = { FROM = {
 		NOT = { has_tech = FLTE_tech_tier_naval_2 }
 		has_tech = FLTE_tech_tier_naval_1
@@ -1083,18 +1060,17 @@ sp_FLTE_tech_tier_naval_2 = {
 		FLTE_sp_naval_pr_scientist_exp_2
 		FLTE_sp_naval_pr_scientist_exp_3
 		FLTE_sp_naval_pr_scientist_exp_4
-		FLTE_sp_naval_pr_scientist_exp_5
 		FLTE_sp_naval_pr_naval_exp_1
 		FLTE_sp_naval_pr_naval_exp_2
 	}
 }
 sp_FLTE_tech_tier_naval_3 = {
-	specialization = specialization_FLTE_engineering
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.slow
-	breakthrough_cost = { specialization_air = 3 specialization_FLTE_engineering = 1 }
+	breakthrough_cost = { specialization_air = 3 specialization_engineering = 1 }
 	visible = { FROM = {
 		NOT = { has_tech = FLTE_tech_tier_naval_3 }
 		has_tech = FLTE_tech_tier_naval_2
@@ -1128,18 +1104,17 @@ sp_FLTE_tech_tier_naval_3 = {
 		FLTE_sp_naval_pr_scientist_exp_2
 		FLTE_sp_naval_pr_scientist_exp_3
 		FLTE_sp_naval_pr_scientist_exp_4
-		FLTE_sp_naval_pr_scientist_exp_5
 		FLTE_sp_naval_pr_naval_exp_1
 		FLTE_sp_naval_pr_naval_exp_2
 	}
 }
 sp_FLTE_tech_tier_naval_4 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.fast
-    breakthrough_cost = { specialization_air = 4 specialization_FLTE_engineering = 2 }
+    breakthrough_cost = { specialization_air = 4 specialization_engineering = 2 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_naval_4 }
        has_tech = FLTE_tech_tier_naval_3
@@ -1173,18 +1148,17 @@ sp_FLTE_tech_tier_naval_4 = {
        FLTE_sp_naval_pr_scientist_exp_2
        FLTE_sp_naval_pr_scientist_exp_3
        FLTE_sp_naval_pr_scientist_exp_4
-       FLTE_sp_naval_pr_scientist_exp_5
        FLTE_sp_naval_pr_naval_exp_1
        FLTE_sp_naval_pr_naval_exp_2
     }
 }
 sp_FLTE_tech_tier_naval_5 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.slow
-    breakthrough_cost = { specialization_air = 5 specialization_FLTE_engineering = 2 }
+    breakthrough_cost = { specialization_air = 5 specialization_engineering = 2 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_naval_5 }
        has_tech = FLTE_tech_tier_naval_4
@@ -1218,18 +1192,17 @@ sp_FLTE_tech_tier_naval_5 = {
        FLTE_sp_naval_pr_scientist_exp_2
        FLTE_sp_naval_pr_scientist_exp_3
        FLTE_sp_naval_pr_scientist_exp_4
-       FLTE_sp_naval_pr_scientist_exp_5
        FLTE_sp_naval_pr_naval_exp_1
        FLTE_sp_naval_pr_naval_exp_2
     }
 }
 sp_FLTE_tech_tier_naval_6 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.fast
-    breakthrough_cost = { specialization_air = 6 specialization_FLTE_engineering = 2 }
+    breakthrough_cost = { specialization_air = 6 specialization_engineering = 2 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_naval_6 }
        has_tech = FLTE_tech_tier_naval_5
@@ -1263,18 +1236,17 @@ sp_FLTE_tech_tier_naval_6 = {
        FLTE_sp_naval_pr_scientist_exp_2
        FLTE_sp_naval_pr_scientist_exp_3
        FLTE_sp_naval_pr_scientist_exp_4
-       FLTE_sp_naval_pr_scientist_exp_5
        FLTE_sp_naval_pr_naval_exp_1
        FLTE_sp_naval_pr_naval_exp_2
     }
 }
 sp_FLTE_tech_tier_naval_7 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.slow
-    breakthrough_cost = { specialization_air = 7 specialization_FLTE_engineering = 3 }
+    breakthrough_cost = { specialization_air = 7 specialization_engineering = 3 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_naval_7 }
        has_tech = FLTE_tech_tier_naval_6
@@ -1308,19 +1280,18 @@ sp_FLTE_tech_tier_naval_7 = {
        FLTE_sp_naval_pr_scientist_exp_2
        FLTE_sp_naval_pr_scientist_exp_3
        FLTE_sp_naval_pr_scientist_exp_4
-       FLTE_sp_naval_pr_scientist_exp_5
        FLTE_sp_naval_pr_naval_exp_1
        FLTE_sp_naval_pr_naval_exp_2
     }
 }
 
 sp_FLTE_tech_tier_elec_1 = {
-	specialization = specialization_FLTE_engineering
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.easy.slow
-	breakthrough_cost = { specialization_FLTE_engineering = 2 }
+	breakthrough_cost = { specialization_engineering = 2 }
 	# allowed = { } 通用，每个国家都有一个实例
 	# available = { } 显示即可用
 	visible = { FROM = {
@@ -1354,16 +1325,15 @@ sp_FLTE_tech_tier_elec_1 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
 sp_FLTE_tech_tier_elec_2 = {
-	specialization = specialization_FLTE_engineering
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.fast
-	breakthrough_cost = { specialization_FLTE_engineering = 3 }
+	breakthrough_cost = { specialization_engineering = 3 }
 	visible = { FROM = {
 		NOT = { has_tech = FLTE_tech_tier_elec_2 }
 		has_tech = FLTE_tech_tier_elec_1
@@ -1397,16 +1367,15 @@ sp_FLTE_tech_tier_elec_2 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
 sp_FLTE_tech_tier_elec_3 = {
-	specialization = specialization_FLTE_engineering
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.slow
-	breakthrough_cost = { specialization_FLTE_engineering = 4 }
+	breakthrough_cost = { specialization_engineering = 4 }
 	visible = { FROM = {
 		NOT = { has_tech = FLTE_tech_tier_elec_3 }
 		has_tech = FLTE_tech_tier_elec_2
@@ -1440,16 +1409,15 @@ sp_FLTE_tech_tier_elec_3 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
 sp_FLTE_tech_tier_elec_4 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.fast
-    breakthrough_cost = { specialization_FLTE_engineering = 6 }
+    breakthrough_cost = { specialization_engineering = 6 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_elec_4 }
        has_tech = FLTE_tech_tier_elec_3
@@ -1483,16 +1451,15 @@ sp_FLTE_tech_tier_elec_4 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
 sp_FLTE_tech_tier_elec_5 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.slow
-    breakthrough_cost = { specialization_FLTE_engineering = 7 }
+    breakthrough_cost = { specialization_engineering = 7 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_elec_5 }
        has_tech = FLTE_tech_tier_elec_4
@@ -1526,16 +1493,15 @@ sp_FLTE_tech_tier_elec_5 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
 sp_FLTE_tech_tier_elec_6 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.fast
-    breakthrough_cost = { specialization_FLTE_engineering = 8 }
+    breakthrough_cost = { specialization_engineering = 8 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_elec_6 }
        has_tech = FLTE_tech_tier_elec_5
@@ -1569,16 +1535,15 @@ sp_FLTE_tech_tier_elec_6 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
 sp_FLTE_tech_tier_elec_7 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.slow
-    breakthrough_cost = { specialization_FLTE_engineering = 10 }
+    breakthrough_cost = { specialization_engineering = 10 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_elec_7 }
        has_tech = FLTE_tech_tier_elec_6
@@ -1612,21 +1577,21 @@ sp_FLTE_tech_tier_elec_7 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
 
 sp_FLTE_tech_tier_spac_1 = {
-	specialization = specialization_FLTE_engineering
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.easy.slow
-	breakthrough_cost = { specialization_FLTE_engineering = 2 }
+	breakthrough_cost = { specialization_engineering = 2 }
 	# allowed = { } 通用，每个国家都有一个实例
 	# available = { } 显示即可用
 	visible = { FROM = {
 		NOT = { has_tech = FLTE_tech_tier_spac_1 }
+      always = no # TODO: 暂时隐藏，后续火箭/航天转移到spac下
 	} }
 	ai_will_do = { base = 5
 		modifier = { factor = 2 FROM = { is_major = yes } }
@@ -1656,19 +1621,19 @@ sp_FLTE_tech_tier_spac_1 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
 sp_FLTE_tech_tier_spac_2 = {
-	specialization = specialization_FLTE_engineering
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.fast
-	breakthrough_cost = { specialization_FLTE_engineering = 3 }
+	breakthrough_cost = { specialization_engineering = 3 }
 	visible = { FROM = {
 		NOT = { has_tech = FLTE_tech_tier_spac_2 }
 		has_tech = FLTE_tech_tier_spac_1
+      always = no # TODO: 暂时隐藏，后续火箭/航天转移到spac下
 	} }
 	ai_will_do = { base = 5
 		modifier = { factor = 2 FROM = { is_major = yes } }
@@ -1699,19 +1664,19 @@ sp_FLTE_tech_tier_spac_2 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
 sp_FLTE_tech_tier_spac_3 = {
-	specialization = specialization_FLTE_engineering
+	specialization = specialization_engineering
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.slow
-	breakthrough_cost = { specialization_FLTE_engineering = 4 }
+	breakthrough_cost = { specialization_engineering = 4 }
 	visible = { FROM = {
 		NOT = { has_tech = FLTE_tech_tier_spac_3 }
 		has_tech = FLTE_tech_tier_spac_2
+      always = no # TODO: 暂时隐藏，后续火箭/航天转移到spac下
 	} }
 	ai_will_do = { base = 5
 		modifier = { factor = 2 FROM = { is_major = yes } }
@@ -1742,19 +1707,19 @@ sp_FLTE_tech_tier_spac_3 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
 sp_FLTE_tech_tier_spac_4 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.fast
-    breakthrough_cost = { specialization_FLTE_engineering = 6 }
+    breakthrough_cost = { specialization_engineering = 6 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_spac_4 }
        has_tech = FLTE_tech_tier_spac_3
+       always = no # TODO: 暂时隐藏，后续火箭/航天转移到spac下
     } }
     ai_will_do = { base = 5
        modifier = { factor = 2 FROM = { is_major = yes } }
@@ -1785,19 +1750,19 @@ sp_FLTE_tech_tier_spac_4 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
 sp_FLTE_tech_tier_spac_5 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.slow
-    breakthrough_cost = { specialization_FLTE_engineering = 7 }
+    breakthrough_cost = { specialization_engineering = 7 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_spac_5 }
        has_tech = FLTE_tech_tier_spac_4
+       always = no # TODO: 暂时隐藏，后续火箭/航天转移到spac下
     } }
     ai_will_do = { base = 5
        modifier = { factor = 2 FROM = { is_major = yes } }
@@ -1828,19 +1793,19 @@ sp_FLTE_tech_tier_spac_5 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
 sp_FLTE_tech_tier_spac_6 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.fast
-    breakthrough_cost = { specialization_FLTE_engineering = 8 }
+    breakthrough_cost = { specialization_engineering = 8 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_spac_6 }
        has_tech = FLTE_tech_tier_spac_5
+       always = no # TODO: 暂时隐藏，后续火箭/航天转移到spac下
     } }
     ai_will_do = { base = 5
        modifier = { factor = 2 FROM = { is_major = yes } }
@@ -1871,19 +1836,19 @@ sp_FLTE_tech_tier_spac_6 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
 sp_FLTE_tech_tier_spac_7 = {
-    specialization = specialization_FLTE_engineering
+    specialization = specialization_engineering
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.slow
-    breakthrough_cost = { specialization_FLTE_engineering = 10 }
+    breakthrough_cost = { specialization_engineering = 10 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_spac_7 }
        has_tech = FLTE_tech_tier_spac_6
+       always = no # TODO: 暂时隐藏，后续火箭/航天转移到spac下
     } }
     ai_will_do = { base = 5
        modifier = { factor = 2 FROM = { is_major = yes } }
@@ -1914,6 +1879,5 @@ sp_FLTE_tech_tier_spac_7 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }

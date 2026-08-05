@@ -2,7 +2,7 @@
  # welcome menu
   FLTE_welcome_menu_title_tooltip: "模组目前使用FLTE作为模组标识，UTTNH Foxr Edition为模组名\n当前版本：§Y0.2.0§!"
   FLTE_welcome_menu_msg_tooltip: "此模组是UTTNH_2.0的一个独立分支，将来会添加更多独特内容。"
-  FLTE_welcome_menu_start_button_tooltip_delayed: "将会进行模组初始化，包括：\n- 原版开局科技映射\n- 开局建筑初始化\n- 覆盖开局单位（此版本不需要）\n\n多人模式下不会重复初始化（理论上，未经测试）"
+  FLTE_welcome_menu_start_button_tooltip_delayed: "将会进行模组初始化，包括：\n- 原版开局科技映射\n- 开局建筑初始化（此版本不需要）\n- 覆盖开局单位（此版本不需要）\n\n多人模式下不会重复初始化（理论上，未经测试）"
 
   FLTE_welcome_menu_clicked_window_main_button_tooltip_delayed: "打开信息界面，进行模组配置/查看模组信息"
 

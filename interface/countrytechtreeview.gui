@@ -13,7 +13,7 @@ guiTypes = {
 	@width_prod 	= 1815		@height_prod 	= 2140 # 22, 7
 	@width_infr 	= 3005		@height_infr 	= 2140 # 39, 7
 	@width_elec 	= 1200		@height_elec 	= 2140 # 12, 7
-	@width_advance 	= 1200		@height_advance = 2140 # 06, 7
+	@width_advance 	= 1675		@height_advance = 2140 # 20, 8
 	# trt: tiled_research_tier
 	@x_trt_1_bg = 0
 	@y_trt_1_bg = 145
@@ -557,9 +557,9 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 		}
-		# FLTE_airf_folder
+		# FLTE_air_folder
 		containerWindowType = {
-			name = "FLTE_airf_folder"
+			name = "FLTE_air_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 32 left = 32 bottom = 32 right = 32 }
@@ -945,16 +945,15 @@ guiTypes = {
 				}
 			}
 
-			gridboxtype = {
-				name = "experimental_rockets_tree"
-				position = { x = 240 y = 180 }
-				slotsize = { width = 70 height = 70 } format = "UP"
-			}
-			gridboxtype = {
-				name = "atomic_research_tree"
-				position = { x = 240 y = 180 }
-				slotsize = { width = 70 height = 70 } format = "UP"
-			}
+			gridboxtype = { name = "experimental_rockets_tree"	position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			gridboxtype = { name = "atomic_research_tree" 		position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+
+			gridboxtype = { name = "sp_land_1_tree" 			position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			gridboxtype = { name = "sp_naval_1_tree" 			position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			gridboxtype = { name = "sp_air_1_tree" 				position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			gridboxtype = { name = "sp_civilian_1_tree" 		position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			gridboxtype = { name = "sp_engineering_1_tree" 		position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			gridboxtype = { name = "sp_nuclear_1_tree" 			position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
 		}
 		# tab buttons
 		containerWindowType = {
@@ -1004,7 +1003,7 @@ guiTypes = {
 				clicksound = ui_research_tab_naval
 			}
 			buttonType = {
-				name = "FLTE_airf_folder_tab"
+				name = "FLTE_air_folder_tab"
 				position = { x = 590 y = 0 }
 				quadTextureSprite = "GFX_air_techs_folder_tab"
 				frame = 1
@@ -1950,9 +1949,9 @@ guiTypes = {
 			spriteType = "GFX_design_team_icon"
 		}
 	}
-	# FLTE_airf_folder
+	# FLTE_air_folder
 	containerWindowType = {
-		name = "techtree_FLTE_airf_folder_small_item"
+		name = "techtree_FLTE_air_folder_small_item"
 		position = { x=0 y=0 }
 		size = { width = 72 height = 72 }
 		clipping = no
@@ -1992,7 +1991,7 @@ guiTypes = {
 		}
 	}
 	containerWindowType = {
-		name = "techtree_FLTE_airf_folder_item"
+		name = "techtree_FLTE_air_folder_item"
 		position = { x=-60 y=0 }
 		size = { width = 183 height = 84 }
 		clipping = no

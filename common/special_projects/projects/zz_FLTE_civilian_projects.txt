@@ -1,10 +1,10 @@
-sp_FLTE_tech_infr_tier_1 = {
-	specialization = specialization_FLTE_civilian
+sp_FLTE_tech_tier_infr_1 = {
+	specialization = specialization_civilian
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.easy.slow
-	breakthrough_cost = { specialization_FLTE_civilian = 2 }
+	breakthrough_cost = { specialization_civilian = 2 }
 	# allowed = { } 通用，每个国家都有一个实例
 	# available = { } 显示即可用
 	visible = { FROM = {
@@ -23,7 +23,7 @@ sp_FLTE_tech_infr_tier_1 = {
 			}
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
-				TECH = FLTE_tech_infr_tier_1
+				TECH = FLTE_tech_tier_infr_1
 			}
 		}
 	}
@@ -38,16 +38,15 @@ sp_FLTE_tech_infr_tier_1 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
-sp_FLTE_tech_infr_tier_2 = {
-	specialization = specialization_FLTE_civilian
+sp_FLTE_tech_tier_infr_2 = {
+	specialization = specialization_civilian
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.fast
-	breakthrough_cost = { specialization_FLTE_civilian = 3 }
+	breakthrough_cost = { specialization_civilian = 3 }
 	visible = { FROM = {
 		NOT = { has_tech = FLTE_tech_tier_infr_2 }
 		has_tech = FLTE_tech_tier_infr_1
@@ -66,7 +65,7 @@ sp_FLTE_tech_infr_tier_2 = {
 			}
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
-				TECH = FLTE_tech_infr_tier_2
+				TECH = FLTE_tech_tier_infr_2
 			}
 		}
 	}
@@ -81,16 +80,15 @@ sp_FLTE_tech_infr_tier_2 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
-sp_FLTE_tech_infr_tier_3 = {
-	specialization = specialization_FLTE_civilian
+sp_FLTE_tech_tier_infr_3 = {
+	specialization = specialization_civilian
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.slow
-	breakthrough_cost = { specialization_FLTE_civilian = 4 }
+	breakthrough_cost = { specialization_civilian = 4 }
 	visible = { FROM = {
 		NOT = { has_tech = FLTE_tech_tier_infr_3 }
 		has_tech = FLTE_tech_tier_infr_2
@@ -109,7 +107,7 @@ sp_FLTE_tech_infr_tier_3 = {
 			}
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
-				TECH = FLTE_tech_infr_tier_3
+				TECH = FLTE_tech_tier_infr_3
 			}
 		}
 	}
@@ -124,16 +122,15 @@ sp_FLTE_tech_infr_tier_3 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
-sp_FLTE_tech_infr_tier_4 = {
-    specialization = specialization_FLTE_civilian
+sp_FLTE_tech_tier_infr_4 = {
+    specialization = specialization_civilian
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.fast
-    breakthrough_cost = { specialization_FLTE_civilian = 6 }
+    breakthrough_cost = { specialization_civilian = 6 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_infr_4 }
        has_tech = FLTE_tech_tier_infr_3
@@ -152,7 +149,7 @@ sp_FLTE_tech_infr_tier_4 = {
           }
           custom_effect_tooltip = {
              localization_key = SP_UNLOCK_TECH
-             TECH = FLTE_tech_infr_tier_4
+             TECH = FLTE_tech_tier_infr_4
           }
        }
     }
@@ -167,16 +164,15 @@ sp_FLTE_tech_infr_tier_4 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
-sp_FLTE_tech_infr_tier_5 = {
-    specialization = specialization_FLTE_civilian
+sp_FLTE_tech_tier_infr_5 = {
+    specialization = specialization_civilian
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.slow
-    breakthrough_cost = { specialization_FLTE_civilian = 7 }
+    breakthrough_cost = { specialization_civilian = 7 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_infr_5 }
        has_tech = FLTE_tech_tier_infr_4
@@ -195,7 +191,7 @@ sp_FLTE_tech_infr_tier_5 = {
           }
           custom_effect_tooltip = {
              localization_key = SP_UNLOCK_TECH
-             TECH = FLTE_tech_infr_tier_5
+             TECH = FLTE_tech_tier_infr_5
           }
        }
     }
@@ -210,16 +206,15 @@ sp_FLTE_tech_infr_tier_5 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
-sp_FLTE_tech_infr_tier_6 = {
-    specialization = specialization_FLTE_civilian
+sp_FLTE_tech_tier_infr_6 = {
+    specialization = specialization_civilian
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.fast
-    breakthrough_cost = { specialization_FLTE_civilian = 8 }
+    breakthrough_cost = { specialization_civilian = 8 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_infr_6 }
        has_tech = FLTE_tech_tier_infr_5
@@ -238,7 +233,7 @@ sp_FLTE_tech_infr_tier_6 = {
           }
           custom_effect_tooltip = {
              localization_key = SP_UNLOCK_TECH
-             TECH = FLTE_tech_infr_tier_6
+             TECH = FLTE_tech_tier_infr_6
           }
        }
     }
@@ -253,16 +248,15 @@ sp_FLTE_tech_infr_tier_6 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
-sp_FLTE_tech_infr_tier_7 = {
-    specialization = specialization_FLTE_civilian
+sp_FLTE_tech_tier_infr_7 = {
+    specialization = specialization_civilian
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.slow
-    breakthrough_cost = { specialization_FLTE_civilian = 10 }
+    breakthrough_cost = { specialization_civilian = 10 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_infr_7 }
        has_tech = FLTE_tech_tier_infr_6
@@ -281,7 +275,7 @@ sp_FLTE_tech_infr_tier_7 = {
           }
           custom_effect_tooltip = {
              localization_key = SP_UNLOCK_TECH
-             TECH = FLTE_tech_infr_tier_7
+             TECH = FLTE_tech_tier_infr_7
           }
        }
     }
@@ -296,17 +290,16 @@ sp_FLTE_tech_infr_tier_7 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
 
-sp_FLTE_tech_prod_tier_1 = {
-	specialization = specialization_FLTE_civilian
+sp_FLTE_tech_tier_prod_1 = {
+	specialization = specialization_civilian
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.easy.slow
-	breakthrough_cost = { specialization_FLTE_civilian = 2 }
+	breakthrough_cost = { specialization_civilian = 2 }
 	# allowed = { } 通用，每个国家都有一个实例
 	# available = { } 显示即可用
 	visible = { FROM = {
@@ -325,7 +318,7 @@ sp_FLTE_tech_prod_tier_1 = {
 			}
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
-				TECH = FLTE_tech_prod_tier_1
+				TECH = FLTE_tech_tier_prod_1
 			}
 		}
 	}
@@ -340,16 +333,15 @@ sp_FLTE_tech_prod_tier_1 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
-sp_FLTE_tech_prod_tier_2 = {
-	specialization = specialization_FLTE_civilian
+sp_FLTE_tech_tier_prod_2 = {
+	specialization = specialization_civilian
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.fast
-	breakthrough_cost = { specialization_FLTE_civilian = 3 }
+	breakthrough_cost = { specialization_civilian = 3 }
 	visible = { FROM = {
 		NOT = { has_tech = FLTE_tech_tier_prod_2 }
 		has_tech = FLTE_tech_tier_prod_1
@@ -368,7 +360,7 @@ sp_FLTE_tech_prod_tier_2 = {
 			}
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
-				TECH = FLTE_tech_prod_tier_2
+				TECH = FLTE_tech_tier_prod_2
 			}
 		}
 	}
@@ -383,16 +375,15 @@ sp_FLTE_tech_prod_tier_2 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
-sp_FLTE_tech_prod_tier_3 = {
-	specialization = specialization_FLTE_civilian
+sp_FLTE_tech_tier_prod_3 = {
+	specialization = specialization_civilian
 	icon = GFX_FLTE_sp_undefined
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.slow
-	breakthrough_cost = { specialization_FLTE_civilian = 4 }
+	breakthrough_cost = { specialization_civilian = 4 }
 	visible = { FROM = {
 		NOT = { has_tech = FLTE_tech_tier_prod_3 }
 		has_tech = FLTE_tech_tier_prod_2
@@ -411,7 +402,7 @@ sp_FLTE_tech_prod_tier_3 = {
 			}
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
-				TECH = FLTE_tech_prod_tier_3
+				TECH = FLTE_tech_tier_prod_3
 			}
 		}
 	}
@@ -426,16 +417,15 @@ sp_FLTE_tech_prod_tier_3 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
-sp_FLTE_tech_prod_tier_4 = {
-    specialization = specialization_FLTE_civilian
+sp_FLTE_tech_tier_prod_4 = {
+    specialization = specialization_civilian
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.fast
-    breakthrough_cost = { specialization_FLTE_civilian = 6 }
+    breakthrough_cost = { specialization_civilian = 6 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_prod_4 }
        has_tech = FLTE_tech_tier_prod_3
@@ -454,7 +444,7 @@ sp_FLTE_tech_prod_tier_4 = {
           }
           custom_effect_tooltip = {
              localization_key = SP_UNLOCK_TECH
-             TECH = FLTE_tech_prod_tier_4
+             TECH = FLTE_tech_tier_prod_4
           }
        }
     }
@@ -469,16 +459,15 @@ sp_FLTE_tech_prod_tier_4 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
-sp_FLTE_tech_prod_tier_5 = {
-    specialization = specialization_FLTE_civilian
+sp_FLTE_tech_tier_prod_5 = {
+    specialization = specialization_civilian
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.slow
-    breakthrough_cost = { specialization_FLTE_civilian = 7 }
+    breakthrough_cost = { specialization_civilian = 7 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_prod_5 }
        has_tech = FLTE_tech_tier_prod_4
@@ -497,7 +486,7 @@ sp_FLTE_tech_prod_tier_5 = {
           }
           custom_effect_tooltip = {
              localization_key = SP_UNLOCK_TECH
-             TECH = FLTE_tech_prod_tier_5
+             TECH = FLTE_tech_tier_prod_5
           }
        }
     }
@@ -512,16 +501,15 @@ sp_FLTE_tech_prod_tier_5 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
-sp_FLTE_tech_prod_tier_6 = {
-    specialization = specialization_FLTE_civilian
+sp_FLTE_tech_tier_prod_6 = {
+    specialization = specialization_civilian
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.fast
-    breakthrough_cost = { specialization_FLTE_civilian = 8 }
+    breakthrough_cost = { specialization_civilian = 8 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_prod_6 }
        has_tech = FLTE_tech_tier_prod_5
@@ -540,7 +528,7 @@ sp_FLTE_tech_prod_tier_6 = {
           }
           custom_effect_tooltip = {
              localization_key = SP_UNLOCK_TECH
-             TECH = FLTE_tech_prod_tier_6
+             TECH = FLTE_tech_tier_prod_6
           }
        }
     }
@@ -555,16 +543,15 @@ sp_FLTE_tech_prod_tier_6 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
-sp_FLTE_tech_prod_tier_7 = {
-    specialization = specialization_FLTE_civilian
+sp_FLTE_tech_tier_prod_7 = {
+    specialization = specialization_civilian
     icon = GFX_FLTE_sp_undefined
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.slow
-    breakthrough_cost = { specialization_FLTE_civilian = 10 }
+    breakthrough_cost = { specialization_civilian = 10 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_prod_7 }
        has_tech = FLTE_tech_tier_prod_6
@@ -583,7 +570,7 @@ sp_FLTE_tech_prod_tier_7 = {
           }
           custom_effect_tooltip = {
              localization_key = SP_UNLOCK_TECH
-             TECH = FLTE_tech_prod_tier_7
+             TECH = FLTE_tech_tier_prod_7
           }
        }
     }
@@ -598,6 +585,5 @@ sp_FLTE_tech_prod_tier_7 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }

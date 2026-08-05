@@ -18,8 +18,6 @@ scripted_gui = {
                     every_country = { FLTE_EFFECT_init_start_tech = yes }
                     every_state = { FLTE_EFFECT_init_world_buildings = yes }
                 }
-
-                custom_effect_tooltip = [!start_btn_icon_anim_click]
             }
         }
         triggers = {

@@ -1992,7 +1992,6 @@ sp_FLTE_tech_tier_nuclear_1 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
 sp_FLTE_tech_tier_nuclear_2 = {
@@ -2035,7 +2034,6 @@ sp_FLTE_tech_tier_nuclear_2 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
 sp_FLTE_tech_tier_nuclear_3 = {
@@ -2078,7 +2076,6 @@ sp_FLTE_tech_tier_nuclear_3 = {
 		FLTE_sp_engineering_pr_scientist_exp_2
 		FLTE_sp_engineering_pr_scientist_exp_3
 		FLTE_sp_engineering_pr_scientist_exp_4
-		FLTE_sp_engineering_pr_scientist_exp_5
 	}
 }
 sp_FLTE_tech_tier_nuclear_4 = {
@@ -2121,7 +2118,6 @@ sp_FLTE_tech_tier_nuclear_4 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
 sp_FLTE_tech_tier_nuclear_5 = {
@@ -2164,7 +2160,6 @@ sp_FLTE_tech_tier_nuclear_5 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
 sp_FLTE_tech_tier_nuclear_6 = {
@@ -2207,7 +2202,6 @@ sp_FLTE_tech_tier_nuclear_6 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }
 sp_FLTE_tech_tier_nuclear_7 = {
@@ -2250,6 +2244,5 @@ sp_FLTE_tech_tier_nuclear_7 = {
        FLTE_sp_engineering_pr_scientist_exp_2
        FLTE_sp_engineering_pr_scientist_exp_3
        FLTE_sp_engineering_pr_scientist_exp_4
-       FLTE_sp_engineering_pr_scientist_exp_5
     }
 }

@@ -10,11 +10,11 @@ specialization_air = { # 空军
 	color = { 255 0 0 }
 	program_background = GFX_sp_facility_card_bg
 }
-specialization_FLTE_civilian = { # 社会（建筑生产科技突破/建筑生产科技）
+specialization_civilian = { # 社会（建筑生产科技突破/建筑生产科技）
 	color = { 255 255 0 }
 	program_background = GFX_sp_facility_card_bg
 }
-specialization_FLTE_engineering = { # 工程学（电子工程/科技突破）
+specialization_engineering = { # 工程学（电子工程/科技突破）
 	color = { 255 0 255 }
 	program_background = GFX_sp_facility_card_bg
 }

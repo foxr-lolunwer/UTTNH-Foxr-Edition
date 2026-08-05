@@ -1,13 +1,13 @@
 NDefines.NGame.END_DATE = "2000.1.1.1"
 -- 通用
 NDefines.NBuildings.MAX_SHARED_SLOTS = 64
-NDefines.NBuildings.MAX_BUILDING_LEVELS = 25 -- 建筑可以拥有的最大等级。 15
+NDefines.NBuildings.MAX_BUILDING_LEVELS = 50 -- 建筑可以拥有的最大等级。 15
 -- 基础设施
 NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.05 -- 每个（未损坏的）基础设施等级对资源的倍增奖励 0.15
 NDefines.NMilitary.INFRA_ORG_IMPACT = 0.1 -- 基础设施对组织度恢复的比例因子 0.5
 NDefines.NMilitary.INFRASTRUCTURE_MOVEMENT_SPEED_IMPACT = -0.01 -- 低于最大基础设施时每点基础设施的速度惩罚 -0.05
 NDefines.NAI.CONSTRUCTION_PRIO_INFRASTRUCTURE = 0.4 -- base prio for infrastructure in the construction queue 0.20
-NDefines.NSupply.INFRA_TO_SUPPLY = 0.1 -- each level of infra gives this many supply 0.3
+NDefines.NSupply.INFRA_TO_SUPPLY = 0.2 -- each level of infra gives this many supply 0.3
 NDefines.NSupply.SUPPLY_FROM_DAMAGED_INFRA = 0.05 -- damaged infrastructure counts as this in supply calcs 0.15
 -- 机场
 NDefines.NMilitary.PLAN_PORVINCE_AIRFIELD_LEVEL_FACTOR = 0.125 -- 机场等级的奖励因子 0.25

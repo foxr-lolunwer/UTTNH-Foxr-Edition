@@ -15,13 +15,13 @@ technologies = {
 	FLTE_tech_tier_vehc_6 = { is_special_project_tech = yes research_cost = 1 }
 	FLTE_tech_tier_vehc_7 = { is_special_project_tech = yes research_cost = 1 }
 
-	FLTE_tech_tier_airf_1 = { is_special_project_tech = yes research_cost = 1 }
-	FLTE_tech_tier_airf_2 = { is_special_project_tech = yes research_cost = 1 }
-	FLTE_tech_tier_airf_3 = { is_special_project_tech = yes research_cost = 1 }
-	FLTE_tech_tier_airf_4 = { is_special_project_tech = yes research_cost = 1 }
-	FLTE_tech_tier_airf_5 = { is_special_project_tech = yes research_cost = 1 }
-	FLTE_tech_tier_airf_6 = { is_special_project_tech = yes research_cost = 1 }
-	FLTE_tech_tier_airf_7 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_air_1 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_air_2 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_air_3 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_air_4 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_air_5 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_air_6 = { is_special_project_tech = yes research_cost = 1 }
+	FLTE_tech_tier_air_7 = { is_special_project_tech = yes research_cost = 1 }
 
 	FLTE_tech_tier_naval_1 = { is_special_project_tech = yes research_cost = 1 }
 	FLTE_tech_tier_naval_2 = { is_special_project_tech = yes research_cost = 1 }

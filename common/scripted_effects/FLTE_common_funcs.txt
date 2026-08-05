@@ -5,18 +5,18 @@ FLTE_EFFECT_init_world_buildings = {
 	# 	multiply_temp_variable = { FLTE_state_building_add_num = 3 }
 	# 	add_building_construction = { type = infrastructure level = FLTE_state_building_add_num }
 	# }
-	if = {
-		limit = { check_variable = { building_level@industrial_complex > 0 } }
-		set_temp_variable = { FLTE_state_building_add_num = building_level@industrial_complex }
-		multiply_temp_variable = { FLTE_state_building_add_num = 2 }
-		add_building_construction = { type = industrial_complex level = FLTE_state_building_add_num }
-	}
-	if = {
-		limit = { check_variable = { building_level@arms_factory > 0 } }
-		set_temp_variable = { FLTE_state_building_add_num = building_level@arms_factory }
-		# multiply_temp_variable = { FLTE_state_building_add_num = 1 }
-		add_building_construction = { type = arms_factory level = FLTE_state_building_add_num }
-	}
+	# if = {
+	# 	limit = { check_variable = { building_level@industrial_complex > 0 } }
+	# 	set_temp_variable = { FLTE_state_building_add_num = building_level@industrial_complex }
+	# 	multiply_temp_variable = { FLTE_state_building_add_num = 2 }
+	# 	add_building_construction = { type = industrial_complex level = FLTE_state_building_add_num }
+	# }
+	# if = {
+	# 	limit = { check_variable = { building_level@arms_factory > 0 } }
+	# 	set_temp_variable = { FLTE_state_building_add_num = building_level@arms_factory }
+	# 	# multiply_temp_variable = { FLTE_state_building_add_num = 1 }
+	# 	add_building_construction = { type = arms_factory level = FLTE_state_building_add_num }
+	# }
 	# if = {
 	# 	limit = { check_variable = { building_level@bunker > 0 } }
 	# 	set_temp_variable = { FLTE_state_building_add_num = building_level@bunker }
@@ -135,42 +135,40 @@ FLTE_EFFECT_set_flte_tech_from_vanilla = {
 FLTE_EFFECT_init_tech_tier = {
 	FLTE_EFFECT_init_tech_tier_ordn 	= yes
 	FLTE_EFFECT_init_tech_tier_vehc 	= yes
-	FLTE_EFFECT_init_tech_tier_airf 	= yes
+	FLTE_EFFECT_init_tech_tier_air	 	= yes
 	FLTE_EFFECT_init_tech_tier_naval 	= yes
 	FLTE_EFFECT_init_tech_tier_infr 	= yes
 	FLTE_EFFECT_init_tech_tier_prod 	= yes
 	FLTE_EFFECT_init_tech_tier_elec 	= yes
 	FLTE_EFFECT_init_tech_tier_spac 	= yes
 	FLTE_EFFECT_init_tech_tier_nuclear 	= yes
+	FLTE_EFFECT_init_tech_tier_final 	= yes
 }
 FLTE_EFFECT_init_tech_tier_ordn = {
 	# 支援/特种单位科技不计入装备研发等级
 	if = { limit = { OR = {
 			has_tech = infantry_weapons
 			# 其他T1起始科技不计入
-		}
-		set_technology = { popup = no FLTE_tech_tier_ordn_1 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_ordn_1 = 1 }
 	if = { limit = { OR = {
-			has_tech = support_weapons2 # ^[1]
+			has_tech = support_weapons2
 			has_tech = infantry_weapons2
-			has_tech = gw_artillery # ^[1]
+			has_tech = gw_artillery
 
-			has_tech = tech_support # ^[1]
-		}
-		set_technology = { popup = no FLTE_tech_tier_ordn_2 = 1 } }
-	}
+			has_tech = tech_support
+		} }
+		set_technology = { popup = no FLTE_tech_tier_ordn_2 = 1 }
 	if = { limit = { OR = {
 			has_tech = support_weapons4
 			has_tech = improved_infantry_weapons_2
 			has_tech = infantry_at2
-			has_tech = night_vision # ^[1]
+			has_tech = night_vision
 			has_tech = antiair1
 			has_tech = artillery1
 			has_tech = antitank1
-		}
-		set_technology = { popup = no FLTE_tech_tier_ordn_3 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_ordn_3 = 1 }
 	if = { limit = { OR = {
 			has_tech = support_weapons6
 			has_tech = advanced_infantry_weapons2
@@ -181,9 +179,8 @@ FLTE_EFFECT_init_tech_tier_ordn = {
 			has_tech = artillery3
 			has_tech = rocket_artillery
 			has_tech = antitank3
-		}
-		set_technology = { popup = no FLTE_tech_tier_ordn_4 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_ordn_4 = 1 }
 	if = { limit = { OR = {
 			has_tech = support_weapons7
 			has_tech = infantry_cw2
@@ -194,9 +191,8 @@ FLTE_EFFECT_init_tech_tier_ordn = {
 			has_tech = artillery5
 			has_tech = rocket_artillery3
 			has_tech = antitank5
-		}
-		set_technology = { popup = no FLTE_tech_tier_ordn_5 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_ordn_5 = 1 }
 	if = { limit = { OR = {
 			has_tech = support_weapons8
 			has_tech = infantry_cw4
@@ -205,12 +201,11 @@ FLTE_EFFECT_init_tech_tier_ordn = {
 			has_tech = night_vision4
 
 			has_tech = antiair7
-			has_tech = artillery7
+			has_tech = cwart2
 			has_tech = rocket_artillery5
 			has_tech = antitank7
-		}
-		set_technology = { popup = no FLTE_tech_tier_ordn_6 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_ordn_6 = 1 }
 	if = { limit = { OR = {
 			has_tech = support_weapons9
 			has_tech = infantry_cw5
@@ -219,21 +214,20 @@ FLTE_EFFECT_init_tech_tier_ordn = {
 			has_tech = night_vision5
 
 			has_tech = antiair9
-			has_tech = artillery9
+			has_tech = cwart4
 			has_tech = rocket_artillery7
 			has_tech = antitank9
-		}
-		set_technology = { popup = no FLTE_tech_tier_ordn_7 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_ordn_7 = 1 }
+	} } } } } } }
 }
 FLTE_EFFECT_init_tech_tier_vehc = {
 	# 喷火器和巡洋舰不计入装备研发等级
 	if = { limit = { OR = {
 			has_tech = tech_trucks
 			has_tech = basic_train
-		}
-		set_technology = { popup = no FLTE_tech_tier_vehc_1 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_vehc_1 = 1 }
 	if = { limit = { OR = {
 			has_tech = motorised_infantry
 			has_tech = armored_car2
@@ -241,9 +235,8 @@ FLTE_EFFECT_init_tech_tier_vehc = {
 			has_tech = railway_gun
 
 			has_tech = gwtank_chassis
-		}
-		set_technology = { popup = no FLTE_tech_tier_vehc_2 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_vehc_2 = 1 }
 	if = { limit = { OR = {
 			has_tech = mechanised_infantry
 			has_tech = armored_car3
@@ -255,9 +248,8 @@ FLTE_EFFECT_init_tech_tier_vehc = {
 			has_tech = basic_light_tank_chassis
 			has_tech = basic_medium_tank_chassis
 			has_tech = basic_heavy_tank_chassis
-		}
-		set_technology = { popup = no FLTE_tech_tier_vehc_3 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_vehc_3 = 1 }
 	if = { limit = { OR = {
 			has_tech = motorised_infantry2
 			has_tech = amphibious_mechanized_infantry_2
@@ -272,9 +264,8 @@ FLTE_EFFECT_init_tech_tier_vehc = {
 			has_tech = advanced_medium_tank_chassis
 			has_tech = advanced_heavy_tank_chassis
 			has_tech = super_heavy_tank_chassis
-		}
-		set_technology = { popup = no FLTE_tech_tier_vehc_4 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_vehc_4 = 1 }
 	if = { limit = { OR = {
 			has_tech = motorised_infantry3
 			has_tech = amphibious_mechanized_infantry_4
@@ -287,9 +278,8 @@ FLTE_EFFECT_init_tech_tier_vehc = {
 			has_tech = modern_light_tank_2
 			has_tech = main_battle_tank_chassis_2
 			has_tech = cw_heavy_tank_chassis
-		}
-		set_technology = { popup = no FLTE_tech_tier_vehc_5 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_vehc_5 = 1 }
 	if = { limit = { OR = {
 			has_tech = motorised_infantry4
 			has_tech = amphibious_mechanized_infantry_6
@@ -302,9 +292,8 @@ FLTE_EFFECT_init_tech_tier_vehc = {
 			has_tech = modern_light_tank_4
 			has_tech = main_battle_tank_chassis_4
 			has_tech = cw_heavy_tank_chassis_2
-		}
-		set_technology = { popup = no FLTE_tech_tier_vehc_6 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_vehc_6 = 1 }
 	if = { limit = { OR = {
 			has_tech = amphibious_mechanized_infantry_7
 			has_tech = mechanised_infantry8
@@ -314,34 +303,32 @@ FLTE_EFFECT_init_tech_tier_vehc = {
 			has_tech = engine_tech_11
 			has_tech = modern_light_tank_5
 			has_tech = main_battle_tank_chassis_6
-		}
-		set_technology = { popup = no FLTE_tech_tier_vehc_7 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_vehc_7 = 1 }
+	} } } } } } }
 }
-FLTE_EFFECT_init_tech_tier_airf = {
+FLTE_EFFECT_init_tech_tier_air = {
 	# 空天母舰不计入装备研发等级
 	if = { limit = { OR = {
 			has_tech = iw_small_airframe
 			has_tech = iw_medium_airframe
 			# 运输机与中型飞机相关
 			# 其他T1起始科技不计入
-		}
-		set_technology = { popup = no FLTE_tech_tier_airf_1 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_air_1 = 1 }
 	if = { limit = { OR = {
 			has_tech = basic_small_airframe
 			has_tech = basic_medium_airframe
-			has_tech = iw_large_airframe # ^[1]
-			has_tech = heavy_bombs # ^[1]
-			has_tech = aa_hmg2 # ^[1]
-			has_tech = aa_cannon_1 # ^[1]
-			has_tech = air_torpedoe_2 # ^[1]
-			has_tech = aircraft_construction # ^[1]
-			has_tech = engines_2 # ^[1]
-			has_tech = range_improvements # ^[1]
-		}
-		set_technology = { popup = no FLTE_tech_tier_airf_2 = 1 } }
-	}
+			has_tech = iw_large_airframe
+			has_tech = heavy_bombs
+			has_tech = aa_hmg2
+			has_tech = aa_cannon_1
+			has_tech = air_torpedoe_2
+			has_tech = aircraft_construction
+			has_tech = engines_2
+			has_tech = range_improvements
+		} }
+		set_technology = { popup = no FLTE_tech_tier_air_2 = 1 }
 	if = { limit = { OR = {
 			has_tech = improved_small_airframe
 			has_tech = improved_medium_airframe
@@ -350,9 +337,8 @@ FLTE_EFFECT_init_tech_tier_airf = {
 			has_tech = aa_cannon_3
 			has_tech = air_torpedoe_3
 			has_tech = engines_3
-		}
-		set_technology = { popup = no FLTE_tech_tier_airf_3 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_air_3 = 1 }
 	if = { limit = { OR = {
 			has_tech = advanced_small_airframe
 			has_tech = advanced_medium_airframe
@@ -362,9 +348,8 @@ FLTE_EFFECT_init_tech_tier_airf = {
 			has_tech = dragchut
 			has_tech = sp_centrifugal_jet_tech
 			has_tech = range_improvements2
-		}
-		set_technology = { popup = no FLTE_tech_tier_airf_4 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_air_4 = 1 }
 	if = { limit = { OR = {
 			has_tech = modern_small_airframe_2
 			has_tech = modern_medium_airframe_1
@@ -372,32 +357,30 @@ FLTE_EFFECT_init_tech_tier_airf = {
 			has_tech = tvguidedbomb
 			has_tech = aa_cannon_5
 			has_tech = advanced_turbojet_engine
-		}
-		set_technology = { popup = no FLTE_tech_tier_airf_5 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_air_5 = 1 }
 	if = { limit = { OR = {
 			has_tech = modern_small_airframe_4
 			has_tech = modern_medium_airframe_3
-			has_tech = advanced_large_airframe_2
+			has_tech = modern_large_airframe_2
 			has_tech = laserguidedbomb
 			has_tech = tarpspod
 			has_tech = autocannon1
 			has_tech = dragchut2
 			has_tech = turbofan_engine
 			has_tech = range_improvements3
-		}
-		set_technology = { popup = no FLTE_tech_tier_airf_6 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_air_6 = 1 }
 	if = { limit = { OR = {
 			has_tech = modern_small_airframe_6
 			has_tech = modern_medium_airframe_4
-			has_tech = advanced_large_airframe_4
+			has_tech = modern_large_airframe_4
 			has_tech = laserguidedbomb2
 			has_tech = autocannon2
 			has_tech = modern_turbofan_engine
-		}
-		set_technology = { popup = no FLTE_tech_tier_airf_7 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_air_7 = 1 }
+	} } } } } } }
 }
 FLTE_EFFECT_init_tech_tier_naval = {
 	# 冰航母/损管/射击方法/水雷不计入装备研发等级
@@ -406,9 +389,8 @@ FLTE_EFFECT_init_tech_tier_naval = {
 			has_tech = early_ship_hull_cruiser
 
 			has_tech = mtg_transport
-		}
-		set_technology = { popup = no FLTE_tech_tier_naval_1 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_naval_1 = 1 }
 	if = { limit = { OR = {
 			has_tech = basic_ship_hull_light
 			has_tech = basic_depth_charges
@@ -422,9 +404,8 @@ FLTE_EFFECT_init_tech_tier_naval = {
 			has_tech = basic_light_shell
 			has_tech = basic_heavy_shell
 			has_tech = magnetic_detonator
-		}
-		set_technology = { popup = no FLTE_tech_tier_naval_2 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_naval_2 = 1 }
 	if = { limit = { OR = {
 			has_tech = improved_ship_hull_light
 			has_tech = advanced_depth_charges
@@ -440,9 +421,8 @@ FLTE_EFFECT_init_tech_tier_naval = {
 			has_tech = improved_heavy_battery
 			has_tech = homing_torpedo
 			has_tech = mtg_landing_craft
-		}
-		set_technology = { popup = no FLTE_tech_tier_naval_3 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_naval_3 = 1 }
 	if = { limit = { OR = {
 			has_tech = ship_hull_light_5
 			has_tech = modern_depth_charges
@@ -460,9 +440,8 @@ FLTE_EFFECT_init_tech_tier_naval = {
 			has_tech = advanced_heavy_battery
 			has_tech = ship_torpedo_launcher_5
 			has_tech = mtg_tank_landing_craft
-		}
-		set_technology = { popup = no FLTE_tech_tier_naval_4 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_naval_4 = 1 }
 	if = { limit = { OR = {
 			has_tech = ship_hull_light_6
 			has_tech = depth_charges_5
@@ -477,9 +456,8 @@ FLTE_EFFECT_init_tech_tier_naval = {
 			has_tech = ship_light_ASM_battery_1
 			has_tech = ship_heavy_ASM_battery_1
 			has_tech = ship_torpedo_launcher_6
-		}
-		set_technology = { popup = no FLTE_tech_tier_naval_5 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_naval_5 = 1 }
 	if = { limit = { OR = {
 			has_tech = ship_hull_light_8
 			has_tech = depth_charges_7
@@ -494,9 +472,8 @@ FLTE_EFFECT_init_tech_tier_naval = {
 			has_tech = ship_light_ASM_battery_3
 			has_tech = ship_heavy_ASM_battery_3
 			has_tech = ship_torpedo_launcher_8
-		}
-		set_technology = { popup = no FLTE_tech_tier_naval_6 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_naval_6 = 1 }
 	if = { limit = { OR = {
 			has_tech = ship_hull_light_10
 			has_tech = depth_charges_9
@@ -511,60 +488,53 @@ FLTE_EFFECT_init_tech_tier_naval = {
 			has_tech = ship_ciws_2
 			has_tech = ship_heavy_ASM_battery_5
 			has_tech = ship_torpedo_launcher_10
-		}
-		set_technology = { popup = no FLTE_tech_tier_naval_7 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_naval_7 = 1 }
+	} } } } } } }
 }
 FLTE_EFFECT_init_tech_tier_prod = {
 	if = { limit = { OR = {
 			has_tech = improved_machine_tools_1
 			has_tech = equipment_production_1
-		}
-		set_technology = { popup = no FLTE_tech_tier_prod_1 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_prod_1 = 1 }
 	if = { limit = { OR = {
 			has_tech = improved_machine_tools_3
 			has_tech = equipment_production_3
-		}
-		set_technology = { popup = no FLTE_tech_tier_prod_2 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_prod_2 = 1 }
 	if = { limit = { OR = {
 			has_tech = improved_machine_tools_5
 			has_tech = equipment_production_5
-		}
-		set_technology = { popup = no FLTE_tech_tier_prod_3 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_prod_3 = 1 }
 	if = { limit = { OR = {
 			has_tech = improved_machine_tools_7
 			has_tech = equipment_production_7
-		}
-		set_technology = { popup = no FLTE_tech_tier_prod_4 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_prod_4 = 1 }
 	if = { limit = { OR = {
 			has_tech = improved_machine_tools_9
 			has_tech = equipment_production_9
-		}
-		set_technology = { popup = no FLTE_tech_tier_prod_5 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_prod_5 = 1 }
 	if = { limit = { OR = {
 			has_tech = improved_machine_tools_11
 			has_tech = equipment_production_11
-		}
-		set_technology = { popup = no FLTE_tech_tier_prod_6 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_prod_6 = 1 }
 	if = { limit = { OR = {
 			has_tech = improved_machine_tools_13
 			has_tech = equipment_production_13
-		}
-		set_technology = { popup = no FLTE_tech_tier_prod_7 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_prod_7 = 1 }
+	} } } } } } }
 }
 FLTE_EFFECT_init_tech_tier_infr = {
 	if = { limit = { OR = {
 			has_tech = capacity_industrial_construction
-		}
-		set_technology = { popup = no FLTE_tech_tier_infr_1 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_infr_1 = 1 }
 	if = { limit = { OR = {
 			has_tech = dispersed_industry_2
 			has_tech = concentrated_industry_2
@@ -572,9 +542,8 @@ FLTE_EFFECT_init_tech_tier_infr = {
 			has_tech = fuel_refining_1
 			has_tech = coal_energy_1
 			has_tech = excavation_2
-		}
-		set_technology = { popup = no FLTE_tech_tier_infr_2 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_infr_2 = 1 }
 	if = { limit = { OR = {
 			has_tech = dispersed_industry_4
 			has_tech = concentrated_industry_4
@@ -589,9 +558,8 @@ FLTE_EFFECT_init_tech_tier_infr = {
 			has_tech = resource_expansion_chromium_2
 			has_tech = resource_expansion_rubber_2
 			has_tech = resource_expansion_coal_2
-		}
-		set_technology = { popup = no FLTE_tech_tier_infr_3 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_infr_3 = 1 }
 	if = { limit = { OR = {
 			has_tech = dispersed_industry_6
 			has_tech = concentrated_industry_6
@@ -606,9 +574,8 @@ FLTE_EFFECT_init_tech_tier_infr = {
 			has_tech = resource_expansion_chromium_3
 			has_tech = resource_expansion_rubber_3
 			has_tech = resource_expansion_coal_3
-		}
-		set_technology = { popup = no FLTE_tech_tier_infr_4 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_infr_4 = 1 }
 	if = { limit = { OR = {
 			has_tech = dispersed_industry_8
 			has_tech = concentrated_industry_8
@@ -623,9 +590,8 @@ FLTE_EFFECT_init_tech_tier_infr = {
 			has_tech = resource_expansion_chromium_4
 			has_tech = resource_expansion_rubber_4
 			has_tech = resource_expansion_coal_4
-		}
-		set_technology = { popup = no FLTE_tech_tier_infr_5 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_infr_5 = 1 }
 	if = { limit = { OR = {
 			has_tech = dispersed_industry_10
 			has_tech = concentrated_industry_10
@@ -639,9 +605,8 @@ FLTE_EFFECT_init_tech_tier_infr = {
 			has_tech = resource_expansion_chromium_5
 			has_tech = resource_expansion_rubber_5
 			has_tech = resource_expansion_coal_5
-		}
-		set_technology = { popup = no FLTE_tech_tier_infr_6 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_infr_6 = 1 }
 	if = { limit = { OR = {
 			has_tech = dispersed_industry_12
 			has_tech = concentrated_industry_12
@@ -655,101 +620,123 @@ FLTE_EFFECT_init_tech_tier_infr = {
 			has_tech = resource_expansion_chromium_6
 			has_tech = resource_expansion_rubber_6
 			has_tech = resource_expansion_coal_6
-		}
-		set_technology = { popup = no FLTE_tech_tier_infr_7 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_infr_7 = 1 }
+	} } } } } } }
 }
 FLTE_EFFECT_init_tech_tier_elec = {
 	if = { limit = { OR = {
 			has_tech = electronic_mechanical_engineering
-		}
-		set_technology = { popup = no FLTE_tech_tier_prod_1 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_prod_1 = 1 }
 	if = { limit = { OR = {
 			has_tech = improved_radio
 			has_tech = cavity_magnatron
 			has_tech = computing_machine
-		}
-		set_technology = { popup = no FLTE_tech_tier_prod_2 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_prod_2 = 1 }
 	if = { limit = { OR = {
 			has_tech = advanced_radio
 			has_tech = centimetric_radar
 			has_tech = improved_computing_machine
-		}
-		set_technology = { popup = no FLTE_tech_tier_prod_3 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_prod_3 = 1 }
 	if = { limit = { OR = {
 			has_tech = radio55
 			has_tech = monopulse_radar
 			has_tech = improved_vacuum_computer
-		}
-		set_technology = { popup = no FLTE_tech_tier_prod_4 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_prod_4 = 1 }
 	if = { limit = { OR = {
 			has_tech = radio65
 			has_tech = over_the_horizon_radar
 			has_tech = basic_transistor_computer
-		}
-		set_technology = { popup = no FLTE_tech_tier_prod_5 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_prod_5 = 1 }
 	if = { limit = { OR = {
 			has_tech = radio75
 			has_tech = pesa
 			has_tech = comp65
-		}
-		set_technology = { popup = no FLTE_tech_tier_prod_6 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_prod_6 = 1 }
 	if = { limit = { OR = {
 			has_tech = radio90
 			has_tech = aesa
 			has_tech = comp80
-		}
-		set_technology = { popup = no FLTE_tech_tier_prod_7 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_prod_7 = 1 }
+	} } } } } } }
 }
 FLTE_EFFECT_init_tech_tier_spac = {
 	if = { limit = { OR = {
 			has_tech = experimental_rockets
-		}
-		set_technology = { popup = no FLTE_tech_tier_spac_1 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_spac_1 = 1 }
 	if = { limit = { OR = {
 			has_tech = sp_rockets_dual_chamber_rocket_engine_1
-		}
-		set_technology = { popup = no FLTE_tech_tier_spac_2 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_spac_2 = 1 }
 	if = { limit = { OR = {
 			has_tech = sp_rockets_dual_chamber_rocket_engine_2
-		}
-		set_technology = { popup = no FLTE_tech_tier_spac_3 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_spac_3 = 1 }
 	if = { limit = { OR = {
 			has_tech = rocketry60
-		}
-		set_technology = { popup = no FLTE_tech_tier_spac_4 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_spac_4 = 1 }
 	if = { limit = { OR = {
 			has_tech = rocketry70
-		}
-		set_technology = { popup = no FLTE_tech_tier_spac_5 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_spac_5 = 1 }
 	if = { limit = { OR = {
 			has_tech = rocketry80
-		}
-		set_technology = { popup = no FLTE_tech_tier_spac_6 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_spac_6 = 1 }
 	if = { limit = { OR = {
 			has_tech = rocketry90
-		}
-		set_technology = { popup = no FLTE_tech_tier_spac_7 = 1 } }
-	}
+		} }
+		set_technology = { popup = no FLTE_tech_tier_spac_7 = 1 }
+	} } } } } } }
 }
 FLTE_EFFECT_init_tech_tier_nuclear = {
 	if = { limit = { OR = {
 			has_tech = atomic_research
-		}
-		set_technology = { popup = no FLTE_tech_tier_nuclear_1 = 1 } }
+		} }
+		set_technology = { popup = no FLTE_tech_tier_nuclear_1 = 1 }
 	}
 }
- # [1]: 默认如果给了此科技，那么一定能通过前置等级检查
+FLTE_EFFECT_init_tech_tier_final = {
+	if = { limit = { num_of_owned_factories > 14 }
+		if = { limit = {  NOT = { has_tech = FLTE_tech_tier_infr_1 } } set_technology = { popup = no FLTE_tech_tier_infr_1 = 1 } }
+		if = { limit = { num_of_owned_factories > 29 }
+			if = { limit = {  NOT = { has_tech = FLTE_tech_tier_prod_1 } } set_technology = { popup = no FLTE_tech_tier_prod_1 = 1 } }
+			if = { limit = {  NOT = { has_tech = FLTE_tech_tier_infr_2 } } set_technology = { popup = no FLTE_tech_tier_infr_2 = 1 } }
+			if = { limit = {  NOT = { has_tech = FLTE_tech_tier_elec_1 } } set_technology = { popup = no FLTE_tech_tier_elec_1 = 1 } }
+			if = { limit = { num_of_owned_factories > 59 }
+				if = { limit = {  NOT = { has_tech = FLTE_tech_tier_prod_2 } } set_technology = { popup = no FLTE_tech_tier_prod_2 = 1 } }
+				if = { limit = {  NOT = { has_tech = FLTE_tech_tier_infr_3 } } set_technology = { popup = no FLTE_tech_tier_infr_3 = 1 } }
+				if = { limit = {  NOT = { has_tech = FLTE_tech_tier_nuclear_1 } } set_technology = { popup = no FLTE_tech_tier_nuclear_1 = 1 } }
+				if = { limit = { num_of_owned_factories > 119 }
+					if = { limit = {  NOT = { has_tech = FLTE_tech_tier_prod_3 } } set_technology = { popup = no FLTE_tech_tier_prod_3 = 1 } }
+					if = { limit = {  NOT = { has_tech = FLTE_tech_tier_infr_4 } } set_technology = { popup = no FLTE_tech_tier_infr_4 = 1 } }
+					if = { limit = {  NOT = { has_tech = FLTE_tech_tier_elec_2 } } set_technology = { popup = no FLTE_tech_tier_elec_2 = 1 } }
+					if = { limit = { num_of_owned_factories > 239 }
+						if = { limit = {  NOT = { has_tech = FLTE_tech_tier_prod_4 } } set_technology = { popup = no FLTE_tech_tier_prod_4 = 1 } }
+						if = { limit = {  NOT = { has_tech = FLTE_tech_tier_infr_5 } } set_technology = { popup = no FLTE_tech_tier_infr_5 = 1 } }
+						if = { limit = {  NOT = { has_tech = FLTE_tech_tier_nuclear_2 } } set_technology = { popup = no FLTE_tech_tier_nuclear_2 = 1 } }
+						if = { limit = { num_of_owned_factories > 479 }
+							if = { limit = {  NOT = { has_tech = FLTE_tech_tier_prod_5 } } set_technology = { popup = no FLTE_tech_tier_prod_5 = 1 } }
+							if = { limit = {  NOT = { has_tech = FLTE_tech_tier_infr_6 } } set_technology = { popup = no FLTE_tech_tier_infr_6 = 1 } }
+							if = { limit = {  NOT = { has_tech = FLTE_tech_tier_elec_3 } } set_technology = { popup = no FLTE_tech_tier_elec_3 = 1 } }
+							if = { limit = { num_of_owned_factories > 959 }
+								if = { limit = {  NOT = { has_tech = FLTE_tech_tier_prod_6 } } set_technology = { popup = no FLTE_tech_tier_prod_6 = 1 } }
+								if = { limit = {  NOT = { has_tech = FLTE_tech_tier_infr_7 } } set_technology = { popup = no FLTE_tech_tier_infr_7 = 1 } }
+								if = { limit = {  NOT = { has_tech = FLTE_tech_tier_nuclear_3 } } set_technology = { popup = no FLTE_tech_tier_nuclear_3 = 1 } }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

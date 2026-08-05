@@ -758,7 +758,7 @@ operation_steal_tech_airforce = { ### 18 3/55
 					has_dlc = "By Blood Alone"
 				}
 				steal_random_tech_bonus = {
-					folder = FLTE_airf_folder
+					folder = FLTE_air_folder
 					bonus = 3.0
 					dynamic = yes
 					instant = yes
@@ -807,7 +807,7 @@ operation_steal_tech_airforce = { ### 18 3/55
 							has_dlc = "By Blood Alone"
 						}
 						steal_random_tech_bonus = {
-							folder = FLTE_airf_folder
+							folder = FLTE_air_folder
 							bonus = 3.0
 							ahead_reduction = 2
 							dynamic = yes
@@ -840,7 +840,7 @@ operation_steal_tech_airforce = { ### 18 3/55
 
 					ROOT = {
 						steal_random_tech_bonus = {
-							folder = FLTE_airf_folder
+							folder = FLTE_air_folder
 							bonus = 3.0
 							ahead_reduction = 1
 							dynamic = yes
@@ -877,7 +877,7 @@ operation_steal_tech_airforce = { ### 18 3/55
 					has_dlc = "By Blood Alone"
 				}
 				steal_random_tech_bonus = {
-					folder = FLTE_airf_folder
+					folder = FLTE_air_folder
 					bonus = 3.0
 					dynamic = yes
 					instant = yes

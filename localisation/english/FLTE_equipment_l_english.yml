@@ -1502,7 +1502,7 @@
  GER_modern_tank_equipment_6_desc: ""
  GER_modern_tank_equipment_7: "Leopard 2"
  GER_modern_tank_equipment_7_short: "Leopard 2"
- GER_modern_tank_equipment_7_desc: """
+ GER_modern_tank_equipment_7_desc: ""
  GER_modern_tank_artillery_equipment_1: "Panzerhaubitze 52"
  GER_modern_tank_artillery_equipment_1_short: "PzH 52"
  GER_modern_tank_artillery_equipment_2: "Panzerhaubitze 55"
@@ -1810,7 +1810,7 @@
  modern_tank_equipment_7_desc: ""
  modern_tank_equipment_8: "Main Battle Tank 1990"
  modern_tank_equipment_8_short: "MBT 1990"
- modern_tank_equipment_8_desc: """
+ modern_tank_equipment_8_desc: ""
  # FLTE code replace CZE_gw_tank_equipment
  # FLTE code replace CZE_gw_tank_equipment_short
  # FLTE code replace CZE_light_tank_destroyer_equipment_2

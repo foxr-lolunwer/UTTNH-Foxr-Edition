@@ -119,7 +119,7 @@ country_event = { # specialization_FLTE_physics
 	}
 	option = { name = FLTE_sp_scientist_event.5.option_1 }
 }
-country_event = { # specialization_FLTE_engineering
+country_event = { # specialization_engineering
 	id = FLTE_sp_scientist_event.6
 	title = FLTE_sp_scientist_event.6.title
 	desc = FLTE_sp_scientist_event.6.desc
@@ -130,10 +130,10 @@ country_event = { # specialization_FLTE_engineering
 				if = { limit = {
 					has_scientist_level = {
 						level > 6
-						specialization = specialization_FLTE_engineering } }
+						specialization = specialization_engineering } }
 					add_scientist_level = {
 						level = -6
-						specialization = specialization_FLTE_engineering }
+						specialization = specialization_engineering }
 					custom_effect_tooltip = FLTE_sp_scientist_event.6.tooltip
 				}
 				else = { log = FLTE_WARNING_106 }

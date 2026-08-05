@@ -818,7 +818,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = advanced_sonar }
         folder = { name = FLTE_naval_folder position = { x = @light_sub_branch2 y = @Tier3_mid } }
-        dependencies = { FLTE_tech_tier_naval_2 = 1 FLTE_tech_tier_infr_2 = 1 }
+        dependencies = { FLTE_tech_tier_naval_3 = 1 FLTE_tech_tier_elec_2 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = sonar_advice_tt
@@ -854,7 +854,7 @@ technologies = {
         research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = modern_sonar }
         folder = { name = FLTE_naval_folder position = { x = @light_sub_branch2 y = @Tier4_mid } }
-        dependencies = { FLTE_tech_tier_naval_2 = 1 FLTE_tech_tier_infr_3 = 1 }
+        dependencies = { FLTE_tech_tier_naval_4 = 1 FLTE_tech_tier_elec_3 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = sonar_advice_tt
@@ -889,7 +889,7 @@ technologies = {
         start_year = 1
         research_cost = 1
         folder = { name = FLTE_naval_folder position = { x = @light_sub_branch2 y = @Tier5_mid } }
-        dependencies = { FLTE_tech_tier_naval_3 = 1 FLTE_tech_tier_infr_3 = 1 }
+        dependencies = { FLTE_tech_tier_naval_5 = 1 FLTE_tech_tier_elec_4 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = sonar_advice_tt
@@ -1334,7 +1334,7 @@ technologies = {
             ship_hull_super_heavy
         }
         folder = { name = FLTE_naval_folder position = { x = @heavy_branch y = @Tier3_1 } }
-        dependencies = { FLTE_tech_tier_naval_2 = 1 }
+        dependencies = { FLTE_tech_tier_naval_3 = 1 }
 
         special_project_specialization = { specialization_naval }
 
@@ -1601,7 +1601,7 @@ technologies = {
         research_cost = 1.25
         path = { research_cost_coeff = 1 leads_to_tech = improved_heavy_armor_scheme }
         folder = { name = FLTE_naval_folder position = { x = @armor_branch y = @Tier3_mid } }
-        dependencies = { FLTE_tech_tier_naval_2 = 1 }
+        dependencies = { FLTE_tech_tier_naval_3 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = heavy_armor_advice_tt
@@ -1643,7 +1643,7 @@ technologies = {
         start_year = 1
         research_cost = 1.25
         folder = { name = FLTE_naval_folder position = { x = @armor_branch y = @Tier4_mid } }
-        dependencies = { FLTE_tech_tier_naval_2 = 1 }
+        dependencies = { FLTE_tech_tier_naval_4 = 1 }
 
         on_research_complete = {
             custom_effect_tooltip = heavy_armor_advice_tt
@@ -2312,7 +2312,7 @@ technologies = {
         research_cost = 1.25
         path = { research_cost_coeff = 1 leads_to_tech = ship_hull_submarine_6 }
         folder = { name = FLTE_naval_folder position = { x = @submarine_branch y = @Tier5_1 } }
-        dependencies = { FLTE_tech_tier_naval_4 = 1 }
+        dependencies = { FLTE_tech_tier_naval_5 = 1 }
 
         special_project_specialization = { specialization_naval }
 

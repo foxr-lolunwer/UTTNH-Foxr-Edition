@@ -240,7 +240,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = advanced_light_tank_chassis }
         path = { research_cost_coeff = 1 leads_to_tech = amphibious_tank_chassis }
         folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier3_3 } }
-        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
+        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
 
         on_research_complete = {
             if = {
@@ -337,7 +337,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_light_tank_1 }
         folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier4_mid_1 } }
-        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
+        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         special_project_specialization = { specialization_land }
 
@@ -1220,7 +1220,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_6 }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier6_2 } }
-        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+        dependencies = { FLTE_tech_tier_vehc_6 = 1 }
         special_project_specialization = { specialization_land }
 
         categories = {
@@ -1259,7 +1259,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_7 }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier7_1 } }
-        dependencies = { FLTE_tech_tier_vehc_6 = 1 }
+        dependencies = { FLTE_tech_tier_vehc_7 = 1 }
         special_project_specialization = { specialization_land }
 
         categories = {
@@ -1294,7 +1294,7 @@ technologies = {
         research_cost = 2.5
         path = { research_cost_coeff = 1 leads_to_tech = main_battle_tank_chassis_8 }
         folder = { name = FLTE_armor_folder position = { x = @medium_chassis_branch y = @Tier7_2 } }
-        dependencies = { FLTE_tech_tier_vehc_6 = 1 }
+        dependencies = { FLTE_tech_tier_vehc_7 = 1 }
         special_project_specialization = { specialization_land }
 
         categories = {
@@ -1639,7 +1639,7 @@ technologies = {
         path = { research_cost_coeff = 1 leads_to_tech = sp_armored_lc_transmission_improvements_tech }
         path = { research_cost_coeff = 1 leads_to_tech = sp_armored_lc_specialized_field_manuals_tech }
         folder = { name = FLTE_armor_folder position = { x = @super_chassis_branch y = @Tier4_2 } }
-        dependencies = { FLTE_tech_tier_vehc_3 = 1 }
+        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
         on_research_complete = {
             IF = { #Japanese templates

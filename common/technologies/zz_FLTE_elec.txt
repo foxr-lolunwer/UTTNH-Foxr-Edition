@@ -40,7 +40,7 @@ technologies = {
                 PROJECT = sp_air_radar
             }
         }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 30
@@ -69,7 +69,7 @@ technologies = {
         folder = { name = FLTE_elec_folder position = { x = @eme_radio_branch y = @Tier1_2 } }
         dependencies = { FLTE_tech_tier_elec_1 = 1 }
 
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 3
@@ -106,7 +106,7 @@ technologies = {
         folder = { name = FLTE_elec_folder position = { x = @eme_radio_branch y = @Tier2_mid } }
         dependencies = { FLTE_tech_tier_elec_2 = 1 }
 
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 3
@@ -142,7 +142,7 @@ technologies = {
         folder = { name = FLTE_elec_folder position = { x = @eme_radio_branch y = @Tier3_mid } }
         dependencies = { FLTE_tech_tier_elec_3 = 1 }
 
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 3
@@ -178,7 +178,7 @@ technologies = {
         folder = { name = FLTE_elec_folder position = { x = @eme_radio_branch y = @Tier4_mid } }
         dependencies = { FLTE_tech_tier_elec_4 = 1 }
 
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 3
@@ -214,7 +214,7 @@ technologies = {
         folder = { name = FLTE_elec_folder position = { x = @eme_radio_branch y = @Tier5_mid } }
         dependencies = { FLTE_tech_tier_elec_5 = 1 }
 
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 3
@@ -249,7 +249,7 @@ technologies = {
         folder = { name = FLTE_elec_folder position = { x = @eme_radio_branch y = @Tier6_mid } }
         dependencies = { FLTE_tech_tier_elec_6 = 1 }
 
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 3
@@ -284,7 +284,7 @@ technologies = {
         folder = { name = FLTE_elec_folder position = { x = @eme_radio_branch y = @Tier7_mid } }
         dependencies = { FLTE_tech_tier_elec_7 = 1 }
 
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 3
@@ -354,7 +354,7 @@ technologies = {
             }
         }
         is_special_project_tech = yes
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 1
@@ -400,7 +400,7 @@ technologies = {
             }
         }
         is_special_project_tech = yes
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 1
@@ -446,7 +446,7 @@ technologies = {
                 is_special_project_completed = sp:sp_air_radar
             }
         }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 1
@@ -492,7 +492,7 @@ technologies = {
                 is_special_project_completed = sp:sp_air_radar
             }
         }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 1
@@ -529,7 +529,7 @@ technologies = {
                 is_special_project_completed = sp:sp_air_radar
             }
         }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 1
@@ -571,7 +571,7 @@ technologies = {
                 is_special_project_completed = sp:sp_air_radar
             }
         }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 1
@@ -613,7 +613,7 @@ technologies = {
                 is_special_project_completed = sp:sp_air_radar
             }
         }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 1
@@ -654,7 +654,7 @@ technologies = {
                 is_special_project_completed = sp:sp_air_radar
             }
         }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 1
@@ -695,7 +695,7 @@ technologies = {
                 is_special_project_completed = sp:sp_air_radar
             }
         }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 1
@@ -731,7 +731,7 @@ technologies = {
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier1_2 } }
         dependencies = { FLTE_tech_tier_elec_1 = 1 }
 
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 10
@@ -758,7 +758,7 @@ technologies = {
                 set_technology = { basic_decryption = 1 popup = no }
             }
         }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 6
@@ -799,7 +799,7 @@ technologies = {
                 set_technology = { improved_decryption = 1 popup = no }
             }
         }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 3
@@ -838,7 +838,7 @@ technologies = {
                 set_technology = { advanced_decryption = 1 popup = no }
             }
         }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 3
@@ -866,7 +866,7 @@ technologies = {
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_elec_5 = 1 }
 
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 100
@@ -897,7 +897,7 @@ technologies = {
                 set_technology = { vacuum2_decryption = 1 popup = no }
             }
         }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 100
@@ -930,7 +930,7 @@ technologies = {
                 set_technology = { transistor_decryption = 1 popup = no }
             }
         }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 100
@@ -959,7 +959,7 @@ technologies = {
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier5_2 } }
         dependencies = { FLTE_tech_tier_elec_5 = 1 }
 
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 3
@@ -989,7 +989,7 @@ technologies = {
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_elec_6 = 1 }
 
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 3
@@ -1020,7 +1020,7 @@ technologies = {
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier6_2 } }
         dependencies = { FLTE_tech_tier_elec_6 = 1 }
 
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 3
@@ -1049,7 +1049,7 @@ technologies = {
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier7_1 } }
         dependencies = { FLTE_tech_tier_elec_7 = 1 }
 
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 3
@@ -1085,7 +1085,7 @@ technologies = {
         folder = { name = FLTE_elec_folder position = { x = @eme_computer_branch y = @Tier7_2 } }
         dependencies = { FLTE_tech_tier_elec_7 = 1 }
 
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 3
@@ -1465,7 +1465,7 @@ technologies = {
         research_cost = 1
         folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier1_2 } }
         dependencies = { FLTE_tech_tier_elec_1 = 1 }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 0.75
@@ -1499,7 +1499,7 @@ technologies = {
         research_cost = 1
         folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier2_mid } }
         dependencies = { FLTE_tech_tier_elec_2 = 1 basic_fire_control_system = 1 }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 0.75
@@ -1532,8 +1532,8 @@ technologies = {
 
         research_cost = 1
         folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier3_1 } }
-        dependencies = { FLTE_tech_tier_elec_2 = 1 improved_fire_control_system = 1 }
-        special_project_specialization = { specialization_FLTE_engineering }
+        dependencies = { FLTE_tech_tier_elec_3 = 1 improved_fire_control_system = 1 }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 0.75
@@ -1561,7 +1561,7 @@ technologies = {
         research_cost = 1
         folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_elec_5 = 1 over_the_horizon_radar = 1 }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 0.75
@@ -1589,7 +1589,7 @@ technologies = {
         research_cost = 1
         folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier6_2 } }
         dependencies = { FLTE_tech_tier_elec_6 = 1 pesa = 1 }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 0.75
@@ -1617,7 +1617,7 @@ technologies = {
         research_cost = 1
         folder = { name = FLTE_elec_folder position = { x = @eme_firecontrol_branch y = @Tier7_2 } }
         dependencies = { FLTE_tech_tier_elec_7 = 1 lpi_radar = 1 }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
             factor = 0.75
@@ -1644,7 +1644,7 @@ technologies = {
         research_cost = 1.5
         folder = { name = FLTE_elec_folder position = { x = @eme_guide_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_elec_5 = 1 }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         is_special_project_tech = yes
 
@@ -1667,7 +1667,7 @@ technologies = {
         research_cost = 1.5
         folder = { name = FLTE_elec_folder position = { x = @eme_guide_branch y = @Tier6_1 } }
         dependencies = { FLTE_tech_tier_elec_6 = 1 }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         is_special_project_tech = yes
 
@@ -1689,7 +1689,7 @@ technologies = {
         research_cost = 1.5
         folder = { name = FLTE_elec_folder position = { x = @eme_guide_branch y = @Tier6_2 } }
         dependencies = { FLTE_tech_tier_elec_6 = 1 }
-        special_project_specialization = { specialization_FLTE_engineering }
+        special_project_specialization = { specialization_engineering }
 
         is_special_project_tech = yes
 

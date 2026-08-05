@@ -417,23 +417,23 @@ technologies = {
     infantry_at = {
         category_all_infantry = {
             hard_attack = 0.25
-            ap_attack = 1
+            ap_attack = 0.25
         }
         category_cavalry = {
             hard_attack = 0.1
-            ap_attack = 0.4
+            ap_attack = 0.1
         }
         fire_support = {
 			hard_attack = 0.15
-			ap_attack = 0.5
+			ap_attack = 0.15
 		}
 		mot_fire_support = {
 			hard_attack = 0.15
-			ap_attack = 0.5
+			ap_attack = 0.15
 		}
 
         start_year = 1
-        research_cost = 1.5
+        research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = infantry_at2 }
         folder = { name = FLTE_ordn_folder position = { x = @inf_at_branch y = @Tier2_1 } }
         dependencies = { FLTE_tech_tier_ordn_2 = 1 }
@@ -743,7 +743,7 @@ technologies = {
         start_year = 1
         research_cost = 1.5
         folder = { name = FLTE_ordn_folder position = { x = @inf_aa_branch y = @Tier7_mid } }
-        dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        dependencies = { FLTE_tech_tier_ordn_7 = 1 }
         special_project_specialization = { specialization_land }
 
         categories = {
@@ -1881,7 +1881,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = cwart5 }
         folder = { name = FLTE_ordn_folder position = { x = @artillery_branch y = @Tier7_1 } }
-        dependencies = { FLTE_tech_tier_ordn_6 = 1 }
+        dependencies = { FLTE_tech_tier_ordn_7 = 1 }
 
         special_project_specialization = { specialization_land }
 

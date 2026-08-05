@@ -1,5 +1,5 @@
 spriteTypes = {
-## MTG_naval
+## FLTE_naval
 	spriteType= { name = "GFX_early_ship_hull_light_medium" texturefile = "gfx/interface/FLTE/tech/general/early_ship_hull_light.dds" }
 	spriteType= { name = "GFX_basic_ship_hull_light_medium" texturefile = "gfx/interface/FLTE/tech/general/basic_ship_hull_light.dds" }
 	spriteType= { name = "GFX_improved_ship_hull_light_medium" texturefile = "gfx/interface/FLTE/tech/general/improved_ship_hull_light.dds" }
@@ -32,7 +32,7 @@ spriteTypes = {
 	spriteType= { name = "GFX_snorkel80_medium" texturefile = "gfx/interface/FLTE/tech/general/snorkel80.dds" }
 	spriteType= { name = "GFX_snorkel90_medium" texturefile = "gfx/interface/FLTE/tech/general/snorkel90.dds" }
 
-## MTG_naval_Support
+## FLTE_naval_support
 	spriteType= { name = "GFX_light_battery60_medium" texturefile = "gfx/interface/FLTE/tech/general/light_battery60.dds" }
 	spriteType= { name = "GFX_light_battery70_medium" texturefile = "gfx/interface/FLTE/tech/general/light_battery70.dds" }
 	spriteType= { name = "GFX_light_battery80_medium" texturefile = "gfx/interface/FLTE/tech/general/light_battery80.dds" }
@@ -56,7 +56,7 @@ spriteTypes = {
 	spriteType= { name = "GFX_ship_torpedo_launcher_9_medium" texturefile = "gfx/interface/FLTE/tech/general/ship_torpedo_launcher_9.dds" }
 	spriteType= { name = "GFX_ship_torpedo_launcher_10_medium" texturefile = "gfx/interface/FLTE/tech/general/ship_torpedo_launcher_10.dds" }
 	spriteType= { name = "GFX_mtg_tank_landing_craft_medium" texturefile = "gfx/interface/FLTE/tech/general/mtg_tank_landing_craft.dds" }
-## NSB_armor
+## FLTE_armor
 	spriteType= { name = "GFX_amphibious_tank_chassis_medium" texturefile = "gfx/interface/FLTE/equipment/general/amphibious_tank_chassis.dds" }
 	spriteType= { name = "GFX_main_battle_tank_chassis_1_medium" texturefile = "gfx/interface/FLTE/equipment/general/modern_tank_chassis_1.dds" }
 	spriteType= { name = "GFX_main_battle_tank_chassis_2_medium" texturefile = "gfx/interface/FLTE/equipment/general/modern_tank_chassis_2.dds" }
@@ -93,7 +93,7 @@ spriteTypes = {
 	spriteType= { name = "GFX_engine_tech_9_medium" texturefile = "gfx/interface/FLTE/tech/general/engine_tech_9.dds" }
 	spriteType= { name = "GFX_engine_tech_10_medium" texturefile = "gfx/interface/FLTE/tech/general/engine_tech_10.dds" }
 	spriteType= { name = "GFX_engine_tech_11_medium" texturefile = "gfx/interface/FLTE/tech/general/engine_tech_11.dds" }
-## artillery
+## FLTE_ordn
 	spriteType= { name = "GFX_gw_artillery_medium" texturefile = "gfx/interface/FLTE/tech/general/gw_artillery.dds" }
 	spriteType= { name = "GFX_artillery1_medium" texturefile = "gfx/interface/FLTE/tech/general/artillery1.dds" }
 	spriteType= { name = "GFX_artillery4_medium" texturefile = "gfx/interface/FLTE/tech/general/artillery4.dds" }
@@ -122,7 +122,7 @@ spriteTypes = {
 	spriteType= { name = "GFX_antitank8_medium" texturefile = "gfx/interface/FLTE/tech/general/antitank8.dds" }
 	spriteType= { name = "GFX_antitank9_medium" texturefile = "gfx/interface/FLTE/tech/general/antitank9.dds" }
 	spriteType= { name = "GFX_antitank10_medium" texturefile = "gfx/interface/FLTE/tech/general/antitank10.dds" }
-## bba_air_techs
+## FLTE_air
 	spriteType= { name = "GFX_bba_jet_transport_medium" texturefile = "gfx/interface/FLTE/equipment/general/transport_plane_equipment_4.dds" }
 	spriteType= { name = "GFX_bba_jet_transport_2_medium" texturefile = "gfx/interface/FLTE/equipment/general/transport_plane_equipment_5.dds" }
 	spriteType= { name = "GFX_bba_jet_transport_3_medium" texturefile = "gfx/interface/FLTE/equipment/general/transport_plane_equipment_6.dds" }
@@ -504,6 +504,60 @@ spriteTypes = {
 	spriteType= { name = "GFX_resource_expansion_coal_4_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_coal_1.dds" } # change
 	spriteType= { name = "GFX_resource_expansion_coal_5_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_coal_1.dds" } # change
 	spriteType= { name = "GFX_resource_expansion_coal_6_medium" texturefile = "gfx/interface/FLTE/tech/general/resource_expansion_coal_1.dds" } # change
+## FLTE_advance
+	spriteType= { name = "GFX_sp_land_1_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" }
+	spriteType= { name = "GFX_sp_land_2_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" } # change
+	spriteType= { name = "GFX_sp_land_3_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" } # change
+	spriteType= { name = "GFX_sp_land_4_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" } # change
+	spriteType= { name = "GFX_sp_land_5_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" } # change
+	spriteType= { name = "GFX_sp_land_6_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" } # change
+	spriteType= { name = "GFX_sp_land_7_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" } # change
+	spriteType= { name = "GFX_sp_land_8_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" } # change
+
+	spriteType= { name = "GFX_sp_naval_1_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_naval_1.dds" }
+	spriteType= { name = "GFX_sp_naval_2_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_naval_1.dds" } # change
+	spriteType= { name = "GFX_sp_naval_3_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_naval_1.dds" } # change
+	spriteType= { name = "GFX_sp_naval_4_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_naval_1.dds" } # change
+	spriteType= { name = "GFX_sp_naval_5_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_naval_1.dds" } # change
+	spriteType= { name = "GFX_sp_naval_6_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_naval_1.dds" } # change
+	spriteType= { name = "GFX_sp_naval_7_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_naval_1.dds" } # change
+	spriteType= { name = "GFX_sp_naval_8_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_naval_1.dds" } # change
+
+	spriteType= { name = "GFX_sp_air_1_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_air_1.dds" }
+	spriteType= { name = "GFX_sp_air_2_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_air_1.dds" } # change
+	spriteType= { name = "GFX_sp_air_3_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_air_1.dds" } # change
+	spriteType= { name = "GFX_sp_air_4_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_air_1.dds" } # change
+	spriteType= { name = "GFX_sp_air_5_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_air_1.dds" } # change
+	spriteType= { name = "GFX_sp_air_6_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_air_1.dds" } # change
+	spriteType= { name = "GFX_sp_air_7_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_air_1.dds" } # change
+	spriteType= { name = "GFX_sp_air_8_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_air_1.dds" } # change
+
+	spriteType= { name = "GFX_sp_civilian_1_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" }
+	spriteType= { name = "GFX_sp_civilian_2_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" } # change
+	spriteType= { name = "GFX_sp_civilian_3_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" } # change
+	spriteType= { name = "GFX_sp_civilian_4_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" } # change
+	spriteType= { name = "GFX_sp_civilian_5_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" } # change
+	spriteType= { name = "GFX_sp_civilian_6_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" } # change
+	spriteType= { name = "GFX_sp_civilian_7_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" } # change
+	spriteType= { name = "GFX_sp_civilian_8_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" } # change
+
+	spriteType= { name = "GFX_sp_engineering_1_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_engineering_1.dds" }
+	spriteType= { name = "GFX_sp_engineering_2_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_engineering_1.dds" } # change
+	spriteType= { name = "GFX_sp_engineering_3_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_engineering_1.dds" } # change
+	spriteType= { name = "GFX_sp_engineering_4_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_engineering_1.dds" } # change
+	spriteType= { name = "GFX_sp_engineering_5_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_engineering_1.dds" } # change
+	spriteType= { name = "GFX_sp_engineering_6_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_engineering_1.dds" } # change
+	spriteType= { name = "GFX_sp_engineering_7_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_engineering_1.dds" } # change
+	spriteType= { name = "GFX_sp_engineering_8_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_engineering_1.dds" } # change
+
+	spriteType= { name = "GFX_sp_nuclear_1_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" }
+	spriteType= { name = "GFX_sp_nuclear_2_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" } # change
+	spriteType= { name = "GFX_sp_nuclear_3_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" } # change
+	spriteType= { name = "GFX_sp_nuclear_4_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" } # change
+	spriteType= { name = "GFX_sp_nuclear_5_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" } # change
+	spriteType= { name = "GFX_sp_nuclear_6_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" } # change
+	spriteType= { name = "GFX_sp_nuclear_7_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" } # change
+	spriteType= { name = "GFX_sp_nuclear_8_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" } # change
 ## infantry
 	spriteType= { name = "GFX_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/general/infantry_weapons.dds" }
 	spriteType= { name = "GFX_infantry_weapons1_medium" texturefile = "gfx/interface/FLTE/tech/general/infantry_weapons1.dds" }
@@ -605,7 +659,7 @@ spriteTypes = {
 	spriteType= { name = "GFX_heavy_mechanised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanised_infantry3.dds" }
 	spriteType= { name = "GFX_heavy_mechanised_infantry4_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanised_infantry4.dds" }
 	spriteType= { name = "GFX_heavy_mechanised_infantry5_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanised_infantry5.dds" }
-## support
+## FLTE_support
 	spriteType= { name = "GFX_tech_engineers5_medium" texturefile = "gfx/interface/FLTE/tech/general/tech_engineers5.dds" }
 	spriteType= { name = "GFX_tech_engineers6_medium" texturefile = "gfx/interface/FLTE/tech/general/tech_engineers6.dds" }
 	spriteType= { name = "GFX_tech_engineers7_medium" texturefile = "gfx/interface/FLTE/tech/general/tech_engineers7.dds" }

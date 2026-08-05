@@ -1514,10 +1514,10 @@
  SOV_modern_tank_equipment_6_desc: ""
  SOV_modern_tank_equipment_7: "Т-80У"
  SOV_modern_tank_equipment_7_short: "Т-80У"
- SOV_modern_tank_equipment_7_desc: """
+ SOV_modern_tank_equipment_7_desc: ""
  SOV_modern_tank_equipment_8: "Т-90"
  SOV_modern_tank_equipment_8_short: "Т-90"
- SOV_modern_tank_equipment_8_desc: """
+ SOV_modern_tank_equipment_8_desc: ""
  
  SOV_modern_tank_artillery_equipment_1: "СУ-152-54"
  SOV_modern_tank_artillery_equipment_1_short: "СУ-152-54"
@@ -2673,7 +2673,7 @@
  PRC_modern_tank_equipment_7_desc: ""
  PRC_modern_tank_equipment_8: "Тип 88"
  PRC_modern_tank_equipment_8_short: "Тип 88"
- PRC_modern_tank_equipment_8_desc: """
+ PRC_modern_tank_equipment_8_desc: ""
  
  PRC_modern_tank_aa_equipment_1: "PGZ 59"
  PRC_modern_tank_aa_equipment_1_short: "PGZ 59"

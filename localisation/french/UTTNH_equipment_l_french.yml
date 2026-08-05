@@ -776,7 +776,7 @@
  modern_tank_equipment_7_desc: "" 
  modern_tank_equipment_8: "Réservoir moderne de 85'" 
  modern_tank_equipment_8_short: "Réservoir moderne de 85'" 
- modern_tank_equipment_8_desc: """ 
+ modern_tank_equipment_8_desc: "" 
  modern_tank_equipment_9: "Réservoir moderne 90'" 
  modern_tank_equipment_9_short: "Réservoir moderne 90'" 
  
@@ -1588,7 +1588,7 @@
  GER_modern_tank_equipment_6_desc: "" 
  GER_modern_tank_equipment_7: "Léopard 2A5" 
  GER_modern_tank_equipment_7_short: "Léopard 2A5" 
- GER_modern_tank_equipment_7_desc: """ 
+ GER_modern_tank_equipment_7_desc: "" 
  
  GER_modern_tank_artillery_equipment_1: "Obusier automoteur 52" 
  GER_modern_tank_artillery_equipment_1_short: "PzH 52" 
@@ -1829,7 +1829,7 @@
  PRC_modern_tank_equipment_6_desc: "" 
  PRC_modern_tank_equipment_7: "Type-88" 
  PRC_modern_tank_equipment_7_short: "Type-88" 
- PRC_modern_tank_equipment_7_desc: """ 
+ PRC_modern_tank_equipment_7_desc: "" 
  
  PRC_light_tank_equipment_1: "Type 34 Xiao" 
  PRC_light_tank_equipment_1_short: "Type 34" 
@@ -1978,7 +1978,7 @@
  FRA_modern_tank_equipment_6_desc: "" 
  FRA_modern_tank_equipment_7: "GIAT Leclerc" 
  FRA_modern_tank_equipment_7_short: "Leclerc" 
- FRA_modern_tank_equipment_7_desc: """ 
+ FRA_modern_tank_equipment_7_desc: "" 
  
  FRA_utility_helicopter_equipment_1: "Sud-Ouest Djinn" 
  FRA_utility_helicopter_equipment_1_short: "Sud-Ouest Djinn" 
@@ -2397,7 +2397,7 @@
  modern_tank_equipment_7_desc: "" 
  modern_tank_equipment_8: "Char de combat principal 1990" 
  modern_tank_equipment_8_short: "MBT 1990" 
- modern_tank_equipment_8_desc: """ 
+ modern_tank_equipment_8_desc: "" 
  PRC_modern_tank_aa_equipment_1: "PGZ 59" 
  PRC_modern_tank_aa_equipment_1_short: "PGZ 59" 
  PRC_modern_tank_artillery_equipment_1: "PLZ 59" 

@@ -683,7 +683,7 @@ technologies = {
         
         special_project_specialization = { specialization_land }
         ai_will_do = {
-            factor = 1 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
+            base = 0.5 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
         }
         categories = { FLTE_TC_tier_1 FLTE_TC_tier_ordn_1 FLTE_TC_tier_vehc_1 }
     }
@@ -697,7 +697,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_ordn_1 = 1 FLTE_tech_tier_vehc_1 = 1 }
         special_project_specialization = { specialization_land }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_2 FLTE_TC_tier_ordn_2 FLTE_TC_tier_vehc_2 }
     }
@@ -711,7 +711,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_ordn_2 = 1 FLTE_tech_tier_vehc_2 = 1 }
         special_project_specialization = { specialization_land }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_3 FLTE_TC_tier_ordn_3 FLTE_TC_tier_vehc_3 }
     }
@@ -725,7 +725,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_ordn_3 = 1 FLTE_tech_tier_vehc_3 = 1 }
         special_project_specialization = { specialization_land }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_4 FLTE_TC_tier_ordn_4 FLTE_TC_tier_vehc_4 }
     }
@@ -739,7 +739,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_ordn_4 = 1 FLTE_tech_tier_vehc_4 = 1 }
         special_project_specialization = { specialization_land }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_5 FLTE_TC_tier_ordn_5 FLTE_TC_tier_vehc_5 }
     }
@@ -753,7 +753,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_ordn_5 = 1 FLTE_tech_tier_vehc_5 = 1 }
         special_project_specialization = { specialization_land }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_6 FLTE_TC_tier_ordn_6 FLTE_TC_tier_vehc_6 }
     }
@@ -766,7 +766,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_ordn_6 = 1 FLTE_tech_tier_vehc_6 = 1 }
         special_project_specialization = { specialization_land }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_ordn_7 FLTE_TC_tier_vehc_7 }
     }
@@ -778,7 +778,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_ordn_7 = 1 FLTE_tech_tier_vehc_7 = 1 }
         special_project_specialization = { specialization_land }
         ai_will_do = {
-            factor = 0.1
+            base = 0.1
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_ordn_7 FLTE_TC_tier_vehc_7 }
     }
@@ -793,7 +793,7 @@ technologies = {
         
         special_project_specialization = { specialization_naval }
         ai_will_do = {
-            factor = 1 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
+            base = 0.5 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
         }
         categories = { FLTE_TC_tier_1 FLTE_TC_tier_naval_1 }
     }
@@ -807,7 +807,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_naval_1 = 1 }
         special_project_specialization = { specialization_naval }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_2 FLTE_TC_tier_naval_2 }
     }
@@ -821,7 +821,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_naval_2 = 1 }
         special_project_specialization = { specialization_naval }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_3 FLTE_TC_tier_naval_3 }
     }
@@ -835,7 +835,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_naval_3 = 1 }
         special_project_specialization = { specialization_naval }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_4 FLTE_TC_tier_naval_4 }
     }
@@ -849,7 +849,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_naval_4 = 1 }
         special_project_specialization = { specialization_naval }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_5 FLTE_TC_tier_naval_5 }
     }
@@ -863,7 +863,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_naval_5 = 1 }
         special_project_specialization = { specialization_naval }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_6 FLTE_TC_tier_naval_6 }
     }
@@ -877,7 +877,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_naval_6 = 1 }
         special_project_specialization = { specialization_naval }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_naval_7 }
     }
@@ -889,7 +889,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_naval_7 = 1 }
         special_project_specialization = { specialization_naval }
         ai_will_do = {
-            factor = 0.1
+            base = 0.1
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_naval_7 }
     }
@@ -904,7 +904,7 @@ technologies = {
         
         special_project_specialization = { specialization_air }
         ai_will_do = {
-            factor = 1 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
+            base = 0.5 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
         }
         categories = { FLTE_TC_tier_1 FLTE_TC_tier_air_1 }
     }
@@ -918,7 +918,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_air_1 = 1 }
         special_project_specialization = { specialization_air }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_2 FLTE_TC_tier_air_2 }
     }
@@ -932,7 +932,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_air_2 = 1 }
         special_project_specialization = { specialization_air }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_3 FLTE_TC_tier_air_3 }
     }
@@ -946,7 +946,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_air_3 = 1 }
         special_project_specialization = { specialization_air }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_4 FLTE_TC_tier_air_4 }
     }
@@ -960,7 +960,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_air_4 = 1 }
         special_project_specialization = { specialization_air }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_5 FLTE_TC_tier_air_5 }
     }
@@ -974,7 +974,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_air_5 = 1 }
         special_project_specialization = { specialization_air }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_6 FLTE_TC_tier_air_6 }
     }
@@ -988,7 +988,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_air_6 = 1 }
         special_project_specialization = { specialization_air }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_air_7 }
     }
@@ -1000,7 +1000,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_air_7 = 1 }
         special_project_specialization = { specialization_air }
         ai_will_do = {
-            factor = 0.1
+            base = 0.1
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_air_7 }
     }
@@ -1015,7 +1015,7 @@ technologies = {
         
         special_project_specialization = { specialization_civilian }
         ai_will_do = {
-            factor = 1 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
+            base = 0.5 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
         }
         categories = { FLTE_TC_tier_1 FLTE_TC_tier_prod_1 FLTE_TC_tier_infr_1 }
     }
@@ -1029,7 +1029,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_prod_1 = 1 FLTE_tech_tier_infr_1 = 1 }
         special_project_specialization = { specialization_civilian }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_2 FLTE_TC_tier_prod_2 FLTE_TC_tier_infr_2  }
     }
@@ -1043,7 +1043,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_prod_2 = 1 FLTE_tech_tier_infr_2 = 1 }
         special_project_specialization = { specialization_civilian }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_3 FLTE_TC_tier_prod_3 FLTE_TC_tier_infr_3 }
     }
@@ -1057,7 +1057,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_prod_3 = 1 FLTE_tech_tier_infr_3 = 1 }
         special_project_specialization = { specialization_civilian }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_4 FLTE_TC_tier_prod_4 FLTE_TC_tier_infr_4 }
     }
@@ -1071,7 +1071,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_prod_4 = 1 FLTE_tech_tier_infr_4 = 1 }
         special_project_specialization = { specialization_civilian }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_5 FLTE_TC_tier_prod_5 FLTE_TC_tier_infr_5 }
     }
@@ -1085,7 +1085,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_prod_5 = 1 FLTE_tech_tier_infr_5 = 1 }
         special_project_specialization = { specialization_civilian }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_6 FLTE_TC_tier_prod_6 FLTE_TC_tier_infr_6 }
     }
@@ -1099,7 +1099,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_prod_6 = 1 FLTE_tech_tier_infr_6 = 1 }
         special_project_specialization = { specialization_civilian }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_prod_7 FLTE_TC_tier_infr_7 }
     }
@@ -1111,7 +1111,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_prod_7 = 1 FLTE_tech_tier_infr_7 = 1 }
         special_project_specialization = { specialization_civilian }
         ai_will_do = {
-            factor = 0.1
+            base = 0.1
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_prod_7 FLTE_TC_tier_infr_7 }
     }
@@ -1126,7 +1126,7 @@ technologies = {
         
         special_project_specialization = { specialization_engineering }
         ai_will_do = {
-            factor = 1 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
+            base = 0.5 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
         }
         categories = { FLTE_TC_tier_1 FLTE_TC_tier_elec_1 }
     }
@@ -1140,7 +1140,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_elec_1 = 1 }
         special_project_specialization = { specialization_engineering }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_2 FLTE_TC_tier_elec_2  }
     }
@@ -1154,7 +1154,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_elec_2 = 1 }
         special_project_specialization = { specialization_engineering }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_3 FLTE_TC_tier_elec_3 }
     }
@@ -1168,7 +1168,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_elec_3 = 1 }
         special_project_specialization = { specialization_engineering }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_4 FLTE_TC_tier_elec_4 }
     }
@@ -1182,7 +1182,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_elec_4 = 1 }
         special_project_specialization = { specialization_engineering }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_5 FLTE_TC_tier_elec_5 }
     }
@@ -1196,7 +1196,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_elec_5 = 1 }
         special_project_specialization = { specialization_engineering }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_6 FLTE_TC_tier_elec_6 }
     }
@@ -1210,7 +1210,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_elec_6 = 1 }
         special_project_specialization = { specialization_engineering }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_elec_7 }
     }
@@ -1222,7 +1222,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_elec_7 = 1 }
         special_project_specialization = { specialization_engineering }
         ai_will_do = {
-            factor = 0.1
+            base = 0.1
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_elec_7 }
     }
@@ -1237,7 +1237,7 @@ technologies = {
         
         special_project_specialization = { specialization_nuclear }
         ai_will_do = {
-            factor = 1 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
+            base = 0.5 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
         }
         categories = { FLTE_TC_tier_1 FLTE_TC_tier_spac_1 FLTE_TC_tier_nuclear_1 }
     }
@@ -1251,7 +1251,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_nuclear_1 = 1 }
         special_project_specialization = { specialization_nuclear }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_2 FLTE_TC_tier_spac_2 FLTE_TC_tier_nuclear_2  }
     }
@@ -1265,7 +1265,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_nuclear_2 = 1 }
         special_project_specialization = { specialization_nuclear }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_3 FLTE_TC_tier_spac_3 FLTE_TC_tier_nuclear_3 }
     }
@@ -1279,7 +1279,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_nuclear_3 = 1 }
         special_project_specialization = { specialization_nuclear }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_4 FLTE_TC_tier_spac_4 FLTE_TC_tier_nuclear_4 }
     }
@@ -1293,7 +1293,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_nuclear_4 = 1 }
         special_project_specialization = { specialization_nuclear }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_5 FLTE_TC_tier_spac_5 FLTE_TC_tier_nuclear_5 }
     }
@@ -1307,7 +1307,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_nuclear_5 = 1 }
         special_project_specialization = { specialization_nuclear }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_6 FLTE_TC_tier_spac_6 FLTE_TC_tier_nuclear_6 }
     }
@@ -1321,7 +1321,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_nuclear_6 = 1 }
         special_project_specialization = { specialization_nuclear }
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_spac_7 FLTE_TC_tier_nuclear_7 }
     }
@@ -1333,7 +1333,7 @@ technologies = {
         dependencies = { FLTE_tech_tier_nuclear_7 = 1 }
         special_project_specialization = { specialization_nuclear }
         ai_will_do = {
-            factor = 0.1
+            base = 0.1
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_spac_7 FLTE_TC_tier_nuclear_7 }
     }
@@ -1372,7 +1372,7 @@ technologies = {
         special_project_specialization = { specialization_engineering }
 
         ai_will_do = {
-            factor = 1
+            base = 0.5
         }
         categories = {
             nuclear

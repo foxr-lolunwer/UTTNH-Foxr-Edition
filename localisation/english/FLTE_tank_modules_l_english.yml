@@ -1,21 +1,7 @@
 ﻿l_english:
- ### EQUIPMENT MODULE ROLE PERMISSIONS ###
- ### EQUIPMENT MODULE CATEGORIES ###
  EQ_MOD_CAT_tank_electronics_module_TITLE: "Electronics"
  EQ_MOD_CAT_tank_shells_module_TITLE: "Special Ammunitions"
- ### EQUIPMENT MODULE SLOTS ###
- ### EQUIPMENT MODULES ###
  tank_designer_wheeled_tank_chassis: "Wheeled tank"
- # FLTE code replace tank_gas_turbine_engine_desc
- # FLTE code replace tank_christie_suspension_desc
- # FLTE code replace tank_medium_howitzer_desc
- # FLTE code replace tank_medium_howitzer_2_desc
- # FLTE code replace tank_heavy_howitzer_desc
- # FLTE code replace tank_medium_cannon_desc
- # FLTE code replace tank_medium_cannon_2_desc
- # FLTE code replace tank_heavy_cannon_desc
- # FLTE code replace tank_heavy_cannon_2_desc
- # FLTE code replace tank_heavy_cannon_3_desc
  com_night_vision: "Commander Night Vision"
  com_night_vision_desc: "With an infrared spotlight and sight, this set allows the commander to see clearly even on dark nights."
  early_modern_radio: "Early Modern Radio"
@@ -57,36 +43,33 @@
  earlt_modern_auto_loader_desc: "Previous auto loaders tended to be of a 'drum' design - 7 to 10 rounds, in a rotating drum, places below the gun breech. Such a design was simple, small, and fast - but the drum could only hold one type of ammo, and manual loading was required for different types. This auto loader, by comparison, is much more adaptive, enabling several different types of rounds to be loaded via the auto loader. While not advanced enough to fully eliminate the need for a loader crewmember, this system greatly reduces the fatigue experience by human loaders."
  modern_auto_loader: "Modern Auto Loader"
  modern_auto_loader_desc: "An auto loader system reliable enough to eliminate the need for a human loader, while providing a dependable rate-of-fire over an extended period of time. With a capacity upwards of 20 rounds, and the ability to complete the loading process without any human intervention, this expensive system is excellent for a tank on the attack."
- advanced_reactive_plate:"Advanced Reactive Plate"
+ advanced_reactive_plate: "Advanced Reactive Plate"
  advanced_reactive_plate_desc: "With a better explosive mixture, and a smaller delay between activation and detonation, this plate can withstand even high-velocity sabot shells."
- advanced_tank_composite_armor:"Advanced Composite Armor"
+ advanced_tank_composite_armor: "Advanced Composite Armor"
  advanced_tank_composite_armor_desc: "Early composite armor involved just a few layers, usually steel-glass-steel or some such arrangement. By combining many layers of composite materials, sandwiched between steel plates, this armor layout is expensive but provides unparalleled protection against all types of munitions."
- hard_kill_system:"Hard Kill Device"
- hard_kill_system_desc:"Hard kill systems are designed to destroy incoming projectiles, either missiles or even shells, by responding with a projectile of their own. With high-speed computers and sensors, a small metal plate can destroy an incoming danger within milliseconds."
- apfsds:"APFSDS Shell"
+ hard_kill_system: "Hard Kill Device"
+ hard_kill_system_desc: "Hard kill systems are designed to destroy incoming projectiles, either missiles or even shells, by responding with a projectile of their own. With high-speed computers and sensors, a small metal plate can destroy an incoming danger within milliseconds."
+ apfsds: "APFSDS Shell"
  apfsds_desc: "Armor Piercing Fin Stabilized Discarding Sabot Shells, or APFSDS for short, are a type of high-velocity armor piercing munition that can defeat all but the absolute heaviest of armor. They are so fast, that they won't even ricochet - they will shatter on a heavy angle instead."
- atgm:"ATGM Launcher"
- atgm_desc:"The Anti-Tank Guided Missile launcher, or ATGM launcher, uses either wired or wireless communication systems to guide a missile equipped with a shaped charge warhead to a target, usually a tank."
- heat_fs:"HEAT-FS Shell"
- heat_fs_desc:"High Explosive Anti Tank, Fin Stabilized, or HEAT-FS for short, is an evolution of previous HEAT shells. With a concave front, a so-called shaped charge lined with copper can penetrate thick armor. However, when the shell is spinning, as when fired out of a rifle gun, the copper penetrator will dissipate, resulting in much reduced armor penetration performance. Stabilizing fins counteract this rotation, resulting in a charge that can penetrate almost half a meter of steel armor."
+ atgm: "ATGM Launcher"
+ atgm_desc: "The Anti-Tank Guided Missile launcher, or ATGM launcher, uses either wired or wireless communication systems to guide a missile equipped with a shaped charge warhead to a target, usually a tank."
+ heat_fs: "HEAT-FS Shell"
+ heat_fs_desc: "High Explosive Anti Tank, Fin Stabilized, or HEAT-FS for short, is an evolution of previous HEAT shells. With a concave front, a so-called shaped charge lined with copper can penetrate thick armor. However, when the shell is spinning, as when fired out of a rifle gun, the copper penetrator will dissipate, resulting in much reduced armor penetration performance. Stabilizing fins counteract this rotation, resulting in a charge that can penetrate almost half a meter of steel armor."
  besh: "Hesh"
  besh_desc: ""
  tank_nera_armor: "NERA Armor"
  tank_nera_armor_desc: ""
  add_on_armor: "Turret Skirt"
  add_on_armor_desc: ""
-#AMERICA-----------------------------------------
  USA_tank_heavy_machine_gun: ".50 Browning M2HB"
  USA_tank_auto_cannon: "37mm M4 Autocannon"
  USA_tank_auto_cannon_2: "37mm M10 Autocannon"
- #AA
  USA_tank_anti_air_cannon: "Twin .50 Browning AA Guns"
  USA_tank_anti_air_cannon_2: "Quad .50 Browning AA Guns"
  USA_tank_anti_air_cannon_3: "Twin 40mm Bofors AA Guns"
  USA_early_modern_anti_air_cannon: "Twin 40mm M2A1 AA Guns"
  USA_modern_anti_air_cannon: "20mm M61 Vulcan AA Gun"
  USA_advanced_modern_anti_air_cannon: "FIM-92 Stinger AA Battery"
- #Artillery
  USA_tank_close_support_gun: "75mm M2 Howitzer"
  USA_tank_medium_howitzer: "75mm M1897A4 Howitzer"
  USA_tank_medium_howitzer_2: "105mm M2 Howitzer"
@@ -95,7 +78,6 @@
  USA_tank_early_modern_howitzer: "155mm Howitzer M126"
  USA_tank_modern_howitzer: "155mm Howitzer M198"
  USA_tank_advanced_modern_howitzer: "155mm Howitzer M777"
- #Standard
  USA_tank_small_cannon: "37mm Light Gun M5"
  USA_tank_small_cannon_2: "37mm Light Gun M6"
  USA_early_light_modern_cannon: "75mm Light Gun M6"
@@ -109,22 +91,18 @@
  USA_tank_early_modern_cannon: "90mm Gun M41"
  USA_tank_modern_cannon: "105mm Gun M68"
  USA_tank_advanced_modern_cannon: "120mm Gun M256A1"
- #HV
  USA_tank_high_velocity_cannon: "57mm HV Gun M1"
  USA_tank_high_velocity_cannon_2: "76mm HV Gun M1"
  USA_tank_high_velocity_cannon_3: "90mm HV Gun T15E1"
- #GERMANY--------------------------------------------
  GER_tank_heavy_machine_gun: "7.92mm MG34"
  GER_tank_auto_cannon: "2cm Kwk30 Autocannon"
  GER_tank_auto_cannon_2: "2cm Kwk38 Autocannon"
- #AA
  GER_tank_anti_air_cannon: "2cm Flak-38 AA Gun"
  GER_tank_anti_air_cannon_2: "Quad 2cm Flak-38 AA Gun"
  GER_tank_anti_air_cannon_3: "Twin 3.7cm Flak-44 AA Gun"
  GER_early_modern_anti_air_cannon: "Twin 30mm Mk103-38 AA Guns"
  GER_modern_anti_air_cannon: "Rotary 37mm SF-60 AA Gun"
  GER_advanced_modern_anti_air_cannon: "Roland Missile AA Battery"
- #Artillery
  GER_tank_close_support_gun: "7.5cm Kwk37 L/24 Support Gun"
  GER_tank_medium_howitzer: "10.5cm LeFH-18 L/28 Howitzer"
  GER_tank_medium_howitzer_2: "15cm sIG-33 L/11 Howitzer"
@@ -133,7 +111,6 @@
  GER_tank_early_modern_howitzer: "183mm K.60 Howitzer"
  GER_tank_modern_howitzer: "155mm K.71 L/39 Howitzer"
  GER_tank_advanced_modern_howitzer: "155mm Rh155-L/52 Howitzer"
- #Standard
  GER_tank_small_cannon: "3.7cm Kwk36 L/45 Light Gun"
  GER_tank_small_cannon_2: "5cm Kwk38 L/42 Light Gun"
  GER_early_light_modern_cannon: "7.5cm Kwk50 L/63 Light Gun"
@@ -147,22 +124,18 @@
  GER_tank_early_modern_cannon: "10.5cm Kwk45 L/60"
  GER_tank_modern_cannon: "105mm Kwk60 L/59 Glattrohrkanone"
  GER_tank_advanced_modern_cannon: "120mm Rh120-L/44"
- #HV
  GER_tank_high_velocity_cannon: "5cm Kwk39 L/60 HV Gun"
  GER_tank_high_velocity_cannon_2: "7.5cm Kwk42 L/70 HV Gun"
  GER_tank_high_velocity_cannon_3: "8.8cm Kwk43 L/71 HV Gun"
- #SOVIET UNION-------------------------------------
  SOV_tank_heavy_machine_gun: "12.7mm DShK"
  SOV_tank_auto_cannon: "20mm TNSh Autocannon"
  SOV_tank_auto_cannon_2: "37mm Sh-37 Autocannon"
- #AA
  SOV_tank_anti_air_cannon: ".50 DShK AA Gun"
  SOV_tank_anti_air_cannon_2: "25mm 72-K AA Gun"
  SOV_tank_anti_air_cannon_3: "37mm 61-K AA Gun"
  SOV_early_modern_anti_air_cannon: "Twin 57mm L/76.6 S-60 AA Guns"
  SOV_modern_anti_air_cannon: "Quad 23mm 2A7 AA Guns"
  SOV_advanced_modern_anti_air_cannon: "Twin 30mm 2A38M Guns/9M311 Battery"
- #Artillery
  SOV_tank_close_support_gun: "76mm KT-28 Support Gun"
  SOV_tank_medium_howitzer: "122mm M-30 Howitzer"
  SOV_tank_medium_howitzer_2: "152mm M-10 Howitzer"
@@ -171,7 +144,6 @@
  SOV_tank_early_modern_howitzer: "152mm M1955 Howitzer"
  SOV_tank_modern_howitzer: "152mm 2A36 Howitzer"
  SOV_tank_advanced_modern_howitzer: "152mm 2A65 Howitzer"
- #Standard
  SOV_tank_small_cannon: "37mm M1930 Light Gun"
  SOV_tank_small_cannon_2: "45mm 20-K Light Gun"
  SOV_early_light_modern_cannon: "76.2mm D-56 Light Gun"
@@ -185,15 +157,12 @@
  SOV_tank_early_modern_cannon: "115mm U-5TS"
  SOV_tank_modern_cannon: "125mm 2A26"
  SOV_tank_advanced_modern_cannon: "125mm 2A46M"
- #HV
  SOV_tank_high_velocity_cannon: "57mm ZiS-4 HV Gun"
  SOV_tank_high_velocity_cannon_2: "85mm D-5 HV Gun"
  SOV_tank_high_velocity_cannon_3: "100mm D-10 HV Gun"
- #GREAT BRITAIN-------------------------------------
  ENG_tank_heavy_machine_gun: ".303 Vickers MG"
  ENG_tank_auto_cannon: "20mm Oerlikon Mk2 Autocannon"
  ENG_tank_auto_cannon_2: "40mm Bofors L/60 Autocannon"
- #AA
  ENG_tank_anti_air_cannon: "Twin 20mm Oerlikon Mk2 AA Guns"
  ENG_tank_anti_air_cannon_2: "40mm Bofors L/60 AA Gun"
  ENG_tank_anti_air_cannon_3: "94mm QF 3.7 Inch AA Cannon"
@@ -201,7 +170,6 @@
  ENG_early_modern_anti_air_cannon: "Twin 40mm Bofors L/60 AA Guns"
  ENG_modern_anti_air_cannon: "Twin 35mm Oerlikon KDA AA Guns"
  ENG_advanced_modern_anti_air_cannon: "Starstreak Missile AA Battery"
- #Artillery
  ENG_tank_close_support_gun: "47mm Vickers 3-pdr Support Gun"
  ENG_tank_medium_howitzer: "OQF 18-pdr Howitzer"
  ENG_tank_medium_howitzer_2: "OQF 95mm Howitzer"
@@ -209,7 +177,6 @@
  ENG_tank_early_modern_howitzer: "BL 5.5 Inch QF Field Gun"
  ENG_tank_modern_howitzer: "155mm M126 Howitzer"
  ENG_tank_advanced_modern_howitzer: "155mm M284 Howitzer"
- #Standard
  ENG_tank_small_cannon: "37mm Bofors Light Gun"
  ENG_tank_small_cannon_2: "40mm 2-pdr Light Gun"
  ENG_tank_medium_cannon: "75mm OQF Mk.5 Medium Gun"
@@ -221,22 +188,18 @@
  ENG_tank_early_modern_cannon: "105mm Royal Ordnance L7"
  ENG_tank_modern_cannon: "120mm Royal Ordnance L11A5"
  ENG_tank_advanced_modern_cannon: "120mm Royal Ordnance L30A1"
- #HV
  ENG_tank_high_velocity_cannon: "57mm OQF 6-pdr HV Gun"
  ENG_tank_high_velocity_cannon_2: "76.2mm OQF 17-pdr Mk.4 HV Gun"
  ENG_tank_high_velocity_cannon_3: "83.4mm OQF 20-pdr HV Gun"
- #FRANCE-------------------------------------
  FRA_tank_heavy_machine_gun: "13.2mm Hotchkiss M1930 MG"
  FRA_tank_auto_cannon: "20mm Oerlikon Mk.2 Autocannon"
  FRA_tank_auto_cannon_2: "40mm Bofors L/60 Autocannon"
- #AA
  FRA_tank_anti_air_cannon: "Quad 13.2mm Hotchkiss AA Guns"
  FRA_tank_anti_air_cannon_2: "40mm Bofors L/60 AA Gun"
  FRA_tank_anti_air_cannon_3: "94mm QF 3.7 Inch AA Cannon"
  FRA_early_modern_anti_air_cannon: "40mm Mle51 T1 AA Gun"
  FRA_modern_anti_air_cannon: "Twin 30mm HSS 831.A AA Guns"
  FRA_advanced_modern_anti_air_cannon: "VT1 Missile AA Battery"
- #Artillery
  FRA_tank_close_support_gun: "75mm SA35 L/17 Support Gun"
  FRA_tank_medium_howitzer: "75mm APX Howitzer"
  FRA_tank_medium_howitzer_2: "105mm Mle1913 Howitzer"
@@ -244,7 +207,6 @@
  FRA_tank_early_modern_howitzer: "105mm Mk.61 Howitzer"
  FRA_tank_modern_howitzer: "155mm 33-calibre Howitzer"
  FRA_tank_advanced_modern_howitzer: "155mm CN 155 AUF1 Howitzer"
- #Standard
  FRA_tank_small_cannon: "37mm SA38 L/33 Light Gun"
  FRA_tank_small_cannon_2: "47mm SA35 L/32 Light Gun"
  FRA_tank_medium_cannon: "75mm Mle1897 Medium Gun"
@@ -256,22 +218,18 @@
  FRA_tank_early_modern_cannon: "100mm SA47 L/58"
  FRA_tank_modern_cannon: "105mm CN-105"
  FRA_tank_advanced_modern_cannon: "120mm CN-120-26"
- #HV
  FRA_tank_high_velocity_cannon: "25mm SA35 L/72 HV Gun"
  FRA_tank_high_velocity_cannon_2: "75mm SA50 L/57 HV Gun"
  FRA_tank_high_velocity_cannon_3: "90mm SA45 HV Gun"
- #ITALY-------------------------------------
  ITA_tank_heavy_machine_gun: "8mm Breda MG"
  ITA_tank_auto_cannon: "20mm/65 Breda Mod.35 Autocannon"
  ITA_tank_auto_cannon_2: "37mm/54 Breda Mod.38 Autocannon"
- #AA
  ITA_tank_anti_air_cannon: "20mm Breda Mod.35 AA Gun"
  ITA_tank_anti_air_cannon_2: "Quad 20mm Scotti 20/70 Mod.41 AA Guns"
  ITA_tank_anti_air_cannon_3: "Twin 37mm/54 Breda Mod.38 AA Guns"
  ITA_early_modern_anti_air_cannon: "Quad 37mm/54 Breda Mod.45 AA Guns"
  ITA_modern_anti_air_cannon: "Twin 20mm MK20 Rh-202 AA Guns"
  ITA_advanced_modern_anti_air_cannon: "Twin 25mm Oerlikon KBA AA Guns"
- #Artillery
  ITA_tank_close_support_gun: "75mm/18 Mod.34 Support Gun"
  ITA_tank_medium_howitzer: "100mm/17 M.14 Howitzer"
  ITA_tank_medium_howitzer_2: "105/25 Ansaldo Howitzer"
@@ -279,7 +237,6 @@
  ITA_tank_early_modern_howitzer: "155mm M114 Howitzer"
  ITA_tank_modern_howitzer: "155mm M126 Howitzer"
  ITA_tank_advanced_modern_howitzer: "155mm L/41 Howitzer"
- #Standard
  ITA_tank_small_cannon: "37mm/40 Vickers-Terni Mod.18 Light Gun"
  ITA_tank_small_cannon_2: "47mm/40 Mod.38 Light Gun"
  ITA_tank_medium_cannon: "75mm/32 Mod.37 Medium Gun"
@@ -291,22 +248,18 @@
  ITA_tank_early_modern_cannon: "90mm/55 M3A1 Gun"
  ITA_tank_modern_cannon: "OTO 105/52 Gun"
  ITA_tank_advanced_modern_cannon: "OTO 120/44 Gun"
- #HV
  ITA_tank_high_velocity_cannon: " HV Gun"
  ITA_tank_high_velocity_cannon_2: "75mm/46 Mod.40 HV Gun"
  ITA_tank_high_velocity_cannon_3: "90mm/53 Ansaldo Mod.41 HV Gun"
-#COMMUNIST CHINA------------------------------
  PRC_tank_heavy_machine_gun: "7.62mm Type 24"
  PRC_tank_auto_cannon: "20mm TNSh Autocannon"
  PRC_tank_auto_cannon_2: "37mm Sh-37 Autocannon"
- #AA
  PRC_tank_anti_air_cannon: "Quad 7.62mm Type 24 AA Guns"
  PRC_tank_anti_air_cannon_2: "20mm Flak-30 AA Gun"
  PRC_tank_anti_air_cannon_3: "Twin 20mm Madsen AA Guns"
  PRC_early_modern_anti_air_cannon: "Twin 57mm WA318 AA Guns"
  PRC_modern_anti_air_cannon: "Twin PG99-35-2 AA Guns"
  PRC_advanced_modern_anti_air_cannon: "9M331 SAM Battery"
- #Artillery
  PRC_tank_close_support_gun: "75mm M1911 Support Gun"
  PRC_tank_medium_howitzer: "75mm Krupp L/29 Howitzer"
  PRC_tank_medium_howitzer_2: "88mm Type 18 Liao Howitzer"
@@ -315,7 +268,6 @@
  PRC_tank_early_modern_howitzer: "130mm Type 59 Howitzer"
  PRC_tank_modern_howitzer: "152mm Type 66 Howitzer"
  PRC_tank_advanced_modern_howitzer: "155mm PLL-01/L52 Howitzer"
- #Standard
  PRC_tank_small_cannon: "37mm Type 30 Light Gun"
  PRC_tank_small_cannon_2: "45mm 20-K Light Gun"
  PRC_early_light_modern_cannon: "85mm Type 62-85-TC Light Gun"
@@ -329,22 +281,18 @@
  PRC_tank_early_modern_cannon: "100mm Type 59"
  PRC_tank_modern_cannon: "125mm Type 88C"
  PRC_tank_advanced_modern_cannon: "125mm Type 99A"
- #HV
  PRC_tank_high_velocity_cannon: "57mm ZiS-4 HV Gun"
  PRC_tank_high_velocity_cannon_2: "85mm D-5 HV Gun"
  PRC_tank_high_velocity_cannon_3: "100mm D-10 HV Gun"
-#JAPAN---------------------------------------
  JAP_tank_heavy_machine_gun: "7.7mm Type 97"
  JAP_tank_auto_cannon: "20mm Type 98 Autocannon"
  JAP_tank_auto_cannon_2: "20mm Ho-5 Autocannon"
- #AA
  JAP_tank_anti_air_cannon: "20mm Type 98 AA Gun"
  JAP_tank_anti_air_cannon_2: "20mm Type 2 AA Gun"
  JAP_tank_anti_air_cannon_3: "25mm Type 96 AA Gun"
  JAP_early_modern_anti_air_cannon: "Quad 25mm Type 96 AA Guns"
  JAP_modern_anti_air_cannon: "Twin 40mm Type 11 AA Guns"
  JAP_advanced_modern_anti_air_cannon: "Twin 40mm Type 49 AA Guns/Type 51 SAM Battery"
- #Artillery
  JAP_tank_close_support_gun: "57mm Type 90 Support Gun"
  JAP_tank_medium_howitzer: "75mm Type 99 Howitzer"
  JAP_tank_medium_howitzer_2: "120mm Schneider-Canet 1898 Howitzer"
@@ -353,7 +301,6 @@
  JAP_tank_early_modern_howitzer: "150mm Type 13 Howitzer"
  JAP_tank_modern_howitzer: "155mm Type 29 Howitzer"
  JAP_tank_advanced_modern_howitzer: "155mm Type 51 Howitzer"
- #Standard
  JAP_tank_small_cannon: "37mm Type 94 Light Gun"
  JAP_tank_small_cannon_2: "47mm Type 1 Light Gun"
  JAP_early_light_modern_cannon: "75mm Type 9 Light Gun"
@@ -367,100 +314,55 @@
  JAP_tank_early_modern_cannon: "90mm Type 9"
  JAP_tank_modern_cannon: "105mm Type 21"
  JAP_tank_advanced_modern_cannon: "120mm Type 39"
- #HV
  JAP_tank_high_velocity_cannon: "57mm Type 2 HV Gun"
  JAP_tank_high_velocity_cannon_2: "75mm Type II HV Gun"
  JAP_tank_high_velocity_cannon_3: "100mm/65 Type 98 HV Gun"
-#WW2 Tank Guns
- #GENERIC + Descriptions
- # FLTE code replace tank_heavy_machine_gun
- # FLTE code replace tank_auto_cannon
- # FLTE code replace tank_auto_cannon_2
- #AA
- # FLTE code replace tank_anti_air_cannon
- # FLTE code replace tank_anti_air_cannon_2
- # FLTE code replace tank_anti_air_cannon_3
- early_modern_anti_air_cannon:"Twin 37mm AA Guns"
- early_modern_anti_air_cannon_desc:"With the introduction of jet aircraft, older anti-aircraft guns are simply incapable of dealing with modern aircraft. As such, the development of a smaller caliber, but much higher velocity gun is the natural evolution - while not necessarily capable of destroying an aircraft in a single hit, the higher muzzle velocity means aiming is simplified."
- modern_anti_air_cannon:"Rotary 20mm AA Gun"
- modern_anti_air_cannon_desc:"A multi-barrel rotary autocannon, capable of shredding a line clean through the sky - with devastating effects on any unfortunate aircraft caught in the way."
- advanced_modern_anti_air_cannon:"Surface-to-Air Missile Battery"
- advanced_modern_anti_air_cannon_desc:"An air-defence battery, with a number of anti-aircraft missiles. Fully digitized and coordinated with both radar and other air-defence aspects, this weapon system can intelligently intercept and destroy any aircraft daring enough to enter its space."
- #Artillery
- # FLTE code replace tank_close_support_gun
- # FLTE code replace tank_medium_howitzer
- # FLTE code replace tank_medium_howitzer_desc
- # FLTE code replace tank_medium_howitzer_2
- # FLTE code replace tank_medium_howitzer_2_desc
- # FLTE code replace tank_heavy_howitzer
- # FLTE code replace tank_heavy_howitzer_desc
- tank_post_war_howitzer:"152mm L/37 Howitzer"
- tank_post_war_howitzer_desc:"By developing a howitzer dedicated for usage in armored fighting vehicles, we can reduce the size of the vehicle while still projecting massive high-explosive shells over vast distances."
- tank_early_modern_howitzer:"155mm L/40 Modern Howitzer"
- tank_early_modern_howitzer_desc:"By using lessons learned from other tank developments, this howitzer has a higher muzzle velocity, and as such a much larger range."
- tank_modern_howitzer:"183mm L/39 Modern Howitzer"
- tank_modern_howitzer_desc:"A huge gun, with a massive muzzle brake and giant shell, capable of devastating anything within range."
- tank_advanced_modern_howitzer:"155mm L/51 Advanced Modern Howitzer"
- tank_advanced_modern_howitzer_desc:"By integrating fire control with a computer system, this gun is far more accurate and far more destructive than any before."
- #Standard
- # FLTE code replace tank_small_cannon
- # FLTE code replace tank_small_cannon_2
+ early_modern_anti_air_cannon: "Twin 37mm AA Guns"
+ early_modern_anti_air_cannon_desc: "With the introduction of jet aircraft, older anti-aircraft guns are simply incapable of dealing with modern aircraft. As such, the development of a smaller caliber, but much higher velocity gun is the natural evolution - while not necessarily capable of destroying an aircraft in a single hit, the higher muzzle velocity means aiming is simplified."
+ modern_anti_air_cannon: "Rotary 20mm AA Gun"
+ modern_anti_air_cannon_desc: "A multi-barrel rotary autocannon, capable of shredding a line clean through the sky - with devastating effects on any unfortunate aircraft caught in the way."
+ advanced_modern_anti_air_cannon: "Surface-to-Air Missile Battery"
+ advanced_modern_anti_air_cannon_desc: "An air-defence battery, with a number of anti-aircraft missiles. Fully digitized and coordinated with both radar and other air-defence aspects, this weapon system can intelligently intercept and destroy any aircraft daring enough to enter its space."
+ tank_post_war_howitzer: "152mm L/37 Howitzer"
+ tank_post_war_howitzer_desc: "By developing a howitzer dedicated for usage in armored fighting vehicles, we can reduce the size of the vehicle while still projecting massive high-explosive shells over vast distances."
+ tank_early_modern_howitzer: "155mm L/40 Modern Howitzer"
+ tank_early_modern_howitzer_desc: "By using lessons learned from other tank developments, this howitzer has a higher muzzle velocity, and as such a much larger range."
+ tank_modern_howitzer: "183mm L/39 Modern Howitzer"
+ tank_modern_howitzer_desc: "A huge gun, with a massive muzzle brake and giant shell, capable of devastating anything within range."
+ tank_advanced_modern_howitzer: "155mm L/51 Advanced Modern Howitzer"
+ tank_advanced_modern_howitzer_desc: "By integrating fire control with a computer system, this gun is far more accurate and far more destructive than any before."
  early_light_modern_cannon: "75mm L/61 Light Gun"
  early_light_modern_cannon_desc: "An advanced light-weight gun, intended to allow light tanks to hit above their weight class."
  light_modern_cannon: "90mm L/56 Light Gun"
  light_modern_cannon_desc: "An advanced, ulra-light gun intended to give recon vehicles a surprisingly heavy punch."
- # FLTE code replace tank_medium_cannon
- # FLTE code replace tank_medium_cannon_desc
- # FLTE code replace tank_medium_cannon_2
- # FLTE code replace tank_medium_cannon_2_desc
- # FLTE code replace tank_heavy_cannon
- # FLTE code replace tank_heavy_cannon_desc
- # FLTE code replace tank_heavy_cannon_2
- # FLTE code replace tank_heavy_cannon_2_desc
- # FLTE code replace tank_heavy_cannon_3
- # FLTE code replace tank_heavy_cannon_3_desc
- # FLTE code replace tank_super_heavy_cannon
- #HV
- # FLTE code replace tank_high_velocity_cannon
- # FLTE code replace tank_high_velocity_cannon_2
- # FLTE code replace tank_high_velocity_cannon_3
- #Modern
- tank_early_modern_cannon:"90mm L/60 Modern Gun"
- tank_early_modern_cannon_desc:"With the introduction of so-called bore evacuators, devices fitted to the barrel of a gun which clears the smoke after firing, a higher powered charge can be used, resulting in greater muzzle velocity and as such, greater armor penetration."
- tank_modern_cannon:"105mm L/58 Smoothbore Gun"
- tank_modern_cannon_desc:"The advent of modern smoothbore guns can fire a shell at much higher velocities and with much less wear, resulting in greatly improved armor penetration. The inherent inaccuracy with smoothbore guns can be offset with the aforementioned higher velocity, as well as fin stabilization."
- tank_advanced_modern_cannon:"120mm L/52 Smoothbore Gun"
- tank_advanced_modern_cannon_desc:"A truly terrifying weapon, using all of the lessons learned from previous developments, capable of projecting a shell at extreme velocities over long distances. Nothing will withstand a shell fired from this gun."
- tank_cold_war_gas_turbine_engine:"Early Cold War Gas Turbine Engine"
- tank_cold_war_gas_turbine_engine_desc:"Compared to early gas turbines, which were essentially just jet engines modified for use in a ground vehicle, this set was designed from the ground up for use in a tank. As such, it is much faster than earlier systems."
- tank_near_end_cold_war_gas_turbine_engine:"Late Cold War Turbine Engine"
- tank_near_end_cold_war_gas_turbine_engine_desc:"Despite using more fuel, the compressor in this gas turbine has a much more optimized design, resulting in extremely high speeds."
- tank_cold_war_diesel_engine:"Early Cold War Diesel Engine"
- tank_cold_war_diesel_engine_desc:"With the development of reliable turbochargers, a diesel engine can be made just as fast as one running on gasoline, while being much reliable and resistent to harsh environments compared to gas turbines."
- tank_near_end_cold_war_diesel_engine:"Late Cold War Diesel Engine"
- tank_near_end_cold_war_diesel_engine_desc:"As the century neared its end, fuel quality and consistency both improved greatly. As such, this engine can be tuned much higher than previously possible, resulting in unparalleled speeds and reliability."
- gen1_night_vision:"1st Generation of Night Vision"
- gen1_night_vision_desc:"A simple active night vision set, using an infrared spotlight and special vision devices for the crew to see in the dark."
- gen2_night_vision:"2nd Generation of Night Vision"
- gen2_night_vision_desc:"By using intensification devices, the infrared spotlight can be removed, while maintaining a good image quality."
- gen3_night_vision:"3rd Generation of Night Vision"
- gen3_night_vision_desc:"Improvements in manufacturing and chemistry have resulted in a night vision set that has similar image quality to daytime vision."
- gen1_thermal_vision:"1st Generation of Thermal Vision"
- gen1_thermal_vision_desc:"All objects above absolute zero temperature emit infrared radiation, however this is usually far too weak to be detected by traditional infrared devices. However, by using special materials such as germanium, calcium floride or crystalline silicon, a lens can be made which permits infrared radiation at the levels required to use as a heat-vision sight."
- gen2_thermal_vision:"2nd Generation of Thermal Vision"
- gen2_thermal_vision_desc:"Early thermal vision devices were unreliable, and had very poor resolution. However, with advances in precision manufacturing, a thermal vision set can now be used to identify objects even over a kilometer away."
- gen3_thermal_vision:"3rd Generation of Thermal Vision"
- gen3_thermal_vision_desc:"By using a digital computer and electronic television, a thermal image of much higher quality and zoom can be established."
- slopped_turret_armor:"Advanced Sloped Turret Armor"
- slopped_turret_armor_desc:"Sloped armour is armour that is neither in a vertical nor a horizontal position. Such angled armour is typically mounted on tanks."
- # FLTE code replace light_tank_chassis_0
- # FLTE code replace light_tank_chassis_desc
- # FLTE code replace light_tank_chassis_1
- # FLTE code replace basic_light_tank_chassis
- # FLTE code replace light_tank_chassis_2
- # FLTE code replace improved_light_tank_chassis
- # FLTE code replace light_tank_chassis_3
- # FLTE code replace advanced_light_tank_chassis
+ tank_early_modern_cannon: "90mm L/60 Modern Gun"
+ tank_early_modern_cannon_desc: "With the introduction of so-called bore evacuators, devices fitted to the barrel of a gun which clears the smoke after firing, a higher powered charge can be used, resulting in greater muzzle velocity and as such, greater armor penetration."
+ tank_modern_cannon: "105mm L/58 Smoothbore Gun"
+ tank_modern_cannon_desc: "The advent of modern smoothbore guns can fire a shell at much higher velocities and with much less wear, resulting in greatly improved armor penetration. The inherent inaccuracy with smoothbore guns can be offset with the aforementioned higher velocity, as well as fin stabilization."
+ tank_advanced_modern_cannon: "120mm L/52 Smoothbore Gun"
+ tank_advanced_modern_cannon_desc: "A truly terrifying weapon, using all of the lessons learned from previous developments, capable of projecting a shell at extreme velocities over long distances. Nothing will withstand a shell fired from this gun."
+ tank_cold_war_gas_turbine_engine: "Early Cold War Gas Turbine Engine"
+ tank_cold_war_gas_turbine_engine_desc: "Compared to early gas turbines, which were essentially just jet engines modified for use in a ground vehicle, this set was designed from the ground up for use in a tank. As such, it is much faster than earlier systems."
+ tank_near_end_cold_war_gas_turbine_engine: "Late Cold War Turbine Engine"
+ tank_near_end_cold_war_gas_turbine_engine_desc: "Despite using more fuel, the compressor in this gas turbine has a much more optimized design, resulting in extremely high speeds."
+ tank_cold_war_diesel_engine: "Early Cold War Diesel Engine"
+ tank_cold_war_diesel_engine_desc: "With the development of reliable turbochargers, a diesel engine can be made just as fast as one running on gasoline, while being much reliable and resistent to harsh environments compared to gas turbines."
+ tank_near_end_cold_war_diesel_engine: "Late Cold War Diesel Engine"
+ tank_near_end_cold_war_diesel_engine_desc: "As the century neared its end, fuel quality and consistency both improved greatly. As such, this engine can be tuned much higher than previously possible, resulting in unparalleled speeds and reliability."
+ gen1_night_vision: "1st Generation of Night Vision"
+ gen1_night_vision_desc: "A simple active night vision set, using an infrared spotlight and special vision devices for the crew to see in the dark."
+ gen2_night_vision: "2nd Generation of Night Vision"
+ gen2_night_vision_desc: "By using intensification devices, the infrared spotlight can be removed, while maintaining a good image quality."
+ gen3_night_vision: "3rd Generation of Night Vision"
+ gen3_night_vision_desc: "Improvements in manufacturing and chemistry have resulted in a night vision set that has similar image quality to daytime vision."
+ gen1_thermal_vision: "1st Generation of Thermal Vision"
+ gen1_thermal_vision_desc: "All objects above absolute zero temperature emit infrared radiation, however this is usually far too weak to be detected by traditional infrared devices. However, by using special materials such as germanium, calcium floride or crystalline silicon, a lens can be made which permits infrared radiation at the levels required to use as a heat-vision sight."
+ gen2_thermal_vision: "2nd Generation of Thermal Vision"
+ gen2_thermal_vision_desc: "Early thermal vision devices were unreliable, and had very poor resolution. However, with advances in precision manufacturing, a thermal vision set can now be used to identify objects even over a kilometer away."
+ gen3_thermal_vision: "3rd Generation of Thermal Vision"
+ gen3_thermal_vision_desc: "By using a digital computer and electronic television, a thermal image of much higher quality and zoom can be established."
+ slopped_turret_armor: "Advanced Sloped Turret Armor"
+ slopped_turret_armor_desc: "Sloped armour is armour that is neither in a vertical nor a horizontal position. Such angled armour is typically mounted on tanks."
  modern_light_tank_1: "45' Light Tank Chassis"
  modern_light_tank_1_short: "1945 Light"
  light_tank_chassis_4: "45' Light Tank Chassis"
@@ -479,34 +381,6 @@
  modern_light_tank_6: "90' Light Tank Chassis"
  modern_light_tank_6_short: "1990 Light"
  light_tank_chassis_9: "90' Light Tank Chassis"
- # FLTE code replace light_tank_amphibious_chassis_0
- # FLTE code replace light_tank_amphibious_chassis_1
- # FLTE code replace light_tank_amphibious_chassis_2
- # FLTE code replace light_tank_amphibious_chassis_3
- # FLTE code replace medium_tank_chassis_1
- # FLTE code replace medium_tank_chassis_0
- # FLTE code replace medium_tank_chassis_2
- # FLTE code replace medium_tank_chassis_3
- # FLTE code replace medium_tank_amphibious_chassis_1
- # FLTE code replace medium_tank_amphibious_chassis_0
- # FLTE code replace medium_tank_amphibious_chassis_2
- # FLTE code replace medium_tank_amphibious_chassis_3
- # FLTE code replace basic_medium_tank_chassis
- # FLTE code replace basic_medium_tank_chassis_short
- # FLTE code replace improved_medium_tank_chassis
- # FLTE code replace advanced_medium_tank_chassis
- # FLTE code replace heavy_tank_chassis_0
- # FLTE code replace heavy_tank_chassis_1
- # FLTE code replace heavy_tank_chassis_2
- # FLTE code replace heavy_tank_chassis_3
- # FLTE code replace heavy_tank_amphibious_chassis_0
- # FLTE code replace heavy_tank_amphibious_chassis_1
- # FLTE code replace heavy_tank_amphibious_chassis_2
- # FLTE code replace heavy_tank_amphibious_chassis_3
- # FLTE code replace basic_heavy_tank_chassis
- # FLTE code replace basic_heavy_tank_chassis_desc
- # FLTE code replace improved_heavy_tank_chassis
- # FLTE code replace advanced_heavy_tank_chassis
  heavy_tank_chassis_4: "45' Heavy Tanks"
  heavy_tank_chassis_5: "50' Heavy Tank"
  heavy_tank_chassis_6: "60' Heavy Tank"
@@ -516,11 +390,9 @@
  cw_heavy_tank_chassis_1_short: "50' Heavy Tank"
  cw_heavy_tank_chassis_2: "60' Heavy Tank"
  cw_heavy_tank_chassis_2_short: "60' Heavy Tank"
- # FLTE code replace main_battle_tank_chassis
  modern_tank_chassis_0: "45' Modern Battle Tank"
  modern_tank_chassis_1_desc: "A further development of the previous generation of vehicles, focusing on the speeds required for modern mobile warfare."
  main_battle_tank_chassis_1_desc: "A further development of the previous generation of vehicles, focusing on the speeds required for modern mobile warfare."
- # FLTE code replace modern_tank_chassis_1
  main_battle_tank_chassis_1: "50' Modern Battle Tank"
  modern_tank_chassis_2_desc: "As the threat of nuclear annihilation looms, a vehicle capable of protecting its crew from deadly radiation, while still improving on previous models, is required."
  main_battle_tank_chassis_2_desc: "As the threat of nuclear annihilation looms, a vehicle capable of protecting its crew from deadly radiation, while still improving on previous models, is required."
@@ -554,7 +426,6 @@
  main_battle_tank_chassis_9_desc: "The final evolution of armored warfare, this beast is fast, well armored, and deadly. Above all else, it uses modern computers which enable an unprecedented level of automation and crew performance."
  modern_tank_chassis_9: "90' Modern Battle Tank"
  main_battle_tank_chassis_9: "90' Modern Battle Tank"
-#SOVIET TANK NAMES
  SOV_modern_light_tank_1: "T-70 Chassis"
  SOV_modern_light_tank_1_short: "T-70 Chassis"
  SOV_light_tank_chassis_4: "T-70 Chassis"
@@ -637,7 +508,6 @@
  SOV_main_battle_tank_chassis_8: "T-80B Chassis"
  SOV_modern_tank_chassis_9: "T-90A Chassis"
  SOV_main_battle_tank_chassis_9: "T-90A Chassis"
- #CZECHO TANK NAME
  CZE_modern_light_tank_1: "T-70 Chassis"
  CZE_modern_light_tank_1_short: "T-70 Chassis"
  CZE_light_tank_chassis_4: "T-70 Chassis"
@@ -720,7 +590,6 @@
  CZE_main_battle_tank_chassis_8: "T-72M1 Chassis"
  CZE_modern_tank_chassis_9: "T-72M2 Chassis"
  CZE_main_battle_tank_chassis_9: "T-72M2 Chassis"
- #USA TANK NAME
  USA_modern_light_tank_1: "M24E1 Chaffee Chassis"
  USA_modern_light_tank_1_short: "M24E1 Chaffee Chassis"
  USA_light_tank_chassis_4: "M24E1 Chaffee Chassis"
@@ -794,7 +663,6 @@
  USA_main_battle_tank_chassis_8: "M1A1 Abrams Chassis"
  USA_modern_tank_chassis_9: "M1A2 Abrams Chassis"
  USA_main_battle_tank_chassis_9: "M1A2 Abrams Chassis"
-#FRANCE TANK NAME
  FRA_modern_light_tank_1: "M24E1 Chaffee Chassis"
  FRA_modern_light_tank_1_short: "M24E1 Chaffee Chassis"
  FRA_light_tank_chassis_4: "M24E1 Chaffee Chassis"
@@ -814,8 +682,8 @@
  FRA_modern_light_tank_6_short: "Stingray Chassis"
  FRA_light_tank_chassis_9: "Stingray Chassis"
  FRA_light_tank_chassis_1: "H-35 Chassis"
- FRA_basic_light_tank_chassis: ""H-35 Chassis"
- FRA_basic_light_tank_chassis_short: ""H-35 Chassis"
+ FRA_basic_light_tank_chassis: "\"H-35 Chassis"
+ FRA_basic_light_tank_chassis_short: "\"H-35 Chassis"
  FRA_light_tank_chassis_2: "FCM.36 Chassis"
  FRA_improved_light_tank_chassis: "FCM.36 Chassis"
  FRA_improved_light_tank_chassis_short: "FCM.36 Chassis"
@@ -858,7 +726,6 @@
  FRA_main_battle_tank_chassis_9: "Leclerc Chassis"
  FRA_wheeled_tank_chassis_2: "AMX-10RC Chassis"
  FRA_wheeled_tank_chassis_3: "Vextra Chassis"
- #ENGLAND TANK NAME
  ENG_modern_light_tank_1: "M24E1 Chaffee Chassis"
  ENG_modern_light_tank_1_short: "M24E1 Chaffee Chassis"
  ENG_light_tank_chassis_4: "M24E1 Chaffee Chassis"
@@ -931,7 +798,6 @@
  ENG_main_battle_tank_chassis_8: "Challenger 1 Chassis"
  ENG_modern_tank_chassis_9: "Challenger 2 Chassis"
  ENG_main_battle_tank_chassis_9: "Challenger 2 Chassis"
-#GERMAN TANK NAME
  GER_modern_light_tank_1: "M24E1 Chaffee Chassis"
  GER_modern_light_tank_1_short: "M24E1 Chaffee Chassis"
  GER_light_tank_chassis_4: "M24E1 Chaffee Chassis"
@@ -1005,7 +871,6 @@
  GER_main_battle_tank_chassis_8: "Leopard 2A4 Chassis"
  GER_modern_tank_chassis_9: "Leopard 2A5 Chassis"
  GER_main_battle_tank_chassis_9: "Leopard 2A5 Chassis"
-#PRC TANK NAME
  PRC_modern_light_tank_1: "T-70 Chassis"
  PRC_modern_light_tank_1_short: "T-70 Chassis"
  PRC_light_tank_chassis_4: "T-70 Chassis"
@@ -1086,7 +951,6 @@
  PRC_main_battle_tank_chassis_8: "ZTZ-90 Chassis"
  PRC_modern_tank_chassis_9: "ZTZ-96 Chassis"
  PRC_main_battle_tank_chassis_9: "ZTZ-96 Chassis"
- #JAPAN TANK NAME
  JAP_modern_light_tank_1: "M24E1 Chaffee Chassis"
  JAP_modern_light_tank_1_short: "M24E1 Chaffee Chassis"
  JAP_light_tank_chassis_4: "M24E1 Chaffee Chassis"
@@ -1216,8 +1080,6 @@
  light_tank_aa_chassis_equipment_9: "Light Tank SPAA IX"
  modern_tank_artillery_chassis_0: "Modern Artillery Tank"
  modern_tank_artillery_equipment_0: "Modern Artillery Tank"
- # FLTE code replace modern_tank_artillery_chassis_1
- # FLTE code replace modern_tank_artillery_equipment_1
  modern_tank_artillery_chassis_2: "Modern Artillery Tank II"
  modern_tank_artillery_equipment_2: "Modern Artillery Tank II"
  modern_tank_artillery_chassis_3: "Modern Artillery Tank III"
@@ -1236,8 +1098,6 @@
  modern_tank_artillery_equipment_9: "Modern Artillery Tank IX"
  modern_tank_destroyer_chassis_0: "Modern Tank Destroyer"
  modern_tank_destroyer_equipment_0: "Modern Tank Destroyer"
- # FLTE code replace modern_tank_destroyer_chassis_1
- # FLTE code replace modern_tank_destroyer_equipment_1
  modern_tank_destroyer_chassis_2: "Modern Tank Destroyer II"
  modern_tank_destroyer_equipment_2: "Modern Tank Destroyer II"
  modern_tank_destroyer_chassis_3: "Modern Tank Destroyer III"
@@ -1250,14 +1110,12 @@
  modern_tank_destroyer_equipment_6: "Modern Tank Destroyer VI"
  modern_tank_destroyer_chassis_7: "Modern Tank Destroyer VII"
  modern_tank_destroyer_equipment_7: "Modern Tank Destroyer VII"
- modern_tank_destroyer_chassis_8: "Modern Tank Destroyer VIII" 
+ modern_tank_destroyer_chassis_8: "Modern Tank Destroyer VIII"
  modern_tank_destroyer_equipment_8: "Modern Tank Destroyer VIII"
  modern_tank_destroyer_chassis_9: "Modern Tank Destroyer IX"
  modern_tank_destroyer_equipment_9: "Modern Tank Destroyer IX"
  modern_tank_aa_chassis_0: "Modern Tank SPAA"
  modern_tank_aa_equipment_0: "Modern Tank SPAA"
- # FLTE code replace modern_tank_aa_chassis_1
- # FLTE code replace modern_tank_aa_equipment_1
  modern_tank_aa_chassis_2: "Modern Tank SPAA III"
  modern_tank_aa_equipment_2: "Modern Tank SPAA II"
  modern_tank_aa_chassis_3: "Modern Tank SPAA III"
@@ -1275,10 +1133,6 @@
  modern_tank_aa_chassis_9: "Modern Tank SPAA IX"
  modern_tank_aa_equipment_9: "Modern Tank SPAA IX"
  AIR_TITLE_HELICOPTER: "Helicopter"
- # FLTE code replace super_heavy_tank_chassis
- # FLTE code replace super_heavy_tank_chassis_1
- # FLTE code replace amphibious_tank_chassis
- # FLTE code replace amphibious_tank_chassis_1
  amphibious_tank_chassis_2: "55' Amphibious Chassis"
  amphibious_tank_chassis_3: "65' Amphibious Chassis"
  amphibious_tank_chassis_4: "75' Amphibious Chassis"
@@ -1304,18 +1158,13 @@
  armor_tech_10_desc: "Advancements are always possible with armor protection. Whether improved chemistry, or stronger composites, tanks of the future will be very well protected."
  armor_tech_11: "Post Cold War Armor Protection"
  armor_tech_11_desc: "With the third generation of main battle tanks, with advanced high-velocity cannons firing rounds that can penetrate nearly a meter of steel, we need to protect our crewmembers and vehicles."
- # FLTE code replace engine_tech_4
  engine_tech_5: "Post War Engine"
- engine_tech_5_desc:"While the modern engines are already fairly capable, there are always advances to be made. New technologies such as multi-barrel carburettors and forced induction allow much higher power outputs."
+ engine_tech_5_desc: "While the modern engines are already fairly capable, there are always advances to be made. New technologies such as multi-barrel carburettors and forced induction allow much higher power outputs."
  engine_tech_7: "Early Cold War Engine"
- engine_tech_7_desc:"As tanks reach towards 60 tonnes in weight, we need engines with over a thousand horsepower to keep up with the other mechanized arms of service."
+ engine_tech_7_desc: "As tanks reach towards 60 tonnes in weight, we need engines with over a thousand horsepower to keep up with the other mechanized arms of service."
  engine_tech_9: "Mid Cold War Engine"
- engine_tech_9_desc:"Improvements to fuel quality and precision engineering, as well as novel new materials, enable engines that can propel a vehicle at highway speeds."
+ engine_tech_9_desc: "Improvements to fuel quality and precision engineering, as well as novel new materials, enable engines that can propel a vehicle at highway speeds."
  engine_tech_10: "Late Cold War Engine"
- engine_tech_10_desc:"Only so much can be done to improve existing models. Eventually, we will need to develop brand new designs, for both diesel and gas turbine engines, to take full advantage of new technologies."
+ engine_tech_10_desc: "Only so much can be done to improve existing models. Eventually, we will need to develop brand new designs, for both diesel and gas turbine engines, to take full advantage of new technologies."
  engine_tech_11: "Post Cold War Engine"
  engine_tech_11_desc: "The modern tank engine must be fast, yet reliable - it must not choke in dusty environments, or fail to start when it is cold out. With fuel injection and twinchargers, engines can be made that produce obscene amounts of power."
- # FLTE code replace auto_loader_desc
- # FLTE code replace lc_medium_cannon_turret
- # FLTE code replace lc_high_velocity_cannon_turret
- # FLTE code replace lc_flamethrower_turret

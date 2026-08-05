@@ -2,7 +2,6 @@
  ARMOUR_TITLE_PARA: "Paradrop Tank"
  ARMOUR_TITLE_WHEELED: "Wheeled Tank"
  AIR_TITLE_DRONES: "Drones"
- # FLTE code replace modern_tank_chassis
  high_performance_aircraft: "High performance aircraft"
  front_line_supp: "Front line support"
  low_level_penetration: "Low level penetration"
@@ -231,11 +230,6 @@
  manoeuverwarfare1_desc: ""
  grandarmy: "Grand Army"
  grandarmy_desc: ""
- # FLTE code replace both_cruisers_desc
- # FLTE code replace motorized_equipment
- # FLTE code replace motorized_equipment_desc
- # FLTE code replace motorized_equipment_1
- # FLTE code replace PRC_modern_tank_equipment_1_short
  PRC_modern_tank_equipment_2_short: "T-55"
  PRC_modern_tank_equipment_3_short: "NORINCO Type 59"
  PRC_modern_tank_equipment_5_short: "NORINCO Type 59-I"
@@ -243,40 +237,20 @@
  PRC_modern_tank_equipment_7_short: "NORINCO Type 69-II"
  PRC_modern_tank_equipment_8_short: "NORINCO Type 85"
  PRC_modern_tank_equipment_9_short: "NORINCO Type 90"
- # FLTE code replace POL_modern_tank_equipment_1_short
  POL_modern_tank_equipment_2_short: "T-55"
  POL_modern_tank_equipment_5_short: "T-72"
  POL_modern_tank_equipment_7_short: "Leopard 2"
  POL_modern_tank_equipment_9_short: "PT-91 Twardy"
  PRC_amphibious_mechanized_equipment_3: "PT-76"
- PRC_amphibious_mechanized_equipment_3_short: "PT-76" 
- PRC_amphibious_mechanized_equipment_4: "Type 63" 
- PRC_amphibious_mechanized_equipment_4_short: "Type 63" 
- PRC_amphibious_mechanized_equipment_6: "Type 63-II" 
- PRC_amphibious_mechanized_equipment_6_short: "Type 63-II" 
- # FLTE code replace EQUIPMENT_MOTORIZED
+ PRC_amphibious_mechanized_equipment_3_short: "PT-76"
+ PRC_amphibious_mechanized_equipment_4: "Type 63"
+ PRC_amphibious_mechanized_equipment_4_short: "Type 63"
+ PRC_amphibious_mechanized_equipment_6: "Type 63-II"
+ PRC_amphibious_mechanized_equipment_6_short: "Type 63-II"
  EQUIPMENT_AIR_FIGHTER: "Fighter"
  EQUIPMENT_AIR_FIGHTER_DESC: "Fighter"
  EQUIPMENT_AIR_CAS: "Close Air Support"
  EQUIPMENT_HELICOPTER: "Helicopter"
- # FLTE code replace EQUIPMENT_MISSILE
- # FLTE code replace GER_EQUIPMENT_VERSION_9
- # FLTE code replace GER_EQUIPMENT_VERSION_10
- # FLTE code replace GER_EQUIPMENT_VERSION_11
- # FLTE code replace GER_EQUIPMENT_VERSION_12
- # FLTE code replace GER_EQUIPMENT_VERSION_13
- # FLTE code replace GER_EQUIPMENT_VERSION_14
- # FLTE code replace GER_EQUIPMENT_VERSION_15
- # FLTE code replace GER_EQUIPMENT_VERSION_16
-##GENERIC TREE##
- # FLTE code replace infantry_equipment_0
- # FLTE code replace infantry_equipment_0_short
- # FLTE code replace infantry_equipment_1
- # FLTE code replace infantry_equipment_1_short
- # FLTE code replace infantry_equipment_2
- # FLTE code replace infantry_equipment_2_short
- # FLTE code replace infantry_equipment_3
- # FLTE code replace infantry_equipment_3_short
  infantry_equipment_4: "Assault Rifles I"
  infantry_equipment_4_short: "Assault Rifles I"
  infantry_equipment_4_desc: "The so-called assault rifle - a select fire, medium-weight rifle which can either lay down a hail of fire or engage in accurate marksmanship over 500 meters. While assault rifles are bulkier than older models, they were vastly superior to even the best of the bolt-action or semi-automatic rifles. As such, they would replace most other small arms in service, except for the machinegun and sidearm."
@@ -291,13 +265,11 @@
  infantry_equipment_7_desc: "In years past, a carbine was a shorter gun used on horseback. The development of smokeless powder made the carbine generally obsolete barring a few models, but it has seen a resurgence in recent decades. With a smaller cartridge than previous assault rifles, the 'assault carbine' is nonetheless a lethal addition, as well as being easier to carry and use in the urban environments so common with modern warfare."
  infantry_equipment_8: "Assault Rifles V"
  infantry_equipment_8_short: "Assault Rifles V"
- infantry_equipment_8_desc:"As countries experimented with caseless cartridges, bullpup designs and electronics, the assault rifle continues to advance even to this day. The modern assault rifle is a lightweight design, firing an intermediate cartridge either fully automatic, burst-fire or semi-automatic, using easily interchangeable magazines and coming equipped with a wide variety of accessories."
+ infantry_equipment_8_desc: "As countries experimented with caseless cartridges, bullpup designs and electronics, the assault rifle continues to advance even to this day. The modern assault rifle is a lightweight design, firing an intermediate cartridge either fully automatic, burst-fire or semi-automatic, using easily interchangeable magazines and coming equipped with a wide variety of accessories."
  infantry_at3: "RPG I"
  infantry_at4: "RPG II"
  infantry_at5: "RPG III"
  infantry_at6: "RPG IV"
- # FLTE code replace motorized_equipment_0
- # FLTE code replace motorized_equipment_1
  motorized_equipment_2: "M54 TRUCK"
  motorized_equipment_2_desc: "As our mechanized and armored forces become faster and faster, we must not let our motorized troops fall behind. By using newer engines and novel 5-speed transmissions, the modern cargo truck can keep up with a racing tank."
  motorized_equipment_3: "M55 TRUCK"
@@ -305,7 +277,6 @@
  motorized_equipment_4: "Motorized 1980"
  motorized_equipment_4_desc: "The improvement in fuel quality allows us to develop a new engine with much higher compression and much closer tolerances, resulting in greatly improved power output."
  motorized_equipment_5: "Motorized 1980"
- motorized_equipment_5_desc: "The modern truck must not just be fast, it must also be capable of operating in any terrain. An all-wheel drive system, combined with multiple gearboxes and a heavy turbocharged engine, results in a vehicle which can cross country much faster than before."
  motorized_equipment_6: "Motorized 1990"
  motorized_equipment_6_desc: "By using fuel injection and turbochargers, as well as electronic control units, vehicles of the future will outrun even the fastest trucks of the last generation."
  motorized_rocket_equipment_2: "Rocket Artillery 1950"
@@ -382,9 +353,6 @@
  amechanized_equipment_3: "Airborne IFV 1990"
  amechanized_equipment_3_short: "Airborne IFV 1990"
  amechanized_equipment_3_desc: ""
- # FLTE code replace anti_air_equipment_1
- # FLTE code replace anti_air_equipment_1_short
- # FLTE code replace anti_air_equipment_1_desc
  anti_air_equipment_4: "50' Anti-Air"
  anti_air_equipment_4_desc: "By using smaller but higher-velocity cannons, even the modern jet cannot hope to outrun the anti-aircraft cannon."
  anti_air_equipment_5: "60' Anti-Air"
@@ -418,7 +386,6 @@
  rocket_artillery_equipment_5_desc: ""
  rocket_artillery_equipment_6: "80' Rocket Artillery"
  rocket_artillery_equipment_6_desc: ""
- # FLTE code replace anti_tank_equipment_1_desc
  anti_tank_equipment_4: "50' A/T"
  anti_tank_equipment_4_desc: ""
  anti_tank_equipment_5: "60' ATGM"
@@ -449,11 +416,6 @@
  medium_tank_equipment_4: "Late Medium Tank"
  medium_tank_equipment_4_short: "Late Medium Tank"
  medium_tank_equipment_4_desc: "Late Medium Tank"
- # FLTE code replace USA_medium_tank_destroyer_equipment_2
- # FLTE code replace USA_medium_tank_destroyer_equipment_2_short
- # FLTE code replace USA_medium_tank_destroyer_equipment_3
- # FLTE code replace USA_medium_tank_destroyer_equipment_3_short
- # FLTE code replace USA_modern_tank_equipment_1
  USA_modern_tank_equipment_2: "T95E1"
  USA_modern_tank_equipment_3: "M60 Patton"
  USA_modern_tank_equipment_4: "M60A1 Patton"
@@ -462,15 +424,12 @@
  USA_modern_tank_equipment_7: "M1 Abrams"
  USA_modern_tank_equipment_8: "M1A1 Abrams"
  USA_modern_tank_equipment_9: "M1A2 Abrams"
- # FLTE code replace SWE_modern_tank_equipment_1
  SWE_modern_tank_equipment_2: "Strv 104"
  SWE_modern_tank_equipment_3: "Strv 74"
  SWE_modern_tank_equipment_4: "Strv 103-0"
  SWE_modern_tank_equipment_5: "Strv 103A"
  SWE_modern_tank_equipment_7: "Strv 121"
  SWE_modern_tank_equipment_8: "Strv 103C"
- # FLTE code replace USA_light_tank_equipment_3
- # FLTE code replace USA_light_tank_equipment_3_short
  USA_light_tank_equipment_4: "M24 Chaffee"
  USA_light_tank_equipment_4_short: "M24 Chaffee"
  USA_light_tank_equipment_5: "T92 Light Tank"
@@ -488,11 +447,6 @@
  USA_para_tank_equipment_3_short: "M551A1 TTS Sheridan"
  USA_para_tank_equipment_4_short: "M8 Armored Gun System"
  USA_wheeled_tank_equipment_2: "LAV-25"
- # light_tank_equipment_4: "45' Light Tank"
- # light_tank_equipment_5: "50' Light Tank"
- # light_tank_equipment_6: "60' Light Tank"
- # light_tank_equipment_7: "70' Light Tank"
- # light_tank_equipment_8: "80' Light Tank"
  light_tank_equipment_9: "90' Light Tank"
  heavy_tank_equipment_4: "45' Heavy Tank"
  heavy_tank_equipment_4_short: "45' Heavy Tank"
@@ -503,18 +457,13 @@
  heavy_tank_equipment_6: "60' Heavy Tank"
  heavy_tank_equipment_6_short: "60' Heavy Tank"
  heavy_tank_equipment_6_desc: ""
- # FLTE code replace modern_tank_equipment
  modern_tank_equipment_short: "45' Modern Battle Tank"
- # FLTE code replace modern_tank_equipment_desc
- # FLTE code replace modern_tank_equipment_1
- # FLTE code replace modern_tank_equipment_1_short
- # FLTE code replace modern_tank_equipment_1_desc
  modern_tank_equipment_2: "55' Modern Tank"
  modern_tank_equipment_2_short: "55' Modern Tank"
- modern_tank_equipment_2_desc: "" 
+ modern_tank_equipment_2_desc: ""
  modern_tank_equipment_3: "60' Modern Tank"
  modern_tank_equipment_3_short: "60' Modern Tank"
- modern_tank_equipment_3_desc: ""  
+ modern_tank_equipment_3_desc: ""
  modern_tank_equipment_4: "65' Modern Tank"
  modern_tank_equipment_4_short: "65' Modern Tank"
  modern_tank_equipment_4_desc: ""
@@ -532,15 +481,11 @@
  para_tank_equipment_4: "90' Para Tank"
  super_heavy_tank_chassis_2: "Advanced Super Heavy Tank Chassis"
  super_heavy_tank_equipment_2: "P.1000 Ratte"
- # FLTE code replace amphibious_tank_equipment_2
  amphibious_tank_equipment_3: "65' Amphibious Tank"
  amphibious_tank_equipment_4: "75' Amphibious Tank"
  amphibious_tank_equipment_5: "85' Amphibious Tank"
  SWE_amphibious_tank_equipment_4_short: "Ikv 91"
  SWE_amphibious_tank_equipment_5_short: "Ikv 91-105"
- # FLTE code replace modern_tank_destroyer_equipment_1
- # FLTE code replace modern_tank_destroyer_equipment_1_short
- # FLTE code replace modern_tank_destroyer_equipment_1_desc
  modern_tank_destroyer_equipment_2: "Tank destroyer 1955"
  modern_tank_destroyer_equipment_2_short: "Tank destroyer 1955"
  modern_tank_destroyer_equipment_2_desc: ""
@@ -562,18 +507,15 @@
  modern_tank_destroyer_equipment_8: "Tank Destroyer 1990"
  modern_tank_destroyer_equipment_8_short: "Tank Destroyer 1990"
  modern_tank_destroyer_equipment_8_desc: ""
- # FLTE code replace modern_tank_artillery_equipment_1
- # FLTE code replace modern_tank_artillery_equipment_1_short
- # FLTE code replace modern_tank_artillery_equipment_1_desc
  modern_tank_artillery_equipment_2: "Self Propelled Artillery 1955"
- modern_tank_artillery_equipment_2_short: "SPG 1955" 
+ modern_tank_artillery_equipment_2_short: "SPG 1955"
  modern_tank_artillery_equipment_2_desc: ""
  modern_tank_artillery_equipment_3: "Self Propelled Artillery 1960"
- modern_tank_artillery_equipment_3_short: "SPG 1960" 
+ modern_tank_artillery_equipment_3_short: "SPG 1960"
  modern_tank_artillery_equipment_3_desc: ""
  modern_tank_artillery_equipment_4: "Self Propelled Artillery 1965"
  modern_tank_artillery_equipment_4_short: "SPG 1965"
- modern_tank_artillery_equipment_4_desc: "" 
+ modern_tank_artillery_equipment_4_desc: ""
  modern_tank_artillery_equipment_5: "Self Propelled Artillery 1970"
  modern_tank_artillery_equipment_5_short: "SPG 1970"
  modern_tank_artillery_equipment_5_desc: ""
@@ -586,9 +528,6 @@
  modern_tank_artillery_equipment_8: "Self Propelled Artillery 1990"
  modern_tank_artillery_equipment_8_short: "SPG 1990"
  modern_tank_artillery_equipment_8_desc: ""
- # FLTE code replace modern_tank_aa_equipment_1
- # FLTE code replace modern_tank_aa_equipment_1_short
- # FLTE code replace modern_tank_aa_equipment_1_desc
  modern_tank_aa_equipment_2: "SPAA 1955"
  modern_tank_aa_equipment_2_short: "SPAA 1955"
  modern_tank_aa_equipment_2_desc: ""
@@ -613,9 +552,6 @@
  medium_tank_artillery_equipment_4: "Late Medium SPG"
  medium_tank_artillery_equipment_4_short: "Late Medium SPG"
  medium_tank_artillery_equipment_4_desc: ""
-##SOVIET UNION##
- # FLTE code replace SOV_infantry_equipment_3
- # FLTE code replace SOV_infantry_equipment_3_short
  SOV_infantry_equipment_4: "AK-47"
  SOV_infantry_equipment_4_short: "AK-47"
  SOV_infantry_equipment_5: "AKM"
@@ -626,15 +562,6 @@
  SOV_infantry_equipment_7_short: "AKS-74"
  SOV_infantry_equipment_8: "AK-74M"
  SOV_infantry_equipment_8_short: "AK-74M"
-#CZE STUFF
- # FLTE code replace CZE_infantry_equipment_0
- # FLTE code replace CZE_infantry_equipment_0_short
- # FLTE code replace CZE_infantry_equipment_1
- # FLTE code replace CZE_infantry_equipment_1_short
- # FLTE code replace CZE_infantry_equipment_2
- # FLTE code replace CZE_infantry_equipment_2_short
- # FLTE code replace CZE_infantry_equipment_3
- # FLTE code replace CZE_infantry_equipment_3_short
  CZE_infantry_equipment_4: "Samonabíjecí Puška Vzor 52"
  CZE_infantry_equipment_4_short: "Vz.52"
  CZE_infantry_equipment_5: "Samopal Vzor 58"
@@ -645,12 +572,6 @@
  CZE_infantry_equipment_7_short: "ČZ2000S"
  CZE_infantry_equipment_8: "ČZ2000N"
  CZE_infantry_equipment_8_short: "ČZ2000N"
- # FLTE code replace CZE_anti_tank_equipment_1
- # FLTE code replace CZE_anti_tank_equipment_1_short
- # FLTE code replace CZE_anti_tank_equipment_2
- # FLTE code replace CZE_anti_tank_equipment_2_short
- # FLTE code replace CZE_anti_tank_equipment_3
- # FLTE code replace CZE_anti_tank_equipment_3_short
  CZE_anti_tank_equipment_4: "85 mm Vz. 52"
  CZE_anti_tank_equipment_4_short: "85 mm Vz.52"
  CZE_anti_tank_equipment_5: "100 mm Vz. 53"
@@ -661,12 +582,6 @@
  CZE_anti_tank_equipment_7_short: "9K115 Metis"
  CZE_anti_tank_equipment_8: "9K115-2 Metis-M"
  CZE_anti_tank_equipment_8_short: "9K115-2 Metis-M"
- # FLTE code replace CZE_anti_air_equipment_1
- # CZE_anti_air_equipment_1_short: "7.5 cm kanon vz.37"
- # FLTE code replace CZE_anti_air_equipment_2
- # FLTE code replace CZE_anti_air_equipment_2_short
- # FLTE code replace CZE_anti_air_equipment_3
- # FLTE code replace CZE_anti_air_equipment_3_short
  CZE_anti_air_equipment_4: "Vz.53 12.7 mm"
  CZE_anti_air_equipment_4_short: "Vz.53 12.7 mm"
  CZE_anti_air_equipment_5: "Zu-23-2"
@@ -677,32 +592,14 @@
  CZE_anti_air_equipment_7_short: "SA-5(S-200)"
  CZE_anti_air_equipment_8: "SA-10 Grumble(S-300)"
  CZE_anti_air_equipment_8_short: "SA-10 Grumble(S-300)"
- # FLTE code replace CZE_artillery_equipment_1
- # FLTE code replace CZE_artillery_equipment_1_short
- # FLTE code replace CZE_artillery_equipment_2
- # FLTE code replace CZE_artillery_equipment_2
- # FLTE code replace CZE_artillery_equipment_3
- # FLTE code replace CZE_artillery_equipment_3
  CZE_artillery_equipment_4: "M1955 (D-20)"
- CZE_artillery_equipment_4_desc: "M1955 (D-20)"
  CZE_artillery_equipment_5: "M1958 (D-25)"
- CZE_artillery_equipment_5_desc: "M1958 (D-25)"
  CZE_artillery_equipment_6: "2A18 (D-30)"
- CZE_artillery_equipment_6_desc: "2A18 (D-30)"
  CZE_artillery_equipment_7: "2A18M (D-30M)"
- CZE_artillery_equipment_7_desc: "2A18M (D-30M)"
  CZE_artillery_equipment_8: "2A18M2 (D-30M2)"
- CZE_artillery_equipment_8_desc: "2A18M2 (D-30M2)"
- # FLTE code replace CZE_motorized_equipment_1
  CZE_motorized_equipment_2: "Praga V3S"
  CZE_motorized_equipment_3: "Tatra 813"
  CZE_motorized_equipment_4: "Tatra 815"
- # FLTE code replace CZE_mechanized_equipment_1
- # FLTE code replace CZE_mechanized_equipment_1_short
- # FLTE code replace CZE_mechanized_equipment_2
- # FLTE code replace CZE_mechanized_equipment_2_short
- # FLTE code replace CZE_mechanized_equipment_3
- # FLTE code replace CZE_mechanized_equipment_3_short
  CZE_mechanized_equipment_4: "Tatra OT-810"
  CZE_mechanized_equipment_4_short: "OT-810"
  CZE_mechanized_equipment_5: "OT-62 TOPAS-2AP"
@@ -727,26 +624,12 @@
  CZE_amphibious_mechanized_equipment_6_short: "BVP-2"
  CZE_amphibious_mechanized_equipment_7: "Pandur IB"
  CZE_amphibious_mechanized_equipment_7_short: "Pandur IB"
- # FLTE code replace CZE_gw_armored_car_equipment
- # FLTE code replace CZE_gw_armored_car_equipment_short
- # FLTE code replace CZE_armored_car_equipment_1
- # FLTE code replace CZE_armored_car_equipment_1_short
- # FLTE code replace CZE_armored_car_equipment_2
- # FLTE code replace CZE_armored_car_equipment_2_short
  CZE_armored_car_equipment_3: "Obrněný automobil 82 Jarmila II"
  CZE_armored_car_equipment_3_short: "OA-82 Jarmila II"
  CZE_armored_car_equipment_4: "BRDM-2"
  CZE_armored_car_equipment_4_short: "BRDM-2"
  CZE_armored_car_equipment_5: "BRDM-2M"
  CZE_armored_car_equipment_5_short: "BRDM-2M"
-# GRE
- # FLTE code replace GRE_infantry_equipment_2
- # FLTE code replace GRE_infantry_equipment_2_short
-# END
- # FLTE code replace BRA_infantry_equipment_0
- # FLTE code replace BRA_infantry_equipment_0_short
- # FLTE code replace BRA_infantry_equipment_3
- # FLTE code replace BRA_infantry_equipment_3_short
  BRA_infantry_equipment_4: "Fabrique Nationale Model 1949"
  BRA_infantry_equipment_4_short: "FN-49"
  BRA_infantry_equipment_5: "M964 PARA FAL"
@@ -791,12 +674,6 @@
  TUR_infantry_equipment_5_short: "G3A7"
  TUR_infantry_equipment_6: "HK33E"
  TUR_infantry_equipment_6_short: "HK33E"
- # SWE_infantry_equipment_5: "HK G3"
- # SWE_infantry_equipment_5_short: "HK G3"
- # SWE_infantry_equipment_7: "FN FNC"
- # SWE_infantry_equipment_7_short: "FN FNC"
- # SWE_infantry_equipment_8: "Saab Bofors AK-5"
- # SWE_infantry_equipment_8_short: "AK-5"
  infantry_aa1: "FIM-43 Redeye"
  infantry_aa2: "FIM-92A Stinger"
  infantry_aa3: "FIM-92E Stinger"
@@ -813,8 +690,6 @@
  YUG_infantry_at4: "RPG-7"
  YUG_infantry_at5: "M70 Osa"
  YUG_infantry_at6: "M80 Zolja"
- # FLTE code replace CZE_infantry_at
- # FLTE code replace CZE_infantry_at2
  CZE_infantry_at3: "RPG-2"
  CZE_infantry_at4: "RPG-7"
  CZE_infantry_at5: "RPG-7V"
@@ -840,10 +715,6 @@
  SOV_motorized_rocket_equipment_4_short: "BM-30 Smerch"
  BRA_motorized_rocket_equipment_4: "Avibras ASTROS II"
  BRA_motorized_rocket_equipment_4_short: "Astros II MLRS"
- # FLTE code replace SOV_mechanized_equipment_1
- # FLTE code replace SOV_mechanized_equipment_1_short
- # FLTE code replace SOV_mechanized_equipment_2
- # FLTE code replace SOV_mechanized_equipment_2_short
  SOV_mechanized_equipment_4: "BTR-40B"
  SOV_mechanized_equipment_4_short: "BTR-40B"
  SOV_mechanized_equipment_5: "BTR-60PB"
@@ -962,16 +833,6 @@
  SOV_amphibious_mechanized_equipment_6_short: "BTR-80"
  SOV_amphibious_mechanized_equipment_7: "BTR-90"
  SOV_amphibious_mechanized_equipment_7_short: "BTR-90"
- # FRA_amphibious_mechanized_equipment_3: "AMX-VTP"
- # FRA_amphibious_mechanized_equipment_3_short: "AMX-VTP"
- # FRA_amphibious_mechanized_equipment_4: "AMX-VTT"
- # FRA_amphibious_mechanized_equipment_4_short: "AMX-VTT"
- # FRA_amphibious_mechanized_equipment_5: "AMX-VTT 20mm"
- # FRA_amphibious_mechanized_equipment_5_short: "AMX-VTT 20mm"
- # FRA_amphibious_mechanized_equipment_6: "VAB 20mm/HOT 4x4"
- # FRA_amphibious_mechanized_equipment_6_short: "VAB 20mm/HOT 4x4"
- # FRA_amphibious_mechanized_equipment_7: "VAB 20mm/HOT II 6x6"
- # FRA_amphibious_mechanized_equipment_7_short: "VAB 20mm/HOT II 6x6"
  SOV_light_tank_equipment_4: "PT-76A"
  SOV_light_tank_equipment_4_short: "PT-76A"
  SOV_light_tank_equipment_5: "PT-76B"
@@ -982,34 +843,12 @@
  SOV_light_tank_equipment_7_short: "T-62M"
  SOV_light_tank_equipment_8: "T-62M2"
  SOV_light_tank_equipment_8_short: "T-62M2"
- # FLTE code replace SOV_light_tank_artillery_equipment_1
- # FLTE code replace SOV_light_tank_artillery_equipment_1_short
- # FLTE code replace SOV_light_tank_artillery_equipment_2
- # FLTE code replace SOV_light_tank_artillery_equipment_2_short
- # FLTE code replace SOV_light_tank_destroyer_equipment_1
- # FLTE code replace SOV_light_tank_destroyer_equipment_1_short
- # FLTE code replace SOV_light_tank_destroyer_equipment_2
- # FLTE code replace SOV_light_tank_destroyer_equipment_2_short
- # FLTE code replace SOV_amphibious_tank_equipment_1
- # FLTE code replace SOV_amphibious_tank_equipment_2
  SOV_amphibious_tank_equipment_3: "PT-76N"
  SOV_amphibious_tank_equipment_4: "PT-76N2"
  SOV_amphibious_tank_equipment_5: "PT-78"
  SOV_amphibious_tank_equipment_6: "PT-78M"
- # FLTE code replace SOV_medium_tank_equipment_1
- # FLTE code replace SOV_medium_tank_equipment_1_short
- # FLTE code replace SOV_medium_tank_equipment_2
- # FLTE code replace SOV_medium_tank_equipment_2_short
- # FLTE code replace SOV_medium_tank_equipment_3
- # FLTE code replace SOV_medium_tank_equipment_3_short
  SOV_medium_tank_equipment_4: "T-44"
  SOV_medium_tank_equipment_4_short: "T-44"
- # FLTE code replace SOV_medium_tank_artillery_equipment_1
- # FLTE code replace SOV_medium_tank_artillery_equipment_1_short
- # FLTE code replace SOV_medium_tank_artillery_equipment_2
- # FLTE code replace SOV_medium_tank_artillery_equipment_2_short
- # FLTE code replace SOV_medium_tank_artillery_equipment_3
- # FLTE code replace SOV_medium_tank_artillery_equipment_3_short
  SOV_modern_tank_artillery_equipment_2: "2S1 Gvodizka"
  SOV_modern_tank_artillery_equipment_2_short: "2S1 Gvodizka"
  SOV_modern_tank_artillery_equipment_3: "2S4 Tyulpan"
@@ -1022,8 +861,6 @@
  SOV_modern_tank_artillery_equipment_6_short: "2S5 Giatsint-S"
  SOV_modern_tank_artillery_equipment_7: "2S19 Msta"
  SOV_modern_tank_artillery_equipment_7_short: "2S19 Msta"
- # FLTE code replace SOV_modern_tank_destroyer_equipment_1
- # FLTE code replace SOV_modern_tank_destroyer_equipment_1_short
  SOV_modern_tank_destroyer_equipment_2: "BRDM-1U 2P32"
  SOV_modern_tank_destroyer_equipment_2_short: "BRDM-1U 2P32"
  SOV_modern_tank_destroyer_equipment_3: "ASU-85"
@@ -1042,18 +879,10 @@
  SOV_modern_tank_aa_equipment_6_short: "9K330 Tor"
  SOV_modern_tank_aa_equipment_7: "2K22 Tunguska"
  SOV_modern_tank_aa_equipment_7_short: "2K22 Tunguska"
- # FLTE code replace SOV_heavy_tank_equipment_3
- # FLTE code replace SOV_heavy_tank_equipment_3_short
  SOV_heavy_tank_equipment_4: "IS-3"
  SOV_heavy_tank_equipment_4_short: "IS-3"
  SOV_heavy_tank_equipment_5: "IS-4"
  SOV_heavy_tank_equipment_5_short: "IS-4"
- # FLTE code replace SOV_heavy_tank_artillery_equipment_1
- # FLTE code replace SOV_heavy_tank_artillery_equipment_1_short
- # FLTE code replace SOV_anti_tank_equipment_1
- # FLTE code replace SOV_anti_tank_equipment_1_short
- # FLTE code replace SOV_anti_tank_equipment_2
- # FLTE code replace SOV_anti_tank_equipment_3
  SOV_anti_tank_equipment_4: "10cm T-12"
  SOV_anti_tank_equipment_5: "9M14 Malyutka"
  SOV_anti_tank_equipment_6: "9K111 Fagot"
@@ -1064,18 +893,11 @@
  SOV_anti_air_equipment_6: "S-75 Dvina"
  SOV_anti_air_equipment_7: "SA-5(S-200)"
  SOV_anti_air_equipment_8: "SA-10 Grumble(S-300)"
- # FLTE code replace SOV_artillery_equipment_1
- # FLTE code replace SOV_artillery_equipment_1_short
- # FLTE code replace SOV_artillery_equipment_2
- # FLTE code replace SOV_artillery_equipment_3
  SOV_artillery_equipment_4: "M 1955 (D-20)"
  SOV_artillery_equipment_5: "M1958 (D-25)"
  SOV_artillery_equipment_6: "2A18 (D-30)"
  SOV_artillery_equipment_7: "2A18M (D-30M)"
  SOV_artillery_equipment_8: "2A18M2 (D-30M2)"
- # FLTE code replace SOV_rocket_artillery_equipment_2
- # FLTE code replace SOV_rocket_artillery_equipment_2_short
-##UNITED STATES##
  USA_infantry_equipment_4: "M14 rifle"
  USA_infantry_equipment_4_short: "M14 rifle"
  USA_infantry_equipment_5: "M16 rifle"
@@ -1096,7 +918,6 @@
  ITA_motorized_equipment_3: "Fiat 6605"
  ITA_motorized_equipment_4: "Iveco 320 PTM45 6X6"
  USA_motorized_rocket_equipment_2: "Rocket Artillery 1950"
- USA_motorized_rocket_equipment_2_short: "Rocket Artillery 1950"
  USA_motorized_rocket_equipment_3: "Rocket Artillery 1960"
  USA_motorized_rocket_equipment_3_short: "Rocket Artillery 1960"
  USA_motorized_rocket_equipment_4: "M270"
@@ -1131,7 +952,6 @@
  USA_heavy_mechanized_equipment_4_short: "M2"
  USA_heavy_mechanized_equipment_5: "M2A2 Bradley"
  USA_heavy_mechanized_equipment_5_short: "M2A2"
- # FLTE code replace USA_amphibious_tank_equipment_1
  USA_amphibious_mechanized_equipment_3: "LVTP-5"
  USA_amphibious_mechanized_equipment_3_short: "LVTP-5"
  USA_amphibious_mechanized_equipment_4: "LVTP-5B"
@@ -1181,8 +1001,7 @@
  SWE_light_tank_equipment_7: "Bmp-1"
  SWE_light_tank_equipment_7_short: "Bmp-1"
  SWE_light_tank_equipment_9_short: "CV90"
- SWE_light_tank_equipment_9: "Combat Vehicule 90" 
- # FLTE code replace SWE_modern_tank_equipment_1_short
+ SWE_light_tank_equipment_9: "Combat Vehicule 90"
  SWE_modern_tank_equipment_2_short: "Strv 104"
  SWE_modern_tank_equipment_3_short: "Strv 74"
  SWE_modern_tank_equipment_4_short: "Strv 1030"
@@ -1192,7 +1011,6 @@
  FRA_heavy_tank_equipment_5_short: "ARL-44"
  FRA_wheeled_tank_equipment_2_short: "AMX-10RC"
  FRA_wheeled_tank_equipment_3_short: "Vextra"
- # FLTE code replace FRA_modern_tank_equipment_1_short
  FRA_modern_tank_equipment_2_short: "Lorraine 40t"
  FRA_modern_tank_equipment_3_short: "AMX M4"
  FRA_modern_tank_equipment_4_short: "AMX-30B"
@@ -1202,7 +1020,7 @@
  FRA_modern_tank_equipment_8_short: "AMX-30B2 BRENUS"
  FRA_modern_tank_equipment_9_short: "Leclerc S1"
  BRA_medium_tank_equipment_1: "M3 Lee"
- BRA_medium_tank_equipment_1_short: "M3 Lee" 
+ BRA_medium_tank_equipment_1_short: "M3 Lee"
  BRA_medium_tank_equipment_2: "M4 Sherman"
  BRA_medium_tank_equipment_2_short: "Sherman"
  BRA_medium_tank_equipment_3: "M26 Pershing"
@@ -1234,7 +1052,6 @@
  BRA_light_tank_equipment_8_short: "X1A1 Carcara"
  BRA_light_tank_equipment_9: "X1A2 Carcara"
  BRA_light_tank_equipment_9_short: "X1A2 Carcara"
- # FLTE code replace ENG_modern_tank_equipment_1_short
  ENG_modern_tank_equipment_2_short: "Centurion Mk.8"
  ENG_modern_tank_equipment_3_short: "Centurion Mk.10"
  ENG_modern_tank_equipment_4_short: "Chieftain Mk.1"
@@ -1243,7 +1060,6 @@
  ENG_modern_tank_equipment_7_short: "Chieftain Mk.10"
  ENG_modern_tank_equipment_8_short: "Challenger 1"
  ENG_modern_tank_equipment_9_short: "Challenger 2"
- # FLTE code replace JAP_modern_tank_equipment_1_short
  JAP_modern_tank_equipment_2_short: "ST-A1"
  JAP_modern_tank_equipment_3_short: "ST-A3"
  JAP_modern_tank_equipment_4_short: "Type 61"
@@ -1252,7 +1068,6 @@
  JAP_modern_tank_equipment_7_short: "Type 74 mod B"
  JAP_modern_tank_equipment_8_short: "Type 74 mod G"
  JAP_modern_tank_equipment_9_short: "Type 90(A)"
- # FLTE code replace YUG_modern_tank_equipment_1_short
  YUG_modern_tank_equipment_2_short: "T-55"
  YUG_modern_tank_equipment_4_short: "T-55AI"
  YUG_modern_tank_equipment_5_short: "T-72"
@@ -1264,7 +1079,6 @@
  YUG_light_tank_equipment_5_short: "AMX-13"
  YUG_light_tank_equipment_6: "PT-76B"
  YUG_light_tank_equipment_6_short: "PT-76B"
- # FLTE code replace ITA_modern_tank_equipment_1_short
  ITA_modern_tank_equipment_2_short: "M48A2C"
  ITA_modern_tank_equipment_3_short: "Carro Armato M60A1"
  ITA_modern_tank_equipment_4_short: "Leopard 1A2"
@@ -1279,7 +1093,6 @@
  ITA_light_tank_equipment_9_short: "C13/90"
  ITA_wheeled_tank_equipment_2_short: "B1 Centuro"
  ITA_wheeled_tank_equipment_3_short: "B1 Centuro 120 mm"
- # FLTE code replace TUR_modern_tank_equipment_1_short
  TUR_modern_tank_equipment_2_short: "M48 Patton"
  TUR_modern_tank_equipment_3_short: "M60 Patton"
  TUR_modern_tank_equipment_4_short: "Leopard 1A3"
@@ -1300,7 +1113,6 @@
  SOV_modern_tank_equipment_7_short: "T-80B"
  SOV_modern_tank_equipment_8_short: "T-80U"
  SOV_modern_tank_equipment_9_short: "T-90"
- # FLTE code replace USA_modern_tank_equipment_1_short
  USA_modern_tank_equipment_2_short: "T95E1"
  USA_modern_tank_equipment_3_short: "M60 Patton"
  USA_modern_tank_equipment_4_short: "M60A1 Patton"
@@ -1309,32 +1121,14 @@
  USA_modern_tank_equipment_7_short: "M1 Abrams"
  USA_modern_tank_equipment_8_short: "M1A1 Abrams"
  USA_modern_tank_equipment_9_short: "M1A2 Abrams"
-
- # FLTE code replace USA_light_tank_destroyer_equipment_2
- # FLTE code replace USA_light_tank_destroyer_equipment_2_short
- # FLTE code replace USA_light_tank_aa_equipment_2
- # FLTE code replace USA_light_tank_aa_equipment_2_short
- # FLTE code replace USA_light_tank_aa_equipment_3_short
- # FLTE code replace USA_medium_tank_equipment_3
- # FLTE code replace USA_medium_tank_equipment_3_short
  USA_medium_tank_equipment_4: "M47 Patton"
  USA_medium_tank_equipment_4_short: "M47 Patton"
- # FLTE code replace USA_medium_tank_destroyer_equipment_2
- # FLTE code replace USA_medium_tank_destroyer_equipment_2_short
- # FLTE code replace USA_medium_tank_destroyer_equipment_3
- # FLTE code replace USA_medium_tank_destroyer_equipment_3_short
- # FLTE code replace USA_heavy_tank_equipment_2
- # FLTE code replace USA_heavy_tank_equipment_2_short
- # FLTE code replace USA_heavy_tank_equipment_3
- # FLTE code replace USA_heavy_tank_equipment_3_short
  USA_heavy_tank_equipment_4: "M26 Pershing"
  USA_heavy_tank_equipment_4_short: "M26 Pershing"
  USA_heavy_tank_equipment_5: "M46 Patton"
  USA_heavy_tank_equipment_5_short: "M46 Patton"
  USA_heavy_tank_equipment_6: "M103"
  USA_heavy_tank_equipment_6_short: "M103"
- # FLTE code replace SWE_heavy_tank_equipment_3
- # FLTE code replace SWE_heavy_tank_equipment_3_short
  USA_modern_tank_destroyer_equipment_1: "M36 tank destroyer"
  USA_modern_tank_destroyer_equipment_1_short: "M36"
  USA_modern_tank_destroyer_equipment_2: "T58"
@@ -1346,9 +1140,9 @@
  USA_modern_tank_artillery_equipment_1: "M44"
  USA_modern_tank_artillery_equipment_1_short: "M44"
  USA_modern_tank_artillery_equipment_2: "M50"
- USA_modern_tank_artillery_equipment_2_short: "M50" 
+ USA_modern_tank_artillery_equipment_2_short: "M50"
  USA_modern_tank_artillery_equipment_3: "M108"
- USA_modern_tank_artillery_equipment_3_short: "M108" 
+ USA_modern_tank_artillery_equipment_3_short: "M108"
  USA_modern_tank_artillery_equipment_4: "M109"
  USA_modern_tank_artillery_equipment_4_short: "M109"
  USA_modern_tank_artillery_equipment_5: "M109A1"
@@ -1356,8 +1150,7 @@
  USA_modern_tank_artillery_equipment_6: "M109A2"
  USA_modern_tank_artillery_equipment_6_short: "M109A2"
  USA_modern_tank_artillery_equipment_7: "M109A5"
- USA_modern_tank_artillery_equipment_7_short: "M109A5" 
- # FLTE code replace USA_modern_tank_aa_equipment_1_short
+ USA_modern_tank_artillery_equipment_7_short: "M109A5"
  USA_modern_tank_aa_equipment_2: "T249 Vigilante"
  USA_modern_tank_aa_equipment_2_short: "T249"
  USA_modern_tank_aa_equipment_4: "M163"
@@ -1373,27 +1166,14 @@
  USA_anti_tank_equipment_6: "BGM-71 TOW"
  USA_anti_tank_equipment_7: "M47 Dragon"
  USA_anti_tank_equipment_8: "FGM-148 Javelin"
- # FLTE code replace USA_anti_air_equipment_2
- # FLTE code replace USA_anti_air_equipment_3
  USA_anti_air_equipment_4: "M51 Skysweeper"
  USA_anti_air_equipment_5: "M51A2"
  USA_anti_air_equipment_6: "MIM-23 Hawk"
  USA_anti_air_equipment_7: "MIM-23D"
  USA_anti_air_equipment_8: "MIM-104 Patriot"
- # FLTE code replace USA_artillery_equipment_1
- # FLTE code replace USA_artillery_equipment_2
- # FLTE code replace USA_artillery_equipment_3
  USA_artillery_equipment_4: "155 mm M114A1"
- # USA_artillery_equipment_5: "155 mm M114A2"
  USA_artillery_equipment_6: "155 mm M114A3"
- # USA_artillery_equipment_7: "M198 howitzer"
- # USA_artillery_equipment_8: "M198A3"
-###GERMANY
- # FLTE code replace GER_infantry_equipment_2
- # FLTE code replace GER_infantry_equipment_2_short
  GER_infantry_equipment_2_desc: "Designed in 1938 by Heinrich Vollmer with inspiration from its predecessor the MP 38, it was heavily used by infantrymen (particularly platoon and squad leaders), and by paratroopers, on the Eastern and Western Fronts. Its advanced and modern features made it a favorite among soldiers and popular in countries from various parts of the world after the war."
- # FLTE code replace GER_infantry_equipment_3
- # FLTE code replace GER_infantry_equipment_3_short
  GER_infantry_equipment_4: "Gewehr 3A2"
  GER_infantry_equipment_4_short: "G3A2"
  GER_infantry_equipment_5: "Gewehr 3A3"
@@ -1406,27 +1186,13 @@
  GER_infantry_equipment_8_short: "G36"
  GER_motorized_equipment_2: "Opel Blitz II"
  GER_motorized_equipment_3: "Opel Blitz"
- # FLTE code replace GER_mechanized_equipment_1
- # FLTE code replace GER_mechanized_equipment_1_short
- # FLTE code replace GER_mechanized_equipment_2_desc
- # FLTE code replace GER_mechanized_equipment_3
- # FLTE code replace GER_mechanized_equipment_3_short
- # FLTE code replace GER_mechanized_equipment_3_desc
  GER_mechanized_equipment_4: "Schützenpanzer Lang HS.30"
  GER_mechanized_equipment_4_short: "HS.30"
- # ?????
- # GER_mechanized_equipment_5: "Sd.Kfz. 411"
- # GER_mechanized_equipment_5_short: "Sonderkraftfahrzeug 411"
  GER_amphibious_tank_equipment_3: "Tauchpanzer IV"
  GER_amphibious_mechanized_equipment_3: "Land-Wasser-Schlepper III"
  GER_amphibious_mechanized_equipment_3_short: "LWS III"
  GER_amphibious_mechanized_equipment_4: "Land-Wasser-Schlepper IV"
  GER_amphibious_mechanized_equipment_4_short: "LWS IV"
- # FLTE code replace GER_gw_tank_equipment
- # FLTE code replace GER_gw_tank_equipment_short
- # FLTE code replace GER_gw_tank_equipment_desc
- # FLTE code replace GER_light_tank_equipment_2_desc
- # FLTE code replace GER_light_tank_equipment_3_desc
  GER_light_tank_equipment_5: "Kanonenjagdpanzer"
  GER_light_tank_equipment_5_short: "Kanonenjagdpanzer"
  GER_light_tank_equipment_6: "Wiesel AWC"
@@ -1436,41 +1202,27 @@
  GER_light_tank_equipment_7_desc: "Light tanks are small, agile tanks which are able to both scout and fight lightly armored opponents."
  GER_light_tank_equipment_8: "Wiesel 2 AWC"
  GER_light_tank_equipment_8_short: "Wiesel 2 AWC"
- # FLTE code replace GER_light_tank_artillery_equipment_1
- # FLTE code replace GER_light_tank_artillery_equipment_1_short
- # FLTE code replace GER_light_tank_artillery_equipment_3
- # FLTE code replace GER_light_tank_aa_equipment_1_desc
- # FLTE code replace GER_light_tank_aa_equipment_2
- # FLTE code replace GER_light_tank_aa_equipment_2_short
- # FLTE code replace GER_light_tank_aa_equipment_3_desc
- # FLTE code replace GER_medium_tank_equipment_2_desc
  GER_medium_tank_equipment_4: "Panzer VII Löwe"
  GER_medium_tank_equipment_4_short: "Panzer VII"
  GER_medium_tank_equipment_4_desc: "The Panzerkampfwagen VII Löwe (Lion) was a design for a super-heavy tank created by Krupp for the German government during World War II. The project, initially code-named VK 70.01 (K), never left the drawing board, and was dropped in 5–6 March 1942, in favor of Porsche's heavier Panzer VIII Maus."
  GER_heavy_tank_artillery_equipment_1: "Selbstfahrlafette IV A 'Dicker Max'"
  GER_heavy_tank_artillery_equipment_1_short: "Dicker Max"
- # FLTE code replace GER_heavy_tank_artillery_equipment_3
  GER_heavy_tank_artillery_equipment_4: "Geschützwagen E-100"
  GER_heavy_tank_artillery_equipment_4_short: "GW E-100"
  GER_heavy_tank_artillery_equipment_4_desc: "A 210mm artillery gun mounted on a super heavy tank chassis, this sp gun rivals some railway guns in power."
- # FLTE code replace GER_medium_tank_artillery_equipment_1_desc
  GER_medium_tank_artillery_equipment_4: "Brummbär II"
  GER_medium_tank_artillery_equipment_4_short: "Brummbär II"
- # FLTE code replace GER_medium_tank_destroyer_equipment_2_desc
  GER_medium_tank_destroyer_equipment_4: "Jagdpanther II auf E-50"
  GER_medium_tank_destroyer_equipment_4_short: "Jagdpanther II"
  GER_medium_tank_destroyer_equipment_4_desc: ""
- # FLTE code replace GER_medium_tank_aa_equipment_1_desc
  GER_medium_tank_aa_equipment_4: "FlakPz Kugelblitz"
  GER_medium_tank_aa_equipment_4_short: "FlakPz Kugelblitz"
- # FLTE code replace GER_heavy_tank_equipment_1_desc
  GER_heavy_tank_equipment_4: "Panzerkampfwagen VIII Maus"
  GER_heavy_tank_equipment_4_short: "Maus"
  GER_heavy_tank_equipment_4_desc: "Known under the informal name Königstiger but, often semi-literally translated as the King Tiger by Allied soldiers, the design followed the same concept as the Tiger I, but was intended to be even more formidable. The Tiger II combined the thick armor of the Tiger I with the sloped armor used on the Panther medium tank. The tank weighed almost seventy metric tons, was protected by 100 to 180mm of armor to the front and was armed with the long barreled 8.8 cm Kampfwagenkanone 43 L/71 gun."
  GER_heavy_tank_equipment_5: "Panzerkampfwagen E-100"
  GER_heavy_tank_equipment_5_short: "E-100"
  GER_heavy_tank_equipment_5_desc: "The Panzerkampfwagen E-100 (Gerät 383) (TG-01) was a German super-heavy tank design developed towards the end of World War II. It was proposed to be the basis for a heavy artillery system, an anti-aircraft vehicle, and a heavy tank destroyer."
- # FLTE code replace GER_heavy_tank_destroyer_equipment_3_desc
  GER_heavy_tank_destroyer_equipment_4: "SturmGeschütz auf Fahrgestell Maus"
  GER_heavy_tank_destroyer_equipment_4_short: "Jagdmaus"
  GER_heavy_tank_destroyer_equipment_4_desc: "The chassis of a Maus with a 150mm gun in a fixed superstructure."
@@ -1483,9 +1235,6 @@
  GER_heavy_tank_aa_equipment_3: "Flakpanzer V 88mm Flak 'Grille 10'"
  GER_heavy_tank_aa_equipment_3_short: "FlakPz Grille 10"
  GER_heavy_tank_aa_equipment_3_desc: "A powerful anti-air armament mounted on a heavy chassis."
- # FLTE code replace GER_modern_tank_equipment_1
- # FLTE code replace GER_modern_tank_equipment_1_short
- # FLTE code replace GER_modern_tank_equipment_1_desc
  GER_modern_tank_equipment_2: "E-90"
  GER_modern_tank_equipment_2_short: "E-90"
  GER_modern_tank_equipment_3: "Leopard 1"
@@ -1523,8 +1272,6 @@
  GER_modern_tank_destroyer_equipment_3_short: "Ru 251"
  GER_modern_tank_destroyer_equipment_4: "Kanonenjagdpanzer 100"
  GER_modern_tank_destroyer_equipment_4_short: "KnJgPz-100"
- # FLTE code replace GER_modern_tank_aa_equipment_1
- # FLTE code replace GER_modern_tank_aa_equipment_1_short
  GER_modern_tank_aa_equipment_2: "Flakpanzer E-90"
  GER_modern_tank_aa_equipment_2_short: "FlakPz E-90"
  GER_modern_tank_aa_equipment_3: "Flakpanzer leopard"
@@ -1540,9 +1287,9 @@
  GER_utility_helicopter_equipment_1: "Flettner FI 282 V21"
  GER_utility_helicopter_equipment_1_short: "FI 282 V21"
  GER_utility_helicopter_equipment_2: "Focke-Anggelis Fa.223"
- GER_utility_helicopter_equipment_2_short: "Fa.223" 
+ GER_utility_helicopter_equipment_2_short: "Fa.223"
  GER_utility_helicopter_equipment_3: "Focke-Anggelis Fa.225"
- GER_utility_helicopter_equipment_3_short: "Fa.225" 
+ GER_utility_helicopter_equipment_3_short: "Fa.225"
  GER_utility_helicopter_equipment_4: "Focke-Anggelis Fa.245"
  GER_utility_helicopter_equipment_4_short: "Fa.245"
  GER_utility_helicopter_equipment_5: " UH-1D"
@@ -1551,15 +1298,6 @@
  GER_utility_helicopter_equipment_6_short: "CH-53G"
  GER_attack_helicopter_equipment_1: "BO 105"
  GER_attack_helicopter_equipment_1_short: "BO 105"
-##UNITED KINGDOM
- # FLTE code replace ENG_infantry_equipment_0
- # FLTE code replace ENG_infantry_equipment_0_short
- # FLTE code replace ENG_infantry_equipment_1
- # FLTE code replace ENG_infantry_equipment_1_short
- # FLTE code replace ENG_infantry_equipment_2
- # FLTE code replace ENG_infantry_equipment_2_short
- # FLTE code replace ENG_infantry_equipment_3
- # FLTE code replace ENG_infantry_equipment_3_short
  ENG_infantry_equipment_4: "FN FAL"
  ENG_infantry_equipment_4_short: "FN FAL"
  ENG_infantry_equipment_5: "L1A1"
@@ -1592,14 +1330,9 @@
  ENG_heavy_mechanized_equipment_4_desc: ""
  ENG_heavy_mechanized_equipment_4_short: "Warrior"
  ENG_heavy_mechanized_equipment_5: "FV510 Warrior ERA"
- ENG_heavy_mechanized_equipment_5_desc: ""
  ENG_heavy_mechanized_equipment_5_short: "Warrior ERA"
  ENG_medium_tank_equipment_4: "FV 4401 Centurion"
  ENG_medium_tank_equipment_4_short: "Centurion"
- # FLTE code replace ENG_medium_tank_aa_equipment_1
- # FLTE code replace ENG_medium_tank_aa_equipment_1_short
- # FLTE code replace ENG_medium_tank_aa_equipment_2
- # FLTE code replace ENG_medium_tank_aa_equipment_2_short
  ENG_heavy_tank_equipment_4: "Tortoise"
  ENG_heavy_tank_equipment_4_short: "Tortoise"
  ENG_heavy_tank_equipment_5: "FV214 Conqueror"
@@ -1607,9 +1340,9 @@
  ENG_utility_helicopter_equipment_1: "Westland WS-51 Dragonfly"
  ENG_utility_helicopter_equipment_1_short: "WS-51"
  ENG_utility_helicopter_equipment_2: "Westland Whirlwind"
- ENG_utility_helicopter_equipment_2_short: "Westland Whirlwind" 
+ ENG_utility_helicopter_equipment_2_short: "Westland Whirlwind"
  ENG_utility_helicopter_equipment_3: "Westland Wessex"
- ENG_utility_helicopter_equipment_3_short: "Westland Wessex" 
+ ENG_utility_helicopter_equipment_3_short: "Westland Wessex"
  ENG_utility_helicopter_equipment_4: "Westland Sea King"
  ENG_utility_helicopter_equipment_4_short: "Westland Sea King"
  ENG_utility_helicopter_equipment_5: "WAS332 Super Puma"
@@ -1617,20 +1350,19 @@
  ENG_utility_helicopter_equipment_6: "Westland Lynx II"
  ENG_utility_helicopter_equipment_6_short: "Westland Lynx II"
  ENG_attack_helicopter_equipment_1: "Westland Gazelle AH.1"
- ENG_attack_helicopter_equipment_1_short: "Westland Gazelle AH.1"  
+ ENG_attack_helicopter_equipment_1_short: "Westland Gazelle AH.1"
  ENG_attack_helicopter_equipment_2: "Westland Gazelle AH.II"
  ENG_attack_helicopter_equipment_2_short: "Westland Gazelle AH.II"
  ENG_attack_helicopter_equipment_3: "Westland Lynx AH.1"
  ENG_attack_helicopter_equipment_3_short: "Westland Lynx AH.1"
  ENG_attack_helicopter_equipment_4: "AgustaWestland Apache"
  ENG_attack_helicopter_equipment_4_short: "AgustaWestland Apache"
-###PRC
  PRC_utility_helicopter_equipment_1: "Mil Mi-4"
  PRC_utility_helicopter_equipment_1_short: "Mi-4"
  PRC_utility_helicopter_equipment_2: "Mi-6"
- PRC_utility_helicopter_equipment_2_short: "Mi-6" 
+ PRC_utility_helicopter_equipment_2_short: "Mi-6"
  PRC_utility_helicopter_equipment_3: "Mil Mi-8"
- PRC_utility_helicopter_equipment_3_short: "Mi-8" 
+ PRC_utility_helicopter_equipment_3_short: "Mi-8"
  PRC_utility_helicopter_equipment_4: "Changhe Z-8"
  PRC_utility_helicopter_equipment_4_short: "Z-8"
  PRC_utility_helicopter_equipment_5: "Harbin Z-9"
@@ -1646,7 +1378,7 @@
  PRC_attack_helicopter_equipment_3: "Mil Mi-28"
  PRC_attack_helicopter_equipment_3_short: "Mi-28"
  PRC_attack_helicopter_equipment_4: "Kamov Ka-50"
- PRC_attack_helicopter_equipment_4_short: "Ka-50" 
+ PRC_attack_helicopter_equipment_4_short: "Ka-50"
  PRC_infantry_equipment_4: "AK-47"
  PRC_infantry_equipment_4_short: "AK-47"
  PRC_infantry_equipment_5: "NORINCO Type 56"
@@ -1665,7 +1397,6 @@
  PRC_mechanized_equipment_7_short: "WZ551"
  PRC_mechanized_equipment_8: "NORINCO ZSD-89"
  PRC_mechanized_equipment_8_short: "ZSD-89"
-###FRANCE
  FRA_infantry_equipment_4: "MAS-44"
  FRA_infantry_equipment_4_short: "MAS-44"
  FRA_infantry_equipment_5: "MAS-49"
@@ -1676,10 +1407,6 @@
  FRA_infantry_equipment_7_short: "FAMAS F1"
  FRA_infantry_equipment_8: "FAMAS G1"
  FRA_infantry_equipment_8_short: "FAMAS G1"
- # FLTE code replace FRA_mechanized_equipment_1
- # FLTE code replace FRA_mechanized_equipment_1_short
- # FLTE code replace FRA_mechanized_equipment_3
- # FLTE code replace FRA_mechanized_equipment_3_short
  FRA_mechanized_equipment_4: "AMX VTP"
  FRA_mechanized_equipment_4_short: "AMX VTP"
  FRA_mechanized_equipment_5: "AMX-VTT"
@@ -1702,9 +1429,9 @@
  FRA_utility_helicopter_equipment_1: "Sud-Ouest Djinn"
  FRA_utility_helicopter_equipment_1_short: "Sud-Ouest Djinn"
  FRA_utility_helicopter_equipment_2: "Aérospatiale Alouette II"
- FRA_utility_helicopter_equipment_2_short: "Alouette II" 
+ FRA_utility_helicopter_equipment_2_short: "Alouette II"
  FRA_utility_helicopter_equipment_3: "Aérospatiale Alouette III"
- FRA_utility_helicopter_equipment_3_short: "Alouette III" 
+ FRA_utility_helicopter_equipment_3_short: "Alouette III"
  FRA_utility_helicopter_equipment_4: "Aérospatiale SA 330 Puma"
  FRA_utility_helicopter_equipment_4_short: "SA 330 Puma"
  FRA_utility_helicopter_equipment_5: "Aérospatiale AS-332M Super Puma"
@@ -1712,93 +1439,13 @@
  FRA_utility_helicopter_equipment_6: "Eurocopter AS532 Cougar"
  FRA_utility_helicopter_equipment_6_short: "AS532 Cougar"
  FRA_attack_helicopter_equipment_1: "SA 341.1001 Gazelle"
- FRA_attack_helicopter_equipment_1_short: "SA 341.1001" 
+ FRA_attack_helicopter_equipment_1_short: "SA 341.1001"
  FRA_attack_helicopter_equipment_2: "SA 342M1 Gazelle"
- FRA_attack_helicopter_equipment_2_short: "SA 342M1" 
+ FRA_attack_helicopter_equipment_2_short: "SA 342M1"
  FRA_attack_helicopter_equipment_4: "Eurocopter EC665 Tigre"
  FRA_attack_helicopter_equipment_4_short: "Eurocopter Tigre"
-##SPA##
  SPA_gw_armored_car_equipment: "Hispano Suiza MC-36"
  SPA_gw_armored_car_equipment_short: "MC-36"
- # FLTE code replace SOV_armored_car_equipment_1
- # FLTE code replace SOV_armored_car_equipment_1_short
- # FLTE code replace SOV_armored_car_at_equipment
- # FLTE code replace SOV_armored_car_at_equipment_short
- # SOV_armored_car_equipment_3: "BRDM-1"
- # SOV_armored_car_equipment_3_short: "BRDM-1"
- # SOV_armored_car_equipment_4: "BRDM-2"
- # SOV_armored_car_equipment_4_short: "BRDM-2"
- # SOV_armored_car_equipment_5: "BRDM-2M"
- # SOV_armored_car_equipment_5_short: "BRDM-2M"
- # FLTE code replace SPA_light_tank_equipment_2
- # FLTE code replace SPA_light_tank_equipment_2_short
- #tanks
- # FLTE code replace AST_gw_tank_equipment
- # FLTE code replace AST_gw_tank_equipment_short
- # FLTE code replace AST_light_tank_equipment_1
- # FLTE code replace AST_light_tank_equipment_1_short
- # FLTE code replace AST_light_tank_equipment_2
- # FLTE code replace AST_light_tank_equipment_2_short
- # FLTE code replace AST_light_tank_equipment_3
- # FLTE code replace AST_light_tank_equipment_3_short
- # FLTE code replace AST_light_tank_artillery_equipment_1
- # FLTE code replace AST_light_tank_artillery_equipment_1_short
- # FLTE code replace AST_light_tank_artillery_equipment_3
- # FLTE code replace AST_light_tank_artillery_equipment_3_short
- # FLTE code replace AST_light_tank_destroyer_equipment_3
- # FLTE code replace AST_light_tank_destroyer_equipment_3_short
- # FLTE code replace AST_light_tank_destroyer_equipment_1
- # FLTE code replace AST_light_tank_destroyer_equipment_1_short
- # FLTE code replace AST_light_tank_aa_equipment_1
- # FLTE code replace AST_light_tank_aa_equipment_1_short
- # FLTE code replace AST_light_tank_aa_equipment_2
- # FLTE code replace AST_light_tank_aa_equipment_2_short
- # FLTE code replace AST_light_tank_aa_equipment_3
- # FLTE code replace AST_light_tank_aa_equipment_3_short
- # FLTE code replace AST_medium_tank_equipment_1
- # FLTE code replace AST_medium_tank_equipment_1_short
- # FLTE code replace AST_medium_tank_destroyer_equipment_1
- # FLTE code replace AST_medium_tank_destroyer_equipment_1_short
- # FLTE code replace AST_medium_tank_destroyer_equipment_2
- # FLTE code replace AST_medium_tank_destroyer_equipment_2_short
- # FLTE code replace AST_medium_tank_artillery_equipment_1
- # FLTE code replace AST_medium_tank_artillery_equipment_1_short
- # FLTE code replace AST_medium_tank_artillery_equipment_2
- # FLTE code replace AST_medium_tank_artillery_equipment_2_short
- # FLTE code replace AST_medium_tank_artillery_equipment_3
- # FLTE code replace AST_medium_tank_artillery_equipment_3_short
- # FLTE code replace AST_medium_tank_aa_equipment_1
- # FLTE code replace AST_medium_tank_aa_equipment_1_short
- # FLTE code replace AST_medium_tank_aa_equipment_2
- # FLTE code replace AST_medium_tank_aa_equipment_2_short
- # FLTE code replace AST_medium_tank_aa_equipment_3
- # FLTE code replace AST_medium_tank_aa_equipment_3_short
- # FLTE code replace AST_light_tank_destroyer_equipment_2
- # FLTE code replace AST_light_tank_destroyer_equipment_2_short
- # FLTE code replace AST_light_tank_artillery_equipment_2
- # FLTE code replace AST_light_tank_artillery_equipment_2_short
- # FLTE code replace AST_medium_tank_destroyer_equipment_3
- # FLTE code replace AST_medium_tank_destroyer_equipment_3_short
- # FLTE code replace AST_heavy_tank_equipment_1
- # FLTE code replace AST_heavy_tank_equipment_1_short
- # FLTE code replace AST_heavy_tank_equipment_2_short
- # FLTE code replace AST_heavy_tank_equipment_3_short
- # FLTE code replace AST_heavy_tank_artillery_equipment_1
- # FLTE code replace AST_heavy_tank_artillery_equipment_1_short
- # FLTE code replace AST_heavy_tank_artillery_equipment_2
- # FLTE code replace AST_heavy_tank_artillery_equipment_2_short
- # FLTE code replace AST_heavy_tank_artillery_equipment_3
- # FLTE code replace AST_heavy_tank_artillery_equipment_3_short
- # FLTE code replace AST_heavy_tank_destroyer_equipment_2
- # FLTE code replace AST_heavy_tank_destroyer_equipment_2_short
- # FLTE code replace AST_heavy_tank_destroyer_equipment_3
- # FLTE code replace AST_heavy_tank_destroyer_equipment_3_short
- # FLTE code replace AST_heavy_tank_aa_equipment_2
- # FLTE code replace AST_heavy_tank_aa_equipment_3
- # FLTE code replace AST_heavy_tank_aa_equipment_3_short
- # FLTE code replace BEL_light_tank_destroyer_equipment_1
- # FLTE code replace BEL_light_tank_destroyer_equipment_1_short
- # FLTE code replace BEL_light_tank_equipment_2
  modern_tank_equipment_5: "Main Battle Tank 1970"
  modern_tank_equipment_5_short: "MBT 1970"
  modern_tank_equipment_5_desc: ""
@@ -1811,38 +1458,8 @@
  modern_tank_equipment_8: "Main Battle Tank 1990"
  modern_tank_equipment_8_short: "MBT 1990"
  modern_tank_equipment_8_desc: ""
- # FLTE code replace CZE_gw_tank_equipment
- # FLTE code replace CZE_gw_tank_equipment_short
- # FLTE code replace CZE_light_tank_destroyer_equipment_2
- # FLTE code replace CZE_light_tank_destroyer_equipment_2_short
- # FLTE code replace CZE_medium_tank_equipment_1
- # FLTE code replace CZE_medium_tank_equipment_1_short
- # FLTE code replace CZE_medium_tank_destroyer_equipment_1
- # FLTE code replace CZE_medium_tank_equipment_2
- # FLTE code replace CZE_medium_tank_equipment_2_short
- # FLTE code replace CZE_medium_tank_equipment_3
- # FLTE code replace CZE_medium_tank_equipment_3_short
- # FLTE code replace CZE_heavy_tank_equipment_1
- # FLTE code replace CZE_heavy_tank_equipment_1_short
- # FLTE code replace CZE_heavy_tank_equipment_2
- # FLTE code replace CZE_heavy_tank_equipment_2_short
- # FLTE code replace CZE_heavy_tank_equipment_3
- # FLTE code replace CZE_heavy_tank_equipment_3_short
- # FLTE code replace CZE_super_heavy_tank_equipment_1
- # FLTE code replace CZE_super_heavy_tank_equipment_1_short
- # FLTE code replace CZE_modern_tank_equipment_1
- # FLTE code replace CZE_modern_tank_equipment_1_short
  FRA_heavy_tank_destroyer_equipment_2: "ARL 40 V1939"
  FRA_heavy_tank_destroyer_equipment_3: "ARL 44"
- # FLTE code replace FRA_medium_tank_artillery_equipment_1
- # FLTE code replace FRA_medium_tank_artillery_equipment_1_short
- # FLTE code replace HOL_light_tank_equipment_1
- # FLTE code replace HOL_light_tank_equipment_1_short
- # FLTE code replace HOL_light_tank_equipment_2
- # FLTE code replace HOL_light_tank_equipment_2_short
- # FLTE code replace HOL_light_tank_equipment_3
- # FLTE code replace HOL_light_tank_equipment_3_short
- # FLTE code replace HUN_light_tank_equipment_1
  JAP_infantry_equipment_4: "R2 Rifle"
  JAP_infantry_equipment_4_short: "R2"
  JAP_infantry_equipment_5: "Type 64 Howa"
@@ -1861,10 +1478,6 @@
  ITA_infantry_equipment_7_short: "Beretta AR 70/90"
  ITA_infantry_equipment_8: "Beretta SC 70/90"
  ITA_infantry_equipment_8_short: "Beretta SC 70/90"
- # FLTE code replace NOR_light_tank_equipment_1
- # FLTE code replace NOR_light_tank_equipment_1_short
- # FLTE code replace SWE_medium_tank_equipment_3
- # FLTE code replace SWE_medium_tank_equipment_3_short
  FIN_gw_tank_equipment: "Koiras"
  FIN_gw_tank_equipment_short: "Koiras"
  FIN_light_tank_equipment_1: "Vickers Mark E"
@@ -1878,9 +1491,6 @@
  FIN_light_tank_equipment_3_desc: "captured BT-7 modified to carry a Finnish 114 mm (4.49 in) howitzer in a custom-built superstructure. Top heavy and unstable, the BT-42s proved unable to penetrate the thick sloped armor of standard Soviet tanks in 1942."
  FIN_light_tank_equipment_4: "T-50"
  FIN_light_tank_equipment_4_short: "T-50"
- # FLTE code replace gw_tank_equipment_desc
- # FLTE code replace light_tank_equipment_desc
- # FLTE code replace light_tank_equipment_1_desc
  light_tank_equipment_4: "Light Tank 50s"
  light_tank_equipment_4_short: "L. Tank 50s"
  light_tank_equipment_4_desc: "Light tanks are small, agile tanks which are able to both scout and fight lightly armored opponents."
@@ -1896,163 +1506,48 @@
  light_tank_equipment_8: "Light Tank 90s"
  light_tank_equipment_8_short: "L. Tank 90s"
  light_tank_equipment_8_desc: "Light tanks are small, agile tanks which are able to both scout and fight lightly armored opponents."
- # FLTE code replace light_tank_equipment_2_desc
- # FLTE code replace light_tank_equipment_3_desc
- # FLTE code replace light_tank_destroyer_equipment_desc
- # FLTE code replace light_tank_destroyer_equipment_1_desc
- # FLTE code replace light_tank_destroyer_equipment_2_desc
- # FLTE code replace light_tank_destroyer_equipment_3_desc
- # FLTE code replace light_tank_aa_equipment_desc
- # FLTE code replace light_tank_aa_equipment_1_desc
- # FLTE code replace light_tank_aa_equipment_2_desc
- # FLTE code replace light_tank_aa_equipment_3_desc
- # FLTE code replace medium_tank_equipment_desc
- # FLTE code replace medium_tank_equipment_1_desc
- # FLTE code replace medium_tank_equipment_2_desc
- # FLTE code replace SWE_medium_tank_equipment_2_short
- # FLTE code replace medium_tank_equipment_3_desc
- # FLTE code replace medium_tank_destroyer_equipment_desc
- # FLTE code replace medium_tank_destroyer_equipment_1_desc
- # FLTE code replace medium_tank_destroyer_equipment_2_desc
- # FLTE code replace medium_tank_destroyer_equipment_3_desc
  medium_tank_destroyer_equipment_4: "Medium Tank Destroyer IV"
  medium_tank_destroyer_equipment_4_short: "M. TD IV"
  medium_tank_destroyer_equipment_4_desc: "Tank Destroyers are tanks with a larger than normal gun in a fixed mounting in place of a turret. Medium Tank Destroyers are based on the chassis of Medium Tanks, meaning they are fairly mobile and carry respectable firepower."
- # FLTE code replace medium_tank_aa_equipment_desc
- # FLTE code replace medium_tank_aa_equipment_1_desc
- # FLTE code replace medium_tank_aa_equipment_2_desc
- # FLTE code replace medium_tank_aa_equipment_3_desc
  medium_tank_aa_equipment_4: "Medium SP Anti-Air IV"
  medium_tank_aa_equipment_4_short: "M. AA IV"
  medium_tank_aa_equipment_4_desc: "Mobile anti-air artillery mounted on a medium tank chassis."
  heavy_tank_artillery_equipment_4: "Heavy SP Artillery IV"
  heavy_tank_artillery_equipment_4_short: "H. SPG IV"
  heavy_tank_artillery_equipment_4_desc: "A large artillery piece mounted on a heavy chassis, these self-propelled guns carry a lot of firepower."
- # FLTE code replace heavy_tank_destroyer_equipment_desc
- # FLTE code replace heavy_tank_destroyer_equipment_1_desc
- # FLTE code replace heavy_tank_destroyer_equipment_2_desc
- # FLTE code replace heavy_tank_destroyer_equipment_3_desc
  heavy_tank_destroyer_equipment_4: "Heavy Tank Destroyer IV"
  heavy_tank_destroyer_equipment_4_short: "H. TD IV"
  heavy_tank_destroyer_equipment_4_desc: "A heavy tank with the turret removed to carry an even larger gun in a fixed mounting."
- # FLTE code replace heavy_tank_aa_equipment_desc
- # FLTE code replace heavy_tank_aa_equipment_1_desc
- # FLTE code replace heavy_tank_aa_equipment_2_desc
- # FLTE code replace heavy_tank_aa_equipment_3_desc
- # FLTE code replace super_heavy_tank_equipment_desc
- # FLTE code replace super_heavy_tank_equipment_1_desc
- # FLTE code replace super_heavy_tank_artillery_equipment_desc
- # FLTE code replace super_heavy_tank_artillery_equipment_1_desc
- # FLTE code replace super_heavy_tank_destroyer_equipment_desc
- # FLTE code replace super_heavy_tank_destroyer_equipment_1_desc
- # FLTE code replace super_heavy_tank_aa_equipment_desc
- # FLTE code replace super_heavy_tank_aa_equipment_1
- # FLTE code replace super_heavy_tank_aa_equipment_1_desc
- # FLTE code replace modern_tank_equipment_desc
- # FLTE code replace modern_tank_equipment_1_desc
- # FLTE code replace modern_tank_destroyer_equipment_desc
- # FLTE code replace modern_tank_destroyer_equipment_1_desc
- # FLTE code replace modern_tank_aa_equipment
- # FLTE code replace modern_tank_aa_equipment_desc
- # FLTE code replace modern_tank_aa_equipment_1_desc
- # FLTE code replace SWE_motorized_equipment_1
- # FLTE code replace FRA_motorized_equipment_1
- # FLTE code replace JAP_motorized_equipment_1
- # FLTE code replace POL_motorized_equipment_1
- # FLTE code replace mechanized_equipment_desc
- # FLTE code replace mechanized_equipment_1_desc
- # FLTE code replace mechanized_equipment_2_desc
- # FLTE code replace mechanized_equipment_3_desc
- # FLTE code replace SWE_mechanized_equipment_3
- # FLTE code replace SWE_mechanized_equipment_3_short
  JAP_mechanized_equipment_5: "Type 60 Armoured Personnel Carrier"
- JAP_mechanized_equipment_5_short: "Type 60" 
- JAP_mechanized_equipment_6: "Type 73 Armored Personnel Carrier" 
- JAP_mechanized_equipment_6_short: "Type 73" 
- JAP_mechanized_equipment_8: "Komatsu Type 96" 
+ JAP_mechanized_equipment_5_short: "Type 60"
+ JAP_mechanized_equipment_6: "Type 73 Armored Personnel Carrier"
+ JAP_mechanized_equipment_6_short: "Type 73"
+ JAP_mechanized_equipment_8: "Komatsu Type 96"
  JAP_mechanized_equipment_8_short: "Type 96"
  JAP_heavy_mechanized_equipment_4: "Type 89 IFV"
  JAP_heavy_mechanized_equipment_4_short: "Type 89 IFV"
- # FLTE code replace CAN_mechanized_equipment_1
- # FLTE code replace CAN_mechanized_equipment_1_short
- # FLTE code replace AST_mechanized_equipment_3
- # FLTE code replace AST_mechanized_equipment_3_short
- # FLTE code replace ITA_mechanized_equipment_1
- # FLTE code replace ITA_mechanized_equipment_1_short
- # FLTE code replace ITA_mechanized_equipment_2
- # FLTE code replace ITA_mechanized_equipment_2_short
- # FLTE code replace ITA_mechanized_equipment_3
- # FLTE code replace ITA_mechanized_equipment_3_short
- ITA_mechanized_equipment_4: "M113 VTT" 
- ITA_mechanized_equipment_4_short: "M113 VTT" 
- ITA_mechanized_equipment_5: "M113A2 VTT" 
- ITA_mechanized_equipment_5_short: "M113A2 VTT" 
- ITA_mechanized_equipment_6: "Fiat 6614" 
- ITA_mechanized_equipment_6_short: "Fiat 6614" 
- ITA_mechanized_equipment_7: "VCC-2" 
- ITA_mechanized_equipment_7_short: "VCC-2" 
- ITA_mechanized_equipment_8: "Puma TT" 
- ITA_mechanized_equipment_8_short: "Puma TT" 
+ ITA_mechanized_equipment_4: "M113 VTT"
+ ITA_mechanized_equipment_4_short: "M113 VTT"
+ ITA_mechanized_equipment_5: "M113A2 VTT"
+ ITA_mechanized_equipment_5_short: "M113A2 VTT"
+ ITA_mechanized_equipment_6: "Fiat 6614"
+ ITA_mechanized_equipment_6_short: "Fiat 6614"
+ ITA_mechanized_equipment_7: "VCC-2"
+ ITA_mechanized_equipment_7_short: "VCC-2"
+ ITA_mechanized_equipment_8: "Puma TT"
+ ITA_mechanized_equipment_8_short: "Puma TT"
  ITA_heavy_mechanized_equipment_1: "M113 ACAV"
- ITA_heavy_mechanized_equipment_1_short: "M113 ACAV" 
- ITA_heavy_mechanized_equipment_2: "M113A1 ACAV" 
- ITA_heavy_mechanized_equipment_2_short: "M113A1 ACAV" 
- ITA_heavy_mechanized_equipment_3: "VCC-1 Camilino" 
- ITA_heavy_mechanized_equipment_3_short: "VCC-1 Camilino" 
- ITA_heavy_mechanized_equipment_4: "VCC-1 Eaak" 
- ITA_heavy_mechanized_equipment_4_short: "VCC-1 Eaak" 
- ITA_heavy_mechanized_equipment_5: "Dardo IFV" 
- ITA_heavy_mechanized_equipment_5_short: "Dardo IFV" 
- # FLTE code replace anti_air_equipment
- # FLTE code replace anti_air_equipment_short
- # FLTE code replace anti_air_equipment_desc
- # FLTE code replace anti_tank_equipment_desc
-#anti-tank
- # FLTE code replace FRA_anti_tank_equipment_1
- # FLTE code replace FRA_anti_tank_equipment_2
- # FLTE code replace GER_anti_tank_equipment_3
- # FLTE code replace JAP_anti_tank_equipment_1
- # FLTE code replace JAP_anti_tank_equipment_1_short
- # FLTE code replace JAP_anti_tank_equipment_2
- # FLTE code replace JAP_anti_tank_equipment_3
- # FLTE code replace HUN_anti_tank_equipment_1
- # FLTE code replace HUN_anti_tank_equipment_1_short
- # FLTE code replace ITA_anti_tank_equipment_1
- # FLTE code replace ITA_anti_tank_equipment_1_short
- # FLTE code replace ITA_anti_tank_equipment_2
- # FLTE code replace ITA_anti_tank_equipment_3
- # FLTE code replace DEN_anti_tank_equipment_1
- # FLTE code replace DEN_anti_tank_equipment_1_short
- # FLTE code replace NOR_anti_tank_equipment_3
-#anti-air
- # FLTE code replace FRA_anti_air_equipment_1
- # FLTE code replace FRA_anti_air_equipment_2
- # FLTE code replace GER_anti_air_equipment_3
- # FLTE code replace JAP_anti_air_equipment_1
- # FLTE code replace JAP_anti_air_equipment_2
- # FLTE code replace JAP_anti_air_equipment_3
- # FLTE code replace ITA_anti_air_equipment_1
- # FLTE code replace ITA_anti_air_equipment_1_short
- # FLTE code replace ITA_anti_air_equipment_3
- # FLTE code replace SWE_anti_air_equipment_1
+ ITA_heavy_mechanized_equipment_1_short: "M113 ACAV"
+ ITA_heavy_mechanized_equipment_2: "M113A1 ACAV"
+ ITA_heavy_mechanized_equipment_2_short: "M113A1 ACAV"
+ ITA_heavy_mechanized_equipment_3: "VCC-1 Camilino"
+ ITA_heavy_mechanized_equipment_3_short: "VCC-1 Camilino"
+ ITA_heavy_mechanized_equipment_4: "VCC-1 Eaak"
+ ITA_heavy_mechanized_equipment_4_short: "VCC-1 Eaak"
+ ITA_heavy_mechanized_equipment_5: "Dardo IFV"
+ ITA_heavy_mechanized_equipment_5_short: "Dardo IFV"
  SWE_anti_air_equipment_1_short: "20mm m/40"
- # FLTE code replace SWE_anti_air_equipment_2
- # FLTE code replace SWE_anti_air_equipment_3
- # FLTE code replace CZE_anti_air_equipment_1
  CZE_anti_air_equipment_1_short: "ZB vz. 60"
- # FLTE code replace CZE_anti_air_equipment_2
- # FLTE code replace CZE_anti_air_equipment_3
- # FLTE code replace DEN_anti_air_equipment_1
- # FLTE code replace DEN_anti_air_equipment_1_short
- # FLTE code replace ROM_anti_air_equipment_1
- # FLTE code replace ROM_anti_air_equipment_1_short
- # FLTE code replace ROM_anti_air_equipment_2
- # FLTE code replace ROM_anti_air_equipment_3
- # FLTE code replace FIN_anti_air_equipment_1
- # FLTE code replace FIN_anti_air_equipment_1_short
- # FLTE code replace NOR_anti_air_equipment_1
- # FLTE code replace artillery_equipment_desc
- #artillery
  FRA_artillery_equipment_4: "Obusier de 155 mm Modèle 50"
  FRA_artillery_equipment_8: "TRF1"
  ENG_artillery_equipment_6: "L118"
@@ -2064,73 +1559,12 @@
  ITA_artillery_equipment_7: "FH70"
  JAP_artillery_equipment_7: "FH70"
  GER_artillery_equipment_7: "FH70"
- # FLTE code replace GER_artillery_equipment_1
- # FLTE code replace GER_artillery_equipment_1_short
- # FLTE code replace GER_artillery_equipment_2
- # FLTE code replace GER_artillery_equipment_3
- # FLTE code replace ITA_artillery_equipment_2
- # FLTE code replace ITA_artillery_equipment_2_short
- # FLTE code replace JAP_artillery_equipment_1
- # FLTE code replace JAP_artillery_equipment_1_short
- # FLTE code replace JAP_artillery_equipment_2
- # FLTE code replace JAP_artillery_equipment_3
- # FLTE code replace NOR_artillery_equipment_1
- # FLTE code replace NOR_artillery_equipment_1_short
- # FLTE code replace NOR_artillery_equipment_2
- # FLTE code replace NOR_artillery_equipment_3
- # FLTE code replace POL_artillery_equipment_1
- # FLTE code replace POL_artillery_equipment_1_short
- # FLTE code replace POL_artillery_equipment_2
- # FLTE code replace POL_artillery_equipment_3
- # FLTE code replace SWE_artillery_equipment_1
- # FLTE code replace SWE_artillery_equipment_1_short
- # FLTE code replace SWE_artillery_equipment_2
- # FLTE code replace SWE_artillery_equipment_3
- # FLTE code replace AUS_artillery_equipment_2
- # FLTE code replace AUS_artillery_equipment_2_short
- # FLTE code replace BEL_artillery_equipment_1
- # FLTE code replace BEL_artillery_equipment_2
- # FLTE code replace ROM_artillery_equipment_1
- # FLTE code replace ROM_artillery_equipment_1_short
- # FLTE code replace ROM_artillery_equipment_2
- # FLTE code replace ROM_artillery_equipment_2_short
- # FLTE code replace ROM_artillery_equipment_3
- # FLTE code replace ROM_artillery_equipment_3_short
- # FLTE code replace HUN_artillery_equipment_2
- # FLTE code replace HUN_artillery_equipment_2_short
- # FLTE code replace HUN_artillery_equipment_3
- # FLTE code replace HUN_artillery_equipment_3_short
  YUG_artillery_equipment_1: "Schneider Canon 105 mle 1913"
  YUG_artillery_equipment_1_short: "105 mle 1913"
  YUG_artillery_equipment_2: "Skoda 10cm Gun vz35"
  YUG_artillery_equipment_2_short: "10cm Gun vz35"
  YUG_artillery_equipment_3: "Skoda 15cm Howitzer vz34K1"
  YUG_artillery_equipment_3_short: "15cm Howitzer vz34K1"
- # FLTE code replace rocket_artillery_equipment_desc
- # FLTE code replace JAP_rocket_artillery_equipment_2
- # small arms
- # FLTE code replace ITA_infantry_equipment_2
- # FLTE code replace ITA_infantry_equipment_2_short
- # FLTE code replace ITA_infantry_equipment_3
- # FLTE code replace ITA_infantry_equipment_3_short
- # FLTE code replace JAP_infantry_equipment_0
- # FLTE code replace JAP_infantry_equipment_1
- # FLTE code replace JAP_infantry_equipment_2
- # FLTE code replace JAP_infantry_equipment_3
- # FLTE code replace JAP_infantry_equipment_3_short
- # FLTE code replace POL_infantry_equipment_3
- # FLTE code replace POL_infantry_equipment_3_short
- # FLTE code replace POL_support_weapons
- # FLTE code replace POL_support_weapons3
- # FLTE code replace POL_support_weapons4
- # FLTE code replace SWE_infantry_equipment_0
- # FLTE code replace SWE_infantry_equipment_0_short
- # FLTE code replace SWE_infantry_equipment_1
- # FLTE code replace SWE_infantry_equipment_1_short
- # FLTE code replace SWE_infantry_equipment_2
- # FLTE code replace SWE_infantry_equipment_2_short
- # FLTE code replace SWE_infantry_equipment_3
- # FLTE code replace SWE_infantry_equipment_3_short
  SWE_infantry_equipment_4: "Kpist m/45"
  SWE_infantry_equipment_4_short: "Kpist m/45"
  SWE_infantry_equipment_5: "Saab Bofors AK-4"
@@ -2141,14 +1575,6 @@
  SWE_infantry_equipment_7_short: "AK-5"
  SWE_infantry_equipment_8: "Saab Bofors AK-5B"
  SWE_infantry_equipment_8_short: "AK-5B"
- # FLTE code replace FIN_infantry_equipment_0
- # FLTE code replace FIN_infantry_equipment_0_short
- # FLTE code replace FIN_infantry_equipment_1
- # FLTE code replace FIN_infantry_equipment_1_short
- # FLTE code replace FIN_infantry_equipment_2
- # FLTE code replace FIN_infantry_equipment_2_short
- # FLTE code replace FIN_infantry_equipment_3
- # FLTE code replace FIN_infantry_equipment_3_short
  FIN_infantry_equipment_4: "RK-54"
  FIN_infantry_equipment_4_short: "RK-54"
  FIN_infantry_equipment_5: "RK-62"
@@ -2160,14 +1586,6 @@
  FIN_motorized_equipment_2: "ZIL-157"
  FIN_motorized_equipment_3: "Sisu A-45"
  FIN_motorized_equipment_4: "KrAZ-255B"
- # FLTE code replace SWI_infantry_equipment_0
- # FLTE code replace SWI_infantry_equipment_0_short
- # FLTE code replace SWI_infantry_equipment_1
- # FLTE code replace SWI_infantry_equipment_1_short
- # FLTE code replace SWI_infantry_equipment_2
- # FLTE code replace SWI_infantry_equipment_2_short
- # FLTE code replace SWI_infantry_equipment_3
- # FLTE code replace SWI_infantry_equipment_3_short
  SWI_infantry_equipment_4: "SIG Sauer 510"
  SWI_infantry_equipment_4_short: "SIG 510"
  SWI_infantry_equipment_5: "SIG Sauer 530"
@@ -2178,52 +1596,21 @@
  SWI_infantry_equipment_7_short: "SIG 550"
  SWI_infantry_equipment_8: "SIG Sauer 543"
  SWI_infantry_equipment_8_short: "SIG 543"
- # FLTE code replace BEL_infantry_equipment_0
- # FLTE code replace BEL_infantry_equipment_0_short
- # FLTE code replace BEL_infantry_equipment_2
- # FLTE code replace BEL_infantry_equipment_2_short
- # FLTE code replace BEL_infantry_equipment_3
- # FLTE code replace BEL_infantry_equipment_3_short
  BEL_infantry_equipment_4: "FN FAL"
  BEL_infantry_equipment_4_short: "FN FAL"
  BEL_infantry_equipment_7: "FN FNC"
  BEL_infantry_equipment_7_short: "FN FNC"
- # FLTE code replace BUL_infantry_equipment_1
- # FLTE code replace BUL_infantry_equipment_1_short
- # FLTE code replace tank_reliability_upgrade_desc
- # FLTE code replace REQUESTED_MANPOWER_DETAILS
- # FLTE code replace NOT_ENOUGH_MANPOWER_TO_REINFORCE
- # FLTE code replace MANPOWER_REINFORCEMENT_NOT_POSSIBLE
- # FLTE code replace nuclear_missile_equipment_1
- # FLTE code replace nuclear_missile_equipment_2
- # FLTE code replace EQUIPMENT_MODULE_NOT_ALLOWED
-##AC##
- # FLTE code replace train_equipment_2_desc
  train_equipment_4: "50's Train"
  train_equipment_5: "60's Train"
  train_equipment_6: "70's Train"
  train_equipment_7: "80's Train"
  train_equipment_8: "90's Train"
- # FLTE code replace GER_railway_gun_equipment_1
- ###Flamey bois - just the defaults here
- ###Amphib - Defaults
- ##### Mobile Infantry & Special Forces #####
- ##### Weapons & Equipment #####
- # FLTE code replace LAT_infantry_equipment_0
- # FLTE code replace LAT_infantry_equipment_0_short
- ##### Air Equipment #####
- ##### Train Equipment #####
- # FLTE code replace gw_armored_car_equipment
  armored_car_equipment_3: "50' Armored Car"
  armored_car_equipment_3_desc: ""
  armored_car_equipment_4: "60' Armored Car"
  armored_car_equipment_4_desc: ""
  armored_car_equipment_5: "70' Armored Car"
  armored_car_equipment_5_desc: ""
- # FLTE code replace SOV_armored_car_equipment_1
- # FLTE code replace SOV_armored_car_equipment_1_short
- # FLTE code replace SOV_armored_car_at_equipment
- # FLTE code replace SOV_armored_car_at_equipment_short
  SOV_armored_car_equipment_3: "BRDM-1"
  SOV_armored_car_equipment_3_short: "BRDM-1"
  SOV_armored_car_equipment_4: "BRDM-2"
@@ -2232,18 +1619,12 @@
  SOV_armored_car_equipment_5_short: "BRDM-2M"
  TUR_armored_car_equipment_5: "LAV-150"
  TUR_armored_car_equipment_5_short: "LAV-150"
- # FLTE code replace USA_armored_car_equipment_2
- # FLTE code replace USA_armored_car_equipment_2_short
- # FLTE code replace USA_armored_car_at_equipment
- # FLTE code replace USA_armored_car_at_equipment_short
  USA_armored_car_equipment_3: "M3A2"
  USA_armored_car_equipment_3_short: "M3A2"
  USA_armored_car_equipment_4: "Cadillac Gage Commando M706"
  USA_armored_car_equipment_4_short: "M706 V100"
  USA_armored_car_equipment_5: "Textron LAV-150"
  USA_armored_car_equipment_5_short: "LAV-150"
- # FLTE code replace FRA_armored_car_at_equipment
- # FLTE code replace FRA_armored_car_at_equipment_short
  FRA_armored_car_equipment_3: "Panhard EBR"
  FRA_armored_car_equipment_3_short: "Panhard EBR"
  FRA_armored_car_equipment_4: "AML-20"
@@ -2262,9 +1643,6 @@
  ITA_armored_car_equipment_5_short: "Fiat 6614"
  JAP_armored_car_equipment_5: "Type 87 RCV"
  JAP_armored_car_equipment_5_short: "Type 87 RCV"
- ###SPECIAL PROJECTS - armopred engineers
- # FLTE code replace strat_bomber_intercontinental_equipment_desc
- # FLTE code replace strat_bomber_intercontinental_equipment_1_desc
  PHI_infantry_equipment_0: "M1903 Springfield"
  PHI_infantry_equipment_0_short: "M1903 Springfield"
  PHI_infantry_equipment_1: "M1 Garand"
@@ -2283,7 +1661,7 @@
  PHI_infantry_equipment_7_short: "M16A3 rifle"
  PHI_motorized_equipment_3: "M35 series 2½-ton 6×6 cargo truck"
  PHI_motorized_equipment_3_short: "M35A1"
- PHI_motorized_equipment_3_desc: "The M35 2½-ton cargo truck is a long-lived 2½-ton 6×6 cargo truck initially used by the United States Army and subsequently utilized by many nations around the world. Over time it evolved into a family of specialized vehicles. It inherited the nickname "Deuce and a Half" from an older 2½-ton truck, the World War II GMC CCKW."
+ PHI_motorized_equipment_3_desc: "The M35 2½-ton cargo truck is a long-lived 2½-ton 6×6 cargo truck initially used by the United States Army and subsequently utilized by many nations around the world. Over time it evolved into a family of specialized vehicles. It inherited the nickname \"Deuce and a Half\" from an older 2½-ton truck, the World War II GMC CCKW."
  PHI_heavy_mechanized_equipment_3: "Armored Infantry Fighting Vehicle"
  PHI_heavy_mechanized_equipment_3_short: "AIFV"
  PHI_heavy_mechanized_equipment_3_desc: "The AIFV (Armored Infantry Fighting Vehicle) is an American tracked light armored vehicle that serves as an infantry fighting vehicle (IFV) in the armies of several countries. It is a development of the M113A1 armored personnel carrier. While it never saw service domestically, it was exported to several other countries, and currently sees service with over a dozen countries world wide."
@@ -2303,14 +1681,14 @@
  CHI_infantry_equipment_8: "T86 Carbine Rifle"
  CHI_infantry_equipment_8_short: "T86 Carbine Rifle"
  CHI_infantry_equipment_8_desc: "The T86 rifle is a gas-operated, magazine-fed, assault rifle. It is the second original rifle design conducted by the 205th Armory of Combined Logistics Command of the Republic of China Armed Forces."
- CHI_mechanized_equipment_1: "Type 27" 
- CHI_mechanized_equipment_1_short: "Type 27" 
- CHI_mechanized_equipment_2: "Type 31" 
- CHI_mechanized_equipment_2_short: "Type 31" 
- CHI_mechanized_equipment_3: "Type 33" 
- CHI_mechanized_equipment_3_short: "Type 33" 
- CHI_mechanized_equipment_4: "Type 37" 
- CHI_mechanized_equipment_4_short: "Type 37" 
+ CHI_mechanized_equipment_1: "Type 27"
+ CHI_mechanized_equipment_1_short: "Type 27"
+ CHI_mechanized_equipment_2: "Type 31"
+ CHI_mechanized_equipment_2_short: "Type 31"
+ CHI_mechanized_equipment_3: "Type 33"
+ CHI_mechanized_equipment_3_short: "Type 33"
+ CHI_mechanized_equipment_4: "Type 37"
+ CHI_mechanized_equipment_4_short: "Type 37"
  CHI_mechanized_equipment_7: "CM-21 Armored Vehicle"
  CHI_mechanized_equipment_7_short: "CM-21"
  CHI_mechanized_equipment_7_desc: "The CM-21 is an armored vehicle designed and manufactured by the Republic of China Armored Vehicle Development Center, based on the American M113 APC. The first prototype was manufactured in 1979, and the CM-21 officially entered service in 1982 and remains in use today, with over 1,000 units manufactured and a number of different variants."

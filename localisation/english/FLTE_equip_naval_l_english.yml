@@ -1,207 +1,59 @@
 ﻿l_english:
- ship_hull_submarine_5_desc:"As the war ends, the submarine has found itself as an absolute necessity for any naval power. Experimenting with longer dives, and to deeper depths, this vessel is a terrifying encounter for sure."
- ship_hull_submarine_6_desc:"While not as impressive as a massive aircraft carrier, the modest submarine is arguably the most important part of any navy. Designed to be invisible to the newest sonar systems, this submarine is definitely a silent hunter."
- ship_hull_submarine_7_desc:"As the nuclear age comes to submarines, the endurance of our under-sea fleet has skyrocketed. While a traditional submarine is only capable of being at sea for perhaps 2 weeks at a time, this vessel can go for months without resupply. Its range is limited by food stockpiles, rather than fuel amount."
- ship_hull_submarine_8_desc:"By utilizing top-launch missiles, this submarine can launch a devastating attack without being in visible range of its target."
- ship_hull_submarine_9_desc:"An improved layout, as well as space for vast amounts of provisions, means this submarine can stay at sea for almost a year."
- ship_hull_submarine_10_desc:"Sonar systems have become much stronger, and much more sensitive to the traditionally noisy operation of propellors. Experiments with pump-jet propulsors have shown great promise. While heavier, more expensive, and generally slower than a propellor, the pump-jet propulsor is nearly silent, and all but undetectable to any curious foes." 
- ship_hull_light_5_desc:"Destroyers laid down in the 5 years after the war still mostly resemble those of the previous generation, but with a few advantages - they tended to have fully automatic main guns, as well as an advanced suite of radar and sonar detection systems."
- ship_hull_light_6_desc:"With the proliferation of the transistor, tasks that previously required dozens of men, such as manning a radar suite, now only require one or two. These ships are fast, deadly, and among the most technologically advanced in our navy."
- ship_hull_light_7_desc:"The advent of accurate surface-to-air and surface-to-surface missiles has changed naval warfare. Even a modest destroyer carries enough firepower to sink any foe, and this design is the culmination of efforts to bring these weapons to the sea."
- ship_hull_light_8_desc:"As radar becomes ever more powerful and accurate, we must design our new ships with such systems in mind. A simple slab side, with a smaller cross profile compared to older vessels, as well as an advanced set of missiles for destroying any foe, whether in the sky or on water, has resulted in a vessel which looks to be of space-age."
- ship_hull_light_9_desc:"With the development of computing systems that no longer require an entire building to house, this destroyer is the first truly computerized vessel. Designed to be difficult to spot on radar, equipped with a fully electronic fire control and command system, and a vast array of weapons for any situation, this vessel is a truly modern warship."
- ship_hull_light_10_desc:"As we enter the electronic age, we must not forget to modernize our navy. As such, this warship is equipped with electronic jamming equipment, predictive fire control systems, and a vertical-launch system for missiles of nearly any kind."
- ship_hull_cruiser_5_desc:"By the end of the war, it has become clear that naval aviation has truly changed warfare at sea. We must develop a fast, well armored vessel with a vast array of anti-aircraft cannons, as well as a modern radar suite, suited perfectly to escort our capital ships."
- ship_hull_cruiser_6_desc:"The last of the cruisers equipped with conventional guns, this vessel is equipped with transistor-powered computers that allow for accurate fire over long distances. It is also very well armored, yet still fast to keep up with our heaviest warships."
- ship_hull_cruiser_7_desc:"With the development of viable surface-to-air and surface-to-surface missiles, which can hit a target over hundreds of kilometers, has necessitated a cruiser capable of wielding these new weapons." 
- ship_hull_cruiser_8_desc:"The increasingly automated systems of cruisers allow us to lay down a vessel with fewer men, yet with greater firepower than ever before." 
- ship_hull_cruiser_9_desc:"As nuclear power becomes more viable, we can lay down a vessel designed to utilize the energy of the atom. Capable of operating at sea for weeks or even months at a time, these vessels have an endurance which is unheard of." 
- ship_hull_cruiser_10_desc:"Computerization has resulted in a vessel with a large array of sensors, radars, and other equipment which has resulted in a truly modern warship." 
- ship_hull_heavy_5_desc:"While naval aviation and surface-to-surface missiles have rendered our battleships obsolete, it would be wasteful to simply scrap the vessels that took so long to build. We should instead convert them into mobile, heavily armored missile warships, with the capability to launch dozens of missiles with devastating effects."
- ship_hull_heavy_6_desc:"Essentially an upscaled missile cruiser, this vessel is the final evolution of the battleship. Massive, well armored, fast, and equipped with a vast array of pinpoint-accurate missiles, capable of leveling an entire city, as well as an advanced communication system and radar suite, this warship acts more like a floating command center than a naval vessel." 
- ship_hull_bc_carrier_1_desc:"The advantages of naval aviation are obvious - while the largest guns can hit a target at 20 kilometers, a single aircraft can drop a torpedo at ranges exceeding 100 kilometers, and with far greater accuracy. However, dedicated aircraft carriers are vulnerable if they are attacked directly. As such, a combination carrier/cruiser is proposed - bringing the best of both worlds with the downsides of neither." 
- ship_hull_bc_carrier_2_desc:"By integrating computers into the communication systems of our aircraft cruisers, the aviation and naval components can work together, usually with disastrous results to the enemy fleet." 
- ship_hull_bc_carrier_3_desc:"As guns are replaced by missiles, and spotters replaced by radar suites, this warship is the culmination of decades of naval experience. Fast and lethal, capable of nearly any task, this vessel is a foe to be reckoned with." 
- ship_hull_carrier_5_desc:"The aircraft carriers built after the war generally resembled those of earlier years - large, relatively slow, heavy, and vulnerable to counter attack. While we lack the technology to rectify most of these issues, this vessel is much better protected from enemy attacks by both sea and air, using a combination of deck guns and radar suites."
- ship_hull_carrier_6_desc:"Communication is critical for the effectiveness of an aircraft carrier, and as such this warship is equipped with an advanced radio system enabling the crew to respond within minutes to enemy activity."
- ship_hull_carrier_7_desc:"As jet naval fighters become a necessity, this carrier is equipped with a longer runway to enable these new aircraft to perform their duties."
- ship_hull_carrier_8_desc:"An advanced radar system, as well as the beginnings of nuclear propulsion, mark this warship's development. Between that, and the increasingly capable jets which will reside on it, this aircraft carrier is an extremely capable vessel."
- ship_hull_carrier_9_desc:"As computers become more viable, the development of a new aircraft carrier to make full use of this technology is a must."
- ship_hull_carrier_10_desc:"An ever-greater focus on projecting naval power across the world has resulted in a fast and fearsome aircraft carrier, capable of nearly any task at hand." 
- ship_hull_light_5:"1950 Destroyer Hull"
- ship_hull_light_6:"1955 Destroyer Hull"
- ship_hull_light_7:"1960 DDG"
- ship_hull_light_8:"1970 DDG"
- ship_hull_light_9:"1980 DDG"
- ship_hull_light_10:"1990 DDG"
- ship_hull_cruiser_5:"1950 Cruiser Hull"
- ship_hull_cruiser_6:"1955 Cruiser Hull" 
- ship_hull_cruiser_7:"Missile Cruiser Hull" 
- ship_hull_cruiser_8:"1970 Guided Missile Cruiser"
- ship_hull_cruiser_9:"1980 Guided Missile Cruiser"
- ship_hull_cruiser_10:"1990 Guided Missile Cruiser" 
- ship_hull_heavy_5:"Converted Missile Heavy"
- ship_hull_heavy_6:"Guided Missile Battlecruiser"
- ship_hull_bc_carrier_1:"60s Heavy aircraft cruiser" 
- ship_hull_bc_carrier_2:"70s Heavy aircraft cruiser" 
- ship_hull_bc_carrier_3:"80s Heavy aircraft cruiser" 
- ship_hull_carrier_5:"1950 Carrier Hull"
- ship_hull_carrier_6:"1955 Carrier Hull" 
- ship_hull_carrier_7:"1960 Carrier Hull"
- ship_hull_carrier_8:"1970 Carrier Hull" 
- ship_hull_carrier_9:"1980 Carrier Hull" 
- ship_hull_carrier_10:"1990 Carrier Hull" 
- # FLTE code replace ship_hull_carrier_modern_desc
- ship_hull_submarine_5:"1950 Submarine Hull"
- ship_hull_submarine_6:"1955 Submarine Hull" 
- ship_hull_submarine_7:"1960 Submarine Hull" 
- ship_hull_submarine_8:"1970 Submarine Hull" 
- ship_hull_submarine_9:"1980 Submarine Hull" 
- ship_hull_submarine_10:"1990 Submarine Hull" 
- ### ENG - ENGLAND ###
- #ENG_submarine_1b: "O/P/R Class"
- #ENG_submarine_1c: "S Class"
- #ENG_submarine_3b: "Seraph Class"
- #ENG_submarine_4b: "Amphion Class"
- # FLTE code replace ENG_destroyer_1_desc
- #ENG_destroyer_1b: "A/B/C/D Class"
- #ENG_destroyer_2b: "Tribal Class"
- #ENG_destroyer_4b: "Weapon Class"
- #ENG_light_cruiser_1b: "Emerald Class"
- #ENG_light_cruiser_1c: "Amphion Class"
- #ENG_light_cruiser_2b: "Edinburgh Class"
- #ENG_light_cruiser_3b: "Dido Class"
- #ENG_heavy_cruiser_1b: "County Class"
- #ENG_battle_cruiser_1b: "Admiral Class"
- #ENG_battleship_1b: "Nelson Class"
- #ENG_carrier_4b: "Malta Class"
- ### FRA - FRANCE ###
- #FRA_submarine_1b: "630 Series"
- #FRA_submarine_1c: "Redoutable Class"
- #FRA_submarine_2b: "Aurore Class"
- #FRA_destroyer_1b: "Chacal Class"
- #FRA_destroyer_1c: "Aigle & Vauquelin Class"
- #FRA_destroyer_2b: "Le Hardi Class"
- #FRA_destroyer_2c: "Mogador Class"
- #FRA_battleship_1b: "Bretagne Class"
- ### GER - GERMANY ###
- #GER_submarine_2b: "Type VIIA"
- #GER_submarine_3b: "Type IXC"
- #GER_light_cruiser_1b: "Königsberg Class"
- # FLTE code replace GER_battleship_1_desc
- ### ITA - ITALY ###
- #ITA_submarine_1b: "Bandiera Class"
- #ITA_submarine_1c: "Sirena Class"
- #ITA_submarine_2b: "Marcello Class"
- #ITA_submarine_3b: "Plantino Class"
- #ITA_destroyer_1b: "Navigatori Class"
- #ITA_destroyer_1c: "Maestrale Class"
- #ITA_destroyer_3b: "Ariete Class"
- #ITA_light_cruiser_1b: "Giussano Class"
- #ITA_light_cruiser_1c: "Montecuccoli Class"
- #ITA_heavy_cruiser_1b: "Zara Class"
- ### JAP - JAPAN ###
- #JAP_submarine_1b: "Kaidai III Class"
- #JAP_submarine_3b: "Ko/Otsu/Hei-gata Class (late)"
- #JAP_submarine_4b: "Sen-Taka Class"
- #JAP_destroyer_1b: "Fubuki Class"
- #JAP_destroyer_2b_ "Kagero Class"
- #JAP_light_cruiser_1b: "Kuma Class"
- #JAP_light_cruiser_1c: "Sendai Class"
- #JAP_light_cruiser_3b: "Oyodo Class"
- #JAP_heavy_cruiser_1b: "Myoko Class"
- #JAP_battleship_1b: "Ise Class" (refit version)
- #JAP_battleship_1c: "Nagato Class" (refit version)
- #JAP_carrier_1b: "Akagi Class" (refit Kaga class)
- #JAP_carrier_2b: "Hiryu Class"
- #JAP_carrier_3b: "Hiyo Class"
- #JAP_carrier_4b: "Shinano Class"
- ### SOV - SOVIET UNION ###
- #SOV_submarine_1b: "Series I Debakrist"
- #SOV_submarine_2b: "Series IX Srednyaya" (Stalinets<-unofficial name)
- #SOV_submarine_2c: "Series X Shchuka"
- #SOV_destroyer_1b: "Leningrad & Minsk Class"
- #SOV_destroyer_3b: "Ognevoy Class"
- #SOV_heavy_cruiser_2b: "Maxim Gorky Class"
- ### USA - USA ###
- #USA_submarine_1b: "Barracuda Class"
- #USA_submarine_2b: "Salmon Class"
- #USA_submarine_3b: "Gato Class"
- #USA_destroyer_1b: "Farragut Class"
- #USA_destroyer_2b: "Benson & Gleaves Class"
- #USA_heavy_cruiser_1b: "Portland Class"
- #USA_battleship_1b: "Pennsylvania Class"
- #USA_battleship_1c: "New Mexico Class"
- #USA_battleship_2b: "South Dakota Class"
- #USA_carrier_2b: "Yorktown Class"
- #USA_carrier_2c: "Wasp Class"
- ### ALB - ALBANIA -- all generic ###
- ### ARG - ARGENTINA ###
- #ARG_destroyer_1b: "Cervantes Class"
- #ARG_heavy_cruiser_1b: "Veinticinco de Mayo Class"
- ### AST - AUSTRALIA ###
- #AST_destroyer_2b: "Arunta Class"
- #AST_destroyer_4b: "Tobruk Class"
- #AST_light_cruiser_1c: "Sydney Class"
- #AST_heavy_cruiser_1b: "Canberra Class"
- ### BEL - BELGIUM -- all generic ###
- ### BRA - BRAZIL ###
- # FLTE code replace BRA_destroyer_1
- # FLTE code replace BRA_destroyer_1_desc
- ### BUL - BULGARIA -- all generic ###
- ### CAN - CANADA ###
- #CAN_destroyer_1b: "Saguenay Class"
- #CAN_destroyer_2b: "Athabaskan Class"
- ### CHI - NATIONALIST CHINA ###
- ### CHL - CHILE ###
- #CHL_submarine_1b: "Capitán O`Brien Class"
- #CHL_destroyer_1b: "Serrano Class"
- ### COL - COLOMBIA ###
- ### DEN - DENMARK ###
- ### DOM - DOMINICAN REPUBLIC -- all generic ###
- ### ECU - ECUADOR -- all generic ###
- ### EST - ESTONIA ###
- ### FIN - FINLAND ###
- ### GRE - GREECE ###
- #GRE_destroyer_1b: "Hydra Class"
- ### HOL - NETHERLANDS ###
- #HOL_submarine_1b: "K-XIV Class"
- ### IRE - IRELAND -- all generic ###
- ### LAT - LATVIA ###
- ### LIT - LITHUANIA -- all generic ###
- ### MEX - MEXICO ###
- ### NOR - NORWAY ###
- # FLTE code replace NOR_submarine_4_desc
- ### NZL - NEW ZEALAND ###
- #NZL_light_cruiser_1c: "Leander Class"
- # FLTE code replace NZL_light_cruiser_3_desc
- ### POR - PORTUGAL ###
- ### PRU - PERU ###
- ### RAJ - BRITISH RAJ ###
- ### ROM - ROMANIA ###
- #ROM_destroyer_1b: "Regele Ferdinand Class"
- ### SAF - SOUTH AFRICA ###
- ### SIA - SIAM ###
- ### SPA - NATIONALIST SPAIN ###
- #SPA_submarine_1b: "C Class"
- #SPA_light_cruiser_1b: "Príncipe Alfonso Class"
- ### SPR - REPUBLICAN SPAIN ###
- #SPR_submarine_1b: "C Class"
- #SPR_light_cruiser_1b: "Príncipe Alfonso Class"
- ### SWE - SWEEDEN ###
- #SWE_submarine_1b: "Draken Class"
- ### TUR - TURKEY ###
- #TUR_submarine_1b: "Dumlupınar Class"
- ### URU - URUGUAY ###
- ### VEN - VENEZUELA -- generic only ###
- ### VIC - VICHY FRANCE ###
- #VIC_submarine_1b: "630 Series"
- #VIC_submarine_1c: "Redoutable Class"
- #VIC_submarine_2b: "Aurore Class"
- #VIC_destroyer_1b: "Chacal Class"
- #VIC_destroyer_1c: "Aigle & Vauquelin Class"
- #VIC_destroyer_2b: "Le Hardi Class"
- #VIC_destroyer_2c: "Mogador Class"
- #VIC_battleship_1b: "Bretagne Class"
- ### YUG - YUGOSLAVIA ###
- # FLTE code replace YUG_submarine_2_desc
+ ship_hull_submarine_5_desc: "As the war ends, the submarine has found itself as an absolute necessity for any naval power. Experimenting with longer dives, and to deeper depths, this vessel is a terrifying encounter for sure."
+ ship_hull_submarine_6_desc: "While not as impressive as a massive aircraft carrier, the modest submarine is arguably the most important part of any navy. Designed to be invisible to the newest sonar systems, this submarine is definitely a silent hunter."
+ ship_hull_submarine_7_desc: "As the nuclear age comes to submarines, the endurance of our under-sea fleet has skyrocketed. While a traditional submarine is only capable of being at sea for perhaps 2 weeks at a time, this vessel can go for months without resupply. Its range is limited by food stockpiles, rather than fuel amount."
+ ship_hull_submarine_8_desc: "By utilizing top-launch missiles, this submarine can launch a devastating attack without being in visible range of its target."
+ ship_hull_submarine_9_desc: "An improved layout, as well as space for vast amounts of provisions, means this submarine can stay at sea for almost a year."
+ ship_hull_submarine_10_desc: "Sonar systems have become much stronger, and much more sensitive to the traditionally noisy operation of propellors. Experiments with pump-jet propulsors have shown great promise. While heavier, more expensive, and generally slower than a propellor, the pump-jet propulsor is nearly silent, and all but undetectable to any curious foes."
+ ship_hull_light_5_desc: "Destroyers laid down in the 5 years after the war still mostly resemble those of the previous generation, but with a few advantages - they tended to have fully automatic main guns, as well as an advanced suite of radar and sonar detection systems."
+ ship_hull_light_6_desc: "With the proliferation of the transistor, tasks that previously required dozens of men, such as manning a radar suite, now only require one or two. These ships are fast, deadly, and among the most technologically advanced in our navy."
+ ship_hull_light_7_desc: "The advent of accurate surface-to-air and surface-to-surface missiles has changed naval warfare. Even a modest destroyer carries enough firepower to sink any foe, and this design is the culmination of efforts to bring these weapons to the sea."
+ ship_hull_light_8_desc: "As radar becomes ever more powerful and accurate, we must design our new ships with such systems in mind. A simple slab side, with a smaller cross profile compared to older vessels, as well as an advanced set of missiles for destroying any foe, whether in the sky or on water, has resulted in a vessel which looks to be of space-age."
+ ship_hull_light_9_desc: "With the development of computing systems that no longer require an entire building to house, this destroyer is the first truly computerized vessel. Designed to be difficult to spot on radar, equipped with a fully electronic fire control and command system, and a vast array of weapons for any situation, this vessel is a truly modern warship."
+ ship_hull_light_10_desc: "As we enter the electronic age, we must not forget to modernize our navy. As such, this warship is equipped with electronic jamming equipment, predictive fire control systems, and a vertical-launch system for missiles of nearly any kind."
+ ship_hull_cruiser_5_desc: "By the end of the war, it has become clear that naval aviation has truly changed warfare at sea. We must develop a fast, well armored vessel with a vast array of anti-aircraft cannons, as well as a modern radar suite, suited perfectly to escort our capital ships."
+ ship_hull_cruiser_6_desc: "The last of the cruisers equipped with conventional guns, this vessel is equipped with transistor-powered computers that allow for accurate fire over long distances. It is also very well armored, yet still fast to keep up with our heaviest warships."
+ ship_hull_cruiser_7_desc: "With the development of viable surface-to-air and surface-to-surface missiles, which can hit a target over hundreds of kilometers, has necessitated a cruiser capable of wielding these new weapons."
+ ship_hull_cruiser_8_desc: "The increasingly automated systems of cruisers allow us to lay down a vessel with fewer men, yet with greater firepower than ever before."
+ ship_hull_cruiser_9_desc: "As nuclear power becomes more viable, we can lay down a vessel designed to utilize the energy of the atom. Capable of operating at sea for weeks or even months at a time, these vessels have an endurance which is unheard of."
+ ship_hull_cruiser_10_desc: "Computerization has resulted in a vessel with a large array of sensors, radars, and other equipment which has resulted in a truly modern warship."
+ ship_hull_heavy_5_desc: "While naval aviation and surface-to-surface missiles have rendered our battleships obsolete, it would be wasteful to simply scrap the vessels that took so long to build. We should instead convert them into mobile, heavily armored missile warships, with the capability to launch dozens of missiles with devastating effects."
+ ship_hull_heavy_6_desc: "Essentially an upscaled missile cruiser, this vessel is the final evolution of the battleship. Massive, well armored, fast, and equipped with a vast array of pinpoint-accurate missiles, capable of leveling an entire city, as well as an advanced communication system and radar suite, this warship acts more like a floating command center than a naval vessel."
+ ship_hull_bc_carrier_1_desc: "The advantages of naval aviation are obvious - while the largest guns can hit a target at 20 kilometers, a single aircraft can drop a torpedo at ranges exceeding 100 kilometers, and with far greater accuracy. However, dedicated aircraft carriers are vulnerable if they are attacked directly. As such, a combination carrier/cruiser is proposed - bringing the best of both worlds with the downsides of neither."
+ ship_hull_bc_carrier_2_desc: "By integrating computers into the communication systems of our aircraft cruisers, the aviation and naval components can work together, usually with disastrous results to the enemy fleet."
+ ship_hull_bc_carrier_3_desc: "As guns are replaced by missiles, and spotters replaced by radar suites, this warship is the culmination of decades of naval experience. Fast and lethal, capable of nearly any task, this vessel is a foe to be reckoned with."
+ ship_hull_carrier_5_desc: "The aircraft carriers built after the war generally resembled those of earlier years - large, relatively slow, heavy, and vulnerable to counter attack. While we lack the technology to rectify most of these issues, this vessel is much better protected from enemy attacks by both sea and air, using a combination of deck guns and radar suites."
+ ship_hull_carrier_6_desc: "Communication is critical for the effectiveness of an aircraft carrier, and as such this warship is equipped with an advanced radio system enabling the crew to respond within minutes to enemy activity."
+ ship_hull_carrier_7_desc: "As jet naval fighters become a necessity, this carrier is equipped with a longer runway to enable these new aircraft to perform their duties."
+ ship_hull_carrier_8_desc: "An advanced radar system, as well as the beginnings of nuclear propulsion, mark this warship's development. Between that, and the increasingly capable jets which will reside on it, this aircraft carrier is an extremely capable vessel."
+ ship_hull_carrier_9_desc: "As computers become more viable, the development of a new aircraft carrier to make full use of this technology is a must."
+ ship_hull_carrier_10_desc: "An ever-greater focus on projecting naval power across the world has resulted in a fast and fearsome aircraft carrier, capable of nearly any task at hand."
+ ship_hull_light_5: "1950 Destroyer Hull"
+ ship_hull_light_6: "1955 Destroyer Hull"
+ ship_hull_light_7: "1960 DDG"
+ ship_hull_light_8: "1970 DDG"
+ ship_hull_light_9: "1980 DDG"
+ ship_hull_light_10: "1990 DDG"
+ ship_hull_cruiser_5: "1950 Cruiser Hull"
+ ship_hull_cruiser_6: "1955 Cruiser Hull"
+ ship_hull_cruiser_7: "Missile Cruiser Hull"
+ ship_hull_cruiser_8: "1970 Guided Missile Cruiser"
+ ship_hull_cruiser_9: "1980 Guided Missile Cruiser"
+ ship_hull_cruiser_10: "1990 Guided Missile Cruiser"
+ ship_hull_heavy_5: "Converted Missile Heavy"
+ ship_hull_heavy_6: "Guided Missile Battlecruiser"
+ ship_hull_bc_carrier_1: "60s Heavy aircraft cruiser"
+ ship_hull_bc_carrier_2: "70s Heavy aircraft cruiser"
+ ship_hull_bc_carrier_3: "80s Heavy aircraft cruiser"
+ ship_hull_carrier_5: "1950 Carrier Hull"
+ ship_hull_carrier_6: "1955 Carrier Hull"
+ ship_hull_carrier_7: "1960 Carrier Hull"
+ ship_hull_carrier_8: "1970 Carrier Hull"
+ ship_hull_carrier_9: "1980 Carrier Hull"
+ ship_hull_carrier_10: "1990 Carrier Hull"
+ ship_hull_submarine_5: "1950 Submarine Hull"
+ ship_hull_submarine_6: "1955 Submarine Hull"
+ ship_hull_submarine_7: "1960 Submarine Hull"
+ ship_hull_submarine_8: "1970 Submarine Hull"
+ ship_hull_submarine_9: "1980 Submarine Hull"
+ ship_hull_submarine_10: "1990 Submarine Hull"

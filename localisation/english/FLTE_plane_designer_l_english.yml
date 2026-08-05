@@ -1,5 +1,4 @@
 ﻿l_english:
- # FLTE code replace EQ_MOD_CAT_plane_jet_engine_type_TITLE
  engine_5_1x: "1x Engine V"
  engine_5_1x_desc: ""
  engine_5_2x: "2x Engine V"
@@ -13,20 +12,11 @@
  engine_6_4x: "4x Engine VI"
  engine_6_4x_desc: ""
  engine_6_6x: "6x Engine VI"
- engine_6_6x_desc:	""
+ engine_6_6x_desc: ""
  tarppod: "Tactical Airborne Reconnaissance Pod System"
  tarppod_desc: ""
  photoflash: "Photo Flash Bomb"
  photoflash_desc: ""
- # FLTE code replace jet_engine_1x
- # FLTE code replace jet_engine_2x
- # FLTE code replace jet_engine_3x
- # FLTE code replace jet_engine_4x
- # FLTE code replace jet_engine_6x
- # FLTE code replace armor_piercing_bombs_desc
- # FLTE code replace air_torpedoe_1_desc
- # FLTE code replace air_torpedoe_2_desc
- # FLTE code replace air_torpedoe_3_desc
  jet_engine_advanced_turbojet_1x: "1x Turbojet Engine"
  jet_engine_advanced_turbojet_1x_desc: "With a completely different approach to powering an airplane, this complex and temperamental engine still offers a large increase in thrust and speed."
  jet_engine_advanced_turbojet_2x: "2x Turbojet Engine"
@@ -65,8 +55,6 @@
  jet_engine_4x_5_desc: ""
  jet_engine_6x_5: "6x Jet Engine V"
  jet_engine_6x_5_desc: ""
- # FLTE code replace light_mg_4x_desc
- # FLTE code replace bomb_locks
  bomb_locks_1: "Bomb Locks II"
  bomb_locks_1_desc: ""
  bomb_locks_2: "Bomb Locks III"
@@ -79,10 +67,6 @@
  laserbomb_desc: ""
  laserbomb_1: "Laser Guided Bomb II"
  laserbomb_1_desc: ""
- # FLTE code replace torpedo_mounting
- # FLTE code replace torpedo_mounting_desc
- # FLTE code replace heavy_mg_2x
- # FLTE code replace heavy_mg_4x
  heavy_mg_1_2x: "2x Heavy Machine Gun II"
  heavy_mg_1_2x_desc: ""
  heavy_mg_1_4x: "4x Heavy Machine Gun II"
@@ -91,7 +75,6 @@
  heavy_mg_2_2x_desc: ""
  heavy_mg_2_4x: "4x Heavy Machine Gun III"
  heavy_mg_2_4x_desc: ""
- # FLTE code replace aircraft_cannon_2_1x_desc
  aircraft_cannon_3_1x: "1x Cannon III"
  aircraft_cannon_3_1x_desc: ""
  aircraft_cannon_3_2x: "2x Cannon III"
@@ -136,7 +119,6 @@
  guided_anti_ship_missile_3_desc: ""
  guided_anti_ship_missile_4: "Guided Anti Ship Missile V"
  guided_anti_ship_missile_4_desc: ""
- # FLTE code replace bouncing_bomb_release_desc
  ATGGM: "Air To Ground Guided Missile"
  ATGGM_desc: ""
  ATTVGGM: "Air To Ground TV Guided Missile"
@@ -163,23 +145,18 @@
  rwr_desc: ""
  flare: "Flare Pod"
  flare_desc: ""
- # FLTE code replace medium_bomb_bay_desc
  medium_bomb_bay_1: "General Purpose Bomb Bay"
  medium_bomb_bay_1_desc: "A mid-sized bomb bay allows carrying enough ordinace to strike a wide variety of targets."
  medium_bomb_bay_2: "General Purpose Bomb Bay 1"
  medium_bomb_bay_2_desc: "A mid-sized bomb bay allows carrying enough ordinace to strike a wide variety of targets."
- medium_bomb_bay_3: "TV Guided Bomb Bay" 
+ medium_bomb_bay_3: "TV Guided Bomb Bay"
  medium_bomb_bay_3_desc: "A mid-sized bomb bay carrying early, TV guided bombs."
  medium_bomb_bay_4: "Laser Guided Bomb Bay"
  medium_bomb_bay_4_desc: "A mid-sized bomb bay carrying improved, laser guided bombs."
- medium_bomb_bay_5: "Modern Laser Guided Bomb Bay" 
+ medium_bomb_bay_5: "Modern Laser Guided Bomb Bay"
  medium_bomb_bay_5_desc: "A mid-sized bomb bay carrying modern laser guided bombs."
- # FLTE code replace large_bomb_bay_desc
  tank_buster_3: "Anti-Tank Cannon III"
  tank_buster_3_desc: ""
- # FLTE code replace self_sealing_fuel_tanks_small
- # FLTE code replace hmg_defense_turret
- # FLTE code replace hmg_defense_turret_2x
  hmg_defense_turret_1: "Heavy MG Defense Turret II"
  hmg_defense_turret_1_desc: ""
  hmg_defense_turret_2x_1: "Heavy MG Defense Turret 2x II"
@@ -188,8 +165,6 @@
  hmg_defense_turret_2_desc: ""
  hmg_defense_turret_2x_2: "Heavy MG Defense Turret 2x III"
  hmg_defense_turret_2x_2_desc: ""
- # FLTE code replace cannon_defense_turret
- # FLTE code replace cannon_defense_turret_2x
  cannon_defense_turret_1: "Cannon Defense Turret II"
  cannon_defense_turret_1_desc: ""
  cannon_defense_turret_1_2x: "Cannon Defense Turret 2x II"
@@ -204,13 +179,10 @@
  cannon_defense_turret_3_2x_desc: ""
  rocket_pod: "Rocket Pod"
  rocket_pod_desc: "Launcher that contains several unguided rockets held in individual tubes, designed to be used by attack aircraft or attack helicopters for close air support."
- # FLTE code replace bomb_sights_1_desc
  bomb_sights_3: "Bomb Sights III"
  bomb_sights_3_desc: ""
  bomb_sights_4: "Bomb Sights IV"
  bomb_sights_4_desc: ""
- # FLTE code replace radio_navigation_1_desc
- # FLTE code replace radio_navigation_2_desc
  radio_navigation_3: "Radio Navigation III"
  radio_navigation_3_desc: ""
  radio_navigation_4: "Radio Navigation IV"
@@ -239,19 +211,10 @@
  air_air_radar_6_desc: ""
  air_air_radar_7: "Air-Air Radar VII"
  air_air_radar_7_desc: ""
- # FLTE code replace drop_tanks
  drop_tanks1: "Drop Tanks II"
  drop_tanks1_desc: ""
  drop_tanks2: "Drop Tanks III"
  drop_tanks2_desc: ""
- # FLTE code replace dive_brakes_small_desc
- # FLTE code replace floats_desc
- # FLTE code replace flying_boat_medium_desc
- # FLTE code replace guided_anti_ship_missile
- # FLTE code replace demining_coil_desc
- # FLTE code replace small_plane_airframe_4
- # FLTE code replace small_plane_airframe_5
- # FLTE code replace small_plane_airframe_5_desc
  small_plane_airframe_6: "55's Small Airframe"
  small_plane_airframe_6_desc: ""
  small_plane_airframe_7: "60's Small Airframe"
@@ -264,13 +227,6 @@
  small_plane_airframe_10_desc: ""
  small_plane_airframe_11: "90's Small Airframe"
  small_plane_airframe_11_desc: ""
- # FLTE code replace small_plane_cas_airframe_0
- # FLTE code replace small_plane_cas_airframe_1
- # FLTE code replace small_plane_cas_airframe_2
- # FLTE code replace small_plane_cas_airframe_3
- # FLTE code replace small_plane_cas_airframe_4
- # FLTE code replace small_plane_cas_airframe_5
- # FLTE code replace small_plane_cas_airframe_5_desc
  small_plane_cas_airframe_6: "55's Close Air Support Airframe"
  small_plane_cas_airframe_6_desc: ""
  small_plane_cas_airframe_7: "60's Close Air Support Airframe"
@@ -283,13 +239,6 @@
  small_plane_cas_airframe_10_desc: ""
  small_plane_cas_airframe_11: "90's Close Air Support Airframe"
  small_plane_cas_airframe_11_desc: ""
- # FLTE code replace small_plane_naval_bomber_airframe_0
- # FLTE code replace small_plane_naval_bomber_airframe_1
- # FLTE code replace small_plane_naval_bomber_airframe_2
- # FLTE code replace small_plane_naval_bomber_airframe_3
- # FLTE code replace small_plane_naval_bomber_airframe_4
- # FLTE code replace small_plane_naval_bomber_airframe_5
- # FLTE code replace small_plane_naval_bomber_airframe_5_desc
  small_plane_naval_bomber_airframe_6: "55's Naval Bomber Airframe"
  small_plane_naval_bomber_airframe_6_desc: ""
  small_plane_naval_bomber_airframe_7: "60's Naval Bomber Airframe"
@@ -302,11 +251,6 @@
  small_plane_naval_bomber_airframe_10_desc: ""
  small_plane_naval_bomber_airframe_11: "90's Naval Bomber Airframe"
  small_plane_naval_bomber_airframe_11_desc: ""
- # FLTE code replace cv_small_plane_cas_airframe_0
- # FLTE code replace cv_small_plane_cas_airframe_1
- # FLTE code replace cv_small_plane_cas_airframe_2
- # FLTE code replace cv_small_plane_cas_airframe_3
- # FLTE code replace cv_small_plane_cas_airframe_4
  cv_small_plane_cas_airframe_5: "50's Carrier Close Air Support Airframe"
  cv_small_plane_cas_airframe_5_desc: ""
  cv_small_plane_cas_airframe_6: "55's Carrier Close Air Support Airframe"
@@ -321,11 +265,6 @@
  cv_small_plane_cas_airframe_10_desc: ""
  cv_small_plane_cas_airframe_11: "90's Carrier Close Air Support Airframe"
  cv_small_plane_cas_airframe_11_desc: ""
- # FLTE code replace cv_small_plane_naval_bomber_airframe_0
- # FLTE code replace cv_small_plane_naval_bomber_airframe_1
- # FLTE code replace cv_small_plane_naval_bomber_airframe_2
- # FLTE code replace cv_small_plane_naval_bomber_airframe_3
- # FLTE code replace cv_small_plane_naval_bomber_airframe_4
  cv_small_plane_naval_bomber_airframe_5: "50's Carrier Naval Bomber Airframe"
  cv_small_plane_naval_bomber_airframe_5_desc: ""
  cv_small_plane_naval_bomber_airframe_6: "55's Carrier Naval Bomber Airframe"
@@ -340,9 +279,6 @@
  cv_small_plane_naval_bomber_airframe_10_desc: ""
  cv_small_plane_naval_bomber_airframe_11: "90's Carrier Naval Bomber Airframe"
  cv_small_plane_naval_bomber_airframe_11_desc: ""
- # FLTE code replace small_plane_suicide_airframe_4
- # FLTE code replace cv_small_plane_suicide_airframe_4
- # FLTE code replace medium_plane_airframe_4
  medium_plane_airframe_5: "55's Medium Airframe"
  medium_plane_airframe_5_desc: ""
  medium_plane_airframe_6: "65's Medium Airframe"
@@ -351,11 +287,6 @@
  medium_plane_airframe_7_desc: ""
  medium_plane_airframe_8: "85's Medium Airframe"
  medium_plane_airframe_8_desc: ""
- # FLTE code replace medium_plane_fighter_airframe_0
- # FLTE code replace medium_plane_fighter_airframe_1
- # FLTE code replace medium_plane_fighter_airframe_2
- # FLTE code replace medium_plane_fighter_airframe_3
- # FLTE code replace medium_plane_fighter_airframe_4
  medium_plane_fighter_airframe_5: "55's Heavy Fighter Airframe"
  medium_plane_fighter_airframe_5_desc: ""
  medium_plane_fighter_airframe_6: "65's Heavy Fighter Airframe"
@@ -364,11 +295,6 @@
  medium_plane_fighter_airframe_7_desc: ""
  medium_plane_fighter_airframe_8: "85's Heavy Fighter Airframe"
  medium_plane_fighter_airframe_8_desc: ""
- # FLTE code replace medium_plane_scout_plane_airframe_0
- # FLTE code replace medium_plane_scout_plane_airframe_1
- # FLTE code replace medium_plane_scout_plane_airframe_2
- # FLTE code replace medium_plane_scout_plane_airframe_3
- # FLTE code replace medium_plane_scout_plane_airframe_4
  medium_plane_scout_plane_airframe_5: "55's Scout Plane Airframe"
  medium_plane_scout_plane_airframe_5_desc: ""
  medium_plane_scout_plane_airframe_6: "65's Scout Plane Airframe"
@@ -377,9 +303,6 @@
  medium_plane_scout_plane_airframe_7_desc: ""
  medium_plane_scout_plane_airframe_8: "85's Scout Plane Airframe"
  medium_plane_scout_plane_airframe_8_desc: ""
- # FLTE code replace large_plane_airframe_0_desc
- # FLTE code replace large_plane_airframe_2_desc
- # FLTE code replace large_plane_airframe_4
  large_plane_airframe_5: "55's Large Airframe"
  large_plane_airframe_5_desc: ""
  large_plane_airframe_6: "60's Large Airframe"
@@ -388,11 +311,6 @@
  large_plane_airframe_7_desc: ""
  large_plane_airframe_8: "85's Large Airframe"
  large_plane_airframe_8_desc: ""
- # FLTE code replace large_plane_maritime_patrol_plane_airframe_0
- # FLTE code replace large_plane_maritime_patrol_plane_airframe_1
- # FLTE code replace large_plane_maritime_patrol_plane_airframe_2
- # FLTE code replace large_plane_maritime_patrol_plane_airframe_3
- # FLTE code replace large_plane_maritime_patrol_plane_airframe_4
  large_plane_maritime_patrol_plane_airframe_5: "55's Maritime Patrol Airframe"
  large_plane_maritime_patrol_plane_airframe_5_desc: ""
  large_plane_maritime_patrol_plane_airframe_6: "60's Maritime Patrol Airframe"
@@ -401,7 +319,6 @@
  large_plane_maritime_patrol_plane_airframe_7_desc: ""
  large_plane_maritime_patrol_plane_airframe_8: "85's Maritime Patrol Airframe"
  large_plane_maritime_patrol_plane_airframe_8_desc: ""
- # FLTE code replace cv_small_plane_airframe_4
  cv_small_plane_airframe_5: "50's Carrier Airframe"
  cv_small_plane_airframe_5_desc: ""
  cv_small_plane_airframe_6: "55's Carrier Airframe"
@@ -416,15 +333,6 @@
  cv_small_plane_airframe_10_desc: ""
  cv_small_plane_airframe_11: "90's Carrier Airframe"
  cv_small_plane_airframe_11_desc: ""
- # FLTE code replace small_plane_airframe
- # FLTE code replace small_plane_cas_airframe
- # FLTE code replace small_plane_naval_bomber_airframe
- # FLTE code replace small_plane_suicide_airframe
- # FLTE code replace cv_small_plane_airframe
- # FLTE code replace cv_small_plane_cas_airframe
- # FLTE code replace cv_small_plane_naval_bomber_airframe
- # FLTE code replace cv_small_plane_suicide_airframe
- # FLTE code replace modern_small_airframe
  modern_small_airframe_1: "50's Small Airframe"
  modern_small_airframe_1_desc: ""
  modern_small_airframe_2: "55's Small Airframe"
@@ -445,10 +353,6 @@
  drone_airframe_2_desc: "An unmanned aerial vehicle (UAV), commonly known as a drone, is an aircraft without any human pilot, crew, or passengers on board. UAVs are a component of an unmanned aircraft system (UAS), which includes adding a ground-based controller and a system of communications with the UAV.["
  drone_airframe_3: "90's Drone Airframe"
  drone_airframe_3_desc: "An unmanned aerial vehicle (UAV), commonly known as a drone, is an aircraft without any human pilot, crew, or passengers on board. UAVs are a component of an unmanned aircraft system (UAS), which includes adding a ground-based controller and a system of communications with the UAV.["
- # FLTE code replace medium_plane_airframe
- # FLTE code replace medium_plane_fighter_airframe
- # FLTE code replace medium_plane_scout_plane_airframe
- # FLTE code replace modern_medium_airframe
  modern_medium_airframe_1: "55's Medium Plane Airframe"
  modern_medium_airframe_1_desc: ""
  modern_medium_airframe_2: "65's Medium Plane Airframe"
@@ -459,9 +363,6 @@
  modern_medium_airframe_4_desc: ""
  stealth_bomber_airframe: "Stealth Bomber"
  stealth_bomber_airframe_desc: "An airframe featuring a radically new design and coating designed to defeat search radars."
- # FLTE code replace large_plane_airframe
- # FLTE code replace large_plane_maritime_patrol_plane_airframe
- # FLTE code replace modern_large_airframe
  modern_large_airframe_1: "55's Large Plane Airframe"
  modern_large_airframe_1_desc: ""
  modern_large_airframe_2: "60's Large Plane Airframe"
@@ -470,7 +371,6 @@
  modern_large_airframe_3_desc: ""
  modern_large_airframe_4: "85's Large Plane Airframe"
  modern_large_airframe_4_desc: ""
- # FLTE code replace early_bombs
  medium_bombs: "Bombs II"
  medium_bombs_desc: ""
  modern_bombs: "Bombs III"
@@ -489,15 +389,10 @@
  turbofan_engine_turbofan_desc: ""
  modern_turbofan_engine: "Modern Turbofan Engine"
  modern_turbofan_engine_desc: ""
- # FLTE code replace photo_reconnaisance
- # FLTE code replace aa_hmg
  aa_hmg2: "Heavy MG II"
  aa_hmg2_desc: ""
  aa_hmg3: "Heavy MG III"
  aa_hmg3_desc: ""
- # FLTE code replace aa_cannon_2
- # FLTE code replace aa_cannon_3
- # FLTE code replace aa_cannon_3_desc
  aa_cannon_4: "Cannons IV"
  aa_cannon_4_desc: ""
  aa_cannon_5: "Cannons V"
@@ -516,7 +411,6 @@
  photoflashbomb_desc: ""
  tarpspod: "Airborne Reconnaissance Pod"
  tarpspod_desc: ""
- # FLTE code replace range_improvements
  range_improvements2: "Range Improvements II"
  range_improvements2_desc: ""
  range_improvements3: "Range Improvements III"

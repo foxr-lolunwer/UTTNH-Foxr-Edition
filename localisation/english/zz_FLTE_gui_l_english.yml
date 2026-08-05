@@ -1,20 +1,12 @@
-﻿l_simp_chinese:
-# welcome menu
-  FLTE_welcome_menu_title_tooltip: "This mod currently uses FLTE as its identifier, with UTTNH Foxr Edition as its name.\nCurrent Version: §Y0.2.0§!"
-  FLTE_welcome_menu_msg_tooltip: "This mod is an independent branch of UTTNH_2.0 and will add more unique content in the future."
-  FLTE_welcome_menu_start_button_tooltip_delayed: "Initializes the mod, including:\n- Vanilla starting technology mapping\n- Starting building initialization (Not required for this version)\n- Overriding starting units (Not required for this version)\n\nWill not re-initialize in multiplayer mode (In theory; untested)"
-
-  FLTE_welcome_menu_clicked_window_main_button_tooltip_delayed: "Open the information interface to configure or view mod settings and info"
-
-  FLTE_welcome_menu_clicked_window_0_title: "Welcome to this Mod"
-  FLTE_welcome_menu_clicked_window_0_text: "Select a sub-window to view from the buttons on the left:\n£FLTE_texticon_welcome_menu_main_sub_button_1 - Roadmap (Under Construction)\n£FLTE_texticon_welcome_menu_main_sub_button_2 - New Mechanics Tutorial (Under Construction)\n£FLTE_texticon_welcome_menu_main_sub_button_3 - Settings (Under Construction)\n£FLTE_texticon_welcome_menu_main_sub_button_4 - Discord Link (Clicking this button directly opens the mod's Discord server)\n£FLTE_texticon_welcome_menu_main_sub_button_5 - Mod Info (Under Construction)\nRight-click any sub-button to return to this page.\nOnce everything is ready, exit the information interface and click the flashing Start button in the bottom right corner to initialize. Initialized changes will fully reflect on the following day.\n\n\nTip: You can enable 'Use external web browser' in the game options to open web links."
-
-  FLTE_welcome_menu_clicked_window_1_text: "Under Construction / To Be Developed"
-
-  FLTE_welcome_menu_clicked_window_2_text: "Under Construction / To Be Developed"
-
-  FLTE_welcome_menu_clicked_window_3_text: "Under Construction / To Be Developed"
-
-  FLTE_welcome_menu_clicked_window_4_text: "Under Construction / To Be Developed"
-
-  FLTE_welcome_menu_clicked_window_5_text: "Under Construction / To Be Developed"
+﻿l_english:
+ FLTE_welcome_menu_title_tooltip: "This mod currently uses FLTE as its identifier, with UTTNH Foxr Edition as its name.\nCurrent Version: §Y0.2.0§!"
+ FLTE_welcome_menu_msg_tooltip: "This mod is an independent branch of UTTNH_2.0 and will add more unique content in the future."
+ FLTE_welcome_menu_start_button_tooltip_delayed: "Initializes the mod, including:\n- Vanilla starting technology mapping\n- Starting building initialization (Not required for this version)\n- Overriding starting units (Not required for this version)\n\nWill not re-initialize in multiplayer mode (In theory; untested)"
+ FLTE_welcome_menu_clicked_window_main_button_tooltip_delayed: "Open the information interface to configure or view mod settings and info"
+ FLTE_welcome_menu_clicked_window_0_title: "Welcome to this Mod"
+ FLTE_welcome_menu_clicked_window_0_text: "Select a sub-window to view from the buttons on the left:\n£FLTE_texticon_welcome_menu_main_sub_button_1 - Roadmap (Under Construction)\n£FLTE_texticon_welcome_menu_main_sub_button_2 - New Mechanics Tutorial (Under Construction)\n£FLTE_texticon_welcome_menu_main_sub_button_3 - Settings (Under Construction)\n£FLTE_texticon_welcome_menu_main_sub_button_4 - Discord Link (Clicking this button directly opens the mod's Discord server)\n£FLTE_texticon_welcome_menu_main_sub_button_5 - Mod Info (Under Construction)\nRight-click any sub-button to return to this page.\nOnce everything is ready, exit the information interface and click the flashing Start button in the bottom right corner to initialize. Initialized changes will fully reflect on the following day.\n\n\nTip: You can enable 'Use external web browser' in the game options to open web links."
+ FLTE_welcome_menu_clicked_window_1_text: "Under Construction / To Be Developed"
+ FLTE_welcome_menu_clicked_window_2_text: "Under Construction / To Be Developed"
+ FLTE_welcome_menu_clicked_window_3_text: "Under Construction / To Be Developed"
+ FLTE_welcome_menu_clicked_window_4_text: "Under Construction / To Be Developed"
+ FLTE_welcome_menu_clicked_window_5_text: "Under Construction / To Be Developed"

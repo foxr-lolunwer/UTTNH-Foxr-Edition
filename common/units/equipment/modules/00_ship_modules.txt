@@ -2945,141 +2945,130 @@ equipment_modules = {
 	ship_depth_charge_1 = {
 		category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
-		can_convert_from = {
-			module_category = ship_depth_charge
-			convert_cost_ic = 60
-		}
 		add_stats = {
-			build_cost_ic = 90
+			sub_attack = 8
+			build_cost_ic = 80
+			reliability = -0.02
 		}
 		multiply_stats = {
-			naval_speed = -0.01
+			naval_speed = -0.02		# ~
 		}
 	}
 	ship_depth_charge_2 = {
 		category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
-		can_convert_from = {
-			module_category = ship_depth_charge
-			convert_cost_ic = 90
-		}
+		parent = ship_depth_charge_1
 		add_stats = {
+			sub_attack = 12
 			build_cost_ic = 120
+			reliability = -0.02
 		}
 		multiply_stats = {
-			naval_speed = -0.01
+			naval_speed = -0.02		# ~
 		}
 	}
 	ship_depth_charge_3 = {
 		category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
-		can_convert_from = {
-			module_category = ship_depth_charge
-			convert_cost_ic = 120
-		}
+		parent = ship_depth_charge_2
 		add_stats = {
-			build_cost_ic = 150
+			sub_attack = 16
+			build_cost_ic = 160
+			reliability = -0.02
 		}
 		multiply_stats = {
-			naval_speed = -0.02
+			naval_speed = -0.02		# ~
 		}
 	}
 	ship_depth_charge_4 = {
 		category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
-		can_convert_from = {
-			module_category = ship_depth_charge
-			convert_cost_ic = 150
-		}
+		parent = ship_depth_charge_3
 		add_stats = {
-			build_cost_ic = 180
+			sub_attack = 20
+			build_cost_ic = 200
+			reliability = -0.02
 		}
 		multiply_stats = {
-			naval_speed = -0.02
+			naval_speed = -0.02		# ~
 		}
 	}
 	ship_depth_charge_5 = {
 		category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
-		can_convert_from = {
-			module_category = ship_depth_charge
-			convert_cost_ic = 180
-		}
+		parent = ship_depth_charge_4
 		add_stats = {
-			build_cost_ic = 230
+			sub_attack = 24
+			build_cost_ic = 240
+			reliability = -0.02
 		}
 		multiply_stats = {
-			naval_speed = -0.2
+			naval_speed = -0.02		# ~
 		}
 	}
 	ship_depth_charge_6 = {
 		category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
-		can_convert_from = {
-			module_category = ship_depth_charge
-			convert_cost_ic = 180
-		}
+		parent = ship_depth_charge_5
 		add_stats = {
-			build_cost_ic = 240
+			sub_attack = 40			# +5
+			build_cost_ic = 360		# +60
+			reliability = -0.02		# ~
 		}
 		multiply_stats = {
-			naval_speed = -0.2
+			naval_speed = -0.02		# ~
 		}
 	}
 	ship_depth_charge_7 = {
 		category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
-		can_convert_from = {
-			module_category = ship_depth_charge
-			convert_cost_ic = 210
-		}
+		parent = ship_depth_charge_6
 		add_stats = {
-			build_cost_ic = 270
+			sub_attack = 45			# +5
+			build_cost_ic = 420		# +60
+			reliability = -0.02		# ~
 		}
 		multiply_stats = {
-			naval_speed = -0.2
+			naval_speed = -0.02		# ~
 		}
 	}
 	ship_depth_charge_8 = {
 		category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
-		can_convert_from = {
-			module_category = ship_depth_charge
-			convert_cost_ic = 210
-		}
+		parent = ship_depth_charge_7
 		add_stats = {
-			build_cost_ic = 300
+			sub_attack = 50			# +5
+			build_cost_ic = 480		# +60
+			reliability = -0.02		# ~
 		}
 		multiply_stats = {
-			naval_speed = -0.2
+			naval_speed = -0.02		# ~
 		}
 	}
 	ship_depth_charge_9 = {
 		category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
-		can_convert_from = {
-			module_category = ship_depth_charge
-			convert_cost_ic = 210
-		}
+		parent = ship_depth_charge_8
 		add_stats = {
-			build_cost_ic = 330
+			sub_attack = 55			# +5
+			build_cost_ic = 540		# +60
+			reliability = -0.02		# ~
 		}
 		multiply_stats = {
-			naval_speed = -0.2
+			naval_speed = -0.02		# ~
 		}
 	}
 	ship_depth_charge_10 = {
 		category = ship_depth_charge
 		sfx = sfx_ui_sd_module_turret
-		can_convert_from = {
-			module_category = ship_depth_charge
-			convert_cost_ic = 210
-		}
+		parent = ship_depth_charge_9
 		add_stats = {
-			build_cost_ic = 360
+			sub_attack = 60			# +5
+			build_cost_ic = 600		# +60
+			reliability = -0.02		# ~
 		}
 		multiply_stats = {
-			naval_speed = -0.2
+			naval_speed = -0.02		# ~
 		}
 	}
 	ship_sub_snorkel_1 = {

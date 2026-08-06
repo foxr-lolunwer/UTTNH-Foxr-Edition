@@ -599,8 +599,8 @@ technologies = {
 	firearms_artillery_production_1 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = firearms_artillery_production_1 bonus = {
-				infantry_equipment = { build_cost_ic = -0.03 }
-				artillery_equipment = { build_cost_ic = -0.03 } } } }
+				infantry_equipment = { build_cost_ic = -0.03 instant = yes }
+				artillery_equipment = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -613,8 +613,8 @@ technologies = {
 	firearms_artillery_production_2 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = firearms_artillery_production_2 bonus = {
-				infantry_equipment = { build_cost_ic = -0.03 }
-				artillery_equipment = { build_cost_ic = -0.03 } } } }
+				infantry_equipment = { build_cost_ic = -0.03 instant = yes }
+				artillery_equipment = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -627,8 +627,8 @@ technologies = {
 	firearms_artillery_production_3 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = firearms_artillery_production_3 bonus = {
-				infantry_equipment = { build_cost_ic = -0.03 }
-				artillery_equipment = { build_cost_ic = -0.03 } } } }
+				infantry_equipment = { build_cost_ic = -0.03 instant = yes }
+				artillery_equipment = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -641,8 +641,8 @@ technologies = {
 	firearms_artillery_production_4 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = firearms_artillery_production_4 bonus = {
-				infantry_equipment = { build_cost_ic = -0.03 }
-				artillery_equipment = { build_cost_ic = -0.03 } } } }
+				infantry_equipment = { build_cost_ic = -0.03 instant = yes }
+				artillery_equipment = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -655,8 +655,8 @@ technologies = {
 	firearms_artillery_production_5 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = firearms_artillery_production_5 bonus = {
-				infantry_equipment = { build_cost_ic = -0.03 }
-				artillery_equipment = { build_cost_ic = -0.03 } } } }
+				infantry_equipment = { build_cost_ic = -0.03 instant = yes }
+				artillery_equipment = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -669,8 +669,8 @@ technologies = {
 	firearms_artillery_production_6 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = firearms_artillery_production_6 bonus = {
-				infantry_equipment = { build_cost_ic = -0.03 }
-				artillery_equipment = { build_cost_ic = -0.03 } } } }
+				infantry_equipment = { build_cost_ic = -0.03 instant = yes }
+				artillery_equipment = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -683,8 +683,8 @@ technologies = {
 	support_equipment_production_1 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = support_equipment_production_1 bonus = {
-				support_equipment = { build_cost_ic = -0.03 }
-				# advanced_support_equipment = { build_cost_ic = -0.03 }
+				support_equipment = { build_cost_ic = -0.03 instant = yes }
+				# advanced_support_equipment = { build_cost_ic = -0.03 instant = yes }
 			} } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
@@ -698,8 +698,8 @@ technologies = {
 	support_equipment_production_2 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = support_equipment_production2 bonus = {
-				support_equipment = { build_cost_ic = -0.03 }
-				# advanced_support_equipment = { build_cost_ic = -0.03 }
+				support_equipment = { build_cost_ic = -0.03 instant = yes }
+				# advanced_support_equipment = { build_cost_ic = -0.03 instant = yes }
 			} } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
@@ -713,8 +713,8 @@ technologies = {
 	support_equipment_production_3 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = support_equipment_production_3 bonus = {
-				support_equipment = { build_cost_ic = -0.03 }
-				# advanced_support_equipment = { build_cost_ic = -0.03 }
+				support_equipment = { build_cost_ic = -0.03 instant = yes }
+				# advanced_support_equipment = { build_cost_ic = -0.03 instant = yes }
 			} } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
@@ -728,8 +728,8 @@ technologies = {
 	support_equipment_production_4 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = support_equipment_production_4 bonus = {
-				support_equipment = { build_cost_ic = -0.03 }
-				# advanced_support_equipment = { build_cost_ic = -0.03 }
+				support_equipment = { build_cost_ic = -0.03 instant = yes }
+				# advanced_support_equipment = { build_cost_ic = -0.03 instant = yes }
 			} } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
@@ -743,8 +743,8 @@ technologies = {
 	support_equipment_production_5 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = support_equipment_production_5 bonus = {
-				support_equipment = { build_cost_ic = -0.03 }
-				# advanced_support_equipment = { build_cost_ic = -0.03 }
+				support_equipment = { build_cost_ic = -0.03 instant = yes }
+				# advanced_support_equipment = { build_cost_ic = -0.03 instant = yes }
 			} } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
@@ -758,8 +758,8 @@ technologies = {
 	support_equipment_production_6 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = support_equipment_production_6 bonus = {
-				support_equipment = { build_cost_ic = -0.03 }
-				# advanced_support_equipment = { build_cost_ic = -0.03 }
+				support_equipment = { build_cost_ic = -0.03 instant = yes }
+				# advanced_support_equipment = { build_cost_ic = -0.03 instant = yes }
 			} } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
@@ -773,8 +773,8 @@ technologies = {
 	car_production_1 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = car_production_1 bonus = {
-				motorized = { build_cost_ic = -0.03 }
-				mechanized = { build_cost_ic = -0.03 } } } }
+				motorized = { build_cost_ic = -0.03 instant = yes }
+				mechanized = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -787,8 +787,8 @@ technologies = {
 	car_production_2 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = car_production_2 bonus = {
-				motorized = { build_cost_ic = -0.03 }
-				mechanized = { build_cost_ic = -0.03 } } } }
+				motorized = { build_cost_ic = -0.03 instant = yes }
+				mechanized = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -801,8 +801,8 @@ technologies = {
 	car_production_3 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = car_production_3 bonus = {
-				motorized = { build_cost_ic = -0.03 }
-				mechanized = { build_cost_ic = -0.03 } } } }
+				motorized = { build_cost_ic = -0.03 instant = yes }
+				mechanized = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -815,8 +815,8 @@ technologies = {
 	car_production_4 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = car_production_4 bonus = {
-				motorized = { build_cost_ic = -0.03 }
-				mechanized = { build_cost_ic = -0.03 } } } }
+				motorized = { build_cost_ic = -0.03 instant = yes }
+				mechanized = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -829,8 +829,8 @@ technologies = {
 	car_production_5 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = car_production_5 bonus = {
-				motorized = { build_cost_ic = -0.03 }
-				mechanized = { build_cost_ic = -0.03 } } } }
+				motorized = { build_cost_ic = -0.03 instant = yes }
+				mechanized = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -843,8 +843,8 @@ technologies = {
 	car_production_6 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = car_production_6 bonus = {
-				motorized = { build_cost_ic = -0.03 }
-				mechanized = { build_cost_ic = -0.03 } } } }
+				motorized = { build_cost_ic = -0.03 instant = yes }
+				mechanized = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -857,7 +857,7 @@ technologies = {
 	armor_production_1 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = armor_production_1 bonus = {
-				armor = { build_cost_ic = -0.03 } } } }
+				armor = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -870,7 +870,7 @@ technologies = {
 	armor_production_2 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = armor_production_2 bonus = {
-				armor = { build_cost_ic = -0.03 } } } }
+				armor = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -883,7 +883,7 @@ technologies = {
 	armor_production_3 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = armor_production_3 bonus = {
-				armor = { build_cost_ic = -0.03 } } } }
+				armor = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -896,7 +896,7 @@ technologies = {
 	armor_production_4 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = armor_production_4 bonus = {
-				armor = { build_cost_ic = -0.03 } } } }
+				armor = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -909,7 +909,7 @@ technologies = {
 	armor_production_5 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = armor_production_5 bonus = {
-				armor = { build_cost_ic = -0.03 } } } }
+				armor = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -922,7 +922,7 @@ technologies = {
 	armor_production_6 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = armor_production_6 bonus = {
-				armor = { build_cost_ic = -0.03 } } } }
+				armor = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -935,10 +935,10 @@ technologies = {
 	plane_production_1 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = plane_production_1 bonus = {
-				small_plane_airframe = { build_cost_ic = -0.03 }
-				medium_plane_airframe = { build_cost_ic = -0.03 }
-				large_plane_airframe = { build_cost_ic = -0.03 }
-				transport_plane_equipment = { build_cost_ic = -0.03 } } } }
+				small_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				medium_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				large_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				transport_plane_equipment = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -951,10 +951,10 @@ technologies = {
 	plane_production_2 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = plane_production_2 bonus = {
-				small_plane_airframe = { build_cost_ic = -0.03 }
-				medium_plane_airframe = { build_cost_ic = -0.03 }
-				large_plane_airframe = { build_cost_ic = -0.03 }
-				transport_plane_equipment = { build_cost_ic = -0.03 } } } }
+				small_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				medium_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				large_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				transport_plane_equipment = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -967,10 +967,10 @@ technologies = {
 	plane_production_3 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = plane_production_3 bonus = {
-				small_plane_airframe = { build_cost_ic = -0.03 }
-				medium_plane_airframe = { build_cost_ic = -0.03 }
-				large_plane_airframe = { build_cost_ic = -0.03 }
-				transport_plane_equipment = { build_cost_ic = -0.03 } } } }
+				small_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				medium_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				large_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				transport_plane_equipment = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -983,10 +983,10 @@ technologies = {
 	plane_production_4 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = plane_production_4 bonus = {
-				small_plane_airframe = { build_cost_ic = -0.03 }
-				medium_plane_airframe = { build_cost_ic = -0.03 }
-				large_plane_airframe = { build_cost_ic = -0.03 }
-				transport_plane_equipment = { build_cost_ic = -0.03 } } } }
+				small_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				medium_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				large_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				transport_plane_equipment = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -999,10 +999,10 @@ technologies = {
 	plane_production_5 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = plane_production_5 bonus = {
-				small_plane_airframe = { build_cost_ic = -0.03 }
-				medium_plane_airframe = { build_cost_ic = -0.03 }
-				large_plane_airframe = { build_cost_ic = -0.03 }
-				transport_plane_equipment = { build_cost_ic = -0.03 } } } }
+				small_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				medium_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				large_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				transport_plane_equipment = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -1015,10 +1015,10 @@ technologies = {
 	plane_production_6 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = plane_production_6 bonus = {
-				small_plane_airframe = { build_cost_ic = -0.03 }
-				medium_plane_airframe = { build_cost_ic = -0.03 }
-				large_plane_airframe = { build_cost_ic = -0.03 }
-				transport_plane_equipment = { build_cost_ic = -0.03 } } } }
+				small_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				medium_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				large_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				transport_plane_equipment = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -1031,8 +1031,8 @@ technologies = {
 	small_ship_production_1 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = small_ship_production_1 bonus = {
-				submarine = { build_cost_ic = -0.03 }
-				screen_ship = { build_cost_ic = -0.03 } } } }
+				submarine = { build_cost_ic = -0.03 instant = yes }
+				screen_ship = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -1045,8 +1045,8 @@ technologies = {
 	small_ship_production_2 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = small_ship_production_2 bonus = {
-				submarine = { build_cost_ic = -0.03 }
-				screen_ship = { build_cost_ic = -0.03 } } } }
+				submarine = { build_cost_ic = -0.03 instant = yes }
+				screen_ship = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -1059,8 +1059,8 @@ technologies = {
 	small_ship_production_3 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = small_ship_production_3 bonus = {
-				submarine = { build_cost_ic = -0.03 }
-				screen_ship = { build_cost_ic = -0.03 } } } }
+				submarine = { build_cost_ic = -0.03 instant = yes }
+				screen_ship = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -1073,8 +1073,8 @@ technologies = {
 	small_ship_production_4 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = small_ship_production_4 bonus = {
-				submarine = { build_cost_ic = -0.03 }
-				screen_ship = { build_cost_ic = -0.03 } } } }
+				submarine = { build_cost_ic = -0.03 instant = yes }
+				screen_ship = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -1087,8 +1087,8 @@ technologies = {
 	small_ship_production_5 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = small_ship_production_5 name = small_ship_production_5 bonus = {
-				submarine = { build_cost_ic = -0.03 }
-				screen_ship = { build_cost_ic = -0.03 } } } }
+				submarine = { build_cost_ic = -0.03 instant = yes }
+				screen_ship = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -1101,8 +1101,8 @@ technologies = {
 	small_ship_production_6 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = small_ship_production_6 bonus = {
-				submarine = { build_cost_ic = -0.03 }
-				screen_ship = { build_cost_ic = -0.03 } } } }
+				submarine = { build_cost_ic = -0.03 instant = yes }
+				screen_ship = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -1115,8 +1115,8 @@ technologies = {
 	large_ship_production_1 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = large_ship_production_1 bonus = {
-				capital_ship = { build_cost_ic = -0.03 }
-				carrier = { build_cost_ic = -0.03 } } } }
+				capital_ship = { build_cost_ic = -0.03 instant = yes }
+				carrier = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -1129,8 +1129,8 @@ technologies = {
 	large_ship_production_2 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = large_ship_production_2 bonus = {
-				capital_ship = { build_cost_ic = -0.03 }
-				carrier = { build_cost_ic = -0.03 } } } }
+				capital_ship = { build_cost_ic = -0.03 instant = yes }
+				carrier = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -1143,8 +1143,8 @@ technologies = {
 	large_ship_production_3 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = large_ship_production_3 bonus = {
-				capital_ship = { build_cost_ic = -0.03 }
-				carrier = { build_cost_ic = -0.03 } } } }
+				capital_ship = { build_cost_ic = -0.03 instant = yes }
+				carrier = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -1157,8 +1157,8 @@ technologies = {
 	large_ship_production_4 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = large_ship_production_4 bonus = {
-				capital_ship = { build_cost_ic = -0.03 }
-				carrier = { build_cost_ic = -0.03 } } } }
+				capital_ship = { build_cost_ic = -0.03 instant = yes }
+				carrier = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -1171,8 +1171,8 @@ technologies = {
 	large_ship_production_5 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = large_ship_production_5 bonus = {
-				capital_ship = { build_cost_ic = -0.03 }
-				carrier = { build_cost_ic = -0.03 } } } }
+				capital_ship = { build_cost_ic = -0.03 instant = yes }
+				carrier = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -1185,8 +1185,8 @@ technologies = {
 	large_ship_production_6 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = large_ship_production_6 bonus = {
-				capital_ship = { build_cost_ic = -0.03 }
-				carrier = { build_cost_ic = -0.03 } } } }
+				capital_ship = { build_cost_ic = -0.03 instant = yes }
+				carrier = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -1199,10 +1199,10 @@ technologies = {
 	missile_production_1 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = missile_production_1 bonus = {
-				ballistic_missile = { build_cost_ic = -0.03 }
-				missile = { build_cost_ic = -0.03 }
-				sam_missile = { build_cost_ic = -0.03 }
-				nuclear_missile = { build_cost_ic = -0.03 } } } }
+				ballistic_missile = { build_cost_ic = -0.03 instant = yes }
+				missile = { build_cost_ic = -0.03 instant = yes }
+				sam_missile = { build_cost_ic = -0.03 instant = yes }
+				nuclear_missile = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -1215,10 +1215,10 @@ technologies = {
 	missile_production_2 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = missile_production_2 bonus = {
-				ballistic_missile = { build_cost_ic = -0.03 }
-				missile = { build_cost_ic = -0.03 }
-				sam_missile = { build_cost_ic = -0.03 }
-				nuclear_missile = { build_cost_ic = -0.03 } } } }
+				ballistic_missile = { build_cost_ic = -0.03 instant = yes }
+				missile = { build_cost_ic = -0.03 instant = yes }
+				sam_missile = { build_cost_ic = -0.03 instant = yes }
+				nuclear_missile = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -1231,10 +1231,10 @@ technologies = {
 	missile_production_3 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = missile_production_3 bonus = {
-				ballistic_missile = { build_cost_ic = -0.03 }
-				missile = { build_cost_ic = -0.03 }
-				sam_missile = { build_cost_ic = -0.03 }
-				nuclear_missile = { build_cost_ic = -0.03 } } } }
+				ballistic_missile = { build_cost_ic = -0.03 instant = yes }
+				missile = { build_cost_ic = -0.03 instant = yes }
+				sam_missile = { build_cost_ic = -0.03 instant = yes }
+				nuclear_missile = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1
@@ -1247,10 +1247,10 @@ technologies = {
 	missile_production_4 = {
 		on_research_complete = {
 			add_equipment_bonus = { name = missile_production_4 bonus = {
-				ballistic_missile = { build_cost_ic = -0.03 }
-				missile = { build_cost_ic = -0.03 }
-				sam_missile = { build_cost_ic = -0.03 }
-				nuclear_missile = { build_cost_ic = -0.03 } } } }
+				ballistic_missile = { build_cost_ic = -0.03 instant = yes }
+				missile = { build_cost_ic = -0.03 instant = yes }
+				sam_missile = { build_cost_ic = -0.03 instant = yes }
+				nuclear_missile = { build_cost_ic = -0.03 instant = yes } } } }
 		show_effect_as_desc = yes
 		research_cost = 2.5
 		start_year = 1

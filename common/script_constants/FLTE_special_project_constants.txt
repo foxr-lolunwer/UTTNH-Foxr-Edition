@@ -108,14 +108,14 @@ FLTE_sp_progress = {
         }
     }
     gain = {
-        low = 0.05
-        medium = 0.1
-        high = 0.15
+        low = 0.01
+        medium = 0.02
+        high = 0.03
     }
     loss = {
-        low = -0.1
-        medium = -0.2
-        high = -0.3
+        low = -0.02
+        medium = -0.04
+        high = -0.06
     }
 }
 

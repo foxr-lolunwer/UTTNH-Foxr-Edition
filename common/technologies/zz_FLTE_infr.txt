@@ -245,6 +245,7 @@ technologies = {
 		industry_air_damage_factor = 0.2
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.2
+		global_building_slots_factor = 0.1
 		path = { leads_to_tech = concentrated_industry_11 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1
@@ -258,6 +259,7 @@ technologies = {
 		industry_air_damage_factor = 0.2
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.2
+		global_building_slots_factor = 0.1
 		path = { leads_to_tech = concentrated_industry_12 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1
@@ -271,6 +273,7 @@ technologies = {
 		industry_air_damage_factor = 0.2
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.2
+		global_building_slots_factor = 0.1
 		path = { leads_to_tech = concentrated_industry_13 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1
@@ -284,6 +287,7 @@ technologies = {
 		industry_air_damage_factor = 0.2
 		industrial_capacity_factory = 0.1
 		industrial_capacity_dockyard = 0.2
+		global_building_slots_factor = 0.1
 		research_cost = 2
 		start_year = 1
 		folder = { name = FLTE_infr_folder position = { x = @concentrated_industry_branch y = @Tier7_2 } }
@@ -295,6 +299,7 @@ technologies = {
 	dispersed_industry_1 = {
 		industry_air_damage_factor = -0.1
 		production_factory_max_efficiency_factor = -0.03
+		global_building_slots_factor = 0.05
 		path = { leads_to_tech = dispersed_industry_2 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1
@@ -314,6 +319,7 @@ technologies = {
 	dispersed_industry_2 = {
 		industry_air_damage_factor = -0.1
 		production_factory_max_efficiency_factor = -0.03
+		global_building_slots_factor = 0.05
 		path = { leads_to_tech = dispersed_industry_3 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1
@@ -333,6 +339,7 @@ technologies = {
 	dispersed_industry_3 = {
 		industry_air_damage_factor = -0.1
 		production_factory_max_efficiency_factor = -0.03
+		global_building_slots_factor = 0.05
 		path = { leads_to_tech = dispersed_industry_4 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1
@@ -352,6 +359,7 @@ technologies = {
 	dispersed_industry_4 = {
 		industry_air_damage_factor = -0.1
 		production_factory_max_efficiency_factor = -0.03
+		global_building_slots_factor = 0.05
 		path = { leads_to_tech = dispersed_industry_5 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1
@@ -371,6 +379,7 @@ technologies = {
 	dispersed_industry_5 = {
 		industry_air_damage_factor = -0.1
 		production_factory_max_efficiency_factor = -0.03
+		global_building_slots_factor = 0.05
 		path = { leads_to_tech = dispersed_industry_6 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1
@@ -390,6 +399,7 @@ technologies = {
 	dispersed_industry_6 = {
 		industry_air_damage_factor = -0.1
 		production_factory_max_efficiency_factor = -0.03
+		global_building_slots_factor = 0.05
 		path = { leads_to_tech = dispersed_industry_7 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1
@@ -402,6 +412,7 @@ technologies = {
 	dispersed_industry_7 = {
 		industry_air_damage_factor = -0.1
 		production_factory_max_efficiency_factor = -0.03
+		global_building_slots_factor = 0.05
 		path = { leads_to_tech = dispersed_industry_8 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1
@@ -414,6 +425,7 @@ technologies = {
 	dispersed_industry_8 = {
 		industry_air_damage_factor = -0.1
 		production_factory_max_efficiency_factor = -0.03
+		global_building_slots_factor = 0.05
 		path = { leads_to_tech = dispersed_industry_9 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1
@@ -426,6 +438,7 @@ technologies = {
 	dispersed_industry_9 = {
 		industry_air_damage_factor = -0.1
 		production_factory_max_efficiency_factor = -0.03
+		global_building_slots_factor = 0.05
 		path = { leads_to_tech = dispersed_industry_10 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1
@@ -438,6 +451,7 @@ technologies = {
 	dispersed_industry_10 = {
 		industry_air_damage_factor = -0.1
 		production_factory_max_efficiency_factor = -0.03
+		global_building_slots_factor = 0.05
 		path = { leads_to_tech = dispersed_industry_11 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1
@@ -450,6 +464,7 @@ technologies = {
 	dispersed_industry_11 = {
 		industry_air_damage_factor = -0.1
 		production_factory_max_efficiency_factor = -0.03
+		global_building_slots_factor = 0.05
 		path = { leads_to_tech = dispersed_industry_12 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1
@@ -462,6 +477,7 @@ technologies = {
 	dispersed_industry_12 = {
 		industry_air_damage_factor = -0.1
 		production_factory_max_efficiency_factor = -0.03
+		global_building_slots_factor = 0.05
 		path = { leads_to_tech = dispersed_industry_13 research_cost_coeff = 1 }
 		research_cost = 2
 		start_year = 1
@@ -474,6 +490,7 @@ technologies = {
 	dispersed_industry_13 = {
 		industry_air_damage_factor = -0.1
 		production_factory_max_efficiency_factor = -0.03
+		global_building_slots_factor = 0.05
 		research_cost = 2
 		start_year = 1
 		folder = { name = FLTE_infr_folder position = { x = @dispersed_industry_branch y = @Tier7_2 } }

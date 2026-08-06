@@ -1,0 +1,4 @@
+﻿l_simp_chinese:
+  # 只有中文有这个问题
+  # anti_air_battery: "反坦克炮兵连" 原版
+  anti_air_battery: "防空炮兵连"

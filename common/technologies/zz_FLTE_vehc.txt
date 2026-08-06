@@ -1154,7 +1154,7 @@ technologies = {
         start_year = 1
         research_cost = 1.5
         path = { research_cost_coeff = 1 leads_to_tech = wartime_train }
-        path = { research_cost_coeff = 1 leads_to_tech = armored_train }
+        path = { research_cost_coeff = 1 leads_to_tech = railway_gun }
         folder = { name = FLTE_vehc_folder position = { x = @train_branch y = @Tier1_mid } }
         dependencies = { FLTE_tech_tier_vehc_1 = 1 }
 
@@ -1193,6 +1193,7 @@ technologies = {
 
         start_year = 1
         research_cost = 1.5
+        path = { research_cost_coeff = 1 leads_to_tech = armored_train }
         # path = { research_cost_coeff = 1 leads_to_tech = sp_cluster_shells }
         folder = { name = FLTE_vehc_folder position = { x = @armor_train_branch y = @Tier2_2 } }
         dependencies = { FLTE_tech_tier_vehc_2 = 1 }
@@ -1232,7 +1233,6 @@ technologies = {
 
         start_year = 1
         research_cost = 1.5
-        path = { research_cost_coeff = 1 leads_to_tech = railway_gun }
         folder = { name = FLTE_vehc_folder position = { x = @armor_train_branch y = @Tier3_2 } }
         dependencies = { FLTE_tech_tier_vehc_3 = 1 }
 

@@ -99,4 +99,24 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+	spriteType = {
+		name = GFX_FLTE_link_button_discord
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_link_button_discord.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = GFX_FLTE_link_button_steam_workshop
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_link_button_steam_workshop.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = GFX_FLTE_link_button_github
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_link_button_github.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = GFX_FLTE_link_button_paratranz
+		textureFile = "gfx/interface/FLTE_gui/welcome_menu/FLTE_link_button_paratranz.dds"
+		noOfFrames = 3
+	}
 }

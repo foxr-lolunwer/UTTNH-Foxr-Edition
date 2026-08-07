@@ -1,20 +1,35 @@
 ﻿l_simp_chinese:
  # welcome menu
-  FLTE_welcome_menu_title_tooltip: "模组目前使用FLTE作为模组标识，UTTNH Foxr Edition为模组名\n当前版本：§Y0.2.0§!"
+  FLTE_LOCT_mod_version: "0.2.1-rainbow"
+  FLTE_welcome_menu_title_tooltip: "模组目前使用FLTE作为模组标识，UTTNH Foxr Edition为模组名\n当前版本：§Y0.2.1-rainbow§!" # 你家P社不允许在提示中直接引用
   FLTE_welcome_menu_msg_tooltip: "此模组是UTTNH_2.0的一个独立分支，将来会添加更多独特内容。"
   FLTE_welcome_menu_start_button_tooltip_delayed: "将会进行模组初始化，包括：\n- 原版开局科技映射\n- 开局建筑初始化（此版本不需要）\n- 覆盖开局单位（此版本不需要）\n\n多人模式下不会重复初始化（理论上，未经测试）"
 
   FLTE_welcome_menu_clicked_window_main_button_tooltip_delayed: "打开信息界面，进行模组配置/查看模组信息"
 
   FLTE_welcome_menu_clicked_window_0_title: "欢迎使用本模组"
-  FLTE_welcome_menu_clicked_window_0_text: "在左侧子按钮中选择要查看的子窗口：\n£FLTE_texticon_welcome_menu_main_sub_button_1 - 计划表-施工中\n£FLTE_texticon_welcome_menu_main_sub_button_2 - 新机制教程-施工中\n£FLTE_texticon_welcome_menu_main_sub_button_3 - 设置-施工中\n£FLTE_texticon_welcome_menu_main_sub_button_4 - Discord链接，目前点击按钮会直接跳转到本模组Discord服务器\n£FLTE_texticon_welcome_menu_main_sub_button_5 - 模组信息-施工中\n右键任意子按钮返回本页\n一切就绪后退出信息界面，然后点击右下角闪烁的的开始按钮进行初始化。初始化后的结果要到第二天才会完全显示\n\n\n提示：可以在游戏选项中勾选使用外部浏览器打开网页链接"
+  FLTE_welcome_menu_clicked_window_0_text: "在左侧子按钮中选择要查看的子窗口：\n£FLTE_texticon_welcome_menu_main_sub_button_1 - 计划表-施工中\n£FLTE_texticon_welcome_menu_main_sub_button_2 - 新机制教程\n£FLTE_texticon_welcome_menu_main_sub_button_3 - 设置-施工中\n£FLTE_texticon_welcome_menu_main_sub_button_4 - 相关链接\n£FLTE_texticon_welcome_menu_main_sub_button_5 - 模组信息\n右键任意子按钮返回本页\n一切就绪后退出信息界面，然后点击右下角闪烁的的开始按钮进行初始化。初始化后的结果要到第二天才会完全显示\n\n\n提示：可以在游戏选项中勾选使用外部浏览器打开网页链接"
 
   FLTE_welcome_menu_clicked_window_1_text: "施工中，待开发"
 
-  FLTE_welcome_menu_clicked_window_2_text: "施工中，待开发"
+  FLTE_welcome_menu_clicked_window_2_text: "§Y科研等级§!\n现在几乎所有可研发科技都有科研等级限制。各个领域的科研等级均是从I-VII。\n点击初始化按钮后，会根据各个国家的当前科技和工厂数量自动分配初始的科研等级。\n科研等级可以必须通过特殊工程提升。特别地，$specialization_land$、$specialization_naval$和$specialization_air$需要通过$specialization_engineering$特殊工程提升。\n\n§Y新建造机制和新建筑§!\n现在许多建筑，比如$infrastructure$等都需要相应的科技才能解锁或提升等级上限。\n同时本模组还添加了一些新建筑，包括提供地区建筑槽位的$industrial_expansion$、提供战略资源的$resource_expansion_steel$等建筑。\n\n§Y一些建议§!\n\n开局时一定要提前规划好自己的科技发展路线，做好取舍，中途调整科研方向会浪费大量时间。如果缺少突破点，可以研发对应的突破点科技，不过时间比较长。\n游玩大国时一定要注意合理分配工业或生产科技的研究时间，不要因为一直研究这类科技而忽视了装备的研发。当研发一些工业科技时，会解锁对应的原版科技，这个过程是隐藏的。因此依赖原版科技的机制均可以通过判定。"
 
   FLTE_welcome_menu_clicked_window_3_text: "施工中，待开发"
 
-  FLTE_welcome_menu_clicked_window_4_text: "施工中，待开发"
+  FLTE_welcome_menu_clicked_window_4_title: "网页链接"
+  FLTE_welcome_menu_clicked_window_4_link_1_title: "FLTE"
+  FLTE_welcome_menu_clicked_window_4_link_1_title_tooltip: "FLTE(UTTNH Foxr Edition)，FLTE还是本模组的代码通用前缀。"
+  FLTE_welcome_menu_clicked_window_4_link_1_button_1_tooltip: "本模组的创意工坊界面。"
+  FLTE_welcome_menu_clicked_window_4_link_1_button_2_tooltip: "本模组的Discord服务器，模组的最新动态以及开发者互动将在此处发布，同时还可以进行模组讨论/bug反馈/提出建议。"
+  FLTE_welcome_menu_clicked_window_4_link_1_button_3_tooltip: "本模组的GitHub代码仓库，同时在此处可以获得最新的测试版本以及预发布版本。"
+  FLTE_welcome_menu_clicked_window_4_link_1_button_4_tooltip: "本模组的中译英校对平台，用来校对英文文本。"
+  FLTE_welcome_menu_clicked_window_4_link_2_title: "UTTNH_2.0"
+  FLTE_welcome_menu_clicked_window_4_link_2_title_tooltip: "此模组在UTTNH_2.0获得了其独立分支许可。当前模组的大部分内容由UTTNH_2.0提供。"
+  FLTE_welcome_menu_clicked_window_4_link_2_button_1_tooltip: "此模组的创意工坊界面。"
+  FLTE_welcome_menu_clicked_window_4_link_2_button_2_tooltip: "此模组的Discord服务器。"
+  FLTE_welcome_menu_clicked_window_4_link_3_title: "Industrial Expansion"
+  FLTE_welcome_menu_clicked_window_4_link_3_title_tooltip: "本模组使用了§Y\Industrial Expansion - Extra Building Slots and Resources!§!提供的图形资产和部分代码（下称Industrial Expansion）"
+  FLTE_welcome_menu_clicked_window_4_link_3_button_1_tooltip: "(Vanilla) Industrial Expansion的创意工坊界面"
+  FLTE_welcome_menu_clicked_window_4_link_3_button_2_tooltip: "(Rt56) Industrial Expansion的创意工坊界面"
 
-  FLTE_welcome_menu_clicked_window_5_text: "施工中，待开发"
+  FLTE_welcome_menu_clicked_window_5_text: "模组名：UTTNH Foxr Edition\n当前版本：$FLTE_LOCT_mod_version$\n鸣谢列表：\nUTTNH_2.0：授权发布独立分支和使用后续更新内容的权利\n(Rt56) Industrial Expansion - Extra Building Slots and Resources!：允许发布修改后的版本"

@@ -495,9 +495,9 @@ guiTypes = {
 			name = "discord_button"
 			position = { x = 16 y = 258 }
 			quadTextureSprite ="GFX_main_lobby_button"	
-			buttonText = "Ultimate Tech Tree Discord"
+			buttonText = "FLTE(UTTNH FE) Discord"
 			buttonFont = "hoi_24header"
-			web_link = "https://discord.gg/smftMbrCcM"
+			web_link = "https://discord.gg/mgPDcGESnt"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}

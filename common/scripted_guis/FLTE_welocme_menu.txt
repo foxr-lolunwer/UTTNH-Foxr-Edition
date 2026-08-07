@@ -74,7 +74,7 @@ scripted_gui = {
             }
             sub_button_2_click = {
                 if = {
-                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1 } }
+                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2 } }
                     clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_0
                     clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1
                     set_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2
@@ -85,7 +85,7 @@ scripted_gui = {
             }
             sub_button_3_click = {
                 if = {
-                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1 } }
+                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_3 } }
                     clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_0
                     clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1
                     clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2
@@ -96,7 +96,7 @@ scripted_gui = {
             }
             sub_button_4_click = {
                 if = {
-                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1 } }
+                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_4 } }
                     clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_0
                     clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1
                     clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2
@@ -107,7 +107,7 @@ scripted_gui = {
             }
             sub_button_5_click = {
                 if = {
-                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1 } }
+                    limit = { NOT = { has_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_5 } }
                     clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_0
                     clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_1
                     clr_country_flag = FLTE_FLAG_UI_welcome_menu_clicked_window_show_2

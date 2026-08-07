@@ -14,7 +14,7 @@ guiTypes = {
 		orientation = CENTER
 
 		background = {
-			name = "AHET_welcome_menu_bg"
+			name = "bg"
 			quadTextureSprite = "GFX_FLTE_NONE"
 		}
 		iconType = {
@@ -88,7 +88,6 @@ guiTypes = {
 			position = { x = 129 y = 60 }
 			spriteType = "GFX_FLTE_welcome_menu_main_sub_button_4"
 			transparencecheck = yes
-			web_link = "https://discord.gg/mgPDcGESnt"
 		}
 		buttonType = {
 			name = "sub_button_5"
@@ -102,10 +101,14 @@ guiTypes = {
 		position = { x = 209 y = 32 }
 		size = { width = 591 height = 450 }
 		margin = { top = 10 bottom = 10 left = 50 right = 50 }
+		background = {
+			name = "bg"
+			quadTextureSprite = "GFX_FLTE_NONE"
+		}
 
 		instantTextBoxType = {
 			name = "title"
-			position = { x= 0 y = 60 }
+			position = { x= 0 y = 40 }
 			font = "hoi_30header"
 			text = "FLTE_welcome_menu_clicked_window_0_title"
 			format = center
@@ -116,7 +119,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "text"
-			position = { x= 0 y = 120 }
+			position = { x= 0 y = 100 }
 			font = "hoi_18mbs"
 			text = "FLTE_welcome_menu_clicked_window_0_text"
 			format = left
@@ -130,6 +133,13 @@ guiTypes = {
 		position = { x = 209 y = 32 }
 		size = { width = 591 height = 450 }
 		margin = { top = 10 bottom = 10 left = 50 right = 50 }
+		clipping = yes
+		verticalScrollbar = "right_vertical_slider"
+		smooth_scrolling = yes
+		background = {
+			name = "bg"
+			quadTextureSprite = "GFX_FLTE_NONE"
+		}
 
 		instantTextBoxType = {
 			name = "title"
@@ -147,6 +157,13 @@ guiTypes = {
 		position = { x = 209 y = 32 }
 		size = { width = 591 height = 450 }
 		margin = { top = 10 bottom = 10 left = 50 right = 50 }
+		clipping = yes
+		verticalScrollbar = "right_vertical_slider"
+		smooth_scrolling = yes
+		background = {
+			name = "bg"
+			quadTextureSprite = "GFX_FLTE_NONE"
+		}
 
 		instantTextBoxType = {
 			name = "title"
@@ -164,6 +181,13 @@ guiTypes = {
 		position = { x = 209 y = 32 }
 		size = { width = 591 height = 450 }
 		margin = { top = 10 bottom = 10 left = 50 right = 50 }
+		clipping = yes
+		verticalScrollbar = "right_vertical_slider"
+		smooth_scrolling = yes
+		background = {
+			name = "bg"
+			quadTextureSprite = "GFX_FLTE_NONE"
+		}
 
 		instantTextBoxType = {
 			name = "title"
@@ -181,16 +205,128 @@ guiTypes = {
 		position = { x = 209 y = 32 }
 		size = { width = 591 height = 450 }
 		margin = { top = 10 bottom = 10 left = 50 right = 50 }
+		clipping = yes
+		verticalScrollbar = "right_vertical_slider"
+		smooth_scrolling = yes
+		background = {
+			name = "bg"
+			quadTextureSprite = "GFX_FLTE_NONE"
+		}
 
 		instantTextBoxType = {
 			name = "title"
 			position = { x= 0 y = 0 }
-			font = "hoi_18mbs"
-			text = "FLTE_welcome_menu_clicked_window_4_text"
-			format = left
+			font = "hoi_30header"
+			text = "FLTE_welcome_menu_clicked_window_4_title"
+			format = center
 			origo = center
 			maxWidth = 471
-			maxHeight = 430
+			maxHeight = 32
+		}
+
+		containerWindowType = {
+			name = "link_1"
+			position = { x = 0 y = 48 }
+			size = { width = 591 height = 164 } # h=48*3+20
+			margin = { top = 10 bottom = 10 left = 20 right = 20 }
+			instantTextBoxType = {
+				name = "link_1_title"
+				position = { x= 0 y = 0 }
+				font = "hoi_30header"
+				text = "FLTE_welcome_menu_clicked_window_4_link_1_title"
+				pdx_tooltip = "FLTE_welcome_menu_clicked_window_4_link_1_title_tooltip"
+				format = center
+				maxWidth = 431
+				maxHeight = 32
+			}
+			buttonType = { # SteamWorkShop-FLTE
+				name = "link_1_button_1"
+				position = { x = 30 y = 48 }
+				spriteType = "GFX_FLTE_link_button_steam_workshop"
+				pdx_tooltip = "FLTE_welcome_menu_clicked_window_4_link_1_button_1_tooltip"
+				web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=3756094743"
+			}
+			buttonType = { # Discord-FLTE
+				name = "link_1_button_2"
+				position = { x = 257 y = 48 }
+				spriteType = "GFX_FLTE_link_button_discord"
+				pdx_tooltip = "FLTE_welcome_menu_clicked_window_4_link_1_button_2_tooltip"
+				web_link = "https://discord.gg/mgPDcGESnt"
+			}
+			buttonType = { # GitHub-FLTE
+				name = "link_1_button_3"
+				position = { x = 30 y = 96 }
+				spriteType = "GFX_FLTE_link_button_github"
+				pdx_tooltip = "FLTE_welcome_menu_clicked_window_4_link_1_button_3_tooltip"
+				web_link = "https://github.com/foxr-lolunwer/UTTNH-Foxr-Edition"
+			}
+			buttonType = { # ChineseToEnglishProject-FLTE 
+				name = "link_button_1_4"
+				position = { x = 257 y = 96 }
+				spriteType = "GFX_FLTE_link_button_paratranz"
+				pdx_tooltip = "FLTE_welcome_menu_clicked_window_4_link_1_button_4_tooltip"
+				web_link = "https://paratranz.cn/projects/20120"
+			}
+		}
+		containerWindowType = {
+			name = "link_2"
+			position = { x = 0 y = 212 }
+			size = { width = 591 height = 116 } # h=48*2+20
+			margin = { top = 10 bottom = 10 left = 20 right = 20 }
+			instantTextBoxType = {
+				name = "link_2_title"
+				position = { x= 0 y = 0 }
+				font = "hoi_30header"
+				text = "FLTE_welcome_menu_clicked_window_4_link_2_title"
+				pdx_tooltip = "FLTE_welcome_menu_clicked_window_4_link_2_title_tooltip"
+				format = center
+				maxWidth = 431
+				maxHeight = 32
+			}
+			buttonType = { # SteamWorkShop-UTTNH_2.0
+				name = "link_2_button_1"
+				position = { x = 30 y = 48 }
+				spriteType = "GFX_FLTE_link_button_steam_workshop"
+				pdx_tooltip = "FLTE_welcome_menu_clicked_window_4_link_2_button_1_tooltip"
+				web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=3413890094"
+			}
+			buttonType = { # Discord-UTTNH_2.0
+				name = "link_2_button_2"
+				position = { x = 257 y = 48 }
+				spriteType = "GFX_FLTE_link_button_discord"
+				pdx_tooltip = "FLTE_welcome_menu_clicked_window_4_link_2_button_2_tooltip"
+				web_link = "https://discord.gg/Knzc7MtMv9"
+			}
+		}
+		containerWindowType = {
+			name = "link_3"
+			position = { x = 0 y = 328 }
+			size = { width = 591 height = 116 } # h=48*2+20
+			margin = { top = 10 bottom = 10 left = 20 right = 20 }
+			instantTextBoxType = {
+				name = "link_2_title"
+				position = { x= 0 y = 0 }
+				font = "hoi_30header"
+				text = "FLTE_welcome_menu_clicked_window_4_link_3_title"
+				pdx_tooltip = "FLTE_welcome_menu_clicked_window_4_link_3_title_tooltip"
+				format = center
+				maxWidth = 431
+				maxHeight = 32
+			}
+			buttonType = { # SteamWorkShop-[Vanilla] Industrial Expansion - Extra Building Slots and Resources!
+				name = "link_3_button_1"
+				position = { x = 30 y = 48 }
+				spriteType = "GFX_FLTE_link_button_steam_workshop"
+				pdx_tooltip = "FLTE_welcome_menu_clicked_window_4_link_3_button_1_tooltip"
+				web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=2707538501"
+			}
+			buttonType = { # SteamWorkShop-[Rt56] Industrial Expansion - Extra Building Slots and Resources!
+				name = "link_3_button_2"
+				position = { x = 257 y = 48 }
+				spriteType = "GFX_FLTE_link_button_steam_workshop"
+				pdx_tooltip = "FLTE_welcome_menu_clicked_window_4_link_3_button_2_tooltip"
+				web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=2795238326"
+			}
 		}
 	}
 	containerWindowType = {
@@ -198,6 +334,13 @@ guiTypes = {
 		position = { x = 209 y = 32 }
 		size = { width = 591 height = 450 }
 		margin = { top = 10 bottom = 10 left = 50 right = 50 }
+		clipping = yes
+		verticalScrollbar = "right_vertical_slider"
+		smooth_scrolling = yes
+		background = {
+			name = "bg"
+			quadTextureSprite = "GFX_FLTE_NONE"
+		}
 
 		instantTextBoxType = {
 			name = "title"

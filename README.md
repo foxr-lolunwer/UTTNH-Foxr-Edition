@@ -2,60 +2,77 @@
 
 🌐 [Chinese Version / 中文版](zzz_mod_info/README_zh.md)
 
-A standalone, authorized fork of **UTTNH_2.0** for Hearts of Iron IV (HOI4), tailored for a deeper and more immersive gameplay experience. This project has received explicit permission from the original author to be independently maintained, updated, and published.
+An independent spin-off mod for *Hearts of Iron IV* (HOI4), engineered for a deeper and more immersive gameplay experience. Based on **UTTNH_2.0**, this mod has received official authorization from the original author for independent maintenance and publication.
 
-👉 **[View Authorization](zzz_mod_info/Authorization-UTTNH.png)**
+Additionally, authorization for assets from other mods has been obtained—either via direct permission or standard open-licensing terms.  
+👉 **For detailed permissions and credits, see the `zzz_mod_info` directory.**
 
 ---
 
-## 📌 Current Status
+## 📌 Current Development Status
 
-The mod is currently in a **code refactoring stage**.
-
-> [!NOTE]
-> The current phase strictly focuses on code sanitization and backend framework implementation. No unique custom gameplay mechanics or content have been added yet.
+This mod is currently in the **Content Refinement** phase.
 
 > [!WARNING]
-> This fork removes a substantial amount of legacy UTTNH content, such as outdated modifications to Military Industrial Organizations (MIOs) and AI strategies.
-> Due to limited development resources, you must own at least the DLCs that introduce the Tank Designer and Aircraft Designer features to use this mod.
+> **DLC Dependencies**  
+> This mod deprecates and removes several outdated UTTNH base features (such as custom Military Industrial Organizations and AI strategies).  
+> To ensure all core systems function properly, you **must** own the DLCs containing the following mechanics:
+> * Tank Designer (*No Step Back*)
+> * Aircraft Designer (*By Blood Alone*)
+> * Intelligence Agency Systems (*La Résistance*)
+> * Special Projects (*Götterdämmerung*)
 
 ---
 
-## 🛠️ Optimizations & Fixes Applied
+## 🛠️ Completed Core Features
 
-While no new custom mechanics have been introduced yet, this edition implements the following critical improvements over the baseline UTTNH:
-
-*   **Up-to-date Compatibility**: Successfully integrated and adapted **major** codebase changes from all official HOI4 updates (including patch 1.17 and its accompanying DLC *Thunder at Our Gates*) released since UTTNH's last update.
-*   **Tech Tree Code Formatting**: Re-engineered and strictly formatted the original technology script files. Properties have been reordered, indentation normalized, and path logic standardized to maximize future modding and expansion efficiency.
-*   **Code Sanitization & Streamlining**: Purged unnecessary and redundant files, making the mod more lightweight while keeping all core functionality intact.
-*   **Integrated Chinese Localization**: Fully incorporated the localization assets from the UTTNH_2.0 CNT project, which was initiated and co-authored by myself.
+* **Codebase Optimization**: Refactored and streamlined bloated legacy code from UTTNH. This significantly improves readability and general mod compatibility without sacrificing functionality.
+* **Technology Level System**: Replaced vanilla tech year restrictions with a novel Tech Level mechanic. Players must now raise their overall Tech Level to research advanced technologies.
+* **Building Tier Limits**: Introduced cap constraints for primary state buildings, allowing players to expand building caps through technological advancement.
+* **Overhauled Industry & Production Techs**: Completely replaces vanilla industrial tech trees. Offers comprehensive passive bonuses while retaining single-direction vanilla tech mapping for backend compatibility.
 
 ---
 
 ## 🌐 Supported Languages
 
-This mod currently includes localization support for the following languages, categorized by their maintenance status:
+Localization support is categorized into **Native Support** and **Inherited Support** based on current maintenance status:
 
-* **🇬🇧 English** - **Native Support**.
-* **🇨🇳 Chinese** - **Native Support**. Fully integrated with the UTTNH_2.0 CNT localization project, fully maintained and updated by myself.
-* **🇷🇺 Russian** - **Inherited from upstream**. Retains the legacy translation from the original UTTNH mod. Due to limited development resources, **I will not actively maintain or update this language**.
-* **🇩🇪 German** - **Inherited from upstream**. Retains the legacy translation from the original UTTNH mod. Likewise, **this is not included in my future maintenance plans**.
+| Language | Status | Notes |
+| :--- | :--- | :--- |
+| 🇨🇳 **Simplified Chinese** | **Native Support** | Primary development language |
+| 🇬🇧 **English** | **Native Support** | Actively maintained |
+| 🇷🇺 **Russian** | **Inherited** | Deprecated / Outdated; no active maintenance planned |
+| 🇩🇪 **German** | **Inherited** | Deprecated / Outdated; no active maintenance planned |
+| 🇫🇷 **French** | **Inherited** | Deprecated / Outdated; no active maintenance planned |
 
 > [!TIP]
-> 🤝 **To Translators & Community Contributors:**
-> I highly welcome and encourage developers and translators of any other languages to join in! This mod is more than excited to support a diverse language ecosystem in the future.
+> 🤝 **To Community Translators & Collaborators:**  
+> We warmly welcome and encourage translators to contribute to localization efforts!
 > 
-> **⚠️ Translation Advice for the Current Stage:**
-> Please note that the mod is currently undergoing **heavy backend refactoring, meaning the codebase and localization text are highly unstable. Therefore, it is NOT recommended to start any active translation work at this stage.**
-> 
-> **💡 Submission Model:**
-> I highly suggest that translators publish their respective language packs as **standalone localization sub-mods** on the Steam Workshop. 
-> Once you have completed the upload, you can contact me (via Steam, etc.) to have the link to your language pack added here.
+> **💡 Recommended Submission Workflow:**  
+> We recommend publishing language translations as **standalone localization sub-mods** on the Steam Workshop. Once uploaded, feel free to reach out (via Steam, Discord, etc.) to have your sub-mod linked on the main Workshop page.
+
+---
+
+## 🧩 Mod Compatibility
+
+⚠️ **The following types of mods are strictly INCOMPATIBLE:**
+
+* **Tech Tree Layout Overhauls**: Any mod that modifies the base tech tree UI layout or injects new technologies directly into tech tree folders.
+* **State Interface Overhauls**: Any mod that adds state building slots or alters state UI elements (*compatible ONLY with mods that attach side/popup windows to the state interface*).
+* **Custom Building Icons**: Any mod that adds new buildings with **custom building icons**.
+
 ---
 
 ## 📅 Roadmap
 
-1.  **Black ICE-Style Construction Tech**: Introduce deeper and more comprehensive industry construction and infrastructure modifiers. (Development is mostly complete, currently awaiting integration with the tier system)
-2.  **Tech-Tier System**: Lower the rigid year-based restrictions of UTTNH technologies and replace them with a dynamic research tier system. (Awaiting backend refactoring completion)
-3.  **Doctrine Tree Overhaul**: Completely rewrite existing doctrine logic and extend the overall length and depth of the doctrine trees. (Planned for later)
-4.  ...
+1. **Industrial Capacity Throttle** *(Planned)*: Dynamically scales building speed penalties based on total owned factory count; penalties can be mitigated through industrial research.
+2. **Tank Designer & Tech Overhaul** *(Candidate for v0.3.x, inspired by BlackICE)*
+3. **Aircraft Designer & Tech Overhaul** *(Candidate for v0.3.x)*
+4. **Naval Designer & Tech Overhaul** *(Candidate for v0.3.x, inspired by BlackICE & VNR)*
+5. **Army Helicopter Designer & Techs** *(Planned)*: Introduces helicopters as a distinct army equipment type.
+6. **Global Economic & Military Ledger** *(Planned)*: View global economic and military rankings with associated bonuses (*incompatible with mods adding non-vanilla equipment*).
+7. **Localization File Refactoring** *(Planned)*: Further standardizes key-value strings and file structure for improved localization maintenance.
+8. **Expanded Special Projects** *(Planned)*: Certain projects will release alongside vehicle designer overhauls.
+9. **Motorized/Vehicle Designer Overhaul** *(Planned)*: Introduces a vehicle designer framework similar to *Millennium Dawn*.
+10. **Espionage System Expansion** *(Under Evaluation)*: Core logic is implemented; public integration will depend on community feedback.

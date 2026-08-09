@@ -1,0 +1,153 @@
+sub_units = {
+	battleship = {
+		sprite = battleship
+		map_icon_category = ship
+		priority = 20
+		active = yes
+		type = { capital_ship }
+		need_equipment = { ship_hull_heavy = 1 }
+		need_equipment_modules = {
+			any = {
+				ship_category_bb = 1
+			}
+		}
+
+		max_organisation = 50
+
+		supply_consumption = 0.2
+
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
+		critical_part_damage_chance_mult = 1
+
+		hit_profile_mult = 1.0
+	}
+	battle_cruiser = {
+		sprite = battle_cruiser
+		map_icon_category = ship
+		priority = 18
+		active = yes
+		type = { capital_ship }
+		need_equipment = { ship_hull_heavy = 1 }
+		need_equipment_modules = {
+			any = {
+				ship_category_bc = 1
+			}
+		}
+
+		max_organisation = 50
+
+		supply_consumption = 0.12
+
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
+		critical_part_damage_chance_mult = 1
+
+		hit_profile_mult = 1.0
+	}
+	super_cruiser = {
+		sprite = super_cruiser
+		map_icon_category = ship
+		priority = 16
+		active = yes
+		type = { capital_ship }
+		need_equipment = { ship_hull_large_cruiser = 1 }
+		need_equipment_modules = {
+			any = {
+				ship_category_cs = 1
+			}
+		}
+
+		max_organisation = 45
+
+		supply_consumption = 0.15
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
+		critical_part_damage_chance_mult = 1
+
+		hit_profile_mult = 1.0
+	}
+	large_cruiser = {
+		sprite = large_cruiser
+		map_icon_category = ship
+		priority = 14
+		active = yes
+		type = { capital_ship }
+		need_equipment = { ship_hull_large_cruiser = 1 }
+		need_equipment_modules = {
+			any = {
+				ship_category_cb = 1
+			}
+		}
+
+		max_organisation = 45
+
+		supply_consumption = 0.15
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
+		critical_part_damage_chance_mult = 1
+
+		hit_profile_mult = 1.0
+	}
+	armored_cruiser = {
+		sprite = armored_cruiser
+		map_icon_category = ship
+		priority = 12
+		active = yes
+		type = { screen_ship }
+		need_equipment = { ship_hull_small_cruiser = 1 }
+		need_equipment_modules = {
+			any = {
+				ship_category_ca = 1
+			}
+		}
+
+		max_organisation = 45
+
+		supply_consumption = 0.15
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
+		critical_part_damage_chance_mult = 1
+
+		hit_profile_mult = 1.0
+	}
+	light_cruiser = {
+		sprite = light_cruiser
+		map_icon_category = ship
+		priority = 10
+		active = yes
+		type = { screen_ship }
+		need = { ship_hull_small_cruiser = 1 }
+		need_equipment_modules = {
+			any = {
+				ship_category_cl = 1
+			}
+		}
+
+		max_organisation = 40
+
+		supply_consumption = 0.04
+
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
+		critical_part_damage_chance_mult = 1
+
+		hit_profile_mult = 1.0
+	}
+	destroyer = {
+		sprite = destroyer
+		map_icon_category = ship
+		priority = 10
+		active = yes
+		type = { screen_ship }
+		need = { ship_hull_light = 1 }
+		need_equipment_modules = {
+			any = {
+				ship_category_dd = 1
+			}
+		}
+
+		max_organisation = 40
+
+		supply_consumption = 0.04
+
+		critical_parts = { rudder_jammed destroyed_ammo_storage broken_propeller on_fire }
+		critical_part_damage_chance_mult = 1
+
+		hit_profile_mult = 1.0
+	}
+}

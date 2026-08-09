@@ -1,6 +1,6 @@
 NDefines.NGame.END_DATE = "2000.1.1.1"
 -- 通用
-NDefines.NBuildings.MAX_SHARED_SLOTS = 64
+NDefines.NBuildings.MAX_SHARED_SLOTS = 64 -- 省份共享建筑槽数量 25
 NDefines.NBuildings.MAX_BUILDING_LEVELS = 50 -- 建筑可以拥有的最大等级。 15
 -- 基础设施
 NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.05 -- 每个（未损坏的）基础设施等级对资源的倍增奖励 0.15

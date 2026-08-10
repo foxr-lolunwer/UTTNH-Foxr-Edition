@@ -677,7 +677,7 @@ technologies = {
         on_research_complete = { add_breakthrough_points = { value = 1 specialization = specialization_land } }
         show_effect_as_desc = yes
         start_year = 1
-        research_cost = 4
+        research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = sp_land_2 }
         folder = { name = FLTE_advance_folder position = { x = @sp_land_branch y = @Tier0_mid } }
         
@@ -787,7 +787,7 @@ technologies = {
         on_research_complete = { add_breakthrough_points = { value = 1 specialization = specialization_naval } }
         show_effect_as_desc = yes
         start_year = 1
-        research_cost = 4
+        research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = sp_naval_2 }
         folder = { name = FLTE_advance_folder position = { x = @sp_naval_branch y = @Tier0_mid } }
         
@@ -898,7 +898,7 @@ technologies = {
         on_research_complete = { add_breakthrough_points = { value = 1 specialization = specialization_air } }
         show_effect_as_desc = yes
         start_year = 1
-        research_cost = 4
+        research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = sp_air_2 }
         folder = { name = FLTE_advance_folder position = { x = @sp_air_branch y = @Tier0_mid } }
         
@@ -1009,7 +1009,7 @@ technologies = {
         on_research_complete = { add_breakthrough_points = { value = 1 specialization = specialization_civilian } }
         show_effect_as_desc = yes
         start_year = 1
-        research_cost = 4
+        research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = sp_civilian_2 }
         folder = { name = FLTE_advance_folder position = { x = @sp_civilian_branch y = @Tier0_mid } }
         
@@ -1120,7 +1120,7 @@ technologies = {
         on_research_complete = { add_breakthrough_points = { value = 1 specialization = specialization_engineering } }
         show_effect_as_desc = yes
         start_year = 1
-        research_cost = 4
+        research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = sp_engineering_2 }
         folder = { name = FLTE_advance_folder position = { x = @sp_engineering_branch y = @Tier0_mid } }
         
@@ -1231,7 +1231,7 @@ technologies = {
         on_research_complete = { add_breakthrough_points = { value = 1 specialization = specialization_nuclear } }
         show_effect_as_desc = yes
         start_year = 1
-        research_cost = 4
+        research_cost = 1
         path = { research_cost_coeff = 1 leads_to_tech = sp_nuclear_2 }
         folder = { name = FLTE_advance_folder position = { x = @sp_nuclear_branch y = @Tier0_mid } }
         

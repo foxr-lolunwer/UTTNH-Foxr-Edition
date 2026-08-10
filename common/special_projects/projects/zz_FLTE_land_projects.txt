@@ -24,6 +24,10 @@ sp_land_flamethrower_tank = {
 	
 	available = {
 		FROM = {
+			has_tech = FLTE_tech_tier_vehc_3
+			has_tech = FLTE_tech_tier_ordn_2
+		}
+		FROM = {
 			has_tech = tech_engineers
 		}
 	}
@@ -125,6 +129,9 @@ sp_land_military_engineering_vehicles = {
 	
 	available = {
 		FROM = {
+			has_tech = FLTE_tech_tier_vehc_2
+		}
+		FROM = {
 			has_tech = tech_engineers
 		}
 	}
@@ -218,6 +225,9 @@ sp_land_land_cruiser = {
 	}
 
 	available = {
+		FROM = {
+			has_tech = FLTE_tech_tier_vehc_5
+		}
 		if = {
 			limit = {
 				has_dlc = "No Step Back"
@@ -951,6 +961,9 @@ sp_land_super_heavy_howitzer = {
 	
 	available = {
 		FROM = {
+			has_tech = FLTE_tech_tier_ordn_3
+		}
+		FROM = {
 			has_tech = gw_artillery
 		}
 	}
@@ -1089,6 +1102,13 @@ sp_land_self_propelled_super_heavy_howitzer = {
 		sp_land_military_engineering_vehicles
 		sp_land_super_heavy_howitzer
 	}
+
+	available = {
+		FROM = {
+			has_tech = FLTE_tech_tier_ordn_3
+			has_tech = FLTE_tech_tier_vehc_3
+		}
+	}
 	
 	prototype_time = sp_time.prototype.medium
 
@@ -1215,6 +1235,9 @@ sp_land_super_heavy_railway_gun = {
 
 	available = {
 		FROM = {
+			has_tech = FLTE_tech_tier_vehc_3
+		}
+		FROM = {
 			has_tech = railway_gun
 		}
 	}
@@ -1304,6 +1327,12 @@ sp_land_multi_charge_large_caliber_gun = {
 
 	special_project_parent = {
 		sp_land_super_heavy_howitzer
+	}
+
+	available = {
+		FROM = {
+			has_tech = FLTE_tech_tier_ordn_4
+		}
 	}
 		
 	prototype_time = sp_time.prototype.medium
@@ -1548,7 +1577,9 @@ sp_land_stronghold_network = {
 	
 	available = {
 		FROM = {
-			has_tech = basic_fortification_tech
+			has_tech = FLTE_tech_tier_ordn_3
+			has_tech = FLTE_tech_tier_infr_4
+			has_tech = build_tech_bunker_2
 		}
 	}
 	
@@ -1558,6 +1589,7 @@ sp_land_stronghold_network = {
 
 	breakthrough_cost = {
 		specialization_land = 2
+		specialization_civilian = 1
 	}
 
 	resource_cost = {
@@ -2147,6 +2179,9 @@ sp_land_large_caliber_kinetic_energy_sabot = {
 	}
 
 	available = {
+		FROM = {
+			has_tech = FLTE_tech_tier_ordn_4
+		}
 		FROM = {
 			has_tech = interwar_antitank
 		}	

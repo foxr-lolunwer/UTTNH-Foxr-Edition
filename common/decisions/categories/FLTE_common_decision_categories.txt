@@ -1,0 +1,7 @@
+FLTE_common_decision_categories = {
+	priority = 10
+	icon = generic_research
+	visible = {
+		has_global_flag = FLTE_GLFLAG_mod_running
+	}
+}

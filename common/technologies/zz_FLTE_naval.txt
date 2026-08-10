@@ -1488,6 +1488,12 @@ technologies = {
         folder = { name = FLTE_naval_folder position = { x = @heavy_branch y = @Tier5_mid } }
         dependencies = { FLTE_tech_tier_naval_5 = 1 }
 
+        is_special_project_tech = yes
+        allow = {
+            ROOT = {
+                is_special_project_completed = sp:sp_naval_modern_battleship
+            }
+        }
         special_project_specialization = { specialization_naval }
 
         categories = {
@@ -1867,6 +1873,12 @@ technologies = {
         folder = { name = FLTE_naval_folder position = { x = @carrier_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_naval_5 = 1 }
 
+        is_special_project_tech = yes
+        allow = {
+            ROOT = {
+                is_special_project_completed = sp:sp_naval_modern_carrier
+            }
+        }
         special_project_specialization = { specialization_naval }
 
         categories = {

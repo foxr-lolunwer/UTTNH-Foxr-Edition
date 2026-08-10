@@ -3,9 +3,9 @@ sp_air_radar = {
 	icon = GFX_sp_nuclear_radar
 	prototype_time = sp_time.prototype.medium
 	complexity = sp_complexity.medium
-	breakthrough_cost = { specialization_air = 1 }
+	breakthrough_cost = { specialization_engineering = 1 }
 	project_tags = sp_tag_radar
-	available = { FROM = { has_tech = electronic_mechanical_engineering } }
+	available = { FROM = { has_tech = FLTE_tech_tier_elec_2 has_tech = electronic_mechanical_engineering } }
 	resource_cost = { resources = { steel = 6 aluminium = 6 } }
 	ai_will_do = {
 		base = 1

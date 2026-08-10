@@ -4,6 +4,7 @@ sp_air_bouncing_bomb = {
 	project_tags = { sp_tag_aircraft sp_tag_bomb }
 	allowed = { has_dlc = "Gotterdammerung" }
 	available = {
+		FROM = { has_tech = FLTE_tech_tier_air_2 }
 		if = { limit = { has_dlc = "By Blood Alone" } FROM = { has_tech = heavy_bombs } }
 		else = { OR = { FROM = { has_tech = tactical_bomber2 } FROM = { has_tech = strategic_bomber2 } } } }
 	breakthrough_cost = { specialization_air = 1 }
@@ -82,7 +83,8 @@ sp_air_earthshaker_bomb = {
 	icon = GFX_sp_air_earthshaker_bomb
 	project_tags = { sp_tag_aircraft sp_tag_bomb }
 	allowed = { has_dlc = "Gotterdammerung" }
-	available = { 
+	available = {
+		FROM = { has_tech = FLTE_tech_tier_air_3 }
 		if = { limit = { has_dlc = "By Blood Alone" } FROM = { has_tech = heavy_bombs } }
 		else = { FROM = { has_tech = strategic_bomber2 } }
 	}
@@ -175,7 +177,8 @@ sp_air_intercontinental_bomber = {
 	icon = GFX_sp_air_intercontinental_bomber
 	project_tags = sp_tag_aircraft
 	allowed = { has_dlc = "Gotterdammerung" }
-	available = { 
+	available = {
+		FROM = { has_tech = FLTE_tech_tier_air_3 }
 		FROM = {
 			if = { limit = { has_dlc = "By Blood Alone" } has_tech = improved_large_airframe }
 			else = { has_tech = strategic_bomber2 }
@@ -323,7 +326,8 @@ sp_air_mothership_aircraft = {
 		
 		sp_air_generic_reward_test_failure_3	
 	}
-	available = { 
+	available = {
+		FROM = { has_tech = FLTE_tech_tier_air_4 }
 		if = {
 			limit = {
 				has_dlc = "By Blood Alone"
@@ -478,7 +482,8 @@ sp_air_jet_engine = {
 		sp_tag_aircraft
 		sp_tag_jet
 	}
-	available = { 
+	available = {
+		FROM = { has_tech = FLTE_tech_tier_air_3 }
 		FROM = {
 			if = {
 				limit = { has_dlc = "By Blood Alone" }
@@ -732,7 +737,8 @@ sp_air_axial_jet_engine = {
 	special_project_parent = {
 		sp_air_jet_engine
 	}
-	available = { 
+	available = {
+		FROM = { has_tech = FLTE_tech_tier_air_4 }
 		FROM = {
 			if = {
 				limit = { has_dlc = "By Blood Alone" }
@@ -1175,6 +1181,9 @@ sp_air_helicopter = {
 	}
 	allowed = {
 		has_dlc = "Gotterdammerung"		
+	}
+	available = {
+		FROM = { has_tech = FLTE_tech_tier_air_3 }
 	}
 	breakthrough_cost = { specialization_air = 2
 	}

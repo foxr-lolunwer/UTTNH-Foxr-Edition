@@ -1,4 +1,4 @@
-FLTE_debug_categories = {
+FLTE_debug_decision_categories = {
 	priority = 10
 	icon = generic_research
 	visible = {

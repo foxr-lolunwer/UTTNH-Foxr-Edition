@@ -1,4 +1,4 @@
-FLTE_debug_categories = {
+FLTE_debug_decision_categories = {
 	FLTE_debug_1 = {
 		icon = generic_operation
 		complete_effect = {

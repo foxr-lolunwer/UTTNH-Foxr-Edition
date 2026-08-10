@@ -26,22 +26,10 @@ sp_naval_cruiser_submarine = {
 		#FREE PROJECT
 	}
 
-	special_project_parent = {
-		
-	}
-
-	available = { 
+	available = {
 		FROM = {
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}  
-				has_tech = early_ship_hull_submarine
-			}
-			else = {
-				has_tech = early_submarine
-			}
-
+			has_tech = FLTE_tech_tier_naval_3
+			has_tech = early_ship_hull_submarine
 		}
 	}
 
@@ -179,7 +167,6 @@ sp_naval_cruiser_submarine = {
 #Fleet Submarine
 sp_naval_fleet_submarine = {
 	specialization = specialization_naval
-	
 
 	project_tags = sp_tag_submarine
 
@@ -194,18 +181,10 @@ sp_naval_fleet_submarine = {
 	complexity = sp_complexity.medium
 	prototype_time = sp_time.prototype.long
 
-	available = { 
+	available = {
 		FROM = {
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}  
-				has_tech = improved_ship_hull_submarine
-			}
-			else = {
-				has_tech = improved_submarine 
-			}
-
+			has_tech = FLTE_tech_tier_naval_3
+			has_tech = improved_ship_hull_submarine
 		}
 	}
 
@@ -386,7 +365,10 @@ sp_naval_nuclear_submarine = {
 	}
 
 	available = { 
-		
+		FROM = {
+			has_tech = FLTE_tech_tier_naval_5
+			has_tech = FLTE_tech_tier_nuclear_4
+		}
 	}
 	
 	breakthrough_cost = {
@@ -580,7 +562,10 @@ sp_naval_rocket_launching_submarine = {
 	}
 
 	available = { 
-		
+		FROM = {
+			has_tech = FLTE_tech_tier_naval_5
+			has_tech = FLTE_tech_tier_nuclear_3
+		}
 	}
 
 	breakthrough_cost = {
@@ -775,7 +760,10 @@ sp_naval_nuclear_missile_submarine = {
 	}
 
 	available = { 
-		
+		FROM = {
+			has_tech = FLTE_tech_tier_naval_5
+			has_tech = FLTE_tech_tier_nuclear_4
+		}
 	}
 
 	breakthrough_cost = {
@@ -954,7 +942,11 @@ sp_naval_nuclear_torpedo = {
 	}
 	
 	available = {
-		FROM = { has_tech = modern_ship_torpedo_launcher }
+		FROM = {
+			has_tech = FLTE_tech_tier_naval_6
+			has_tech = FLTE_tech_tier_nuclear_4
+			has_tech = ship_torpedo_launcher_6
+		}
 	}
 
 	special_project_parent = {
@@ -1060,7 +1052,6 @@ sp_naval_nuclear_torpedo = {
 sp_naval_midget_submarine = {
 	specialization = specialization_naval
 
-
 	project_tags = {
 		sp_tag_submarine
 	}
@@ -1073,18 +1064,10 @@ sp_naval_midget_submarine = {
 		#FREE
 	}
 	
-	available = { 
+	available = {
 		FROM = {
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}  
-				has_tech = early_ship_hull_submarine
-			}
-			else = {
-				has_tech = early_submarine
-			}
-
+			has_tech = FLTE_tech_tier_naval_2
+			has_tech = early_ship_hull_submarine
 		}
 	}
 
@@ -1354,18 +1337,10 @@ sp_naval_aip_engine = {
 		has_dlc = "Gotterdammerung"
 	}
 	
-	available = { 
+	available = {
 		FROM = {
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}  
-				has_tech = basic_ship_hull_submarine
-			}
-			else = {
-				has_tech = basic_submarine 
-			}
-
+			has_tech = FLTE_tech_tier_naval_3
+			has_tech = basic_ship_hull_submarine
 		}
 	}
 	
@@ -1506,7 +1481,6 @@ sp_naval_aip_engine = {
 sp_naval_anechoic_tiles = {
 	specialization = specialization_naval
 
-
 	project_tags = sp_tag_submarine
 
 	ai_will_do = {
@@ -1527,18 +1501,10 @@ sp_naval_anechoic_tiles = {
 		has_dlc = "Gotterdammerung"
 	}
 	
-	available = { 
+	available = {
 		FROM = {
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}  
-				has_tech = basic_ship_hull_submarine
-			}
-			else = {
-				has_tech = basic_submarine 
-			}
-
+			has_tech = FLTE_tech_tier_naval_4
+			has_tech = basic_ship_hull_submarine
 		}
 	}
 	
@@ -1572,13 +1538,6 @@ sp_naval_anechoic_tiles = {
 				has_dlc = "Man the Guns" 
 			} 		
 			ship_anechoic_tile
-				
-			}
-		
-		
-
-		enable_subunits = { 
-			
 		}
 	}
 
@@ -1696,17 +1655,9 @@ specialization = specialization_naval
 
 	available = {
 		FROM = {
-			if = {
-				limit = { 
-					has_dlc = "Man the Guns"
-				}
+			has_tech = FLTE_tech_tier_naval_4
 			has_tech = basic_ship_hull_carrier
-			has_tech = improved_ship_hull_submarine				
-			}
-			else = {
-				has_tech = basic_carrier
-				has_tech = improved_submarine
-			}
+			has_tech = improved_ship_hull_submarine
 		}
 	}
 
@@ -1892,7 +1843,6 @@ specialization = specialization_naval
 sp_naval_torpedo_cruiser = {
 	specialization = specialization_naval
 
-
 	project_tags = sp_tag_surface_ship
 
 	ai_will_do = {
@@ -1914,18 +1864,9 @@ sp_naval_torpedo_cruiser = {
 	}
 	available = {
 		FROM = {
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}  
-				has_tech = early_ship_hull_cruiser
-			}
-			else = {
-				has_tech = early_light_cruiser
-			}
-
+			has_tech = FLTE_tech_tier_naval_3
+			has_tech = early_ship_hull_cruiser
 		}
-			
 	}
 	
 	complexity = sp_complexity.small
@@ -2130,15 +2071,8 @@ sp_naval_super_heavy_battleship = {
 
 	available = {
 		FROM = {
-			if = {
-				limit = { 
-					has_dlc = "Man the Guns"
-				}
-				has_tech = early_ship_hull_heavy
-			}
-			else = {
-				has_tech = early_battleship
-			}
+			has_tech = FLTE_tech_tier_naval_3
+			has_tech = early_ship_hull_heavy
 		}
 	}
 
@@ -2480,16 +2414,8 @@ sp_naval_modern_battleship = {
 	
 	available = {
 		FROM = {
-			if = {
-				limit = { 
-					has_dlc = "Man the Guns"
-					}
+			has_tech = FLTE_tech_tier_naval_5
 			has_tech = advanced_ship_hull_heavy
-				
-			}
-			else = {
-				has_tech = advanced_battleship
-			}
 		}
 	}
 	
@@ -2539,12 +2465,6 @@ sp_naval_modern_battleship = {
 		enable_equipment_modules = {
 			 
 		}
-
-		enable_subunits = { 
-			
-		}
-
-		
 	}
 
 	generic_prototype_rewards = {
@@ -2809,7 +2729,6 @@ sp_naval_modern_battleship = {
 sp_naval_modern_carrier = {
 	specialization = specialization_naval
 
-
 	project_tags = sp_tag_surface_ship
 
 	ai_will_do = {
@@ -2822,18 +2741,9 @@ sp_naval_modern_carrier = {
 	
 	available = {
 		FROM = {
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}  
-				has_tech = advanced_ship_hull_carrier
-			}
-			else = {
-				has_tech = advanced_carrier
-			}
-
+			has_tech = FLTE_tech_tier_naval_5
+			has_tech = advanced_ship_hull_carrier
 		}
-
 	}
 	
 	breakthrough_cost = {
@@ -3156,19 +3066,10 @@ sp_naval_ice_carrier = {
 	}
 	
 	available = {
-				FROM = {
-			if = {
-				limit = {
-					has_dlc = "Man the Guns"
-				}  
-				has_tech = improved_ship_hull_carrier
-			}
-			else = {
-				has_tech = improved_carrier
-			}
-
+		FROM = {
+			has_tech = FLTE_tech_tier_naval_4
+			has_tech = improved_ship_hull_carrier
 		}
-
 	}
 
 	resource_cost = {
@@ -3363,12 +3264,12 @@ sp_naval_underway_replenishment = {
 	
 	available = {
 		FROM = {
+			has_tech = FLTE_tech_tier_naval_4
 			OR = {
 				has_doctrine = new_base_strike
 				has_doctrine = new_fleet_in_being
 			}
 		}
- 
 	}
 
 	resource_cost = {
@@ -3487,7 +3388,6 @@ sp_naval_underway_replenishment = {
 sp_naval_proximity_fuze = {
 	specialization = specialization_naval
 
-
 	project_tags = sp_tag_surface_ship
 
 	ai_will_do = {
@@ -3500,8 +3400,10 @@ sp_naval_proximity_fuze = {
 
 	available = {
 		FROM = {
+			has_tech = FLTE_tech_tier_naval_2
+			has_tech = FLTE_tech_tier_elec_3
 			has_tech = improved_radio
-		}	
+		}
 	}
 	
 	resource_cost = {
@@ -3619,15 +3521,8 @@ sp_naval_support_ships = {
 
 	available = {
 		FROM = {
-			if = {
-				limit = { 
-					has_dlc = "Man the Guns"
-				}
-			has_tech = mtg_transport				
-			}
-			else = {
-				has_tech = transport
-			}
+			has_tech = FLTE_tech_tier_naval_3
+			has_tech = mtg_transport
 		}
 	}
 
@@ -3818,15 +3713,8 @@ specialization = specialization_naval
 
 	available = {
 		FROM = {
-			if = {
-				limit = { 
-					has_dlc = "Man the Guns"
-				}
-			has_tech = basic_ship_hull_carrier				
-			}
-			else = {
-				has_tech = basic_carrier
-			}
+			has_tech = FLTE_tech_tier_naval_3
+			has_tech = basic_ship_hull_carrier
 		}
 	}
 

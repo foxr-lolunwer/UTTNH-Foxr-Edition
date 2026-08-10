@@ -1,0 +1,11 @@
+﻿l_english:
+  FLTE_common_decision_categories: "FLTE Decisions"
+  FLTE_LOCT_get_free_random_scientist: "Scientist Recruitment - "
+  FLTE_decision_get_free_random_scientist_land: "$FLTE_LOCT_get_free_random_scientist$$specialization_land_short$"
+  FLTE_decision_get_free_random_scientist_naval: "$FLTE_LOCT_get_free_random_scientist$$specialization_naval_short$"
+  FLTE_decision_get_free_random_scientist_air: "$FLTE_LOCT_get_free_random_scientist$$specialization_air_short$"
+  FLTE_decision_get_free_random_scientist_civilian: "$FLTE_LOCT_get_free_random_scientist$$specialization_civilian_short$"
+  FLTE_decision_get_free_random_scientist_engineering: "$FLTE_LOCT_get_free_random_scientist$$specialization_engineering_short$"
+  FLTE_decision_get_free_random_scientist_nuclear: "$FLTE_LOCT_get_free_random_scientist$$specialization_nuclear_short$"
+
+  FLTE_get_free_random_scientist_effect_tooltip: "Gain a Skill 1 scientist with no traits in the field of: $SP|Y$"

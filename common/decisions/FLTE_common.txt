@@ -1,0 +1,86 @@
+FLTE_common_decision_categories = {
+    FLTE_decision_get_free_random_scientist_land = {
+        icon = generic_operation
+        visible = { NOT = { has_scientist_specialization = specialization_land } land_facility > 0 }
+        complete_effect = {
+            hidden_effect = {
+                generate_scientist_character = { skills = { specialization_land = 1 } traits = { } }
+            }
+            custom_effect_tooltip = {
+                localization_key = FLTE_get_free_random_scientist_effect_tooltip
+                SP = specialization_land
+            }
+        }
+        ai_will_do = { base = 10 }
+    }
+    FLTE_decision_get_free_random_scientist_naval = {
+        icon = generic_operation
+        visible = { NOT = { has_scientist_specialization = specialization_naval } naval_facility > 0  }
+        complete_effect = {
+            hidden_effect = {
+                generate_scientist_character = { skills = { specialization_naval = 1 } traits = { } }
+            }
+            custom_effect_tooltip = {
+                localization_key = FLTE_get_free_random_scientist_effect_tooltip
+                SP = specialization_naval
+            }
+        }
+        ai_will_do = { base = 10 }
+    }
+    FLTE_decision_get_free_random_scientist_air = {
+        icon = generic_operation
+        visible = { NOT = { has_scientist_specialization = specialization_air } air_facility > 0  }
+        complete_effect = {
+            hidden_effect = {
+                generate_scientist_character = { skills = { specialization_air = 1 } traits = { } }
+            }
+            custom_effect_tooltip = {
+                localization_key = FLTE_get_free_random_scientist_effect_tooltip
+                SP = specialization_air
+            }
+        }
+        ai_will_do = { base = 10 }
+    }
+    FLTE_decision_get_free_random_scientist_civilian = {
+        icon = generic_operation
+        visible = { NOT = { has_scientist_specialization = specialization_civilian } civilian_facility > 0  }
+        complete_effect = {
+            hidden_effect = {
+                generate_scientist_character = { skills = { specialization_civilian = 1 } traits = { } }
+            }
+            custom_effect_tooltip = {
+                localization_key = FLTE_get_free_random_scientist_effect_tooltip
+                SP = specialization_civilian
+            }
+        }
+        ai_will_do = { base = 10 }
+    }
+    FLTE_decision_get_free_random_scientist_engineering = {
+        icon = generic_operation
+        visible = { NOT = { has_scientist_specialization = specialization_engineering } engineering_facility > 0  }
+        complete_effect = {
+            hidden_effect = {
+                generate_scientist_character = { skills = { specialization_engineering = 1 } traits = { } }
+            }
+            custom_effect_tooltip = {
+                localization_key = FLTE_get_free_random_scientist_effect_tooltip
+                SP = specialization_engineering
+            }
+        }
+        ai_will_do = { base = 10 }
+    }
+    FLTE_decision_get_free_random_scientist_nuclear = {
+        icon = generic_operation
+        visible = { NOT = { has_scientist_specialization = specialization_nuclear } nuclear_facility > 0  }
+        complete_effect = {
+            hidden_effect = {
+                generate_scientist_character = { skills = { specialization_nuclear = 1 } traits = { } }
+            }
+            custom_effect_tooltip = {
+                localization_key = FLTE_get_free_random_scientist_effect_tooltip
+                SP = specialization_nuclear
+            }
+        }
+        ai_will_do = { base = 10 }
+    }
+}

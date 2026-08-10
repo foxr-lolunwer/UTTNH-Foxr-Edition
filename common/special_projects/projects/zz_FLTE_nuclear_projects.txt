@@ -1,15 +1,21 @@
 sp_nuclear_reactor = {
 	specialization = specialization_nuclear	
 	icon = GFX_sp_nuclear_reactor
-	complexity = sp_complexity.large 
+	complexity = sp_complexity.large
+	breakthrough_cost = {
+		specialization_nuclear = 2
+	}
 
 	project_tags = sp_tag_nuclear_power
 
 	allowed = {
 		
 	}
-	available = { 
-		FROM = { has_tech = atomic_research }
+	available = {
+		FROM = {
+			has_tech = FLTE_tech_tier_nuclear_2
+			has_tech = atomic_research
+		}
 	}
 	
 	resource_cost = {
@@ -254,6 +260,9 @@ sp_nuclear_reactor = {
 sp_commercial_nuclear_reactor = {
 	specialization = specialization_nuclear	
 	icon = GFX_sp_commercial_nuclear_reactor
+	breakthrough_cost = {
+		specialization_nuclear = 2
+	}
 
 	project_tags = sp_tag_nuclear_power
 	
@@ -269,9 +278,11 @@ sp_commercial_nuclear_reactor = {
 	allowed = {
 		has_dlc = "Gotterdammerung"
 	}
-	available = { 
+	available = {
 		FROM = {
-			has_tech = construction4
+			has_tech = FLTE_tech_tier_nuclear_4
+			has_tech = FLTE_tech_tier_infr_5
+			has_tech = construction_6
 		}
 	}
 	
@@ -396,6 +407,9 @@ sp_commercial_nuclear_reactor = {
 sp_nuclear_engines = {
 	specialization = specialization_nuclear	
 	icon = GFX_sp_nuclear_engines
+	breakthrough_cost = {
+		specialization_nuclear = 2
+	}
 
 	project_tags = sp_tag_nuclear_power
 	
@@ -413,7 +427,10 @@ sp_nuclear_engines = {
 		has_dlc = "Gotterdammerung"
 	}
 	available = { 
-		
+		FROM = {
+			has_tech = FLTE_tech_tier_nuclear_4
+			has_tech = FLTE_tech_tier_naval_4
+		}
 	}
 	
 	project_output = {
@@ -450,6 +467,9 @@ sp_nuclear_engines = {
 sp_nuclear_bomb = {
 	specialization = specialization_nuclear	
 	icon = GFX_sp_nuclear_bomb
+	breakthrough_cost = {
+		specialization_nuclear = 3
+	}
 
 	project_tags = sp_tag_nuclear_warfare
 	
@@ -465,7 +485,9 @@ sp_nuclear_bomb = {
 		
 	}
 	available = { 
-		
+		FROM = {
+			has_tech = FLTE_tech_tier_nuclear_3
+		}
 	}
 	
 	project_output = {
@@ -676,6 +698,9 @@ sp_nuclear_bomb = {
 sp_thermo_nuclear_bomb = {
 	specialization = specialization_nuclear	
 	icon = GFX_sp_thermo_nuclear_bomb
+	breakthrough_cost = {
+		specialization_nuclear = 4
+	}
 
 	project_tags = sp_tag_nuclear_warfare
 	
@@ -693,7 +718,9 @@ sp_thermo_nuclear_bomb = {
 		has_dlc = "Gotterdammerung"
 	}
 	available = { 
-		
+		FROM = {
+			has_tech = FLTE_tech_tier_nuclear_5
+		}
 	}
 	
 	project_output = {
@@ -776,6 +803,9 @@ sp_thermo_nuclear_bomb = {
 sp_nuclear_warheads = {
 	specialization = specialization_nuclear	
 	icon = GFX_sp_nuclear_warheads
+	breakthrough_cost = {
+		specialization_nuclear = 2
+	}
 
 	project_tags = sp_tag_nuclear_warfare
 	
@@ -788,12 +818,16 @@ sp_nuclear_warheads = {
 
 	special_project_parent = {
 		sp_nuclear_bomb
-				sp_rockets_medium_range_ballistic_missile
+		sp_rockets_medium_range_ballistic_missile
 	}
 	allowed = {
 		has_dlc = "Gotterdammerung"
 	}
 	available = {
+		FROM = {
+			has_tech = FLTE_tech_tier_nuclear_5
+			has_tech = FLTE_tech_tier_naval_4
+		}
 	}
 	
 	project_output = {
@@ -836,7 +870,7 @@ sp_rockets_flying_bomb = {
 	}
 
 	breakthrough_cost = {
-		specialization_nuclear = 2
+		specialization_nuclear = 1
 	}
 
 	resource_cost = {
@@ -864,8 +898,9 @@ sp_rockets_flying_bomb = {
 
 	complexity = sp_complexity.medium
 
-	available = { 
+	available = {
 		FROM = {
+			has_tech = FLTE_tech_tier_air_3
 			has_tech = experimental_rockets
 		}
 	}
@@ -1137,7 +1172,7 @@ sp_rockets_flying_bomb = {
 sp_rockets_ballistic_missile = {
 	specialization = specialization_nuclear 
 	breakthrough_cost = {
-		specialization_nuclear = 3
+		specialization_nuclear = 2
 	}
 	
 	icon = GFX_sp_rockets_ballistic_missile
@@ -1154,8 +1189,9 @@ sp_rockets_ballistic_missile = {
 		}
 	}
 
-	available = { 
+	available = {
 		FROM = {
+			has_tech = FLTE_tech_tier_air_3
 			has_tech = experimental_rockets
 		}
 	}
@@ -1358,7 +1394,10 @@ sp_rockets_ballistic_missile = {
 }
 
 sp_rockets_medium_range_ballistic_missile = {
-	specialization = specialization_nuclear 
+	specialization = specialization_nuclear
+	breakthrough_cost = {
+		specialization_nuclear = 2
+	}
 	
 	icon = GFX_sp_rockets_medium_range_ballistic_missiles
 	
@@ -1379,7 +1418,9 @@ sp_rockets_medium_range_ballistic_missile = {
 	}
 
 	available = { 
-		
+		FROM = {
+			has_tech = FLTE_tech_tier_air_4
+		}
 	}
 
 	ai_will_do = {
@@ -1508,7 +1549,10 @@ sp_rockets_medium_range_ballistic_missile = {
 }
 
 sp_rockets_long_range_ballistic_missile = {
-	specialization = specialization_nuclear 
+	specialization = specialization_nuclear
+	breakthrough_cost = {
+		specialization_nuclear = 2
+	}
 	
 	icon = GFX_sp_rockets_icbm
 	
@@ -1535,6 +1579,9 @@ sp_rockets_long_range_ballistic_missile = {
 	}
 
 	available = {
+		FROM = {
+			has_tech = FLTE_tech_tier_air_5
+		}
 	}
 	ai_will_do = {
 		base = 1
@@ -1695,8 +1742,9 @@ sp_rockets_ground_to_air_missile = {
 		sp_rockets_ballistic_missile
 	}
 
-	available = { 
+	available = {
 		FROM = {
+			has_tech = FLTE_tech_tier_air_4
 			has_tech = experimental_rockets
 		}
 	}
@@ -1864,7 +1912,10 @@ sp_rockets_ground_to_air_missile = {
 }
 
 sp_rocket_interceptor = {
-	specialization = specialization_nuclear 
+	specialization = specialization_nuclear
+	breakthrough_cost = {
+		specialization_nuclear = 2
+	}
 	
 	icon = GFX_sp_rockets_rocket_interceptor 
 
@@ -1881,8 +1932,9 @@ sp_rocket_interceptor = {
 		}
 	}
 
-	available = { 
+	available = {
 		FROM = {
+			has_tech = FLTE_tech_tier_air_4
 			has_tech = experimental_rockets
 		}
 	}

@@ -1,0 +1,142 @@
+FLTE_cheat_decision_categories = {
+    FLTE_decision_get_infr_1_tech = {
+        icon = generic_operation
+        visible = {
+            NOT = { OR = {
+                has_tech = FLTE_tech_tier_infr_1
+                has_tech = capacity_industrial_construction
+            } }
+            OR = {
+                is_debug = yes
+                has_global_flag = FLTE_GLFLAG_cheat_limited
+                # has_global_flag = FLTE_GLFLAG_cheat_allowed allowed时同时获得limited
+            }
+        }
+        complete_effect = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_infr_1 } }
+                set_technology = { FLTE_tech_tier_infr_1 = 1 }
+            }
+            if = { limit = { NOT = { has_tech = capacity_industrial_construction } }
+                set_technology = { capacity_industrial_construction = 1 }
+            }
+        }
+    }
+
+    FLTE_decision_build_land_facility = {
+        icon = generic_operation
+        visible = {
+            land_facility < 1
+             # 确保有最重要的engineering和civilian再显示，防止玩家作弊红温
+            engineering_facility > 0
+            civilian_facility > 0
+            OR = {
+                is_debug = yes
+                has_global_flag = FLTE_GLFLAG_cheat_allowed
+            }
+        }
+        # 会导致崩溃
+        # available = { any_owned_state = { is_fully_controlled_by = ROOT can_construct_building = land_facility } }
+        complete_effect = {
+            random_owned_controlled_state = {
+                limit = { can_construct_building = land_facility }
+                construct_building_in_random_province = { land_facility = 1 }
+            }
+            custom_effect_tooltip = FLTE_decision_build_facility_effect_tooltip
+        }
+    }
+    FLTE_decision_build_naval_facility = {
+        icon = generic_operation
+        visible = {
+            naval_facility < 1
+             # 确保有最重要的engineering和civilian再显示，防止玩家作弊红温
+            engineering_facility > 0
+            civilian_facility > 0
+            OR = {
+                is_debug = yes
+                has_global_flag = FLTE_GLFLAG_cheat_allowed
+            }
+        }
+        available = { any_controlled_state = { is_coastal = yes } }
+        complete_effect = {
+            random_owned_controlled_state = {
+                limit = { can_construct_building = naval_facility }
+                construct_building_in_random_province = { naval_facility = 1 }
+            }
+            custom_effect_tooltip = FLTE_decision_build_facility_effect_tooltip
+        }
+    }
+    FLTE_decision_build_air_facility = {
+        icon = generic_operation
+        visible = {
+            air_facility < 1
+             # 确保有最重要的engineering和civilian再显示，防止玩家作弊红温
+            engineering_facility > 0
+            civilian_facility > 0
+            OR = {
+                is_debug = yes
+                has_global_flag = FLTE_GLFLAG_cheat_allowed
+            }
+        }
+        complete_effect = {
+            random_owned_controlled_state = {
+                limit = { can_construct_building = air_facility }
+                construct_building_in_random_province = { air_facility = 1 }
+            }
+            custom_effect_tooltip = FLTE_decision_build_facility_effect_tooltip
+        }
+    }
+    FLTE_decision_build_civilian_facility = {
+        icon = generic_operation
+        visible = {
+            civilian_facility < 1
+            OR = {
+                is_debug = yes
+                has_global_flag = FLTE_GLFLAG_cheat_allowed
+            }
+        }
+        complete_effect = {
+            random_owned_controlled_state = {
+                limit = { can_construct_building = civilian_facility }
+                construct_building_in_random_province = { civilian_facility = 1 }
+            }
+            custom_effect_tooltip = FLTE_decision_build_facility_effect_tooltip
+        }
+    }
+    FLTE_decision_build_engineering_facility = {
+        icon = generic_operation
+        visible = {
+            engineering_facility < 1
+            OR = {
+                is_debug = yes
+                has_global_flag = FLTE_GLFLAG_cheat_allowed
+            }
+        }
+        complete_effect = {
+            random_owned_controlled_state = {
+                limit = { can_construct_building = engineering_facility }
+                construct_building_in_random_province = { engineering_facility = 1 }
+            }
+            custom_effect_tooltip = FLTE_decision_build_facility_effect_tooltip
+        }
+    }
+    FLTE_decision_build_nuclear_facility = {
+        icon = generic_operation
+        visible = {
+            nuclear_facility < 1
+             # 确保有最重要的engineering和civilian再显示，防止玩家作弊红温
+            engineering_facility > 0
+            civilian_facility > 0
+            OR = {
+                is_debug = yes
+                has_global_flag = FLTE_GLFLAG_cheat_allowed
+            }
+        }
+        complete_effect = {
+            random_owned_controlled_state = {
+                limit = { can_construct_building = nuclear_facility }
+                construct_building_in_random_province = { nuclear_facility = 1 }
+            }
+            custom_effect_tooltip = FLTE_decision_build_facility_effect_tooltip
+        }
+    }
+}

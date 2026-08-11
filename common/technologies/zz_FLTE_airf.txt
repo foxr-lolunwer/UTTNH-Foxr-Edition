@@ -281,7 +281,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_small_airframe_2 }
         folder = { name = FLTE_air_folder position = { x = @small_plane_branch y = @Tier4_2 } }
-        dependencies = { FLTE_tech_tier_air_4 = 1 modern_small_airframe = 1 }
+        dependencies = { FLTE_tech_tier_air_4 = 1 }
 
         allow = {
             ROOT = {
@@ -776,7 +776,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_medium_airframe_2 }
         folder = { name = FLTE_air_folder position = { x = @medium_plane_branch y = @Tier5_1 } }
-        dependencies = { FLTE_tech_tier_air_5 = 1 modern_medium_airframe = 1 }
+        dependencies = { FLTE_tech_tier_air_5 = 1 }
 
         allow = {
             ROOT = {
@@ -1067,7 +1067,7 @@ technologies = {
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_large_airframe_2 }
         folder = { name = FLTE_air_folder position = { x = @large_plane_branch y = @Tier5_2 } }
-        dependencies = { FLTE_tech_tier_air_5 = 1 modern_large_airframe = 1 }
+        dependencies = { FLTE_tech_tier_air_5 = 1 }
 
         allow = {
             ROOT = {

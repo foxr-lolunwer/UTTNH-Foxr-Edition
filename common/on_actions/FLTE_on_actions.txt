@@ -4,11 +4,13 @@ on_actions = {
 			random_country = {
 				limit = { exists = yes }
 				set_global_flag = FLTE_GLFLAG_mod_running
+				# 临时，因为目前版本有很多问题
+				set_global_flag = FLTE_GLFLAG_cheat_allowed
+				set_global_flag = FLTE_GLFLAG_cheat_limited
 			}
 			every_country = {
 				limit = { is_ai = no }
 				set_country_flag = FLTE_FLAG_UI_welcome_menu_show
-				# country_event = FLTE_events.1
 			}
 		}
 	}

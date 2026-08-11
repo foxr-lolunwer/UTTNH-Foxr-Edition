@@ -1,0 +1,8 @@
+FLTE_cheat_decision_categories = {
+	priority = 1
+	icon = generic_research
+	visible = {
+		has_global_flag = FLTE_GLFLAG_mod_running
+		is_ai = no
+	}
+}

@@ -684,6 +684,8 @@ technologies = {
         special_project_specialization = { specialization_land }
         ai_will_do = {
             base = 0.5 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
+            modifier = { factor = 0 land_facility < 1 }
+            modifier = { factor = 0 num_of_military_factories < 5 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_1 FLTE_TC_tier_ordn_1 FLTE_TC_tier_vehc_1 }
     }
@@ -698,6 +700,8 @@ technologies = {
         special_project_specialization = { specialization_land }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 land_facility < 1 }
+            modifier = { factor = 0 num_of_military_factories < 10 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_2 FLTE_TC_tier_ordn_2 FLTE_TC_tier_vehc_2 }
     }
@@ -712,6 +716,8 @@ technologies = {
         special_project_specialization = { specialization_land }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 land_facility < 1 }
+            modifier = { factor = 0 num_of_military_factories < 15 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_3 FLTE_TC_tier_ordn_3 FLTE_TC_tier_vehc_3 }
     }
@@ -726,6 +732,8 @@ technologies = {
         special_project_specialization = { specialization_land }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 land_facility < 1 }
+            modifier = { factor = 0 num_of_military_factories < 20 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_4 FLTE_TC_tier_ordn_4 FLTE_TC_tier_vehc_4 }
     }
@@ -740,6 +748,8 @@ technologies = {
         special_project_specialization = { specialization_land }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 land_facility < 1 }
+            modifier = { factor = 0 num_of_military_factories < 25 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_5 FLTE_TC_tier_ordn_5 FLTE_TC_tier_vehc_5 }
     }
@@ -754,6 +764,8 @@ technologies = {
         special_project_specialization = { specialization_land }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 land_facility < 1 }
+            modifier = { factor = 0 num_of_military_factories < 30 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_6 FLTE_TC_tier_ordn_6 FLTE_TC_tier_vehc_6 }
     }
@@ -767,6 +779,8 @@ technologies = {
         special_project_specialization = { specialization_land }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 land_facility < 1 }
+            modifier = { factor = 0 num_of_military_factories < 35 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_ordn_7 FLTE_TC_tier_vehc_7 }
     }
@@ -779,6 +793,8 @@ technologies = {
         special_project_specialization = { specialization_land }
         ai_will_do = {
             base = 0.1
+            modifier = { factor = 0 land_facility < 1 }
+            modifier = { factor = 0 num_of_military_factories < 40 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_ordn_7 FLTE_TC_tier_vehc_7 }
     }
@@ -794,6 +810,8 @@ technologies = {
         special_project_specialization = { specialization_naval }
         ai_will_do = {
             base = 0.5 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
+            modifier = { factor = 0 naval_facility < 1 }
+            modifier = { factor = 0 dockyard < 5 } # 没有船坞研究这个没有意义
         }
         categories = { FLTE_TC_tier_1 FLTE_TC_tier_naval_1 }
     }
@@ -808,6 +826,8 @@ technologies = {
         special_project_specialization = { specialization_naval }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 naval_facility < 1 }
+            modifier = { factor = 0 dockyard < 10 } # 没有船坞研究这个没有意义
         }
         categories = { FLTE_TC_tier_2 FLTE_TC_tier_naval_2 }
     }
@@ -822,6 +842,8 @@ technologies = {
         special_project_specialization = { specialization_naval }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 naval_facility < 1 }
+            modifier = { factor = 0 dockyard < 15 } # 没有船坞研究这个没有意义
         }
         categories = { FLTE_TC_tier_3 FLTE_TC_tier_naval_3 }
     }
@@ -836,6 +858,8 @@ technologies = {
         special_project_specialization = { specialization_naval }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 naval_facility < 1 }
+            modifier = { factor = 0 dockyard < 20 } # 没有船坞研究这个没有意义
         }
         categories = { FLTE_TC_tier_4 FLTE_TC_tier_naval_4 }
     }
@@ -850,6 +874,8 @@ technologies = {
         special_project_specialization = { specialization_naval }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 naval_facility < 1 }
+            modifier = { factor = 0 dockyard < 25 } # 没有船坞研究这个没有意义
         }
         categories = { FLTE_TC_tier_5 FLTE_TC_tier_naval_5 }
     }
@@ -864,6 +890,8 @@ technologies = {
         special_project_specialization = { specialization_naval }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 naval_facility < 1 }
+            modifier = { factor = 0 dockyard < 30 } # 没有船坞研究这个没有意义
         }
         categories = { FLTE_TC_tier_6 FLTE_TC_tier_naval_6 }
     }
@@ -878,6 +906,8 @@ technologies = {
         special_project_specialization = { specialization_naval }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 naval_facility < 1 }
+            modifier = { factor = 0 dockyard < 35 } # 没有船坞研究这个没有意义
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_naval_7 }
     }
@@ -890,6 +920,8 @@ technologies = {
         special_project_specialization = { specialization_naval }
         ai_will_do = {
             base = 0.1
+            modifier = { factor = 0 naval_facility < 1 }
+            modifier = { factor = 0 dockyard < 40 } # 没有船坞研究这个没有意义
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_naval_7 }
     }
@@ -905,6 +937,8 @@ technologies = {
         special_project_specialization = { specialization_air }
         ai_will_do = {
             base = 0.5 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
+            modifier = { factor = 0 air_facility < 1 }
+            modifier = { factor = 0 num_of_military_factories < 5 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_1 FLTE_TC_tier_air_1 }
     }
@@ -919,6 +953,8 @@ technologies = {
         special_project_specialization = { specialization_air }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 air_facility < 1 }
+            modifier = { factor = 0 num_of_military_factories < 10 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_2 FLTE_TC_tier_air_2 }
     }
@@ -933,6 +969,8 @@ technologies = {
         special_project_specialization = { specialization_air }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 air_facility < 1 }
+            modifier = { factor = 0 num_of_military_factories < 15 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_3 FLTE_TC_tier_air_3 }
     }
@@ -947,6 +985,8 @@ technologies = {
         special_project_specialization = { specialization_air }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 air_facility < 1 }
+            modifier = { factor = 0 num_of_military_factories < 20 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_4 FLTE_TC_tier_air_4 }
     }
@@ -961,6 +1001,8 @@ technologies = {
         special_project_specialization = { specialization_air }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 air_facility < 1 }
+            modifier = { factor = 0 num_of_military_factories < 25 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_5 FLTE_TC_tier_air_5 }
     }
@@ -975,6 +1017,8 @@ technologies = {
         special_project_specialization = { specialization_air }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 air_facility < 1 }
+            modifier = { factor = 0 num_of_military_factories < 30 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_6 FLTE_TC_tier_air_6 }
     }
@@ -989,6 +1033,8 @@ technologies = {
         special_project_specialization = { specialization_air }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 air_facility < 1 }
+            modifier = { factor = 0 num_of_military_factories < 35 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_air_7 }
     }
@@ -1001,6 +1047,8 @@ technologies = {
         special_project_specialization = { specialization_air }
         ai_will_do = {
             base = 0.1
+            modifier = { factor = 0 air_facility < 1 }
+            modifier = { factor = 0 num_of_military_factories < 40 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_air_7 }
     }
@@ -1016,6 +1064,8 @@ technologies = {
         special_project_specialization = { specialization_civilian }
         ai_will_do = {
             base = 0.5 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
+            modifier = { factor = 0 civilian_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 10 }
         }
         categories = { FLTE_TC_tier_1 FLTE_TC_tier_prod_1 FLTE_TC_tier_infr_1 }
     }
@@ -1030,6 +1080,8 @@ technologies = {
         special_project_specialization = { specialization_civilian }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 civilian_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 20 }
         }
         categories = { FLTE_TC_tier_2 FLTE_TC_tier_prod_2 FLTE_TC_tier_infr_2  }
     }
@@ -1044,6 +1096,8 @@ technologies = {
         special_project_specialization = { specialization_civilian }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 civilian_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 30 }
         }
         categories = { FLTE_TC_tier_3 FLTE_TC_tier_prod_3 FLTE_TC_tier_infr_3 }
     }
@@ -1058,6 +1112,8 @@ technologies = {
         special_project_specialization = { specialization_civilian }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 civilian_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 40 }
         }
         categories = { FLTE_TC_tier_4 FLTE_TC_tier_prod_4 FLTE_TC_tier_infr_4 }
     }
@@ -1072,6 +1128,8 @@ technologies = {
         special_project_specialization = { specialization_civilian }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 civilian_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 50 }
         }
         categories = { FLTE_TC_tier_5 FLTE_TC_tier_prod_5 FLTE_TC_tier_infr_5 }
     }
@@ -1086,6 +1144,8 @@ technologies = {
         special_project_specialization = { specialization_civilian }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 civilian_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 60 }
         }
         categories = { FLTE_TC_tier_6 FLTE_TC_tier_prod_6 FLTE_TC_tier_infr_6 }
     }
@@ -1100,6 +1160,8 @@ technologies = {
         special_project_specialization = { specialization_civilian }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 civilian_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 70 }
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_prod_7 FLTE_TC_tier_infr_7 }
     }
@@ -1112,6 +1174,8 @@ technologies = {
         special_project_specialization = { specialization_civilian }
         ai_will_do = {
             base = 0.1
+            modifier = { factor = 0 civilian_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 80 }
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_prod_7 FLTE_TC_tier_infr_7 }
     }
@@ -1127,6 +1191,8 @@ technologies = {
         special_project_specialization = { specialization_engineering }
         ai_will_do = {
             base = 0.5 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
+            modifier = { factor = 0 engineering_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 15 }
         }
         categories = { FLTE_TC_tier_1 FLTE_TC_tier_elec_1 }
     }
@@ -1141,6 +1207,8 @@ technologies = {
         special_project_specialization = { specialization_engineering }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 engineering_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 30 }
         }
         categories = { FLTE_TC_tier_2 FLTE_TC_tier_elec_2  }
     }
@@ -1155,6 +1223,8 @@ technologies = {
         special_project_specialization = { specialization_engineering }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 engineering_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 45 }
         }
         categories = { FLTE_TC_tier_3 FLTE_TC_tier_elec_3 }
     }
@@ -1169,6 +1239,8 @@ technologies = {
         special_project_specialization = { specialization_engineering }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 engineering_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 60 }
         }
         categories = { FLTE_TC_tier_4 FLTE_TC_tier_elec_4 }
     }
@@ -1183,6 +1255,8 @@ technologies = {
         special_project_specialization = { specialization_engineering }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 engineering_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 75 }
         }
         categories = { FLTE_TC_tier_5 FLTE_TC_tier_elec_5 }
     }
@@ -1197,6 +1271,8 @@ technologies = {
         special_project_specialization = { specialization_engineering }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 engineering_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 90 }
         }
         categories = { FLTE_TC_tier_6 FLTE_TC_tier_elec_6 }
     }
@@ -1211,6 +1287,8 @@ technologies = {
         special_project_specialization = { specialization_engineering }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 engineering_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 105 }
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_elec_7 }
     }
@@ -1223,6 +1301,8 @@ technologies = {
         special_project_specialization = { specialization_engineering }
         ai_will_do = {
             base = 0.1
+            modifier = { factor = 0 engineering_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 120 }
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_elec_7 }
     }
@@ -1238,6 +1318,8 @@ technologies = {
         special_project_specialization = { specialization_nuclear }
         ai_will_do = {
             base = 0.5 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
+            modifier = { factor = 0 nuclear_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 20 }
         }
         categories = { FLTE_TC_tier_1 FLTE_TC_tier_spac_1 FLTE_TC_tier_nuclear_1 }
     }
@@ -1252,6 +1334,8 @@ technologies = {
         special_project_specialization = { specialization_nuclear }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 nuclear_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 40 }
         }
         categories = { FLTE_TC_tier_2 FLTE_TC_tier_spac_2 FLTE_TC_tier_nuclear_2  }
     }
@@ -1266,6 +1350,8 @@ technologies = {
         special_project_specialization = { specialization_nuclear }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 nuclear_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 60 }
         }
         categories = { FLTE_TC_tier_3 FLTE_TC_tier_spac_3 FLTE_TC_tier_nuclear_3 }
     }
@@ -1280,6 +1366,8 @@ technologies = {
         special_project_specialization = { specialization_nuclear }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 nuclear_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 80 }
         }
         categories = { FLTE_TC_tier_4 FLTE_TC_tier_spac_4 FLTE_TC_tier_nuclear_4 }
     }
@@ -1294,6 +1382,8 @@ technologies = {
         special_project_specialization = { specialization_nuclear }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 nuclear_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 100 }
         }
         categories = { FLTE_TC_tier_5 FLTE_TC_tier_spac_5 FLTE_TC_tier_nuclear_5 }
     }
@@ -1308,6 +1398,8 @@ technologies = {
         special_project_specialization = { specialization_nuclear }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 nuclear_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 120 }
         }
         categories = { FLTE_TC_tier_6 FLTE_TC_tier_spac_6 FLTE_TC_tier_nuclear_6 }
     }
@@ -1322,6 +1414,8 @@ technologies = {
         special_project_specialization = { specialization_nuclear }
         ai_will_do = {
             base = 0.5
+            modifier = { factor = 0 nuclear_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 140 }
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_spac_7 FLTE_TC_tier_nuclear_7 }
     }
@@ -1334,6 +1428,8 @@ technologies = {
         special_project_specialization = { specialization_nuclear }
         ai_will_do = {
             base = 0.1
+            modifier = { factor = 0 nuclear_facility < 1 }
+            modifier = { factor = 2 num_of_civilian_factories > 160 }
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_spac_7 FLTE_TC_tier_nuclear_7 }
     }

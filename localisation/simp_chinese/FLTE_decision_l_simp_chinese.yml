@@ -7,5 +7,17 @@
   FLTE_decision_get_free_random_scientist_civilian: "$FLTE_LOCT_get_free_random_scientist$$specialization_civilian_short$"
   FLTE_decision_get_free_random_scientist_engineering: "$FLTE_LOCT_get_free_random_scientist$$specialization_engineering_short$"
   FLTE_decision_get_free_random_scientist_nuclear: "$FLTE_LOCT_get_free_random_scientist$$specialization_nuclear_short$"
-
   FLTE_get_free_random_scientist_effect_tooltip: "将获得一名1级且无任何特质的科学家，领域为：$SP|Y$"
+
+  FLTE_cheat_decision_categories: "FLTE 作弊决议"
+  FLTE_cheat_decision_categories_desc: "因为目前版本有未完善的地方，因此作弊决议会一直保持开启"
+  FLTE_decision_get_infr_1_tech: "获得建设能力"
+  FLTE_decision_get_infr_1_tech_desc: "如果你正在游玩工厂数量较少的国家，那么可能不会获得工业建设能力。\n这个决议会立即让你获得基本的工业建设能力。"
+  FLTE_LOCT_decision_build_facility: "立即建造一座"
+  FLTE_decision_build_land_facility: "$FLTE_LOCT_decision_build_facility$$land_facility$"
+  FLTE_decision_build_naval_facility: "$FLTE_LOCT_decision_build_facility$$naval_facility$"
+  FLTE_decision_build_air_facility: "$FLTE_LOCT_decision_build_facility$$air_facility$"
+  FLTE_decision_build_civilian_facility: "$FLTE_LOCT_decision_build_facility$$civilian_facility$"
+  FLTE_decision_build_engineering_facility: "$FLTE_LOCT_decision_build_facility$$engineering_facility$"
+  FLTE_decision_build_nuclear_facility: "$FLTE_LOCT_decision_build_facility$$nuclear_facility$"
+  FLTE_decision_build_facility_effect_tooltip: "将在一个随机省份立即建造一座对应的设施。如果没有可建造的省份，则不会有任何效果。"

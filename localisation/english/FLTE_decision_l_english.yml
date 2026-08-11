@@ -7,5 +7,17 @@
   FLTE_decision_get_free_random_scientist_civilian: "$FLTE_LOCT_get_free_random_scientist$$specialization_civilian_short$"
   FLTE_decision_get_free_random_scientist_engineering: "$FLTE_LOCT_get_free_random_scientist$$specialization_engineering_short$"
   FLTE_decision_get_free_random_scientist_nuclear: "$FLTE_LOCT_get_free_random_scientist$$specialization_nuclear_short$"
-
   FLTE_get_free_random_scientist_effect_tooltip: "Gain a Skill 1 scientist with no traits in the field of: $SP|Y$"
+
+  FLTE_cheat_decision_categories: "FLTE Cheat Decisions"
+  FLTE_cheat_decision_categories_desc: "Cheat decisions will remain permanently enabled as the current version is still incomplete."
+  FLTE_decision_get_infr_1_tech: "Grant Construction Capability"
+  FLTE_decision_get_infr_1_tech_desc: "If you are playing a nation with very few starting factories, you might not automatically gain industrial construction capability.\nThis decision instantly unlocks basic industrial construction capabilities."
+  FLTE_LOCT_decision_build_facility: "Instantly build a "
+  FLTE_decision_build_land_facility: "$FLTE_LOCT_decision_build_facility$$land_facility$"
+  FLTE_decision_build_naval_facility: "$FLTE_LOCT_decision_build_facility$$naval_facility$"
+  FLTE_decision_build_air_facility: "$FLTE_LOCT_decision_build_facility$$air_facility$"
+  FLTE_decision_build_civilian_facility: "$FLTE_LOCT_decision_build_facility$$civilian_facility$"
+  FLTE_decision_build_engineering_facility: "$FLTE_LOCT_decision_build_facility$$engineering_facility$"
+  FLTE_decision_build_nuclear_facility: "$FLTE_LOCT_decision_build_facility$$nuclear_facility$"
+  FLTE_decision_build_facility_effect_tooltip: "Instantly builds the corresponding facility in a random state. If there are no eligible states, this will have no effect."

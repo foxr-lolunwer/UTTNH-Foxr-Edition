@@ -1,120 +1,170 @@
 [h1]UTTNH: Foxr Edition[/h1]
 
-A standalone, authorized fork of [b]UTTNH_2.0[/b] for Hearts of Iron IV (HOI4), tailored for a deeper and more immersive gameplay experience. This project has received explicit permission from the original author to be independently maintained, updated, and published.
+An independent spin-off mod for [i]Hearts of Iron IV[/i] (HOI4), engineered for a deeper and more immersive gameplay experience. Based on [b]UTTNH_2.0[/b], this mod has received official authorization from the original author for independent maintenance and publication.
 
-👉 [url=https://github.com/foxr-lolunwer/UTTNH-Foxr-Edition/blob/master/zzz_mod_info/Authorization.png][b]View Authorization Screenshot[/b][/url]
-
-[hr][/hr]
-
-[h2]📌 Current Status[/h2]
-
-The mod is currently in a [b]code refactoring stage[/b].
-
-[b]【NOTE】[/b] The current phase strictly focuses on code sanitization and backend framework implementation. No unique custom gameplay mechanics or content have been added yet.
-
-[b]【WARNING】[/b] This fork removes a substantial amount of legacy UTTNH content, such as outdated modifications to Military Industrial Organizations (MIOs) and AI strategies. Due to limited development resources, you must own at least the DLCs that introduce the Tank Designer and Aircraft Designer features to use this mod.
+Additionally, authorization for assets from other mods has been obtained—either via direct permission or standard open-licensing terms.  
+👉 [b]For detailed permissions and credits, see the [i]zzz_mod_info[/i] directory.[/b]
 
 [hr][/hr]
 
-[h2]🛠️ Optimizations & Fixes Applied[/h2]
+[h2]📌 Current Development Status[/h2]
 
-While no new custom mechanics have been introduced yet, this edition implements the following critical improvements over the baseline UTTNH:
+This mod is currently in the [b]Content Refinement[/b] phase.
+
+[b]DLC Dependencies[/b]  
+This mod deprecates and removes several outdated UTTNH base features (such as custom Military Industrial Organizations and AI strategies).  
+To ensure all core systems function properly, you [b]must[/b] own the DLCs containing the following mechanics:
 
 [list]
-[*] [b]Up-to-date Compatibility[/b] : Successfully integrated and adapted [b]major[/b] codebase changes from all official HOI4 updates (including patch 1.17 and its accompanying DLC *Thunder at Our Gates*) released since UTTNH's last update.
-[*] [b]Tech Tree Code Formatting[/b] : Re-engineered and strictly formatted the original technology script files. Properties have been reordered, indentation normalized, and path logic standardized to maximize future modding and expansion efficiency.
-[*] [b]Code Sanitization & Streamlining[/b] : Purged unnecessary and redundant files, making the mod more lightweight while keeping all core functionality intact.
-[*] [b]Integrated Chinese Localization[/b] : Fully incorporated the localization assets from the UTTNH_2.0 CNT project, which was initiated and co-authored by myself.
+[*] Tank Designer ([i]No Step Back[/i])
+[*] Aircraft Designer ([i]By Blood Alone[/i])
+[*] Intelligence Agency Systems ([i]La Résistance[/i])
+[*] Special Projects ([i]Götterdämmerung[/i])
+[/list]
+
+[hr][/hr]
+
+[h2]🛠️ Completed Core Features[/h2]
+
+[list]
+[*] [b]Codebase Optimization[/b]: Refactored and streamlined bloated legacy code from UTTNH. This significantly improves readability and general mod compatibility without sacrificing functionality.
+[*] [b]Technology Level System[/b]: Replaced vanilla tech year restrictions with a novel Tech Level mechanic. Players must now raise their overall Tech Level to research advanced technologies.
+[*] [b]Building Tier Limits[/b]: Introduced cap constraints for primary state buildings, allowing players to expand building caps through technological advancement.
+[*] [b]Overhauled Industry & Production Techs[/b]: Completely replaces vanilla industrial tech trees. Offers comprehensive passive bonuses while retaining single-direction vanilla tech mapping for backend compatibility.
 [/list]
 
 [hr][/hr]
 
 [h2]🌐 Supported Languages[/h2]
 
-This mod currently includes localization support for the following languages, categorized by their maintenance status:
+Localization support is categorized into [b]Native Support[/b] and [b]Inherited Support[/b] based on current maintenance status:
 
 [list]
-[*] [b]🇬🇧 English[/b] - [b]Native Support[/b].
-[*] [b]🇨🇳 Chinese[/b] - [b]Native Support[/b]. Fully integrated with the UTTNH_2.0 CNT localization project, fully maintained and updated by myself.
-[*] [b]🇷🇺 Russian[/b] - [b]Inherited from upstream[/b]. Retains the legacy translation from the original UTTNH mod. Due to limited development resources, [b]I will not actively maintain or update this language[/b].
-[*] [b]🇩🇪 German[/b] - [b]Inherited from upstream[/b]. Retains the legacy translation from the original UTTNH mod. Likewise, [b]this is not included in my future maintenance plans[/b].
-[*] [b]🇫🇷 French[/b] - [b]Inherited from upstream[/b]. Retains the legacy translation from the original UTTNH mod. Likewise, [b]this is not included in my future maintenance plans[/b].
+[*] [b]🇨🇳 Simplified Chinese[/b] - [b]Native Support[/b]. Primary development language.
+[*] [b]🇬🇧 English[/b] - [b]Native Support[/b]. Actively maintained.
+[*] [b]🇷🇺 Russian[/b] - [b]Inherited[/b]. Deprecated / Outdated; no active maintenance planned.
+[*] [b]🇩🇪 German[/b] - [b]Inherited[/b]. Deprecated / Outdated; no active maintenance planned.
+[*] [b]🇫🇷 French[/b] - [b]Inherited[/b]. Deprecated / Outdated; no active maintenance planned.
 [/list]
 
-💡 [b]To Translators & Community Contributors:[/b]
-I highly welcome and encourage developers and translators of any other languages to join in! This mod is more than excited to support a diverse language ecosystem in the future.
- 
-⚠️ [b]Translation Advice for the Current Stage:[/b]
-Please note that the mod is currently undergoing [b]heavy backend refactoring, meaning the codebase and localization text are highly unstable. Therefore, it is NOT recommended to start any active translation work at this stage.[/b]
- 
-⚙️ [b]Submission Model Ext:[/b]
-I highly suggest that translators publish their respective language packs as [b]standalone localization sub-mods[/b] on the Steam Workshop. Once you have completed the upload, you can contact me (via Steam, etc.) to have the link to your language pack added here.
+🤝 [b]To Community Translators & Collaborators:[/b]  
+We warmly welcome and encourage translators to contribute to localization efforts!
+
+💡 [b]Recommended Submission Workflow:[/b]  
+We recommend publishing language translations as [b]standalone localization sub-mods[/b] on the Steam Workshop. Once uploaded, feel free to reach out (via Steam, Discord, etc.) to have your sub-mod linked on the main Workshop page.
 
 [hr][/hr]
 
-[h2]🔗 Links[/h2]
+[h2]🧩 Mod Compatibility[/h2]
 
-[url=https://github.com/foxr-lolunwer/UTTNH-Foxr-Edition]Github[/url]
-[url=https://discord.gg/mgPDcGESnt]Discord[/url]
+⚠️ [b]The following types of mods are strictly INCOMPATIBLE:[/b]
+
+[list]
+[*] [b]Tech Tree Layout Overhauls[/b]: Any mod that modifies the base tech tree UI layout or injects new technologies directly into tech tree folders.
+[*] [b]State Interface Overhauls[/b]: Any mod that adds state building slots or alters state UI elements ([i]compatible ONLY with mods that attach side/popup windows to the state interface[/i]).
+[*] [b]Custom Building Icons[/b]: Any mod that adds new buildings with [b]custom building icons[/b].
+[/list]
+
+[hr][/hr]
+
+[h2]📅 Roadmap[/h2]
+
+[list=1]
+[*] [b]Industrial Capacity Throttle[/b] [i](Planned)[/i]: Dynamically scales building speed penalties based on total owned factory count; penalties can be mitigated through industrial research.
+[*] [b]Tank Designer & Tech Overhaul[/b] [i](Candidate for v0.3.x, inspired by BlackICE)[/i]
+[*] [b]Aircraft Designer & Tech Overhaul[/b] [i](Candidate for v0.3.x)[/i]
+[*] [b]Naval Designer & Tech Overhaul[/b] [i](Candidate for v0.3.x, inspired by BlackICE & VNR)[/i]
+[*] [b]Army Helicopter Designer & Techs[/b] [i](Planned)[/i]: Introduces helicopters as a distinct army equipment type.
+[*] [b]Global Economic & Military Ledger[/b] [i](Planned)[/i]: View global economic and military rankings with associated bonuses ([i]incompatible with mods adding non-vanilla equipment[/i]).
+[*] [b]Localization File Refactoring[/b] [i](Planned)[/i]: Further standardizes key-value strings and file structure for improved localization maintenance.
+[*] [b]Expanded Special Projects[/b] [i](Planned)[/i]: Certain projects will release alongside vehicle designer overhauls.
+[*] [b]Motorized/Vehicle Designer Overhaul[/b] [i](Planned)[/i]: Introduces a vehicle designer framework similar to [i]Millennium Dawn[/i].
+[*] [b]Espionage System Expansion[/b] [i](Under Evaluation)[/i]: Core logic is implemented; public integration will depend on community feedback.
+[/list]
 
 
 
 
 [h1]UTTNH: Foxr Edition[/h1]
 
-一个专为更深度的游戏体验而打造的《钢铁雄心4》（HOI4）独立模组分支。本模组基于 [b]UTTNH_2.0[/b] 开发，并已正式获得原作者的独立维护与发布授权。
+一个专为更深度游戏体验而打造的《钢铁雄心4》（HOI4）独立模组分支。本模组基于 [b]UTTNH_2.0[/b] 开发，已获得原作者的独立维护与发布授权。
 
-👉 [url=https://github.com/foxr-lolunwer/UTTNH-Foxr-Edition/blob/master/zzz_mod_info/Authorization.png][b]查看授权截图[/b][/url]
+同时，本模组还通过主动申请或自动授权等方式获得了其他相关模组的使用授权。
+👉 [b]授权明细请参阅：[i]zzz_mod_info[/i] 文件夹[/b]
 
 [hr][/hr]
 
 [h2]📌 当前开发状态[/h2]
 
-本模组目前处于 [b]代码重构阶段[/b]。
+本模组目前处于 [b]内容完善[/b] 阶段。
 
-[b]【提示】[/b] 当前版本主要聚焦于代码净化与底层框架搭建，尚未添加任何独特的自定义新玩法或新机制。
-
-[b]【警告】[/b] 本模组删除了相当一部分 UTTNH 的原版内容（例如对军工组织、AI策略等已过时的修改）。由于开发精力有限，为了确保模组正常运行，您必须至少拥有包含了坦克设计和飞机设计功能的相关 DLC。
-
-[hr][/hr]
-
-[h2]🛠️ 已完成的优化与修复[/h2]
-
-虽然尚未引入新机制，但本版本相比于原版 UTTNH 已经进行了以下关键优化：
+[b]DLC 依赖说明[/b]  
+本模组重构并删除了部分过时的 UTTNH 原版内容（如军工组织、AI 策略等修改）。  
+为确保各项机制正常运行，您必须拥有包含以下机制的 DLC：
 
 [list]
-[*] [b]全面兼容最新版本[/b]：成功对接并应用了自 UTTNH 上次更新以来，HOI4 官方历次重大更新（如 1.17 版本及其配套 DLC *Thunder at Our Gates*）所带来的[b]主要[/b]底层代码变更。
-[*] [b]科技树代码格式化[/b]：对原版的科技树代码进行了严格的格式化重构。优化了属性排序、统一了缩进规范、标准化了路径逻辑等，极大提升了后续二次编辑与扩展的便利性。
-[*] [b]代码净化与轻量化[/b]：精简并去除了不必要冗余文件，在保证功能不受影响的前提下，使模组更加轻量化。
-[*] [b]整合中文本地化[/b]：完整整合了由我发起并参与的 UTTNH_2.0 CNT 项目的内容。
+[*] 坦克设计器 ([i]No Step Back[/i])
+[*] 飞机设计器 ([i]By Blood Alone[/i])
+[*] 情报机构机制 ([i]La Résistance[/i])
+[*] 特殊工程机制 ([i]Götterdämmerung[/i])
 [/list]
 
 [hr][/hr]
 
-[h2]🌐 支持语言[/h2]
-
-本模组目前包含以下语言的本地化支持，根据维护状态分为原生支持与继承支持：
+[h2]🛠️ 已完成的核心机制[/h2]
 
 [list]
-[*] [b]🇨🇳 中文 (Chinese)[/b] - [b]原生支持[/b]。模组的基础开发语言。
-[*] [b]🇬🇧 英语 (English)[/b] - [b]原生支持[/b]。
-[*] [b]🇷🇺 俄语 (Russian)[/b] - [b]继承自原项目[/b]。保留了 UTTNH 原版的俄语翻译，但由于精力有限，[b]我个人不会主动对其进行维护或修复[/b]。
-[*] [b]🇩🇪 德语 (German)[/b] - [b]继承自原项目[/b]。保留了 UTTNH 原版的德语翻译，同样[b]不在我的后续维护计划中[/b]。
-[*] [b]🇫🇷 法语(French)[/b] - [b]继承自原项目[/b]。保留了 UTTNH 原版的法语翻译，同样[b]不在我的后续维护计划中[/b]。
+[*] [b]代码架构优化[/b]：重构并精简了大量 UTTNH 冗余代码，在保证功能稳定的前提下提升了代码可读性与模组兼容性。
+[*] [b]科研等级系统[/b]：取消原版年份限制，引入全新的科研等级机制。玩家需提升科研等级以解锁更高级别的科技。
+[*] [b]建筑等级限制[/b]：主要建筑新增等级限制，可随科技研发逐步解锁更高上限。
+[*] [b]生产与建筑科技重构[/b]：完全替换原版工业科技树，提供更全面的属性加成，并通过单向的原版科技映射确保与兼容性。
 [/list]
-
-💡 [b]致翻译社群与合作者：[/b]
-我非常欢迎并鼓励任何其他语言的开发者与翻译同仁加入进来！本模组在未来非常乐意支持更多元的语言生态。
- 
-⚠️ [b]现阶段翻译建议：[/b]
-由于模组目前正处于[b]底层的剧烈重构阶段，代码和文本版本尚不稳定[/b]，因此[b]现阶段不推荐开展任何实际的翻译工作[/b]。
- 
-⚙️ [b]提交模式：[/b]
-我建议翻译者们将各自的语言包作为[b]独立的本地化子模组[/b]发布在创意工坊上。当您完成上传后，可以联系我（通过Steam等）添加对应语言的链接。
 
 [hr][/hr]
 
-[h2]🔗 链接[/h2]
+[h2]🌐 语言支持[/h2]
 
-[url=https://github.com/foxr-lolunwer/UTTNH-Foxr-Edition]Github[/url]
-[url=https://discord.gg/mgPDcGESnt]Discord[/url]
+根据维护状态，本模组的本地化分为[b]原生支持[/b]与[b]继承支持[/b]：
+
+[list]
+[*] [b]🇨🇳 简体中文 (Chinese)[/b] - [b]原生支持[/b]。模组基础开发语言。
+[*] [b]🇬🇧 英语 (English)[/b] - [b]原生支持[/b]。核心维护语言。
+[*] [b]🇷🇺 俄语 (Russian)[/b] - [b]继承自原项目[/b]。已过时，不会维护。
+[*] [b]🇩🇪 德语 (German)[/b] - [b]继承自原项目[/b]。已过时，不会维护。
+[*] [b]🇫🇷 法语 (French)[/b] - [b]继承自原项目[/b]。已过时，不会维护。
+[/list]
+
+🤝 [b]致社区翻译与合作者：[/b]  
+非常欢迎并鼓励译者社区加入本地化工作！
+
+💡 [b]建议提交模式：[/b]  
+建议将翻译内容作为[b]独立的本地化子模组[/b]发布至 Steam 创意工坊。上传完成后，请联系我（通过 Steam / Discord 等渠道），以便在主页添加链接推荐。
+
+[hr][/hr]
+
+[h2]🧩 模组兼容性[/h2]
+
+⚠️ [b]以下类型的模组完全不兼容：[/b]
+
+[list]
+[*] [b]修改科技树布局[/b]：任何修改科技树界面布局，或向科技树文件夹添加新科技的模组。
+[*] [b]修改省份界面[/b]：任何添加省份建筑槽或直接改动省份UI的模组（[i]仅兼容在省份界面挂载附加子界面的模组[/i]）。
+[*] [b]添加新建筑[/b]：任何添加包含[b]新建筑图标[/b]建筑的模组。
+[/list]
+
+[hr][/hr]
+
+[h2]📅 未来路线图[/h2]
+
+[list=1]
+[*] [b]工业产能限制器[/b] [i](计划中)[/i]：根据已有工厂总量动态降低建造速度，可通过研发工业科技减轻惩罚。
+[*] [b]重构坦克设计及科技树[/b] [i](0.3.x 版本可选，参考`黑冰`)[/i]
+[*] [b]重构飞机设计及科技树[/b] [i](0.3.x 版本可选)[/i]
+[*] [b]重构舰船设计及科技树[/b] [i](0.3.x 版本可选，参考`黑冰`与 `VNR`)[/i]
+[*] [b]陆军直升机设计与科技[/b] [i](计划中)[/i]：作为新型陆军装备引入。
+[*] [b]全球统计报表系统[/b] [i](计划中)[/i]：查看全球经济与军事排名并获得相应加成（不兼容其他自定义装备模组）。
+[*] [b]本地化文件重构[/b] [i](计划中)[/i]：进一步规范文本键值与本地化结构，提升文本可读性。
+[*] [b]拓展特殊工程项目[/b] [i](计划中)[/i]：部分内容将随载具设计重构同步上线。
+[*] [b]重构通用车辆设计[/b] [i](计划中)[/i]：引入类似于`千禧黎明`的载具设计器。
+[*] [b]情报机构机制拓展[/b] [i](评估中)[/i]：已有基础代码储备，后续将根据社区反馈决定是否引入。
+[/list]

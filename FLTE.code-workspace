@@ -12,6 +12,10 @@
             "name": "TECH EP", // 我自己之前做的科技拓展模组，用于参考
             "path": "../tech ep"
         },
+        {
+            "name": "VNR-RO", // 我自己之前做的科技拓展模组，用于参考
+            "path": "E:/SteamLibrary/steamapps/workshop/content/394360/2993772482"
+        },
         // ...在此处添加其他参考文件夹路径
         {
             "name": "HOI4-RO", // HOI4原版路径，用于查找用法等

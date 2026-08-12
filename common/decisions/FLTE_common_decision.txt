@@ -1,4 +1,14 @@
 FLTE_common_decision_categories = {
+    FLTE_decision_open_welcome_menu = {
+        icon = generic_operation
+        visible = { NOT = { has_country_flag = FLTE_FLAG_UI_welcome_menu_show } is_ai = no }
+        complete_effect = {
+            hidden_effect = {
+                set_country_flag = FLTE_FLAG_UI_welcome_menu_show
+            }
+        }
+    }
+    
     FLTE_decision_get_free_random_scientist_land = {
         icon = generic_operation
         visible = { NOT = { has_scientist_specialization = specialization_land } land_facility > 0 }

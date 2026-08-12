@@ -1,5 +1,6 @@
 ﻿l_simp_chinese:
   FLTE_common_decision_categories: "FLTE 决议"
+  FLTE_decision_open_welcome_menu: "打开FLTE欢迎界面"
   FLTE_LOCT_get_free_random_scientist: "科研征召-"
   FLTE_decision_get_free_random_scientist_land: "$FLTE_LOCT_get_free_random_scientist$$specialization_land_short$"
   FLTE_decision_get_free_random_scientist_naval: "$FLTE_LOCT_get_free_random_scientist$$specialization_naval_short$"

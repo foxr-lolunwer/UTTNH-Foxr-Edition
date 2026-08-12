@@ -1,5 +1,6 @@
 ﻿l_english:
   FLTE_common_decision_categories: "FLTE Decisions"
+  FLTE_decision_open_welcome_menu: "Open FLTE Welcome Menu"
   FLTE_LOCT_get_free_random_scientist: "Scientist Recruitment - "
   FLTE_decision_get_free_random_scientist_land: "$FLTE_LOCT_get_free_random_scientist$$specialization_land_short$"
   FLTE_decision_get_free_random_scientist_naval: "$FLTE_LOCT_get_free_random_scientist$$specialization_naval_short$"

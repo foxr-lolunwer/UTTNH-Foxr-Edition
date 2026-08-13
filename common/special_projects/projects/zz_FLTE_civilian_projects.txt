@@ -11,8 +11,8 @@ sp_FLTE_tech_tier_infr_1 = {
 		NOT = { has_tech = FLTE_tech_tier_infr_1 }
 	} }
 	ai_will_do = { base = 5
-		modifier = { factor = 2 FROM = { is_major = yes } }
-		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 ROOT = { is_major = yes } }
+		modifier = { factor = 2 ROOT = { has_war = yes } }
 		modifier = { factor = 5 date > 1940.1.1 }
 	}
 	project_output = {
@@ -52,8 +52,8 @@ sp_FLTE_tech_tier_infr_2 = {
 		has_tech = FLTE_tech_tier_infr_1
 	} }
 	ai_will_do = { base = 5
-		modifier = { factor = 2 FROM = { is_major = yes } }
-		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 ROOT = { is_major = yes } }
+		modifier = { factor = 2 ROOT = { has_war = yes } }
 		modifier = { factor = 2 date > 1940.1.1 }
 		modifier = { factor = 5 date > 1945.1.1 }
 	}
@@ -94,8 +94,8 @@ sp_FLTE_tech_tier_infr_3 = {
 		has_tech = FLTE_tech_tier_infr_2
 	} }
 	ai_will_do = { base = 5
-		modifier = { factor = 2 FROM = { is_major = yes } }
-		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 ROOT = { is_major = yes } }
+		modifier = { factor = 2 ROOT = { has_war = yes } }
 		modifier = { factor = 2 date > 1945.1.1 }
 		modifier = { factor = 5 date > 1950.1.1 }
 	}
@@ -136,8 +136,8 @@ sp_FLTE_tech_tier_infr_4 = {
        has_tech = FLTE_tech_tier_infr_3
     } }
     ai_will_do = { base = 5
-       modifier = { factor = 2 FROM = { is_major = yes } }
-       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 ROOT = { is_major = yes } }
+       modifier = { factor = 2 ROOT = { has_war = yes } }
        modifier = { factor = 2 date > 1950.1.1 }
        modifier = { factor = 5 date > 1960.1.1 }
     }
@@ -178,8 +178,8 @@ sp_FLTE_tech_tier_infr_5 = {
        has_tech = FLTE_tech_tier_infr_4
     } }
     ai_will_do = { base = 5
-       modifier = { factor = 2 FROM = { is_major = yes } }
-       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 ROOT = { is_major = yes } }
+       modifier = { factor = 2 ROOT = { has_war = yes } }
        modifier = { factor = 2 date > 1960.1.1 }
        modifier = { factor = 5 date > 1975.1.1 }
     }
@@ -220,8 +220,8 @@ sp_FLTE_tech_tier_infr_6 = {
        has_tech = FLTE_tech_tier_infr_5
     } }
     ai_will_do = { base = 5
-       modifier = { factor = 2 FROM = { is_major = yes } }
-       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 ROOT = { is_major = yes } }
+       modifier = { factor = 2 ROOT = { has_war = yes } }
        modifier = { factor = 2 date > 1975.1.1 }
        modifier = { factor = 5 date > 1990.1.1 }
     }
@@ -262,8 +262,8 @@ sp_FLTE_tech_tier_infr_7 = {
        has_tech = FLTE_tech_tier_infr_6
     } }
     ai_will_do = { base = 5
-       modifier = { factor = 2 FROM = { is_major = yes } }
-       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 ROOT = { is_major = yes } }
+       modifier = { factor = 2 ROOT = { has_war = yes } }
        modifier = { factor = 2 date > 1990.1.1 }
        modifier = { factor = 5 date > 2000.1.1 }
     }
@@ -306,8 +306,8 @@ sp_FLTE_tech_tier_prod_1 = {
 		NOT = { has_tech = FLTE_tech_tier_prod_1 }
 	} }
 	ai_will_do = { base = 5
-		modifier = { factor = 2 FROM = { is_major = yes } }
-		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 ROOT = { is_major = yes } }
+		modifier = { factor = 2 ROOT = { has_war = yes } }
 		modifier = { factor = 5 date > 1940.1.1 }
 	}
 	project_output = {
@@ -347,8 +347,8 @@ sp_FLTE_tech_tier_prod_2 = {
 		has_tech = FLTE_tech_tier_prod_1
 	} }
 	ai_will_do = { base = 5
-		modifier = { factor = 2 FROM = { is_major = yes } }
-		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 ROOT = { is_major = yes } }
+		modifier = { factor = 2 ROOT = { has_war = yes } }
 		modifier = { factor = 2 date > 1940.1.1 }
 		modifier = { factor = 5 date > 1945.1.1 }
 	}
@@ -389,8 +389,8 @@ sp_FLTE_tech_tier_prod_3 = {
 		has_tech = FLTE_tech_tier_prod_2
 	} }
 	ai_will_do = { base = 5
-		modifier = { factor = 2 FROM = { is_major = yes } }
-		modifier = { factor = 2 FROM = { has_war = yes } }
+		modifier = { factor = 2 ROOT = { is_major = yes } }
+		modifier = { factor = 2 ROOT = { has_war = yes } }
 		modifier = { factor = 2 date > 1945.1.1 }
 		modifier = { factor = 5 date > 1950.1.1 }
 	}
@@ -431,8 +431,8 @@ sp_FLTE_tech_tier_prod_4 = {
        has_tech = FLTE_tech_tier_prod_3
     } }
     ai_will_do = { base = 5
-       modifier = { factor = 2 FROM = { is_major = yes } }
-       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 ROOT = { is_major = yes } }
+       modifier = { factor = 2 ROOT = { has_war = yes } }
        modifier = { factor = 2 date > 1950.1.1 }
        modifier = { factor = 5 date > 1960.1.1 }
     }
@@ -473,8 +473,8 @@ sp_FLTE_tech_tier_prod_5 = {
        has_tech = FLTE_tech_tier_prod_4
     } }
     ai_will_do = { base = 5
-       modifier = { factor = 2 FROM = { is_major = yes } }
-       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 ROOT = { is_major = yes } }
+       modifier = { factor = 2 ROOT = { has_war = yes } }
        modifier = { factor = 2 date > 1960.1.1 }
        modifier = { factor = 5 date > 1975.1.1 }
     }
@@ -515,8 +515,8 @@ sp_FLTE_tech_tier_prod_6 = {
        has_tech = FLTE_tech_tier_prod_5
     } }
     ai_will_do = { base = 5
-       modifier = { factor = 2 FROM = { is_major = yes } }
-       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 ROOT = { is_major = yes } }
+       modifier = { factor = 2 ROOT = { has_war = yes } }
        modifier = { factor = 2 date > 1975.1.1 }
        modifier = { factor = 5 date > 1990.1.1 }
     }
@@ -557,8 +557,8 @@ sp_FLTE_tech_tier_prod_7 = {
        has_tech = FLTE_tech_tier_prod_6
     } }
     ai_will_do = { base = 5
-       modifier = { factor = 2 FROM = { is_major = yes } }
-       modifier = { factor = 2 FROM = { has_war = yes } }
+       modifier = { factor = 2 ROOT = { is_major = yes } }
+       modifier = { factor = 2 ROOT = { has_war = yes } }
        modifier = { factor = 2 date > 1990.1.1 }
        modifier = { factor = 5 date > 2000.1.1 }
     }

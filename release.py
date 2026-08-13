@@ -3,8 +3,10 @@ import shutil
 from pathlib import Path
 import pathspec
 
+MOD_VERSION = "0.2.5-rainbow"
+
 MOD_TEXT = '''\
-version="0.2.3-rainbow"
+version="%s"
 tags={
 \t"Gameplay"
 \t"Graphics"
@@ -14,7 +16,7 @@ tags={
 }
 name="UTTNH: Foxr Edition"
 supported_version="1.19.*"
-'''
+''' % MOD_VERSION
 
 
 def sync_with_ignore_mechanism(descriptor_mod_text, ignore_file=".myignore", dest_dir="../destination"):
@@ -64,7 +66,7 @@ def sync_with_ignore_mechanism(descriptor_mod_text, ignore_file=".myignore", des
     try:
         with open(descriptor_file_path, 'w', encoding='utf-8') as f:
             f.write(descriptor_mod_text)
-        print(f"成功创建descriptor.mod文件: {descriptor_file_path}")
+        print(f"成功创建descriptor.mod文件: {descriptor_file_path}\n需要手动更新文件中的版本号")
     except Exception as e:
         print(f"创建descriptor.mod文件时出错: {e}")
 

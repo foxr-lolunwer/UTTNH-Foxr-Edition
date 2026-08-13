@@ -11,6 +11,7 @@ workshop-desc.txt
 descriptor.mod
 *.bak
 *.ignore
+*.disable
 .vscode
 codes/
 codes_upload/

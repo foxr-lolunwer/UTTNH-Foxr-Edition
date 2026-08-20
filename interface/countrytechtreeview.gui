@@ -7,13 +7,13 @@ guiTypes = {
 	@width_support 	= 2165		@height_support = 2280 # 27, 7.5
 	@width_vehc 	= 1745		@height_vehc 	= 2140 # 20+[大容器偏移70px], 7
 	@width_armor 	= 2165		@height_armor 	= 2420 # 27, 8
-	@width_naval 	= 3175		@height_naval 	= 2140 # 40+[x偏移100px], 7
+	@width_naval 	= 3175		@height_naval 	= 2140 # 40+[大容器偏移100px], 7
 	@width_naval_s	= 2095		@height_naval_s	= 2140 # 26, 7
 	@width_airf 	= 2375		@height_airf 	= 2140 # 30, 7
 	@width_prod 	= 1815		@height_prod 	= 2140 # 22, 7
 	@width_infr 	= 3005		@height_infr 	= 2140 # 39, 7
 	@width_elec 	= 1200		@height_elec 	= 2140 # 12, 7
-	@width_advance 	= 1675		@height_advance = 2140 # 20, 8
+	@width_advance 	= 2025		@height_advance = 2140 # 20(25), 8
 	# trt: tiled_research_tier
 	@x_trt_1_bg = 0
 	@y_trt_1_bg = 145
@@ -947,13 +947,23 @@ guiTypes = {
 
 			gridboxtype = { name = "experimental_rockets_tree"	position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
 			gridboxtype = { name = "atomic_research_tree" 		position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
-
+			# 游戏规则切换[1]
 			gridboxtype = { name = "sp_land_1_tree" 			position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
 			gridboxtype = { name = "sp_naval_1_tree" 			position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
-			gridboxtype = { name = "sp_air_1_tree" 				position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			gridboxtype = { name = "sp_air_1_tree" 			position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
 			gridboxtype = { name = "sp_civilian_1_tree" 		position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
-			gridboxtype = { name = "sp_engineering_1_tree" 		position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
-			gridboxtype = { name = "sp_nuclear_1_tree" 			position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			gridboxtype = { name = "sp_engineering_1_tree" 	position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			gridboxtype = { name = "sp_nuclear_1_tree" 		position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			# 游戏规则切换[1]
+			gridboxtype = { name = "unlock_tech_tier_ordn_1_tree" 	position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			gridboxtype = { name = "unlock_tech_tier_vehc_1_tree" 	position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			gridboxtype = { name = "unlock_tech_tier_air_1_tree" 		position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			gridboxtype = { name = "unlock_tech_tier_naval_1_tree" 	position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			gridboxtype = { name = "unlock_tech_tier_infr_1_tree" 	position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			gridboxtype = { name = "unlock_tech_tier_prod_1_tree" 	position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			gridboxtype = { name = "unlock_tech_tier_elec_1_tree" 	position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			gridboxtype = { name = "unlock_tech_tier_spac_1_tree" 	position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
+			gridboxtype = { name = "unlock_tech_tier_nuclear_1_tree" 	position = { x = 180 y = 180 } slotsize = { width = 70 height = 70 } format = "UP" }
 		}
 		# tab buttons
 		containerWindowType = {

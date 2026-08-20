@@ -1,0 +1,23 @@
+FLTE_TRIGGER_advanced_has_war = { # 高级战争判定
+    OR = {
+        has_war = yes
+        has_border_war = yes
+        all_allied_country = { has_war = yes }
+        AND = { is_subject = yes overlord = { has_war = yes } }
+    }
+}
+FLTE_TRIGGER_war_time = { # 战争状态判定
+    FLTE_TRIGGER_advanced_has_war = yes
+    threat > 0.8
+    any_neighbor_country = { # 不使用other_country，降低性能开销
+        NOT = { is_ally_with = PREV }
+        has_opinion = { target = PREV value < 50 }
+        has_wargoal_against = PREV
+    }
+}
+FLTE_TRIGGER_want_army_tier = {
+    any_neighbor_country = {
+        NOT = { is_ally_with = PREV }
+        has_opinion = { target = PREV value < -50 }
+    }
+}

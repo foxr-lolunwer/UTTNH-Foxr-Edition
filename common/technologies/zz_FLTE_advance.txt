@@ -10,6 +10,16 @@ technologies = {
     @sp_civilian_branch = 16
     @sp_engineering_branch = 18
     @sp_nuclear_branch = 20
+    
+    @unlock_ordn_tier_branch = 9
+    @unlock_vehc_tier_branch = 11
+    @unlock_air_tier_branch = 13
+    @unlock_naval_tier_branch = 15
+    @unlock_prod_tier_branch = 17
+    @unlock_infr_tier_branch = 19
+    @unlock_elec_tier_branch = 21
+    @unlock_spac_tier_branch = 23 # TODO: 太空科技
+    @unlock_nuclear_tier_branch = 23
 
     @Tier1_1 = 0   @Tier1_2 = 2   @Tier1_mid = 1
     @Tier2_1 = 4   @Tier2_2 = 6   @Tier2_mid = 5
@@ -678,6 +688,12 @@ technologies = {
         show_effect_as_desc = yes
         start_year = 1
         research_cost = 1
+        allow_branch = {
+            has_game_rule = {
+                rule = RULE_ID_FLTE_UNLOCK_TECH_TIER_BY_YEAR
+                option = RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_FLASE
+            }
+        }
         path = { research_cost_coeff = 1 leads_to_tech = sp_land_2 }
         folder = { name = FLTE_advance_folder position = { x = @sp_land_branch y = @Tier0_mid } }
         
@@ -685,7 +701,7 @@ technologies = {
         ai_will_do = {
             base = 0.5 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
             modifier = { factor = 0 land_facility < 1 }
-            modifier = { factor = 0 num_of_military_factories < 5 } # 没有军工研究这个没有意义
+            modifier = { factor = 0 num_of_military_factories < 6 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_1 FLTE_TC_tier_ordn_1 FLTE_TC_tier_vehc_1 }
     }
@@ -701,7 +717,7 @@ technologies = {
         ai_will_do = {
             base = 0.5
             modifier = { factor = 0 land_facility < 1 }
-            modifier = { factor = 0 num_of_military_factories < 10 } # 没有军工研究这个没有意义
+            modifier = { factor = 0 num_of_military_factories < 11 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_2 FLTE_TC_tier_ordn_2 FLTE_TC_tier_vehc_2 }
     }
@@ -717,7 +733,7 @@ technologies = {
         ai_will_do = {
             base = 0.5
             modifier = { factor = 0 land_facility < 1 }
-            modifier = { factor = 0 num_of_military_factories < 15 } # 没有军工研究这个没有意义
+            modifier = { factor = 0 num_of_military_factories < 16 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_3 FLTE_TC_tier_ordn_3 FLTE_TC_tier_vehc_3 }
     }
@@ -733,7 +749,7 @@ technologies = {
         ai_will_do = {
             base = 0.5
             modifier = { factor = 0 land_facility < 1 }
-            modifier = { factor = 0 num_of_military_factories < 20 } # 没有军工研究这个没有意义
+            modifier = { factor = 0 num_of_military_factories < 21 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_4 FLTE_TC_tier_ordn_4 FLTE_TC_tier_vehc_4 }
     }
@@ -749,7 +765,7 @@ technologies = {
         ai_will_do = {
             base = 0.5
             modifier = { factor = 0 land_facility < 1 }
-            modifier = { factor = 0 num_of_military_factories < 25 } # 没有军工研究这个没有意义
+            modifier = { factor = 0 num_of_military_factories < 26 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_5 FLTE_TC_tier_ordn_5 FLTE_TC_tier_vehc_5 }
     }
@@ -765,7 +781,7 @@ technologies = {
         ai_will_do = {
             base = 0.5
             modifier = { factor = 0 land_facility < 1 }
-            modifier = { factor = 0 num_of_military_factories < 30 } # 没有军工研究这个没有意义
+            modifier = { factor = 0 num_of_military_factories < 31 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_6 FLTE_TC_tier_ordn_6 FLTE_TC_tier_vehc_6 }
     }
@@ -804,6 +820,12 @@ technologies = {
         show_effect_as_desc = yes
         start_year = 1
         research_cost = 1
+        allow_branch = {
+            has_game_rule = {
+                rule = RULE_ID_FLTE_UNLOCK_TECH_TIER_BY_YEAR
+                option = RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_FLASE
+            }
+        }
         path = { research_cost_coeff = 1 leads_to_tech = sp_naval_2 }
         folder = { name = FLTE_advance_folder position = { x = @sp_naval_branch y = @Tier0_mid } }
         
@@ -811,7 +833,7 @@ technologies = {
         ai_will_do = {
             base = 0.5 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
             modifier = { factor = 0 naval_facility < 1 }
-            modifier = { factor = 0 dockyard < 5 } # 没有船坞研究这个没有意义
+            modifier = { factor = 0 dockyard < 6 } # 没有船坞研究这个没有意义
         }
         categories = { FLTE_TC_tier_1 FLTE_TC_tier_naval_1 }
     }
@@ -827,7 +849,7 @@ technologies = {
         ai_will_do = {
             base = 0.5
             modifier = { factor = 0 naval_facility < 1 }
-            modifier = { factor = 0 dockyard < 10 } # 没有船坞研究这个没有意义
+            modifier = { factor = 0 dockyard < 11 } # 没有船坞研究这个没有意义
         }
         categories = { FLTE_TC_tier_2 FLTE_TC_tier_naval_2 }
     }
@@ -843,7 +865,7 @@ technologies = {
         ai_will_do = {
             base = 0.5
             modifier = { factor = 0 naval_facility < 1 }
-            modifier = { factor = 0 dockyard < 15 } # 没有船坞研究这个没有意义
+            modifier = { factor = 0 dockyard < 16 } # 没有船坞研究这个没有意义
         }
         categories = { FLTE_TC_tier_3 FLTE_TC_tier_naval_3 }
     }
@@ -859,7 +881,7 @@ technologies = {
         ai_will_do = {
             base = 0.5
             modifier = { factor = 0 naval_facility < 1 }
-            modifier = { factor = 0 dockyard < 20 } # 没有船坞研究这个没有意义
+            modifier = { factor = 0 dockyard < 21 } # 没有船坞研究这个没有意义
         }
         categories = { FLTE_TC_tier_4 FLTE_TC_tier_naval_4 }
     }
@@ -875,7 +897,7 @@ technologies = {
         ai_will_do = {
             base = 0.5
             modifier = { factor = 0 naval_facility < 1 }
-            modifier = { factor = 0 dockyard < 25 } # 没有船坞研究这个没有意义
+            modifier = { factor = 0 dockyard < 26 } # 没有船坞研究这个没有意义
         }
         categories = { FLTE_TC_tier_5 FLTE_TC_tier_naval_5 }
     }
@@ -891,7 +913,7 @@ technologies = {
         ai_will_do = {
             base = 0.5
             modifier = { factor = 0 naval_facility < 1 }
-            modifier = { factor = 0 dockyard < 30 } # 没有船坞研究这个没有意义
+            modifier = { factor = 0 dockyard < 31 } # 没有船坞研究这个没有意义
         }
         categories = { FLTE_TC_tier_6 FLTE_TC_tier_naval_6 }
     }
@@ -931,6 +953,12 @@ technologies = {
         show_effect_as_desc = yes
         start_year = 1
         research_cost = 1
+        allow_branch = {
+            has_game_rule = {
+                rule = RULE_ID_FLTE_UNLOCK_TECH_TIER_BY_YEAR
+                option = RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_FLASE
+            }
+        }
         path = { research_cost_coeff = 1 leads_to_tech = sp_air_2 }
         folder = { name = FLTE_advance_folder position = { x = @sp_air_branch y = @Tier0_mid } }
         
@@ -938,7 +966,7 @@ technologies = {
         ai_will_do = {
             base = 0.5 # TODO: 没找到检查突破点的trigger，应该在突破点过量时降低权重
             modifier = { factor = 0 air_facility < 1 }
-            modifier = { factor = 0 num_of_military_factories < 5 } # 没有军工研究这个没有意义
+            modifier = { factor = 0 num_of_military_factories < 6 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_1 FLTE_TC_tier_air_1 }
     }
@@ -954,7 +982,7 @@ technologies = {
         ai_will_do = {
             base = 0.5
             modifier = { factor = 0 air_facility < 1 }
-            modifier = { factor = 0 num_of_military_factories < 10 } # 没有军工研究这个没有意义
+            modifier = { factor = 0 num_of_military_factories < 11 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_2 FLTE_TC_tier_air_2 }
     }
@@ -970,7 +998,7 @@ technologies = {
         ai_will_do = {
             base = 0.5
             modifier = { factor = 0 air_facility < 1 }
-            modifier = { factor = 0 num_of_military_factories < 15 } # 没有军工研究这个没有意义
+            modifier = { factor = 0 num_of_military_factories < 16 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_3 FLTE_TC_tier_air_3 }
     }
@@ -986,7 +1014,7 @@ technologies = {
         ai_will_do = {
             base = 0.5
             modifier = { factor = 0 air_facility < 1 }
-            modifier = { factor = 0 num_of_military_factories < 20 } # 没有军工研究这个没有意义
+            modifier = { factor = 0 num_of_military_factories < 21 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_4 FLTE_TC_tier_air_4 }
     }
@@ -1002,7 +1030,7 @@ technologies = {
         ai_will_do = {
             base = 0.5
             modifier = { factor = 0 air_facility < 1 }
-            modifier = { factor = 0 num_of_military_factories < 25 } # 没有军工研究这个没有意义
+            modifier = { factor = 0 num_of_military_factories < 26 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_5 FLTE_TC_tier_air_5 }
     }
@@ -1018,7 +1046,7 @@ technologies = {
         ai_will_do = {
             base = 0.5
             modifier = { factor = 0 air_facility < 1 }
-            modifier = { factor = 0 num_of_military_factories < 30 } # 没有军工研究这个没有意义
+            modifier = { factor = 0 num_of_military_factories < 31 } # 没有军工研究这个没有意义
         }
         categories = { FLTE_TC_tier_6 FLTE_TC_tier_air_6 }
     }
@@ -1058,6 +1086,12 @@ technologies = {
         show_effect_as_desc = yes
         start_year = 1
         research_cost = 1
+        allow_branch = {
+            has_game_rule = {
+                rule = RULE_ID_FLTE_UNLOCK_TECH_TIER_BY_YEAR
+                option = RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_FLASE
+            }
+        }
         path = { research_cost_coeff = 1 leads_to_tech = sp_civilian_2 }
         folder = { name = FLTE_advance_folder position = { x = @sp_civilian_branch y = @Tier0_mid } }
         
@@ -1185,6 +1219,12 @@ technologies = {
         show_effect_as_desc = yes
         start_year = 1
         research_cost = 1
+        allow_branch = {
+            has_game_rule = {
+                rule = RULE_ID_FLTE_UNLOCK_TECH_TIER_BY_YEAR
+                option = RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_FLASE
+            }
+        }
         path = { research_cost_coeff = 1 leads_to_tech = sp_engineering_2 }
         folder = { name = FLTE_advance_folder position = { x = @sp_engineering_branch y = @Tier0_mid } }
         
@@ -1312,6 +1352,12 @@ technologies = {
         show_effect_as_desc = yes
         start_year = 1
         research_cost = 1
+        allow_branch = {
+            has_game_rule = {
+                rule = RULE_ID_FLTE_UNLOCK_TECH_TIER_BY_YEAR
+                option = RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_FLASE
+            }
+        }
         path = { research_cost_coeff = 1 leads_to_tech = sp_nuclear_2 }
         folder = { name = FLTE_advance_folder position = { x = @sp_nuclear_branch y = @Tier0_mid } }
         
@@ -1432,6 +1478,1341 @@ technologies = {
             modifier = { factor = 2 num_of_civilian_factories > 160 }
         }
         categories = { FLTE_TC_tier_7 FLTE_TC_tier_spac_7 FLTE_TC_tier_nuclear_7 }
+    }
+
+    unlock_tech_tier_ordn_1 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_ordn_1 } }
+                set_technology = { FLTE_tech_tier_ordn_1 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1918
+        research_cost = 5
+        allow_branch = {
+            has_game_rule = {
+                rule = RULE_ID_FLTE_UNLOCK_TECH_TIER_BY_YEAR
+                option = RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_TRUE
+            }
+        }
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_ordn_2 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_ordn_tier_branch y = @Tier0_mid } }
+        special_project_specialization = { specialization_land }
+        ai_will_do = { base = 1
+            modifier = { factor = 2 date > 1918.1.1 }
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 10 date > 1940.1.1 }
+        }
+        categories = { FLTE_TC_tier_ordn_1 }
+    }
+    unlock_tech_tier_ordn_2 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_ordn_2 } }
+                set_technology = { popup = no FLTE_tech_tier_ordn_2 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1932
+        research_cost = 7
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_ordn_3 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_ordn_tier_branch y = @Tier1_mid } }
+        special_project_specialization = { specialization_land }
+        ai_will_do = { base = 1
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 10 date > 1945.1.1 }
+        }
+        categories = { FLTE_TC_tier_ordn_2 }
+    }
+    unlock_tech_tier_ordn_3 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_ordn_3 } }
+                set_technology = { popup = no popup = no FLTE_tech_tier_ordn_3 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1940
+        research_cost = 10
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_ordn_4 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_ordn_tier_branch y = @Tier2_mid } }
+        special_project_specialization = { specialization_land }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 11 }
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 10 date > 1960.1.1 }
+        }
+        categories = { FLTE_TC_tier_ordn_3 }
+    }
+    unlock_tech_tier_ordn_4 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_ordn_4 } }
+                set_technology = { popup = no FLTE_tech_tier_ordn_4 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1945
+        research_cost = 14
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_ordn_5 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_ordn_tier_branch y = @Tier3_mid } }
+        special_project_specialization = { specialization_land }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 16 }
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 10 date > 1975.1.1 }
+        }
+        categories = { FLTE_TC_tier_ordn_4 }
+    }
+    unlock_tech_tier_ordn_5 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_ordn_5 } }
+                set_technology = { popup = no FLTE_tech_tier_ordn_5 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1960
+        research_cost = 19
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_ordn_6 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_ordn_tier_branch y = @Tier4_mid } }
+        special_project_specialization = { specialization_land }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 21 }
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 10 date > 1990.1.1 }
+        }
+        categories = { FLTE_TC_tier_ordn_5 }
+    }
+    unlock_tech_tier_ordn_6 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_ordn_6 } }
+                set_technology = { popup = no FLTE_tech_tier_ordn_6 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1975
+        research_cost = 25
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_ordn_7 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_ordn_tier_branch y = @Tier5_mid } }
+        special_project_specialization = { specialization_land }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 26 }
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 10 date > 2000.1.1 }
+        }
+        categories = { FLTE_TC_tier_ordn_6 }
+    }
+    unlock_tech_tier_ordn_7 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_ordn_7 } }
+                set_technology = { popup = no FLTE_tech_tier_ordn_7 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1990
+        research_cost = 32
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_ordn_8 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_ordn_tier_branch y = @Tier6_mid } }
+        special_project_specialization = { specialization_land }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 31 }
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 2 date > 2000.1.1 }
+            modifier = { factor = 10 date > 2010.1.1 }
+        }
+        categories = { FLTE_TC_tier_ordn_7 }
+    }
+    unlock_tech_tier_ordn_8 = {
+        on_research_complete = { custom_effect_tooltip = unlock_tech_tier_ordn_8_desc }
+        show_effect_as_desc = yes
+        start_year = 1 # 不设置为1990，尽量避免数值溢出
+        research_cost = 65536
+        folder = { name = FLTE_advance_folder position = { x = @unlock_ordn_tier_branch y = @Tier7_mid } }
+        special_project_specialization = { specialization_land }
+        ai_will_do = { base = 0.1 }
+        categories = { FLTE_TC_tier_ordn_7 }
+    }
+    
+    unlock_tech_tier_vehc_1 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_vehc_1 } }
+                set_technology = { popup = no FLTE_tech_tier_vehc_1 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1918
+        research_cost = 5
+        allow_branch = {
+            has_game_rule = {
+                rule = RULE_ID_FLTE_UNLOCK_TECH_TIER_BY_YEAR
+                option = RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_TRUE
+            }
+        }
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_vehc_2 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_vehc_tier_branch y = @Tier0_mid } }
+        special_project_specialization = { specialization_land }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 1 }
+            modifier = { factor = 2 date > 1918.1.1 }
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 10 date > 1940.1.1 }
+        }
+        categories = { FLTE_TC_tier_vehc_1 }
+    }
+    unlock_tech_tier_vehc_2 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_vehc_2 } }
+                set_technology = { popup = no FLTE_tech_tier_vehc_2 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1932
+        research_cost = 7
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_vehc_3 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_vehc_tier_branch y = @Tier1_mid } }
+        special_project_specialization = { specialization_land }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 6 }
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 10 date > 1945.1.1 }
+        }
+        categories = { FLTE_TC_tier_vehc_2 }
+    }
+    unlock_tech_tier_vehc_3 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_vehc_3 } }
+                set_technology = { popup = no FLTE_tech_tier_vehc_3 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1940
+        research_cost = 10
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_vehc_4 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_vehc_tier_branch y = @Tier2_mid } }
+        special_project_specialization = { specialization_land }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 11 }
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 10 date > 1960.1.1 }
+        }
+        categories = { FLTE_TC_tier_vehc_3 }
+    }
+    unlock_tech_tier_vehc_4 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_vehc_4 } }
+                set_technology = { popup = no FLTE_tech_tier_vehc_4 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1945
+        research_cost = 14
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_vehc_5 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_vehc_tier_branch y = @Tier3_mid } }
+        special_project_specialization = { specialization_land }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 16 }
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 10 date > 1975.1.1 }
+        }
+        categories = { FLTE_TC_tier_vehc_4 }
+    }
+    unlock_tech_tier_vehc_5 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_vehc_5 } }
+                set_technology = { popup = no FLTE_tech_tier_vehc_5 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1960
+        research_cost = 19
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_vehc_6 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_vehc_tier_branch y = @Tier4_mid } }
+        special_project_specialization = { specialization_land }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 21 }
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 10 date > 1990.1.1 }
+        }
+        categories = { FLTE_TC_tier_vehc_5 }
+    }
+    unlock_tech_tier_vehc_6 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_vehc_6 } }
+                set_technology = { popup = no FLTE_tech_tier_vehc_6 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1975
+        research_cost = 25
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_vehc_7 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_vehc_tier_branch y = @Tier5_mid } }
+        special_project_specialization = { specialization_land }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 26 }
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 10 date > 2000.1.1 }
+        }
+        categories = { FLTE_TC_tier_vehc_6 }
+    }
+    unlock_tech_tier_vehc_7 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_vehc_7 } }
+                set_technology = { popup = no FLTE_tech_tier_vehc_7 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1975
+        research_cost = 32
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_vehc_8 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_vehc_tier_branch y = @Tier6_mid } }
+        special_project_specialization = { specialization_land }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 31 }
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 2 date > 2000.1.1 }
+            modifier = { factor = 10 date > 2010.1.1 }
+        }
+        categories = { FLTE_TC_tier_vehc_6 }
+    }
+    unlock_tech_tier_vehc_8 = {
+        on_research_complete = { custom_effect_tooltip = unlock_tech_tier_vehc_8_desc }
+        show_effect_as_desc = yes
+        start_year = 1
+        research_cost = 65536
+        folder = { name = FLTE_advance_folder position = { x = @unlock_vehc_tier_branch y = @Tier7_mid } }
+        special_project_specialization = { specialization_land }
+        ai_will_do = { base = 0.1 }
+        categories = { FLTE_TC_tier_vehc_7 }
+    }
+    
+    unlock_tech_tier_air_1 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_air_1 } }
+                set_technology = { popup = no FLTE_tech_tier_air_1 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1918
+        research_cost = 5
+        allow_branch = {
+            has_game_rule = {
+                rule = RULE_ID_FLTE_UNLOCK_TECH_TIER_BY_YEAR
+                option = RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_TRUE
+            }
+        }
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_air_2 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_air_tier_branch y = @Tier0_mid } }
+        special_project_specialization = { specialization_air }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 1 }
+            modifier = { factor = 2 date > 1918.1.1 }
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 10 date > 1940.1.1 }
+        }
+        categories = { FLTE_TC_tier_air_1 }
+    }
+    unlock_tech_tier_air_2 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_air_2 } }
+                set_technology = { popup = no FLTE_tech_tier_air_2 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1932
+        research_cost = 7
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_air_3 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_air_tier_branch y = @Tier1_mid } }
+        special_project_specialization = { specialization_air }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 6 }
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 10 date > 1945.1.1 }
+        }
+        categories = { FLTE_TC_tier_air_2 }
+    }
+    unlock_tech_tier_air_3 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_air_3 } }
+                set_technology = { popup = no FLTE_tech_tier_air_3 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1940
+        research_cost = 10
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_air_4 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_air_tier_branch y = @Tier2_mid } }
+        special_project_specialization = { specialization_air }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 11 }
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 10 date > 1960.1.1 }
+        }
+        categories = { FLTE_TC_tier_air_3 }
+    }
+    unlock_tech_tier_air_4 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_air_4 } }
+                set_technology = { popup = no FLTE_tech_tier_air_4 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1945
+        research_cost = 14
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_air_5 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_air_tier_branch y = @Tier3_mid } }
+        special_project_specialization = { specialization_air }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 16 }
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 10 date > 1975.1.1 }
+        }
+        categories = { FLTE_TC_tier_air_4 }
+    }
+    unlock_tech_tier_air_5 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_air_5 } }
+                set_technology = { popup = no FLTE_tech_tier_air_5 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1960
+        research_cost = 19
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_air_6 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_air_tier_branch y = @Tier4_mid } }
+        special_project_specialization = { specialization_air }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 21 }
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 10 date > 1990.1.1 }
+        }
+        categories = { FLTE_TC_tier_air_5 }
+    }
+    unlock_tech_tier_air_6 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_air_6 } }
+                set_technology = { popup = no FLTE_tech_tier_air_6 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1975
+        research_cost = 25
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_air_7 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_air_tier_branch y = @Tier5_mid } }
+        special_project_specialization = { specialization_air }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 26 }
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 10 date > 2000.1.1 }
+        }
+        categories = { FLTE_TC_tier_air_6 }
+    }
+    unlock_tech_tier_air_7 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_air_7 } }
+                set_technology = { popup = no FLTE_tech_tier_air_7 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1990
+        research_cost = 32
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_air_8 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_air_tier_branch y = @Tier6_mid } }
+        special_project_specialization = { specialization_air }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 31 }
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 2 date > 2000.1.1 }
+            modifier = { factor = 10 date > 2010.1.1 }
+        }
+        categories = { FLTE_TC_tier_air_7 }
+    }
+    unlock_tech_tier_air_8 = {
+        on_research_complete = { custom_effect_tooltip = unlock_tech_tier_air_8_desc }
+        show_effect_as_desc = yes
+        start_year = 1
+        research_cost = 65536
+        folder = { name = FLTE_advance_folder position = { x = @unlock_air_tier_branch y = @Tier7_mid } }
+        special_project_specialization = { specialization_air }
+        ai_will_do = { base = 0.1 }
+        categories = { FLTE_TC_tier_air_7 }
+    }
+    
+    unlock_tech_tier_naval_1 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_naval_1 } }
+                set_technology = { popup = no FLTE_tech_tier_naval_1 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1918
+        research_cost = 5
+        allow_branch = {
+            has_game_rule = {
+                rule = RULE_ID_FLTE_UNLOCK_TECH_TIER_BY_YEAR
+                option = RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_TRUE
+            }
+        }
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_naval_2 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_naval_tier_branch y = @Tier0_mid } }
+        special_project_specialization = { specialization_naval }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 dockyard < 1 }
+            modifier = { factor = 2 date > 1918.1.1 }
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 10 date > 1940.1.1 }
+        }
+        categories = { FLTE_TC_tier_naval_1 }
+    }
+    unlock_tech_tier_naval_2 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_naval_2 } }
+                set_technology = { popup = no FLTE_tech_tier_naval_2 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1932
+        research_cost = 7
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_naval_3 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_naval_tier_branch y = @Tier1_mid } }
+        special_project_specialization = { specialization_naval }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 dockyard < 4 }
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 10 date > 1945.1.1 }
+        }
+        categories = { FLTE_TC_tier_naval_2 }
+    }
+    unlock_tech_tier_naval_3 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_naval_3 } }
+                set_technology = { popup = no FLTE_tech_tier_naval_3 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1940
+        research_cost = 10
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_naval_4 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_naval_tier_branch y = @Tier2_mid } }
+        special_project_specialization = { specialization_naval }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 dockyard < 7 }
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 10 date > 1960.1.1 }
+        }
+        categories = { FLTE_TC_tier_naval_3 }
+    }
+    unlock_tech_tier_naval_4 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_naval_4 } }
+                set_technology = { popup = no FLTE_tech_tier_naval_4 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1945
+        research_cost = 14
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_naval_5 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_naval_tier_branch y = @Tier3_mid } }
+        special_project_specialization = { specialization_naval }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 dockyard < 10 }
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 10 date > 1975.1.1 }
+        }
+        categories = { FLTE_TC_tier_naval_4 }
+    }
+    unlock_tech_tier_naval_5 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_naval_5 } }
+                set_technology = { popup = no FLTE_tech_tier_naval_5 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1960
+        research_cost = 19
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_naval_6 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_naval_tier_branch y = @Tier4_mid } }
+        special_project_specialization = { specialization_naval }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 dockyard < 13 }
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 10 date > 1990.1.1 }
+        }
+        categories = { FLTE_TC_tier_naval_5 }
+    }
+    unlock_tech_tier_naval_6 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_naval_6 } }
+                set_technology = { popup = no FLTE_tech_tier_naval_6 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1975
+        research_cost = 25
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_naval_7 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_naval_tier_branch y = @Tier5_mid } }
+        special_project_specialization = { specialization_naval }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 dockyard < 16 }
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 10 date > 2000.1.1 }
+        }
+        categories = { FLTE_TC_tier_naval_6 }
+    }
+    unlock_tech_tier_naval_7 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_naval_7 } }
+                set_technology = { popup = no FLTE_tech_tier_naval_7 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1990
+        research_cost = 32
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_naval_8 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_naval_tier_branch y = @Tier6_mid } }
+        special_project_specialization = { specialization_naval }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 dockyard < 19 }
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 2 date > 2000.1.1 }
+            modifier = { factor = 10 date > 2010.1.1 }
+        }
+        categories = { FLTE_TC_tier_naval_7 }
+    }
+    unlock_tech_tier_naval_8 = {
+        on_research_complete = { custom_effect_tooltip = unlock_tech_tier_naval_8_desc }
+        show_effect_as_desc = yes
+        start_year = 1
+        research_cost = 65536
+        folder = { name = FLTE_advance_folder position = { x = @unlock_naval_tier_branch y = @Tier7_mid } }
+        special_project_specialization = { specialization_naval }
+        ai_will_do = { base = 0.1 }
+        categories = { FLTE_TC_tier_naval_7 }
+    }
+    
+    unlock_tech_tier_infr_1 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_infr_1 } }
+                set_technology = { popup = no FLTE_tech_tier_infr_1 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1918
+        research_cost = 5
+        allow_branch = {
+            has_game_rule = {
+                rule = RULE_ID_FLTE_UNLOCK_TECH_TIER_BY_YEAR
+                option = RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_TRUE
+            }
+        }
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_infr_2 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_infr_tier_branch y = @Tier0_mid } }
+        special_project_specialization = { specialization_civilian }
+        ai_will_do = { base = 1
+            modifier = { factor = 2 date > 1918.1.1 }
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 10 date > 1940.1.1 }
+        }
+        categories = { FLTE_TC_tier_infr_1 }
+    }
+    unlock_tech_tier_infr_2 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_infr_2 } }
+                set_technology = { popup = no FLTE_tech_tier_infr_2 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1932
+        research_cost = 7
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_infr_3 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_infr_tier_branch y = @Tier1_mid } }
+        special_project_specialization = { specialization_civilian }
+        ai_will_do = { base = 1
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 10 date > 1945.1.1 }
+        }
+        categories = { FLTE_TC_tier_infr_2 }
+    }
+    unlock_tech_tier_infr_3 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_infr_3 } }
+                set_technology = { popup = no FLTE_tech_tier_infr_3 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1940
+        research_cost = 10
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_infr_4 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_infr_tier_branch y = @Tier2_mid } }
+        special_project_specialization = { specialization_civilian }
+        ai_will_do = { base = 1
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 10 date > 1960.1.1 }
+        }
+        categories = { FLTE_TC_tier_infr_3 }
+    }
+    unlock_tech_tier_infr_4 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_infr_4 } }
+                set_technology = { popup = no FLTE_tech_tier_infr_4 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1945
+        research_cost = 14
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_infr_5 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_infr_tier_branch y = @Tier3_mid } }
+        special_project_specialization = { specialization_civilian }
+        ai_will_do = { base = 1
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 10 date > 1975.1.1 }
+        }
+        categories = { FLTE_TC_tier_infr_4 }
+    }
+    unlock_tech_tier_infr_5 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_infr_5 } }
+                set_technology = { popup = no FLTE_tech_tier_infr_5 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1960
+        research_cost = 19
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_infr_6 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_infr_tier_branch y = @Tier4_mid } }
+        special_project_specialization = { specialization_civilian }
+        ai_will_do = { base = 1
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 10 date > 1990.1.1 }
+        }
+        categories = { FLTE_TC_tier_infr_5 }
+    }
+    unlock_tech_tier_infr_6 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_infr_6 } }
+                set_technology = { popup = no FLTE_tech_tier_infr_6 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1975
+        research_cost = 25
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_infr_7 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_infr_tier_branch y = @Tier5_mid } }
+        special_project_specialization = { specialization_civilian }
+        ai_will_do = { base = 1
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 10 date > 2000.1.1 }
+        }
+        categories = { FLTE_TC_tier_infr_6 }
+    }
+    unlock_tech_tier_infr_7 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_infr_7 } }
+                set_technology = { popup = no FLTE_tech_tier_infr_7 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1990
+        research_cost = 32
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_infr_8 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_infr_tier_branch y = @Tier6_mid } }
+        special_project_specialization = { specialization_civilian }
+        ai_will_do = { base = 1
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 2 date > 2000.1.1 }
+            modifier = { factor = 10 date > 2010.1.1 }
+        }
+        categories = { FLTE_TC_tier_infr_7 }
+    }
+    unlock_tech_tier_infr_8 = {
+        on_research_complete = { custom_effect_tooltip = unlock_tech_tier_infr_8_desc }
+        show_effect_as_desc = yes
+        start_year = 1
+        research_cost = 65536
+        folder = { name = FLTE_advance_folder position = { x = @unlock_infr_tier_branch y = @Tier7_mid } }
+        special_project_specialization = { specialization_civilian }
+        ai_will_do = { base = 0.1 }
+        categories = { FLTE_TC_tier_infr_7 }
+    }
+    
+    unlock_tech_tier_prod_1 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_prod_1 } }
+                set_technology = { popup = no FLTE_tech_tier_prod_1 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1918
+        research_cost = 5
+        allow_branch = {
+            has_game_rule = {
+                rule = RULE_ID_FLTE_UNLOCK_TECH_TIER_BY_YEAR
+                option = RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_TRUE
+            }
+        }
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_prod_2 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_prod_tier_branch y = @Tier0_mid } }
+        special_project_specialization = { specialization_civilian }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 1 }
+            modifier = { factor = 2 date > 1918.1.1 }
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 10 date > 1940.1.1 }
+        }
+        categories = { FLTE_TC_tier_prod_1 }
+    }
+    unlock_tech_tier_prod_2 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_prod_2 } }
+                set_technology = { popup = no FLTE_tech_tier_prod_2 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1932
+        research_cost = 7
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_prod_3 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_prod_tier_branch y = @Tier1_mid } }
+        special_project_specialization = { specialization_civilian }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 11 }
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 10 date > 1945.1.1 }
+        }
+        categories = { FLTE_TC_tier_prod_2 }
+    }
+    unlock_tech_tier_prod_3 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_prod_3 } }
+                set_technology = { popup = no FLTE_tech_tier_prod_3 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1940
+        research_cost = 10
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_prod_4 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_prod_tier_branch y = @Tier2_mid } }
+        special_project_specialization = { specialization_civilian }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 21 }
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 10 date > 1960.1.1 }
+        }
+        categories = { FLTE_TC_tier_prod_3 }
+    }
+    unlock_tech_tier_prod_4 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_prod_4 } }
+                set_technology = { popup = no FLTE_tech_tier_prod_4 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1945
+        research_cost = 14
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_prod_5 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_prod_tier_branch y = @Tier3_mid } }
+        special_project_specialization = { specialization_civilian }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 31 }
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 10 date > 1975.1.1 }
+        }
+        categories = { FLTE_TC_tier_prod_4 }
+    }
+    unlock_tech_tier_prod_5 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_prod_5 } }
+                set_technology = { popup = no FLTE_tech_tier_prod_5 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1960
+        research_cost = 19
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_prod_6 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_prod_tier_branch y = @Tier4_mid } }
+        special_project_specialization = { specialization_civilian }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 41 }
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 10 date > 1990.1.1 }
+        }
+        categories = { FLTE_TC_tier_prod_5 }
+    }
+    unlock_tech_tier_prod_6 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_prod_6 } }
+                set_technology = { popup = no FLTE_tech_tier_prod_6 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1975
+        research_cost = 25
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_prod_7 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_prod_tier_branch y = @Tier5_mid } }
+        special_project_specialization = { specialization_civilian }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 51 }
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 10 date > 2000.1.1 }
+        }
+        categories = { FLTE_TC_tier_prod_6 }
+    }
+    unlock_tech_tier_prod_7 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_prod_7 } }
+                set_technology = { popup = no FLTE_tech_tier_prod_7 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1990
+        research_cost = 32
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_prod_8 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_prod_tier_branch y = @Tier6_mid } }
+        special_project_specialization = { specialization_civilian }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 61 }
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 2 date > 2000.1.1 }
+            modifier = { factor = 10 date > 2010.1.1 }
+        }
+        categories = { FLTE_TC_tier_prod_7 }
+    }
+    unlock_tech_tier_prod_8 = {
+        on_research_complete = { custom_effect_tooltip = unlock_tech_tier_prod_8_desc }
+        show_effect_as_desc = yes
+        start_year = 1
+        research_cost = 65536
+        folder = { name = FLTE_advance_folder position = { x = @unlock_prod_tier_branch y = @Tier7_mid } }
+        special_project_specialization = { specialization_civilian }
+        ai_will_do = { base = 0.1 }
+        categories = { FLTE_TC_tier_prod_7 }
+    }
+    
+    unlock_tech_tier_elec_1 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_elec_1 } }
+                set_technology = { popup = no FLTE_tech_tier_elec_1 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1918
+        research_cost = 5
+        allow_branch = {
+            has_game_rule = {
+                rule = RULE_ID_FLTE_UNLOCK_TECH_TIER_BY_YEAR
+                option = RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_TRUE
+            }
+        }
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_elec_2 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_elec_tier_branch y = @Tier0_mid } }
+        special_project_specialization = { specialization_engineering }
+        ai_will_do = { base = 1
+            modifier = { factor = 2 date > 1918.1.1 }
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 10 date > 1940.1.1 }
+        }
+        categories = { FLTE_TC_tier_elec_1 }
+    }
+    unlock_tech_tier_elec_2 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_elec_2 } }
+                set_technology = { popup = no FLTE_tech_tier_elec_2 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1932
+        research_cost = 7
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_elec_3 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_elec_tier_branch y = @Tier1_mid } }
+        special_project_specialization = { specialization_engineering }
+        ai_will_do = { base = 1
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 10 date > 1945.1.1 }
+        }
+        categories = { FLTE_TC_tier_elec_2 }
+    }
+    unlock_tech_tier_elec_3 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_elec_3 } }
+                set_technology = { popup = no FLTE_tech_tier_elec_3 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1940
+        research_cost = 10
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_elec_4 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_elec_tier_branch y = @Tier2_mid } }
+        special_project_specialization = { specialization_engineering }
+        ai_will_do = { base = 1
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 10 date > 1960.1.1 }
+        }
+        categories = { FLTE_TC_tier_elec_3 }
+    }
+    unlock_tech_tier_elec_4 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_elec_4 } }
+                set_technology = { popup = no FLTE_tech_tier_elec_4 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1945
+        research_cost = 14
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_elec_5 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_elec_tier_branch y = @Tier3_mid } }
+        special_project_specialization = { specialization_engineering }
+        ai_will_do = { base = 1
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 10 date > 1975.1.1 }
+        }
+        categories = { FLTE_TC_tier_elec_4 }
+    }
+    unlock_tech_tier_elec_5 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_elec_5 } }
+                set_technology = { popup = no FLTE_tech_tier_elec_5 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1960
+        research_cost = 19
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_elec_6 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_elec_tier_branch y = @Tier4_mid } }
+        special_project_specialization = { specialization_engineering }
+        ai_will_do = { base = 1
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 10 date > 1990.1.1 }
+        }
+        categories = { FLTE_TC_tier_elec_5 }
+    }
+    unlock_tech_tier_elec_6 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_elec_6 } }
+                set_technology = { popup = no FLTE_tech_tier_elec_6 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1975
+        research_cost = 25
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_elec_7 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_elec_tier_branch y = @Tier5_mid } }
+        special_project_specialization = { specialization_engineering }
+        ai_will_do = { base = 1
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 10 date > 2000.1.1 }
+        }
+        categories = { FLTE_TC_tier_elec_6 }
+    }
+    unlock_tech_tier_elec_7 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_elec_7 } }
+                set_technology = { popup = no FLTE_tech_tier_elec_7 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1990
+        research_cost = 32
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_elec_8 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_elec_tier_branch y = @Tier6_mid } }
+        special_project_specialization = { specialization_engineering }
+        ai_will_do = { base = 1
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 2 date > 2000.1.1 }
+            modifier = { factor = 10 date > 2010.1.1 }
+        }
+        categories = { FLTE_TC_tier_elec_7 }
+    }
+    unlock_tech_tier_elec_8 = {
+        on_research_complete = { custom_effect_tooltip = unlock_tech_tier_elec_8_desc }
+        show_effect_as_desc = yes
+        start_year = 1
+        research_cost = 65536
+        folder = { name = FLTE_advance_folder position = { x = @unlock_elec_tier_branch y = @Tier7_mid } }
+        special_project_specialization = { specialization_engineering }
+        ai_will_do = { base = 0.1 }
+        categories = { FLTE_TC_tier_elec_7 }
+    }
+    
+    unlock_tech_tier_spac_1 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_spac_1 } }
+                set_technology = { popup = no FLTE_tech_tier_spac_1 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1950
+        research_cost = 5
+        allow_branch = { # TODO: 暂时禁用
+            always = no
+            # has_game_rule = {
+            #     rule = RULE_ID_FLTE_UNLOCK_TECH_TIER_BY_YEAR
+            #     option = RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_TRUE
+            # }
+        }
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_spac_2 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_spac_tier_branch y = @Tier0_mid } }
+        special_project_specialization = { specialization_nuclear }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 11 num_of_civilian_factories < 21 }
+            modifier = { factor = 2 date > 1918.1.1 }
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 10 date > 1940.1.1 }
+        }
+        categories = { FLTE_TC_tier_spac_1 }
+    }
+    unlock_tech_tier_spac_2 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_spac_2 } }
+                set_technology = { popup = no FLTE_tech_tier_spac_2 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1955
+        research_cost = 7
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_spac_3 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_spac_tier_branch y = @Tier1_mid } }
+        special_project_specialization = { specialization_nuclear }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 21 num_of_civilian_factories < 41 }
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 10 date > 1945.1.1 }
+        }
+        categories = { FLTE_TC_tier_spac_2 }
+    }
+    unlock_tech_tier_spac_3 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_spac_3 } }
+                set_technology = { popup = no FLTE_tech_tier_spac_3 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1960
+        research_cost = 10
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_spac_4 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_spac_tier_branch y = @Tier2_mid } }
+        special_project_specialization = { specialization_nuclear }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 31 num_of_civilian_factories < 61 }
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 10 date > 1960.1.1 }
+        }
+        categories = { FLTE_TC_tier_spac_3 }
+    }
+    unlock_tech_tier_spac_4 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_spac_4 } }
+                set_technology = { popup = no FLTE_tech_tier_spac_4 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1965
+        research_cost = 14
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_spac_5 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_spac_tier_branch y = @Tier3_mid } }
+        special_project_specialization = { specialization_nuclear }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 41 num_of_civilian_factories < 81 }
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 10 date > 1975.1.1 }
+        }
+        categories = { FLTE_TC_tier_spac_4 }
+    }
+    unlock_tech_tier_spac_5 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_spac_5 } }
+                set_technology = { popup = no FLTE_tech_tier_spac_5 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1970
+        research_cost = 19
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_spac_6 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_spac_tier_branch y = @Tier4_mid } }
+        special_project_specialization = { specialization_nuclear }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 51 num_of_civilian_factories < 101 }
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 10 date > 1990.1.1 }
+        }
+        categories = { FLTE_TC_tier_spac_5 }
+    }
+    unlock_tech_tier_spac_6 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_spac_6 } }
+                set_technology = { popup = no FLTE_tech_tier_spac_6 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1980
+        research_cost = 25
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_spac_7 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_spac_tier_branch y = @Tier5_mid } }
+        special_project_specialization = { specialization_nuclear }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 61 num_of_civilian_factories < 121 }
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 10 date > 2000.1.1 }
+        }
+        categories = { FLTE_TC_tier_spac_6 }
+    }
+    unlock_tech_tier_spac_7 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_spac_7 } }
+                set_technology = { popup = no FLTE_tech_tier_spac_7 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1990
+        research_cost = 32
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_spac_8 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_spac_tier_branch y = @Tier6_mid } }
+        special_project_specialization = { specialization_nuclear }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 71 num_of_civilian_factories < 141 }
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 2 date > 2000.1.1 }
+            modifier = { factor = 10 date > 2010.1.1 }
+        }
+        categories = { FLTE_TC_tier_spac_7 }
+    }
+    unlock_tech_tier_spac_8 = {
+        on_research_complete = { custom_effect_tooltip = unlock_tech_tier_spac_8_desc }
+        show_effect_as_desc = yes
+        start_year = 1
+        research_cost = 65536
+        folder = { name = FLTE_advance_folder position = { x = @unlock_spac_tier_branch y = @Tier7_mid } }
+        special_project_specialization = { specialization_nuclear }
+        ai_will_do = { base = 0.1 }
+        categories = { FLTE_TC_tier_spac_7 }
+    }
+    
+    unlock_tech_tier_nuclear_1 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_nuclear_1 } }
+                set_technology = { popup = no FLTE_tech_tier_nuclear_1 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1930
+        research_cost = 5
+        allow_branch = {
+            has_game_rule = {
+                rule = RULE_ID_FLTE_UNLOCK_TECH_TIER_BY_YEAR
+                option = RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_TRUE
+            }
+        }
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_nuclear_2 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_nuclear_tier_branch y = @Tier0_mid } }
+        special_project_specialization = { specialization_nuclear }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 11 num_of_civilian_factories < 21 }
+            modifier = { factor = 2 date > 1918.1.1 }
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 10 date > 1940.1.1 }
+        }
+        categories = { FLTE_TC_tier_nuclear_1 }
+    }
+    unlock_tech_tier_nuclear_2 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_nuclear_2 } }
+                set_technology = { popup = no FLTE_tech_tier_nuclear_2 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1940
+        research_cost = 7
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_nuclear_3 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_nuclear_tier_branch y = @Tier1_mid } }
+        special_project_specialization = { specialization_nuclear }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 21 num_of_civilian_factories < 41 }
+            modifier = { factor = 2 date > 1932.1.1 }
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 10 date > 1945.1.1 }
+        }
+        categories = { FLTE_TC_tier_nuclear_2 }
+    }
+    unlock_tech_tier_nuclear_3 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_nuclear_3 } }
+                set_technology = { popup = no FLTE_tech_tier_nuclear_3 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1950
+        research_cost = 10
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_nuclear_4 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_nuclear_tier_branch y = @Tier2_mid } }
+        special_project_specialization = { specialization_nuclear }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 31 num_of_civilian_factories < 61 }
+            modifier = { factor = 2 date > 1940.1.1 }
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 10 date > 1960.1.1 }
+        }
+        categories = { FLTE_TC_tier_nuclear_3 }
+    }
+    unlock_tech_tier_nuclear_4 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_nuclear_4 } }
+                set_technology = { popup = no FLTE_tech_tier_nuclear_4 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1960
+        research_cost = 14
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_nuclear_5 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_nuclear_tier_branch y = @Tier3_mid } }
+        special_project_specialization = { specialization_nuclear }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 41 num_of_civilian_factories < 81 }
+            modifier = { factor = 2 date > 1945.1.1 }
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 10 date > 1975.1.1 }
+        }
+        categories = { FLTE_TC_tier_nuclear_4 }
+    }
+    unlock_tech_tier_nuclear_5 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_nuclear_5 } }
+                set_technology = { popup = no FLTE_tech_tier_nuclear_5 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1970
+        research_cost = 19
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_nuclear_6 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_nuclear_tier_branch y = @Tier4_mid } }
+        special_project_specialization = { specialization_nuclear }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 51 num_of_civilian_factories < 101 }
+            modifier = { factor = 2 date > 1960.1.1 }
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 10 date > 1990.1.1 }
+        }
+        categories = { FLTE_TC_tier_nuclear_5 }
+    }
+    unlock_tech_tier_nuclear_6 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_nuclear_6 } }
+                set_technology = { popup = no FLTE_tech_tier_nuclear_6 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1980
+        research_cost = 25
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_nuclear_7 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_nuclear_tier_branch y = @Tier5_mid } }
+        special_project_specialization = { specialization_nuclear }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 61 num_of_civilian_factories < 121 }
+            modifier = { factor = 2 date > 1975.1.1 }
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 10 date > 2000.1.1 }
+        }
+        categories = { FLTE_TC_tier_nuclear_6 }
+    }
+    unlock_tech_tier_nuclear_7 = {
+        on_research_complete = {
+            if = { limit = { NOT = { has_tech = FLTE_tech_tier_nuclear_7 } }
+                set_technology = { popup = no FLTE_tech_tier_nuclear_7 = 1 } }
+        }
+        show_effect_as_desc = yes
+        start_year = 1990
+        research_cost = 32
+        path = { research_cost_coeff = 1 leads_to_tech = unlock_tech_tier_nuclear_8 }
+        folder = { name = FLTE_advance_folder position = { x = @unlock_nuclear_tier_branch y = @Tier6_mid } }
+        special_project_specialization = { specialization_nuclear }
+        ai_will_do = { base = 1
+            modifier = { factor = 0.1 num_of_military_factories < 71 num_of_civilian_factories < 141 }
+            modifier = { factor = 2 date > 1990.1.1 }
+            modifier = { factor = 2 date > 2000.1.1 }
+            modifier = { factor = 10 date > 2010.1.1 }
+        }
+        categories = { FLTE_TC_tier_nuclear_7 }
+    }
+    unlock_tech_tier_nuclear_8 = {
+        on_research_complete = { custom_effect_tooltip = unlock_tech_tier_nuclear_8_desc }
+        show_effect_as_desc = yes
+        start_year = 1
+        research_cost = 65536
+        folder = { name = FLTE_advance_folder position = { x = @unlock_nuclear_tier_branch y = @Tier7_mid } }
+        special_project_specialization = { specialization_nuclear }
+        ai_will_do = { base = 0.1 }
+        categories = { FLTE_TC_tier_nuclear_7 }
     }
     
     nuclear_reactor = {

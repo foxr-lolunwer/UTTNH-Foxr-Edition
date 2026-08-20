@@ -161,6 +161,27 @@ technology_categories = {
 	
 	FLTE_TC_tier_spac_1 FLTE_TC_tier_spac_2 FLTE_TC_tier_spac_3 FLTE_TC_tier_spac_4 FLTE_TC_tier_spac_5 FLTE_TC_tier_spac_6 FLTE_TC_tier_spac_7
 	FLTE_TC_tier_nuclear_1 FLTE_TC_tier_nuclear_2 FLTE_TC_tier_nuclear_3 FLTE_TC_tier_nuclear_4 FLTE_TC_tier_nuclear_5 FLTE_TC_tier_nuclear_6 FLTE_TC_tier_nuclear_7
+
+	FLTE_TC_industry_concentrated
+	FLTE_TC_industry_dispersed
+	FLTE_TC_building_construction
+	FLTE_TC_building_factory
+	FLTE_TC_building_bunker
+	FLTE_TC_building_supply_node
+	FLTE_TC_building_naval_base
+	FLTE_TC_building_air_base
+	FLTE_TC_building_facility
+	FLTE_TC_building_nuclear
+	FLTE_TC_resource_fuel
+	FLTE_TC_resource_energy
+	FLTE_TC_resource_excavation
+	FLTE_TC_resource_synth_oil
+	FLTE_TC_resource_steel
+	FLTE_TC_resource_aluminium
+	FLTE_TC_resource_tungsten
+	FLTE_TC_resource_chromium
+	FLTE_TC_resource_rubber
+	FLTE_TC_resource_coal
 }
 
 technology_folders = {

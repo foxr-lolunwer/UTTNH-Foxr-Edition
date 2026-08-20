@@ -1,0 +1,21 @@
+﻿l_simp_chinese:
+  RULE_GROUP_Z_FLTE_A_SETTINGS: "FLTE 通用设置"
+  RULE_GROUP_FLTE_DANGER_SETTINGS: "FLTE §R危险§!设置"
+  RULE_GROUP_FLTE_EXPERIMENTAL_FUNCTIONS: "FLTE §C实验性§!设置"
+
+  FLTE_LOCT_rule_desc_cannot_changed_in_game: "\n§O该规则不能在游戏中更改！§!"
+  FLTE_LOCT_rule_desc_danger_setting: "\n§R该规则是一项危险的设置：§!\n§g如果您启用或修改这类规则会偏离原版游戏或FLTE标准的玩法，而且本模组测试时不会启用该规则。\n确保你知道自己在做什么！§!"
+  FLTE_LOCT_rule_desc_experimental_functions: "\n§C该规则是一项实验性的设置：§!\n§g这意味着该设置正在接受评估或提供了可选的附加功能。§!"
+  FLTE_LOCT_rule_option_default_tip: "§L这是该选项的默认项§!"
+  FLTE_LOCT_rule_option_default: "默认"
+  FLTE_LOCT_rule_option_true: "启用"
+  FLTE_LOCT_rule_option_false: "禁用"
+  FLTE_LOCT_rule_option_yes: "是"
+  FLTE_LOCT_rule_option_no: "否"
+
+  RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR: "通过年份解锁科研等级"
+  FLTE_LOCT_RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_DESC: "将会替换§Y$FLTE_advance_folder$§!科技文件夹的§Y$FLTE_LOCT_tech_name_sp_tech_export$§!类科技为科研等级科技。\n如果你不喜欢通过科研设施解锁科研等级以及基于科研等级的机制，可以启用此选项\n$FLTE_LOCT_rule_desc_cannot_changed_in_game$$FLTE_LOCT_rule_desc_danger_setting$$FLTE_LOCT_rule_desc_experimental_functions$"
+  RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_FLASE_TEXT: "$FLTE_LOCT_rule_option_false$"
+  RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_FLASE_DESC: "$FLTE_LOCT_rule_option_default_tip$\n$FLTE_LOCT_RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_DESC$"
+  RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_TRUE_TEXT: "$FLTE_LOCT_rule_option_true$"
+  RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_TRUE_DESC: "$FLTE_LOCT_RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_DESC$"

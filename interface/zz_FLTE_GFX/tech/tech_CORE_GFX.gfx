@@ -558,6 +558,78 @@ spriteTypes = {
 	spriteType= { name = "GFX_sp_nuclear_6_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" } # change
 	spriteType= { name = "GFX_sp_nuclear_7_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" } # change
 	spriteType= { name = "GFX_sp_nuclear_8_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" } # change
+
+	spriteType = { name = "GFX_unlock_tech_tier_ordn_1_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_ordn_2_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_ordn_3_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_ordn_4_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_ordn_5_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_ordn_6_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_ordn_7_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" }
+
+	spriteType = { name = "GFX_unlock_tech_tier_vehc_1_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_vehc_2_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_vehc_3_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_vehc_4_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_vehc_5_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_vehc_6_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_vehc_7_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_land_1.dds" }
+
+	spriteType = { name = "GFX_unlock_tech_tier_air_1_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_air_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_air_2_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_air_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_air_3_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_air_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_air_4_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_air_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_air_5_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_air_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_air_6_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_air_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_air_7_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_air_1.dds" }
+
+	spriteType = { name = "GFX_unlock_tech_tier_naval_1_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_naval_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_naval_2_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_naval_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_naval_3_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_naval_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_naval_4_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_naval_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_naval_5_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_naval_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_naval_6_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_naval_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_naval_7_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_naval_1.dds" }
+
+	spriteType = { name = "GFX_unlock_tech_tier_prod_1_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_prod_2_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_prod_3_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_prod_4_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_prod_5_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_prod_6_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_prod_7_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" }
+
+	spriteType = { name = "GFX_unlock_tech_tier_infr_1_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_infr_2_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_infr_3_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_infr_4_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_infr_5_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_infr_6_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_infr_7_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_civilian_1.dds" }
+
+	spriteType = { name = "GFX_unlock_tech_tier_elec_1_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_engineering_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_elec_2_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_engineering_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_elec_3_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_engineering_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_elec_4_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_engineering_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_elec_5_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_engineering_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_elec_6_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_engineering_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_elec_7_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_engineering_1.dds" }
+
+	spriteType = { name = "GFX_unlock_tech_tier_spac_1_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_spac_2_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_spac_3_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_spac_4_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_spac_5_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_spac_6_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_spac_7_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" }
+
+	spriteType = { name = "GFX_unlock_tech_tier_nuclear_1_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_nuclear_2_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_nuclear_3_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_nuclear_4_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_nuclear_5_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_nuclear_6_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" }
+	spriteType = { name = "GFX_unlock_tech_tier_nuclear_7_medium" texturefile = "gfx/interface/FLTE/tech/general/FLTE_sp_nuclear_1.dds" }
 ## infantry
 	spriteType= { name = "GFX_infantry_weapons_medium" texturefile = "gfx/interface/FLTE/tech/general/infantry_weapons.dds" }
 	spriteType= { name = "GFX_infantry_weapons1_medium" texturefile = "gfx/interface/FLTE/tech/general/infantry_weapons1.dds" }

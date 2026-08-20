@@ -44,6 +44,13 @@ FLTE_EFFECT_init_start_tech = {
 		FLTE_EFFECT_set_flte_tech_from_vanilla = yes
 	}
 	FLTE_EFFECT_init_tech_tier = yes
+	if = {
+		limit = { has_game_rule = {
+			rule = RULE_ID_FLTE_UNLOCK_TECH_TIER_BY_YEAR
+			option = RULE_FLTE_UNLOCK_TECH_TIER_BY_YEAR_OPTION_TRUE
+		} }
+		FLTE_EFFECT_init_unlock_tech_tier = yes
+	}
 }
 FLTE_EFFECT_set_flte_tech_from_vanilla = {
 	# if = { limit = { has_tech = fuel_silos NOT = { has_tech = capacity_industrial_construction } }
@@ -739,4 +746,78 @@ FLTE_EFFECT_init_tech_tier_final = {
 			}
 		}
 	}
+}
+FLTE_EFFECT_init_unlock_tech_tier = {
+	# ordn (1-7)
+	if = { limit = { has_tech = FLTE_tech_tier_ordn_1 } set_technology = { popup = no FLTE_tech_tier_ordn_1 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_ordn_2 } set_technology = { popup = no FLTE_tech_tier_ordn_2 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_ordn_3 } set_technology = { popup = no FLTE_tech_tier_ordn_3 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_ordn_4 } set_technology = { popup = no FLTE_tech_tier_ordn_4 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_ordn_5 } set_technology = { popup = no FLTE_tech_tier_ordn_5 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_ordn_6 } set_technology = { popup = no FLTE_tech_tier_ordn_6 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_ordn_7 } set_technology = { popup = no FLTE_tech_tier_ordn_7 = 1 } }
+	# vehc (1-7)
+	if = { limit = { has_tech = FLTE_tech_tier_vehc_1 } set_technology = { popup = no FLTE_tech_tier_vehc_1 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_vehc_2 } set_technology = { popup = no FLTE_tech_tier_vehc_2 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_vehc_3 } set_technology = { popup = no FLTE_tech_tier_vehc_3 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_vehc_4 } set_technology = { popup = no FLTE_tech_tier_vehc_4 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_vehc_5 } set_technology = { popup = no FLTE_tech_tier_vehc_5 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_vehc_6 } set_technology = { popup = no FLTE_tech_tier_vehc_6 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_vehc_7 } set_technology = { popup = no FLTE_tech_tier_vehc_7 = 1 } }
+	# air (1-7)
+	if = { limit = { has_tech = FLTE_tech_tier_air_1 } set_technology = { popup = no FLTE_tech_tier_air_1 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_air_2 } set_technology = { popup = no FLTE_tech_tier_air_2 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_air_3 } set_technology = { popup = no FLTE_tech_tier_air_3 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_air_4 } set_technology = { popup = no FLTE_tech_tier_air_4 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_air_5 } set_technology = { popup = no FLTE_tech_tier_air_5 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_air_6 } set_technology = { popup = no FLTE_tech_tier_air_6 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_air_7 } set_technology = { popup = no FLTE_tech_tier_air_7 = 1 } }
+	# naval (1-7)
+	if = { limit = { has_tech = FLTE_tech_tier_naval_1 } set_technology = { popup = no FLTE_tech_tier_naval_1 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_naval_2 } set_technology = { popup = no FLTE_tech_tier_naval_2 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_naval_3 } set_technology = { popup = no FLTE_tech_tier_naval_3 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_naval_4 } set_technology = { popup = no FLTE_tech_tier_naval_4 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_naval_5 } set_technology = { popup = no FLTE_tech_tier_naval_5 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_naval_6 } set_technology = { popup = no FLTE_tech_tier_naval_6 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_naval_7 } set_technology = { popup = no FLTE_tech_tier_naval_7 = 1 } }
+	# prod (1-7)
+	if = { limit = { has_tech = FLTE_tech_tier_prod_1 } set_technology = { popup = no FLTE_tech_tier_prod_1 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_prod_2 } set_technology = { popup = no FLTE_tech_tier_prod_2 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_prod_3 } set_technology = { popup = no FLTE_tech_tier_prod_3 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_prod_4 } set_technology = { popup = no FLTE_tech_tier_prod_4 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_prod_5 } set_technology = { popup = no FLTE_tech_tier_prod_5 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_prod_6 } set_technology = { popup = no FLTE_tech_tier_prod_6 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_prod_7 } set_technology = { popup = no FLTE_tech_tier_prod_7 = 1 } }
+	# infr (1-7)
+	if = { limit = { has_tech = FLTE_tech_tier_infr_1 } set_technology = { popup = no FLTE_tech_tier_infr_1 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_infr_2 } set_technology = { popup = no FLTE_tech_tier_infr_2 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_infr_3 } set_technology = { popup = no FLTE_tech_tier_infr_3 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_infr_4 } set_technology = { popup = no FLTE_tech_tier_infr_4 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_infr_5 } set_technology = { popup = no FLTE_tech_tier_infr_5 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_infr_6 } set_technology = { popup = no FLTE_tech_tier_infr_6 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_infr_7 } set_technology = { popup = no FLTE_tech_tier_infr_7 = 1 } }
+	# elec (1-7)
+	if = { limit = { has_tech = FLTE_tech_tier_elec_1 } set_technology = { popup = no FLTE_tech_tier_elec_1 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_elec_2 } set_technology = { popup = no FLTE_tech_tier_elec_2 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_elec_3 } set_technology = { popup = no FLTE_tech_tier_elec_3 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_elec_4 } set_technology = { popup = no FLTE_tech_tier_elec_4 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_elec_5 } set_technology = { popup = no FLTE_tech_tier_elec_5 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_elec_6 } set_technology = { popup = no FLTE_tech_tier_elec_6 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_elec_7 } set_technology = { popup = no FLTE_tech_tier_elec_7 = 1 } }
+	# spac (1-7)
+	if = { limit = { has_tech = FLTE_tech_tier_spac_1 } set_technology = { popup = no FLTE_tech_tier_spac_1 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_spac_2 } set_technology = { popup = no FLTE_tech_tier_spac_2 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_spac_3 } set_technology = { popup = no FLTE_tech_tier_spac_3 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_spac_4 } set_technology = { popup = no FLTE_tech_tier_spac_4 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_spac_5 } set_technology = { popup = no FLTE_tech_tier_spac_5 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_spac_6 } set_technology = { popup = no FLTE_tech_tier_spac_6 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_spac_7 } set_technology = { popup = no FLTE_tech_tier_spac_7 = 1 } }
+	# nuclear (1-7)
+	if = { limit = { has_tech = FLTE_tech_tier_nuclear_1 } set_technology = { popup = no FLTE_tech_tier_nuclear_1 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_nuclear_2 } set_technology = { popup = no FLTE_tech_tier_nuclear_2 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_nuclear_3 } set_technology = { popup = no FLTE_tech_tier_nuclear_3 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_nuclear_4 } set_technology = { popup = no FLTE_tech_tier_nuclear_4 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_nuclear_5 } set_technology = { popup = no FLTE_tech_tier_nuclear_5 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_nuclear_6 } set_technology = { popup = no FLTE_tech_tier_nuclear_6 = 1 } }
+	if = { limit = { has_tech = FLTE_tech_tier_nuclear_7 } set_technology = { popup = no FLTE_tech_tier_nuclear_7 = 1 } }
 }

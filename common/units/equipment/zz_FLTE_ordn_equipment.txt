@@ -84,7 +84,7 @@ equipments = {
 		ap_attack = 5
 		build_cost_ic = 0.85
 	}
-	# T4 突击步枪项目
+	# T4 ++突击步枪项目
 	infantry_equipment_4 = { # 高属性，造价昂贵
 		year = 1936
 		archetype = infantry_equipment
@@ -623,7 +623,7 @@ equipments = {
 		build_cost_ic = 10
 		resources = { steel = 3 tungsten = 2 chromium = 1 }
 	}
-	# T4 反坦克导弹
+	# T4 ++反坦克导弹
 	anti_tank_equipment_5 = { # 造价飙升，穿甲能力提升，软攻几乎为0，全面提升，低可靠性
 		year = 1936
 		archetype = anti_tank_equipment
@@ -794,7 +794,7 @@ equipments = {
 		build_cost_ic = 10
 		resources = { steel = 3 tungsten = 1 chromium = 1 }
 	}
-	# T5 防空导弹
+	# T5 ++防空导弹
 	anti_air_equipment_6 = { # 可靠性降低，软控几乎为0，硬攻提升，造价飙升，性价比低
 		year = 1936
 		archetype = anti_air_equipment

@@ -2,6 +2,12 @@
   <dictionary name="project">
     <words>
       <w>FLTE</w>
+      <w>airf</w>
+      <w>elec</w>
+      <w>infr</w>
+      <w>ordn</w>
+      <w>spac</w>
+      <w>vehc</w>
     </words>
   </dictionary>
 </component>

@@ -1,0 +1,526 @@
+@price_of_k_army_power = 10
+@price_of_infantry_equipment = 0.1 # 步兵 100 -> 10
+# @price_of_infantry_equipment_0_add = 0.00 没有附加值
+@price_of_infantry_equipment_1_add = 0.02 # +*0.2
+@price_of_infantry_equipment_2_add = 0.04
+@price_of_infantry_equipment_3_add = 0.06
+@price_of_infantry_equipment_4_add = 0.10 # +*0.4
+@price_of_infantry_equipment_5_add = 0.13 # +*0.3
+@price_of_infantry_equipment_6_add = 0.16
+@price_of_infantry_equipment_7_add = 0.19
+@price_of_infantry_equipment_8_add = 0.21
+
+@price_of_artillery_equipment = 1.0 # 36 -> 36
+@price_of_artillery_equipment_1_add = 0.3 # +*0.3
+@price_of_artillery_equipment_2_add = 0.6
+@price_of_artillery_equipment_3_add = 0.9
+@price_of_artillery_equipment_4_add = 1.2
+@price_of_artillery_equipment_5_add = 1.5
+@price_of_artillery_equipment_6_add = 1.8
+@price_of_artillery_equipment_7_add = 2.1
+@price_of_artillery_equipment_8_add = 2.4
+
+@price_of_rocket_artillery_equipment = 1.2 # 36 -> 36
+@price_of_rocket_artillery_equipment_1_add = 0.3 # +0.3
+@price_of_rocket_artillery_equipment_2_add = 0.6
+@price_of_rocket_artillery_equipment_3_add = 0.9
+@price_of_rocket_artillery_equipment_4_add = 1.2
+@price_of_rocket_artillery_equipment_5_add = 1.5
+@price_of_rocket_artillery_equipment_6_add = 1.8
+
+@price_of_anti_tank_equipment = 0.3 # 36 -> 10.8
+@price_of_anti_tank_equipment_1_add = 0.06 # +*0.2
+@price_of_anti_tank_equipment_2_add = 0.12
+@price_of_anti_tank_equipment_3_add = 0.18
+@price_of_anti_tank_equipment_4_add = 0.24
+@price_of_anti_tank_equipment_5_add = 0.33 # +*0.3
+@price_of_anti_tank_equipment_6_add = 0.42
+@price_of_anti_tank_equipment_7_add = 0.51
+@price_of_anti_tank_equipment_8_add = 0.60
+@price_of_anti_air_equipment = 0.3 # 30 -> 9
+@price_of_anti_air_equipment_1_add = 0.06 # +*0.2
+@price_of_anti_air_equipment_2_add = 0.12
+@price_of_anti_air_equipment_3_add = 0.18
+@price_of_anti_air_equipment_4_add = 0.24
+@price_of_anti_air_equipment_5_add = 0.30
+@price_of_anti_air_equipment_6_add = 0.39 # +*0.3
+@price_of_anti_air_equipment_7_add = 0.48
+@price_of_anti_air_equipment_8_add = 0.57
+
+@price_of_amphibious_mechanized_equipment = 1.2 # 50 -> 60
+@price_of_amphibious_tank_chassis = 2.5 # 50 -> 125
+
+
+@price_of_armored_car_equipment = 0.8 # 60 -> 48
+
+@price_of_heavy_tank_aa_chassis = 1.5 # 36 -> 54
+@price_of_heavy_tank_artillery_chassis = 3.0 # 40 -> 120
+@price_of_heavy_tank_chassis = 3.0 # 40 -> 120
+@price_of_heavy_tank_destroyer_chassis = 3.0 # 40 -> 120
+@price_of_heavy_tank_flame_chassis = 1.0 # 15 -> 15
+@price_of_helicopter_equipment = 2.0 # 15 -> 30
+
+@price_of_land_cruiser_chassis = 200.0 # 1 -> 200
+@price_of_light_tank_aa_chassis = 1.0 # 36 -> 36
+@price_of_light_tank_artillery_chassis = 1.5 # 50 -> 75
+@price_of_light_tank_chassis = 1.5 # 60 -> 90
+@price_of_light_tank_destroyer_chassis = 1.5 # 50 -> 75
+@price_of_light_tank_flame_chassis = 0.6 # 15 -> 9
+@price_of_mechanized_equipment = 1 # 40 -> 40
+@price_of_modern_tank_aa_chassis = 1.5 # 36 -> 54
+@price_of_modern_tank_artillery_chassis = 3.2 # 50 -> 160
+@price_of_modern_tank_chassis = 3.2 # 50 -> 160
+@price_of_modern_tank_destroyer_chassis = 3.2 # 50 -> 160
+@price_of_motorbike_equipment = 0.5 # 20 -> 10
+@price_of_motorized_equipment = 0.8 # 35 -> 28
+@price_of_motorized_rocket_equipment = 2.5 # 20 -> 50
+@price_of_medium_tank_aa_chassis = 1.3 # 36 -> 46.8
+@price_of_medium_tank_artillery_chassis = 2.0 # 50 -> 100
+@price_of_medium_tank_chassis = 2.0 # 50 -> 100
+@price_of_medium_tank_destroyer_chassis = 2.0 # 50 -> 100
+@price_of_medium_tank_flame_chassis = 0.8 # 15 -> 12
+
+@price_of_self_propelled_super_heavy_artillery_equipment = 30 # 3 -> 90
+@price_of_super_heavy_artillery_equipment = 20 # 3 -> 60
+@price_of_super_heavy_tank_aa_chassis = 3.0 # 20 -> 60
+@price_of_super_heavy_tank_artillery_chassis = 7 # 20 -> 140
+@price_of_super_heavy_tank_chassis = 7 # 20 -> 140
+@price_of_super_heavy_tank_destroyer_chassis = 7 # 20 -> 140
+@price_of_support_equipment = 0.2 # 30 -> 6
+# 海军舰船价值
+@navy_manpower_k_price = 50
+@price_of_carrier = 200
+@price_of_battleship = 150
+@price_of_battle_cruiser = 150
+@price_of_heavy_cruiser = 60
+@price_of_light_cruiser = 50
+@price_of_destroyer = 10
+@price_of_submarine = 5
+# 空军飞机价值
+@air_manpower_k_price = 20
+@price_of_small_plane_airframe = 2
+@price_of_small_plane_cas_airframe = 1.5
+@price_of_small_plane_naval_bomber_airframe = 1.5
+@price_of_small_plane_suicide_airframe = 1
+@price_of_medium_plane_airframe = 5
+@price_of_medium_plane_fighter_airframe = 5
+@price_of_medium_plane_scout_plane_airframe = 1
+@price_of_large_plane_airframe = 10
+@price_of_large_plane_maritime_patrol_plane_airframe = 4
+@price_of_rocket_interceptor_equipment = 2
+@price_of_air_transport = 0.5
+@price_of_cv_small_plane_airframe = 2
+@price_of_cv_small_plane_cas_airframe = 1.5
+@price_of_cv_small_plane_naval_bomber_airframe = 1.5
+@price_of_cv_small_plane_suicide_airframe = 1
+@price_of_mothership_equipment = 50
+@price_of_strat_bomber_intercontinental_equipment = 20
+# 导弹价值
+@price_of_guided_missile_equipment = 20
+@price_of_ballistic_missile_equipment = 40
+@price_of_nuclear_missile_equipment = 1000
+@price_of_sam_missile_equipment = 10
+FLTE_EFFECT_power_init_global = { # 初始化 - 由欧洲联盟初始化
+
+	# 工厂产出
+	set_variable = { FLTE_civilian_factories_output = 5 }
+	set_variable = { FLTE_military_factories_output = 4.5 }
+	set_variable = { FLTE_dockyard_output = 2.5 }
+	# 陆军装备价值
+
+	set_variable = { FLTE_equipment_unit_price_of_amphibious_mechanized_equipment = 1.2 } # 50 -> 60
+	set_variable = { FLTE_equipment_unit_price_of_amphibious_tank_chassis = 2.5 } # 50 -> 125
+	set_variable = { FLTE_equipment_unit_price_of_anti_air_equipment = 0.3 } # 30 -> 9
+	set_variable = { FLTE_equipment_unit_price_of_anti_tank_equipment = 0.3 } # 36 -> 10.8
+	set_variable = { FLTE_equipment_unit_price_of_armored_car_equipment = 0.8 } # 60 -> 48
+	set_variable = { FLTE_equipment_unit_price_of_artillery_equipment = 1.0 } # 36 -> 36
+	set_variable = { FLTE_equipment_unit_price_of_heavy_tank_aa_chassis = 1.5 } # 36 -> 54
+	set_variable = { FLTE_equipment_unit_price_of_heavy_tank_artillery_chassis = 3.0 } # 40 -> 120
+	set_variable = { FLTE_equipment_unit_price_of_heavy_tank_chassis = 3.0 } # 40 -> 120
+	set_variable = { FLTE_equipment_unit_price_of_heavy_tank_destroyer_chassis = 3.0 } # 40 -> 120
+	set_variable = { FLTE_equipment_unit_price_of_heavy_tank_flame_chassis = 1.0 } # 15 -> 15
+	set_variable = { FLTE_equipment_unit_price_of_helicopter_equipment = 2.0 } # 15 -> 30
+
+	set_variable = { FLTE_equipment_unit_price_of_land_cruiser_chassis = 200.0 } # 1 -> 200
+	set_variable = { FLTE_equipment_unit_price_of_light_tank_aa_chassis = 1.0 } # 36 -> 36
+	set_variable = { FLTE_equipment_unit_price_of_light_tank_artillery_chassis = 1.5 } # 50 -> 75
+	set_variable = { FLTE_equipment_unit_price_of_light_tank_chassis = 1.5 } # 60 -> 90
+	set_variable = { FLTE_equipment_unit_price_of_light_tank_destroyer_chassis = 1.5 } # 50 -> 75
+	set_variable = { FLTE_equipment_unit_price_of_light_tank_flame_chassis = 0.6 } # 15 -> 9
+	set_variable = { FLTE_equipment_unit_price_of_mechanized_equipment = 1 } # 40 -> 40
+	set_variable = { FLTE_equipment_unit_price_of_modern_tank_aa_chassis = 1.5 } # 36 -> 54
+	set_variable = { FLTE_equipment_unit_price_of_modern_tank_artillery_chassis = 3.2 } # 50 -> 160
+	set_variable = { FLTE_equipment_unit_price_of_modern_tank_chassis = 3.2 } # 50 -> 160
+	set_variable = { FLTE_equipment_unit_price_of_modern_tank_destroyer_chassis = 3.2 } # 50 -> 160
+	set_variable = { FLTE_equipment_unit_price_of_motorbike_equipment = 0.5 } # 20 -> 10
+	set_variable = { FLTE_equipment_unit_price_of_motorized_equipment = 0.8 } # 35 -> 28
+	set_variable = { FLTE_equipment_unit_price_of_motorized_rocket_equipment = 2.5 } # 20 -> 50
+	set_variable = { FLTE_equipment_unit_price_of_medium_tank_aa_chassis = 1.3 } # 36 -> 46.8
+	set_variable = { FLTE_equipment_unit_price_of_medium_tank_artillery_chassis = 2.0 } # 50 -> 100
+	set_variable = { FLTE_equipment_unit_price_of_medium_tank_chassis = 2.0 } # 50 -> 100
+	set_variable = { FLTE_equipment_unit_price_of_medium_tank_destroyer_chassis = 2.0 } # 50 -> 100
+	set_variable = { FLTE_equipment_unit_price_of_medium_tank_flame_chassis = 0.8 } # 15 -> 12
+	set_variable = { FLTE_equipment_unit_price_of_rocket_artillery_equipment = 1.0 } # 36 -> 36
+	set_variable = { FLTE_equipment_unit_price_of_self_propelled_super_heavy_artillery_equipment = 30 } # 3 -> 90
+	set_variable = { FLTE_equipment_unit_price_of_super_heavy_artillery_equipment = 20 } # 3 -> 60
+	set_variable = { FLTE_equipment_unit_price_of_super_heavy_tank_aa_chassis = 3.0 } # 20 -> 60
+	set_variable = { FLTE_equipment_unit_price_of_super_heavy_tank_artillery_chassis = 7 } # 20 -> 140
+	set_variable = { FLTE_equipment_unit_price_of_super_heavy_tank_chassis = 7 } # 20 -> 140
+	set_variable = { FLTE_equipment_unit_price_of_super_heavy_tank_destroyer_chassis = 7 } # 20 -> 140
+	set_variable = { FLTE_equipment_unit_price_of_support_equipment = 0.2 } # 30 -> 6
+	# 海军舰船价值
+	set_variable = { FLTE_navy_manpower_k_price = 50 }
+	set_variable = { FLTE_equipment_unit_price_of_carrier = 200 }
+	set_variable = { FLTE_equipment_unit_price_of_battleship = 150 }
+	set_variable = { FLTE_equipment_unit_price_of_battle_cruiser = 150 }
+	set_variable = { FLTE_equipment_unit_price_of_heavy_cruiser = 60 }
+	set_variable = { FLTE_equipment_unit_price_of_light_cruiser = 50 }
+	set_variable = { FLTE_equipment_unit_price_of_destroyer = 10 }
+	set_variable = { FLTE_equipment_unit_price_of_submarine = 5 }
+	# 空军飞机价值
+	set_variable = { FLTE_air_manpower_k_price = 20 }
+	set_variable = { FLTE_equipment_unit_price_of_small_plane_airframe = 2 }
+	set_variable = { FLTE_equipment_unit_price_of_small_plane_cas_airframe = 1.5 }
+	set_variable = { FLTE_equipment_unit_price_of_small_plane_naval_bomber_airframe = 1.5 }
+	set_variable = { FLTE_equipment_unit_price_of_small_plane_suicide_airframe = 1 }
+	set_variable = { FLTE_equipment_unit_price_of_medium_plane_airframe = 5 }
+	set_variable = { FLTE_equipment_unit_price_of_medium_plane_fighter_airframe = 5 }
+	set_variable = { FLTE_equipment_unit_price_of_medium_plane_scout_plane_airframe = 1 }
+	set_variable = { FLTE_equipment_unit_price_of_large_plane_airframe = 10 }
+	set_variable = { FLTE_equipment_unit_price_of_large_plane_maritime_patrol_plane_airframe = 4 }
+	set_variable = { FLTE_equipment_unit_price_of_rocket_interceptor_equipment = 2 }
+	set_variable = { FLTE_equipment_unit_price_of_air_transport = 0.5 }
+	set_variable = { FLTE_equipment_unit_price_of_cv_small_plane_airframe = 2 }
+	set_variable = { FLTE_equipment_unit_price_of_cv_small_plane_cas_airframe = 1.5 }
+	set_variable = { FLTE_equipment_unit_price_of_cv_small_plane_naval_bomber_airframe = 1.5 }
+	set_variable = { FLTE_equipment_unit_price_of_cv_small_plane_suicide_airframe = 1 }
+	set_variable = { FLTE_equipment_unit_price_of_mothership_equipment = 50 }
+	set_variable = { FLTE_equipment_unit_price_of_strat_bomber_intercontinental_equipment = 20 }
+	# 导弹价值
+	set_variable = { FLTE_equipment_unit_price_of_guided_missile_equipment = 20 }
+	set_variable = { FLTE_equipment_unit_price_of_ballistic_missile_equipment = 40 }
+	set_variable = { FLTE_equipment_unit_price_of_nuclear_missile_equipment = 1000 }
+	set_variable = { FLTE_equipment_unit_price_of_sam_missile_equipment = 10 }
+
+	FLTE_power_update_industry = yes
+	FLTE_power_update_land = yes
+	FLTE_power_update_navy = yes
+	FLTE_power_update_air = yes
+}
+FLTE_EFFECT_power_init_country = {
+	# 初始化国家变量
+	set_variable = { FLTE_power_industry_civilian = 0 }
+	set_variable = { FLTE_power_industry_military = 0 }
+	set_variable = { FLTE_power_industry_dockyard = 0 }
+	set_variable = { FLTE_power_land = 0 }
+	set_variable = { FLTE_power_navy = 0 }
+	set_variable = { FLTE_power_air = 0 }
+	set_variable = { FLTE_power_missile = 0 }
+}
+FLTE_power_update_industry = {
+	set_variable = { FLTE_power_industry_civilian = 0 }
+	set_variable = { FLTE_power_industry_military = 0 }
+	set_variable = { FLTE_power_industry_dockyard = 0 }
+
+	set_variable = { FLTE_power_industry_civilian = FLTE_civilian_factories_output }
+	add_to_variable = { FLTE_power_industry_civilian = var:modifier@cic_construction_boost }
+	set_variable = { FLTE_temp_modifier_factor = var:modifier@cic_construction_boost_factor }
+	add_to_variable = { FLTE_temp_modifier_factor = 1 }
+	clamp_variable = { var = FLTE_temp_modifier_factor min = 0.5 max = 999 }
+	multiply_variable = { FLTE_power_industry_civilian = FLTE_temp_modifier_factor }
+	multiply_variable = { FLTE_power_industry_civilian = var:num_of_civilian_factories }
+	set_variable = { FLTE_temp_modifier_factor = var:modifier@production_speed_buildings_factor }
+	add_to_variable = { FLTE_temp_modifier_factor = 1 }
+	clamp_variable = { var = FLTE_temp_modifier_factor min = 0.5 max = 999 }
+	multiply_variable = { FLTE_power_industry_civilian = FLTE_temp_modifier_factor }
+	round_variable = FLTE_power_industry_civilian
+
+	set_variable = { FLTE_power_industry_military = FLTE_military_factories_output }
+	multiply_variable = { FLTE_power_industry_military = var:num_of_military_factories }
+	set_variable = { FLTE_temp_modifier_factor = var:modifier@industrial_capacity_factory }
+	add_to_variable = { FLTE_temp_modifier_factor = 1 }
+	clamp_variable = { var = FLTE_temp_modifier_factor min = 0.5 max = 999 }
+	multiply_variable = { FLTE_power_industry_military = FLTE_temp_modifier_factor }
+	# y = 6x/(2+x) - 1 | y = (K * x) / (C + x) + A -> y = K/C + A -> y = K + A -> y = K
+	set_variable = { FLTE_temp_modifier_factor = var:modifier@production_factory_start_efficiency_factor }
+	add_to_variable = { FLTE_temp_modifier_factor = 1 }
+	clamp_variable = { var = FLTE_temp_modifier_factor min = 0.5 max = 999 }
+	set_temp_variable = { FLTE_modifier_industrial_capacity_factory_K = 6 }
+	set_temp_variable = { FLTE_modifier_industrial_capacity_factory_C = 2 }
+	set_temp_variable = { FLTE_modifier_industrial_capacity_factory_A = -1 }
+	multiply_temp_variable = { FLTE_modifier_industrial_capacity_factory_K = FLTE_temp_modifier_factor }
+	add_to_temp_variable = { FLTE_modifier_industrial_capacity_factory_C = FLTE_temp_modifier_factor }
+	divide_temp_variable = { FLTE_modifier_industrial_capacity_factory_K = FLTE_modifier_industrial_capacity_factory_C }
+	add_to_temp_variable = { FLTE_modifier_industrial_capacity_factory_K = FLTE_modifier_industrial_capacity_factory_A }
+	multiply_temp_variable = { FLTE_power_industry_military = FLTE_modifier_industrial_capacity_factory_K }
+	round_variable = FLTE_power_industry_military
+
+	set_variable = { FLTE_power_industry_dockyard = FLTE_dockyard_output }
+	multiply_variable = { FLTE_power_industry_dockyard = var:num_of_naval_factories }
+	set_variable = { FLTE_temp_modifier_factor = var:modifier@industrial_capacity_dockyard }
+	add_to_variable = { FLTE_temp_modifier_factor = 1 }
+	clamp_variable = { var = FLTE_temp_modifier_factor min = 0.5 max = 999 }
+	multiply_variable = { FLTE_power_industry_dockyard = FLTE_temp_modifier_factor }
+	round_variable = FLTE_power_industry_dockyard
+}
+FLTE_power_update_land = {
+	set_variable = { FLTE_power_land = 0 }
+
+	set_variable = { FLTE_equipment_num_of_amphibious_mechanized_equipment = num_equipment_in_armies@amphibious_mechanized_equipment }
+	set_variable = { FLTE_equipment_num_of_amphibious_tank_chassis = num_equipment_in_armies@amphibious_tank_chassis }
+	set_variable = { FLTE_equipment_num_of_anti_air_equipment = num_equipment_in_armies@anti_air_equipment }
+	set_variable = { FLTE_equipment_num_of_anti_tank_equipment = num_equipment_in_armies@anti_tank_equipment }
+	set_variable = { FLTE_equipment_num_of_armored_car_equipment = num_equipment_in_armies@armored_car_equipment }
+	set_variable = { FLTE_equipment_num_of_artillery_equipment = num_equipment_in_armies@artillery_equipment }
+	set_variable = { FLTE_equipment_num_of_heavy_tank_aa_chassis = num_equipment_in_armies@heavy_tank_aa_chassis }
+	set_variable = { FLTE_equipment_num_of_heavy_tank_artillery_chassis = num_equipment_in_armies@heavy_tank_artillery_chassis }
+	set_variable = { FLTE_equipment_num_of_heavy_tank_chassis = num_equipment_in_armies@heavy_tank_chassis }
+	set_variable = { FLTE_equipment_num_of_heavy_tank_destroyer_chassis = num_equipment_in_armies@heavy_tank_destroyer_chassis }
+	set_variable = { FLTE_equipment_num_of_heavy_tank_flame_chassis = num_equipment_in_armies@heavy_tank_flame_chassis }
+	set_variable = { FLTE_equipment_num_of_helicopter_equipment = num_equipment_in_armies@helicopter_equipment }
+	set_variable = { FLTE_equipment_num_of_infantry_equipment = num_equipment_in_armies@infantry_equipment }
+	set_variable = { FLTE_equipment_num_of_land_cruiser_chassis = num_equipment_in_armies@land_cruiser_chassis }
+	set_variable = { FLTE_equipment_num_of_light_tank_aa_chassis = num_equipment_in_armies@light_tank_aa_chassis }
+	set_variable = { FLTE_equipment_num_of_light_tank_artillery_chassis = num_equipment_in_armies@light_tank_artillery_chassis }
+	set_variable = { FLTE_equipment_num_of_light_tank_chassis = num_equipment_in_armies@light_tank_chassis }
+	set_variable = { FLTE_equipment_num_of_light_tank_destroyer_chassis = num_equipment_in_armies@light_tank_destroyer_chassis }
+	set_variable = { FLTE_equipment_num_of_light_tank_flame_chassis = num_equipment_in_armies@light_tank_flame_chassis }
+	set_variable = { FLTE_equipment_num_of_mechanized_equipment = num_equipment_in_armies@mechanized_equipment }
+	set_variable = { FLTE_equipment_num_of_modern_tank_aa_chassis = num_equipment_in_armies@modern_tank_aa_chassis }
+	set_variable = { FLTE_equipment_num_of_modern_tank_artillery_chassis = num_equipment_in_armies@modern_tank_artillery_chassis }
+	set_variable = { FLTE_equipment_num_of_modern_tank_chassis = num_equipment_in_armies@modern_tank_chassis }
+	set_variable = { FLTE_equipment_num_of_modern_tank_destroyer_chassis = num_equipment_in_armies@modern_tank_destroyer_chassis }
+	set_variable = { FLTE_equipment_num_of_motorbike_equipment = num_equipment_in_armies@motorbike_equipment }
+	set_variable = { FLTE_equipment_num_of_motorized_equipment = num_equipment_in_armies@motorized_equipment }
+	set_variable = { FLTE_equipment_num_of_motorized_rocket_equipment = num_equipment_in_armies@motorized_rocket_equipment }
+	set_variable = { FLTE_equipment_num_of_medium_tank_aa_chassis = num_equipment_in_armies@medium_tank_aa_chassis }
+	set_variable = { FLTE_equipment_num_of_medium_tank_artillery_chassis = num_equipment_in_armies@medium_tank_artillery_chassis }
+	set_variable = { FLTE_equipment_num_of_medium_tank_chassis = num_equipment_in_armies@medium_tank_chassis }
+	set_variable = { FLTE_equipment_num_of_medium_tank_destroyer_chassis = num_equipment_in_armies@medium_tank_destroyer_chassis }
+	set_variable = { FLTE_equipment_num_of_medium_tank_flame_chassis = num_equipment_in_armies@medium_tank_flame_chassis }
+	set_variable = { FLTE_equipment_num_of_rocket_artillery_equipment = num_equipment_in_armies@rocket_artillery_equipment }
+	set_variable = { FLTE_equipment_num_of_self_propelled_super_heavy_artillery_equipment = num_equipment_in_armies@self_propelled_super_heavy_artillery_equipment }
+	set_variable = { FLTE_equipment_num_of_super_heavy_artillery_equipment = num_equipment_in_armies@super_heavy_artillery_equipment }
+	set_variable = { FLTE_equipment_num_of_super_heavy_tank_aa_chassis = num_equipment_in_armies@super_heavy_tank_aa_chassis }
+	set_variable = { FLTE_equipment_num_of_super_heavy_tank_artillery_chassis = num_equipment_in_armies@super_heavy_tank_artillery_chassis }
+	set_variable = { FLTE_equipment_num_of_super_heavy_tank_chassis = num_equipment_in_armies@super_heavy_tank_chassis }
+	set_variable = { FLTE_equipment_num_of_super_heavy_tank_destroyer_chassis = num_equipment_in_armies@super_heavy_tank_destroyer_chassis }
+	set_variable = { FLTE_equipment_num_of_support_equipment = num_equipment_in_armies@support_equipment }
+
+	multiply_variable = { FLTE_equipment_num_of_amphibious_mechanized_equipment = var:FLTE_equipment_unit_price_of_amphibious_mechanized_equipment }
+	multiply_variable = { FLTE_equipment_num_of_amphibious_tank_chassis = var:FLTE_equipment_unit_price_of_amphibious_tank_chassis }
+	multiply_variable = { FLTE_equipment_num_of_anti_air_equipment = var:FLTE_equipment_unit_price_of_anti_air_equipment }
+	multiply_variable = { FLTE_equipment_num_of_anti_tank_equipment = var:FLTE_equipment_unit_price_of_anti_tank_equipment }
+	multiply_variable = { FLTE_equipment_num_of_armored_car_equipment = var:FLTE_equipment_unit_price_of_armored_car_equipment }
+	multiply_variable = { FLTE_equipment_num_of_artillery_equipment = var:FLTE_equipment_unit_price_of_artillery_equipment }
+	multiply_variable = { FLTE_equipment_num_of_heavy_tank_aa_chassis = var:FLTE_equipment_unit_price_of_heavy_tank_aa_chassis }
+	multiply_variable = { FLTE_equipment_num_of_heavy_tank_artillery_chassis = var:FLTE_equipment_unit_price_of_heavy_tank_artillery_chassis }
+	multiply_variable = { FLTE_equipment_num_of_heavy_tank_chassis = var:FLTE_equipment_unit_price_of_heavy_tank_chassis }
+	multiply_variable = { FLTE_equipment_num_of_heavy_tank_destroyer_chassis = var:FLTE_equipment_unit_price_of_heavy_tank_destroyer_chassis }
+	multiply_variable = { FLTE_equipment_num_of_heavy_tank_flame_chassis = var:FLTE_equipment_unit_price_of_heavy_tank_flame_chassis }
+	multiply_variable = { FLTE_equipment_num_of_helicopter_equipment = var:FLTE_equipment_unit_price_of_helicopter_equipment }
+	multiply_variable = { FLTE_equipment_num_of_infantry_equipment = var:FLTE_equipment_unit_price_of_infantry_equipment }
+	multiply_variable = { FLTE_equipment_num_of_land_cruiser_chassis = var:FLTE_equipment_unit_price_of_land_cruiser_chassis }
+	multiply_variable = { FLTE_equipment_num_of_light_tank_aa_chassis = var:FLTE_equipment_unit_price_of_light_tank_aa_chassis }
+	multiply_variable = { FLTE_equipment_num_of_light_tank_artillery_chassis = var:FLTE_equipment_unit_price_of_light_tank_artillery_chassis }
+	multiply_variable = { FLTE_equipment_num_of_light_tank_chassis = var:FLTE_equipment_unit_price_of_light_tank_chassis }
+	multiply_variable = { FLTE_equipment_num_of_light_tank_destroyer_chassis = var:FLTE_equipment_unit_price_of_light_tank_destroyer_chassis }
+	multiply_variable = { FLTE_equipment_num_of_light_tank_flame_chassis = var:FLTE_equipment_unit_price_of_light_tank_flame_chassis }
+	multiply_variable = { FLTE_equipment_num_of_mechanized_equipment = var:FLTE_equipment_unit_price_of_mechanized_equipment }
+	multiply_variable = { FLTE_equipment_num_of_modern_tank_aa_chassis = var:FLTE_equipment_unit_price_of_modern_tank_aa_chassis }
+	multiply_variable = { FLTE_equipment_num_of_modern_tank_artillery_chassis = var:FLTE_equipment_unit_price_of_modern_tank_artillery_chassis }
+	multiply_variable = { FLTE_equipment_num_of_modern_tank_chassis = var:FLTE_equipment_unit_price_of_modern_tank_chassis }
+	multiply_variable = { FLTE_equipment_num_of_modern_tank_destroyer_chassis = var:FLTE_equipment_unit_price_of_modern_tank_destroyer_chassis }
+	multiply_variable = { FLTE_equipment_num_of_motorbike_equipment = var:FLTE_equipment_unit_price_of_motorbike_equipment }
+	multiply_variable = { FLTE_equipment_num_of_motorized_equipment = var:FLTE_equipment_unit_price_of_motorized_equipment }
+	multiply_variable = { FLTE_equipment_num_of_motorized_rocket_equipment = var:FLTE_equipment_unit_price_of_motorized_rocket_equipment }
+	multiply_variable = { FLTE_equipment_num_of_medium_tank_aa_chassis = var:FLTE_equipment_unit_price_of_medium_tank_aa_chassis }
+	multiply_variable = { FLTE_equipment_num_of_medium_tank_artillery_chassis = var:FLTE_equipment_unit_price_of_medium_tank_artillery_chassis }
+	multiply_variable = { FLTE_equipment_num_of_medium_tank_chassis = var:FLTE_equipment_unit_price_of_medium_tank_chassis }
+	multiply_variable = { FLTE_equipment_num_of_medium_tank_destroyer_chassis = var:FLTE_equipment_unit_price_of_medium_tank_destroyer_chassis }
+	multiply_variable = { FLTE_equipment_num_of_medium_tank_flame_chassis = var:FLTE_equipment_unit_price_of_medium_tank_flame_chassis }
+	multiply_variable = { FLTE_equipment_num_of_rocket_artillery_equipment = var:FLTE_equipment_unit_price_of_rocket_artillery_equipment }
+	multiply_variable = { FLTE_equipment_num_of_self_propelled_super_heavy_artillery_equipment = var:FLTE_equipment_unit_price_of_self_propelled_super_heavy_artillery_equipment }
+	multiply_variable = { FLTE_equipment_num_of_super_heavy_artillery_equipment = var:FLTE_equipment_unit_price_of_super_heavy_artillery_equipment }
+	multiply_variable = { FLTE_equipment_num_of_super_heavy_tank_aa_chassis = var:FLTE_equipment_unit_price_of_super_heavy_tank_aa_chassis }
+	multiply_variable = { FLTE_equipment_num_of_super_heavy_tank_artillery_chassis = var:FLTE_equipment_unit_price_of_super_heavy_tank_artillery_chassis }
+	multiply_variable = { FLTE_equipment_num_of_super_heavy_tank_chassis = var:FLTE_equipment_unit_price_of_super_heavy_tank_chassis }
+	multiply_variable = { FLTE_equipment_num_of_super_heavy_tank_destroyer_chassis = var:FLTE_equipment_unit_price_of_super_heavy_tank_destroyer_chassis }
+	multiply_variable = { FLTE_equipment_num_of_support_equipment = var:FLTE_equipment_unit_price_of_support_equipment }
+
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_amphibious_mechanized_equipment }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_amphibious_tank_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_anti_air_equipment }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_anti_tank_equipment }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_armored_car_equipment }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_artillery_equipment }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_heavy_tank_aa_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_heavy_tank_artillery_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_heavy_tank_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_heavy_tank_destroyer_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_heavy_tank_flame_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_helicopter_equipment }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_infantry_equipment }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_land_cruiser_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_light_tank_aa_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_light_tank_artillery_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_light_tank_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_light_tank_destroyer_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_light_tank_flame_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_mechanized_equipment }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_modern_tank_aa_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_modern_tank_artillery_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_modern_tank_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_modern_tank_destroyer_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_motorbike_equipment }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_motorized_equipment }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_motorized_rocket_equipment }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_medium_tank_aa_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_medium_tank_artillery_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_medium_tank_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_medium_tank_destroyer_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_medium_tank_flame_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_rocket_artillery_equipment }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_self_propelled_super_heavy_artillery_equipment }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_super_heavy_artillery_equipment }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_super_heavy_tank_aa_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_super_heavy_tank_artillery_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_super_heavy_tank_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_super_heavy_tank_destroyer_chassis }
+	add_to_variable = { FLTE_power_land = FLTE_equipment_num_of_support_equipment }
+
+	set_variable = { FLTE_deployed_manpower_k = var:deployed_army_manpower_k }
+	multiply_variable = { FLTE_deployed_manpower_k = FLTE_army_manpower_k_price }
+	add_to_variable = { FLTE_power_land = FLTE_deployed_manpower_k }
+
+	FLTE_power_update_land_compatch = yes
+}
+FLTE_power_update_land_compatch = {
+	# 由兼容模组添加
+	round_variable = FLTE_power_land
+	clamp_variable = { var = FLTE_power_land max = 999999 min = 0 }
+}
+FLTE_power_update_navy = {
+	set_variable = { FLTE_power_navy = 0 }
+
+	set_variable = { FLTE_equipment_num_of_carrier = num_ships_with_type@carrier }
+	set_variable = { FLTE_equipment_num_of_battleship = num_ships_with_type@battleship }
+	set_variable = { FLTE_equipment_num_of_battle_cruiser = num_ships_with_type@battle_cruiser }
+	set_variable = { FLTE_equipment_num_of_heavy_cruiser = num_ships_with_type@heavy_cruiser }
+	set_variable = { FLTE_equipment_num_of_light_cruiser = num_ships_with_type@light_cruiser }
+	set_variable = { FLTE_equipment_num_of_destroyer = num_ships_with_type@destroyer }
+	set_variable = { FLTE_equipment_num_of_submarine = num_ships_with_type@submarine }
+
+	multiply_variable = { FLTE_equipment_num_of_carrier = var:FLTE_equipment_unit_price_of_carrier }
+	multiply_variable = { FLTE_equipment_num_of_battleship = var:FLTE_equipment_unit_price_of_battleship }
+	multiply_variable = { FLTE_equipment_num_of_battle_cruiser = var:FLTE_equipment_unit_price_of_battle_cruiser }
+	multiply_variable = { FLTE_equipment_num_of_heavy_cruiser = var:FLTE_equipment_unit_price_of_heavy_cruiser }
+	multiply_variable = { FLTE_equipment_num_of_light_cruiser = var:FLTE_equipment_unit_price_of_light_cruiser }
+	multiply_variable = { FLTE_equipment_num_of_destroyer = var:FLTE_equipment_unit_price_of_destroyer }
+	multiply_variable = { FLTE_equipment_num_of_submarine = var:FLTE_equipment_unit_price_of_submarine }
+
+	add_to_variable = { FLTE_power_navy = FLTE_equipment_num_of_carrier }
+	add_to_variable = { FLTE_power_navy = FLTE_equipment_num_of_battleship }
+	add_to_variable = { FLTE_power_navy = FLTE_equipment_num_of_battle_cruiser }
+	add_to_variable = { FLTE_power_navy = FLTE_equipment_num_of_heavy_cruiser }
+	add_to_variable = { FLTE_power_navy = FLTE_equipment_num_of_light_cruiser }
+	add_to_variable = { FLTE_power_navy = FLTE_equipment_num_of_destroyer }
+	add_to_variable = { FLTE_power_navy = FLTE_equipment_num_of_submarine }
+
+	set_variable = { FLTE_deployed_manpower_k = var:deployed_navy_manpower_k }
+	multiply_variable = { FLTE_deployed_manpower_k = FLTE_navy_manpower_k_price }
+	add_to_variable = { FLTE_power_navy = FLTE_deployed_manpower_k }
+
+	FLTE_power_update_navy_compatch = yes
+}
+FLTE_power_update_navy_compatch = {
+	# 由兼容模组添加
+	round_variable = FLTE_power_navy
+	clamp_variable = { var = FLTE_power_navy max = 999999 min = 0 }
+}
+FLTE_power_update_air = {
+	set_variable = { FLTE_power_air = 0 }
+
+	set_variable = { FLTE_equipment_num_of_small_plane_airframe = num_deployed_planes_with_type@small_plane_airframe }
+	set_variable = { FLTE_equipment_num_of_small_plane_cas_airframe = num_deployed_planes_with_type@small_plane_cas_airframe }
+	set_variable = { FLTE_equipment_num_of_small_plane_naval_bomber_airframe = num_deployed_planes_with_type@small_plane_naval_bomber_airframe }
+	set_variable = { FLTE_equipment_num_of_small_plane_suicide_airframe = num_deployed_planes_with_type@small_plane_suicide_airframe }
+	set_variable = { FLTE_equipment_num_of_medium_plane_airframe = num_deployed_planes_with_type@medium_plane_airframe }
+	set_variable = { FLTE_equipment_num_of_medium_plane_fighter_airframe = num_deployed_planes_with_type@medium_plane_fighter_airframe }
+	set_variable = { FLTE_equipment_num_of_medium_plane_scout_plane_airframe = num_deployed_planes_with_type@medium_plane_scout_plane_airframe }
+	set_variable = { FLTE_equipment_num_of_large_plane_airframe = num_deployed_planes_with_type@large_plane_airframe }
+	set_variable = { FLTE_equipment_num_of_large_plane_maritime_patrol_plane_airframe = num_deployed_planes_with_type@large_plane_maritime_patrol_plane_airframe }
+	set_variable = { FLTE_equipment_num_of_rocket_interceptor_equipment = num_deployed_planes_with_type@rocket_interceptor_equipment }
+	set_variable = { FLTE_equipment_num_of_air_transport = num_deployed_planes_with_type@transport_plane_equipment }
+	set_variable = { FLTE_equipment_num_of_cv_small_plane_airframe = num_deployed_planes_with_type@cv_small_plane_airframe }
+	set_variable = { FLTE_equipment_num_of_cv_small_plane_cas_airframe = num_deployed_planes_with_type@cv_small_plane_cas_airframe }
+	set_variable = { FLTE_equipment_num_of_cv_small_plane_naval_bomber_airframe = num_deployed_planes_with_type@cv_small_plane_naval_bomber_airframe }
+	set_variable = { FLTE_equipment_num_of_cv_small_plane_suicide_airframe = num_deployed_planes_with_type@cv_small_plane_suicide_airframe }
+	set_variable = { FLTE_equipment_num_of_mothership_equipment = num_deployed_planes_with_type@mothership_equipment }
+	set_variable = { FLTE_equipment_num_of_strat_bomber_intercontinental_equipment = num_deployed_planes_with_type@strat_bomber_intercontinental_equipment }
+
+	multiply_variable = { FLTE_equipment_num_of_small_plane_airframe = var:FLTE_equipment_unit_price_of_small_plane_airframe }
+	multiply_variable = { FLTE_equipment_num_of_small_plane_cas_airframe = var:FLTE_equipment_unit_price_of_small_plane_cas_airframe }
+	multiply_variable = { FLTE_equipment_num_of_small_plane_naval_bomber_airframe = var:FLTE_equipment_unit_price_of_small_plane_naval_bomber_airframe }
+	multiply_variable = { FLTE_equipment_num_of_small_plane_suicide_airframe = var:FLTE_equipment_unit_price_of_small_plane_suicide_airframe }
+	multiply_variable = { FLTE_equipment_num_of_medium_plane_airframe = var:FLTE_equipment_unit_price_of_medium_plane_airframe }
+	multiply_variable = { FLTE_equipment_num_of_medium_plane_fighter_airframe = var:FLTE_equipment_unit_price_of_medium_plane_fighter_airframe }
+	multiply_variable = { FLTE_equipment_num_of_medium_plane_scout_plane_airframe = var:FLTE_equipment_unit_price_of_medium_plane_scout_plane_airframe }
+	multiply_variable = { FLTE_equipment_num_of_large_plane_airframe = var:FLTE_equipment_unit_price_of_large_plane_airframe }
+	multiply_variable = { FLTE_equipment_num_of_large_plane_maritime_patrol_plane_airframe = var:FLTE_equipment_unit_price_of_large_plane_maritime_patrol_plane_airframe }
+	multiply_variable = { FLTE_equipment_num_of_rocket_interceptor_equipment = var:FLTE_equipment_unit_price_of_rocket_interceptor_equipment }
+	multiply_variable = { FLTE_equipment_num_of_air_transport = var:FLTE_equipment_unit_price_of_air_transport }
+	multiply_variable = { FLTE_equipment_num_of_cv_small_plane_airframe = var:FLTE_equipment_unit_price_of_cv_small_plane_airframe }
+	multiply_variable = { FLTE_equipment_num_of_cv_small_plane_cas_airframe = var:FLTE_equipment_unit_price_of_cv_small_plane_cas_airframe }
+	multiply_variable = { FLTE_equipment_num_of_cv_small_plane_naval_bomber_airframe = var:FLTE_equipment_unit_price_of_cv_small_plane_naval_bomber_airframe }
+	multiply_variable = { FLTE_equipment_num_of_cv_small_plane_suicide_airframe = var:FLTE_equipment_unit_price_of_cv_small_plane_suicide_airframe }
+	multiply_variable = { FLTE_equipment_num_of_mothership_equipment = var:FLTE_equipment_unit_price_of_mothership_equipment }
+	multiply_variable = { FLTE_equipment_num_of_strat_bomber_intercontinental_equipment = var:FLTE_equipment_unit_price_of_strat_bomber_intercontinental_equipment }
+
+	add_to_variable = { FLTE_power_air = FLTE_equipment_num_of_small_plane_airframe }
+	add_to_variable = { FLTE_power_air = FLTE_equipment_num_of_small_plane_cas_airframe }
+	add_to_variable = { FLTE_power_air = FLTE_equipment_num_of_small_plane_naval_bomber_airframe }
+	add_to_variable = { FLTE_power_air = FLTE_equipment_num_of_small_plane_suicide_airframe }
+	add_to_variable = { FLTE_power_air = FLTE_equipment_num_of_medium_plane_airframe }
+	add_to_variable = { FLTE_power_air = FLTE_equipment_num_of_medium_plane_fighter_airframe }
+	add_to_variable = { FLTE_power_air = FLTE_equipment_num_of_medium_plane_scout_plane_airframe }
+	add_to_variable = { FLTE_power_air = FLTE_equipment_num_of_large_plane_airframe }
+	add_to_variable = { FLTE_power_air = FLTE_equipment_num_of_large_plane_maritime_patrol_plane_airframe }
+	add_to_variable = { FLTE_power_air = FLTE_equipment_num_of_rocket_interceptor_equipment }
+	add_to_variable = { FLTE_power_air = FLTE_equipment_num_of_air_transport }
+	add_to_variable = { FLTE_power_air = FLTE_equipment_num_of_cv_small_plane_airframe }
+	add_to_variable = { FLTE_power_air = FLTE_equipment_num_of_cv_small_plane_cas_airframe }
+	add_to_variable = { FLTE_power_air = FLTE_equipment_num_of_cv_small_plane_naval_bomber_airframe }
+	add_to_variable = { FLTE_power_air = FLTE_equipment_num_of_cv_small_plane_suicide_airframe }
+	add_to_variable = { FLTE_power_air = FLTE_equipment_num_of_mothership_equipment }
+	add_to_variable = { FLTE_power_air = FLTE_equipment_num_of_strat_bomber_intercontinental_equipment }
+
+	set_variable = { FLTE_deployed_manpower_k = var:deployed_airforce_manpower_k }
+	multiply_variable = { FLTE_deployed_manpower_k = FLTE_air_manpower_k_price }
+	add_to_variable = { FLTE_power_air = FLTE_deployed_manpower_k }
+
+
+	set_variable = { FLTE_equipment_num_of_guided_missile_equipment = num_deployed_planes_with_type@guided_missile_equipment }
+	set_variable = { FLTE_equipment_num_of_ballistic_missile_equipment = num_deployed_planes_with_type@ballistic_missile_equipment }
+	set_variable = { FLTE_equipment_num_of_nuclear_missile_equipment = num_deployed_planes_with_type@nuclear_missile_equipment }
+	set_variable = { FLTE_equipment_num_of_sam_missile_equipment = num_deployed_planes_with_type@sam_missile_equipment }
+
+	multiply_variable = { FLTE_equipment_num_of_guided_missile_equipment = var:FLTE_equipment_unit_price_of_guided_missile_equipment }
+	multiply_variable = { FLTE_equipment_num_of_ballistic_missile_equipment = var:FLTE_equipment_unit_price_of_ballistic_missile_equipment }
+	multiply_variable = { FLTE_equipment_num_of_nuclear_missile_equipment = var:FLTE_equipment_unit_price_of_nuclear_missile_equipment }
+	multiply_variable = { FLTE_equipment_num_of_sam_missile_equipment = var:FLTE_equipment_unit_price_of_sam_missile_equipment }
+
+	add_to_variable = { FLTE_power_missile = FLTE_equipment_num_of_guided_missile_equipment }
+	add_to_variable = { FLTE_power_missile = FLTE_equipment_num_of_ballistic_missile_equipment }
+	add_to_variable = { FLTE_power_missile = FLTE_equipment_num_of_nuclear_missile_equipment }
+	add_to_variable = { FLTE_power_missile = FLTE_equipment_num_of_sam_missile_equipment }
+
+	FLTE_power_update_air_compatch = yes
+}
+FLTE_power_update_air_compatch = {
+	# 由兼容模组添加
+	round_variable = FLTE_power_air
+	clamp_variable = { var = FLTE_power_air max = 999999 min = 0 }
+	round_variable = FLTE_power_missile
+	clamp_variable = { var = FLTE_power_missile max = 999999 min = 0 }
+}

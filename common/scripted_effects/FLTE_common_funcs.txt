@@ -67,8 +67,8 @@ FLTE_EFFECT_set_flte_tech_from_vanilla = {
 			set_technology = { popup = no concentrated_industry_5 = 1 } }
 	if = { limit = { has_tech = dispersed_industry NOT = { has_tech = dispersed_industry_1 } }
 			set_technology = { popup = no dispersed_industry_1 = 1 } }
-	if = { limit = { has_tech = dispersed_industry2 NOT = { has_tech = dispersed_industry_5 } }
-			set_technology = { popup = no dispersed_industry_5 = 1 } }
+	if = { limit = { has_tech = dispersed_industry2 NOT = { has_tech = dispersed_industry_2 } }
+			set_technology = { popup = no dispersed_industry_2 = 1 } }
 	if = { limit = { has_tech = dispersed_industry3 NOT = { has_tech = dispersed_industry_3 } }
 			set_technology = { popup = no dispersed_industry_3 = 1 } }
 	if = { limit = { has_tech = dispersed_industry4 NOT = { has_tech = dispersed_industry_4 } }

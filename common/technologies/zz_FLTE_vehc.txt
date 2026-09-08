@@ -1,13 +1,13 @@
 technologies = {
 	@mot_branch = 0
 	@mec_branch = 8
-	# @heavy_mec_branch = 26
+	@heavy_mec_branch = 12
 	@apm_mec_branch = 4
-	@armored_car_branch = 12
+	@armored_car_branch = 16
 
-    @train_branch = 16
-	@armor_train_branch = 20
-	@supplyhub_branch = 18
+    @train_branch = 20
+	@armor_train_branch = 24
+	@supplyhub_branch = 22
 
 	@Tier1_1 = 0   @Tier1_2 = 2   @Tier1_mid = 1
     @Tier2_1 = 4   @Tier2_2 = 6   @Tier2_mid = 5
@@ -721,6 +721,7 @@ technologies = {
         start_year = 1
         research_cost = 3
         path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry4 }
+        path = { research_cost_coeff = 1 leads_to_tech = heavy_mechanized_infantry_1 }
         folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
@@ -765,9 +766,9 @@ technologies = {
     }
     mechanised_infantry5 = {
         # Unknowns
-        sub_technologies = {
-            amechanised_infantry
-        }
+        # sub_technologies = {
+        #     amechanised_infantry
+        # }
 
         enable_equipments = {
             mechanized_equipment_5
@@ -801,9 +802,9 @@ technologies = {
     }
     mechanised_infantry6 = {
         # Unknowns
-        sub_technologies = {
-            amechanised_infantry1
-        }
+        # sub_technologies = {
+        #     amechanised_infantry1
+        # }
 
         enable_equipments = {
             mechanized_equipment_6
@@ -829,9 +830,9 @@ technologies = {
     }
     mechanised_infantry7 = {
         # Unknowns
-        sub_technologies = {
-            amechanised_infantry2
-        }
+        # sub_technologies = {
+        #     amechanised_infantry2
+        # }
 
         enable_equipments = {
             mechanized_equipment_7
@@ -857,9 +858,9 @@ technologies = {
     }
     mechanised_infantry8 = {
         # Unknowns
-        sub_technologies = {
-            amechanised_infantry3
-        }
+        # sub_technologies = {
+        #     amechanised_infantry3
+        # }
 
         enable_equipments = {
             mechanized_equipment_8
@@ -886,6 +887,233 @@ technologies = {
             factor = 1
         }
     }
+
+    heavy_mechanized_infantry_1 = {
+        # Unknowns
+        enable_equipments = {
+            heavy_mechanized_equipment_1
+        }
+        enable_subunits = {
+            armored_infantry
+        }
+
+        start_year = 1
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = heavy_mechanized_infantry_2 }
+        folder = { name = FLTE_vehc_folder position = { x = @heavy_mec_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_vehc_4 = 1 }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+        }
+        ai_will_do = {
+            base = 2
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+            modifier = {
+                factor = 3
+                tag = USA
+            }
+            modifier = {
+                factor = 1.5
+                date > 1941.1.1
+            }
+            modifier = {
+                factor = 1.5
+                date > 1942.1.1
+            }
+            modifier = {
+                factor = 1.5
+                date > 1943.1.1
+            }
+        }
+    }
+    heavy_mechanized_infantry_2 = {
+        # Unknowns
+        enable_equipments = {
+            heavy_mechanized_equipment_2
+        }
+
+        start_year = 1
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = heavy_mechanized_infantry_3 }
+        folder = { name = FLTE_vehc_folder position = { x = @heavy_mec_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+        }
+        ai_will_do = {
+            base = 2
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+            modifier = {
+                factor = 3
+                tag = USA
+            }
+            modifier = {
+                factor = 1.5
+                date > 1941.1.1
+            }
+            modifier = {
+                factor = 1.5
+                date > 1942.1.1
+            }
+            modifier = {
+                factor = 1.5
+                date > 1943.1.1
+            }
+        }
+    }
+    heavy_mechanized_infantry_3 = {
+        # Unknowns
+        enable_equipments = {
+            heavy_mechanized_equipment_3
+        }
+
+        start_year = 1
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = heavy_mechanized_infantry_4 }
+        folder = { name = FLTE_vehc_folder position = { x = @heavy_mec_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+        }
+        ai_will_do = {
+            base = 2
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+            modifier = {
+                factor = 3
+                tag = USA
+            }
+            modifier = {
+                factor = 1.5
+                date > 1941.1.1
+            }
+            modifier = {
+                factor = 1.5
+                date > 1942.1.1
+            }
+            modifier = {
+                factor = 1.5
+                date > 1943.1.1
+            }
+        }
+    }
+    heavy_mechanized_infantry_4 = {
+        # Unknowns
+        enable_equipments = {
+            heavy_mechanized_equipment_4
+        }
+
+        start_year = 1
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = heavy_mechanized_infantry_5 }
+        folder = { name = FLTE_vehc_folder position = { x = @heavy_mec_branch y = @Tier6_mid } }
+        dependencies = { FLTE_tech_tier_vehc_6 = 1 }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+        }
+        ai_will_do = {
+            base = 2
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+            modifier = {
+                factor = 3
+                tag = USA
+            }
+            modifier = {
+                factor = 1.5
+                date > 1941.1.1
+            }
+            modifier = {
+                factor = 1.5
+                date > 1942.1.1
+            }
+            modifier = {
+                factor = 1.5
+                date > 1943.1.1
+            }
+        }
+    }
+    heavy_mechanized_infantry_5 = {
+        # Unknowns
+        enable_equipments = {
+            heavy_mechanized_equipment_5
+        }
+
+        start_year = 1
+        research_cost = 2
+        folder = { name = FLTE_vehc_folder position = { x = @heavy_mec_branch y = @Tier7_mid } }
+        dependencies = { FLTE_tech_tier_vehc_7 = 1 }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            motorized_equipment
+            mio_cat_tech_all_motorized_mechanized
+            infantry_tech
+            cat_mechanized_equipment
+        }
+        ai_will_do = {
+            base = 2
+            modifier = {
+                factor = 2
+                is_major = yes
+            }
+            modifier = {
+                factor = 3
+                tag = USA
+            }
+            modifier = {
+                factor = 1.5
+                date > 1941.1.1
+            }
+            modifier = {
+                factor = 1.5
+                date > 1942.1.1
+            }
+            modifier = {
+                factor = 1.5
+                date > 1943.1.1
+            }
+        }
+    }
+
+
+
+
 
     amphibious_mechanized_infantry = {
         enable_equipments = {
@@ -1065,86 +1293,86 @@ technologies = {
         }
     }
 
-    amechanised_infantry = {
-        enable_equipments = {
-            amechanized_equipment
-        }
+    # amechanised_infantry = {
+    #     enable_equipments = {
+    #         amechanized_equipment
+    #     }
 
-        start_year = 1
-        research_cost = 2
+    #     start_year = 1
+    #     research_cost = 2
 
-        special_project_specialization = { specialization_land }
+    #     special_project_specialization = { specialization_land }
 
-        categories = {
-            amechanized_equipment
-            infantry_tech
-            cat_mechanized_equipment
-        }
-        ai_will_do = {
-            factor = 2
-            modifier = {
-                tag = USA
-                factor = 2
-            }
-        }
-    }
-    amechanised_infantry1 = {
-        enable_equipments = {
-            amechanized_equipment_1
-        }
+    #     categories = {
+    #         amechanized_equipment
+    #         infantry_tech
+    #         cat_mechanized_equipment
+    #     }
+    #     ai_will_do = {
+    #         factor = 2
+    #         modifier = {
+    #             tag = USA
+    #             factor = 2
+    #         }
+    #     }
+    # }
+    # amechanised_infantry1 = {
+    #     enable_equipments = {
+    #         amechanized_equipment_1
+    #     }
 
-        start_year = 1
-        research_cost = 2
+    #     start_year = 1
+    #     research_cost = 2
 
-        special_project_specialization = { specialization_land }
+    #     special_project_specialization = { specialization_land }
 
-        categories = {
-            amechanized_equipment
-            infantry_tech
-            cat_mechanized_equipment
-        }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-    amechanised_infantry2 = {
-        enable_equipments = {
-            amechanized_equipment_2
-        }
+    #     categories = {
+    #         amechanized_equipment
+    #         infantry_tech
+    #         cat_mechanized_equipment
+    #     }
+    #     ai_will_do = {
+    #         factor = 1
+    #     }
+    # }
+    # amechanised_infantry2 = {
+    #     enable_equipments = {
+    #         amechanized_equipment_2
+    #     }
 
-        start_year = 1
-        research_cost = 2
+    #     start_year = 1
+    #     research_cost = 2
 
-        special_project_specialization = { specialization_land }
+    #     special_project_specialization = { specialization_land }
 
-        categories = {
-            amechanized_equipment
-            infantry_tech
-            cat_mechanized_equipment
-        }
-        ai_will_do = {
-            factor = 1
-        }
-    }
-    amechanised_infantry3 = {
-        enable_equipments = {
-            amechanized_equipment_3
-        }
+    #     categories = {
+    #         amechanized_equipment
+    #         infantry_tech
+    #         cat_mechanized_equipment
+    #     }
+    #     ai_will_do = {
+    #         factor = 1
+    #     }
+    # }
+    # amechanised_infantry3 = {
+    #     enable_equipments = {
+    #         amechanized_equipment_3
+    #     }
 
-        start_year = 1
-        research_cost = 2
+    #     start_year = 1
+    #     research_cost = 2
 
-        special_project_specialization = { specialization_land }
+    #     special_project_specialization = { specialization_land }
 
-        categories = {
-            amechanized_equipment
-            infantry_tech
-            cat_mechanized_equipment
-        }
-        ai_will_do = {
-            factor = 1
-        }
-    }
+    #     categories = {
+    #         amechanized_equipment
+    #         infantry_tech
+    #         cat_mechanized_equipment
+    #     }
+    #     ai_will_do = {
+    #         factor = 1
+    #     }
+    # }
 
     basic_train = {
         enable_equipments = {

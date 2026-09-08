@@ -1,5 +1,5 @@
 equipments = {
-	# DEL
+	# # zz_FLTE_ordn_equipment.txt
 	motorized_rocket_equipment = {
 		is_archetype = yes
 		group_by = archetype

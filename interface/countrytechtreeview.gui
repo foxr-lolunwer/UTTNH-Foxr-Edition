@@ -369,6 +369,11 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
+				name = "wheeled_tank_1_tree"
+				position = { x = 180 y = 180 }
+				slotsize = { width = 70 height = 70 } format = "UP"
+			}
+			gridboxtype = {
 				name = "armor_tech_1_tree"
 				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"

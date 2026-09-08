@@ -12,7 +12,7 @@ technologies = {
 	@sp_cruiser_branch3 = 25
 	@sp_cruiser_branch4 = 27
 	@para_chassis_branch = 6
-	@wheeled_chassis_branch = 18
+	@wheeled_chassis_branch = 23
 
     @Tier1_1 = 0   @Tier1_2 = 2   @Tier1_mid = 1
     @Tier2_1 = 4   @Tier2_2 = 6   @Tier2_mid = 5
@@ -378,6 +378,7 @@ technologies = {
         start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_light_tank_2 }
+        path = { research_cost_coeff = 1 leads_to_tech = para_tank_1 }
         folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier4_3 } }
         dependencies = { FLTE_tech_tier_vehc_4 = 1 }
         special_project_specialization = { specialization_land }
@@ -1616,6 +1617,180 @@ technologies = {
                 date > "1961.1.1"
             }
         }
+    }
+
+    para_tank_chassis_1 = {
+        enable_equipments = {
+            para_tank_chassis_1
+        }
+        enable_subunits = {
+            para_tank
+        }
+
+        start_year = 1
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = para_tank_chassis_2 }
+        folder = { name = FLTE_armor_folder position = { x = @para_chassis_branch y = @Tier5_mid } }
+        dependencies = { FLTE_tech_tier_vehc_5 = 1 }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            armor
+            mio_cat_tech_all_armor_and_modules
+            cat_light_armor
+            mio_cat_tech_light_armor_and_modules
+        }
+        ai_will_do = { base = 0 } # AI不会空降，研究这个没必要
+    }
+    para_tank_chassis_2 = {
+        enable_equipments = {
+            para_tank_chassis_2
+        }
+
+        start_year = 1
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = para_tank_chassis_3 }
+        folder = { name = FLTE_armor_folder position = { x = @para_chassis_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_vehc_6 = 1 }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            armor
+            mio_cat_tech_all_armor_and_modules
+            cat_light_armor
+            mio_cat_tech_light_armor_and_modules
+        }
+        ai_will_do = { base = 0 }
+    }
+    para_tank_chassis_3 = {
+        enable_equipments = {
+            para_tank_chassis_3
+        }
+
+        start_year = 1
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = para_tank_chassis_4 }
+        folder = { name = FLTE_armor_folder position = { x = @para_chassis_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_vehc_6 = 1 }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            armor
+            mio_cat_tech_all_armor_and_modules
+            cat_light_armor
+            mio_cat_tech_light_armor_and_modules
+        }
+        ai_will_do = { base = 0 }
+    }
+    para_tank_chassis_4 = {
+        enable_equipments = {
+            para_tank_chassis_4
+        }
+
+        start_year = 1
+        research_cost = 2
+        folder = { name = FLTE_armor_folder position = { x = @para_chassis_branch y = @Tier7_mid } }
+        dependencies = { FLTE_tech_tier_vehc_7 = 1 }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            armor
+            mio_cat_tech_all_armor_and_modules
+            cat_light_armor
+            mio_cat_tech_light_armor_and_modules
+        }
+        ai_will_do = { base = 0 }
+    }
+    
+    wheeled_tank_chassis_1 = {
+        enable_equipments = {
+            wheeled_tank_chassis_1
+        }
+        enable_subunits = {
+            wheeled_tank
+        }
+
+        start_year = 1
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = wheeled_tank_chassis_2 }
+        folder = { name = FLTE_armor_folder position = { x = @wheeled_chassis_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_vehc_5 = 1 gwtank_chassis = 1 }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            armor
+            mio_cat_tech_all_armor_and_modules
+            cat_light_armor
+            mio_cat_tech_light_armor_and_modules
+        }
+        ai_will_do = { base = 1 }
+    }
+    wheeled_tank_chassis_2 = {
+        enable_equipments = {
+            wheeled_tank_chassis_2
+        }
+
+        start_year = 1
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = wheeled_tank_chassis_3 }
+        folder = { name = FLTE_armor_folder position = { x = @wheeled_chassis_branch y = @Tier6_1 } }
+        dependencies = { FLTE_tech_tier_vehc_6 = 1 }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            armor
+            mio_cat_tech_all_armor_and_modules
+            cat_light_armor
+            mio_cat_tech_light_armor_and_modules
+        }
+        ai_will_do = { base = 1 }
+    }
+    wheeled_tank_chassis_3 = {
+        enable_equipments = {
+            wheeled_tank_chassis_3
+        }
+
+        start_year = 1
+        research_cost = 2
+        path = { research_cost_coeff = 1 leads_to_tech = wheeled_tank_chassis_4 }
+        folder = { name = FLTE_armor_folder position = { x = @wheeled_chassis_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_vehc_6 = 1 }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            armor
+            mio_cat_tech_all_armor_and_modules
+            cat_light_armor
+            mio_cat_tech_light_armor_and_modules
+        }
+        ai_will_do = { base = 1 }
+    }
+    wheeled_tank_chassis_4 = {
+        enable_equipments = {
+            wheeled_tank_chassis_4
+        }
+
+        start_year = 1
+        research_cost = 2
+        folder = { name = FLTE_armor_folder position = { x = @wheeled_chassis_branch y = @Tier7_mid } }
+        dependencies = { FLTE_tech_tier_vehc_7 = 1 }
+
+        special_project_specialization = { specialization_land }
+
+        categories = {
+            armor
+            mio_cat_tech_all_armor_and_modules
+            cat_light_armor
+            mio_cat_tech_light_armor_and_modules
+        }
+        ai_will_do = { base = 1 }
     }
 
     super_heavy_tank_chassis = {

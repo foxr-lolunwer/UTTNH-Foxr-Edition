@@ -12,7 +12,7 @@
   FLTE_naval_folder: "作战舰艇"
   FLTE_naval_folder_desc: "驱逐舰、巡洋舰、潜艇等作战舰船。"
   FLTE_naval_support_folder: "海军补充"
-  FLTE_naval_support_folder_desc: "各式舰炮、鱼雷、登录科技等其他海军科技。"
+  FLTE_naval_support_folder_desc: "各式舰炮、鱼雷、登陆科技等其他海军科技。"
   FLTE_air_folder: "飞机"
   FLTE_air_folder_desc: "战斗机、轰炸机、运输机等各类军用航空器。"
   FLTE_prod_folder: "生产"
@@ -27,6 +27,14 @@
 ##### LOCT #############################################
  # support
   FLTE_LOCT_tech_name_rangers: "游骑兵"
+ # armor
+  FLTE_LOCT_tech_name_light_tank_chassis: "轻型坦克底盘"
+  FLTE_LOCT_tech_name_medium_tank_chassis: "中型坦克底盘"
+  FLTE_LOCT_tech_name_modern_tank_chassis: "主战坦克底盘"
+  FLTE_LOCT_tech_name_heavy_tank_chassis: "重型坦克底盘"
+  FLTE_LOCT_tech_name_super_heavy_tank_chassis: "超重型坦克底盘"
+  FLTE_LOCT_tech_name_para_tank_chassis: "伞降坦克底盘"
+  FLTE_LOCT_tech_name_wheelded_tank_chassis: "轮式坦克底盘"
  # prod
   FLTE_LOCT_tech_name_improved_machine_tools: "改进生产设备"
   FLTE_LOCT_tech_name_flexible_line: "柔性生产"
@@ -163,7 +171,7 @@
   FLTE_TC_resource_coal: "$FLTE_LOCT_TC_prefix$$resource_expansion_coal$"
 ##### END ##############################################
 ##### 科技名 ############################################
- # ordn
+ # support
   rangers_tech4: "$FLTE_LOCT_tech_name_rangers$ $FLTE_LOCT_r_num_4$"
   rangers_tech4_desc: "$FLTE_LOCT_tech_name_rangers$ $FLTE_LOCT_r_num_4$"
   rangers_tech5: "$FLTE_LOCT_tech_name_rangers$ $FLTE_LOCT_r_num_5$"
@@ -172,6 +180,15 @@
   rangers_tech6_desc: "$FLTE_LOCT_tech_name_rangers$ $FLTE_LOCT_r_num_6$"
   rangers_tech7: "$FLTE_LOCT_tech_name_rangers$ $FLTE_LOCT_r_num_7$"
   rangers_tech7_desc: "$FLTE_LOCT_tech_name_rangers$ $FLTE_LOCT_r_num_7$"
+ # armor
+  para_tank_chassis_1: "$FLTE_LOCT_tech_name_para_tank_chassis$ $FLTE_LOCT_r_num_1$"
+  para_tank_chassis_2: "$FLTE_LOCT_tech_name_para_tank_chassis$ $FLTE_LOCT_r_num_2$"
+  para_tank_chassis_3: "$FLTE_LOCT_tech_name_para_tank_chassis$ $FLTE_LOCT_r_num_3$"
+  para_tank_chassis_4: "$FLTE_LOCT_tech_name_para_tank_chassis$ $FLTE_LOCT_r_num_4$"
+  wheeled_tank_chassis_1: "$FLTE_LOCT_tech_name_wheelded_tank_chassis$ $FLTE_LOCT_r_num_1$"
+  wheeled_tank_chassis_2: "$FLTE_LOCT_tech_name_wheelded_tank_chassis$ $FLTE_LOCT_r_num_2$"
+  wheeled_tank_chassis_3: "$FLTE_LOCT_tech_name_wheelded_tank_chassis$ $FLTE_LOCT_r_num_3$"
+  wheeled_tank_chassis_4: "$FLTE_LOCT_tech_name_wheelded_tank_chassis$ $FLTE_LOCT_r_num_4$"
  # industry
   improved_machine_tools_1: "$FLTE_LOCT_tech_name_improved_machine_tools$ $FLTE_LOCT_r_num_1$"
   improved_machine_tools_1_desc: "$FLTE_LOCT_tech_name_improved_machine_tools$ $FLTE_LOCT_r_num_1$"

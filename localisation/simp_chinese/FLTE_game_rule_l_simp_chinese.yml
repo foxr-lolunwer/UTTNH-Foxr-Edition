@@ -4,8 +4,8 @@
   RULE_GROUP_FLTE_EXPERIMENTAL_FUNCTIONS: "FLTE §C实验性§!设置"
 
   FLTE_LOCT_rule_desc_cannot_changed_in_game: "\n§O该规则不能在游戏中更改！§!"
-  FLTE_LOCT_rule_desc_danger_setting: "\n§R该规则是一项危险的设置：§!\n§g如果您启用或修改这类规则会偏离原版游戏或FLTE标准的玩法，而且本模组测试时不会启用该规则。\n确保你知道自己在做什么！§!"
-  FLTE_LOCT_rule_desc_experimental_functions: "\n§C该规则是一项实验性的设置：§!\n§g这意味着该设置正在接受评估或提供了可选的附加功能。§!"
+  FLTE_LOCT_rule_desc_danger_setting: "\n§R该规则是一项危险的设置：§!\n  §g如果您启用或修改这类规则会偏离原版游戏或FLTE标准的玩法，而且本模组测试时不会启用该规则。\n  确保你知道自己在做什么！§!"
+  FLTE_LOCT_rule_desc_experimental_functions: "\n§C该规则是一项实验性的设置：§!\n  §g这意味着该设置正在接受评估或为正式版中的测试内容。§!"
   FLTE_LOCT_rule_option_default_tip: "§L这是该选项的默认项§!"
   FLTE_LOCT_rule_option_default: "默认"
   FLTE_LOCT_rule_option_true: "启用"

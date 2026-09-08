@@ -1291,7 +1291,7 @@ sp_FLTE_tech_tier_elec_1 = {
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.easy.slow
-	breakthrough_cost = { specialization_engineering = 2 }
+	breakthrough_cost = { specialization_engineering = 1 }
 	# allowed = { } 通用，每个国家都有一个实例
 	# available = { } 显示即可用
 	visible = { FROM = {
@@ -1333,7 +1333,7 @@ sp_FLTE_tech_tier_elec_2 = {
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.fast
-	breakthrough_cost = { specialization_engineering = 3 }
+	breakthrough_cost = { specialization_engineering = 2 }
 	visible = { FROM = {
 		NOT = { has_tech = FLTE_tech_tier_elec_2 }
 		has_tech = FLTE_tech_tier_elec_1
@@ -1375,7 +1375,7 @@ sp_FLTE_tech_tier_elec_3 = {
 	project_tags = sp_tag_FLTE_tier_upgrade
 	prototype_time = FLTE_sp_prototype_time.medium
 	complexity = FLTE_sp_difficulty_level.medium.slow
-	breakthrough_cost = { specialization_engineering = 4 }
+	breakthrough_cost = { specialization_engineering = 3 }
 	visible = { FROM = {
 		NOT = { has_tech = FLTE_tech_tier_elec_3 }
 		has_tech = FLTE_tech_tier_elec_2
@@ -1417,7 +1417,7 @@ sp_FLTE_tech_tier_elec_4 = {
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.fast
-    breakthrough_cost = { specialization_engineering = 6 }
+    breakthrough_cost = { specialization_engineering = 4 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_elec_4 }
        has_tech = FLTE_tech_tier_elec_3
@@ -1459,7 +1459,7 @@ sp_FLTE_tech_tier_elec_5 = {
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.difficulty.slow
-    breakthrough_cost = { specialization_engineering = 7 }
+    breakthrough_cost = { specialization_engineering = 5 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_elec_5 }
        has_tech = FLTE_tech_tier_elec_4
@@ -1501,7 +1501,7 @@ sp_FLTE_tech_tier_elec_6 = {
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.fast
-    breakthrough_cost = { specialization_engineering = 8 }
+    breakthrough_cost = { specialization_engineering = 6 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_elec_6 }
        has_tech = FLTE_tech_tier_elec_5
@@ -1543,7 +1543,7 @@ sp_FLTE_tech_tier_elec_7 = {
     project_tags = sp_tag_FLTE_tier_upgrade
     prototype_time = FLTE_sp_prototype_time.medium
     complexity = FLTE_sp_difficulty_level.very_difficult.slow
-    breakthrough_cost = { specialization_engineering = 10 }
+    breakthrough_cost = { specialization_engineering = 7 }
     visible = { FROM = {
        NOT = { has_tech = FLTE_tech_tier_elec_7 }
        has_tech = FLTE_tech_tier_elec_6

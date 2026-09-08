@@ -1,6 +1,6 @@
 sub_units = {
 
-	wheel_tank = {
+	wheeled_tank = {
 		sprite = "medium_armor"
 		map_icon_category = armored
 		priority = 2510

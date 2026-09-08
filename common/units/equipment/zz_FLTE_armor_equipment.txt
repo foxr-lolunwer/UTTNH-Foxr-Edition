@@ -241,7 +241,7 @@ equipments = {
 
         defense = 5
         breakthrough = 8
-        hardness = 1.5
+        hardness = 1
         armor_value = 15
 
         build_cost_ic = 4
@@ -262,7 +262,7 @@ equipments = {
 
         defense = 8
         breakthrough = 10
-        hardness = 2
+        hardness = 1
         armor_value = 18
 
         build_cost_ic = 4.5
@@ -283,7 +283,7 @@ equipments = {
 
         defense = 10
         breakthrough = 15
-        hardness = 2.4
+        hardness = 1
         armor_value = 24
 
         build_cost_ic = 5
@@ -304,7 +304,7 @@ equipments = {
 
         defense = 12
         breakthrough = 15
-        hardness = 3
+        hardness = 1
         armor_value = 30
 
         build_cost_ic = 5.4
@@ -325,7 +325,7 @@ equipments = {
 
         defense = 14
         breakthrough = 16
-        hardness = 3.5
+        hardness = 1
         armor_value = 45
 
         build_cost_ic = 6
@@ -346,7 +346,7 @@ equipments = {
 
         defense = 15
         breakthrough = 17
-        hardness = 4
+        hardness = 1
         armor_value = 52
 
         build_cost_ic = 6.3
@@ -367,7 +367,7 @@ equipments = {
 
         defense = 16
         breakthrough = 18
-        hardness = 4.5
+        hardness = 1
         armor_value = 60
 
         build_cost_ic = 6.5
@@ -388,7 +388,7 @@ equipments = {
 
         defense = 17
         breakthrough = 19
-        hardness = 5
+        hardness = 1
         armor_value = 70
 
         build_cost_ic = 7
@@ -409,7 +409,7 @@ equipments = {
 
         defense = 18
         breakthrough = 20
-        hardness = 5.5
+        hardness = 1
         armor_value = 80
 
         build_cost_ic = 7.5
@@ -512,7 +512,7 @@ equipments = {
         # 防御相关
         defense = 5
         breakthrough = 7
-        hardness = 1.5
+        hardness = 1
         armor_value = 15
         # 攻击相关
         soft_attack = 1
@@ -656,7 +656,7 @@ equipments = {
 
         defense = 10
         breakthrough = 14
-        hardness = 3
+        hardness = 1
         armor_value = 30
 
         build_cost_ic = 6
@@ -677,7 +677,7 @@ equipments = {
 
         defense = 12
         breakthrough = 20
-        hardness = 3.5
+        hardness = 1
         armor_value = 40
 
         build_cost_ic = 7
@@ -698,7 +698,7 @@ equipments = {
 
         defense = 14
         breakthrough = 22
-        hardness = 4
+        hardness = 1
         armor_value = 50
 
         build_cost_ic = 7.4
@@ -803,7 +803,7 @@ equipments = {
         # 防御相关
         defense = 6
         breakthrough = 9
-        hardness = 2
+        hardness = 1
         armor_value = 24
         # 攻击相关
         soft_attack = 1
@@ -943,7 +943,7 @@ equipments = {
 
         defense = 14
         breakthrough = 18
-        hardness = 5
+        hardness = 1
         armor_value = 45
 
         build_cost_ic = 8
@@ -964,7 +964,7 @@ equipments = {
 
         defense = 16
         breakthrough = 22
-        hardness = 5.6
+        hardness = 1
         armor_value = 55
 
         build_cost_ic = 9
@@ -985,7 +985,7 @@ equipments = {
 
         defense = 18
         breakthrough = 24
-        hardness = 6.2
+        hardness = 1
         armor_value = 70
 
         build_cost_ic = 9
@@ -1006,7 +1006,7 @@ equipments = {
 
         defense = 20
         breakthrough = 26
-        hardness = 6.8
+        hardness = 1
         armor_value = 80
 
         build_cost_ic = 10
@@ -1027,7 +1027,7 @@ equipments = {
 
         defense = 21
         breakthrough = 27
-        hardness = 7.4
+        hardness = 1
         armor_value = 90
 
         build_cost_ic = 11
@@ -1048,7 +1048,7 @@ equipments = {
 
         defense = 22
         breakthrough = 28
-        hardness = 8
+        hardness = 1
         armor_value = 100
 
         build_cost_ic = 12
@@ -1150,7 +1150,7 @@ equipments = {
         # 防御相关
         defense = 15
         breakthrough = 25
-        hardness = 4
+        hardness = 1
         armor_value = 60
         # 攻击相关
         soft_attack = 1
@@ -1310,7 +1310,7 @@ equipments = {
 
         defense = 18
         breakthrough = 30
-        hardness = 4.5
+        hardness = 1
         armor_value = 70
 
         build_cost_ic = 9
@@ -1331,7 +1331,7 @@ equipments = {
 
         defense = 20
         breakthrough = 34
-        hardness = 5
+        hardness = 1
         armor_value = 80
 
         build_cost_ic = 10
@@ -1352,7 +1352,7 @@ equipments = {
 
         defense = 22
         breakthrough = 38
-        hardness = 6
+        hardness = 1
         armor_value = 90
 
         build_cost_ic = 10
@@ -1373,7 +1373,7 @@ equipments = {
 
         defense = 24
         breakthrough = 42
-        hardness = 6.5
+        hardness = 1
         armor_value = 100
 
         build_cost_ic = 11
@@ -1394,7 +1394,7 @@ equipments = {
 
         defense = 25
         breakthrough = 44
-        hardness = 7
+        hardness = 1
         armor_value = 110
 
         build_cost_ic = 12
@@ -1415,7 +1415,7 @@ equipments = {
 
         defense = 26
         breakthrough = 46
-        hardness = 8
+        hardness = 1
         armor_value = 120
 
         build_cost_ic = 13
@@ -1562,7 +1562,7 @@ equipments = {
         # 防御相关
         defense = 30
         breakthrough = 24
-        hardness = 8
+        hardness = 1
         armor_value = 100
         # 攻击相关
         soft_attack = 1
@@ -1640,7 +1640,7 @@ equipments = {
 
         defense = 34
         breakthrough = 26
-        hardness = 10
+        hardness = 1
         armor_value = 120
 
         build_cost_ic = 17
@@ -1728,7 +1728,7 @@ equipments = {
 			}
 		}
 		priority = 2000
-		hardness = 0.85
+		hardness = 1
 		armor_value = 15
 		maximum_speed = 4
 		manpower = 3
@@ -2028,7 +2028,7 @@ equipments = {
         # 防御相关
         defense = 9
         breakthrough = 14
-        hardness = 3
+        hardness = 1
         armor_value = 30
         # 攻击相关
         soft_attack = 1
@@ -2171,7 +2171,7 @@ equipments = {
 
         defense = 10
         breakthrough = 15
-        hardness = 3.3
+        hardness = 1
         armor_value = 38
 
         build_cost_ic = 7
@@ -2192,7 +2192,7 @@ equipments = {
 
         defense = 11
         breakthrough = 16
-        hardness = 3.6
+        hardness = 1
         armor_value = 50
 
         build_cost_ic = 7.5
@@ -2213,7 +2213,7 @@ equipments = {
 
         defense = 12
         breakthrough = 17
-        hardness = 4
+        hardness = 1
         armor_value = 65
 
         build_cost_ic = 8
@@ -2318,7 +2318,7 @@ equipments = {
         # 防御相关
         defense = 12
         breakthrough = 10
-        hardness = 4
+        hardness = 1
         armor_value = 52
         # 攻击相关
         soft_attack = 1
@@ -2461,7 +2461,7 @@ equipments = {
 
         defense = 13
         breakthrough = 11
-        hardness = 4.5
+        hardness = 1
         armor_value = 60
 
         build_cost_ic = 6
@@ -2482,33 +2482,33 @@ equipments = {
 
         defense = 14
         breakthrough = 12
-        hardness = 5
+        hardness = 1
         armor_value = 70
 
         build_cost_ic = 6.5
         resources = { steel = 3 rubber = 1 chromium = 1 }
 	}
-	wheeled_tank_chassis_4 = {
-		abbreviation = "wt3"
-		derived_variant_name = wheeled_tank_equipment_3
-		archetype = wheeled_tank_chassis
-		parent = wheeled_tank_chassis_3
-		year = 1990
-		priority = 2000
-		module_slots = inherit
-
-		reliability = 0.75
-		maximum_speed = 8
-        fuel_consumption = 2.5
-
-        defense = 15
-        breakthrough = 13
-        hardness = 5.5
-        armor_value = 80
-
-        build_cost_ic = 7
-        resources = { steel = 3 rubber = 1 chromium = 2 }
-	}
+	# wheeled_tank_chassis_4 = {
+	# 	abbreviation = "wt3"
+	# 	derived_variant_name = wheeled_tank_equipment_3
+	# 	archetype = wheeled_tank_chassis
+	# 	parent = wheeled_tank_chassis_3
+	# 	year = 1990
+	# 	priority = 2000
+	# 	module_slots = inherit
+	#
+	# 	reliability = 0.75
+	# 	maximum_speed = 8
+    #     fuel_consumption = 2.5
+	#
+    #     defense = 15
+    #     breakthrough = 13
+    #     hardness = 1
+    #     armor_value = 80
+	#
+    #     build_cost_ic = 7
+    #     resources = { steel = 3 rubber = 1 chromium = 2 }
+	# }
 	land_cruiser_chassis = {
 		is_archetype = yes
 		is_buildable = no
@@ -2598,7 +2598,7 @@ equipments = {
         # 防御相关
         defense = 15
         breakthrough = 5
-        hardness = 50
+        hardness = 1
         armor_value = 100
         # 攻击相关
         soft_attack = 1

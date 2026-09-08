@@ -378,7 +378,7 @@ technologies = {
         start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = modern_light_tank_2 }
-        path = { research_cost_coeff = 1 leads_to_tech = para_tank_1 }
+        path = { research_cost_coeff = 1 leads_to_tech = para_tank_chassis_1 }
         folder = { name = FLTE_armor_folder position = { x = @light_chassis_branch y = @Tier4_3 } }
         dependencies = { FLTE_tech_tier_vehc_4 = 1 }
         special_project_specialization = { specialization_land }
@@ -1738,7 +1738,7 @@ technologies = {
         start_year = 1
         research_cost = 2
         path = { research_cost_coeff = 1 leads_to_tech = wheeled_tank_chassis_3 }
-        folder = { name = FLTE_armor_folder position = { x = @wheeled_chassis_branch y = @Tier6_1 } }
+        folder = { name = FLTE_armor_folder position = { x = @wheeled_chassis_branch y = @Tier6_mid } }
         dependencies = { FLTE_tech_tier_vehc_6 = 1 }
 
         special_project_specialization = { specialization_land }
@@ -1754,27 +1754,6 @@ technologies = {
     wheeled_tank_chassis_3 = {
         enable_equipments = {
             wheeled_tank_chassis_3
-        }
-
-        start_year = 1
-        research_cost = 2
-        path = { research_cost_coeff = 1 leads_to_tech = wheeled_tank_chassis_4 }
-        folder = { name = FLTE_armor_folder position = { x = @wheeled_chassis_branch y = @Tier6_2 } }
-        dependencies = { FLTE_tech_tier_vehc_6 = 1 }
-
-        special_project_specialization = { specialization_land }
-
-        categories = {
-            armor
-            mio_cat_tech_all_armor_and_modules
-            cat_light_armor
-            mio_cat_tech_light_armor_and_modules
-        }
-        ai_will_do = { base = 1 }
-    }
-    wheeled_tank_chassis_4 = {
-        enable_equipments = {
-            wheeled_tank_chassis_4
         }
 
         start_year = 1

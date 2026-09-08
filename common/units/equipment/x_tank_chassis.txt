@@ -207,7 +207,7 @@ equipments = {
 		archetype = light_tank_chassis
 		priority = 5
 		visual_level = 0
-		
+
 		upgrades = {
 			tank_reliability_upgrade
 			tank_engine_upgrade
@@ -271,7 +271,7 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 8
-		
+
 		build_cost_ic = 8
 		resources = {
 			steel = 1
@@ -295,7 +295,7 @@ equipments = {
 		can_convert_from = { 
 			gw_tank_equipment
 		}
-		
+
 
 		#Misc Abilities
 		maximum_speed = 6

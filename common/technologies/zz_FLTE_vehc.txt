@@ -1111,10 +1111,6 @@ technologies = {
         }
     }
 
-
-
-
-
     amphibious_mechanized_infantry = {
         enable_equipments = {
             amphibious_mechanized_equipment_1

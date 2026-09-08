@@ -73,16 +73,16 @@ spriteTypes = {
 	spriteType= { name = "GFX_modern_light_tank_4_medium" texturefile = "gfx/interface/FLTE/tech/general/modern_light_tank_4.dds" }
 	spriteType= { name = "GFX_modern_light_tank_5_medium" texturefile = "gfx/interface/FLTE/tech/general/modern_light_tank_5.dds" }
 	spriteType= { name = "GFX_modern_light_tank_6_medium" texturefile = "gfx/interface/FLTE/tech/general/modern_light_tank_6.dds" }
-	spriteType= { name = "GFX_para_tank_chassis0_medium" texturefile = "gfx/interface/FLTE/tech/general/modern_light_tank_3.dds" }
-	spriteType= { name = "GFX_para_tank_chassis0_1_medium" texturefile = "gfx/interface/FLTE/tech/general/modern_light_tank_4.dds" }
-	spriteType= { name = "GFX_para_tank_chassis0_2_medium" texturefile = "gfx/interface/FLTE/tech/general/para_tank_chassis0_2.dds" }
-	spriteType= { name = "GFX_para_tank_chassis0_3_medium" texturefile = "gfx/interface/FLTE/tech/general/para_tank_chassis0_3.dds" }
+	spriteType= { name = "GFX_para_tank_chassis_1_medium" texturefile = "gfx/interface/FLTE/tech/general/modern_light_tank_3.dds" }
+	spriteType= { name = "GFX_para_tank_chassis_2_medium" texturefile = "gfx/interface/FLTE/tech/general/modern_light_tank_4.dds" }
+	spriteType= { name = "GFX_para_tank_chassis_3_medium" texturefile = "gfx/interface/FLTE/tech/general/para_tank_chassis0_2.dds" }
+	spriteType= { name = "GFX_para_tank_chassis_4_medium" texturefile = "gfx/interface/FLTE/tech/general/para_tank_chassis0_3.dds" }
 	spriteType= { name = "GFX_cw_heavy_tank_chassis_medium" texturefile = "gfx/interface/FLTE/tech/general/cw_heavy_tank_chassis.dds" }
 	spriteType= { name = "GFX_cw_heavy_tank_chassis_1_medium" texturefile = "gfx/interface/FLTE/tech/general/cw_heavy_tank_chassis_1.dds" }
 	spriteType= { name = "GFX_cw_heavy_tank_chassis_2_medium" texturefile = "gfx/interface/FLTE/tech/general/cw_heavy_tank_chassis_2.dds" }
-	spriteType= { name = "GFX_wheeled_tank_chassis_00_medium" texturefile = "gfx/interface/FLTE/tech/general/wheeled_tank_chassis_00.dds" }
-	spriteType= { name = "GFX_wheeled_tank_chassis_01_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/general/wheeled_tank_chassis_2_icon_1.dds" }
-	spriteType= { name = "GFX_wheeled_tank_chassis_02_medium" texturefile = "gfx/interface/FLTE/tech/general/wheeled_tank_chassis_02.dds" }
+	spriteType= { name = "GFX_wheeled_tank_chassis_1_medium" texturefile = "gfx/interface/FLTE/tech/general/wheeled_tank_chassis_00.dds" }
+	spriteType= { name = "GFX_wheeled_tank_chassis_2_medium" texturefile = "gfx/interface/FLTE/equipment_designer_icon/general/wheeled_tank_chassis_2_icon_1.dds" }
+	spriteType= { name = "GFX_wheeled_tank_chassis_3_medium" texturefile = "gfx/interface/FLTE/tech/general/wheeled_tank_chassis_02.dds" }
 	spriteType= { name = "GFX_armor_tech_5_medium" texturefile = "gfx/interface/FLTE/tech/general/armor_tech_5.dds" }
 	spriteType= { name = "GFX_armor_tech_7_medium" texturefile = "gfx/interface/FLTE/tech/general/armor_tech_7.dds" }
 	spriteType= { name = "GFX_armor_tech_9_medium" texturefile = "gfx/interface/FLTE/tech/general/armor_tech_9.dds" }
@@ -726,11 +726,11 @@ spriteTypes = {
 	spriteType= { name = "GFX_mechanised_infantry6_medium" texturefile = "gfx/interface/FLTE/tech/general/mechanised_infantry6.dds" }
 	spriteType= { name = "GFX_mechanised_infantry7_medium" texturefile = "gfx/interface/FLTE/tech/general/mechanised_infantry7.dds" }
 	spriteType= { name = "GFX_mechanised_infantry8_medium" texturefile = "gfx/interface/FLTE/tech/general/mechanised_infantry8.dds" }
-	spriteType= { name = "GFX_heavy_mechanised_infantry1_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanised_infantry1.dds" }
-	spriteType= { name = "GFX_heavy_mechanised_infantry2_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanised_infantry2.dds" }
-	spriteType= { name = "GFX_heavy_mechanised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanised_infantry3.dds" }
-	spriteType= { name = "GFX_heavy_mechanised_infantry4_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanised_infantry4.dds" }
-	spriteType= { name = "GFX_heavy_mechanised_infantry5_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanised_infantry5.dds" }
+	spriteType= { name = "GFX_heavy_mechanized_infantry_1_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanized_infantry_1.dds" }
+	spriteType= { name = "GFX_heavy_mechanized_infantry_2_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanized_infantry_2.dds" }
+	spriteType= { name = "GFX_heavy_mechanized_infantry_3_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanized_infantry_3.dds" }
+	spriteType= { name = "GFX_heavy_mechanized_infantry_4_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanized_infantry_4.dds" }
+	spriteType= { name = "GFX_heavy_mechanized_infantry_5_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanized_infantry_5.dds" }
 ## FLTE_support
 	spriteType= { name = "GFX_tech_engineers5_medium" texturefile = "gfx/interface/FLTE/tech/general/tech_engineers5.dds" }
 	spriteType= { name = "GFX_tech_engineers6_medium" texturefile = "gfx/interface/FLTE/tech/general/tech_engineers6.dds" }

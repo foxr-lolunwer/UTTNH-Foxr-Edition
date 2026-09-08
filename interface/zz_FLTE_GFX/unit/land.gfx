@@ -1,0 +1,11 @@
+spriteTypes = {
+    # medium
+    # white
+    # small(view texticon)
+    spriteType = { name = "GFX_unit_para_tank_icon_medium" 			textureFile = "gfx/interface/FLTE/unit/land/unit_para_tank_icon.dds" legacy_lazy_load = no noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_para_tank_icon_medium_white" 	textureFile = "gfx/interface/FLTE/unit/land/on_map/onmap_unit_para_tank_icon.dds" legacy_lazy_load = no noOfFrames = 2 }
+
+	spriteType = { name = "GFX_unit_wheeled_tank_icon_medium" 		textureFile = "gfx/interface/FLTE/unit/land/unit_wheeled_tank_icon.dds" legacy_lazy_load = no noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_wheeled_tank_icon_medium_white" 	textureFile = "gfx/interface/FLTE/unit/land/on_map/onmap_unit_wheeled_tank_icon.dds" legacy_lazy_load = no noOfFrames = 2 }
+
+}

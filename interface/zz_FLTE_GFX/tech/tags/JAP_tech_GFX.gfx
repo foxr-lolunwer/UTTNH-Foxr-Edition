@@ -104,6 +104,6 @@ spriteTypes = {
 	spriteType= { name = "GFX_JAP_amechanised_infantry3_medium" texturefile = "gfx/interface/FLTE/tech/tags/JAP/amechanised_infantry3.dds" }
 	spriteType= { name = "GFX_JAP_mechanised_infantry6_medium" texturefile = "gfx/interface/FLTE/tech/tags/JAP/mechanised_infantry6.dds" }
 	spriteType= { name = "GFX_JAP_mechanised_infantry8_medium" texturefile = "gfx/interface/FLTE/tech/tags/JAP/amechanised_infantry3.dds" }
-	spriteType= { name = "GFX_JAP_heavy_mechanised_infantry4_medium" texturefile = "gfx/interface/FLTE/tech/tags/JAP/heavy_mechanised_infantry4.dds" }
+	spriteType= { name = "GFX_JAP_heavy_mechanized_infantry_4_medium" texturefile = "gfx/interface/FLTE/tech/tags/JAP/heavy_mechanized_infantry_4.dds" }
 
 }

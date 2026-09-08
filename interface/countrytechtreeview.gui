@@ -5,7 +5,7 @@ guiTypes = {
 	# 上面的误差应用到右边界/底边，计算width时，如果边界为大容器，需要偏移
 	@width_ordn 	= 2235		@height_ordn 	= 2140 # 27+[大容器偏移70px], 7
 	@width_support 	= 2165		@height_support = 2280 # 27, 7.5
-	@width_vehc 	= 1745		@height_vehc 	= 2140 # 20+[大容器偏移70px], 7
+	@width_vehc 	= 2025		@height_vehc 	= 2140 # 24+[大容器偏移70px], 7
 	@width_armor 	= 2165		@height_armor 	= 2420 # 27, 8
 	@width_naval 	= 3175		@height_naval 	= 2140 # 40+[大容器偏移100px], 7
 	@width_naval_s	= 2095		@height_naval_s	= 2140 # 26, 7
@@ -369,7 +369,7 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}
 			gridboxtype = {
-				name = "wheeled_tank_1_tree"
+				name = "wheeled_tank_chassis_1_tree"
 				position = { x = 180 y = 180 }
 				slotsize = { width = 70 height = 70 } format = "UP"
 			}

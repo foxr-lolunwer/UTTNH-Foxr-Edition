@@ -726,11 +726,11 @@ spriteTypes = {
 	spriteType= { name = "GFX_mechanised_infantry6_medium" texturefile = "gfx/interface/FLTE/tech/general/mechanised_infantry6.dds" }
 	spriteType= { name = "GFX_mechanised_infantry7_medium" texturefile = "gfx/interface/FLTE/tech/general/mechanised_infantry7.dds" }
 	spriteType= { name = "GFX_mechanised_infantry8_medium" texturefile = "gfx/interface/FLTE/tech/general/mechanised_infantry8.dds" }
-	spriteType= { name = "GFX_heavy_mechanized_infantry_1_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanized_infantry_1.dds" }
-	spriteType= { name = "GFX_heavy_mechanized_infantry_2_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanized_infantry_2.dds" }
-	spriteType= { name = "GFX_heavy_mechanized_infantry_3_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanized_infantry_3.dds" }
-	spriteType= { name = "GFX_heavy_mechanized_infantry_4_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanized_infantry_4.dds" }
-	spriteType= { name = "GFX_heavy_mechanized_infantry_5_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanized_infantry_5.dds" }
+	spriteType= { name = "GFX_heavy_mechanized_equipment_1_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanized_equipment_1.dds" }
+	spriteType= { name = "GFX_heavy_mechanized_equipment_2_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanized_equipment_2.dds" }
+	spriteType= { name = "GFX_heavy_mechanized_equipment_3_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanized_equipment_3.dds" }
+	spriteType= { name = "GFX_heavy_mechanized_equipment_4_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanized_equipment_4.dds" }
+	spriteType= { name = "GFX_heavy_mechanized_equipment_5_medium" texturefile = "gfx/interface/FLTE/tech/general/heavy_mechanized_equipment_5.dds" }
 ## FLTE_support
 	spriteType= { name = "GFX_tech_engineers5_medium" texturefile = "gfx/interface/FLTE/tech/general/tech_engineers5.dds" }
 	spriteType= { name = "GFX_tech_engineers6_medium" texturefile = "gfx/interface/FLTE/tech/general/tech_engineers6.dds" }

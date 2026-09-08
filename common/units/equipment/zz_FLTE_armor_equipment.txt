@@ -97,7 +97,7 @@ equipments = {
 		manpower = 3
         # 防御相关
         defense = 4
-        breakthrough = 5
+        breakthrough = 2.5
         hardness = 1
         armor_value = 10
         # 攻击相关
@@ -240,7 +240,7 @@ equipments = {
         fuel_consumption = 2.5
 
         defense = 5
-        breakthrough = 8
+        breakthrough = 4
         hardness = 1
         armor_value = 15
 
@@ -261,7 +261,7 @@ equipments = {
         fuel_consumption = 2.5
 
         defense = 8
-        breakthrough = 10
+        breakthrough = 5
         hardness = 1
         armor_value = 18
 
@@ -282,7 +282,7 @@ equipments = {
         fuel_consumption = 2.8
 
         defense = 10
-        breakthrough = 15
+        breakthrough = 7.5
         hardness = 1
         armor_value = 24
 
@@ -303,7 +303,7 @@ equipments = {
         fuel_consumption = 3
 
         defense = 12
-        breakthrough = 15
+        breakthrough = 7.5
         hardness = 1
         armor_value = 30
 
@@ -324,7 +324,7 @@ equipments = {
         fuel_consumption = 3
 
         defense = 14
-        breakthrough = 16
+        breakthrough = 8
         hardness = 1
         armor_value = 45
 
@@ -345,7 +345,7 @@ equipments = {
         fuel_consumption = 3
 
         defense = 15
-        breakthrough = 17
+        breakthrough = 8.5
         hardness = 1
         armor_value = 52
 
@@ -366,7 +366,7 @@ equipments = {
         fuel_consumption = 3
 
         defense = 16
-        breakthrough = 18
+        breakthrough = 9
         hardness = 1
         armor_value = 60
 
@@ -387,7 +387,7 @@ equipments = {
         fuel_consumption = 3
 
         defense = 17
-        breakthrough = 19
+        breakthrough = 9.5
         hardness = 1
         armor_value = 70
 
@@ -408,7 +408,7 @@ equipments = {
         fuel_consumption = 3
 
         defense = 18
-        breakthrough = 20
+        breakthrough = 10
         hardness = 1
         armor_value = 80
 
@@ -511,7 +511,7 @@ equipments = {
 		manpower = 6
         # 防御相关
         defense = 5
-        breakthrough = 7
+        breakthrough = 3.5
         hardness = 1
         armor_value = 15
         # 攻击相关
@@ -655,7 +655,7 @@ equipments = {
 		manpower = 3
 
         defense = 10
-        breakthrough = 14
+        breakthrough = 7
         hardness = 1
         armor_value = 30
 
@@ -676,7 +676,7 @@ equipments = {
         fuel_consumption = 3.3
 
         defense = 12
-        breakthrough = 20
+        breakthrough = 10
         hardness = 1
         armor_value = 40
 
@@ -697,7 +697,7 @@ equipments = {
         fuel_consumption = 3.5
 
         defense = 14
-        breakthrough = 22
+        breakthrough = 11
         hardness = 1
         armor_value = 50
 
@@ -802,7 +802,7 @@ equipments = {
 		manpower = 10
         # 防御相关
         defense = 6
-        breakthrough = 9
+        breakthrough = 4.5
         hardness = 1
         armor_value = 24
         # 攻击相关
@@ -942,7 +942,7 @@ equipments = {
 		manpower = 3
 
         defense = 14
-        breakthrough = 18
+        breakthrough = 9
         hardness = 1
         armor_value = 45
 
@@ -963,7 +963,7 @@ equipments = {
         fuel_consumption = 5.3
 
         defense = 16
-        breakthrough = 22
+        breakthrough = 11
         hardness = 1
         armor_value = 55
 
@@ -984,7 +984,7 @@ equipments = {
         fuel_consumption = 6
 
         defense = 18
-        breakthrough = 24
+        breakthrough = 12
         hardness = 1
         armor_value = 70
 
@@ -1005,7 +1005,7 @@ equipments = {
         fuel_consumption = 6.5
 
         defense = 20
-        breakthrough = 26
+        breakthrough = 14
         hardness = 1
         armor_value = 80
 
@@ -1026,7 +1026,7 @@ equipments = {
         fuel_consumption = 7
 
         defense = 21
-        breakthrough = 27
+        breakthrough = 13.5
         hardness = 1
         armor_value = 90
 
@@ -1047,7 +1047,7 @@ equipments = {
         fuel_consumption = 7
 
         defense = 22
-        breakthrough = 28
+        breakthrough = 14
         hardness = 1
         armor_value = 100
 
@@ -1149,7 +1149,7 @@ equipments = {
 		manpower = 3
         # 防御相关
         defense = 15
-        breakthrough = 25
+        breakthrough = 12.5
         hardness = 1
         armor_value = 60
         # 攻击相关
@@ -1309,7 +1309,7 @@ equipments = {
         fuel_consumption = 4
 
         defense = 18
-        breakthrough = 30
+        breakthrough = 15
         hardness = 1
         armor_value = 70
 
@@ -1330,7 +1330,7 @@ equipments = {
         fuel_consumption = 4.5
 
         defense = 20
-        breakthrough = 34
+        breakthrough = 17
         hardness = 1
         armor_value = 80
 
@@ -1351,7 +1351,7 @@ equipments = {
         fuel_consumption = 4.7
 
         defense = 22
-        breakthrough = 38
+        breakthrough = 19
         hardness = 1
         armor_value = 90
 
@@ -1372,7 +1372,7 @@ equipments = {
         fuel_consumption = 5
 
         defense = 24
-        breakthrough = 42
+        breakthrough = 21
         hardness = 1
         armor_value = 100
 
@@ -1393,7 +1393,7 @@ equipments = {
         fuel_consumption = 5
 
         defense = 25
-        breakthrough = 44
+        breakthrough = 22
         hardness = 1
         armor_value = 110
 
@@ -1414,7 +1414,7 @@ equipments = {
         fuel_consumption = 5
 
         defense = 26
-        breakthrough = 46
+        breakthrough = 23
         hardness = 1
         armor_value = 120
 
@@ -1561,7 +1561,7 @@ equipments = {
 		manpower = 4
         # 防御相关
         defense = 30
-        breakthrough = 24
+        breakthrough = 12
         hardness = 1
         armor_value = 100
         # 攻击相关
@@ -1639,7 +1639,7 @@ equipments = {
         fuel_consumption = 9
 
         defense = 34
-        breakthrough = 26
+        breakthrough = 13
         hardness = 1
         armor_value = 120
 
@@ -2025,9 +2025,10 @@ equipments = {
 		reliability = 0.6
 		maximum_speed = 6
         fuel_consumption = 2.5
+		manpower = 3
         # 防御相关
         defense = 9
-        breakthrough = 14
+        breakthrough = 7
         hardness = 1
         armor_value = 30
         # 攻击相关
@@ -2170,7 +2171,7 @@ equipments = {
         fuel_consumption = 2.5
 
         defense = 10
-        breakthrough = 15
+        breakthrough = 7.5
         hardness = 1
         armor_value = 38
 
@@ -2191,7 +2192,7 @@ equipments = {
         fuel_consumption = 2.5
 
         defense = 11
-        breakthrough = 16
+        breakthrough = 8
         hardness = 1
         armor_value = 50
 
@@ -2212,7 +2213,7 @@ equipments = {
         fuel_consumption = 2.5
 
         defense = 12
-        breakthrough = 17
+        breakthrough = 8.5
         hardness = 1
         armor_value = 65
 
@@ -2317,7 +2318,7 @@ equipments = {
 		manpower = 3
         # 防御相关
         defense = 12
-        breakthrough = 10
+        breakthrough = 5
         hardness = 1
         armor_value = 52
         # 攻击相关
@@ -2460,7 +2461,7 @@ equipments = {
         fuel_consumption = 2.5
 
         defense = 13
-        breakthrough = 11
+        breakthrough = 5.5
         hardness = 1
         armor_value = 60
 
@@ -2481,7 +2482,7 @@ equipments = {
         fuel_consumption = 2.5
 
         defense = 14
-        breakthrough = 12
+        breakthrough = 6
         hardness = 1
         armor_value = 70
 
@@ -2597,7 +2598,7 @@ equipments = {
 		manpower = 30
         # 防御相关
         defense = 15
-        breakthrough = 5
+        breakthrough = 2.5
         hardness = 1
         armor_value = 100
         # 攻击相关

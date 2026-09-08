@@ -721,7 +721,7 @@ technologies = {
         start_year = 1
         research_cost = 3
         path = { research_cost_coeff = 1 leads_to_tech = mechanised_infantry4 }
-        path = { research_cost_coeff = 1 leads_to_tech = heavy_mechanized_infantry_1 }
+        path = { research_cost_coeff = 1 leads_to_tech = heavy_mechanized_equipment_1 }
         folder = { name = FLTE_vehc_folder position = { x = @mec_branch y = @Tier4_1 } }
         dependencies = { FLTE_tech_tier_vehc_4 = 1 }
 
@@ -888,7 +888,7 @@ technologies = {
         }
     }
 
-    heavy_mechanized_infantry_1 = {
+    heavy_mechanized_equipment_1 = {
         # Unknowns
         enable_equipments = {
             heavy_mechanized_equipment_1
@@ -899,9 +899,10 @@ technologies = {
 
         start_year = 1
         research_cost = 2
-        path = { research_cost_coeff = 1 leads_to_tech = heavy_mechanized_infantry_2 }
+        path = { research_cost_coeff = 1 leads_to_tech = heavy_mechanized_equipment_2 }
         folder = { name = FLTE_vehc_folder position = { x = @heavy_mec_branch y = @Tier4_2 } }
         dependencies = { FLTE_tech_tier_vehc_4 = 1 }
+        allow_branch = { always = no } # 因为图标问题，暂时隐藏
 
         special_project_specialization = { specialization_land }
 
@@ -935,7 +936,7 @@ technologies = {
             }
         }
     }
-    heavy_mechanized_infantry_2 = {
+    heavy_mechanized_equipment_2 = {
         # Unknowns
         enable_equipments = {
             heavy_mechanized_equipment_2
@@ -943,7 +944,7 @@ technologies = {
 
         start_year = 1
         research_cost = 2
-        path = { research_cost_coeff = 1 leads_to_tech = heavy_mechanized_infantry_3 }
+        path = { research_cost_coeff = 1 leads_to_tech = heavy_mechanized_equipment_3 }
         folder = { name = FLTE_vehc_folder position = { x = @heavy_mec_branch y = @Tier5_1 } }
         dependencies = { FLTE_tech_tier_vehc_5 = 1 }
 
@@ -979,7 +980,7 @@ technologies = {
             }
         }
     }
-    heavy_mechanized_infantry_3 = {
+    heavy_mechanized_equipment_3 = {
         # Unknowns
         enable_equipments = {
             heavy_mechanized_equipment_3
@@ -987,7 +988,7 @@ technologies = {
 
         start_year = 1
         research_cost = 2
-        path = { research_cost_coeff = 1 leads_to_tech = heavy_mechanized_infantry_4 }
+        path = { research_cost_coeff = 1 leads_to_tech = heavy_mechanized_equipment_4 }
         folder = { name = FLTE_vehc_folder position = { x = @heavy_mec_branch y = @Tier5_2 } }
         dependencies = { FLTE_tech_tier_vehc_5 = 1 }
 
@@ -1023,7 +1024,7 @@ technologies = {
             }
         }
     }
-    heavy_mechanized_infantry_4 = {
+    heavy_mechanized_equipment_4 = {
         # Unknowns
         enable_equipments = {
             heavy_mechanized_equipment_4
@@ -1031,7 +1032,7 @@ technologies = {
 
         start_year = 1
         research_cost = 2
-        path = { research_cost_coeff = 1 leads_to_tech = heavy_mechanized_infantry_5 }
+        path = { research_cost_coeff = 1 leads_to_tech = heavy_mechanized_equipment_5 }
         folder = { name = FLTE_vehc_folder position = { x = @heavy_mec_branch y = @Tier6_mid } }
         dependencies = { FLTE_tech_tier_vehc_6 = 1 }
 
@@ -1067,7 +1068,7 @@ technologies = {
             }
         }
     }
-    heavy_mechanized_infantry_5 = {
+    heavy_mechanized_equipment_5 = {
         # Unknowns
         enable_equipments = {
             heavy_mechanized_equipment_5

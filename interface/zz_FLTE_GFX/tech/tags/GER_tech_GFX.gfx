@@ -109,10 +109,10 @@ spriteTypes = {
 	spriteType= { name = "GFX_GER_mechanised_infantry6_medium" texturefile = "gfx/interface/FLTE/tech/tags/GER/mechanised_infantry6.dds" }
 	spriteType= { name = "GFX_GER_mechanised_infantry7_medium" texturefile = "gfx/interface/FLTE/tech/tags/GER/mechanised_infantry6.dds" }
 	spriteType= { name = "GFX_GER_mechanised_infantry8_medium" texturefile = "gfx/interface/FLTE/tech/tags/GER/mechanised_infantry8.dds" }
-	spriteType= { name = "GFX_GER_heavy_mechanized_infantry_1_medium" texturefile = "gfx/interface/FLTE/tech/tags/GER/heavy_mechanized_infantry_1.dds" }
-	spriteType= { name = "GFX_GER_heavy_mechanized_infantry_2_medium" texturefile = "gfx/interface/FLTE/tech/tags/GER/heavy_mechanized_infantry_2.dds" }
-	spriteType= { name = "GFX_GER_heavy_mechanized_infantry_3_medium" texturefile = "gfx/interface/FLTE/tech/tags/GER/heavy_mechanized_infantry_3.dds" }
-	spriteType= { name = "GFX_GER_heavy_mechanized_infantry_4_medium" texturefile = "gfx/interface/FLTE/tech/tags/GER/heavy_mechanized_infantry_4.dds" }
-	spriteType= { name = "GFX_GER_heavy_mechanized_infantry_5_medium" texturefile = "gfx/interface/FLTE/tech/tags/GER/heavy_mechanized_infantry_5.dds" }
+	spriteType= { name = "GFX_GER_heavy_mechanized_equipment_1_medium" texturefile = "gfx/interface/FLTE/tech/tags/GER/heavy_mechanized_equipment_1.dds" }
+	spriteType= { name = "GFX_GER_heavy_mechanized_equipment_2_medium" texturefile = "gfx/interface/FLTE/tech/tags/GER/heavy_mechanized_equipment_2.dds" }
+	spriteType= { name = "GFX_GER_heavy_mechanized_equipment_3_medium" texturefile = "gfx/interface/FLTE/tech/tags/GER/heavy_mechanized_equipment_3.dds" }
+	spriteType= { name = "GFX_GER_heavy_mechanized_equipment_4_medium" texturefile = "gfx/interface/FLTE/tech/tags/GER/heavy_mechanized_equipment_4.dds" }
+	spriteType= { name = "GFX_GER_heavy_mechanized_equipment_5_medium" texturefile = "gfx/interface/FLTE/tech/tags/GER/heavy_mechanized_equipment_5.dds" }
 
 }

@@ -10,7 +10,7 @@
  amechanized: "空降步兵战车"
  # FLTE code replace light_tank_recon_desc
  para_tank: "空降坦克"
- wheel_tank: "轮式坦克"
+ wheeled_tank: "轮式坦克"
  # FLTE code replace MORALE_TITLE
  # FLTE code replace category_support_battalions
  # FLTE code replace MODIFIER_AIR_INVASION_DIVISION_CAP_DESC

@@ -1,4 +1,5 @@
 *.code_workspace
 .cwtools.ignore
 zzz_codes/
+zza_codes/
 *.bak

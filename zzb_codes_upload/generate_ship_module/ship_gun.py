@@ -119,7 +119,7 @@ if __name__ == "__main__":
 
     # 模拟从文件加载数据
     input_file = "ship_gun.json5"
-    output_file = r"out\ship_gun.txt"
+    output_file = r"out/ship_gun.txt"
 
     if os.path.exists(input_file):
         with open(input_file, "r", encoding="utf-8") as f:

@@ -3,7 +3,7 @@ import shutil
 from pathlib import Path
 import pathspec
 
-MOD_VERSION = "0.2.6-rainbow2-preview"
+MOD_VERSION = "0.3.0-"
 
 MOD_TEXT = '''\
 version="%s"

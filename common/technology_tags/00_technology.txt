@@ -219,5 +219,3 @@ technology_folders = {
 		doctrine = yes
 	}
 }
-
- 

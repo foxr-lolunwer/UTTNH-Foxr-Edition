@@ -1,0 +1,12 @@
+﻿l_english:
+ FE_DIFFICULTY_VERY_EASY: "Fair"
+ FE_DIFFICULTY_VERY_EASY_TOOLTIP: "§L\"The enemy hasn't even mobilized, yet victory is already ours.\"§!\n§gIt's only fair, isn't it?§!"
+ FE_DIFFICULTY_EASY: "Casual"
+ FE_DIFFICULTY_EASY_TOOLTIP: "§L\"I don't know how, but they just charged in shouting about friendship and bonds!\"§!\n§gNote: Female portrait modifications may not take effect in the vanilla environment, as default cultures lack generic female leader/general portrait definitions.§!"
+ FE_DIFFICULTY_NORMAL: "Normal"
+ FE_DIFFICULTY_NORMAL_TOOLTIP: "§L\"Yesterday we tried to conquer the world; today we try to conquer our supply lines.\"§!\n§gStandard difficulty with balanced bonuses.§!"
+ FE_DIFFICULTY_HARD: "Hard"
+ FE_DIFFICULTY_HARD_TOOLTIP: "§L\"You will give blood, sweat, and tears. We shall endure hardship, but we will never surrender.\"§!\n§gWarning: Recommended only for players using overhaul or difficulty-enhancing mods.§!"
+ FE_DIFFICULTY_VERY_HARD: "Extreme"
+ FE_DIFFICULTY_VERY_HARD_TOOLTIP: "§L\"I could have won, if only they weren't cheating! My only mistake was clicking the wrong button...\"§!\n§gExtreme difficulty for heavily modded games. Good luck.§!"
+ 

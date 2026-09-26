@@ -1,0 +1,1267 @@
+equipment_modules = {
+	limit = { has_dlc = "By Blood Alone" }
+	ATGGM = {
+		abbreviation = "bol"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 0.5
+	}
+	ATGLGM = {
+		abbreviation = "bol"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 0.5
+	}
+	ATGLGM_1 = {
+		abbreviation = "bol"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 0.5
+	}
+	ATTVGGM = {
+		abbreviation = "bol"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 0.5
+	}
+	air_air_radar_1 = {
+		abbreviation = "aar1"
+		category = plane_special_module_air_air_radar
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	air_air_radar_2 = {
+		abbreviation = "aar2"
+		category = plane_special_module_air_air_radar
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	air_air_radar_3 = {
+		abbreviation = "aar2"
+		category = plane_special_module_air_air_radar
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	air_air_radar_4 = {
+		abbreviation = "aar2"
+		category = plane_special_module_air_air_radar
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	air_air_radar_5 = {
+		abbreviation = "aar2"
+		category = plane_special_module_air_air_radar
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	air_air_radar_6 = {
+		abbreviation = "aar2"
+		category = plane_special_module_air_air_radar
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	air_air_radar_7 = {
+		abbreviation = "aar2"
+		category = plane_special_module_air_air_radar
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	air_ground_radar_1 = {
+		abbreviation = "agr1"
+		category = plane_special_module_air_ground_radar
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	air_ground_radar_2 = {
+		abbreviation = "agr2"
+		category = plane_special_module_air_ground_radar
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	air_ground_radar_3 = {
+		abbreviation = "agr2"
+		category = plane_special_module_air_ground_radar
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	air_ground_radar_4 = {
+		abbreviation = "agr2"
+		category = plane_special_module_air_ground_radar
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	air_ground_radar_5 = {
+		abbreviation = "agr2"
+		category = plane_special_module_air_ground_radar
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	air_ground_radar_6 = {
+		abbreviation = "agr2"
+		category = plane_special_module_air_ground_radar
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	aircraft_braam = {
+		abbreviation = "ac22"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	aircraft_cannon_1_1x = {
+		abbreviation = "ac11"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	aircraft_cannon_1_2x = {
+		abbreviation = "ac12"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	aircraft_cannon_2_1x = {
+		abbreviation = "ac21"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	aircraft_cannon_2_2x = {
+		abbreviation = "ac22"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	aircraft_cannon_3_1x = {
+		abbreviation = "ac21"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	aircraft_cannon_3_2x = {
+		abbreviation = "ac22"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	aircraft_cannon_4_1x = {
+		abbreviation = "ac21"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	aircraft_cannon_4_2x = {
+		abbreviation = "ac22"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	aircraft_cannon_5_1x = {
+		abbreviation = "ac21"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	aircraft_cannon_5_2x = {
+		abbreviation = "ac22"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	aircraft_lraam = {
+		abbreviation = "ac22"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	aircraft_lraam_1 = {
+		abbreviation = "ac22"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	aircraft_maam = {
+		abbreviation = "ac22"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	aircraft_maam_1 = {
+		abbreviation = "ac22"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	aircraft_maam_2 = {
+		abbreviation = "ac22"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	aircraft_maam_3 = {
+		abbreviation = "ac22"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	aircraft_saam_1 = {
+		abbreviation = "ac22"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	aircraft_saam_2 = {
+		abbreviation = "ac22"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	aircraft_saam_3 = {
+		abbreviation = "ac22"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	aircraft_saam_4 = {
+		abbreviation = "ac22"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	airdropped_mines = {
+		abbreviation = "adm"
+		category = mine_warfare_offense
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	armor_piercing_bomb_locks = {
+		abbreviation = "bol"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 0.5
+	}
+	armor_plate_large = {
+		abbreviation = "apl"
+		category = plane_special_module_large
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 1
+	}
+	armor_plate_medium = {
+		abbreviation = "apm"
+		category = plane_special_module_medium
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 1
+	}
+	armor_plate_small = {
+		abbreviation = "aps"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 0.5
+	}
+	bomb_locks = {
+		abbreviation = "bol"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 0.5
+	}
+	bomb_locks_1 = {
+		abbreviation = "bol"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 0.5
+	}
+	bomb_locks_2 = {
+		abbreviation = "bol"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 0.5
+	}
+	bomb_sights_1 = {
+		abbreviation = "bs1"
+		category = plane_special_module_bomb_sights
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	bomb_sights_2 = {
+		abbreviation = "bs2"
+		category = plane_special_module_bomb_sights
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	bomb_sights_3 = {
+		abbreviation = "bs2"
+		category = plane_special_module_bomb_sights
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	bomb_sights_4 = {
+		abbreviation = "bs2"
+		category = plane_special_module_bomb_sights
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	cannon_defense_turret = {
+		abbreviation = "cat"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 1
+	}
+	cannon_defense_turret_1 = {
+		abbreviation = "cat"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 1
+	}
+	cannon_defense_turret_1_2x = {
+		abbreviation = "cat2"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 2
+	}
+	cannon_defense_turret_2 = {
+		abbreviation = "cat"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 1
+	}
+	cannon_defense_turret_2_2x = {
+		abbreviation = "cat2"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 2
+	}
+	cannon_defense_turret_2x = {
+		abbreviation = "cat2"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 2
+	}
+	cannon_defense_turret_3 = {
+		abbreviation = "cat"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 1
+	}
+	cannon_defense_turret_3_2x = {
+		abbreviation = "cat2"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 2
+	}
+	chute_1 = {
+		abbreviation = "dbs"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	chute_2 = {
+		abbreviation = "dbs"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	cruisemissile = {
+		abbreviation = "lbb"
+		category = strat_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 12
+	}
+	cruisemissile_1 = {
+		abbreviation = "lbb"
+		category = strat_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 12
+	}
+	cruisemissile_2 = {
+		abbreviation = "lbb"
+		category = strat_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 12
+	}
+	demining_coil = {
+		abbreviation = "dmc"
+		category = mine_warfare_defense
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 1
+	}
+	dive_brakes_small = {
+		abbreviation = "dbs"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 2
+	}
+	drop_tanks = {
+		abbreviation = "dpt"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	drop_tanks1 = {
+		abbreviation = "dpt"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	drop_tanks2 = {
+		abbreviation = "dpt"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	earthshaker_bomb_release = {
+		abbreviation = "bbr"
+		category = strat_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 7
+	}
+	engine_1_1x = {
+		abbreviation = "e11"
+		category = plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_1_2x = {
+		abbreviation = "e12"
+		category = twin_plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_1_3x = {
+		abbreviation = "e13"
+		category = medium_plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_1_4x = {
+		abbreviation = "e14"
+		category = quad_large_plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_1_6x = {
+		abbreviation = "e16"
+		category = large_plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_2_1x = {
+		abbreviation = "e21"
+		category = plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_2_2x = {
+		abbreviation = "e22"
+		category = twin_plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_2_3x = {
+		abbreviation = "e23"
+		category = medium_plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_2_4x = {
+		abbreviation = "e24"
+		category = quad_large_plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_2_6x = {
+		abbreviation = "e26"
+		category = large_plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_3_1x = {
+		abbreviation = "e31"
+		category = plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_3_2x = {
+		abbreviation = "e32"
+		category = twin_plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_3_3x = {
+		abbreviation = "e33"
+		category = medium_plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_3_4x = {
+		abbreviation = "e34"
+		category = quad_large_plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_3_6x = {
+		abbreviation = "e36"
+		category = large_plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_4_1x = {
+		abbreviation = "e41"
+		category = plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_4_2x = {
+		abbreviation = "e42"
+		category = twin_plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_4_3x = {
+		abbreviation = "e43"
+		category = medium_plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_4_4x = {
+		abbreviation = "e44"
+		category = quad_large_plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	engine_4_6x = {
+		abbreviation = "e36"
+		category = large_plane_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	fixed_explosive_charge = {
+		abbreviation = "fec"
+		category = kamikaze_bomber_weapon
+		sfx = sfx_ui_sd_module_turret
+		gui_category = nav_bomber_weapon
+		xp_cost = 5
+		dismantle_cost_ic = 4
+	}
+	flare = {
+		abbreviation = "aps"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 0.5
+	}
+	floats = {
+		abbreviation = "flo"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 2.5
+	}
+	flying_boat_large = {
+		abbreviation = "flbl"
+		category = plane_special_module_large
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 5
+	}
+	flying_boat_medium = {
+		abbreviation = "flbm"
+		category = plane_special_module_medium
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 2
+	}
+	fuel_tanks_large = {
+		abbreviation = "ftl"
+		category = plane_special_module_large
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 1.5
+	}
+	fuel_tanks_medium = {
+		abbreviation = "ftm"
+		category = plane_special_module_medium
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 1
+	}
+	fuel_tanks_small = {
+		abbreviation = "fts"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 0.5
+	}
+	guided_anti_ship_missile = {
+		abbreviation = "asm"
+		category = nav_bomber_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 5
+	}
+	guided_anti_ship_missile_1 = {
+		abbreviation = "asm"
+		category = nav_bomber_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 5
+	}
+	guided_anti_ship_missile_2 = {
+		abbreviation = "asm"
+		category = nav_bomber_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 5
+	}
+	guided_anti_ship_missile_3 = {
+		abbreviation = "asm"
+		category = nav_bomber_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 5
+	}
+	guided_anti_ship_missile_4 = {
+		abbreviation = "asm"
+		category = nav_bomber_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 5
+	}
+	heavy_bomb_locks = {
+		abbreviation = "bol"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 0.5
+	}
+	heavy_mg_1_2x = {
+		abbreviation = "hmg2"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	heavy_mg_1_4x = {
+		abbreviation = "hmg4"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	heavy_mg_2x = {
+		abbreviation = "hmg2"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	heavy_mg_4x = {
+		abbreviation = "hmg4"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	hmg_defense_turret = {
+		abbreviation = "hmgt"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 1
+	}
+	hmg_defense_turret_1 = {
+		abbreviation = "hmgt"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 1
+	}
+	hmg_defense_turret_2 = {
+		abbreviation = "hmgt"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 1
+	}
+	hmg_defense_turret_2x = {
+		abbreviation = "hmgt2"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 2
+	}
+	hmg_defense_turret_2x_1 = {
+		abbreviation = "hmgt2"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 2
+	}
+	hmg_defense_turret_2x_2 = {
+		abbreviation = "hmgt2"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 2
+	}
+	improved_rocket_propelled_bombs = {
+		abbreviation = "bol"
+		category = strat_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 12
+	}
+	jet_engine_1x = {
+		abbreviation = "j1"
+		category = plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 1
+		}
+	}
+	jet_engine_2x = {
+		abbreviation = "j2"
+		category = twin_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 1
+		}
+	}
+	jet_engine_3x = {
+		abbreviation = "j3"
+		category = medium_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 2
+		}
+	}
+	jet_engine_4x = {
+		abbreviation = "j4"
+		category = quad_large_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 2
+		}
+	}
+	jet_engine_6x = {
+		abbreviation = "j6"
+		category = large_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 3
+		}
+	}
+	jet_engine_advanced_turbojet_1x = {
+		abbreviation = "ja1"
+		category = plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 1
+		}
+	}
+	jet_engine_advanced_turbojet_2x = {
+		abbreviation = "ja2"
+		category = twin_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 2
+		}
+	}
+	jet_engine_advanced_turbojet_3x = {
+		abbreviation = "ja3"
+		category = medium_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 2
+		}
+	}
+	jet_engine_advanced_turbojet_4x = {
+		abbreviation = "ja4"
+		category = quad_large_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 3
+		}
+	}
+	jet_engine_advanced_turbojet_6x = {
+		abbreviation = "ja6"
+		category = large_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 4
+		}
+	}
+	jet_engine_axial_1x = {
+		abbreviation = "ja1"
+		category = plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 1
+		}
+	}
+	jet_engine_axial_2x = {
+		abbreviation = "ja2"
+		category = twin_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 2
+		}
+	}
+	jet_engine_axial_3x = {
+		abbreviation = "ja3"
+		category = medium_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 2
+		}
+	}
+	jet_engine_axial_4x = {
+		abbreviation = "ja4"
+		category = quad_large_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 3
+		}
+	}
+	jet_engine_axial_6x = {
+		abbreviation = "ja6"
+		category = large_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 4
+		}
+	}
+	jet_engine_modern_turbofan_1x = {
+		abbreviation = "ja1"
+		category = plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 1
+		}
+	}
+	jet_engine_modern_turbofan_2x = {
+		abbreviation = "ja2"
+		category = twin_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 2
+		}
+	}
+	jet_engine_modern_turbofan_3x = {
+		abbreviation = "ja3"
+		category = medium_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 2
+		}
+	}
+	jet_engine_modern_turbofan_4x = {
+		abbreviation = "ja4"
+		category = quad_large_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 3
+		}
+	}
+	jet_engine_modern_turbofan_6x = {
+		abbreviation = "ja6"
+		category = large_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 4
+		}
+	}
+	jet_engine_turbofan_1x = {
+		abbreviation = "ja1"
+		category = plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 1
+		}
+	}
+	jet_engine_turbofan_2x = {
+		abbreviation = "ja2"
+		category = twin_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 2
+		}
+	}
+	jet_engine_turbofan_3x = {
+		abbreviation = "ja3"
+		category = medium_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 2
+		}
+	}
+	jet_engine_turbofan_4x = {
+		abbreviation = "ja4"
+		category = quad_large_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 3
+		}
+	}
+	jet_engine_turbofan_6x = {
+		abbreviation = "ja6"
+		category = large_plane_jet_engine_type
+		sfx = sfx_ui_sd_module_engine
+		build_cost_resources = {
+			chromium = 4
+		}
+	}
+	large_bomb_bay = {
+		abbreviation = "lbb"
+		category = strat_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 12
+	}
+	laserbomb = {
+		abbreviation = "bol"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 0.5
+	}
+	laserbomb_1 = {
+		abbreviation = "bol"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 0.5
+	}
+	light_mg_2x = {
+		abbreviation = "lmg2"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	light_mg_4x = {
+		abbreviation = "lmg4"
+		category = fighter_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	lmg_defense_turret = {
+		abbreviation = "lmgt"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 1
+	}
+	lmg_defense_turret_2x = {
+		abbreviation = "lmgt2"
+		category = plane_special_module_defense_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 2
+	}
+	medium_bomb_bay = {
+		abbreviation = "mbb"
+		category = tac_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 7
+	}
+	medium_bomb_bay_1 = {
+		abbreviation = "mbb"
+		category = tac_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 7
+	}
+	medium_bomb_bay_2 = {
+		abbreviation = "mbb"
+		category = tac_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 7
+	}
+	medium_bomb_bay_3 = {
+		abbreviation = "mbb"
+		category = tac_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 7
+	}
+	medium_bomb_bay_4 = {
+		abbreviation = "mbb"
+		category = tac_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 7
+	}
+	medium_bomb_bay_5 = {
+		abbreviation = "mbb"
+		category = tac_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 7
+	}
+	non_strategic_materials_large = {
+		abbreviation = "nsml"
+		category = plane_special_module_large
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 22
+		dismantle_cost_resources = {
+			aluminium = 3
+		}
+	}
+	non_strategic_materials_medium = {
+		abbreviation = "nsmm"
+		category = plane_special_module_medium
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 12
+		dismantle_cost_resources = {
+			aluminium = 2
+		}
+	}
+	non_strategic_materials_small = {
+		abbreviation = "nsms"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 7
+		dismantle_cost_resources = {
+			aluminium = 2
+		}
+	}
+	photoflash = {
+		abbreviation = "pho"
+		category = recon_camera
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	radio_navigation_1 = {
+		abbreviation = "rn1"
+		category = plane_special_module_radio_navigation
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	radio_navigation_2 = {
+		abbreviation = "rn2"
+		category = plane_special_module_radio_navigation
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	radio_navigation_3 = {
+		abbreviation = "rn2"
+		category = plane_special_module_radio_navigation
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	radio_navigation_4 = {
+		abbreviation = "rn2"
+		category = plane_special_module_radio_navigation
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	radio_navigation_5 = {
+		abbreviation = "rn2"
+		category = plane_special_module_radio_navigation
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	radio_navigation_6 = {
+		abbreviation = "rn2"
+		category = plane_special_module_radio_navigation
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	radio_navigation_7 = {
+		abbreviation = "rn2"
+		category = plane_special_module_radio_navigation
+		sfx = sfx_ui_sd_module_turret
+		gui_category = plane_special_module_electronics
+		xp_cost = 1
+	}
+	recon_camera = {
+		abbreviation = "rca"
+		category = recon_camera
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	rocket_engine_1 = {
+		abbreviation = "re1"
+		category = plane_rocket_engine_type
+		sfx = sfx_ui_sd_module_engine
+		dismantle_cost_ic = 5
+		build_cost_resources = {
+			tungsten = 3
+		}
+	}
+	rocket_engine_2 = {
+		abbreviation = "re2"
+		category = plane_rocket_engine_type
+		sfx = sfx_ui_sd_module_engine
+		dismantle_cost_ic = 7
+		build_cost_resources = {
+			tungsten = 3
+		}
+	}
+	rocket_engine_3 = {
+		abbreviation = "re3"
+		category = plane_rocket_engine_type
+		sfx = sfx_ui_sd_module_engine
+		dismantle_cost_ic = 10
+		build_cost_resources = {
+			tungsten = 3
+		}
+	}
+	rocket_pod = {
+		abbreviation = "rrl"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 0.5
+	}
+	rocket_propelled_bombs = {
+		abbreviation = "bol"
+		category = strat_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 12
+	}
+	rocket_rails = {
+		abbreviation = "rrl"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 0.5
+	}
+	rotarycannon = {
+		abbreviation = "ac21"
+		category = modern_cannon
+		sfx = sfx_ui_sd_module_turret
+		gui_category = fighter_weapon
+		xp_cost = 1
+	}
+	rotarycannon_1 = {
+		abbreviation = "ac21"
+		category = modern_cannon
+		sfx = sfx_ui_sd_module_turret
+		gui_category = fighter_weapon
+		xp_cost = 1
+	}
+	rotarycannon_2 = {
+		abbreviation = "ac21"
+		category = modern_cannon
+		sfx = sfx_ui_sd_module_turret
+		gui_category = fighter_weapon
+		xp_cost = 1
+	}
+	rwr = {
+		abbreviation = "aps"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 0.5
+	}
+	self_sealing_fuel_tanks_large = {
+		abbreviation = "ssl"
+		category = plane_special_module_large
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 1.5
+		build_cost_resources = {
+			rubber = 2
+		}
+	}
+	self_sealing_fuel_tanks_medium = {
+		abbreviation = "ssm"
+		category = plane_special_module_medium
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 1
+		build_cost_resources = {
+			rubber = 2
+		}
+	}
+	self_sealing_fuel_tanks_small = {
+		abbreviation = "ssf"
+		category = plane_special_module_small
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 0.5
+		build_cost_resources = {
+			rubber = 1
+		}
+	}
+	small_bomb_bay = {
+		abbreviation = "sbb"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 3.5
+	}
+	tank_buster_1 = {
+		abbreviation = "tb1"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 1.5
+	}
+	tank_buster_2 = {
+		abbreviation = "tb2"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 3.5
+	}
+	tank_buster_3 = {
+		abbreviation = "tb3"
+		category = cas_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 3.5
+	}
+	tarppod = {
+		abbreviation = "TAR"
+		category = recon_camera
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	torpedo_mounting = {
+		abbreviation = "tpm"
+		category = nav_bomber_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 1.5
+	}
+	torpedo_mounting_2 = {
+		abbreviation = "tpm"
+		category = nav_bomber_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 1.5
+	}
+	torpedo_mounting_3 = {
+		abbreviation = "tpm"
+		category = nav_bomber_weapon
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		dismantle_cost_ic = 1.5
+	}
+}

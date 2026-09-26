@@ -1,0 +1,1444 @@
+l_english:
+ # FLTE code del ESTABLISHING_PROJECT_STATE
+ # FLTE code del INITIAL_RESEARCH_STATE
+ # FLTE code del PROTOTYPE_STATE
+ # FLTE code del RESEARCH_COMPLETED
+ # FLTE code del STOPPING_STATE
+ # FLTE code del STOPPED_STATE
+
+ # FLTE code del FACILITY_BUILDINGS
+
+ # FLTE code del CAP_SCIENTIST
+
+ # FLTE code del PROJECT_STOPPING_TIME_DESC
+ # FLTE code del SCIENTIST_ROSTER_WINDOW_TITLE
+ # FLTE code del RECRUIT_SCIENTIST_WINDOW_TITLE
+ # FLTE code del RECRUIT_SCIENTIST_WINDOW_INSTRUCTIONS
+ # FLTE code del SCIENTIST_ROSTER_SORT_BUTTON_TOOLTIP
+ # FLTE code del SCIENTIST_ROSTER_SORT_BY_NAME_REASON
+ # FLTE code del SCIENTIST_ROSTER_SEARCH_FILTER_TEXT
+ # FLTE code del SCIENTIST_ROSTER_SEARCH_FILTER_TT
+ # FLTE code del HISTORY_ROSTER_WINDOW_TITLE
+ # FLTE code del PROJECT_SIMPLE_ROSTER_WINDOW_TITLE
+ # FLTE code del FILTER_ON_SPECIALIZATION_TOOLTIP
+ # FLTE code del SCIENTIST_ROSTER_WINDOW_PICK_SCIENTIST
+ # FLTE code del OPEN_SCIENTIST_ROSTER_BUTTON
+ # FLTE code del OPEN_HISTORY_ROSTER_BUTTON
+ # FLTE code del OPEN_PROJECT_SIMPLE_ROSTER_BUTTON
+ # FLTE code del RECRUIT_SCIENTIST_BUTTON
+ # FLTE code del FACILITIES_ROSTER_TITLE
+ # FLTE code del FACILITY_OVERVIEW_TITLE
+ # FLTE code del FACILITY_WITH_SPECIALIZATION_MISSING
+ # FLTE code del FACILITY_BREAKTHROUGH_TITLE
+ # FLTE code del FACILITY_OWNED_TITLE
+ # FLTE code del FACILITY_FILTER_PROGRAM_SPECIALIZATION
+ # FLTE code del SCIENTIST_TOOLTIP_NAME
+ # FLTE code replace SCIENTIST_TOOLTIP_SUPPORTIVE
+ # FLTE code del SCIENTIST_TOOLTIP_CLICK_ASSIGN
+ # FLTE code del SCIENTIST_TOOLTIP_CLICK_UNASSIGN
+ # FLTE code del SCIENTIST_CANT_CLICK
+ # FLTE code del SCIENTIST_SKILL_LEVEL
+ # FLTE code del SCIENTIST_ALREADY_ASSIGNED
+ # FLTE code del SCIENTIST_TOOLTIP_SKILL_LEVEL_HEADER
+ # FLTE code del SCIENTIST_TOOLTIP_SKILL_LEVEL
+ # FLTE code del SCIENTIST_TOOLTIP_EXPERIENCE
+ # FLTE code del SCIENTIST_TOOLTIP_SKILL_LEVEL_MAX
+ # FLTE code del SCIENTIST_SKILL_LEVEL_NAME_0
+ # FLTE code del SCIENTIST_SKILL_LEVEL_NAME_1
+ # FLTE code del SCIENTIST_SKILL_LEVEL_NAME_2
+ # FLTE code del SCIENTIST_SKILL_LEVEL_NAME_3
+ # FLTE code del SCIENTIST_SKILL_LEVEL_NAME_4
+ # FLTE code del SCIENTIST_SKILL_LEVEL_NAME_5
+ # FLTE code del SCIENTIST_SKILL_NAME
+ # FLTE code del SCIENTIST_SKILL_LEVEL_TOOLTIP
+ # FLTE code del SCIENTIST_LACKING_SKILL
+ # FLTE code del SCIENTIST_RECRUIT_COST
+ # FLTE code del SCIENTIST_RECRUIT_COST_NOT_ENOUGH
+ # FLTE code del SCIENTIST_RECRUIT_POPUP_TITLE
+ # FLTE code del SCIENTIST_RECRUIT_POPUP_DESC
+ 
+ # FLTE code del SCIENTIST_RECRUIT_COST_DESC
+ # FLTE code del SCIENTIST_RECRUIT_COST_DEFAULT
+ # FLTE code del SCIENTIST_RECRUIT_COST_LAST
+
+ # FLTE code del PROGRAM_ITEM_SUPPORTING_SCIENTISTS_TOOLTIP_HEADER
+ # FLTE code del PROGRAM_ITEM_SCIENTIST_TOOLTIP_NAME
+ # Program is the view that bundles the facility building + scientist + ongoing project
+ # FLTE code del PROGRAM_STATE_NAME
+ # FLTE code del PROGRAM_SPECIALIZATION_NAME
+ # FLTE code del PROGRAM_SPECIALIZATION_NAME_YELLOW
+ # FLTE code del PROGRAM_PROJECT_NAME
+ # FLTE code del PROGRAM_CAN_START
+ # FLTE code del PROGRAM_BASIC_RESEARCH
+ # FLTE code del PROGRAM_BASIC_RESEARCH_BREAKTHROUGH_DETAIL_TT
+ # FLTE code del PROGRAM_BASIC_RESEARCH_TECHNOLOGY_DETAIL_TT
+ # FLTE code del RESEARCH_BONUS_DIMINISHING_RETURN
+ # FLTE code del PROGRAM_SCIENTIST_XP
+ # FLTE code del PROGRAM_SCIENTIST_BREAKTHROUGH
+ # FLTE code del PROGRAM_SCIENTIST_BONUS
+ # FLTE code del PROGRAM_NO_SCIENTIST_ASSIGNED
+ # FLTE code del PROGRAM_SCIENTIST_QUIT
+ # FLTE code del PROGRAM_ITEM_TOOLTIP
+ # FLTE code del PROGRAM_ITEM_BASIC_RESEARCH_TOOLTIP
+ # FLTE code del PROGRAM_ITEM_BASIC_RESEARCH_TOOLTIP_END
+ # FLTE code del PROGRAM_ITEM_CLICK_TO_ASSIGN_SCIENTIST
+ # FLTE code del PROGRAM_ITEM_CHANGE_SCIENTIST_BUTTON
+ # FLTE code del PROGRAM_ITEM_UNASSIGN_SCIENTIST_BUTTON
+ # FLTE code del PROGRAM_VIEW_TITLE
+ # FLTE code del PROGRAM_VIEW_SELECT_PROJECT
+ # FLTE code del PROGRAM_VIEW_RESEARCH_TIME
+ # FLTE code del PROGRAM_VIEW_REQUIRE_SCIENTIST
+ # FLTE code del PROGRAM_VIEW_ACTIVE_RESEARCH
+ # FLTE code del PROGRAM_VIEW_PROJECT_PROGRESS
+ # FLTE code del PROGRAM_VIEW_HISTORY_COMPLETED_PROJECTS
+ # FLTE code del SPECIAL_PROJECT_RESEARCH_OUTPUT
+ # FLTE code del SPECIAL_PROJECT_MAY_HAVE_FACILITY_STATE_OUTPUT
+ # FLTE code del SPECIAL_PROJECT_MAY_HAVE_SCIENTIST_OUTPUT
+ # FLTE code del SPECIAL_PROJECT_OUTPUT_SUBUNITS
+ # FLTE code del SPECIAL_PROJECT_OUTPUT_EQUIPMENT
+ # FLTE code del SPECIAL_PROJECT_OUTPUT_MODULE
+ # FLTE code del SPECIAL_PROJECT_OUTPUT_NO_STATE_LOCATION
+ # FLTE code del SPECIAL_PROJECT_REMOVE_SCIENTIST_DELAY
+ # FLTE code del SPECIAL_PROJECT_SCIENTIST_INJURED_DELAY
+ # FLTE code del ONGOING_PROJECT_OUTPUT_HEADER
+ # FLTE code del ONGOING_PROJECT_BREAKTHROUGH_REFUND
+ # FLTE code del ONGOING_PROJECT_BREAKTHROUGH_REFUND_DETAIL
+ # FLTE code del ONGOING_PROJECT_BREAKTHROUGH_REFUND_DELAYED
+ # FLTE code del ONGOING_PROJECT_BREAKTHROUGHS_NUMBER
+ # FLTE code del ONGOING_PROJECT_BREAKTHROUGH_PAGE_HEADER
+ # FLTE code del ONGOING_PROJECT_GO_TO_NEXT_BREAKTHROUGH
+ # FLTE code del ONGOING_PROJECT_GO_TO_PREVIOUS_BREAKTHROUGH
+ # FLTE code del ONGOING_PROJECT_CONFIRM_OPTION
+ # FLTE code del ONGOING_PROJECT_SHOW_PROJECT_OUTPUT
+ # FLTE code del ONGOING_PROJECT_SHOW_BREAKTHROUGHS_OUTPUT
+ # FLTE code del ONGOING_PROJECT_START_RESEARCH
+ # FLTE code del ONGOING_PROJECT_BACK_TO_AVAILABLE
+ # FLTE code del UNREAD_PROTOTYPE_REWARD
+ # FLTE code del PROJET_OUTPUT_BUTTON
+ # FLTE code del PROJET_REWARD_BUTTON
+ 
+ # FLTE code del SPECIAL_PROJECT_AVAILABLE_PROJECTS_COUNT
+ # FLTE code del SPECIAL_PROJECT_NO_AVAILABLE_PROJECTS
+ # FLTE code del SPECIAL_PROJECT_SPECIALIZATION_AVAILABLE_PROJECT
+ # FLTE code del SPECIAL_PROJECT_SPECIALIZATION_NO_AVAILABLE_PROJECT
+ # FLTE code del SPECIAL_PROJECT_SPECIALIZATION_FILTER_ACTIONS
+ 
+ # FLTE code del SPECIAL_PROJECT_INJURE_SCIENTIST_FOR_DAYS
+ # FLTE code del SPECIAL_PROJECT_SCIENTIST_INJURED
+ # FLTE code del SPECIAL_PROJECT_SCIENTIST_ALREADY_ASSIGNED
+ 
+ # FLTE code del SPECIAL_PROJECT_PHASE_TIME
+ # FLTE code del SPECIAL_PROJECT_NUMBER_OF_ITERATIONS
+ # FLTE code del SPECIAL_PROJECT_SPEED_FACTOR_FORMAT
+ # FLTE code del SPECIAL_PROJECT_TOTAL_SPEED_FACTOR
+ # FLTE code del SPECIAL_PROJECT_FACILITY_SPEED_FACTOR
+ # FLTE code del SPECIAL_PROJECT_SUPPLY_UTILIZATION
+ # FLTE code del SPECIAL_PROJECT_SUPPLY_UTILIZATION_FULL_SPEED_TT
+ # FLTE code del SPECIAL_PROJECT_SUPPLY_UTILIZATION_REDUCED_SPEED_TT
+ # FLTE code del SPECIAL_PROJECT_SUPPLY_UTILIZATION_DELAYED
+ # FLTE code del SPECIAL_PROJECT_RESOURCE_USAGE_NONE
+ # FLTE code del SPECIAL_PROJECT_RESOURCE_USAGE
+ # FLTE code del SPECIAL_PROJECT_RESOURCE_USAGE_VALUE
+ # FLTE code del SPECIAL_PROJECT_RESOURCE_USAGE_TOOLTIP
+ # FLTE code del SPECIAL_PROJECT_RESOURCE_USAGE_DESC_TOOLTIP
+ # FLTE code del SPECIAL_PROJECT_ACQUIRED_RESOURCE_FACTOR
+ # FLTE code del SPECIAL_PROJECT_BUILDING_HEALTH_FACTOR
+ # FLTE code del SPECIAL_PROJECT_STOP_PROJECT_TT
+ # FLTE code del SPECIAL_PROJECT_RESTART_PROJECT_TT
+ # FLTE code del STOP_PROJECT_POPUP_TITLE
+ # FLTE code del STOP_PROJECT_POPUP_DESC
+ # FLTE code del RESTART_PROJECT_POPUP_TITLE
+ # FLTE code del RESTART_PROJECT_POPUP_DESC
+ # FLTE code del DISMANTLE_PROJECT_POPUP_TITLE
+ # FLTE code del ABORT_DISMANTLE_PROJECT_POPUP_TITLE
+ # FLTE code del DISMANTLE_PROJECT_POPUP_DESC
+ # FLTE code del SPECIAL_PROJECT_CAPTURED_TITLE
+ # FLTE code del SPECIAL_PROJECT_CAPTURED_MESSAGE
+ # FLTE code del SPECIAL_PROJECT_ITERATION_PROGRESS_REWARD
+ # FLTE code del SPECIAL_PROJECT_ITERATION_PROGRESS_DESC
+
+ # FLTE code del SPECIAL_PROJECT_ITERATION_REWARD_ALERT_TT
+ # FLTE code del SPECIAL_PROJECT_ITERATION_REWARD_ALERT_DELAYED_TT
+ # FLTE code del SPECIAL_PROJECT_ITERATION_DEFAULT_CHOICE_REWARD_ALERT_DELAYED_TT
+ # FLTE code replace SPECIAL_PROJECT_DEFAULT_ITERATION_REWARD_OPTION_DESC
+ # FLTE code del SPECIAL_PROJECT_DEFAULT_ITERATION_REWARD_OPTION_CHOICE
+
+ # FLTE code del SPECIAL_PROJECT_AVAILABLE_ALERT_TT
+ # FLTE code del SPECIAL_PROJECT_AVAILABLE_ALERT_DELAYED_TT
+ 
+ # FLTE code del SPECIAL_PROJECT_UNASSIGNED_SCIENTIST_ALERT_TT
+ # FLTE code del SPECIAL_PROJECT_UNASSIGNED_SCIENTIST_ALERT_DELAYED_TT
+ # FLTE code del SPECIAL_PROJECT_CANNOT_ASSIGN_SCIENTIST_DISMANTLED
+ # FLTE code del SPECIAL_PROJECT_CANNOT_ASSIGN_SCIENTIST_OWN_FACILITY
+ # FLTE code del SPECIAL_PROJECT_CANNOT_ASSIGN_SCIENTIST_CANNOT_AFFORD
+ # FLTE code del SPECIAL_PROJECT_CANNOT_ASSIGN_SCIENTIST_ALREADY_HAS_ONE
+ # FLTE code del SPECIAL_PROJECT_UNABLE_TO_START
+ # FLTE code del SPECIAL_PROJECT_BREAKTHROUGH_COST
+ # FLTE code del SPECIAL_PROJECT_BREAKTHROUGH_COST_ENOUGH
+ # FLTE code del SPECIAL_PROJECT_BREAKTHROUGH_COST_NOT_ENOUGH
+ # FLTE code del BREAKTHROUGH_BONUS_BASIC_RESEARCH
+ # FLTE code del BREAKTHROUGH_BONUS_TECHNOLOGY_RESEARCH
+ # FLTE code del BREAKTHROUGH_BONUS_FROM_NUCLEAR_BUILDING
+ # FLTE code del BREAKTHROUGH_BONUS_FROM_ROCKET_SITE_LEVELS
+ # FLTE code del BREAKTHROUGH_POINTS_TRIGGER_ENOUGH_POINTS
+ # FLTE code del BREAKTHROUGH_POINTS_TRIGGER_NOT_ENOUGH_POINTS
+ 
+ # FLTE code del SPECIAL_PROJECT_REWARDS_HEADER
+ # FLTE code del SPECIAL_PROJECT_REWARDS_HEADER_TEXT
+ # FLTE code del SPECIAL_PROJECT_REWARD_SUBUNITS
+ # FLTE code del SPECIAL_PROJECT_REWARD_EQUIPMENT_MODULE
+ # FLTE code del SPECIAL_PROJECT_REWARD_EQUIPMENT
+ # FLTE code del SPECIAL_PROJECT_REWARD_COUNTRY
+ # FLTE code del SPECIAL_PROJECT_REWARD_SCIENTIST
+ # FLTE code del SPECIAL_PROJECT_REWARD_STATE
+ # FLTE code del SPECIAL_PROJECT_REWARD_UNIT_BONUS
+ # FLTE code del SPECIAL_PROJECT_REWARD_EQUIPMENT_BONUS
+ 
+ # FLTE code del HIDE_UNAVAILABLE_PROJECTS
+ # FLTE code del HAS_ALL_PREREQUISITES
+ # FLTE code del NOT_HAS_ALL_PREREQUISITES
+ # FLTE code del CAN_CONSTRUCT_BUILDING_IN_STATE
+ # FLTE code del NOT_CAN_CONSTRUCT_BUILDING_IN_STATE
+ # FLTE code del CONSTRUCT_BUILDING_IN_STATE
+
+ # FLTE code del DISMANTLE_FACILITY_DESC_TT
+ # FLTE code replace ABORT_DISMANTLE_FACILITY_DESC_TT
+ # FLTE code del ABORT_DISMANTLE_PROJECT_POPUP_DESC
+ # FLTE code del DISMANTLE_FACILITY_TT
+ # FLTE code del DISMANTLE_FACILITY_PROGRESS
+ 
+ # FLTE code del SPECIAL_PROJECT_CAPTURE_FACILITY_PROGRESS_GAINED_TITLE
+ # FLTE code del SPECIAL_PROJECT_CAPUTRE_FACILITY_PROGRESS_GAINED_INFO
+ # FLTE code del SPECIAL_PROJECT_CAPTURE_FACILITY_TOOLTIP
+
+ # FLTE code del SPECIAL_PROJECT_BREAKTHROUGH_PROGRESS
+ # FLTE code replace SPECIAL_PROJECT_BREAKTHROUGH_AVAILABLE
+ # FLTE code del SPECIAL_PROJECT_AVAILABLE_PROJECTS
+ 
+ # FLTE code del BASIC_RESEARCH_TECHNOLOGY_BONUS
+ # FLTE code del ADD_BREAKTHROUGH_POINTS_EFFECT_DESC
+ # FLTE code del ADD_BREAKTHROUGH_POINTS_EFFECT_SPECIALIZATION
+ # FLTE code del ADD_BREAKTHROUGH_PROGRESS_EFFECT_DESC
+ # FLTE code del ADD_BREAKTHROUGH_PROGRESS_EFFECT_SPECIALIZATION
+ # FLTE code del TECHNOLOGY_RESEARCH_BREAKTHROUGH_BONUS
+ # FLTE code del TECHNOLOGY_RESEARCH_BREAKTHROUGH_SPECIALIZATION
+
+ ### SPECIALIZATIONS ###
+ # FLTE code del specialization
+ # FLTE code del specialization_nuclear
+ # FLTE code del specialization_naval
+ # FLTE code del specialization_air
+ # FLTE code del specialization_land
+ # FLTE code del specialization_nuclear_short
+ # FLTE code del specialization_naval_short
+ # FLTE code del specialization_air_short
+ # FLTE code del specialization_land_short
+ 
+ 
+ # FLTE code del SPECIAL_PROJECT_COMPLETED_POPUP_TITLE
+ # FLTE code del SPECIAL_PROJECT_COMPLETED_POPUP_TOOLTIP
+ 
+ # FLTE code del SPECIAL_PROJECT_CANT_START
+ # FLTE code del SPECIAL_PROJECT_CAN_START
+ 
+ # FLTE code del SPECIAL_PROJECT_RESEARCH_TIME_TOOLTIP_MODIFIER
+ # FLTE code del SPECIAL_PROJECT_RESEARCH_TIME_TOOLTIP_SCIENTIST_MODIFIER
+ # FLTE code del SPECIAL_PROJECT_RESEARCH_TIME_TOOLTIP_SCIENTIST_MODIFIER_ADDITIONAL
+ # FLTE code del SPECIAL_PROJECT_RESEARCH_TIME_TOOLTIP_TOTAL
+ # FLTE code del SPECIAL_PROJECT_STOP_TIME_TOOLTIP
+ # FLTE code del SPECIAL_PROJECT_RESEARCH_TIME_TOOLTIP_GAIN_PER_PROTOTYPE_PHASE
+ # FLTE code del SPECIAL_PROJECT_RESEARCH_TIME_MIN_MAX_TOOLTIP_GAIN_PER_PROTOTYPE_PHASE
+ # FLTE code replace SPECIAL_PROJECT_RESEARCH_TIME_TOOLTIP_NUMBER_PROTOTYPE_PHASE
+ # FLTE code replace SPECIAL_PROJECT_RESEARCH_TIME_MIN_MAX_TOOLTIP_NUMBER_PROTOTYPE_PHASE
+ # FLTE code del SPECIAL_PROJECT_RESEARCH_TIME_TOOLTIP_SCIENTIST_SKILL
+ # FLTE code del SPECIAL_PROJECT_RESEARCH_TIME_TOOLTIP_SCIENTIST_SKILL_ADDITIONAL
+ # FLTE code del TRIGGER_SCIENTIST_ANY_STARTS
+ # FLTE code del TRIGGER_SCIENTIST_ALL_STARTS
+ # FLTE code del TRIGGER_ANY_ACTIVE_SCIENTIST_STARTS
+ # FLTE code del TRIGGER_ALL_ACTIVE_SCIENTIST_STARTS
+ 
+ # FLTE code del HAS_SCIENTIST_WITH_SKILL_IN_SPECIALIZATION
+ # FLTE code del NOT_HAS_SCIENTIST_WITH_SKILL_IN_SPECIALIZATION
+ # FLTE code del HAS_FACILITY_WITH_SPECIALIZATION
+ # FLTE code del NOT_HAS_FACILITY_WITH_SPECIALIZATION
+ # FLTE code del SCIENTIST_ADD_LEVEL_SPECIALIZATION_EFFECT
+ # FLTE code del SCIENTIST_ADD_XP_SPECIALIZATION_EFFECT
+ # FLTE code del SCIENTIST_ADD_TRAIT_EFFECT
+ # FLTE code del SCIENTIST_IS_ASSIGNED_TO_A_PROJECT
+ # FLTE code del SCIENTIST_IS_NOT_ASSIGNED_TO_A_PROJECT
+ # FLTE code del SCIENTIST_IS_INJURED
+ # FLTE code del SCIENTIST_IS_NOT_INJURED
+
+ # FLTE code del TRIGGER_SPECIAL_PROJECT_FLAG_NOT_SET
+ # FLTE code del TRIGGER_SPECIAL_PROJECT_FLAG_SET
+
+ ########## CONTENT DESIGN LAIR ##############
+ # BEWARE OF THE DOG
+
+#       / \__
+#      (    @\___
+#      /         O
+#     /   (_____/
+#    /_____/   U
+
+##########################
+### Scripted tooltips ###
+##########################
+ # FLTE code del SP_UNLOCK_BUILDING
+ # FLTE code del SP_UNLOCK_BUILDING_ICON_DESC
+ # FLTE code del SP_BUILDING_MISSING_PROJECT
+ # FLTE code del SP_UNLOCK_PROJECT
+ # FLTE code del SP_UNLOCK_TECH
+ # FLTE code del SP_UNLOCK_TECH_WITH_EXTRA_PROJECT
+ # FLTE code del SP_UNLOCK_TECH_WITH_EXTRA_TECH
+
+
+
+##########################
+### Complexity Strings ###
+##########################
+ # FLTE code del complexity_small
+ # FLTE code del complexity_medium
+ # FLTE code del complexity_large
+ # FLTE code del complexity_insane
+
+ # FLTE code del generic_no_effects_to_equipment_tt
+
+
+##########################
+  ### LAND PROJECTS ###
+##########################
+ # FLTE code del sp_land_multi_charge_large_caliber_gun
+ # FLTE code del sp_land_multi_charge_large_caliber_gun_desc
+ # FLTE code del GER_sp_land_multi_charge_large_caliber_gun
+ # FLTE code del IRQ_sp_land_multi_charge_large_caliber_gun
+ # FLTE code del CAN_sp_land_multi_charge_large_caliber_gun
+ # FLTE code del USA_sp_land_multi_charge_large_caliber_gun
+ # FLTE code del ENG_sp_land_multi_charge_large_caliber_gun
+ # FLTE code replace sp_land_reward_multi_charge_large_caliber_gun_test_failure
+ # FLTE code del sp_land_reward_multi_charge_large_caliber_gun_successful_test_firing
+ # FLTE code del sp_land_reward_multi_charge_large_caliber_gun_breakthrough_in_propulsion_technology
+ # FLTE code del multi_charge_large_caliber_gun_small_size
+ # FLTE code del sp_multi_charge_large_caliber_gun_small_size_ns
+
+ # FLTE code del sp_land_super_heavy_railway_gun
+ # FLTE code del JAP_sp_land_super_heavy_railway_gun
+ # FLTE code del GER_sp_land_super_heavy_railway_gun
+ # FLTE code del ENG_sp_land_super_heavy_railway_gun
+ # FLTE code del sp_land_super_heavy_railway_gun_desc
+ # FLTE code del sp_land_stronghold_network
+ # FLTE code del sp_land_stronghold_network_desc
+ # FLTE code del sp_land_flamethrower_tank
+ # FLTE code del GER_sp_land_flamethrower_tank
+ # FLTE code del ITA_sp_land_flamethrower_tank
+ # FLTE code del JAP_sp_land_flamethrower_tank
+ # FLTE code del USA_sp_land_flamethrower_tank
+ # FLTE code del CAN_sp_land_flamethrower_tank
+ # FLTE code del SOV_sp_land_flamethrower_tank
+ # FLTE code del ENG_sp_land_flamethrower_tank
+ # FLTE code del SWE_sp_land_flamethrower_tank
+ # FLTE code del ICE_sp_land_flamethrower_tank
+ # FLTE code del POL_sp_land_flamethrower_tank
+ # FLTE code del sp_land_flamethrower_tank_desc
+ # FLTE code del sp_land_military_engineering_vehicles
+ # FLTE code del ENG_sp_land_military_engineering_vehicles
+ # FLTE code del JAP_sp_land_military_engineering_vehicles
+ # FLTE code del AUS_sp_land_military_engineering_vehicles
+ # FLTE code del ARG_sp_land_military_engineering_vehicles
+ # FLTE code del CAN_sp_land_military_engineering_vehicles
+ # FLTE code del SOV_sp_land_military_engineering_vehicles
+ # FLTE code del sp_land_military_engineering_vehicles_desc
+ # FLTE code del sp_land_super_heavy_howitzer
+ # FLTE code del AUS_sp_land_super_heavy_howitzer
+ # FLTE code del BEL_sp_land_super_heavy_howitzer
+ # FLTE code del USA_sp_land_super_heavy_howitzer
+ # FLTE code del sp_land_super_heavy_howitzer_desc
+ # FLTE code del sp_land_self_propelled_super_heavy_howitzer
+ # FLTE code del IRQ_sp_land_self_propelled_super_heavy_howitzer
+ # FLTE code del SAF_sp_land_self_propelled_super_heavy_howitzer
+ # FLTE code del SOV_sp_land_self_propelled_super_heavy_howitzer
+ # FLTE code del sp_land_self_propelled_super_heavy_howitzer_desc
+ # FLTE code del sp_land_land_cruiser
+ # FLTE code del GER_sp_land_land_cruiser
+ # FLTE code del USA_sp_land_land_cruiser
+ # FLTE code del ENG_sp_land_land_cruiser
+ # FLTE code del JAP_sp_land_land_cruiser
+ # FLTE code del NZL_sp_land_land_cruiser
+ # FLTE code del sp_land_land_cruiser_desc
+ # FLTE code del sp_air_radar
+ # FLTE code del POL_sp_air_radar
+ # FLTE code del sp_air_radar_desc
+ # FLTE code del sp_air_centimetric_radar
+ # FLTE code del sp_air_centimetric_radar_desc
+
+ # FLTE code del sp_land_reward_land_cruiser_overheating
+ # FLTE code del sp_land_reward_land_cruiser_chassis
+ # FLTE code del sp_land_reward_land_cruiser_chassis_desc
+ # FLTE code del sp_land_reward_option_land_cruiser_chassis_redesign
+ # FLTE code del sp_land_reward_option_land_cruiser_chassis_redesign_bonus_name
+ # FLTE code del sp_land_reward_option_land_cruiser_chassis_reinforce
+ # FLTE code del sp_land_reward_option_land_cruiser_chassis_reinforce_bonus_name
+ # FLTE code del sp_land_reward_option_land_cruiser_chassis_lighter_materials
+ # FLTE code del sp_land_reward_option_land_cruiser_chassis_lighter_materials_bonus_name
+ # FLTE code del sp_land_reward_land_cruiser_engine
+ # FLTE code del sp_land_reward_land_cruiser_engine_desc
+ # FLTE code del sp_land_reward_option_land_cruiser_engine_leave
+ # FLTE code del sp_land_reward_option_land_cruiser_engine_modify
+ # FLTE code del sp_land_reward_option_land_cruiser_engine_modify_bonus_name
+ # FLTE code del sp_land_reward_option_land_cruiser_engine_new
+ # FLTE code del sp_land_reward_option_land_cruiser_engine_new_bonus_name
+ # FLTE code del sp_land_reward_land_cruiser_turret
+ # FLTE code del sp_land_reward_land_cruiser_turret_desc
+ # FLTE code del sp_land_reward_option_land_cruiser_turret_original
+ # FLTE code del sp_land_reward_option_land_cruiser_turret_simplify
+ # FLTE code del sp_land_reward_option_land_cruiser_turret_simplify_bonus_name
+ # FLTE code del sp_land_reward_option_land_cruiser_turret_redesign
+ # FLTE code del sp_land_reward_option_land_cruiser_turret_redesign_bonus_name
+ # FLTE code del sp_land_reward_land_cruiser_track
+ # FLTE code del sp_land_reward_land_cruiser_track_desc
+ # FLTE code del sp_land_reward_option_land_cruiser_track_current
+ # FLTE code del sp_land_reward_option_land_cruiser_track_reduce_armor
+ # FLTE code del sp_land_reward_option_land_cruiser_track_reduce_armor_bonus_name
+ # FLTE code del sp_land_reward_option_land_cruiser_track_reinforce_track
+ # FLTE code del sp_land_reward_option_land_cruiser_track_reinforce_track_bonus_name
+ # FLTE code del sp_land_reward_land_cruiser_communication
+ # FLTE code del sp_land_reward_land_cruiser_communication_desc
+ # FLTE code del sp_land_reward_option_land_cruiser_communication_current
+ # FLTE code del sp_land_reward_option_land_cruiser_communication_new
+ # FLTE code del sp_land_reward_option_land_cruiser_communication_new_bonus_name
+ # FLTE code del sp_land_reward_option_land_cruiser_communication_redesign
+ # FLTE code del sp_land_reward_option_land_cruiser_communication_redesign_bonus_name
+ # FLTE code del sp_land_reward_land_cruiser_assembly
+ # FLTE code del sp_land_reward_land_cruiser_assembly_desc
+ # FLTE code del sp_land_reward_option_land_cruiser_assembly_all
+ # FLTE code del sp_land_reward_option_land_cruiser_assembly_bonus_name
+ # FLTE code del sp_land_reward_option_land_cruiser_assembly_key
+ # FLTE code del sp_land_reward_land_cruiser_suspension
+ # FLTE code del sp_land_reward_land_cruiser_suspension_desc
+ # FLTE code del sp_land_reward_option_land_cruiser_suspension_full
+ # FLTE code del sp_land_reward_option_land_cruiser_suspension_rear
+ # FLTE code del sp_land_reward_land_cruiser_ammunition
+ # FLTE code del sp_land_reward_land_cruiser_ammunition_desc
+ # FLTE code del sp_land_reward_option_land_cruiser_ammunition_current
+ # FLTE code del sp_land_reward_option_land_cruiser_ammunition_simplified
+ # FLTE code del sp_land_reward_option_land_cruiser_ammunition_new
+
+ # FLTE code del sp_land_reward_super_heavy_howitzer_focus_preference
+ # FLTE code del sp_land_reward_super_heavy_howitzer_focus_preference_desc
+ # FLTE code del sp_land_reward_option_super_heavy_howitzer_focus_preference_balance
+ # FLTE code del sp_land_reward_option_super_heavy_howitzer_focus_preference_firepower
+ # FLTE code del sp_land_reward_option_super_heavy_howitzer_focus_preference_production
+ # FLTE code del sp_land_reward_self_propelled_super_heavy_howitzer_focus_preference
+ # FLTE code del sp_land_reward_self_propelled_super_heavy_howitzer_focus_preference_desc
+ # FLTE code del sp_land_reward_option_self_propelled_super_heavy_howitzer_focus_preference_balance
+ # FLTE code del sp_land_reward_option_self_propelled_super_heavy_howitzer_focus_preference_firepower
+ # FLTE code del sp_land_reward_option_self_propelled_super_heavy_howitzer_focus_preference_production
+
+ # FLTE code del sp_land_reward_stronghold_network_structural_weakness_discovered
+ # FLTE code del sp_land_reward_stronghold_network_delayed_by_concrete_shortage
+ # FLTE code del sp_land_reward_stronghold_network_underground_rail_systems
+ # FLTE code del sp_land_reward_stronghold_network_integration_of_anti_blast_doors
+ # FLTE code del sp_land_reward_stronghold_network_communication_system_overhaul
+ # FLTE code del sp_land_reward_stronghold_network_communication_system_overhaul_desc
+ # FLTE code del sp_land_reward_option_stronghold_network_communication_system_overhaul_standardize
+ # FLTE code del sp_land_reward_option_stronghold_network_communication_system_overhaul_further_study
+ # FLTE code del sp_land_reward_stronghold_network_leadership_approach
+ # FLTE code del sp_land_reward_stronghold_network_leadership_approach_desc
+ # FLTE code del sp_land_reward_option_stronghold_network_leadership_approach_oversee_work_personally
+ # FLTE code del sp_land_reward_option_stronghold_network_leadership_approach_office_planning
+ # FLTE code del sp_land_reward_stronghold_network_breakthrough_in_concrete_reinforcement_01
+ # FLTE code del sp_land_reward_stronghold_network_breakthrough_in_concrete_reinforcement_01_desc
+ # FLTE code del sp_land_reward_option_stronghold_network_breakthrough_in_concrete_reinforcement_01_apply_and_document_discovery
+ # FLTE code del sp_land_reward_option_stronghold_network_breakthrough_in_concrete_reinforcement_01_use_in_current_project
+ # FLTE code del sp_land_reward_stronghold_network_breakthrough_in_concrete_reinforcement_02
+ # FLTE code del sp_land_reward_stronghold_network_breakthrough_in_concrete_reinforcement_02_desc
+ # FLTE code del sp_land_reward_option_stronghold_network_collapse_01
+ # FLTE code del sp_land_reward_option_stronghold_network_collapse_01_desc
+ # FLTE code del sp_land_reward_option_stronghold_network_collapse_01_prioritize_scientist
+ # FLTE code del sp_land_reward_option_stronghold_network_collapse_01_prioritize_safety
+ # FLTE code del sp_land_reward_option_stronghold_network_collapse_01_continue_without_delay
+ # FLTE code del sp_land_reward_option_stronghold_network_collapse_02
+ # FLTE code del sp_land_reward_option_stronghold_network_collapse_02_desc
+
+################################
+  ### GENERIC LAND REWARDS ###
+################################
+ # FLTE code del sp_land_generic_reward_scientist_xp_1
+ # FLTE code del sp_land_generic_reward_scientist_xp_2
+ # FLTE code del sp_land_generic_reward_scientist_xp_3
+
+ # FLTE code del sp_land_generic_reward_army_xp_1
+ # FLTE code del sp_land_generic_reward_army_xp_2
+ # FLTE code del sp_land_generic_reward_army_xp_3
+
+
+ # FLTE code del sp_land_generic_reward_major_progress_1
+ # FLTE code del sp_land_generic_reward_major_progress_2
+ # FLTE code del sp_land_generic_reward_major_progress_3
+
+ 
+ # FLTE code del sp_land_generic_reward_test_failure_1
+ # FLTE code del sp_land_generic_reward_test_failure_2
+ # FLTE code del sp_land_generic_reward_test_failure_3
+
+
+ # FLTE code del sp_land_generic_reward_armor_tech_1
+ # FLTE code del sp_land_generic_reward_armor_tech_2
+ # FLTE code del sp_land_generic_reward_armor_tech_3
+ # FLTE code del sp_land_generic_reward_option_armor_tech_bonus_name
+
+ # FLTE code del sp_land_generic_reward_artillery_tech_1
+ # FLTE code del sp_land_generic_reward_artillery_tech_2
+ # FLTE code del sp_land_generic_reward_artillery_tech_3
+ # FLTE code del sp_land_generic_reward_option_artillery_tech_bonus_name
+
+ # FLTE code del sp_land_generic_reward_armor_bonus_1
+ # FLTE code del sp_land_generic_reward_armor_bonus_2
+ # FLTE code del sp_land_generic_reward_armor_bonus_3
+
+
+ # FLTE code del sp_land_generic_reward_engine_bonus_1
+ # FLTE code del sp_land_generic_reward_engine_bonus_2
+ # FLTE code del sp_land_generic_reward_engine_bonus_3
+
+ # FLTE code del sp_land_generic_reward_artillery_bonus_1
+ # FLTE code del sp_land_generic_reward_artillery_bonus_2
+ # FLTE code del sp_land_generic_reward_artillery_bonus_3
+
+ # FLTE code del sp_land_generic_reward_resource_scarcity
+
+ # FLTE code del sp_land_generic_reward_critical_failure
+
+
+
+##########################
+  ## NUCLEAR PROJECTS ## 
+##########################
+
+ # FLTE code del sp_nuclear_reactor
+ # FLTE code del sp_nuclear_reactor_desc
+ # FLTE code del ENG_sp_nuclear_reactor
+ # FLTE code del FRA_sp_nuclear_reactor
+ # FLTE code del SOV_sp_nuclear_reactor
+ # FLTE code del USA_sp_nuclear_reactor
+ # FLTE code del GER_sp_nuclear_reactor
+ # FLTE code del SWE_sp_nuclear_reactor
+ # FLTE code del COG_sp_nuclear_reactor
+ # FLTE code del BEL_sp_nuclear_reactor
+ # FLTE code del SAF_sp_nuclear_reactor
+ # FLTE code del JAP_sp_nuclear_reactor
+ # FLTE code del POL_sp_nuclear_reactor
+ # FLTE code del sp_commercial_nuclear_reactor
+ # FLTE code del SWE_sp_commercial_nuclear_reactor
+ # FLTE code del sp_commercial_nuclear_reactor_desc
+ # FLTE code del sp_nuclear_engines
+ # FLTE code del sp_nuclear_engines_desc
+ # FLTE code del sp_nuclear_bomb
+ # FLTE code del USA_sp_nuclear_bomb
+ # FLTE code del SOV_sp_nuclear_bomb
+ # FLTE code del ENG_sp_nuclear_bomb
+ # FLTE code del PRC_sp_nuclear_bomb
+ # FLTE code del RAJ_sp_nuclear_bomb
+ # FLTE code del PAK_sp_nuclear_bomb
+ # FLTE code del SWE_sp_nuclear_bomb
+ # FLTE code del SAF_sp_nuclear_bomb
+ # FLTE code del POL_sp_nuclear_bomb
+ # FLTE code del JAP_sp_nuclear_bomb
+ # FLTE code del sp_nuclear_bomb_desc
+ # FLTE code del sp_nuclear_bomb_tt
+ # FLTE code del sp_thermo_nuclear_bomb
+ # FLTE code del sp_thermo_nuclear_bomb_desc
+ # FLTE code del sp_thermo_nuclear_bomb_tt
+ # FLTE code del SOV_sp_thermo_nuclear_bomb
+ # FLTE code del USA_sp_thermo_nuclear_bomb
+ # FLTE code del ENG_sp_thermo_nuclear_bomb
+ # FLTE code del POL_sp_thermo_nuclear_bomb
+ # FLTE code del sp_nuclear_warheads
+ # FLTE code del sp_nuclear_warheads_desc
+
+
+#################################
+  ## NUCLEAR PROJECT REWARDS ## 
+#################################
+
+ # Nuclear reactor
+ # FLTE code del sp_nuclear_design_choice_reward
+ # FLTE code replace sp_nuclear_design_choice_reward_desc
+ # FLTE code del sp_nuclear_design_choice_reward_graphite
+ # FLTE code del sp_nuclear_design_choice_reward_heavy_water
+ # FLTE code del sp_nuclear_major_breakthrough_reward
+ # FLTE code del sp_nuclear_major_breakthrough_reward_desc
+ # FLTE code del sp_nuclear_isotope_separation_choice_reward
+ # FLTE code del sp_nuclear_isotope_separation_choice_reward_desc
+ # FLTE code del sp_nuclear_isotope_separation_choice_reward_gaseous
+ # FLTE code del sp_nuclear_isotope_separation_choice_reward_centrifugal
+
+ # Generic
+ # FLTE code del sp_nuclear_scientist_xp_generic_reward
+ # FLTE code del sp_nuclear_generic_industry_tech_reward
+ # FLTE code del sp_nuclear_generic_industry_tech_reward_desc
+ # FLTE code del sp_nuclear_generic_reward_option_industry_tech_name
+ # FLTE code del sp_nuclear_scientist_xp_generic_reward_desc
+ # FLTE code del sp_nuclear_minor_progress_generic_reward
+ # FLTE code del sp_nuclear_minor_progress_generic_reward_desc
+ # FLTE code del sp_nuclear_generic_electronics_tech_reward
+ # FLTE code del sp_nuclear_generic_electronics_tech_reward_desc
+ # FLTE code del sp_nuclear_generic_reward_option_electronics_tech_bonus_name
+ # FLTE code del sp_nuclear_war_support_generic_reward
+ # FLTE code replace sp_nuclear_war_support_generic_reward_desc
+ # FLTE code del sp_nuclear_major_political_interference_generic_reward
+ # FLTE code del sp_nuclear_major_political_interference_generic_reward_desc
+ # FLTE code del sp_nuclear_major_political_interference_generic_reward_option_keep
+ # FLTE code del sp_nuclear_major_political_interference_generic_reward_option_fire
+
+ # FLTE code del sp_nuclear_bomb_theoretical_breakthrough_generic_reward
+ # FLTE code del sp_nuclear_bomb_theoretical_breakthrough_generic_reward_desc
+
+ # FLTE code del sp_nuclear_bomb_critical_mass_generic_reward
+ # FLTE code del sp_nuclear_bomb_critical_mass_generic_reward_desc
+
+ # FLTE code del sp_nuclear_bomb_information_leak_reward
+ # FLTE code replace sp_nuclear_bomb_information_leak_reward_desc
+ # FLTE code del sp_nuclear_bomb_information_leak_reward_tt
+ 
+# Nuclear Reactor
+ # FLTE code del sp_nuclear_reactor_radioactive_leak_stabilized_reward
+ # FLTE code del sp_nuclear_reactor_radioactive_leak_stabilized_reward_desc
+ # FLTE code del sp_nuclear_reactor_minor_explosion_reward
+ # FLTE code del sp_nuclear_reactor_minor_explosion_reward_desc
+ # FLTE code del sp_nuclear_reactor_tested_reward
+ # FLTE code del sp_nuclear_reactor_tested_reward_desc
+ # FLTE code del sp_nuclear_reactor_tested_reward_public
+ # FLTE code del nuclear_reactor_tested_reward_classify
+ # FLTE code del sp_nuclear_reactor_tested_reward_public_tt
+ # FLTE code del sp_nuclear_reactor_tested_tech_bonus
+ # FLTE code del sp_commercial_nuclear_reactor_concerns_reward
+ # FLTE code del sp_commercial_nuclear_reactor_concerns_reward_desc
+ # FLTE code del sp_commercial_nuclear_reactor_concerns_reward_option_safety
+ # FLTE code del sp_commercial_nuclear_reactor_concerns_reward_option_ignore
+
+
+ # Nuclear bombs
+ # FLTE code del sp_nuclear_bomb_test_prototype_reward
+ # FLTE code del sp_nuclear_bomb_test_prototype_reward_desc
+ # FLTE code del sp_nuclear_bomb_test_prototype_reward_test_bomb
+ # FLTE code del sp_nuclear_bomb_test_prototype_reward_keep_bomb
+ # FLTE code del sp_nuclear_bomb_espionage_threats_reward
+ # FLTE code replace sp_nuclear_bomb_espionage_threats_reward_desc
+ # FLTE code del sp_nuclear_bomb_espionage_threats_reward_no
+ # FLTE code del sp_nuclear_bomb_espionage_threats_reward_increase_security
+ # FLTE code del sp_nuclear_bomb_espionage_threats_reward_increase_security_tt
+ # FLTE code del sp_nuclear_bomb_breakthrough_plutonium_reward
+ # FLTE code del sp_nuclear_bomb_breakthrough_plutonium_reward_desc
+ # FLTE code del sp_nuclear_bomb_accident_generic_reward
+ # FLTE code del sp_nuclear_bomb_accident_generic_reward_desc
+ # FLTE code del sp_nuclear_bomb_design_choice_reward
+ # FLTE code del sp_nuclear_bomb_design_choice_reward_desc
+ # FLTE code del sp_nuclear_bomb_design_choice_reward_gun_type
+ # FLTE code del sp_nuclear_bomb_design_choice_reward_implosion
+
+# Thermonuclear Bombs
+ # FLTE code del sp_thermonuclear_bomb_test_reward
+ # FLTE code del sp_thermonuclear_bomb_test_reward_desc
+ # FLTE code del sp_thermonuclear_bomb_test_reward_option_yes
+ # FLTE code del sp_thermonuclear_bomb_test_reward_option_no
+ # FLTE code del sp_no_nukes_available_tt
+
+#########################
+  ## ROCKET PROJECTS ## 
+#########################
+ # FLTE code del sp_rockets_experimental_rockets
+ # FLTE code del sp_rockets_experimental_rockets_desc
+ # FLTE code del sp_rockets_flying_bomb
+ # FLTE code del sp_rockets_flying_bomb_desc
+ # FLTE code del GER_sp_rockets_flying_bomb
+ # FLTE code del JAP_sp_rockets_flying_bomb
+ # FLTE code del USA_sp_rockets_flying_bomb
+ # FLTE code del GER_sp_rockets_flying_bomb_desc
+ # FLTE code del sp_rockets_ballistic_missile
+ # FLTE code del sp_rockets_ballistic_missile_desc
+ # FLTE code del GER_sp_rockets_ballistic_missile
+ # FLTE code del USA_sp_rockets_ballistic_missile
+ # FLTE code del FRA_sp_rockets_ballistic_missile
+ # FLTE code del PRC_sp_rockets_ballistic_missile
+ # FLTE code del RAJ_sp_rockets_ballistic_missile
+ # FLTE code del PER_sp_rockets_ballistic_missile
+ # FLTE code del IRQ_sp_rockets_ballistic_missile
+ # FLTE code del ISR_sp_rockets_ballistic_missile
+ # FLTE code del KOR_sp_rockets_ballistic_missile
+ # FLTE code del PAK_sp_rockets_ballistic_missile
+ # FLTE code del YUG_sp_rockets_ballistic_missile
+ # FLTE code del SER_sp_rockets_ballistic_missile
+ # FLTE code del SOV_sp_rockets_ballistic_missile
+ # FLTE code del CHI_sp_rockets_ballistic_missile
+ # FLTE code del TUR_sp_rockets_ballistic_missile
+ # FLTE code del UKR_sp_rockets_ballistic_missile
+ # FLTE code del YEM_sp_rockets_ballistic_missile
+ # FLTE code del GER_sp_rockets_ballistic_missile_desc
+
+ # FLTE code del sp_rockets_medium_range_ballistic_missile
+ # FLTE code del PRC_sp_rockets_medium_range_ballistic_missile
+ # FLTE code del FRA_sp_rockets_medium_range_ballistic_missile
+ # FLTE code del RAJ_sp_rockets_medium_range_ballistic_missile
+ # FLTE code del PER_sp_rockets_medium_range_ballistic_missile
+ # FLTE code del IRQ_sp_rockets_medium_range_ballistic_missile
+ # FLTE code del ISR_sp_rockets_medium_range_ballistic_missile
+ # FLTE code del KOR_sp_rockets_medium_range_ballistic_missile
+ # FLTE code del PAK_sp_rockets_medium_range_ballistic_missile
+ # FLTE code del TUR_sp_rockets_medium_range_ballistic_missile
+ # FLTE code del SOV_sp_rockets_medium_range_ballistic_missile
+ # FLTE code del USA_sp_rockets_medium_range_ballistic_missile
+ # FLTE code del sp_rockets_medium_range_ballistic_missile_desc
+
+ # FLTE code del sp_rockets_long_range_ballistic_missile
+ # FLTE code del ISR_sp_rockets_long_range_ballistic_missile
+ # FLTE code del RAJ_sp_rockets_long_range_ballistic_missile
+ # FLTE code del USA_sp_rockets_long_range_ballistic_missile
+ # FLTE code del SOV_sp_rockets_long_range_ballistic_missile
+ # FLTE code del PRC_sp_rockets_long_range_ballistic_missile
+ # FLTE code del sp_rockets_long_range_ballistic_missile_desc
+
+ # FLTE code del sp_rockets_ground_to_air_missile
+ # FLTE code del sp_rockets_ground_to_air_missile_desc
+ # FLTE code del GER_sp_rockets_ground_to_air_missile
+ # FLTE code del JAP_sp_rockets_ground_to_air_missile
+ # FLTE code del PRC_sp_rockets_ground_to_air_missile
+ # FLTE code del FRA_sp_rockets_ground_to_air_missile
+ # FLTE code del GRE_sp_rockets_ground_to_air_missile
+ # FLTE code del RAJ_sp_rockets_ground_to_air_missile
+ # FLTE code del PER_sp_rockets_ground_to_air_missile
+ # FLTE code del IRQ_sp_rockets_ground_to_air_missile
+ # FLTE code del ISR_sp_rockets_ground_to_air_missile
+ # FLTE code del ITA_sp_rockets_ground_to_air_missile
+ # FLTE code del BRM_sp_rockets_ground_to_air_missile
+ # FLTE code del ROM_sp_rockets_ground_to_air_missile
+ # FLTE code del SAF_sp_rockets_ground_to_air_missile
+ # FLTE code del SWE_sp_rockets_ground_to_air_missile
+ # FLTE code del SWI_sp_rockets_ground_to_air_missile
+ # FLTE code del CHI_sp_rockets_ground_to_air_missile
+ # FLTE code del TUR_sp_rockets_ground_to_air_missile
+ # FLTE code del UKR_sp_rockets_ground_to_air_missile
+ # FLTE code del ENG_sp_rockets_ground_to_air_missile
+ # FLTE code del USA_sp_rockets_ground_to_air_missile
+ # FLTE code del SOV_sp_rockets_ground_to_air_missile
+ # FLTE code del YUG_sp_rockets_ground_to_air_missile
+ # FLTE code del KOR_sp_rockets_ground_to_air_missile
+
+ # FLTE code del sp_rocket_interceptor
+ # FLTE code del GER_sp_rocket_interceptor
+ # FLTE code del POL_sp_rocket_interceptor
+ # FLTE code del JAP_sp_rocket_interceptor
+ # FLTE code del sp_rocket_interceptor_desc
+
+
+################################
+  ## ROCKET PROJECT REWARDS ## 
+################################
+
+ # Generic
+ # FLTE code del sp_rockets_scientist_xp_generic_reward
+ # FLTE code del sp_rockets_scientist_xp_generic_reward_desc
+ #sp_rockets_scientist_xp_generic_reward_option: "That is good"
+
+ # FLTE code del sp_rockets_political_interference_generic_reward
+ # FLTE code del sp_rockets_political_interference_generic_reward_desc
+ #sp_rockets_political_interference_generic_reward_option: "Two steps forward, one step back"
+
+ # FLTE code del sp_rockets_onsite_explosion_generic_reward
+ # FLTE code del sp_rockets_onsite_explosion_generic_reward_desc
+ #sp_rockets_onsite_explosion_generic_reward_option: "At least it wasn't totally destroyed"
+
+ # FLTE code del sp_rockets_generic_major_breakthrough_reward
+ # FLTE code del sp_rockets_generic_major_breakthrough_reward_desc
+ #sp_rockets_generic_major_breakthrough_reward_option: "Excellent!"
+
+ # FLTE code del sp_rockets_generic_avionics_advancements_reward
+ # FLTE code del sp_rockets_generic_avionics_advancements_reward_desc
+ #sp_rockets_generic_avionics_advancements_reward_option: "This will certainly prove useful" 
+ 
+ # FLTE code del sp_rockets_experimental_rockets_improved_accuracy_reward
+ # FLTE code del sp_rockets_experimental_rockets_stability_improvements_reward
+
+
+ # Flying Bomb
+ # FLTE code del sp_rocket_design_choice_reward
+ # FLTE code del sp_rocket_design_choice_reward_desc
+ # FLTE code del sp_rocket_design_choice_reward_balanced
+ # FLTE code del sp_rocket_design_choice_reward_range
+ # FLTE code del sp_rocket_design_choice_reward_payload
+
+ # FLTE code del sp_rockets_flying_bomb_technical_breakthrough_in_pulsejet_design_reward
+ # FLTE code del sp_rockets_flying_bomb_technical_breakthrough_in_pulsejet_design_reward_desc
+ #sp_rockets_flying_bomb_technical_breakthrough_in_pulsejet_design_reward_option: "Upward and Onward!"
+
+ # FLTE code del sp_rockets_flying_bomb_launch_ramp_innovations_reward
+ # FLTE code del sp_rockets_flying_bomb_launch_ramp_innovations_reward_desc
+ # FLTE code del sp_rockets_flying_bomb_launch_ramp_innovations_reward_option
+
+ # FLTE code del sp_rockets_flying_bomb_mass_production_scaling_reward
+ # FLTE code replace sp_rockets_flying_bomb_mass_production_scaling_reward_desc
+ #sp_rockets_flying_bomb_mass_production_scaling_reward_option: "Most beneficial"
+
+ # FLTE code del sp_rockets_flying_bomb_engine_optimization_breakthrough_reward
+ # FLTE code del sp_rockets_flying_bomb_engine_optimization_breakthrough_reward_desc
+ #sp_rockets_flying_bomb_engine_optimization_breakthrough_reward_option: "Some call it luck"
+
+ # FLTE code del sp_rockets_flying_bomb_technological_innovation_in_guidance_systems_reward
+ # FLTE code del sp_rockets_flying_bomb_technological_innovation_in_guidance_systems_reward_desc
+ #sp_rockets_flying_bomb_technological_innovation_in_guidance_systems_reward_option: "We are getting closer to achieving our goal"
+
+ # FLTE code del sp_rockets_flying_bomb_test_flight_failures_reward
+ # FLTE code del sp_rockets_flying_bomb_test_flight_failures_reward_desc
+ #sp_rockets_flying_bomb_test_flight_failures_reward_option: "They say you learn the most from your failures"
+
+
+ # Ground to Air
+ # FLTE code del sp_rockets_ground_control_improvements_reward
+ # FLTE code del sp_rockets_ground_control_improvements_reward_desc
+
+ # FLTE code del sp_rockets_vertical_launch_reward
+ # FLTE code del sp_rockets_vertical_launch_reward_desc
+
+ # FLTE code del sp_rockets_high_speed_flight_control_reward
+ # FLTE code del sp_rockets_high_speed_flight_control_reward_desc
+ # FLTE code del sp_rockets_high_speed_flight_control_bonus
+
+ # FLTE code del sp_rockets_warhead_detonation_mechanisms_reward
+ # FLTE code del sp_rockets_warhead_detonation_mechanisms_reward_desc
+ # FLTE code del sp_surface_air_missile_warhead_detonation_bonus
+ #Ballistic missile
+
+ # FLTE code del sp_rocket_wind_tunnel_choice_reward
+ # FLTE code del sp_rocket_wind_tunnel_choice_reward_desc
+ # FLTE code del sp_rocket_wind_tunnel_choice_reward_reject
+ # FLTE code del sp_rocket_wind_tunnel_choice_reward_agree
+
+ # FLTE code del sp_rocket_glass_wool_choice_reward
+ # FLTE code del sp_rocket_glass_wool_choice_reward_desc
+ # FLTE code del sp_rocket_glass_wool_choice_reward_accept
+
+ # FLTE code del sp_rocket_guidance_system_choice_reward
+ # FLTE code del sp_rocket_guidance_system_choice_reward_desc
+ # FLTE code del sp_rocket_guidance_system_choice_reward_mechanical
+ # FLTE code del sp_rocket_guidance_system_choice_reward_radio
+
+ # FLTE code del sp_rocket_turbo_pump_froth_reward
+ # FLTE code del sp_rocket_turbo_pump_froth_reward_desc
+ # FLTE code del sp_rocket_turbo_pump_froth_reward_accept
+
+ # FLTE code del sp_rocket_relay_failure_reward
+ # FLTE code del sp_rocket_relay_failure_reward_desc
+ # FLTE code del sp_rocket_relay_failure_reward_accept
+ # FLTE code del sp_rocket_relay_failure_reward_reject
+
+ # FLTE code del sp_rocket_outercoating_reward
+ # FLTE code del sp_rocket_outercoating_reward_desc
+ # FLTE code del sp_rocket_outercoating_reward_accept
+
+ # FLTE code del sp_rocket_launch_site_choice_reward
+ # FLTE code del sp_rocket_launch_site_choice_reward_desc
+ # FLTE code del sp_rocket_launch_site_choice_reward_reject
+ # FLTE code del sp_rocket_launch_site_choice_reward_accept
+
+ # FLTE code del SP_ROCKET_AND_SUBMARINE_SITE_REMINDER_PROJECT
+ # FLTE code del SP_ROCKET_SITE_REMINDER_PROJECT
+########################
+  ## NAVAL PROJECTS ## 
+########################
+ # FLTE code del sp_naval_cruiser_submarine
+ # FLTE code del sp_naval_cruiser_submarine_desc
+ # FLTE code del sp_naval_cruiser_submarine_free_design
+
+ # FLTE code del sp_naval_nuclear_submarine
+ # FLTE code del USA_sp_naval_nuclear_submarine
+ # FLTE code del ENG_sp_naval_nuclear_submarine
+ # FLTE code del SOV_sp_naval_nuclear_submarine
+ # FLTE code del sp_naval_nuclear_submarine_desc
+ # FLTE code del sp_naval_nuclear_submarine_free_design
+
+ # FLTE code del sp_naval_rocket_launching_submarine
+ JAP_sp_naval_rocket_launching_submarine: "I-400-class Missile Submarine"
+ # FLTE code del SOV_sp_naval_rocket_launching_submarine
+ # FLTE code del PRC_sp_naval_rocket_launching_submarine
+ # FLTE code del sp_naval_rocket_launching_submarine_desc
+ 
+ # FLTE code del sp_naval_torpedo_cruiser
+ # FLTE code del sp_naval_torpedo_cruiser_desc
+ # FLTE code del JAP_sp_naval_torpedo_cruiser
+ # FLTE code del sp_naval_torpedo_cruiser_free_design
+
+ # FLTE code del sp_naval_fleet_submarine
+ # FLTE code del sp_naval_fleet_submarine_desc
+ # FLTE code del sp_naval_fleet_submarine_free_design
+
+ # FLTE code del sp_naval_super_heavy_battleship
+ # FLTE code del sp_naval_super_heavy_battleship_desc
+ # FLTE code del JAP_sp_naval_super_heavy_battleship
+ # FLTE code del USA_sp_naval_super_heavy_battleship
+ # FLTE code del ENG_sp_naval_super_heavy_battleship
+ # FLTE code del POL_sp_naval_super_heavy_battleship
+ # FLTE code del sp_naval_super_heavy_battleship_tt
+ # FLTE code del sp_naval_super_heavy_battleship_free_design
+
+ # FLTE code del sp_naval_nuclear_missile_submarine
+ # FLTE code del RAJ_sp_naval_nuclear_missile_submarine
+ # FLTE code del FRA_sp_naval_nuclear_missile_submarine
+ # FLTE code del USA_sp_naval_nuclear_missile_submarine
+ # FLTE code del KOR_sp_naval_nuclear_missile_submarine
+ # FLTE code del ENG_sp_naval_nuclear_missile_submarine
+ # FLTE code del sp_naval_nuclear_missile_submarine_desc
+ 
+ # FLTE code del sp_naval_modern_battleship
+ # FLTE code del POL_sp_naval_modern_battleship
+ # FLTE code del sp_naval_modern_battleship_desc
+ # FLTE code del sp_naval_modern_battleship_free_design
+
+ # FLTE code del sp_naval_midget_submarine
+ # FLTE code del sp_naval_midget_submarine_desc
+ # FLTE code del sp_naval_midget_submarine_free_design
+ # FLTE code del JAP_sp_naval_midget_submarine
+
+ # FLTE code del sp_naval_nuclear_torpedo
+ # FLTE code del sp_naval_nuclear_torpedo_desc
+
+ # FLTE code del sp_naval_modern_carrier
+ # FLTE code del sp_naval_modern_carrier_desc
+ # FLTE code del sp_naval_modern_carrier_free_design
+
+ # FLTE code del sp_naval_anechoic_tiles
+ # FLTE code del sp_naval_anechoic_tiles_desc
+ # FLTE code del sp_naval_anechoic_tiles_non_mtg_tt
+ 
+ # FLTE code del sp_naval_aip_engine
+ # FLTE code del sp_naval_aip_engine_desc
+ # FLTE code del sp_naval_aip_engine_non_mtg_tt
+ 
+ # FLTE code del sp_naval_ice_carrier
+ # FLTE code del sp_naval_ice_carrier_desc
+ # FLTE code del sp_naval_ice_carrier_free_design
+ # FLTE code del ENG_sp_naval_ice_carrier
+ # FLTE code del USA_sp_naval_ice_carrier
+ # FLTE code del CAN_sp_naval_ice_carrier
+ 
+ # FLTE code del sp_naval_underway_replenishment
+ # FLTE code replace sp_naval_underway_replenishment_desc
+ 
+ # FLTE code del sp_naval_proximity_fuze
+ # FLTE code del sp_naval_proximity_fuze_desc
+
+ # FLTE code del sp_naval_support_ships
+ # FLTE code del sp_naval_support_ships_desc
+
+ # FLTE code del sp_naval_escort_carrier
+ # FLTE code del sp_naval_escort_carrier_desc
+ # FLTE code del sp_naval_escort_carrier_free_design
+
+ # FLTE code del sp_naval_submarine_carrier
+ # FLTE code replace sp_naval_submarine_carrier_desc
+ # FLTE code del sp_naval_submarine_carrier_free_design
+#################################
+  ## NAVAL PROTOTYPE REWARDS ###
+################################# 
+ # FLTE code del sp_naval_cruiser_submarine_unique_reward_a
+ # FLTE code del sp_naval_cruiser_submarine_unique_reward_a_desc
+ # FLTE code del sp_naval_cruiser_submarine_preference_a
+ # FLTE code del sp_naval_cruiser_submarine_preference_b
+ 
+ # FLTE code del sp_naval_fleet_submarine_unique_reward_a
+ # FLTE code del sp_naval_fleet_submarine_unique_reward_a_desc
+ # FLTE code del sp_naval_fleet_submarine_preference_a
+ # FLTE code del sp_naval_fleet_submarine_preference_b
+
+ # FLTE code del sp_naval_nuclear_submarine_unique_reward_a
+ # FLTE code del sp_naval_nuclear_submarine_unique_reward_a_desc
+ # FLTE code del sp_naval_nuclear_submarine_preference_a
+ # FLTE code del sp_naval_nuclear_submarine_preference_b
+ # FLTE code del sp_naval_nuclear_submarine_preference_c
+ 
+ # FLTE code del sp_naval_rocket_launching_submarine_unique_reward_a
+ # FLTE code del sp_naval_rocket_launching_submarine_unique_reward_a_desc
+ # FLTE code del sp_naval_rocket_launching_submarine_preference_a
+ # FLTE code del sp_naval_rocket_launching_submarine_preference_b
+ # FLTE code del sp_naval_rocket_launching_submarine_preference_c
+
+ # FLTE code del sp_naval_nuclear_missile_submarine_unique_reward_a
+ # FLTE code del sp_naval_nuclear_missile_submarine_unique_reward_a_desc
+ # FLTE code del sp_naval_nuclear_missile_submarine_preference_a
+ # FLTE code del sp_naval_nuclear_missile_submarine_preference_b
+ # FLTE code del sp_naval_nuclear_missile_submarine_preference_c
+ 
+ # FLTE code del sp_naval_nuclear_torpedo_unique_reward_a
+ # FLTE code del sp_naval_nuclear_torpedo_unique_reward_a_desc
+ # FLTE code del sp_naval_nuclear_torpedo_preference_a
+ # FLTE code del sp_naval_nuclear_torpedo_preference_b
+
+ # FLTE code del sp_naval_midget_submarine_unique_reward_a
+ # FLTE code del sp_naval_midget_submarine_unique_reward_a_desc
+ # FLTE code del sp_naval_midget_submarine_preference_a
+ # FLTE code del sp_naval_midget_submarine_preference_b
+ # FLTE code del sp_naval_midget_submarine_preference_c
+ 
+
+ # FLTE code del sp_naval_aip_engine_unique_reward_a
+ # FLTE code del sp_naval_aip_engine_unique_reward_a_desc
+ # FLTE code del sp_naval_aip_engine_preference_a
+ # FLTE code del sp_naval_aip_engine_preference_b
+ # FLTE code del sp_naval_aip_engine_preference_c
+  
+ # FLTE code del sp_naval_anechoic_tiles_unique_reward_a
+ # FLTE code del sp_naval_anechoic_tiles_unique_reward_a_desc
+ # FLTE code del sp_naval_anechoic_tiles_preference_a
+ # FLTE code del sp_naval_anechoic_tiles_preference_b
+ # FLTE code del sp_naval_anechoic_tiles_preference_c
+  
+ # FLTE code del sp_naval_torpedo_cruiser_unique_reward_a
+ # FLTE code del sp_naval_torpedo_cruiser_unique_reward_a_desc
+ # FLTE code del sp_naval_torpedo_cruiser_preference_a
+ # FLTE code del sp_naval_torpedo_cruiser_preference_b
+ 
+ # FLTE code del sp_naval_super_heavy_battleship_unique_reward_a
+ # FLTE code del sp_naval_super_heavy_battleship_unique_reward_a_desc
+ # FLTE code del sp_naval_super_heavy_battleship_preference_a_a
+ # FLTE code del sp_naval_super_heavy_battleship_preference_b_a
+ # FLTE code del sp_naval_super_heavy_battleship_preference_c_a
+ # FLTE code del sp_naval_super_heavy_battleship_unique_reward_b
+ # FLTE code del sp_naval_super_heavy_battleship_unique_reward_b_desc
+ # FLTE code del sp_naval_super_heavy_battleship_preference_a_b
+ # FLTE code del sp_naval_super_heavy_battleship_preference_b_b
+ # FLTE code del sp_naval_super_heavy_battleship_preference_c_b
+  
+ # FLTE code del sp_naval_modern_battleship_unique_reward_a
+ # FLTE code del sp_naval_modern_battleship_unique_reward_a_desc
+ # FLTE code del sp_naval_modern_battleship_preference_a_a
+ # FLTE code del sp_naval_modern_battleship_preference_b_a
+ # FLTE code del sp_naval_modern_battleship_preference_c_a
+ # FLTE code del sp_naval_modern_battleship_unique_reward_b
+ # FLTE code del sp_naval_modern_battleship_unique_reward_b_desc
+ # FLTE code del sp_naval_modern_battleship_preference_a_b
+ # FLTE code del sp_naval_modern_battleship_preference_b_b
+ # FLTE code del sp_naval_modern_battleship_preference_c_b
+  
+ # FLTE code del sp_naval_modern_carrier_unique_reward_a
+ # FLTE code del sp_naval_modern_carrier_unique_reward_a_desc
+ # FLTE code del sp_naval_modern_carrier_preference_a_a
+ # FLTE code del sp_naval_modern_carrier_preference_b_a
+ # FLTE code del sp_naval_modern_carrier_preference_c_a
+ # FLTE code del sp_naval_modern_carrier_unique_reward_b
+ # FLTE code del sp_naval_modern_carrier_unique_reward_b_desc
+ # FLTE code del sp_naval_modern_carrier_preference_a_b
+ # FLTE code del sp_naval_modern_carrier_preference_b_b
+ # FLTE code del sp_naval_modern_carrier_preference_c_b
+
+ # FLTE code del sp_naval_ice_carrier_unique_reward_a
+ # FLTE code replace sp_naval_ice_carrier_unique_reward_a_desc
+ # FLTE code del sp_naval_ice_carrier_preference_a
+ # FLTE code del sp_naval_ice_carrier_preference_b
+  
+ # FLTE code del sp_naval_underway_replenishment_unique_reward_a
+ # FLTE code del sp_naval_underway_replenishment_unique_reward_a_desc
+ # FLTE code del sp_naval_underway_replenishment_preference_a
+ # FLTE code del sp_naval_underway_replenishment_preference_b
+ # FLTE code del sp_naval_underway_replenishment_preference_c
+ 
+ # FLTE code del sp_naval_proximity_fuzes_unique_reward_a
+ # FLTE code del sp_naval_proximity_fuzes_unique_reward_a_desc
+ # FLTE code del sp_naval_proximity_fuzes_preference_a
+ # FLTE code del sp_naval_proximity_fuzes_preference_b
+
+ # FLTE code del sp_naval_support_ships_unique_reward_a
+ # FLTE code del sp_naval_support_ships_unique_reward_a_desc
+ # FLTE code del sp_naval_support_ships_preference_a_a
+ # FLTE code del sp_naval_support_ships_preference_b_a
+ # FLTE code del sp_naval_support_ships_preference_c_a
+ # FLTE code del sp_naval_support_ships_unique_reward_b
+ # FLTE code del sp_naval_support_ships_unique_reward_b_desc
+ # FLTE code del sp_naval_support_ships_preference_a_b
+ # FLTE code del sp_naval_support_ships_preference_b_b
+ # FLTE code del sp_naval_support_ships_preference_c_b
+
+ # FLTE code del sp_naval_submarine_carrier_unique_reward_a
+ # FLTE code del sp_naval_submarine_carrier_unique_reward_a_desc
+ # FLTE code del sp_naval_submarine_carrier_preference_a
+ # FLTE code del sp_naval_submarine_carrier_preference_b
+ # FLTE code del sp_naval_submarine_carrier_preference_c
+
+ # FLTE code del sp_naval_escort_carrier_unique_reward_a
+ # FLTE code del sp_naval_escort_carrier_unique_reward_a_desc
+ # FLTE code del sp_naval_escort_carrier_preference_a_a
+ # FLTE code del sp_naval_escort_carrier_preference_b_a
+ # FLTE code del sp_naval_escort_carrier_preference_c_a
+ # FLTE code del sp_naval_escort_carrier_unique_reward_b
+ # FLTE code del sp_naval_escort_carrier_unique_reward_b_desc
+ # FLTE code del sp_naval_escort_carrier_preference_a_b
+ # FLTE code del sp_naval_escort_carrier_preference_b_b
+ # FLTE code del sp_naval_escort_carrier_preference_c_b
+#########################################
+ ### NAVAL ADD_EQUIPMENT_BONUS ###
+########################################
+
+ # FLTE code del sp_cruiser_submarine_eq_bonus_range
+ # FLTE code del sp_cruiser_submarine_eq_bonus_raiding
+ # FLTE code del sp_fleet_submarine_eq_bonus_attack
+ # FLTE code del sp_fleet_submarine_eq_bonus_reliability
+ # FLTE code del sp_nuclear_submarine_eq_bonus_ic_reduction
+ # FLTE code del sp_nuclear_submarine_eq_bonus_quality
+ # FLTE code del sp_rocket_submarine_eq_bonus_range_increase
+ # FLTE code del sp_rocket_submarine_eq_bonus_reliability
+ # FLTE code del sp_rocket_submarine_eq_bonus_stealth
+ # FLTE code del sp_nuclear_missile_submarine_eq_bonus_stealth
+ # FLTE code del sp_nuclear_missile_submarine_eq_bonus_strength
+ # FLTE code del sp_midget_submarine_eq_bonus_stealth
+ # FLTE code del sp_midget_submarine_eq_bonus_reliability
+ # FLTE code del sp_midget_submarine_eq_bonus_range
+ # FLTE code del sp_torpedo_cruiser_eq_bonus_torpedo
+ # FLTE code del sp_torpedo_cruiser_eq_bonus_light_attack
+ # FLTE code del sp_super_heavy_battleship_eq_bonus_heavy_attack
+ # FLTE code del sp_super_heavy_battleship_eq_bonus_speed
+ # FLTE code del sp_super_heavy_battleship_eq_bonus_light_attack
+ # FLTE code del sp_super_heavy_battleship_eq_bonus_armor
+ # FLTE code del sp_super_heavy_battleship_eq_bonus_anti_air
+ # FLTE code del sp_super_heavy_battleship_eq_bonus_anti_torpedo
+ # FLTE code del sp_modern_battleship_eq_bonus_heavy_attack
+ # FLTE code del sp_modern_battleship_eq_bonus_speed
+ # FLTE code del sp_modern_battleship_eq_bonus_light_attack
+ # FLTE code del sp_modern_battleship_eq_bonus_armor
+ # FLTE code del sp_modern_battleship_eq_bonus_anti_air
+ # FLTE code del sp_modern_battleship_eq_bonus_anti_torpedo
+ # FLTE code del sp_modern_carrier_eq_bonus_detection
+ # FLTE code del sp_modern_carrier_eq_bonus_speed
+ # FLTE code del sp_modern_carrier_eq_bonus_light_attack
+ # FLTE code del sp_modern_carrier_eq_bonus_armor
+ # FLTE code del sp_modern_carrier_eq_bonus_anti_air
+ # FLTE code del sp_modern_carrier_eq_bonus_anti_torpedo
+ # FLTE code del sp_mega_carrier_eq_bonus_weather
+ # FLTE code del sp_mega_carrier_eq_bonus_strength
+ # FLTE code del sp_naval_escort_carrier_eq_bonus_range
+ # FLTE code del sp_naval_escort_carrier_eq_bonus_strength
+ # FLTE code del sp_naval_escort_carrier_eq_bonus_speed
+ # FLTE code del sp_naval_escort_carrier_eq_bonus_sub_detection
+ # FLTE code del sp_naval_escort_carrier_eq_bonus_compromise
+ # FLTE code del sp_naval_escort_carrier_eq_bonus_surface_detection
+ # FLTE code del sp_naval_submarine_carrier_eq_bonus_range
+ # FLTE code del sp_naval_submarine_carrier_eq_bonus_strength
+ # FLTE code del sp_naval_submarine_carrier_eq_bonus_stealth
+#########################################
+ ## GENERIC NAVAL PROTOTYPE REWARDS ###
+#########################################
+ # FLTE code del sp_naval_generic_reward_scientist_xp_1
+ # FLTE code del sp_naval_generic_reward_scientist_xp_2
+ # FLTE code del sp_naval_generic_reward_scientist_xp_3
+ # FLTE code del sp_naval_generic_reward_navy_xp_1
+ # FLTE code del sp_naval_generic_reward_navy_xp_2
+ # FLTE code del sp_naval_generic_reward_navy_xp_3
+ # FLTE code del sp_naval_generic_reward_major_progress_1
+ # FLTE code del sp_naval_generic_reward_major_progress_2
+ # FLTE code del sp_naval_generic_reward_major_progress_3
+ # FLTE code del sp_naval_generic_reward_test_failure_1
+ # FLTE code del sp_naval_generic_reward_test_failure_2
+ # FLTE code del sp_naval_generic_reward_test_failure_3
+ # FLTE code del sp_naval_generic_failure_torpedo_accident
+ # FLTE code del sp_naval_generic_reward_artillery_tech_1
+ # FLTE code del sp_naval_generic_reward_artillery_tech_2
+ # FLTE code del sp_naval_generic_reward_artillery_tech_3
+ # FLTE code del sp_naval_generic_reward_armor_tech_1
+ # FLTE code del sp_naval_generic_reward_armor_tech_2
+ # FLTE code del sp_naval_generic_reward_armor_tech_3
+ # FLTE code del sp_naval_generic_reward_option_armor_tech_bonus_name
+ # FLTE code del sp_naval_generic_reward_option_artillery_tech_bonus_name
+
+######################
+  ## AIR PROJECTS ## 
+######################
+
+ sp_air_stealth_bomber: "Stealth Bomber"
+ sp_air_stealth_bomber_desc: "Stealth aircraft are designed to avoid detection using a variety of technologies that reduce reflection/emission of radar, infrared, visible light, radio frequency (RF) spectrum, and audio, collectively known as stealth technology."
+ # FLTE code del sp_air_bouncing_bomb_completion_tt
+ 
+ # FLTE code del sp_air_bouncing_bomb
+ # FLTE code del sp_air_bouncing_bomb_desc
+ # FLTE code del sp_air_bouncing_bomb_completion_tt
+
+ # FLTE code del sp_air_bouncing_bomb_no_bba
+ # FLTE code del sp_air_bouncing_bomb_no_bba_desc
+
+ # FLTE code del sp_air_earthshaker_bomb
+ # FLTE code del sp_air_earthshaker_bomb_desc
+ # FLTE code del sp_air_earthshaker_bomb_completion_tt
+ # FLTE code del sp_air_earthshaker_bomb_no_bba
+ # FLTE code del sp_air_earthshaker_bomb_no_bba_desc
+ 
+ # FLTE code del sp_air_intercontinental_bomber
+ # FLTE code del sp_air_intercontinental_bomber_desc
+ # FLTE code del GER_sp_air_intercontinental_bomber
+ # FLTE code del GER_amerikabomber_focke_wulf_name
+ # FLTE code del GER_amerikabomber_heinkel_name
+ # FLTE code del GER_amerikabomber_junkers_name
+ # FLTE code del GER_amerikabomber_messerschmitt_name
+
+ # FLTE code del sp_air_mothership_aircraft
+ # FLTE code del sp_air_mothership_aircraft_desc
+
+ # FLTE code del sp_air_jet_engine
+ # FLTE code del JAP_sp_air_jet_engine
+ # FLTE code del sp_air_jet_engine_desc
+
+ # FLTE code del sp_air_axial_jet_engine
+ # FLTE code del sp_air_axial_jet_engine_desc
+
+ # FLTE code del sp_air_supersonic_jet
+ # FLTE code del sp_air_supersonic_jet_desc
+
+ # FLTE code del sp_air_helicopter
+ # FLTE code del sp_air_helicopter_desc
+ # FLTE code del JAP_sp_air_helicopter
+
+
+#############################
+  ## AIR PROJECT REWARDS ## 
+#############################
+
+ # Generic
+ # FLTE code del sp_air_scientist_xp_generic_reward
+ # FLTE code del sp_air_scientist_xp_generic_reward_desc
+ # FLTE code del sp_air_scientist_xp_generic_reward_option
+
+ # FLTE code del sp_air_political_interference_generic_reward
+ # FLTE code del sp_air_political_interference_generic_reward_desc
+ # FLTE code del sp_air_political_interference_generic_reward_option
+
+ # FLTE code del sp_air_generic_major_breakthrough_reward
+ # FLTE code del sp_air_generic_major_breakthrough_reward_desc
+ # FLTE code del sp_air_generic_major_breakthrough_reward_option
+
+ # FLTE code del sp_air_generic_aerodynamics_advancements_reward
+ # FLTE code del sp_air_generic_aerodynamics_advancements_reward_desc
+ # FLTE code del sp_air_generic_aerodynamics_advancements_reward_option
+
+ # FLTE code del sp_air_generic_discoveries_reward
+ # FLTE code del sp_air_generic_discoveries_reward_desc
+ # FLTE code del sp_air_generic_discoveries_reward_option
+
+ # Generic Expanded Rewards
+ # FLTE code del sp_air_generic_reward_scientist_xp_1
+ # FLTE code del sp_air_generic_reward_scientist_xp_2
+ # FLTE code del sp_air_generic_reward_scientist_xp_3
+ # FLTE code del sp_air_generic_reward_air_xp_1
+ # FLTE code del sp_air_generic_reward_air_xp_2
+ # FLTE code del sp_air_generic_reward_air_xp_3
+ # FLTE code del sp_air_generic_reward_major_progress_1
+ # FLTE code del sp_air_generic_reward_major_progress_2
+ # FLTE code del sp_air_generic_reward_major_progress_3
+ # FLTE code del sp_air_generic_reward_test_failure_1
+ # FLTE code del sp_air_generic_reward_test_failure_2
+ # FLTE code del sp_air_generic_reward_test_failure_3
+
+ # Bouncing Bomb 
+ # FLTE code del sp_air_bouncing_bomb_backspin_mechanism_reward
+ # FLTE code del sp_air_bouncing_bomb_backspin_mechanism_reward_desc
+ # FLTE code del sp_air_bouncing_bomb_backspin_mechanism_reward_option
+
+ # FLTE code del sp_air_bouncing_bomb_training_accidents_reward
+ # FLTE code del sp_air_bouncing_bomb_training_accidents_reward_desc
+ # FLTE code del sp_air_bouncing_bomb_training_accidents_reward_option
+
+ # FLTE code del sp_air_bouncing_bomb_aircraft_modifications_reward
+ # FLTE code del sp_air_bouncing_bomb_aircraft_modifications_reward_desc
+ # FLTE code del sp_air_bouncing_bomb_aircraft_modifications_reward_option
+
+ # FLTE code del sp_air_bouncing_bomb_type_of_explosives_reward
+ # FLTE code replace sp_air_bouncing_bomb_type_of_explosives_reward_desc
+ # FLTE code del sp_air_bouncing_bomb_type_of_explosives_reward_option
+
+ # Earthshaker Bomb
+ # FLTE code del sp_air_earthshaker_bomb_unique_reward
+ # FLTE code del sp_air_earthshaker_bomb_unique_reward_desc
+ # FLTE code del sp_air_earthshaker_bomb_preference_naval_targetting
+ # FLTE code del sp_air_earthshaker_bomb_preference_raw_power
+ # FLTE code del sp_air_earthshaker_bomb_preference_both
+
+ # Intercontinental Bomber
+ # FLTE code del sp_air_intercontinental_bomber_unique_reward
+ # FLTE code del sp_air_intercontinental_bomber_unique_reward_desc
+ # FLTE code del sp_air_intercontinental_bomber_preference_bombing_payload
+ # FLTE code del sp_air_intercontinental_bomber_preference_balanced
+ # FLTE code del sp_air_intercontinental_bomber_preference_protection
+
+ # Mothership
+ # FLTE code del sp_air_mothership_unique_reward
+ # FLTE code del sp_air_mothership_unique_reward_desc
+ # FLTE code del sp_air_mothership_preference_speed_agility
+ # FLTE code del sp_air_mothership_preference_reliability
+ # FLTE code del sp_air_mothership_preference_strength
+
+ # Jet Engine
+ # FLTE code del sp_air_jet_engine_unique_reward
+ # FLTE code del sp_air_jet_engine_unique_reward_desc
+ # FLTE code del sp_air_jet_engine_preference_fighter
+ # FLTE code del sp_air_jet_engine_preference_compromise
+ # FLTE code del sp_air_jet_engine_preference_bomber
+
+ # Axial Jet Engine
+ # FLTE code del sp_air_axial_jet_engine_unique_reward
+ # FLTE code del sp_air_axial_jet_engine_unique_reward_desc
+ # FLTE code del sp_air_axial_jet_engine_preference_fighter
+ # FLTE code del sp_air_axial_jet_engine_preference_compromise
+ # FLTE code del sp_air_axial_jet_engine_preference_bomber
+
+ # Supersonic Jet
+ # FLTE code del sp_air_supersonic_jet_unique_reward
+ # FLTE code del sp_air_supersonic_jet_unique_reward_desc
+ # FLTE code del sp_air_supersonic_jet_preference_cost_reduction
+ # FLTE code del sp_air_supersonic_jet_preference_compromise
+ # FLTE code del sp_air_supersonic_jet_preference_cost_increase
+
+ # Helicopter
+ # FLTE code del sp_air_helicopter_unique_reward
+ # FLTE code del sp_air_helicopter_unique_reward_desc
+ # FLTE code del sp_air_helicopter_preference_speed
+ # FLTE code del sp_air_helicopter_preference_compromise
+ # FLTE code del sp_air_helicopter_preference_protection
+
+
+ ###########################################
+  ### AIR PROJECT EQUIPMENT BONUS NAME ###
+ ########################################### 
+ # FLTE code del sp_earthshaker_bomb_naval_targetting
+ # FLTE code del sp_earthshaker_bomb_power
+ # FLTE code del sp_earthshaker_bomb_both
+ # FLTE code del sp_air_intercontinental_bomber_bombing_payload
+ # FLTE code del sp_air_intercontinental_bomber_balanced
+ # FLTE code del sp_air_intercontinental_bomber_protection
+ # FLTE code del sp_air_mothership_speed_agility
+ # FLTE code del sp_air_mothership_balanced
+ # FLTE code del sp_air_mothership_strength
+ # FLTE code del sp_air_jet_engine_fighter
+ # FLTE code del sp_air_jet_engine_compromise
+ # FLTE code del sp_air_jet_engine_bomber
+ # FLTE code del sp_air_jet_engine_fighter_2
+ # FLTE code del sp_air_jet_engine_compromise_2
+ # FLTE code del sp_air_jet_engine_bomber_2
+ # FLTE code del sp_air_supersonic_jet_cost_reduction
+ # FLTE code del sp_air_supersonic_jet_compromise
+ # FLTE code del sp_air_supersonic_jet_cost_increase
+ # FLTE code del sp_air_helicopter_speed
+ # FLTE code del sp_air_helicopter_compromise
+ # FLTE code del sp_air_helicopter_protection
+ 
+ 
+
+######################################################
+ ### AIR PROJECT TECH BONUS & DESIGN BONUS NAMES ###
+######################################################
+
+ # FLTE code del sp_air_supersonic_jet_fighter_free_design
+ # FLTE code del sp_air_jet_tactical_bomber_free_design
+ # FLTE code del sp_air_jet_fighter_free_design
+ # FLTE code del sp_air_air_equipment_tech_bonus
+ # FLTE code del sp_air_medium_air_tech_bonus
+ # FLTE code del sp_air_light_air_tech_bonus
+
+ ###### SPECIAL PROJECT TAGS ########
+
+ # FLTE code del sp_tag_tank
+ # FLTE code del sp_tag_artillery
+ # FLTE code del sp_tag_surface_ship
+ # FLTE code del sp_tag_submarine
+ # FLTE code del sp_tag_nuclear_warfare
+ # FLTE code del sp_tag_nuclear_power
+ # FLTE code del sp_tag_aircraft
+ # FLTE code del sp_tag_helicopter
+ # FLTE code del sp_tag_jet
+ # FLTE code del sp_tag_bomb
+ # FLTE code del sp_tag_rocket
+ # FLTE code del sp_tag_guided_bomb
+ # FLTE code del sp_tag_radar
+
+
+
+ ###### TRAITS ########
+
+ # FLTE code del scientist_trait_genius
+ # FLTE code del scientist_trait_genius_desc
+ # FLTE code del scientist_trait_gifted_engineer
+ # FLTE code del scientist_trait_gifted_engineer_desc
+ # FLTE code del scientist_trait_brilliant_theorist
+ # FLTE code del scientist_trait_brilliant_theorist_desc
+ # FLTE code del scientist_trait_bright
+ # FLTE code del scientist_trait_bright_desc
+ # FLTE code del scientist_trait_fast_learner
+ # FLTE code del scientist_trait_fast_learner_desc
+ # FLTE code del scientist_trait_resourceful
+ # FLTE code del scientist_trait_resourceful_desc
+ # FLTE code del scientist_trait_schrodingers_trait
+ # FLTE code del scientist_trait_schrodingers_trait_tt
+ # FLTE code del scientist_trait_schrodingers_trait_desc
+
+ # FLTE code del scientist_trait_aircraft_specialist
+ # FLTE code del scientist_trait_aircraft_specialist_desc
+ # FLTE code del scientist_trait_rocketry_specialist
+ # FLTE code del scientist_trait_rocketry_specialist_desc
+ # FLTE code del scientist_trait_electronics_specialist
+ # FLTE code del scientist_trait_electronics_specialist_desc
+ # FLTE code del scientist_trait_helicopter_expert
+ # FLTE code del scientist_trait_helicopter_expert_desc
+ # FLTE code del scientist_trait_jet_expert
+ # FLTE code del scientist_trait_jet_expert_desc
+ # FLTE code del scientist_trait_bombs_expert
+ # FLTE code del scientist_trait_bombs_expert_desc
+ # FLTE code del scientist_trait_guidance_systems_expert
+ # FLTE code del scientist_trait_guidance_systems_expert_desc
+ # FLTE code del scientist_trait_armored_specialist
+ # FLTE code del scientist_trait_armored_specialist_desc
+ # FLTE code del scientist_trait_artillery_specialist
+ # FLTE code del scientist_trait_artillery_specialist_desc
+ # FLTE code del scientist_trait_submarine_specialist
+ # FLTE code del scientist_trait_submarine_specialist_desc
+ # FLTE code del scientist_trait_surface_ship_specialist
+ # FLTE code del scientist_trait_surface_ship_specialist_desc
+ # FLTE code del scientist_trait_nuclear_specialist
+ # FLTE code del scientist_trait_nuclear_specialist_desc
+ # FLTE code del scientist_trait_nuclear_warfare_expert
+ # FLTE code del scientist_trait_nuclear_warfare_expert_desc
+ # FLTE code del scientist_trait_nuclear_power_expert
+ # FLTE code del scientist_trait_nuclear_power_expert_desc
+
+
+ ############# EVENTS #############
+ # Nuclear Projects
+ # FLTE code del sp_nuclear_project_events.1.t
+ # FLTE code del sp_nuclear_project_events.1.desc
+ # FLTE code del sp_nuclear_project_events.1.a
+
+
+
+
+
+
+
+
+ ### OLD DEPRECATED STRINGS (Already translated)
+
+ # FLTE code del sp_land_generic_reward_scientist_xp_1_desc
+ # FLTE code del sp_land_generic_reward_option_scientist_xp
+ # FLTE code del sp_land_generic_reward_option_scientist_xp_desc
+ # FLTE code del sp_land_generic_reward_army_xp_1_desc
+ # FLTE code del sp_land_generic_reward_option_army_xp_desc
+ # FLTE code del sp_land_generic_reward_major_progress_1_desc
+ # FLTE code del sp_land_generic_reward_option_major_breakthrough_desc
+ # FLTE code del sp_land_generic_reward_test_failure_1_desc
+ # FLTE code del sp_land_generic_reward_option_test_failure_desc
+ # FLTE code del sp_land_generic_reward_armor_tech_1_desc
+ # FLTE code del sp_land_generic_reward_option_armor_tech_desc
+ # FLTE code del sp_land_generic_reward_armor_bonus_1_desc
+ # FLTE code del sp_land_generic_reward_option_armor_bonus_desc
+ # FLTE code del sp_land_generic_reward_engine_bonus_1_desc
+ # FLTE code del sp_land_generic_reward_option_engine_bonus_desc
+ # FLTE code del sp_land_generic_reward_resource_scarcity_desc
+ # FLTE code del sp_land_generic_reward_option_resource_scarcity_desc
+ # FLTE code del sp_land_reward_multi_charge_large_caliber_gun_successful_test_firing_desc
+ # FLTE code del sp_land_reward_option_multi_charge_large_caliber_gun_successful_test_firing_desc
+ # FLTE code del sp_land_reward_multi_charge_large_caliber_gun_test_failure_desc
+ # FLTE code del sp_land_reward_option_multi_charge_large_caliber_gun_test_failure_desc
+ # FLTE code del sp_land_reward_multi_charge_large_caliber_gun_breakthrough_in_propulsion_technology_desc
+ # FLTE code del sp_land_reward_option_multi_charge_large_caliber_gun_breakthrough_in_propulsion_technology_desc
+ # FLTE code del sp_naval_generic_failure_nuclear_accident

@@ -1,0 +1,10 @@
+l_english:
+ ship_light_medium_battery_2_desc: "This gun represent a logical evolution from previous models, and is intended to allow light cruisers to have a comfortable advantage in firepower over destroyers and older cruisers."
+ ship_anti_air_3_desc: "Previous calibers of guns have proven too light to reliably kill an attacking airplane before they can release their ordinance. A larger shell requires a bigger gun, but has a significantly higher chance of destroying the target when they actually hit."
+ ship_sonar_3: "55 Sonar" 
+ ship_sonar_3_desc: "" 
+ ship_sonar_4: "60s Sonar" 
+ ship_sonar_4_desc: "" 
+ ship_radar_3: "Centrimetric Gunnery Radar"
+ light_ship_engine_1_desc: "A small set of steam turbines can propell a small ship at great speed or power a larger ship at slower speeds."
+ ship_armor_ice_carrier_deck_3_desc: "Materials and methods used offer the best structure resillience and reducing the impact of weather on the ship operations."

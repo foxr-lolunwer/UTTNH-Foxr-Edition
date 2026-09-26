@@ -1,0 +1,834 @@
+equipment_modules = {
+	limit = { has_dlc = "No Step Back" }
+	NOR_tank_rikstanken_armor = {
+		abbreviation = "msa"
+		category = tank_armor_type
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+	}
+	add_on_armor = {
+		abbreviation = "reac"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+	}
+	additional_machine_guns = {
+		abbreviation = "mg"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	adv_dozer_blade = {
+		abbreviation = "adozer"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	adv_optics = {
+		abbreviation = "aoptics"
+		category = tank_electronics_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	advanced_flamethrower = {
+		abbreviation = "flt2"
+		category = tank_flamethrower
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		dismantle_cost_ic = 0.5
+	}
+	advanced_modern_anti_air_cannon = {
+		abbreviation = "aa6"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 1
+		}
+	}
+	advanced_reactive_plate = {
+		abbreviation = "reac"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+	}
+	advanced_tank_composite_armor = {
+		abbreviation = "comp"
+		category = tank_armor_type
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+	}
+	amphibious_drive = {
+		abbreviation = "amph"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	apfsds = {
+		abbreviation = "apfs"
+		category = tank_shells_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	armor_skirts = {
+		abbreviation = "skirt"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	atgm = {
+		abbreviation = "atgm"
+		category = tank_shells_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	auto_loader = {
+		abbreviation = "auto"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	besh = {
+		abbreviation = "hefs"
+		category = tank_shells_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	com_night_vision = {
+		abbreviation = "nvd"
+		category = tank_electronics_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	cutting_corner = {
+		abbreviation = "cuco"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	dozer_blade = {
+		abbreviation = "dozer"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	early_gps = {
+		abbreviation = "egp"
+		category = tank_electronics_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	early_light_modern_cannon = {
+		abbreviation = "sc3"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 1
+		}
+	}
+	early_modern_anti_air_cannon = {
+		abbreviation = "aa4"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			chromium = 1
+		}
+	}
+	early_modern_radio = {
+		abbreviation = "rad4"
+		category = tank_radio_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	easy_maintenance = {
+		abbreviation = "easy"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 10
+	}
+	em_optics = {
+		abbreviation = "emoptics"
+		category = tank_electronics_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	expanded_fuel_tank = {
+		abbreviation = "fuel"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 3
+	}
+	extra_ammo_storage = {
+		abbreviation = "extra"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	fair_repair = {
+		abbreviation = "frdzdzdze"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	flamethrower = {
+		abbreviation = "flt"
+		category = tank_flamethrower
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	gen1_night_vision = {
+		abbreviation = "nvd"
+		category = tank_electronics_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	gen1_thermal_vision = {
+		abbreviation = "nvd"
+		category = tank_electronics_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	gen2_night_vision = {
+		abbreviation = "nvd"
+		category = tank_electronics_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	gen2_thermal_vision = {
+		abbreviation = "nvd"
+		category = tank_electronics_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	gen3_night_vision = {
+		abbreviation = "nvd"
+		category = tank_electronics_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	gen3_thermal_vision = {
+		abbreviation = "nvd"
+		category = tank_electronics_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	hard_kill_system = {
+		abbreviation = "hks"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	heat_fs = {
+		abbreviation = "hefs"
+		category = tank_shells_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	lean_fuel = {
+		abbreviation = "lfue"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	light_modern_cannon = {
+		abbreviation = "sc4"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 4
+			chromium = 1
+		}
+	}
+	long_range_radio = {
+		abbreviation = "rad6"
+		category = tank_radio_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	modern_anti_air_cannon = {
+		abbreviation = "aa5"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			chromium = 1
+		}
+	}
+	modern_dozer_blade = {
+		abbreviation = "mdozer"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	modern_gps = {
+		abbreviation = "mgp"
+		category = tank_electronics_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	modern_optics = {
+		abbreviation = "moptics"
+		category = tank_electronics_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	modern_radio = {
+		abbreviation = "rad5"
+		category = tank_radio_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	reactive_plate = {
+		abbreviation = "reac"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+	}
+	secondary_turret_hmg = {
+		abbreviation = "thmg"
+		category = tank_secondary_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	secondary_turret_small_cannon = {
+		abbreviation = "tsc"
+		category = tank_secondary_turret
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	sloped_armor = {
+		abbreviation = "slop"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	slopped_turret_armor = {
+		abbreviation = "slop"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+	}
+	smoke_launchers = {
+		abbreviation = "smok"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	squeezebore_adaptor = {
+		abbreviation = "sque"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 1
+		}
+	}
+	stabilizer = {
+		abbreviation = "stab"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	tank_advanced_modern_cannon = {
+		abbreviation = "hv9"
+		category = tank_heavy_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 6
+			chromium = 2
+		}
+	}
+	tank_advanced_modern_howitzer = {
+		abbreviation = "hh5"
+		category = tank_heavy_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 2
+		}
+	}
+	tank_anti_air_cannon = {
+		abbreviation = "aa1"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	tank_anti_air_cannon_2 = {
+		abbreviation = "aa2"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 1
+		}
+	}
+	tank_anti_air_cannon_3 = {
+		abbreviation = "aa3"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 1
+			chromium = 1
+		}
+	}
+	tank_auto_cannon = {
+		abbreviation = "ac1"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	tank_auto_cannon_2 = {
+		abbreviation = "ac2"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	tank_bogie_suspension = {
+		abbreviation = "bog"
+		category = tank_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+		dismantle_cost_ic = 1
+	}
+	tank_cast_armor = {
+		abbreviation = "cas"
+		category = tank_armor_type
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+		dismantle_cost_ic = 1
+	}
+	tank_christie_suspension = {
+		abbreviation = "chr"
+		category = tank_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+		dismantle_cost_ic = 2
+	}
+	tank_close_support_gun = {
+		abbreviation = "cs"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	tank_cold_war_diesel_engine = {
+		abbreviation = "cwdie"
+		category = tank_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	tank_cold_war_gas_turbine_engine = {
+		abbreviation = "tur"
+		category = tank_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	tank_composite_armor = {
+		abbreviation = "comp"
+		category = tank_armor_type
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+	}
+	tank_diesel_engine = {
+		abbreviation = "die"
+		category = tank_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	tank_early_modern_cannon = {
+		abbreviation = "hv7"
+		category = tank_heavy_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 4
+			chromium = 1
+		}
+	}
+	tank_early_modern_howitzer = {
+		abbreviation = "hh3"
+		category = tank_heavy_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 2
+		}
+	}
+	tank_gas_turbine_engine = {
+		abbreviation = "tur"
+		category = tank_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	tank_gasoline_engine = {
+		abbreviation = "gas"
+		category = tank_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	tank_half_track_suspension = {
+		abbreviation = "htr"
+		category = tank_non_tracked_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+		dismantle_cost_ic = 0.5
+	}
+	tank_heavy_cannon = {
+		abbreviation = "hc1"
+		category = tank_heavy_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			chromium = 1
+		}
+	}
+	tank_heavy_cannon_2 = {
+		abbreviation = "hc2"
+		category = tank_heavy_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 1
+		}
+	}
+	tank_heavy_cannon_3 = {
+		abbreviation = "hc3"
+		category = tank_heavy_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 4
+			chromium = 1
+		}
+	}
+	tank_heavy_fixed_superstructure_turret = {
+		abbreviation = "hfs"
+		category = tank_heavy_turret_type
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		allowed_module_categories = { main_armament_slot = { tank_super_heavy_main_armament } }
+	}
+	tank_heavy_howitzer = {
+		abbreviation = "hh1"
+		category = tank_heavy_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 2
+		}
+	}
+	tank_heavy_machine_gun = {
+		abbreviation = "hmg"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	tank_heavy_three_man_tank_turret = {
+		abbreviation = "h3m"
+		category = tank_heavy_turret_type
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		allowed_module_categories = { main_armament_slot = { tank_heavy_main_armament } }
+	}
+	tank_heavy_two_man_tank_turret = {
+		abbreviation = "h2m"
+		category = tank_heavy_turret_type
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		allowed_module_categories = { main_armament_slot = { tank_heavy_main_armament } }
+	}
+	tank_high_velocity_cannon = {
+		abbreviation = "hv1"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 1
+		}
+	}
+	tank_high_velocity_cannon_2 = {
+		abbreviation = "hv2"
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			chromium = 1
+		}
+	}
+	tank_high_velocity_cannon_3 = {
+		abbreviation = "hv3"
+		category = tank_heavy_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 1
+		}
+	}
+	tank_interleaved_suspension = {
+		abbreviation = "int"
+		category = tank_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+		dismantle_cost_ic = 2
+	}
+	tank_light_fixed_superstructure_turret = {
+		abbreviation = "lfs"
+		category = tank_light_turret_type
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		allowed_module_categories = { main_armament_slot = { tank_medium_main_armament } }
+	}
+	tank_light_one_man_tank_turret = {
+		abbreviation = "l1m"
+		category = tank_light_turret_type
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	tank_light_three_man_tank_turret = {
+		abbreviation = "l3m"
+		category = tank_light_turret_type
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	tank_light_two_man_tank_turret = {
+		abbreviation = "l2m"
+		category = tank_light_turret_type
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	tank_medium_cannon = {
+		abbreviation = "mc1"
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 1
+		}
+	}
+	tank_medium_cannon_2 = {
+		abbreviation = "mc2"
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+			chromium = 1
+		}
+	}
+	tank_medium_fixed_superstructure_turret = {
+		abbreviation = "mfs"
+		category = tank_medium_turret_type
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+		allowed_module_categories = { main_armament_slot = { tank_heavy_main_armament } }
+	}
+	tank_medium_howitzer = {
+		abbreviation = "mh1"
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 2
+		}
+	}
+	tank_medium_howitzer_2 = {
+		abbreviation = "mh2"
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 1
+		}
+	}
+	tank_medium_one_man_tank_turret = {
+		abbreviation = "m1m"
+		category = tank_medium_turret_type
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	tank_medium_three_man_tank_turret = {
+		abbreviation = "m3m"
+		category = tank_medium_turret_type
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	tank_medium_two_man_tank_turret = {
+		abbreviation = "m2m"
+		category = tank_medium_turret_type
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	tank_modern_cannon = {
+		abbreviation = "hv8"
+		category = tank_heavy_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 5
+			chromium = 2
+		}
+	}
+	tank_modern_howitzer = {
+		abbreviation = "hh4"
+		category = tank_heavy_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 2
+		}
+	}
+	tank_modern_tank_turret = {
+		abbreviation = "mbt"
+		category = tank_modern_turret_type
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	tank_near_end_cold_war_diesel_engine = {
+		abbreviation = "necwdie"
+		category = tank_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	tank_near_end_cold_war_gas_turbine_engine = {
+		abbreviation = "tur"
+		category = tank_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	tank_nera_armor = {
+		abbreviation = "nera"
+		category = tank_armor_type
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+	}
+	tank_petrol_electric_engine = {
+		abbreviation = "pel"
+		category = tank_engine_type
+		sfx = sfx_ui_sd_module_engine
+	}
+	tank_post_war_howitzer = {
+		abbreviation = "hh2"
+		category = tank_heavy_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 3
+			chromium = 2
+		}
+	}
+	tank_radio_1 = {
+		abbreviation = "rad1"
+		category = tank_radio_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	tank_radio_2 = {
+		abbreviation = "rad2"
+		category = tank_radio_module
+		sfx = sfx_ui_sd_module_turret
+	}
+	tank_radio_3 = {
+		abbreviation = "rad3"
+		category = tank_radio_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	tank_riveted_armor = {
+		abbreviation = "riv"
+		category = tank_armor_type
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+	}
+	tank_rocket_launcher = {
+		abbreviation = "rk1"
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	tank_rocket_launcher_2 = {
+		abbreviation = "rk2"
+		category = tank_medium_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	tank_small_cannon = {
+		abbreviation = "sc1"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	tank_small_cannon_2 = {
+		abbreviation = "sc2"
+		category = tank_small_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	tank_spaced_armor = {
+		abbreviation = "spac"
+		category = tank_armor_type
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+	}
+	tank_super_heavy_cannon = {
+		abbreviation = "sh1"
+		category = tank_super_heavy_main_armament
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+		build_cost_resources = {
+			tungsten = 5
+			chromium = 2
+		}
+	}
+	tank_super_heavy_four_man_tank_turret = {
+		abbreviation = "s4m"
+		category = tank_super_heavy_turret_type
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	tank_super_heavy_three_man_tank_turret = {
+		abbreviation = "s3m"
+		category = tank_super_heavy_turret_type
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 2
+	}
+	tank_torsion_bar_suspension = {
+		abbreviation = "tor"
+		category = tank_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+		dismantle_cost_ic = 2
+	}
+	tank_welded_armor = {
+		abbreviation = "wel"
+		category = tank_armor_type
+		sfx = sfx_ui_sd_module_sonar
+		xp_cost = 8
+		dismantle_cost_ic = 1
+		build_cost_resources = {
+			chromium = 1
+		}
+	}
+	tank_wheeled_suspension = {
+		abbreviation = "whe"
+		category = tank_non_tracked_suspension_type
+		sfx = sfx_ui_sd_module_sonar
+		dismantle_cost_ic = 0.5
+	}
+	wet_ammo_storage = {
+		abbreviation = "wet"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+	wp_smoke = {
+		abbreviation = "wpsmo"
+		category = tank_special_module
+		sfx = sfx_ui_sd_module_turret
+		xp_cost = 1
+	}
+}

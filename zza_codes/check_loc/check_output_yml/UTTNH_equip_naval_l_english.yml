@@ -1,0 +1,1364 @@
+l_english:
+ # FLTE code del naval_equipment
+ # FLTE code del submarine_1
+ # FLTE code del submarine_2
+ # FLTE code del submarine_3
+ # FLTE code del submarine_4
+ # FLTE code del cruiser_submarine
+ # FLTE code del cruiser_submarine_desc
+ # FLTE code del fleet_submarine
+ # FLTE code del fleet_submarine_desc
+ # FLTE code del midget_submarine
+ # FLTE code del midget_submarine_desc
+ # FLTE code del rocket_submarine
+ # FLTE code del rocket_submarine_desc
+ # FLTE code del nuclear_submarine
+ # FLTE code del nuclear_submarine_desc
+ # FLTE code del nuclear_missile_submarine
+ # FLTE code del nuclear_missile_submarine_desc
+ # FLTE code del submarine_1_desc
+ # FLTE code del submarine_2_desc
+ # FLTE code del submarine_3_desc
+ # FLTE code del submarine_4_desc
+ # FLTE code del ship_hull_submarine_1_desc
+ # FLTE code del ship_hull_submarine_2_desc
+ # FLTE code del ship_hull_submarine_3_desc
+ # FLTE code del ship_hull_submarine_4_desc
+ ship_hull_submarine_5_desc:"As the war ends, the submarine has found itself as an absolute necessity for any naval power. Experimenting with longer dives, and to deeper depths, this vessel is a terrifying encounter for sure."
+ ship_hull_submarine_6_desc:"While not as impressive as a massive aircraft carrier, the modest submarine is arguably the most important part of any navy. Designed to be invisible to the newest sonar systems, this submarine is definitely a silent hunter."
+ ship_hull_submarine_7_desc:"As the nuclear age comes to submarines, the endurance of our under-sea fleet has skyrocketed. While a traditional submarine is only capable of being at sea for perhaps 2 weeks at a time, this vessel can go for months without resupply. Its range is limited by food stockpiles, rather than fuel amount."
+ ship_hull_submarine_8_desc:"By utilizing top-launch missiles, this submarine can launch a devastating attack without being in visible range of its target."
+ ship_hull_submarine_9_desc:"An improved layout, as well as space for vast amounts of provisions, means this submarine can stay at sea for almost a year."
+ ship_hull_submarine_10_desc:"Sonar systems have become much stronger, and much more sensitive to the traditionally noisy operation of propellors. Experiments with pump-jet propulsors have shown great promise. While heavier, more expensive, and generally slower than a propellor, the pump-jet propulsor is nearly silent, and all but undetectable to any curious foes." 
+ # FLTE code del destroyer_1
+ # FLTE code del destroyer_2
+ # FLTE code del destroyer_3
+ # FLTE code del destroyer_4
+ # FLTE code del destroyer_1_desc
+ # FLTE code del destroyer_2_desc
+ # FLTE code del destroyer_3_desc
+ # FLTE code del destroyer_4_desc
+ # FLTE code del ship_hull_light_1_desc
+ # FLTE code del ship_hull_light_2_desc
+ # FLTE code del ship_hull_light_3_desc
+ # FLTE code del ship_hull_light_4_desc
+ ship_hull_light_5_desc:"Destroyers laid down in the 5 years after the war still mostly resemble those of the previous generation, but with a few advantages - they tended to have fully automatic main guns, as well as an advanced suite of radar and sonar detection systems."
+ ship_hull_light_6_desc:"With the proliferation of the transistor, tasks that previously required dozens of men, such as manning a radar suite, now only require one or two. These ships are fast, deadly, and among the most technologically advanced in our navy."
+ ship_hull_light_7_desc:"The advent of accurate surface-to-air and surface-to-surface missiles has changed naval warfare. Even a modest destroyer carries enough firepower to sink any foe, and this design is the culmination of efforts to bring these weapons to the sea."
+ ship_hull_light_8_desc:"As radar becomes ever more powerful and accurate, we must design our new ships with such systems in mind. A simple slab side, with a smaller cross profile compared to older vessels, as well as an advanced set of missiles for destroying any foe, whether in the sky or on water, has resulted in a vessel which looks to be of space-age."
+ ship_hull_light_9_desc:"With the development of computing systems that no longer require an entire building to house, this destroyer is the first truly computerized vessel. Designed to be difficult to spot on radar, equipped with a fully electronic fire control and command system, and a vast array of weapons for any situation, this vessel is a truly modern warship."
+ ship_hull_light_10_desc:"As we enter the electronic age, we must not forget to modernize our navy. As such, this warship is equipped with electronic jamming equipment, predictive fire control systems, and a vertical-launch system for missiles of nearly any kind."
+ # FLTE code del light_cruiser_1
+ # FLTE code del light_cruiser_2
+ # FLTE code del light_cruiser_3
+ # FLTE code del light_cruiser_4
+ # FLTE code del torpedo_cruiser
+ # FLTE code del torpedo_cruiser_desc
+ # FLTE code del JAP_torpedo_cruiser
+ # FLTE code del light_cruiser_1_desc
+ # FLTE code del light_cruiser_2_desc
+ # FLTE code del light_cruiser_3_desc
+ # FLTE code del light_cruiser_4_desc
+ # FLTE code del heavy_cruiser_1
+ # FLTE code del heavy_cruiser_2
+ # FLTE code del heavy_cruiser_3
+ # FLTE code del heavy_cruiser_4
+ # FLTE code del heavy_cruiser_1_desc
+ # FLTE code del heavy_cruiser_2_desc
+ # FLTE code del heavy_cruiser_3_desc
+ # FLTE code del heavy_cruiser_4_desc
+ # FLTE code del ship_hull_cruiser_1_desc
+ # FLTE code del ship_hull_cruiser_2_desc
+ # FLTE code del ship_hull_cruiser_3_desc
+ # FLTE code del ship_hull_cruiser_4_desc
+ ship_hull_cruiser_5_desc:"By the end of the war, it has become clear that naval aviation has truly changed warfare at sea. We must develop a fast, well armored vessel with a vast array of anti-aircraft cannons, as well as a modern radar suite, suited perfectly to escort our capital ships." 
+ ship_hull_cruiser_6_desc:"The last of the cruisers equipped with conventional guns, this vessel is equipped with transistor-powered computers that allow for accurate fire over long distances. It is also very well armored, yet still fast to keep up with our heaviest warships."
+ ship_hull_cruiser_7_desc:"With the development of viable surface-to-air and surface-to-surface missiles, which can hit a target over hundreds of kilometers, has necessitated a cruiser capable of wielding these new weapons." 
+ ship_hull_cruiser_8_desc:"The increasingly automated systems of cruisers allow us to lay down a vessel with fewer men, yet with greater firepower than ever before." 
+ ship_hull_cruiser_9_desc:"As nuclear power becomes more viable, we can lay down a vessel designed to utilize the energy of the atom. Capable of operating at sea for weeks or even months at a time, these vessels have an endurance which is unheard of." 
+ ship_hull_cruiser_10_desc:"Computerization has resulted in a vessel with a large array of sensors, radars, and other equipment which has resulted in a truly modern warship." 
+ # FLTE code del battle_cruiser_1
+ # FLTE code del battle_cruiser_2
+ # FLTE code del battle_cruiser_3
+ # FLTE code del battle_cruiser_4
+ # FLTE code del battle_cruiser_1_desc
+ # FLTE code del battle_cruiser_2_desc
+ # FLTE code del battleship_1
+ # FLTE code del battleship_2
+ # FLTE code del battleship_3
+ # FLTE code del battleship_4
+ # FLTE code del battleship_5
+ # FLTE code del battleship_6
+ # FLTE code del battleship_1_desc
+ # FLTE code del battleship_2_desc
+ # FLTE code del battleship_3_desc
+ # FLTE code del battleship_4_desc
+ # FLTE code del ship_hull_heavy_1_desc
+ # FLTE code del ship_hull_heavy_2_desc
+ # FLTE code del ship_hull_heavy_3_desc
+ # FLTE code del ship_hull_heavy_4_desc
+ ship_hull_heavy_5_desc:"While naval aviation and surface-to-surface missiles have rendered our battleships obsolete, it would be wasteful to simply scrap the vessels that took so long to build. We should instead convert them into mobile, heavily armored missile warships, with the capability to launch dozens of missiles with devastating effects." 
+ ship_hull_heavy_6_desc:"Essentially an upscaled missile cruiser, this vessel is the final evolution of the battleship. Massive, well armored, fast, and equipped with a vast array of pinpoint-accurate missiles, capable of leveling an entire city, as well as an advanced communication system and radar suite, this warship acts more like a floating command center than a naval vessel." 
+ ship_hull_bc_carrier_1_desc:"The advantages of naval aviation are obvious - while the largest guns can hit a target at 20 kilometers, a single aircraft can drop a torpedo at ranges exceeding 100 kilometers, and with far greater accuracy. However, dedicated aircraft carriers are vulnerable if they are attacked directly. As such, a combination carrier/cruiser is proposed - bringing the best of both worlds with the downsides of neither." 
+ ship_hull_bc_carrier_2_desc:"By integrating computers into the communication systems of our aircraft cruisers, the aviation and naval components can work together, usually with disastrous results to the enemy fleet." 
+ ship_hull_bc_carrier_3_desc:"As guns are replaced by missiles, and spotters replaced by radar suites, this warship is the culmination of decades of naval experience. Fast and lethal, capable of nearly any task, this vessel is a foe to be reckoned with." 
+ # FLTE code del carrier_1
+ # FLTE code del carrier_2
+ # FLTE code del carrier_3
+ # FLTE code del carrier_4
+ # FLTE code del carrier_5
+ # FLTE code del carrier_6
+ # FLTE code del carrier_1_desc
+ # FLTE code del carrier_2_desc
+ # FLTE code del carrier_3_desc
+ # FLTE code del carrier_4_desc
+ # FLTE code del ship_hull_carrier_1_desc
+ # FLTE code del ship_hull_carrier_2_desc
+ # FLTE code del ship_hull_carrier_3_desc
+ ship_hull_carrier_5_desc:"The aircraft carriers built after the war generally resembled those of earlier years - large, relatively slow, heavy, and vulnerable to counter attack. While we lack the technology to rectify most of these issues, this vessel is much better protected from enemy attacks by both sea and air, using a combination of deck guns and radar suites." 
+ ship_hull_carrier_6_desc:"Communication is critical for the effectiveness of an aircraft carrier, and as such this warship is equipped with an advanced radio system enabling the crew to respond within minutes to enemy activity."
+ ship_hull_carrier_7_desc:"As jet naval fighters become a necessity, this carrier is equipped with a longer runway to enable these new aircraft to perform their duties."
+ ship_hull_carrier_8_desc:"An advanced radar system, as well as the beginnings of nuclear propulsion, mark this warship's development. Between that, and the increasingly capable jets which will reside on it, this aircraft carrier is an extremely capable vessel."
+ ship_hull_carrier_9_desc:"As computers become more viable, the development of a new aircraft carrier to make full use of this technology is a must."
+ ship_hull_carrier_10_desc:"An ever-greater focus on projecting naval power across the world has resulted in a fast and fearsome aircraft carrier, capable of nearly any task at hand." 
+ # FLTE code del SH_battleship_1
+ # FLTE code del SH_battleship_2
+ # FLTE code del SH_battleship_1_desc
+ # FLTE code del SH_battleship_2_desc
+ # FLTE code del ship_hull_super_heavy_1_desc
+ # FLTE code del ship_hull_light_1
+ # FLTE code del ship_hull_light_2
+ # FLTE code del ship_hull_light_3
+ # FLTE code del ship_hull_light_4
+ ship_hull_light_5:"1950 Destroyer Hull"
+ ship_hull_light_6:"1955 Destroyer Hull"
+ ship_hull_light_7:"1960 DDG"
+ ship_hull_light_8:"1970 DDG"
+ ship_hull_light_9:"1980 DDG"
+ ship_hull_light_10:"1990 DDG"
+ # FLTE code del ship_hull_cruiser
+ # FLTE code del ship_hull_cruiser_desc
+ # FLTE code del ship_hull_cruiser_1
+ # FLTE code del ship_hull_cruiser_2
+ # FLTE code del ship_hull_cruiser_3
+ # FLTE code del ship_hull_cruiser_4
+ ship_hull_cruiser_5:"1950 Cruiser Hull"
+ ship_hull_cruiser_6:"1955 Cruiser Hull" 
+ ship_hull_cruiser_7:"Missile Cruiser Hull" 
+ ship_hull_cruiser_8:"1970 Guided Missile Cruiser"
+ ship_hull_cruiser_9:"1980 Guided Missile Cruiser"
+ ship_hull_cruiser_10:"1990 Guided Missile Cruiser" 
+ # FLTE code del ship_hull_heavy
+ # FLTE code del ship_hull_heavy_desc
+ # FLTE code del ship_hull_heavy_1
+ # FLTE code del ship_hull_heavy_2
+ # FLTE code del ship_hull_heavy_3
+ # FLTE code del ship_hull_heavy_4
+ # FLTE code del ship_hull_heavy_modern
+ ship_hull_heavy_5:"Converted Missile Heavy"
+ ship_hull_heavy_6:"Guided Missile Battlecruiser"
+ ship_hull_bc_carrier_1:"60s Heavy aircraft cruiser" 
+ ship_hull_bc_carrier_2:"70s Heavy aircraft cruiser" 
+ ship_hull_bc_carrier_3:"80s Heavy aircraft cruiser" 
+ # FLTE code del modern_battleship
+ # FLTE code del ship_hull_carrier
+ # FLTE code del ship_hull_carrier_desc
+ # FLTE code del ship_hull_carrier_0
+ # FLTE code del ship_hull_carrier_conversion_bb
+ # FLTE code del ship_hull_carrier_conversion_bb_desc
+ # FLTE code del ship_hull_carrier_conversion_ca
+ # FLTE code del ship_hull_carrier_conversion_ca_desc
+ # FLTE code del ship_hull_carrier_1
+ # FLTE code del ship_hull_carrier_2
+ # FLTE code del ship_hull_carrier_3
+ # FLTE code del ship_hull_carrier_modern
+ ship_hull_carrier_5:"1950 Carrier Hull"
+ ship_hull_carrier_6:"1955 Carrier Hull" 
+ ship_hull_carrier_7:"1960 Carrier Hull"
+ ship_hull_carrier_8:"1970 Carrier Hull" 
+ ship_hull_carrier_9:"1980 Carrier Hull" 
+ ship_hull_carrier_10:"1990 Carrier Hull" 
+ # FLTE code replace ship_hull_carrier_modern_desc
+ # FLTE code del modern_carrier
+ # FLTE code del modern_carrier_desc
+ # FLTE code del mega_carrier
+ # FLTE code del mega_carrier_desc
+ # FLTE code del ship_hull_submarine
+ # FLTE code del ship_hull_submarine_desc
+ # FLTE code del ship_hull_submarine_1
+ # FLTE code del early_ship_hull_submarine
+ # FLTE code del ship_hull_submarine_2
+ # FLTE code del basic_ship_hull_submarine
+ # FLTE code del ship_hull_submarine_3
+ # FLTE code del improved_ship_hull_submarine
+ # FLTE code del ship_hull_submarine_4
+ # FLTE code del advanced_ship_hull_submarine
+ ship_hull_submarine_5:"1950 Submarine Hull" 
+ ship_hull_submarine_6:"1955 Submarine Hull" 
+ ship_hull_submarine_7:"1960 Submarine Hull" 
+ ship_hull_submarine_8:"1970 Submarine Hull" 
+ ship_hull_submarine_9:"1980 Submarine Hull" 
+ ship_hull_submarine_10:"1990 Submarine Hull" 
+ # FLTE code del ship_hull_pre_dreadnought
+ # FLTE code del ship_hull_pre_dreadnought_desc
+ # FLTE code del ship_hull_cruiser_panzerschiff
+ # FLTE code del ship_hull_cruiser_panzerschiff_desc
+ # FLTE code del ship_hull_cruiser_coastal_defense_ship
+ # FLTE code del ship_hull_cruiser_coastal_defense_ship_desc
+ # FLTE code del ship_hull_torpedo_cruiser
+ # FLTE code del ship_hull_torpedo_cruiser_desc
+ # FLTE code del ship_hull_super_heavy_1
+ # FLTE code del ship_hull_cruiser_submarine
+ # FLTE code del ship_hull_cruiser_submarine_desc
+ # FLTE code del ship_hull_midget_submarine
+ # FLTE code del ship_hull_midget_submarine_desc
+ # FLTE code del ship_hull_fleet_submarine
+ # FLTE code del ship_hull_fleet_submarine_desc
+ # FLTE code del ship_hull_carrier_submarine
+ # FLTE code del ship_hull_carrier_submarine_desc
+ # FLTE code del ship_hull_nuclear_submarine
+ # FLTE code del ship_hull_nuclear_submarine_desc
+ # FLTE code del ship_hull_mega_carrier
+ # FLTE code del ship_hull_mega_carrier_desc
+ # FLTE code del support_ship_hull
+ # FLTE code del support_ship
+ # FLTE code del support_ship_1
+ # FLTE code del support_ship_1_desc
+ # FLTE code del support_ship_2
+ # FLTE code del support_ship_2_desc
+ # FLTE code del repair_ship_hull
+ # FLTE code del repair_ship
+ # FLTE code del repair_ship_1
+ # FLTE code del repair_ship_1_desc
+ # FLTE code del repair_ship_2
+ # FLTE code del repair_ship_2_desc
+ # FLTE code del ship_hull_escort_carrier
+ # FLTE code del ship_hull_escort_carrier_desc
+ # FLTE code del escort_carrier
+ # FLTE code del escort_carrier_desc
+ ### ENG - ENGLAND ###
+ # FLTE code del ENG_submarine_1
+ # FLTE code del ENG_submarine_1_desc
+ #ENG_submarine_1b: "O/P/R Class"
+ #ENG_submarine_1c: "S Class"
+ # FLTE code del ENG_submarine_2
+ # FLTE code del ENG_submarine_2_desc
+ # FLTE code del ENG_submarine_3
+ # FLTE code del ENG_submarine_3_desc
+ #ENG_submarine_3b: "Seraph Class"
+ # FLTE code del ENG_submarine_4
+ # FLTE code del ENG_submarine_4_desc
+ #ENG_submarine_4b: "Amphion Class"
+ # FLTE code del ENG_destroyer_1
+ # FLTE code replace ENG_destroyer_1_desc
+ #ENG_destroyer_1b: "A/B/C/D Class"
+ # FLTE code del ENG_destroyer_2
+ # FLTE code del ENG_destroyer_2_desc
+ #ENG_destroyer_2b: "Tribal Class"
+ # FLTE code del ENG_destroyer_3
+ # FLTE code del ENG_destroyer_3_desc
+ # FLTE code del ENG_destroyer_4
+ # FLTE code del ENG_destroyer_4_desc
+ #ENG_destroyer_4b: "Weapon Class"
+ # FLTE code del ENG_light_cruiser_1
+ # FLTE code del ENG_light_cruiser_1_desc
+ #ENG_light_cruiser_1b: "Emerald Class"
+ #ENG_light_cruiser_1c: "Amphion Class"
+ # FLTE code del ENG_light_cruiser_2
+ # FLTE code del ENG_light_cruiser_2_desc
+ #ENG_light_cruiser_2b: "Edinburgh Class"
+ # FLTE code del ENG_light_cruiser_3
+ # FLTE code del ENG_light_cruiser_3_desc
+ #ENG_light_cruiser_3b: "Dido Class"
+ # FLTE code del ENG_light_cruiser_4
+ # FLTE code del ENG_light_cruiser_4_desc
+ # FLTE code del ENG_heavy_cruiser_1
+ # FLTE code del ENG_heavy_cruiser_1_desc
+ #ENG_heavy_cruiser_1b: "County Class"
+ # FLTE code del ENG_heavy_cruiser_2
+ # FLTE code del ENG_heavy_cruiser_2_desc
+ # FLTE code del ENG_heavy_cruiser_3
+ # FLTE code del ENG_heavy_cruiser_3_desc
+ # FLTE code del ENG_heavy_cruiser_4
+ # FLTE code del ENG_heavy_cruiser_4_desc
+ # FLTE code del ENG_battle_cruiser_1
+ # FLTE code del ENG_battle_cruiser_1_desc
+ #ENG_battle_cruiser_1b: "Admiral Class"
+ # FLTE code del ENG_battle_cruiser_2
+ # FLTE code del ENG_battle_cruiser_2_desc
+ # FLTE code del ENG_battleship_1
+ # FLTE code del ENG_battleship_1_desc
+ #ENG_battleship_1b: "Nelson Class"
+ # FLTE code del ENG_battleship_2
+ # FLTE code del ENG_battleship_2_desc
+ # FLTE code del ENG_battleship_3
+ # FLTE code del ENG_battleship_3_desc
+ # FLTE code del ENG_battleship_4
+ # FLTE code del ENG_battleship_4_desc
+ # FLTE code del ENG_SH_battleship_1
+ # FLTE code del ENG_SH_battleship_1_desc
+ # FLTE code del ENG_SH_battleship_2
+ # FLTE code del ENG_SH_battleship_2_desc
+ # FLTE code del ENG_carrier_1
+ # FLTE code del ENG_carrier_1_desc
+ # FLTE code del ENG_carrier_2
+ # FLTE code del ENG_carrier_2_desc
+ # FLTE code del ENG_carrier_3
+ # FLTE code del ENG_carrier_3_desc
+ # FLTE code del ENG_carrier_4
+ # FLTE code del ENG_carrier_4_desc
+ #ENG_carrier_4b: "Malta Class"
+ ### FRA - FRANCE ###
+ # FLTE code del FRA_submarine_1
+ # FLTE code del FRA_submarine_1_desc
+ #FRA_submarine_1b: "630 Series"
+ #FRA_submarine_1c: "Redoutable Class"
+ # FLTE code del FRA_submarine_2
+ # FLTE code del FRA_submarine_2_desc
+ #FRA_submarine_2b: "Aurore Class"
+ # FLTE code del FRA_submarine_3
+ # FLTE code del FRA_submarine_3_desc
+ # FLTE code del FRA_submarine_4
+ # FLTE code del FRA_submarine_4_desc
+ # FLTE code del FRA_destroyer_1
+ # FLTE code del FRA_destroyer_1_desc
+ #FRA_destroyer_1b: "Chacal Class"
+ #FRA_destroyer_1c: "Aigle & Vauquelin Class"
+ # FLTE code del FRA_destroyer_2
+ # FLTE code del FRA_destroyer_2_desc
+ #FRA_destroyer_2b: "Le Hardi Class"
+ #FRA_destroyer_2c: "Mogador Class"
+ # FLTE code del FRA_destroyer_3
+ # FLTE code del FRA_destroyer_3_desc
+ # FLTE code del FRA_destroyer_4
+ # FLTE code del FRA_destroyer_4_desc
+ # FLTE code del FRA_light_cruiser_1
+ # FLTE code del FRA_light_cruiser_1_desc
+ # FLTE code del FRA_light_cruiser_2
+ # FLTE code del FRA_light_cruiser_2_desc
+ # FLTE code del FRA_light_cruiser_3
+ # FLTE code del FRA_light_cruiser_3_desc
+ # FLTE code del FRA_light_cruiser_4
+ # FLTE code del FRA_light_cruiser_4_desc
+ # FLTE code del FRA_heavy_cruiser_1
+ # FLTE code del FRA_heavy_cruiser_1_desc
+ # FLTE code del FRA_heavy_cruiser_2
+ # FLTE code del FRA_heavy_cruiser_2_desc
+ # FLTE code del FRA_heavy_cruiser_3
+ # FLTE code del FRA_heavy_cruiser_3_desc
+ # FLTE code del FRA_heavy_cruiser_4
+ # FLTE code del FRA_heavy_cruiser_4_desc
+ # FLTE code del FRA_battle_cruiser_1
+ # FLTE code del FRA_battle_cruiser_1_desc
+ # FLTE code del FRA_battle_cruiser_2
+ # FLTE code del FRA_battle_cruiser_2_desc
+ # FLTE code del FRA_battleship_1
+ # FLTE code del FRA_battleship_1_desc
+ #FRA_battleship_1b: "Bretagne Class" 
+ # FLTE code del FRA_battleship_2
+ # FLTE code del FRA_battleship_2_desc
+ # FLTE code del FRA_battleship_3
+ # FLTE code del FRA_battleship_3_desc
+ # FLTE code del FRA_battleship_4
+ # FLTE code del FRA_battleship_4_desc
+ # FLTE code del FRA_SH_battleship_1
+ # FLTE code del FRA_SH_battleship_1_desc
+ # FLTE code del FRA_SH_battleship_2
+ # FLTE code del FRA_SH_battleship_2_desc
+ # FLTE code del FRA_carrier_1
+ # FLTE code del FRA_carrier_1_desc
+ # FLTE code del FRA_carrier_2
+ # FLTE code del FRA_carrier_2_desc
+ # FLTE code del FRA_carrier_3
+ # FLTE code del FRA_carrier_3_desc
+ # FLTE code del FRA_carrier_4
+ # FLTE code del FRA_carrier_4_desc
+ ### GER - GERMANY ###
+ # FLTE code del GER_submarine_1
+ # FLTE code del GER_submarine_1_desc
+ # FLTE code del GER_submarine_2
+ # FLTE code del GER_submarine_2_desc
+ #GER_submarine_2b: "Type VIIA"
+ # FLTE code del GER_submarine_3
+ # FLTE code del GER_submarine_3_desc
+ #GER_submarine_3b: "Type IXC"
+ # FLTE code del GER_submarine_4
+ # FLTE code del GER_submarine_4_desc
+ # FLTE code del GER_destroyer_1
+ # FLTE code del GER_destroyer_1_desc
+ # FLTE code del GER_destroyer_2
+ # FLTE code del GER_destroyer_2_desc
+ # FLTE code del GER_destroyer_3
+ # FLTE code del GER_destroyer_3_desc
+ # FLTE code del GER_destroyer_4
+ # FLTE code del GER_destroyer_4_desc
+ # FLTE code del GER_light_cruiser_1
+ # FLTE code del GER_light_cruiser_1_desc
+ #GER_light_cruiser_1b: "Königsberg Class"
+ # FLTE code del GER_light_cruiser_2
+ # FLTE code del GER_light_cruiser_2_desc
+ # FLTE code del GER_light_cruiser_3
+ # FLTE code del GER_light_cruiser_3_desc
+ # FLTE code del GER_light_cruiser_4
+ # FLTE code del GER_light_cruiser_4_desc
+ # FLTE code del GER_heavy_cruiser_1
+ # FLTE code del GER_heavy_cruiser_1_desc
+ # FLTE code del GER_heavy_cruiser_2
+ # FLTE code del GER_heavy_cruiser_2_desc
+ # FLTE code del GER_heavy_cruiser_3
+ # FLTE code del GER_heavy_cruiser_3_desc
+ # FLTE code del GER_heavy_cruiser_4
+ # FLTE code del GER_heavy_cruiser_4_desc
+ # FLTE code del GER_battle_cruiser_1
+ # FLTE code del GER_battle_cruiser_1_desc
+ # FLTE code del GER_battle_cruiser_2
+ # FLTE code del GER_battle_cruiser_2_desc
+ # FLTE code del GER_battleship_1
+ # FLTE code replace GER_battleship_1_desc
+ # FLTE code del GER_battleship_2
+ # FLTE code del GER_battleship_2_desc
+ # FLTE code del GER_battleship_3
+ # FLTE code del GER_battleship_3_desc
+ # FLTE code del GER_battleship_4
+ # FLTE code del GER_battleship_4_desc
+ # FLTE code del GER_carrier_1
+ # FLTE code del GER_carrier_1_desc
+ # FLTE code del GER_carrier_2
+ # FLTE code del GER_carrier_2_desc
+ # FLTE code del GER_carrier_3
+ # FLTE code del GER_carrier_3_desc
+ # FLTE code del GER_carrier_4
+ # FLTE code del GER_carrier_4_desc
+ # FLTE code del GER_SH_battleship_1
+ # FLTE code del GER_SH_battleship_1_desc
+ # FLTE code del GER_SH_battleship_2
+ # FLTE code del GER_SH_battleship_2_desc
+ ### ITA - ITALY ###
+ # FLTE code del ITA_submarine_1
+ # FLTE code del ITA_submarine_1_desc
+ #ITA_submarine_1b: "Bandiera Class"
+ #ITA_submarine_1c: "Sirena Class"
+ # FLTE code del ITA_submarine_2
+ # FLTE code del ITA_submarine_2_desc
+ #ITA_submarine_2b: "Marcello Class"
+ # FLTE code del ITA_submarine_3
+ # FLTE code del ITA_submarine_3_desc
+ #ITA_submarine_3b: "Plantino Class"
+ # FLTE code del ITA_submarine_4
+ # FLTE code del ITA_submarine_4_desc
+ # FLTE code del ITA_destroyer_1
+ # FLTE code del ITA_destroyer_1_desc
+ #ITA_destroyer_1b: "Navigatori Class"
+ #ITA_destroyer_1c: "Maestrale Class"
+ # FLTE code del ITA_destroyer_2
+ # FLTE code del ITA_destroyer_2_desc
+ # FLTE code del ITA_destroyer_3
+ # FLTE code del ITA_destroyer_3_desc
+ #ITA_destroyer_3b: "Ariete Class"
+ # FLTE code del ITA_destroyer_4
+ # FLTE code del ITA_destroyer_4_desc
+ # FLTE code del ITA_light_cruiser_1
+ # FLTE code del ITA_light_cruiser_1_desc
+ #ITA_light_cruiser_1b: "Giussano Class"
+ #ITA_light_cruiser_1c: "Montecuccoli Class"
+ # FLTE code del ITA_light_cruiser_2
+ # FLTE code del ITA_light_cruiser_2_desc
+ # FLTE code del ITA_light_cruiser_3
+ # FLTE code del ITA_light_cruiser_3_desc
+ # FLTE code del ITA_light_cruiser_4
+ # FLTE code del ITA_light_cruiser_4_desc
+ # FLTE code del ITA_heavy_cruiser_1
+ # FLTE code del ITA_heavy_cruiser_1_desc
+ #ITA_heavy_cruiser_1b: "Zara Class"
+ # FLTE code del ITA_heavy_cruiser_2
+ # FLTE code del ITA_heavy_cruiser_2_desc
+ # FLTE code del ITA_heavy_cruiser_3
+ # FLTE code del ITA_heavy_cruiser_3_desc
+ # FLTE code del ITA_heavy_cruiser_4
+ # FLTE code del ITA_heavy_cruiser_4_desc
+ # FLTE code del ITA_battle_cruiser_1
+ # FLTE code del ITA_battle_cruiser_1_desc
+ # FLTE code del ITA_battle_cruiser_2
+ # FLTE code del ITA_battle_cruiser_2_desc
+ # FLTE code del ITA_battleship_1
+ # FLTE code del ITA_battleship_1_desc
+ # FLTE code del ITA_battleship_2
+ # FLTE code del ITA_battleship_2_desc
+ # FLTE code del ITA_battleship_3
+ # FLTE code del ITA_battleship_3_desc
+ # FLTE code del ITA_battleship_4
+ # FLTE code del ITA_battleship_4_desc
+ # FLTE code del ITA_carrier_1
+ # FLTE code del ITA_carrier_1_desc
+ # FLTE code del ITA_carrier_2
+ # FLTE code del ITA_carrier_2_desc
+ # FLTE code del ITA_carrier_3
+ # FLTE code del ITA_carrier_3_desc
+ # FLTE code del ITA_carrier_4
+ # FLTE code del ITA_carrier_4_desc
+ # FLTE code del ITA_SH_battleship_1
+ # FLTE code del ITA_SH_battleship_1_desc
+ # FLTE code del ITA_SH_battleship_2
+ # FLTE code del ITA_SH_battleship_2_desc
+ ### JAP - JAPAN ###
+ # FLTE code del JAP_submarine_1
+ # FLTE code del JAP_submarine_1_desc
+ #JAP_submarine_1b: "Kaidai III Class"
+ # FLTE code del JAP_submarine_2
+ # FLTE code del JAP_submarine_2_desc
+ # FLTE code del JAP_submarine_3
+ # FLTE code del JAP_submarine_3_desc
+ #JAP_submarine_3b: "Ko/Otsu/Hei-gata Class (late)"
+ # FLTE code del JAP_submarine_4
+ # FLTE code del JAP_submarine_4_desc
+ #JAP_submarine_4b: "Sen-Taka Class"
+ # FLTE code del JAP_destroyer_1
+ # FLTE code del JAP_destroyer_1_desc
+ #JAP_destroyer_1b: "Fubuki Class"
+ # FLTE code del JAP_destroyer_2
+ # FLTE code del JAP_destroyer_2_desc
+ #JAP_destroyer_2b_ "Kagero Class"
+ # FLTE code del JAP_destroyer_3
+ # FLTE code del JAP_destroyer_3_desc
+ # FLTE code del JAP_destroyer_4
+ # FLTE code del JAP_destroyer_4_desc
+ # FLTE code del JAP_light_cruiser_1
+ # FLTE code del JAP_light_cruiser_1_desc
+ #JAP_light_cruiser_1b: "Kuma Class"
+ #JAP_light_cruiser_1c: "Sendai Class"
+ # FLTE code del JAP_light_cruiser_2
+ # FLTE code del JAP_light_cruiser_2_desc
+ # FLTE code del JAP_light_cruiser_3
+ # FLTE code del JAP_light_cruiser_3_desc
+ #JAP_light_cruiser_3b: "Oyodo Class"
+ # FLTE code del JAP_light_cruiser_4
+ # FLTE code del JAP_light_cruiser_4_desc
+ # FLTE code del JAP_heavy_cruiser_1
+ # FLTE code del JAP_heavy_cruiser_1_desc
+ #JAP_heavy_cruiser_1b: "Myoko Class"
+ # FLTE code del JAP_heavy_cruiser_2
+ # FLTE code del JAP_heavy_cruiser_2_desc
+ # FLTE code del JAP_heavy_cruiser_3
+ # FLTE code del JAP_heavy_cruiser_3_desc
+ # FLTE code del JAP_heavy_cruiser_4
+ # FLTE code del JAP_heavy_cruiser_4_desc
+ # FLTE code del JAP_battle_cruiser_1
+ # FLTE code del JAP_battle_cruiser_1_desc
+ # FLTE code del JAP_battle_cruiser_2
+ # FLTE code del JAP_battle_cruiser_2_desc
+ # FLTE code del JAP_battleship_1
+ # FLTE code del JAP_battleship_1_desc
+ #JAP_battleship_1b: "Ise Class" (refit version)
+ #JAP_battleship_1c: "Nagato Class" (refit version)
+ # FLTE code del JAP_battleship_2
+ # FLTE code del JAP_battleship_2_desc
+ # FLTE code del JAP_battleship_3
+ # FLTE code del JAP_battleship_3_desc
+ # FLTE code del JAP_battleship_4
+ # FLTE code del JAP_battleship_4_desc
+ # FLTE code del JAP_SH_battleship_1
+ # FLTE code del JAP_SH_battleship_1_desc
+ # FLTE code del JAP_SH_battleship_2
+ # FLTE code del JAP_SH_battleship_2_desc
+ # FLTE code del JAP_carrier_1
+ # FLTE code del JAP_carrier_1_desc
+ #JAP_carrier_1b: "Akagi Class" (refit Kaga class)
+ # FLTE code del JAP_carrier_2
+ # FLTE code del JAP_carrier_2_desc
+ #JAP_carrier_2b: "Hiryu Class"
+ # FLTE code del JAP_carrier_3
+ # FLTE code del JAP_carrier_3_desc
+ #JAP_carrier_3b: "Hiyo Class"
+ # FLTE code del JAP_carrier_4
+ # FLTE code del JAP_carrier_4_desc
+ #JAP_carrier_4b: "Shinano Class"
+ ### SOV - SOVIET UNION ###
+ # FLTE code del SOV_submarine_1
+ # FLTE code del SOV_submarine_1_desc
+ #SOV_submarine_1b: "Series I Debakrist"
+ # FLTE code del SOV_submarine_2
+ # FLTE code del SOV_submarine_2_desc
+ #SOV_submarine_2b: "Series IX Srednyaya" (Stalinets<-unofficial name)
+ #SOV_submarine_2c: "Series X Shchuka"
+ # FLTE code del SOV_submarine_3
+ # FLTE code del SOV_submarine_3_desc
+ # FLTE code del SOV_submarine_4
+ # FLTE code del SOV_submarine_4_desc
+ # FLTE code del SOV_destroyer_1
+ # FLTE code del SOV_destroyer_1_desc
+ #SOV_destroyer_1b: "Leningrad & Minsk Class"
+ # FLTE code del SOV_destroyer_2
+ # FLTE code del SOV_destroyer_2_desc
+ # FLTE code del SOV_destroyer_3
+ # FLTE code del SOV_destroyer_3_desc
+ #SOV_destroyer_3b: "Ognevoy Class"
+ # FLTE code del SOV_destroyer_4
+ # FLTE code del SOV_destroyer_4_desc
+ # FLTE code del SOV_light_cruiser_1
+ # FLTE code del SOV_light_cruiser_1_desc
+ # FLTE code del SOV_light_cruiser_2
+ # FLTE code del SOV_light_cruiser_2_desc
+ # FLTE code del SOV_light_cruiser_3
+ # FLTE code del SOV_light_cruiser_3_desc
+ # FLTE code del SOV_light_cruiser_4
+ # FLTE code del SOV_light_cruiser_4_desc
+ # FLTE code del SOV_heavy_cruiser_1
+ # FLTE code del SOV_heavy_cruiser_1_desc
+ # FLTE code del SOV_heavy_cruiser_2
+ # FLTE code del SOV_heavy_cruiser_2_desc
+ #SOV_heavy_cruiser_2b: "Maxim Gorky Class"
+ # FLTE code del SOV_heavy_cruiser_3
+ # FLTE code del SOV_heavy_cruiser_3_desc
+ # FLTE code del SOV_heavy_cruiser_4
+ # FLTE code del SOV_heavy_cruiser_4_desc
+ # FLTE code del SOV_battle_cruiser_1
+ # FLTE code del SOV_battle_cruiser_1_desc
+ # FLTE code del SOV_battle_cruiser_2
+ # FLTE code del SOV_battle_cruiser_2_desc
+ # FLTE code del SOV_battleship_1
+ # FLTE code del SOV_battleship_1_desc
+ # FLTE code del SOV_battleship_2
+ # FLTE code del SOV_battleship_2_desc
+ # FLTE code del SOV_battleship_3
+ # FLTE code del SOV_battleship_3_desc
+ # FLTE code del SOV_battleship_4
+ # FLTE code del SOV_battleship_4_desc
+ # FLTE code del SOV_SH_battleship_1
+ # FLTE code del SOV_SH_battleship_1_desc
+ # FLTE code del SOV_SH_battleship_2
+ # FLTE code del SOV_SH_battleship_2_desc
+ # FLTE code del SOV_carrier_1
+ # FLTE code del SOV_carrier_1_desc
+ # FLTE code del SOV_carrier_2
+ # FLTE code del SOV_carrier_2_desc
+ # FLTE code del SOV_carrier_3
+ # FLTE code del SOV_carrier_3_desc
+ # FLTE code del SOV_carrier_4
+ # FLTE code del SOV_carrier_4_desc
+ ### USA - USA ###
+ # FLTE code del USA_submarine_1
+ # FLTE code del USA_submarine_1_desc
+ #USA_submarine_1b: "Barracuda Class"
+ # FLTE code del USA_submarine_2
+ # FLTE code del USA_submarine_2_desc
+ #USA_submarine_2b: "Salmon Class"
+ # FLTE code del USA_submarine_3
+ # FLTE code del USA_submarine_3_desc
+ #USA_submarine_3b: "Gato Class"
+ # FLTE code del USA_submarine_4
+ # FLTE code del USA_submarine_4_desc
+ # FLTE code del USA_destroyer_1
+ # FLTE code del USA_destroyer_1_desc
+ #USA_destroyer_1b: "Farragut Class"
+ # FLTE code del USA_destroyer_2
+ # FLTE code del USA_destroyer_2_desc
+ #USA_destroyer_2b: "Benson & Gleaves Class"
+ # FLTE code del USA_destroyer_3
+ # FLTE code del USA_destroyer_3_desc
+ # FLTE code del USA_destroyer_4
+ # FLTE code del USA_destroyer_4_desc
+ # FLTE code del USA_light_cruiser_1
+ # FLTE code del USA_light_cruiser_1_desc
+ # FLTE code del USA_light_cruiser_2
+ # FLTE code del USA_light_cruiser_2_desc
+ # FLTE code del USA_light_cruiser_3
+ # FLTE code del USA_light_cruiser_3_desc
+ # FLTE code del USA_light_cruiser_4
+ # FLTE code del USA_light_cruiser_4_desc
+ # FLTE code del USA_heavy_cruiser_1
+ # FLTE code del USA_heavy_cruiser_1_desc
+ #USA_heavy_cruiser_1b: "Portland Class"
+ # FLTE code del USA_heavy_cruiser_2
+ # FLTE code del USA_heavy_cruiser_2_desc
+ # FLTE code del USA_heavy_cruiser_3
+ # FLTE code del USA_heavy_cruiser_3_desc
+ # FLTE code del USA_heavy_cruiser_4
+ # FLTE code del USA_heavy_cruiser_4_desc
+ # FLTE code del USA_battle_cruiser_1
+ # FLTE code del USA_battle_cruiser_1_desc
+ # FLTE code del USA_battle_cruiser_2
+ # FLTE code del USA_battle_cruiser_2_desc
+ # FLTE code del USA_battleship_1
+ # FLTE code del USA_battleship_1_desc
+ #USA_battleship_1b: "Pennsylvania Class"
+ #USA_battleship_1c: "New Mexico Class"
+ # FLTE code del USA_battleship_2
+ # FLTE code del USA_battleship_2_desc
+ #USA_battleship_2b: "South Dakota Class"
+ # FLTE code del USA_battleship_3
+ # FLTE code del USA_battleship_3_desc
+ # FLTE code del USA_battleship_4
+ # FLTE code del USA_battleship_4_desc
+ # FLTE code del USA_carrier_1
+ # FLTE code del USA_carrier_1_desc
+ # FLTE code del USA_carrier_2
+ # FLTE code del USA_carrier_2_desc
+ #USA_carrier_2b: "Yorktown Class"
+ #USA_carrier_2c: "Wasp Class"
+ # FLTE code del USA_carrier_3
+ # FLTE code del USA_carrier_3_desc
+ # FLTE code del USA_carrier_4
+ # FLTE code del USA_carrier_4_desc
+ # FLTE code del USA_SH_battleship_1
+ # FLTE code del USA_SH_battleship_1_desc
+ # FLTE code del USA_SH_battleship_2
+ # FLTE code del USA_SH_battleship_2_desc
+ ### ALB - ALBANIA -- all generic ###
+ ### ARG - ARGENTINA ###
+ # FLTE code del ARG_submarine_1
+ # FLTE code del ARG_submarine_1_desc
+ # FLTE code del ARG_destroyer_1
+ # FLTE code del ARG_destroyer_1_desc
+ #ARG_destroyer_1b: "Cervantes Class"
+ # FLTE code del ARG_destroyer_2
+ # FLTE code del ARG_destroyer_2_desc
+ # FLTE code del ARG_light_cruiser_1
+ # FLTE code del ARG_light_cruiser_1_desc
+ # FLTE code del ARG_light_cruiser_2
+ # FLTE code del ARG_light_cruiser_2_desc
+ # FLTE code del ARG_heavy_cruiser_1
+ # FLTE code del ARG_heavy_cruiser_1_desc
+ #ARG_heavy_cruiser_1b: "Veinticinco de Mayo Class"
+ # FLTE code del ARG_battleship_1
+ # FLTE code del ARG_battleship_1_desc
+ ### AST - AUSTRALIA ###
+ # FLTE code del AST_submarine_1
+ # FLTE code del AST_submarine_1_desc
+ # FLTE code del AST_submarine_2
+ # FLTE code del AST_submarine_2_desc
+ # FLTE code del AST_submarine_3
+ # FLTE code del AST_submarine_3_desc
+ # FLTE code del AST_submarine_4
+ # FLTE code del AST_submarine_4_desc
+ # FLTE code del AST_destroyer_1
+ # FLTE code del AST_destroyer_1_desc
+ # FLTE code del AST_destroyer_2
+ # FLTE code del AST_destroyer_2_desc
+ #AST_destroyer_2b: "Arunta Class"
+ # FLTE code del AST_destroyer_3
+ # FLTE code del AST_destroyer_3_desc
+ # FLTE code del AST_destroyer_4
+ # FLTE code del AST_destroyer_4_desc
+ #AST_destroyer_4b: "Tobruk Class"
+ # FLTE code del AST_light_cruiser_1
+ # FLTE code del AST_light_cruiser_1_desc
+ #AST_light_cruiser_1c: "Sydney Class"
+ # FLTE code del AST_light_cruiser_2
+ # FLTE code del AST_light_cruiser_2_desc
+ # FLTE code del AST_light_cruiser_3
+ # FLTE code del AST_light_cruiser_3_desc
+ # FLTE code del AST_light_cruiser_4
+ # FLTE code del AST_light_cruiser_4_desc
+ # FLTE code del AST_heavy_cruiser_1
+ # FLTE code del AST_heavy_cruiser_1_desc
+ #AST_heavy_cruiser_1b: "Canberra Class"
+ # FLTE code del AST_heavy_cruiser_2
+ # FLTE code del AST_heavy_cruiser_2_desc
+ # FLTE code del AST_heavy_cruiser_3
+ # FLTE code del AST_heavy_cruiser_3_desc
+ # FLTE code del AST_heavy_cruiser_4
+ # FLTE code del AST_heavy_cruiser_4_desc
+ # FLTE code del AST_battle_cruiser_1
+ # FLTE code del AST_battle_cruiser_1_desc
+ # FLTE code del AST_battle_cruiser_2
+ # FLTE code del AST_battle_cruiser_2_desc
+ # FLTE code del AST_battleship_1
+ # FLTE code del AST_battleship_1_desc
+ # FLTE code del AST_battleship_2
+ # FLTE code del AST_battleship_2_desc
+ # FLTE code del AST_battleship_3
+ # FLTE code del AST_battleship_3_desc
+ # FLTE code del AST_battleship_4
+ # FLTE code del AST_battleship_4_desc
+ # FLTE code del AST_SH_battleship_1
+ # FLTE code del AST_SH_battleship_1_desc
+ # FLTE code del AST_SH_battleship_2
+ # FLTE code del AST_SH_battleship_2_desc
+ # FLTE code del AST_carrier_1
+ # FLTE code del AST_carrier_1_desc
+ # FLTE code del AST_carrier_2
+ # FLTE code del AST_carrier_2_desc
+ # FLTE code del AST_carrier_3
+ # FLTE code del AST_carrier_3_desc
+ # FLTE code del AST_carrier_4
+ # FLTE code del AST_carrier_4_desc
+ ### BEL - BELGIUM -- all generic ###
+ ### BRA - BRAZIL ###
+ # FLTE code del BRA_submarine_1
+ # FLTE code del BRA_submarine_1_desc
+ # FLTE code del BRA_submarine_2
+ # FLTE code del BRA_submarine_2_desc
+ # FLTE code replace BRA_destroyer_1
+ # FLTE code replace BRA_destroyer_1_desc
+ # FLTE code del BRA_destroyer_2
+ # FLTE code del BRA_destroyer_2_desc
+ # FLTE code del BRA_destroyer_3
+ # FLTE code del BRA_destroyer_3_desc
+ # FLTE code del BRA_destroyer_4
+ # FLTE code del BRA_destroyer_4_desc
+ # FLTE code del BRA_light_cruiser_1
+ # FLTE code del BRA_light_cruiser_1_desc
+ # FLTE code del BRA_battleship_1
+ # FLTE code del BRA_battleship_1_desc
+ ### BUL - BULGARIA -- all generic ###
+ ### CAN - CANADA ###
+ # FLTE code del CAN_submarine_1
+ # FLTE code del CAN_submarine_1_desc
+ # FLTE code del CAN_submarine_2
+ # FLTE code del CAN_submarine_2_desc
+ # FLTE code del CAN_submarine_3
+ # FLTE code del CAN_submarine_3_desc
+ # FLTE code del CAN_submarine_4
+ # FLTE code del CAN_submarine_4_desc
+ # FLTE code del CAN_destroyer_1
+ # FLTE code del CAN_destroyer_1_desc
+ #CAN_destroyer_1b: "Saguenay Class"
+ # FLTE code del CAN_destroyer_2
+ # FLTE code del CAN_destroyer_2_desc
+ #CAN_destroyer_2b: "Athabaskan Class"
+ # FLTE code del CAN_destroyer_3
+ # FLTE code del CAN_destroyer_3_desc
+ # FLTE code del CAN_destroyer_4
+ # FLTE code del CAN_destroyer_4_desc
+ # FLTE code del CAN_light_cruiser_1
+ # FLTE code del CAN_light_cruiser_1_desc
+ # FLTE code del CAN_light_cruiser_2
+ # FLTE code del CAN_light_cruiser_2_desc
+ # FLTE code del CAN_light_cruiser_3
+ # FLTE code del CAN_light_cruiser_3_desc
+ # FLTE code del CAN_light_cruiser_4
+ # FLTE code del CAN_light_cruiser_4_desc
+ # FLTE code del CAN_heavy_cruiser_1
+ # FLTE code del CAN_heavy_cruiser_1_desc
+ # FLTE code del CAN_heavy_cruiser_2
+ # FLTE code del CAN_heavy_cruiser_2_desc
+ # FLTE code del CAN_heavy_cruiser_3
+ # FLTE code del CAN_heavy_cruiser_3_desc
+ # FLTE code del CAN_heavy_cruiser_4
+ # FLTE code del CAN_heavy_cruiser_4_desc
+ # FLTE code del CAN_battle_cruiser_1
+ # FLTE code del CAN_battle_cruiser_1_desc
+ # FLTE code del CAN_battle_cruiser_2
+ # FLTE code del CAN_battle_cruiser_2_desc
+ # FLTE code del CAN_battleship_1
+ # FLTE code del CAN_battleship_1_desc
+ # FLTE code del CAN_battleship_2
+ # FLTE code del CAN_battleship_2_desc
+ # FLTE code del CAN_battleship_3
+ # FLTE code del CAN_battleship_3_desc
+ # FLTE code del CAN_battleship_4
+ # FLTE code del CAN_battleship_4_desc
+ # FLTE code del CAN_SH_battleship_1
+ # FLTE code del CAN_SH_battleship_1_desc
+ # FLTE code del CAN_SH_battleship_2
+ # FLTE code del CAN_SH_battleship_2_desc
+ # FLTE code del CAN_carrier_1
+ # FLTE code del CAN_carrier_1_desc
+ # FLTE code del CAN_carrier_2
+ # FLTE code del CAN_carrier_2_desc
+ # FLTE code del CAN_carrier_3
+ # FLTE code del CAN_carrier_3_desc
+ # FLTE code del CAN_carrier_4
+ # FLTE code del CAN_carrier_4_desc
+ ### CHI - NATIONALIST CHINA ###
+ # FLTE code del CHI_destroyer_1
+ # FLTE code del CHI_destroyer_1_desc
+ # FLTE code del CHI_light_cruiser_1
+ # FLTE code del CHI_light_cruiser_1_desc
+ ### CHL - CHILE ###
+ # FLTE code del CHL_submarine_1
+ # FLTE code del CHL_submarine_1_desc
+ #CHL_submarine_1b: "Capitán O`Brien Class"
+ # FLTE code del CHL_destroyer_1
+ # FLTE code del CHL_destroyer_1_desc
+ #CHL_destroyer_1b: "Serrano Class"
+ # FLTE code del CHL_light_cruiser_1
+ # FLTE code del CHL_light_cruiser_1_desc
+ # FLTE code del CHL_heavy_cruiser_1
+ # FLTE code del CHL_heavy_cruiser_1_desc
+ # FLTE code del CHL_battleship_1
+ # FLTE code del CHL_battleship_1_desc
+ ### COL - COLOMBIA ###
+ # FLTE code del COL_destroyer_2
+ # FLTE code del COL_destroyer_2_desc
+ ### DEN - DENMARK ###
+ # FLTE code del DEN_submarine_1
+ # FLTE code del DEN_submarine_1_desc
+ # FLTE code del DEN_submarine_2
+ # FLTE code del DEN_submarine_2_desc
+ # FLTE code del DEN_submarine_4
+ # FLTE code del DEN_submarine_4_desc
+ # FLTE code del DEN_destroyer_4
+ # FLTE code del DEN_destroyer_4_desc
+ # FLTE code del DEN_heavy_cruiser_1
+ # FLTE code del DEN_heavy_cruiser_1_desc
+ ### DOM - DOMINICAN REPUBLIC -- all generic ###
+ ### ECU - ECUADOR -- all generic ###
+ ### EST - ESTONIA ###
+ # FLTE code del EST_submarine_2
+ # FLTE code del EST_submarine_2_desc
+ ### FIN - FINLAND ###
+ # FLTE code del FIN_heavy_cruiser_1
+ # FLTE code del FIN_heavy_cruiser_1_desc
+ # FLTE code del FIN_submarine_1
+ # FLTE code del FIN_submarine_1_desc
+ ### GRE - GREECE ###
+ # FLTE code del GRE_submarine_1
+ # FLTE code del GRE_submarine_1_desc
+ # FLTE code del GRE_submarine_2
+ # FLTE code del GRE_submarine_2_desc
+ # FLTE code del GRE_submarine_4
+ # FLTE code del GRE_submarine_4_desc
+ # FLTE code del GRE_destroyer_1
+ # FLTE code del GRE_destroyer_1_desc
+ #GRE_destroyer_1b: "Hydra Class"
+ # FLTE code del GRE_destroyer_2
+ # FLTE code del GRE_destroyer_2_desc
+ # FLTE code del GRE_destroyer_3
+ # FLTE code del GRE_destroyer_3_desc
+ # FLTE code del GRE_destroyer_4
+ # FLTE code del GRE_destroyer_4_desc
+ # FLTE code del GRE_light_cruiser_1
+ # FLTE code del GRE_light_cruiser_1_desc
+ # FLTE code del GRE_heavy_cruiser_1
+ # FLTE code del GRE_heavy_cruiser_1_desc
+ # FLTE code del GRE_battleship_1
+ # FLTE code del GRE_battleship_1_desc
+ ### HOL - NETHERLANDS ###
+ # FLTE code del HOL_submarine_1
+ # FLTE code del HOL_submarine_1_desc
+ #HOL_submarine_1b: "K-XIV Class"
+ # FLTE code del HOL_submarine_2
+ # FLTE code del HOL_submarine_2_desc
+ # FLTE code del HOL_submarine_3
+ # FLTE code del HOL_submarine_3_desc
+ # FLTE code del HOL_submarine_4
+ # FLTE code del HOL_submarine_4_desc
+ # FLTE code del HOL_destroyer_1
+ # FLTE code del HOL_destroyer_1_desc
+ # FLTE code del HOL_destroyer_3
+ # FLTE code del HOL_destroyer_3_desc
+ # FLTE code del HOL_destroyer_4
+ # FLTE code del HOL_destroyer_4_desc
+ # FLTE code del HOL_light_cruiser_1
+ # FLTE code del HOL_light_cruiser_1_desc
+ # FLTE code del HOL_light_cruiser_2
+ # FLTE code del HOL_light_cruiser_2_desc
+ # FLTE code del HOL_light_cruiser_3
+ # FLTE code del HOL_light_cruiser_3_desc
+ # FLTE code del HOL_light_cruiser_4
+ # FLTE code del HOL_light_cruiser_4_desc
+ # FLTE code del HOL_heavy_cruiser_1
+ # FLTE code del HOL_heavy_cruiser_1_desc
+ ### IRE - IRELAND -- all generic ###
+ ### LAT - LATVIA ###
+ # FLTE code del LAT_submarine_1
+ # FLTE code del LAT_submarine_1_desc
+ ### LIT - LITHUANIA -- all generic ###
+ ### MEX - MEXICO ###
+ # FLTE code del MEX_destroyer_1
+ # FLTE code del MEX_light_cruiser_1
+ # FLTE code del MEX_heavy_cruiser_1
+ ### NOR - NORWAY ###
+ # FLTE code del NOR_submarine_1
+ # FLTE code del NOR_submarine_1_desc
+ # FLTE code del NOR_submarine_3
+ # FLTE code del NOR_submarine_3_desc
+ # FLTE code del NOR_submarine_4
+ # FLTE code replace NOR_submarine_4_desc
+ # FLTE code del NOR_destroyer_1
+ # FLTE code del NOR_destroyer_1_desc
+ # FLTE code del NOR_destroyer_2
+ # FLTE code del NOR_destroyer_2_desc
+ # FLTE code del NOR_destroyer_3
+ # FLTE code del NOR_destroyer_3_desc
+ # FLTE code del NOR_destroyer_4
+ # FLTE code del NOR_destroyer_4_desc
+ # FLTE code del NOR_heavy_cruiser_1
+ # FLTE code del NOR_heavy_cruiser_1_desc
+ ### NZL - NEW ZEALAND ###
+ # FLTE code del NZL_submarine_1
+ # FLTE code del NZL_submarine_1_desc
+ # FLTE code del NZL_submarine_2
+ # FLTE code del NZL_submarine_2_desc
+ # FLTE code del NZL_submarine_3
+ # FLTE code del NZL_submarine_3_desc
+ # FLTE code del NZL_submarine_4
+ # FLTE code del NZL_submarine_4_desc
+ # FLTE code del NZL_destroyer_1
+ # FLTE code del NZL_destroyer_1_desc
+ # FLTE code del NZL_destroyer_2
+ # FLTE code del NZL_destroyer_2_desc
+ # FLTE code del NZL_destroyer_3
+ # FLTE code del NZL_destroyer_3_desc
+ # FLTE code del NZL_destroyer_4
+ # FLTE code del NZL_destroyer_4_desc
+ # FLTE code del NZL_light_cruiser_1
+ # FLTE code del NZL_light_cruiser_1_desc
+ #NZL_light_cruiser_1c: "Leander Class"
+ # FLTE code del NZL_light_cruiser_2
+ # FLTE code del NZL_light_cruiser_2_desc
+ # FLTE code del NZL_light_cruiser_3
+ # FLTE code replace NZL_light_cruiser_3_desc
+ # FLTE code del NZL_light_cruiser_4
+ # FLTE code del NZL_light_cruiser_4_desc
+ # FLTE code del NZL_heavy_cruiser_1
+ # FLTE code del NZL_heavy_cruiser_1_desc
+ # FLTE code del NZL_heavy_cruiser_2
+ # FLTE code del NZL_heavy_cruiser_2_desc
+ # FLTE code del NZL_heavy_cruiser_3
+ # FLTE code del NZL_heavy_cruiser_3_desc
+ # FLTE code del NZL_heavy_cruiser_4
+ # FLTE code del NZL_heavy_cruiser_4_desc
+ # FLTE code del NZL_battle_cruiser_1
+ # FLTE code del NZL_battle_cruiser_1_desc
+ # FLTE code del NZL_battle_cruiser_2
+ # FLTE code del NZL_battle_cruiser_2_desc
+ # FLTE code del NZL_battleship_1
+ # FLTE code del NZL_battleship_1_desc
+ # FLTE code del NZL_battleship_2
+ # FLTE code del NZL_battleship_2_desc
+ # FLTE code del NZL_battleship_3
+ # FLTE code del NZL_battleship_3_desc
+ # FLTE code del NZL_battleship_4
+ # FLTE code del NZL_battleship_4_desc
+ # FLTE code del NZL_SH_battleship_1
+ # FLTE code del NZL_SH_battleship_1_desc
+ # FLTE code del NZL_SH_battleship_2
+ # FLTE code del NZL_SH_battleship_2_desc
+ # FLTE code del NZL_carrier_1
+ # FLTE code del NZL_carrier_1_desc
+ # FLTE code del NZL_carrier_2
+ # FLTE code del NZL_carrier_2_desc
+ # FLTE code del NZL_carrier_3
+ # FLTE code del NZL_carrier_3_desc
+ # FLTE code del NZL_carrier_4
+ # FLTE code del NZL_carrier_4_desc
+ ### POR - PORTUGAL ###
+ # FLTE code del POR_submarine_1
+ # FLTE code del POR_submarine_1_desc
+ # FLTE code del POR_submarine_2
+ # FLTE code del POR_submarine_2_desc
+ # FLTE code del POR_submarine_4
+ # FLTE code del POR_submarine_4_desc
+ # FLTE code del POR_destroyer_1
+ # FLTE code del POR_destroyer_1_desc
+ ### PRU - PERU ###
+ # FLTE code del PRU_submarine_1
+ # FLTE code del PRU_submarine_1_desc
+ # FLTE code del PRU_destroyer_1
+ # FLTE code del PRU_destroyer_1_desc
+ # FLTE code del PRU_light_cruiser_1
+ # FLTE code del PRU_light_cruiser_1_desc
+ ### RAJ - BRITISH RAJ ###
+ # FLTE code del RAJ_submarine_1
+ # FLTE code del RAJ_submarine_1_desc
+ # FLTE code del RAJ_submarine_2
+ # FLTE code del RAJ_submarine_2_desc
+ # FLTE code del RAJ_submarine_3
+ # FLTE code del RAJ_submarine_3_desc
+ # FLTE code del RAJ_submarine_4
+ # FLTE code del RAJ_submarine_4_desc
+ # FLTE code del RAJ_destroyer_1
+ # FLTE code del RAJ_destroyer_1_desc
+ # FLTE code del RAJ_destroyer_2
+ # FLTE code del RAJ_destroyer_2_desc
+ # FLTE code del RAJ_destroyer_3
+ # FLTE code del RAJ_destroyer_3_desc
+ # FLTE code del RAJ_destroyer_4
+ # FLTE code del RAJ_destroyer_4_desc
+ # FLTE code del RAJ_light_cruiser_1
+ # FLTE code del RAJ_light_cruiser_1_desc
+ # FLTE code del RAJ_basic_light_cruiser
+ # FLTE code del RAJ_light_cruiser_2
+ # FLTE code del RAJ_light_cruiser_2_desc
+ # FLTE code del RAJ_light_cruiser_3
+ # FLTE code del RAJ_light_cruiser_3_desc
+ # FLTE code del RAJ_light_cruiser_4
+ # FLTE code del RAJ_light_cruiser_4_desc
+ # FLTE code del RAJ_heavy_cruiser_1
+ # FLTE code del RAJ_heavy_cruiser_1_desc
+ # FLTE code del RAJ_heavy_cruiser_2
+ # FLTE code del RAJ_heavy_cruiser_2_desc
+ # FLTE code del RAJ_heavy_cruiser_3
+ # FLTE code del RAJ_heavy_cruiser_3_desc
+ # FLTE code del RAJ_heavy_cruiser_4
+ # FLTE code del RAJ_heavy_cruiser_4_desc
+ # FLTE code del RAJ_battle_cruiser_1
+ # FLTE code del RAJ_battle_cruiser_1_desc
+ # FLTE code del RAJ_battle_cruiser_2
+ # FLTE code del RAJ_battle_cruiser_2_desc
+ # FLTE code del RAJ_battleship_1
+ # FLTE code del RAJ_battleship_1_desc
+ # FLTE code del RAJ_battleship_2
+ # FLTE code del RAJ_battleship_2_desc
+ # FLTE code del RAJ_battleship_3
+ # FLTE code del RAJ_battleship_3_desc
+ # FLTE code del RAJ_battleship_4
+ # FLTE code del RAJ_battleship_4_desc
+ # FLTE code del RAJ_SH_battleship_1
+ # FLTE code del RAJ_SH_battleship_1_desc
+ # FLTE code del RAJ_SH_battleship_2
+ # FLTE code del RAJ_SH_battleship_2_desc
+ # FLTE code del RAJ_carrier_1
+ # FLTE code del RAJ_carrier_1_desc
+ # FLTE code del RAJ_carrier_2
+ # FLTE code del RAJ_carrier_2_desc
+ # FLTE code del RAJ_carrier_3
+ # FLTE code del RAJ_carrier_3_desc
+ # FLTE code del RAJ_carrier_4
+ # FLTE code del RAJ_carrier_4_desc
+ ### ROM - ROMANIA ###
+ # FLTE code del ROM_submarine_1
+ # FLTE code del ROM_submarine_1_desc
+ # FLTE code del ROM_submarine_3
+ # FLTE code del ROM_submarine_3_desc
+ # FLTE code del ROM_destroyer_1
+ # FLTE code del ROM_destroyer_1_desc
+ #ROM_destroyer_1b: "Regele Ferdinand Class"
+ ### SAF - SOUTH AFRICA ###
+ # FLTE code del SAF_submarine_1
+ # FLTE code del SAF_submarine_1_desc
+ # FLTE code del SAF_submarine_2
+ # FLTE code del SAF_submarine_2_desc
+ # FLTE code del SAF_submarine_3
+ # FLTE code del SAF_submarine_3_desc
+ # FLTE code del SAF_submarine_4
+ # FLTE code del SAF_submarine_4_desc
+ # FLTE code del SAF_destroyer_1
+ # FLTE code del SAF_destroyer_1_desc
+ # FLTE code del SAF_destroyer_2
+ # FLTE code del SAF_destroyer_2_desc
+ # FLTE code del SAF_destroyer_3
+ # FLTE code del SAF_destroyer_3_desc
+ # FLTE code del SAF_destroyer_4
+ # FLTE code del SAF_destroyer_4_desc
+ # FLTE code del SAF_light_cruiser_1
+ # FLTE code del SAF_light_cruiser_1_desc
+ # FLTE code del SAF_light_cruiser_2
+ # FLTE code del SAF_light_cruiser_2_desc
+ # FLTE code del SAF_light_cruiser_3
+ # FLTE code del SAF_light_cruiser_3_desc
+ # FLTE code del SAF_light_cruiser_4
+ # FLTE code del SAF_light_cruiser_4_desc
+ # FLTE code del SAF_heavy_cruiser_1
+ # FLTE code del SAF_heavy_cruiser_1_desc
+ # FLTE code del SAF_heavy_cruiser_2
+ # FLTE code del SAF_heavy_cruiser_2_desc
+ # FLTE code del SAF_heavy_cruiser_3
+ # FLTE code del SAF_heavy_cruiser_3_desc
+ # FLTE code del SAF_heavy_cruiser_4
+ # FLTE code del SAF_heavy_cruiser_4_desc
+ # FLTE code del SAF_battle_cruiser_1
+ # FLTE code del SAF_battle_cruiser_1_desc
+ # FLTE code del SAF_battle_cruiser_2
+ # FLTE code del SAF_battle_cruiser_2_desc
+ # FLTE code del SAF_battleship_1
+ # FLTE code del SAF_battleship_1_desc
+ # FLTE code del SAF_battleship_2
+ # FLTE code del SAF_battleship_2_desc
+ # FLTE code del SAF_battleship_3
+ # FLTE code del SAF_battleship_3_desc
+ # FLTE code del SAF_battleship_4
+ # FLTE code del SAF_battleship_4_desc
+ # FLTE code del SAF_SH_battleship_1
+ # FLTE code del SAF_SH_battleship_1_desc
+ # FLTE code del SAF_SH_battleship_2
+ # FLTE code del SAF_SH_battleship_2_desc
+ # FLTE code del SAF_carrier_1
+ # FLTE code del SAF_carrier_1_desc
+ # FLTE code del SAF_carrier_2
+ # FLTE code del SAF_carrier_2_desc
+ # FLTE code del SAF_carrier_3
+ # FLTE code del SAF_carrier_3_desc
+ # FLTE code del SAF_carrier_4
+ # FLTE code del SAF_carrier_4_desc
+ ### SIA - SIAM ###
+ # FLTE code del SIA_submarine_2
+ # FLTE code del SIA_submarine_2_desc
+ # FLTE code del SIA_destroyer_1
+ # FLTE code del SIA_destroyer_1_desc
+ # FLTE code del SIA_light_cruiser_3
+ # FLTE code del SIA_light_cruiser_3_desc
+ # FLTE code del SIA_heavy_cruiser_1
+ # FLTE code del SIA_heavy_cruiser_1_desc
+ ### SPA - NATIONALIST SPAIN ###
+ # FLTE code del SPA_submarine_1
+ # FLTE code del SPA_submarine_1_desc
+ #SPA_submarine_1b: "C Class"
+ # FLTE code del SPA_submarine_2
+ # FLTE code del SPA_submarine_2_desc
+ # FLTE code del SPA_submarine_3
+ # FLTE code del SPA_submarine_3_desc
+ # FLTE code del SPA_submarine_4
+ # FLTE code del SPA_submarine_4_desc
+ # FLTE code del SPA_destroyer_1
+ # FLTE code del SPA_destroyer_1_desc
+ # FLTE code del SPA_destroyer_2
+ # FLTE code del SPA_destroyer_2_desc
+ # FLTE code del SPA_destroyer_4
+ # FLTE code del SPA_destroyer_4_desc
+ # FLTE code del SPA_light_cruiser_1
+ # FLTE code del SPA_light_cruiser_1_desc
+ #SPA_light_cruiser_1b: "Príncipe Alfonso Class"
+ # FLTE code del SPA_heavy_cruiser_1
+ # FLTE code del SPA_heavy_cruiser_1_desc
+ # FLTE code del SPA_heavy_cruiser_2
+ # FLTE code del SPA_heavy_cruiser_2_desc
+ # FLTE code del SPA_battleship_1
+ # FLTE code del SPA_battleship_1_desc
+ ### SPR - REPUBLICAN SPAIN ###
+ # FLTE code del SPR_submarine_1
+ # FLTE code del SPR_submarine_1_desc
+ #SPR_submarine_1b: "C Class"
+ # FLTE code del SPR_submarine_2
+ # FLTE code del SPR_submarine_2_desc
+ # FLTE code del SPR_submarine_3
+ # FLTE code del SPR_submarine_3_desc
+ # FLTE code del SPR_submarine_4
+ # FLTE code del SPR_submarine_4_desc
+ # FLTE code del SPR_destroyer_1
+ # FLTE code del SPR_destroyer_1_desc
+ # FLTE code del SPR_destroyer_2
+ # FLTE code del SPR_destroyer_2_desc
+ # FLTE code del SPR_destroyer_4
+ # FLTE code del SPR_destroyer_4_desc
+ # FLTE code del SPR_light_cruiser_1
+ # FLTE code del SPR_light_cruiser_1_desc
+ #SPR_light_cruiser_1b: "Príncipe Alfonso Class"
+ # FLTE code del SPR_heavy_cruiser_1
+ # FLTE code del SPR_heavy_cruiser_1_desc
+ # FLTE code del SPR_heavy_cruiser_2
+ # FLTE code del SPR_heavy_cruiser_2_desc
+ # FLTE code del SPR_battleship_1
+ # FLTE code del SPR_battleship_1_desc
+ ### SWE - SWEEDEN ###
+ # FLTE code del SWE_submarine_1
+ # FLTE code del SWE_submarine_1_desc
+ #SWE_submarine_1b: "Draken Class"
+ # FLTE code del SWE_submarine_2
+ # FLTE code del SWE_submarine_2_desc
+ # FLTE code del SWE_submarine_3
+ # FLTE code del SWE_submarine_3_desc
+ # FLTE code del SWE_submarine_4
+ # FLTE code del SWE_submarine_4_desc
+ # FLTE code del SWE_destroyer_1
+ # FLTE code del SWE_destroyer_1_desc
+ # FLTE code del SWE_destroyer_2
+ # FLTE code del SWE_destroyer_2_desc
+ # FLTE code del SWE_destroyer_3
+ # FLTE code del SWE_destroyer_3_desc
+ # FLTE code del SWE_destroyer_4
+ # FLTE code del SWE_destroyer_4_desc
+ # FLTE code del SWE_light_cruiser_1
+ # FLTE code del SWE_light_cruiser_1_desc
+ # FLTE code del SWE_light_cruiser_4
+ # FLTE code del SWE_light_cruiser_4_desc
+ # FLTE code del SWE_heavy_cruiser_1
+ # FLTE code del SWE_heavy_cruiser_1_desc
+ ### TUR - TURKEY ###
+ # FLTE code del TUR_submarine_1
+ # FLTE code del TUR_submarine_1_desc
+ #TUR_submarine_1b: "Dumlupınar Class"
+ # FLTE code del TUR_submarine_2
+ # FLTE code del TUR_submarine_2_desc
+ # FLTE code del TUR_submarine_3
+ # FLTE code del TUR_submarine_3_desc
+ # FLTE code del TUR_submarine_4
+ # FLTE code del TUR_submarine_4_desc
+ # FLTE code del TUR_destroyer_1
+ # FLTE code del TUR_destroyer_1_desc
+ # FLTE code del TUR_destroyer_2
+ # FLTE code del TUR_destroyer_3
+ # FLTE code del TUR_destroyer_3_desc
+ # FLTE code del TUR_light_cruiser_1
+ # FLTE code del TUR_light_cruiser_1_desc
+ # FLTE code del TUR_battle_cruiser_1
+ # FLTE code del TUR_battle_cruiser_1_desc
+ # FLTE code del TUR_battleship_1
+ # FLTE code del TUR_battleship_1_desc
+ ### URU - URUGUAY ###
+ # FLTE code del URG_destroyer_1
+ # FLTE code del URG_destroyer_1_desc
+ ### VEN - VENEZUELA -- generic only ###
+ ### VIC - VICHY FRANCE ###
+ # FLTE code del VIC_submarine_1
+ # FLTE code del VIC_submarine_1_desc
+ #VIC_submarine_1b: "630 Series"
+ #VIC_submarine_1c: "Redoutable Class"
+ # FLTE code del VIC_submarine_2
+ # FLTE code del VIC_submarine_2_desc
+ #VIC_submarine_2b: "Aurore Class"
+ # FLTE code del VIC_submarine_3
+ # FLTE code del VIC_submarine_3_desc
+ # FLTE code del VIC_submarine_4
+ # FLTE code del VIC_submarine_4_desc
+ # FLTE code del VIC_destroyer_1
+ # FLTE code del VIC_destroyer_1_desc
+ #VIC_destroyer_1b: "Chacal Class"
+ #VIC_destroyer_1c: "Aigle & Vauquelin Class"
+ # FLTE code del VIC_destroyer_2
+ # FLTE code del VIC_destroyer_2_desc
+ #VIC_destroyer_2b: "Le Hardi Class"
+ #VIC_destroyer_2c: "Mogador Class"
+ # FLTE code del VIC_destroyer_3
+ # FLTE code del VIC_destroyer_3_desc
+ # FLTE code del VIC_destroyer_4
+ # FLTE code del VIC_destroyer_4_desc
+ # FLTE code del VIC_light_cruiser_1
+ # FLTE code del VIC_light_cruiser_1_desc
+ # FLTE code del VIC_light_cruiser_2
+ # FLTE code del VIC_light_cruiser_2_desc
+ # FLTE code del VIC_light_cruiser_3
+ # FLTE code del VIC_light_cruiser_3_desc
+ # FLTE code del VIC_light_cruiser_4
+ # FLTE code del VIC_light_cruiser_4_desc
+ # FLTE code del VIC_heavy_cruiser_1
+ # FLTE code del VIC_heavy_cruiser_1_desc
+ # FLTE code del VIC_heavy_cruiser_2
+ # FLTE code del VIC_heavy_cruiser_2_desc
+ # FLTE code del VIC_heavy_cruiser_3
+ # FLTE code del VIC_heavy_cruiser_3_desc
+ # FLTE code del VIC_heavy_cruiser_4
+ # FLTE code del VIC_heavy_cruiser_4_desc
+ # FLTE code del VIC_battle_cruiser_1
+ # FLTE code del VIC_battle_cruiser_1_desc
+ # FLTE code del VIC_battle_cruiser_2
+ # FLTE code del VIC_battle_cruiser_2_desc
+ # FLTE code del VIC_battleship_1
+ # FLTE code del VIC_battleship_1_desc
+ #VIC_battleship_1b: "Bretagne Class" 
+ # FLTE code del VIC_battleship_2
+ # FLTE code del VIC_battleship_2_desc
+ # FLTE code del VIC_battleship_3
+ # FLTE code del VIC_battleship_3_desc
+ # FLTE code del VIC_battleship_4
+ # FLTE code del VIC_battleship_4_desc
+ # FLTE code del VIC_SH_battleship_1
+ # FLTE code del VIC_SH_battleship_1_desc
+ # FLTE code del VIC_SH_battleship_2
+ # FLTE code del VIC_SH_battleship_2_desc
+ # FLTE code del VIC_carrier_1
+ # FLTE code del VIC_carrier_1_desc
+ # FLTE code del VIC_carrier_2
+ # FLTE code del VIC_carrier_2_desc
+ # FLTE code del VIC_carrier_3
+ # FLTE code del VIC_carrier_3_desc
+ # FLTE code del VIC_carrier_4
+ # FLTE code del VIC_carrier_4_desc
+ ### YUG - YUGOSLAVIA ###
+ # FLTE code del YUG_submarine_1
+ # FLTE code del YUG_submarine_1_desc
+ # FLTE code del YUG_submarine_2
+ # FLTE code replace YUG_submarine_2_desc
+ # FLTE code del YUG_destroyer_1
+ # FLTE code del YUG_destroyer_1_desc
+ # FLTE code del YUG_destroyer_2
+ # FLTE code del YUG_destroyer_2_desc
+ # FLTE code del YUG_destroyer_4
+ # FLTE code del YUG_destroyer_4_desc
+ # FLTE code del YUG_light_cruiser_1
+ # FLTE code del YUG_light_cruiser_1_desc
+ # FLTE code del screen_ship
+ # FLTE code del capital_ship
+ 

@@ -1,0 +1,207 @@
+﻿l_simp_chinese:
+ ship_hull_submarine_5_desc: "战争结束后，潜艇已成为所有海军强国的必备力量。通过实验性延长潜航时间与下潜深度，这类舰艇无疑将成为令人畏惧的海上杀器。"
+ ship_hull_submarine_6_desc: "虽不及庞大航母那般引人注目，但看似低调的潜艇堪称现代海军最重要的组成部分。凭借针对最新声纳系统的隐形设计，这艘潜艇无疑是深海中的寂静猎手。"
+ ship_hull_submarine_7_desc: "随着核动力时代降临潜艇领域，我国水下舰队的续航能力实现了飞跃。传统潜艇仅能持续作战约两周，而这艘舰艇无需补给便可巡航数月——其航程极限取决于食物储备，而非燃料容量。"
+ ship_hull_submarine_8_desc: "通过采用垂直发射系统，这艘潜艇能在目标视野范围外发动毁灭性打击。"
+ ship_hull_submarine_9_desc: "优化的舱室布局与充足的物资储备空间，使这艘潜艇具备持续潜航近一年的作战能力。"
+ ship_hull_submarine_10_desc: "随着声呐系统探测能力大幅增强，传统螺旋桨的运转噪声已无处遁形。实验证明，泵喷推进器虽存在重量大、造价高、航速偏慢等局限，但其近乎静默的运行特性，足以令任何企图追踪的敌手束手无策。"
+ ship_hull_light_5_desc: "战后五年内建造的驱逐舰仍延续前代主体设计，但配备全自动主炮与先进雷达声呐探测系统，在战术层面实现显著突破。"
+ ship_hull_light_6_desc: "随着晶体管技术的普及，原本需要数十人操作的雷达系统如今仅需一两名官兵即可掌控。这些航速迅捷、火力凶猛的舰艇，已成为我国海军科技巅峰的代表。"
+ ship_hull_light_7_desc: "精确制导的舰对空与舰对舰导弹彻底革新了海战形态。即便最普通的驱逐舰也搭载着足以击沉任何敌舰的火力，此型舰船正是海上导弹武器化的集大成之作。"
+ ship_hull_light_8_desc: "随着雷达系统日益精密强大，新型舰船的设计必须优先考虑隐身性能。简洁的平板侧舷较旧型舰船显著缩小了雷达反射截面，配合可摧毁空中水面目标的先进导弹系统，最终造就了这艘宛如来自太空时代的战舰。"
+ ship_hull_light_9_desc: "随着计算机系统突破大型建筑的空间限制，这艘驱逐舰成为首款真正实现全面数字化的战舰。低可探测性舰体设计，配合全电子化火控指挥系统及多功能武器阵列，标志着现代军舰的全新时代。"
+ ship_hull_light_10_desc: "进入电子时代之际，海军现代化势在必行。本舰配备电子干扰设备、预测式火控系统及可发射各类导弹的垂直发射单元，彰显了跨代作战能力。"
+ ship_hull_cruiser_5_desc: "战争末期，海军航空兵彻底变革海战的现实已不容置疑。我们必须研制航速迅捷、装甲精良的护航舰艇，配备密集防空炮群与现代化雷达系统，为主力战舰提供完美屏障。"
+ ship_hull_cruiser_6_desc: "作为最后一代配备常规火炮的巡洋舰，本舰搭载晶体管计算机实现远程精准打击，在厚重装甲与高航速之间取得完美平衡，足以协同我方最重型战舰作战。"
+ ship_hull_cruiser_7_desc: "随着可打击数百公里外目标的实用化舰载导弹问世，急需能够驾驭这类新型武器的专用巡洋舰。"
+ ship_hull_cruiser_8_desc: "巡洋舰自动化系统的发展使我们能够以更少人员操作具备空前火力的战舰。"
+ ship_hull_cruiser_9_desc: "随着核动力技术日趋成熟，我们得以建造运用原子能的新型战舰。这类舰艇具备持续数周乃至数月海上部署的能力，其续航力堪称前所未有。"
+ ship_hull_cruiser_10_desc: "全面计算机化催生出集成多型传感器与雷达系统的现代化战舰，实现了作战能力的跨越式发展。"
+ ship_hull_heavy_5_desc: "尽管海军航空兵与反舰导弹已使战列舰显得过时，但直接拆毁这些耗费巨资建造的巨舰实属浪费。我们应将其改造为机动性强、装甲厚重的导弹战舰，使其具备发射数十枚导弹实施毁灭性打击的能力。"
+ ship_hull_heavy_6_desc: "本质上这是放大版的导弹巡洋舰，亦标志着战列舰的终极进化形态。这艘巨型战舰融合厚重装甲、高航速与精确制导导弹阵列——其火力足以摧毁整座城市，配合先进的通讯系统与雷达阵列，使其更像漂浮的海上指挥中枢而非传统军舰。"
+ ship_hull_bc_carrier_1_desc: "海军航空兵的优势显而易见：最大口径舰炮射程仅20公里，而单架战机可在百公里外投放鱼雷且精度更高。然而专用航母在遭遇直接攻击时极为脆弱。因此我们提出巡洋/航空母舰混合设计方案，在规避各自缺陷的同时实现优势互补。"
+ ship_hull_bc_carrier_2_desc: "通过将计算机系统整合至航空巡洋舰的通信网络中，航空部队与舰载作战单元得以协同作战，往往能给敌方舰队造成毁灭性打击。"
+ ship_hull_bc_carrier_3_desc: "随着导弹取代舰炮、雷达系统替代观测员，这艘凝聚数十年海军经验结晶的战舰已然诞生。它兼具高速机动与致命打击能力，可执行近乎所有作战任务，是任何敌人都必须正视的海上劲敌。"
+ ship_hull_carrier_5_desc: "战后建造的航母基本延续了早期特征——庞大、相对迟缓、笨重且易遭反击。虽然现有技术尚无法解决多数缺陷，但本舰通过甲板火炮与雷达系统的组合运用，显著提升了对海空袭击的防御能力。"
+ ship_hull_carrier_6_desc: "通信能力是航空母舰发挥战力的关键所在，因此本舰配备先进无线电系统，确保官兵能在数分钟内对敌方行动做出反应。"
+ ship_hull_carrier_7_desc: "随着喷气式舰载战斗机成为刚需，本航母配备加长型飞行甲板以确保新型战机正常执行任务。"
+ ship_hull_carrier_8_desc: "先进雷达系统与核动力技术的初步应用，标志着这艘战舰取得突破性发展。结合日益强大的舰载喷气机群，这艘航母已成为性能卓越的海上作战平台。"
+ ship_hull_carrier_9_desc: "随着计算机技术日趋成熟，开发能充分发挥这项优势的新型航空母舰势在必行。"
+ ship_hull_carrier_10_desc: "随着全球力量投送需求日益增强，这艘兼具高速机动与强大战力的多用途航母应运而生。"
+ ship_hull_light_5: "1950 驱逐舰船体"
+ ship_hull_light_6: "1955 驱逐舰船体"
+ ship_hull_light_7: "1960 导弹驱逐舰"
+ ship_hull_light_8: "1970 导弹驱逐舰"
+ ship_hull_light_9: "1980 导弹驱逐舰"
+ ship_hull_light_10: "1990 导弹驱逐舰"
+ ship_hull_cruiser_5: "1950 巡洋舰船体"
+ ship_hull_cruiser_6: "1955 巡洋舰船体"
+ ship_hull_cruiser_7: "导弹巡洋舰船体"
+ ship_hull_cruiser_8: "1970 制导导弹巡洋舰"
+ ship_hull_cruiser_9: "1980 制导导弹巡洋舰"
+ ship_hull_cruiser_10: "1990 制导导弹巡洋舰"
+ ship_hull_heavy_5: "改装重型导弹战舰"
+ ship_hull_heavy_6: "制导导弹战列巡洋舰"
+ ship_hull_bc_carrier_1: "60年代重型载机巡洋舰"
+ ship_hull_bc_carrier_2: "70年代重型载机巡洋舰"
+ ship_hull_bc_carrier_3: "80年代重型载机巡洋舰"
+ ship_hull_carrier_5: "1950 航空母舰船体"
+ ship_hull_carrier_6: "1955 航空母舰船体"
+ ship_hull_carrier_7: "1960 航空母舰船体"
+ ship_hull_carrier_8: "1970 航空母舰船体"
+ ship_hull_carrier_9: "1980 航空母舰船体"
+ ship_hull_carrier_10: "1990 航空母舰船体"
+ # FLTE code replace ship_hull_carrier_modern_desc
+ ship_hull_submarine_5: "1950 潜艇船体"
+ ship_hull_submarine_6: "1955 潜艇船体"
+ ship_hull_submarine_7: "1960 潜艇船体"
+ ship_hull_submarine_8: "1970 潜艇船体"
+ ship_hull_submarine_9: "1980 潜艇船体"
+ ship_hull_submarine_10: "1990 潜艇船体"
+ ### ENG - ENGLAND ###
+ #ENG_submarine_1b: "O/P/R Class"
+ #ENG_submarine_1c: "S Class"
+ #ENG_submarine_3b: "Seraph Class"
+ #ENG_submarine_4b: "Amphion Class"
+ # FLTE code replace ENG_destroyer_1_desc
+ #ENG_destroyer_1b: "A/B/C/D Class"
+ #ENG_destroyer_2b: "Tribal Class"
+ #ENG_destroyer_4b: "Weapon Class"
+ #ENG_light_cruiser_1b: "Emerald Class"
+ #ENG_light_cruiser_1c: "Amphion Class"
+ #ENG_light_cruiser_2b: "Edinburgh Class"
+ #ENG_light_cruiser_3b: "Dido Class"
+ #ENG_heavy_cruiser_1b: "County Class"
+ #ENG_battle_cruiser_1b: "Admiral Class"
+ #ENG_battleship_1b: "Nelson Class"
+ #ENG_carrier_4b: "Malta Class"
+ ### FRA - FRANCE ###
+ #FRA_submarine_1b: "630 Series"
+ #FRA_submarine_1c: "Redoutable Class"
+ #FRA_submarine_2b: "Aurore Class"
+ #FRA_destroyer_1b: "Chacal Class"
+ #FRA_destroyer_1c: "Aigle & Vauquelin Class"
+ #FRA_destroyer_2b: "Le Hardi Class"
+ #FRA_destroyer_2c: "Mogador Class"
+ #FRA_battleship_1b: "Bretagne Class"
+ ### GER - GERMANY ###
+ #GER_submarine_2b: "Type VIIA"
+ #GER_submarine_3b: "Type IXC"
+ #GER_light_cruiser_1b: "Königsberg Class"
+ # FLTE code replace GER_battleship_1_desc
+ ### ITA - ITALY ###
+ #ITA_submarine_1b: "Bandiera Class"
+ #ITA_submarine_1c: "Sirena Class"
+ #ITA_submarine_2b: "Marcello Class"
+ #ITA_submarine_3b: "Plantino Class"
+ #ITA_destroyer_1b: "Navigatori Class"
+ #ITA_destroyer_1c: "Maestrale Class"
+ #ITA_destroyer_3b: "Ariete Class"
+ #ITA_light_cruiser_1b: "Giussano Class"
+ #ITA_light_cruiser_1c: "Montecuccoli Class"
+ #ITA_heavy_cruiser_1b: "Zara Class"
+ ### JAP - JAPAN ###
+ #JAP_submarine_1b: "Kaidai III Class"
+ #JAP_submarine_3b: "Ko/Otsu/Hei-gata Class (late)"
+ #JAP_submarine_4b: "Sen-Taka Class"
+ #JAP_destroyer_1b: "Fubuki Class"
+ #JAP_destroyer_2b_ "Kagero Class"
+ #JAP_light_cruiser_1b: "Kuma Class"
+ #JAP_light_cruiser_1c: "Sendai Class"
+ #JAP_light_cruiser_3b: "Oyodo Class"
+ #JAP_heavy_cruiser_1b: "Myoko Class"
+ #JAP_battleship_1b: "Ise Class" (refit version)
+ #JAP_battleship_1c: "Nagato Class" (refit version)
+ #JAP_carrier_1b: "Akagi Class" (refit Kaga class)
+ #JAP_carrier_2b: "Hiryu Class"
+ #JAP_carrier_3b: "Hiyo Class"
+ #JAP_carrier_4b: "Shinano Class"
+ ### SOV - SOVIET UNION ###
+ #SOV_submarine_1b: "Series I Debakrist"
+ #SOV_submarine_2b: "Series IX Srednyaya" (Stalinets<-unofficial name)
+ #SOV_submarine_2c: "Series X Shchuka"
+ #SOV_destroyer_1b: "Leningrad & Minsk Class"
+ #SOV_destroyer_3b: "Ognevoy Class"
+ #SOV_heavy_cruiser_2b: "Maxim Gorky Class"
+ ### USA - USA ###
+ #USA_submarine_1b: "Barracuda Class"
+ #USA_submarine_2b: "Salmon Class"
+ #USA_submarine_3b: "Gato Class"
+ #USA_destroyer_1b: "Farragut Class"
+ #USA_destroyer_2b: "Benson & Gleaves Class"
+ #USA_heavy_cruiser_1b: "Portland Class"
+ #USA_battleship_1b: "Pennsylvania Class"
+ #USA_battleship_1c: "New Mexico Class"
+ #USA_battleship_2b: "South Dakota Class"
+ #USA_carrier_2b: "Yorktown Class"
+ #USA_carrier_2c: "Wasp Class"
+ ### ALB - ALBANIA -- all generic ###
+ ### ARG - ARGENTINA ###
+ #ARG_destroyer_1b: "Cervantes Class"
+ #ARG_heavy_cruiser_1b: "Veinticinco de Mayo Class"
+ ### AST - AUSTRALIA ###
+ #AST_destroyer_2b: "Arunta Class"
+ #AST_destroyer_4b: "Tobruk Class"
+ #AST_light_cruiser_1c: "Sydney Class"
+ #AST_heavy_cruiser_1b: "Canberra Class"
+ ### BEL - BELGIUM -- all generic ###
+ ### BRA - BRAZIL ###
+ # FLTE code replace BRA_destroyer_1
+ # FLTE code replace BRA_destroyer_1_desc
+ ### BUL - BULGARIA -- all generic ###
+ ### CAN - CANADA ###
+ #CAN_destroyer_1b: "Saguenay Class"
+ #CAN_destroyer_2b: "Athabaskan Class"
+ ### CHI - NATIONALIST CHINA ###
+ ### CHL - CHILE ###
+ #CHL_submarine_1b: "Capitán O`Brien Class"
+ #CHL_destroyer_1b: "Serrano Class"
+ ### COL - COLOMBIA ###
+ ### DEN - DENMARK ###
+ ### DOM - DOMINICAN REPUBLIC -- all generic ###
+ ### ECU - ECUADOR -- all generic ###
+ ### EST - ESTONIA ###
+ ### FIN - FINLAND ###
+ ### GRE - GREECE ###
+ #GRE_destroyer_1b: "Hydra Class"
+ ### HOL - NETHERLANDS ###
+ #HOL_submarine_1b: "K-XIV Class"
+ ### IRE - IRELAND -- all generic ###
+ ### LAT - LATVIA ###
+ ### LIT - LITHUANIA -- all generic ###
+ ### MEX - MEXICO ###
+ ### NOR - NORWAY ###
+ # FLTE code replace NOR_submarine_4_desc
+ ### NZL - NEW ZEALAND ###
+ #NZL_light_cruiser_1c: "Leander Class"
+ # FLTE code replace NZL_light_cruiser_3_desc
+ ### POR - PORTUGAL ###
+ ### PRU - PERU ###
+ ### RAJ - BRITISH RAJ ###
+ ### ROM - ROMANIA ###
+ #ROM_destroyer_1b: "Regele Ferdinand Class"
+ ### SAF - SOUTH AFRICA ###
+ ### SIA - SIAM ###
+ ### SPA - NATIONALIST SPAIN ###
+ #SPA_submarine_1b: "C Class"
+ #SPA_light_cruiser_1b: "Príncipe Alfonso Class"
+ ### SPR - REPUBLICAN SPAIN ###
+ #SPR_submarine_1b: "C Class"
+ #SPR_light_cruiser_1b: "Príncipe Alfonso Class"
+ ### SWE - SWEEDEN ###
+ #SWE_submarine_1b: "Draken Class"
+ ### TUR - TURKEY ###
+ #TUR_submarine_1b: "Dumlupınar Class"
+ ### URU - URUGUAY ###
+ ### VEN - VENEZUELA -- generic only ###
+ ### VIC - VICHY FRANCE ###
+ #VIC_submarine_1b: "630 Series"
+ #VIC_submarine_1c: "Redoutable Class"
+ #VIC_submarine_2b: "Aurore Class"
+ #VIC_destroyer_1b: "Chacal Class"
+ #VIC_destroyer_1c: "Aigle & Vauquelin Class"
+ #VIC_destroyer_2b: "Le Hardi Class"
+ #VIC_destroyer_2c: "Mogador Class"
+ #VIC_battleship_1b: "Bretagne Class"
+ ### YUG - YUGOSLAVIA ###
+ # FLTE code replace YUG_submarine_2_desc

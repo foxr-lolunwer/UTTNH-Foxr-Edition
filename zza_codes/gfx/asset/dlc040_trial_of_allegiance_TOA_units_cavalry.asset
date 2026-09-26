@@ -1,0 +1,821 @@
+####################################################### BRAZIL ###########################################################
+
+##############################################
+########## BRAZIL DEFAULT CAVALEY ############
+##############################################
+############# CLONE FROM THIS! ###############
+##############################################
+
+#################################################
+########    BRAZIL DEFAULT INFANTRY    ##########
+#################################################
+
+########## RIFLE ##########
+
+	entity = {
+		name = "BRA_infantry_rider_entity"
+		pdxmesh = "BRA_infantry_rifle_mesh"
+
+		default_state = "idle"
+		state = { name = "attack"			animation = "attack" 			animation_blend_time = 0.3 animation_speed = 1.0 propagate_state = { rifle2 = "defend" } }
+		state = { name = "defend"			animation = "attack" 			animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "support_attack" 	animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "cavalry_move" 			animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "idle"				animation = "cavalry_idle"		animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "move"				animation = "cavalry_move"		animation_blend_time = 0.0 animation_speed = 1.0
+			event = { sound = { soundeffect = "horse_walking" } }
+		}
+		state = { name = "training"				animation = "training" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 2 looping = no }
+		state = { name = "training"				animation = "jumping_jacks" 	animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+		state = { name = "training"				animation = "pushup" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+		state = { name = "training"				animation = "guard_rifle" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+		state = { name = "training"				animation = "aim_exercise" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+		
+		attach = { 	name = "rifle1"	Right_Hand_node = "USA_infantry_weapon_rifle_right_entity" }	
+		attach = { 	name = "rifle2"	Left_Hand_node = "USA_infantry_weapon_rifle_left_entity" }
+		attach = { 	name = "rifle4"	Root_node_2 = "USA_infantry_weapon_rifle_right_entity" }
+		
+		scale = 0.8			
+	}
+
+	entity = {
+		name = "BRA_cavalry_rifle_combined_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+		
+		default_state = "idle"
+		state = { name = "idle"						animation = "cavalry_idle" 		animation_blend_time = 0.0 }
+		state = { name = "move"						animation = "cavalry_move" 		animation_blend_time = 0.0 }
+		state = { name = "retreat"					animation = "cavalry_move" 		animation_blend_time = 0.0 }
+		state = { name = "training"					animation = "cavalry_idle" 		animation_blend_time = 0.0 }
+		
+		attach = { 	name = "infantry_unit"			Saddle_Node = "BRA_infantry_rider_entity" }
+		
+		scale = 0.65
+	}
+
+	entity = {
+		name = "BRA_cavalry_entity"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+
+		default_state = "idle"
+		state = { name = "idle"				animation = "idle" 		animation_blend_time = 0.0 }
+		state = { name = "move"				animation = "move" 		animation_blend_time = 0.0 }
+		state = { name = "attack"					animation = "attack" 	animation_blend_time = 0.0 }
+		state = { name = "defend"					animation = "attack" 	animation_blend_time = 0.0 }
+		state = { name = "support_attack"			animation = "attack" 	animation_blend_time = 0.0 }
+		state = { name = "retreat"					animation = "move" 		animation_blend_time = 0.0 }
+		state = { name = "training"					animation = "attack" 		animation_blend_time = 0.0 }
+		
+		attach = { 	name = "infantry"			infantry = "BRA_infantry_rider_entity" }
+		attach = { 	name = "cavalry"			cavalry = "BRA_cavalry_rifle_combined_entity" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
+		
+		scale = 1.0
+	}
+
+########## MG ##########
+
+	entity = {
+		name = "BRA_infantry_mg_rider_entity"
+		pdxmesh = "BRA_infantry_mg_mesh"
+		
+		default_state = "idle"
+		state = { name = "attack"			animation = "attack" 			animation_blend_time = 0.3 animation_speed = 1.0 propagate_state = { rifle1 = "defend" } }
+		state = { name = "defend"			animation = "attack" 			animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "support_attack" 	animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "cavalry_move" 			animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "idle"				animation = "cavalry_idle"		animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "cavalry_move"		animation_blend_time = 0.3 animation_speed = 1.0
+			event = { sound = { soundeffect = "horse_walking" } }
+		}
+		state = { name = "training"				animation = "training" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 2 looping = no }
+		state = { name = "training"				animation = "jumping_jacks" 	animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+		state = { name = "training"				animation = "pushup" 			animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+		#state = { name = "training"				animation = "guard_rifle" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+		state = { name = "training"				animation = "aim_exercise" 		animation_blend_time = 0.3 animation_speed = 1.0 chance = 1 looping = no }
+
+		attach = { 	name = "rifle1"	Right_Hand_node = "USA_infantry_weapon_mg_right_entity" }	
+		attach = { 	name = "rifle2"	Left_Hand_node = "USA_infantry_weapon_mg_left_entity" }
+		attach = { 	name = "rifle4"	Root_node_2 = "USA_infantry_weapon_rifle_right_entity" }	
+		
+		scale = 0.8			
+	}
+
+	entity = {
+		name = "BRA_cavalry_mg_combined_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+	
+		default_state = "idle"
+		state = { name = "idle"				animation = "cavalry_idle" 		animation_blend_time = 0.0 }
+		state = { name = "move"				animation = "cavalry_move" 		animation_blend_time = 0.0 }
+		state = { name = "retreat"					animation = "cavalry_move" 		animation_blend_time = 0.0 }
+		state = { name = "training"					animation = "cavalry_idle" 		animation_blend_time = 0.0 }
+		state = { name = "attack"					animation = "cavalry_idle" 		animation_blend_time = 0.0 }
+		state = { name = "defend"					animation = "cavalry_idle" 		animation_blend_time = 0.0 }
+		state = { name = "support_attack"			animation = "cavalry_idle" 		animation_blend_time = 0.0 }
+
+		attach = { 	name = "infantry_unit"			Saddle_Node = "BRA_infantry_mg_rider_entity" }
+		
+		scale = 0.65
+	}
+
+	entity = {
+		name = "BRA_cavalry_2_entity"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+	
+		default_state = "idle"
+		state = { name = "idle"				animation = "idle" 		animation_blend_time = 0.0 }
+		state = { name = "move"				animation = "move" 		animation_blend_time = 0.0 }
+		state = { name = "attack"					animation = "attack" 	animation_blend_time = 0.0 propagate_state = { cavalry = "idle" } }
+		state = { name = "defend"					animation = "attack" 	animation_blend_time = 0.0 propagate_state = { cavalry = "idle" } }
+		state = { name = "support_attack"			animation = "attack" 	animation_blend_time = 0.0 propagate_state = { cavalry = "idle" } }
+		state = { name = "retreat"					animation = "move" 		animation_blend_time = 0.0 }
+		state = { name = "training"					animation = "attack" 		animation_blend_time = 0.0 }
+
+		attach = { 	name = "infantry"			infantry = "BRA_infantry_mg_rider_entity" }
+		attach = { 	name = "cavalry"			cavalry = "BRA_cavalry_mg_combined_entity" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
+		
+		scale = 1.0
+	}
+
+	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
+		clone = "BRA_cavalry_2_entity"
+		name = "BRA_cavalry_3_entity"
+	}
+
+##############################################
+#####  BRAZIL DEFAULT INFANTRY - DESERT ######
+##############################################
+
+########## RIFLE ##########
+
+	entity = {
+		clone = "BRA_infantry_rider_entity"
+		name = "BRA_infantry_desert_rider_entity"
+		pdxmesh = "BRA_infantry_desert_rifle_mesh"
+
+	}
+
+########## MG ##########
+
+	entity = {
+		clone = "BRA_infantry_mg_rider_entity"
+		name = "BRA_infantry_desert_mg_rider_entity"
+		pdxmesh = "BRA_infantry_desert_mg_mesh"
+
+	}
+
+
+####### CAMELRY #######
+
+	entity = {
+		name = "BRA_camelry_rifle_combined_entity"
+		pdxmesh = "infantry_cavalry_camel_mesh"
+	
+		default_state = "idle"
+		state = { name = "idle"						animation = "cavalry_idle" 		animation_blend_time = 0.0 }
+		state = { name = "move"						animation = "cavalry_move" 		animation_blend_time = 0.0 }
+		state = { name = "retreat"					animation = "cavalry_move" 		animation_blend_time = 0.0 }
+		state = { name = "training"					animation = "cavalry_idle" 		animation_blend_time = 0.0 }
+
+		attach = { 	name = "infantry_unit"			Saddle_Node = "BRA_infantry_desert_rider_entity" }
+		
+		scale = 0.65
+	}
+
+	entity = {
+		name = "BRA_camelry_mg_combined_entity"
+		pdxmesh = "infantry_cavalry_camel_mesh"
+		
+		default_state = "idle"
+		state = { name = "idle"				animation = "cavalry_idle" 		animation_blend_time = 0.0 }
+		state = { name = "move"				animation = "cavalry_move" 		animation_blend_time = 0.0 }
+		state = { name = "retreat"					animation = "cavalry_move" 		animation_blend_time = 0.0 }
+		state = { name = "training"					animation = "cavalry_idle" 		animation_blend_time = 0.0 }
+		state = { name = "attack"					animation = "cavalry_idle" 		animation_blend_time = 0.0 }
+		state = { name = "support_attack"			animation = "cavalry_idle" 		animation_blend_time = 0.0 }
+		state = { name = "defend"					animation = "cavalry_idle" 			animation_blend_time = 0.0 }
+
+		attach = { 	name = "infantry_unit"			Saddle_Node = "BRA_infantry_desert_mg_rider_entity" }
+		
+		scale = 0.65
+	}
+
+	entity = {
+		name = "BRA_camelry_entity"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+		
+		default_state = "idle"
+		state = { name = "idle"				animation = "idle" 		animation_blend_time = 0.0 }
+		state = { name = "move"				animation = "move" 		animation_blend_time = 0.0 }
+		state = { name = "attack"					animation = "attack" 	animation_blend_time = 0.0 }
+		state = { name = "support_attack"			animation = "attack" 	animation_blend_time = 0.0 }
+		state = { name = "defend"					animation = "attack" 	animation_blend_time = 0.0 }
+		state = { name = "retreat"					animation = "move" 		animation_blend_time = 0.0 }
+		state = { name = "training"					animation = "attack" 		animation_blend_time = 0.0 }
+
+		attach = { 	name = "infantry"			infantry = "BRA_infantry_desert_rider_entity" }
+		attach = { 	name = "cavalry"			cavalry = "BRA_camelry_rifle_combined_entity" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
+		
+		scale = 1.0
+	}
+
+	entity = {
+		name = "BRA_camelry_2_entity"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+		
+		default_state = "idle"
+		state = { name = "idle"				animation = "idle" 		animation_blend_time = 0.0 }
+		state = { name = "move"				animation = "move" 		animation_blend_time = 0.0 }
+		state = { name = "attack"					animation = "attack" 	animation_blend_time = 0.0 propagate_state = { cavalry = "idle" } }
+		state = { name = "support_attack"			animation = "attack" 	animation_blend_time = 0.0 propagate_state = { cavalry = "idle" } }
+		state = { name = "defend"					animation = "attack" 	animation_blend_time = 0.0 propagate_state = { cavalry = "idle" } }
+		state = { name = "retreat"					animation = "move" 		animation_blend_time = 0.0 }
+		state = { name = "training"					animation = "attack" 		animation_blend_time = 0.0 }
+
+		attach = { 	name = "infantry"			infantry = "BRA_infantry_desert_mg_rider_entity" }
+		attach = { 	name = "cavalry"			cavalry = "BRA_camelry_mg_combined_entity" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
+		
+		scale = 1.0
+	}
+
+	entity = {
+		clone = "BRA_camelry_2_entity"
+		name = "BRA_camelry_3_entity"
+	}
+
+##############################################
+#####    BRAZIL DEFAULT INFANTRY SNOW   ######
+##############################################
+
+########## RIFLE ##########
+	
+	entity = {
+		clone = "BRA_infantry_rider_entity"
+		name = "BRA_infantry_rider_entity_snow"
+		pdxmesh = "BRA_infantry_snow_rifle_mesh"
+	}
+
+	entity = {
+		clone = "BRA_cavalry_rifle_combined_entity"
+		name = "BRA_cavalry_rifle_combined_entity_snow"
+		pdxmesh = "infantry_cavalry_horse_mesh"		
+		
+		attach = { 	name = "infantry_unit"			Saddle_Node = "BRA_infantry_rider_entity_snow" }
+		
+	}
+
+	entity = {
+		clone = "BRA_cavalry_entity"
+		name = "BRA_cavalry_entity_snow"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+
+		attach = { 	name = "infantry"			infantry = "BRA_infantry_rider_entity_snow" }
+		attach = { 	name = "cavalry"			cavalry = "BRA_cavalry_rifle_combined_entity_snow" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
+	}
+
+	
+########## MG ##########
+	
+	entity = {
+		clone = "BRA_infantry_mg_rider_entity"
+		name = "BRA_infantry_mg_rider_entity_snow"
+		pdxmesh = "BRA_infantry_snow_mg_mesh"
+	}
+
+	entity = {
+		clone = "BRA_cavalry_mg_combined_entity"
+		name = "BRA_cavalry_mg_combined_entity_snow"
+		pdxmesh = "infantry_cavalry_horse_mesh"		
+		
+		attach = { 	name = "infantry_unit"			Saddle_Node = "BRA_infantry_mg_rider_entity_snow" }
+	}
+
+	entity = {
+		clone = "BRA_cavalry_2_entity"
+		name = "BRA_cavalry_2_entity_snow"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+
+		attach = { 	name = "infantry"			infantry = "BRA_infantry_mg_rider_entity_snow" }
+		attach = { 	name = "cavalry"			cavalry = "BRA_cavalry_mg_combined_entity_snow" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
+	}
+
+	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
+		clone = "BRA_cavalry_2_entity_snow"
+		name = "BRA_cavalry_3_entity_snow"
+	}
+
+##################################################### ARGENTINA #########################################################
+
+##############################################
+#####     ARGENTINA DEFAULT INFANTRY     #####
+##############################################
+
+########## RIFLE ##########
+
+	entity = {
+		clone = "BRA_infantry_rider_entity"
+		name = "ARG_infantry_rider_entity"
+		pdxmesh = "ARG_infantry_rifle_mesh"
+		
+		attach = { 	name = "rifle1"	Right_Hand_node = "GER_infantry_weapon_rifle_right_entity" }	
+		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_rifle_left_entity" }
+		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
+		
+		scale = 0.8			
+	}
+
+	entity = {
+		clone = "BRA_cavalry_rifle_combined_entity"
+		name = "ARG_cavalry_rifle_combined_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+		
+		attach = { 	name = "infantry_unit"			Saddle_Node = "ARG_infantry_rider_entity" }
+		
+		scale = 0.65
+	}
+
+	entity = {
+		clone = "BRA_cavalry_entity"
+		name = "ARG_cavalry_entity"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+		
+		attach = { 	name = "infantry"			infantry = "ARG_infantry_rider_entity" }
+		attach = { 	name = "cavalry"			cavalry = "ARG_cavalry_rifle_combined_entity" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
+		
+		scale = 1.0
+	}
+
+########## MG ##########
+
+	entity = {
+		clone = "BRA_infantry_mg_rider_entity"
+		name = "ARG_infantry_mg_rider_entity"
+		pdxmesh = "ARG_infantry_mg_mesh"
+		
+		attach = { 	name = "rifle1"	Right_Hand_node = "GER_infantry_weapon_mg_right_entity" }	
+		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_mg_left_entity" }
+		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }	
+		
+		scale = 0.8			
+	}
+
+	entity = {
+		clone = "BRA_cavalry_mg_combined_entity"
+		name = "ARG_cavalry_mg_combined_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+		
+		attach = { 	name = "infantry_unit"			Saddle_Node = "ARG_infantry_mg_rider_entity" }
+		
+		scale = 0.65
+	}
+
+	entity = {
+		clone = "BRA_cavalry_2_entity"
+		name = "ARG_cavalry_2_entity"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+		
+		attach = { 	name = "infantry"			infantry = "ARG_infantry_mg_rider_entity" }
+		attach = { 	name = "cavalry"			cavalry = "ARG_cavalry_mg_combined_entity" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
+		
+		scale = 1.0
+	}
+
+	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
+		clone = "ARG_cavalry_2_entity"
+		name = "ARG_cavalry_3_entity"
+	}
+
+
+##############################################
+#### ARGENTINA DEFAULT INFANTRY - DESERT  ####
+##############################################
+
+########## RIFLE DESERT ##########
+
+	entity = {
+		clone = "BRA_infantry_rider_entity"
+		name = "ARG_infantry_desert_rider_entity"
+		pdxmesh = "ARG_infantry_desert_rifle_mesh"
+		
+		attach = { 	name = "rifle1"	Right_Hand_node = "GER_infantry_weapon_rifle_right_entity" }	
+		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_rifle_left_entity" }
+		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
+		
+		scale = 0.8			
+	}
+
+########## MG DESERT ##########
+
+	entity = {
+		clone = "BRA_infantry_mg_rider_entity"
+		name = "ARG_infantry_desert_mg_rider_entity"
+		pdxmesh = "ARG_infantry_desert_mg_mesh"
+		
+		attach = { 	name = "rifle1"	Right_Hand_node = "GER_infantry_weapon_mg_right_entity" }	
+		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_mg_left_entity" }
+		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }	
+		
+		scale = 0.8			
+	}
+
+
+########## CAMELRY ##########
+
+	entity = {
+		clone = "BRA_camelry_rifle_combined_entity"
+		name = "ARG_camelry_rifle_combined_entity"
+		pdxmesh = "infantry_cavalry_camel_mesh"
+	
+		attach = { 	name = "infantry_unit"			Saddle_Node = "ARG_infantry_desert_rider_entity" }
+		
+		scale = 0.65
+	}
+
+	entity = {
+		clone = "BRA_camelry_mg_combined_entity"
+		name = "ARG_camelry_mg_combined_entity"
+		pdxmesh = "infantry_cavalry_camel_mesh"
+		
+		attach = { 	name = "infantry_unit"			Saddle_Node = "ARG_infantry_desert_mg_rider_entity" }
+		
+		scale = 0.65
+	}
+
+	entity = {
+		clone = "BRA_camelry_entity"	
+		name = "ARG_camelry_entity"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+		
+		attach = { 	name = "infantry"			infantry = "ARG_infantry_desert_rider_entity" }
+		attach = { 	name = "cavalry"			cavalry = "ARG_camelry_rifle_combined_entity" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
+		
+		scale = 1.0
+	}
+
+	entity = {
+		clone = "BRA_camelry_2_entity"	
+		name = "ARG_camelry_2_entity"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+		
+		attach = { 	name = "infantry"			infantry = "ARG_infantry_desert_mg_rider_entity" }
+		attach = { 	name = "cavalry"			cavalry = "ARG_camelry_mg_combined_entity" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
+		
+		scale = 1.0
+	}
+
+	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
+		clone = "ARG_camelry_2_entity"
+		name = "ARG_camelry_3_entity"
+	}
+
+##############################################
+####  ARGENTINA DEFAULT INFANTRY - SNOW   ####
+##############################################
+
+########## RIFLE ##########
+	
+	entity = {
+		clone = "ARG_infantry_rider_entity"
+		name = "ARG_infantry_rider_entity_snow"
+		pdxmesh = "ARG_infantry_snow_rifle_mesh"
+	}
+
+	entity = {
+		clone = "ARG_cavalry_rifle_combined_entity"
+		name = "ARG_cavalry_rifle_combined_entity_snow"
+		pdxmesh = "infantry_cavalry_horse_mesh"		
+		
+		attach = { 	name = "infantry_unit"			Saddle_Node = "ARG_infantry_rider_entity_snow" }
+		
+	}
+
+	entity = {
+		clone = "ARG_cavalry_entity"
+		name = "ARG_cavalry_entity_snow"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+
+		attach = { 	name = "infantry"			infantry = "ARG_infantry_rider_entity_snow" }
+		attach = { 	name = "cavalry"			cavalry = "ARG_cavalry_rifle_combined_entity_snow" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
+	}
+
+	
+########## MG ##########
+	
+	entity = {
+		clone = "ARG_infantry_mg_rider_entity"
+		name = "ARG_infantry_mg_rider_entity_snow"
+		pdxmesh = "ARG_infantry_snow_mg_mesh"
+	}
+
+	entity = {
+		clone = "ARG_cavalry_mg_combined_entity"
+		name = "ARG_cavalry_mg_combined_entity_snow"
+		pdxmesh = "infantry_cavalry_horse_mesh"		
+		
+		attach = { 	name = "infantry_unit"			Saddle_Node = "ARG_infantry_mg_rider_entity_snow" }
+	}
+
+	entity = {
+		clone = "ARG_cavalry_2_entity"
+		name = "ARG_cavalry_2_entity_snow"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+
+		attach = { 	name = "infantry"			infantry = "ARG_infantry_mg_rider_entity_snow" }
+		attach = { 	name = "cavalry"			cavalry = "ARG_cavalry_mg_combined_entity_snow" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
+	}
+
+	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
+		clone = "ARG_cavalry_2_entity_snow"
+		name = "ARG_cavalry_3_entity_snow"
+	}
+
+####################################################### CHILE ###########################################################
+
+#################################################
+########   CHILE DEFAULT INFANTRY    ############
+#################################################
+
+########## RIFLE ##########
+
+	entity = {
+		clone = "BRA_infantry_rider_entity"
+		name = "CHL_infantry_rider_entity"
+		pdxmesh = "CHL_infantry_rifle_mesh"
+		
+		attach = { 	name = "rifle1"	Right_Hand_node = "GER_infantry_weapon_rifle_right_entity" }	
+		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_rifle_left_entity" }
+		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
+		
+		scale = 0.8			
+	}
+
+	entity = {
+		clone = "BRA_cavalry_rifle_combined_entity"
+		name = "CHL_cavalry_rifle_combined_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+		
+		attach = { 	name = "infantry_unit"			Saddle_Node = "CHL_infantry_rider_entity" }
+		
+		scale = 0.65
+	}
+
+	entity = {
+		clone = "BRA_cavalry_entity"
+		name = "CHL_cavalry_entity"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+		
+		attach = { 	name = "infantry"			infantry = "CHL_infantry_rider_entity" }
+		attach = { 	name = "cavalry"			cavalry = "CHL_cavalry_rifle_combined_entity" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
+		
+		scale = 1.0
+	}
+
+########## MG ##########
+
+	entity = {
+		clone = "BRA_infantry_mg_rider_entity"
+		name = "CHL_infantry_mg_rider_entity"
+		pdxmesh = "CHL_infantry_mg_mesh"
+		
+		attach = { 	name = "rifle1"	Right_Hand_node = "GER_infantry_weapon_mg_right_entity" }	
+		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_mg_left_entity" }
+		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }	
+		
+		scale = 0.8			
+	}
+
+	entity = {
+		clone = "BRA_cavalry_mg_combined_entity"
+		name = "CHL_cavalry_mg_combined_entity"
+		pdxmesh = "infantry_cavalry_horse_mesh"
+		
+		attach = { 	name = "infantry_unit"			Saddle_Node = "CHL_infantry_mg_rider_entity" }
+		
+		scale = 0.65
+	}
+
+	entity = {
+		clone = "BRA_cavalry_2_entity"
+		name = "CHL_cavalry_2_entity"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+		
+		attach = { 	name = "infantry"			infantry = "CHL_infantry_mg_rider_entity" }
+		attach = { 	name = "cavalry"			cavalry = "CHL_cavalry_mg_combined_entity" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
+		
+		scale = 1.0
+	}
+
+	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
+		clone = "CHL_cavalry_2_entity"
+		name = "CHL_cavalry_3_entity"
+	}
+
+##############################################
+####   CHILE DEFAULT INFANTRY - DESERT    ####
+##############################################
+
+########## RIFLE DESERT ##########
+
+	entity = {
+		clone = "BRA_infantry_rider_entity"
+		name = "CHL_infantry_desert_rider_entity"
+		pdxmesh = "CHL_infantry_desert_rifle_mesh"
+		
+		attach = { 	name = "rifle1"	Right_Hand_node = "GER_infantry_weapon_rifle_right_entity" }	
+		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_rifle_left_entity" }
+		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }
+		
+		scale = 0.8			
+	}
+
+########## MG DESERT ##########
+
+	entity = {
+		clone = "BRA_infantry_mg_rider_entity"
+		name = "CHL_infantry_desert_mg_rider_entity"
+		pdxmesh = "CHL_infantry_desert_mg_mesh"
+		
+		attach = { 	name = "rifle1"	Right_Hand_node = "GER_infantry_weapon_mg_right_entity" }	
+		attach = { 	name = "rifle2"	Left_Hand_node = "GER_infantry_weapon_mg_left_entity" }
+		attach = { 	name = "rifle4"	Root_node_2 = "GER_infantry_weapon_rifle_right_entity" }	
+		
+		scale = 0.8			
+	}
+
+########## CAMELRY ##########
+
+	entity = {
+		clone = "BRA_camelry_rifle_combined_entity"
+		name = "CHL_camelry_rifle_combined_entity"
+		pdxmesh = "infantry_cavalry_camel_mesh"
+	
+		attach = { 	name = "infantry_unit"			Saddle_Node = "CHL_infantry_desert_rider_entity" }
+		
+		scale = 0.65
+	}
+
+	entity = {
+		clone = "BRA_camelry_mg_combined_entity"
+		name = "CHL_camelry_mg_combined_entity"
+		pdxmesh = "infantry_cavalry_camel_mesh"
+		
+		attach = { 	name = "infantry_unit"			Saddle_Node = "CHL_infantry_desert_mg_rider_entity" }
+		
+		scale = 0.65
+	}
+
+	entity = {
+		clone = "BRA_camelry_entity"	
+		name = "CHL_camelry_entity"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+		
+		attach = { 	name = "infantry"			infantry = "CHL_infantry_desert_rider_entity" }
+		attach = { 	name = "cavalry"			cavalry = "CHL_camelry_rifle_combined_entity" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
+		
+		scale = 1.0
+	}
+
+	entity = {
+		clone = "BRA_camelry_2_entity"	
+		name = "CHL_camelry_2_entity"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+		
+		attach = { 	name = "infantry"			infantry = "CHL_infantry_desert_mg_rider_entity" }
+		attach = { 	name = "cavalry"			cavalry = "CHL_camelry_mg_combined_entity" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
+		
+		scale = 1.0
+	}
+
+	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
+		clone = "CHL_camelry_2_entity"
+		name = "CHL_camelry_3_entity"
+	}
+########### CAMELRY ##########
+#
+#	entity = {
+#		clone = "BRA_camelry_rifle_combined_entity"
+#		name = "CHL_camelry_rifle_combined_entity"
+#		pdxmesh = "infantry_cavalry_camel_mesh"
+#	
+#		attach = { 	name = "infantry_unit"			Saddle_Node = "CHL_infantry_rider_entity" }
+#		
+#		scale = 0.65
+#	}
+#
+#	entity = {
+#		clone = "BRA_camelry_mg_combined_entity"
+#		name = "CHL_camelry_mg_combined_entity"
+#		pdxmesh = "infantry_cavalry_camel_mesh"
+#		
+#		attach = { 	name = "infantry_unit"			Saddle_Node = "CHL_infantry_mg_rider_entity" }
+#		
+#		scale = 0.65
+#	}
+#
+#	entity = {
+#		clone = "BRA_camelry_entity"	
+#		name = "CHL_camelry_entity"
+#		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+#		
+#		attach = { 	name = "infantry"			infantry = "CHL_infantry_rider_entity" }
+#		attach = { 	name = "cavalry"			cavalry = "CHL_camelry_rifle_combined_entity" }
+#		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
+#		
+#		scale = 1.0
+#	}
+#
+#	entity = {
+#		clone = "BRA_camelry_2_entity"	
+#		name = "CHL_camelry_2_entity"
+#		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+#		
+#		attach = { 	name = "infantry"			infantry = "CHL_infantry_mg_rider_entity" }
+#		attach = { 	name = "cavalry"			cavalry = "CHL_camelry_mg_combined_entity" }
+#		attach = { 	name = "horse"				horse = "infantry_cavalry_camel_entity" }
+#		
+#		scale = 1.0
+#	}
+#
+#	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
+#		clone = "CHL_camelry_2_entity"
+#		name = "CHL_camelry_3_entity"
+#	}
+
+##############################################
+#####    CHILE DEFAULT INFANTRY SNOW    ######
+##############################################
+
+########## RIFLE ##########
+	
+	entity = {
+		clone = "BRA_infantry_rider_entity"
+		name = "CHL_infantry_rider_entity_snow"
+		pdxmesh = "CHL_infantry_snow_rifle_mesh"
+	}
+
+	entity = {
+		clone = "BRA_cavalry_rifle_combined_entity"
+		name = "CHL_cavalry_rifle_combined_entity_snow"
+		pdxmesh = "infantry_cavalry_horse_mesh"		
+		
+		attach = { 	name = "infantry_unit"			Saddle_Node = "CHL_infantry_rider_entity_snow" }
+		
+	}
+
+	entity = {
+		clone = "BRA_cavalry_entity"
+		name = "CHL_cavalry_entity_snow"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+
+		attach = { 	name = "infantry"			infantry = "CHL_infantry_rider_entity_snow" }
+		attach = { 	name = "cavalry"			cavalry = "CHL_cavalry_rifle_combined_entity_snow" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
+	}
+
+	
+########## MG ##########
+	
+	entity = {
+		clone = "BRA_infantry_mg_rider_entity"
+		name = "CHL_infantry_mg_rider_entity_snow"
+		pdxmesh = "CHL_infantry_snow_rifle_mesh"
+	}
+
+	entity = {
+		clone = "BRA_cavalry_mg_combined_entity"
+		name = "CHL_cavalry_mg_combined_entity_snow"
+		pdxmesh = "infantry_cavalry_horse_mesh"		
+		
+		attach = { 	name = "infantry_unit"			Saddle_Node = "CHL_infantry_mg_rider_entity_snow" }
+	}
+
+	entity = {
+		clone = "BRA_cavalry_2_entity"
+		name = "CHL_cavalry_2_entity_snow"
+		pdxmesh = "infantry_cavalry_horse_frame_mesh"
+
+		attach = { 	name = "infantry"			infantry = "CHL_infantry_mg_rider_entity_snow" }
+		attach = { 	name = "cavalry"			cavalry = "CHL_cavalry_mg_combined_entity_snow" }
+		attach = { 	name = "horse"				horse = "infantry_cavalry_horse_entity" }
+	}
+
+	entity = { #This is necessary otherwise the latest infantry tech will make the 3D model to go back to rifle
+		clone = "CHL_cavalry_2_entity_snow"
+		name = "CHL_cavalry_3_entity_snow"
+	}

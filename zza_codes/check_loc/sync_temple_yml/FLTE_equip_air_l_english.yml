@@ -1,0 +1,2495 @@
+﻿l_english: 
+ # FLTE code replace fighter_equipment_desc
+ # FLTE code replace jet_fighter_equipment
+ # FLTE code replace jet_fighter_equipment_desc
+ # FLTE code replace heavy_fighter_equipment_desc
+ # FLTE code replace strat_bomber_equipment_desc
+ # FLTE code replace tac_bomber_equipment_desc
+ # FLTE code replace cv_CAS_equipment
+ # FLTE code replace cv_CAS_equipment_desc
+ # FLTE code replace cv_fighter_equipment_desc
+ # FLTE code replace fighter_equipment_0
+ # FLTE code replace tac_bomber_equipment_0
+ # FLTE code replace cv_nav_bomber_equipment
+ # FLTE code replace cv_CAS_equipment
+ # FLTE code replace cv_nav_bomber_equipment_1_short
+ # FLTE code replace cv_nav_bomber_equipment_2_short
+ # FLTE code replace cv_nav_bomber_equipment_3_short
+ # FLTE code replace cv_CAS_equipment_1
+ # FLTE code replace cv_CAS_equipment_1_short
+ # FLTE code replace cv_CAS_equipment_2
+ # FLTE code replace cv_CAS_equipment_2_short
+ # FLTE code replace cv_CAS_equipment_3
+ # FLTE code replace cv_CAS_equipment_3_short
+ # FLTE code replace cv_fighter_equipment_0
+ # FLTE code replace cv_fighter_equipment_0_short
+ # FLTE code replace cv_fighter_equipment_1_short
+ # FLTE code replace cv_fighter_equipment_2_short
+ # FLTE code replace cv_fighter_equipment_3_short
+###JET ERA
+ utility_helicopter_equipment_1: "Utility Helicopter 1950" 
+ utility_helicopter_equipment_1_short: "Utility Helicopter 1950" 
+ utility_helicopter_equipment_2: "Utility Helicopter 1960" 
+ utility_helicopter_equipment_2_short: "Utility Helicopter 1960" 
+ utility_helicopter_equipment_3: "Utility Helicopter 1970" 
+ utility_helicopter_equipment_3_short: "Utility Helicopter 1970" 
+ utility_helicopter_equipment_4: "Utility Helicopter 1980" 
+ utility_helicopter_equipment_4_short: "Utility Helicopter 1980" 
+ utility_helicopter_equipment_5: "Utility Helicopter 1990" 
+ utility_helicopter_equipment_5_short: "Utility Helicopter 1990" 
+ cas_drone_equipment_1: "Attack Drone 1970"
+ cas_drone_equipment_1_short: "Attack Drone 1970" 
+ cas_drone_equipment_2: "Attack Drone 1980" 
+ cas_drone_equipment_2_short: "Attack Drone 1980" 
+ cas_drone_equipment_3: "Attack Drone 1990" 
+ cas_drone_equipment_3_short: "Attack Drone 1990" 
+ attack_helicopter_equipment_1: "Attack Helicopter 1955"
+ attack_helicopter_equipment_1_short: "Attack Helicopter 1955" 
+ attack_helicopter_equipment_2: "Attack Helicopter 1965" 
+ attack_helicopter_equipment_2_short: "Attack Helicopter 1965" 
+ attack_helicopter_equipment_3: "Attack Helicopter 1975" 
+ attack_helicopter_equipment_3_short: "Attack Helicopter 1975" 
+ attack_helicopter_equipment_4: "Attack Helicopter 1985" 
+ attack_helicopter_equipment_4_short: "Attack Helicopter 1985" 
+ attack_helicopter_equipment_5: "Attack Helicopter 1995" 
+ attack_helicopter_equipment_5_short: "Attack Helicopter 1995" 
+ marine_helicopter_equipment_1: "Maritime Helicopter 1960"
+ marine_helicopter_equipment_1_short: "Maritime Helicopter 1960" 
+ marine_helicopter_equipment_2: "Maritime Helicopter 1970" 
+ marine_helicopter_equipment_2_short: "Maritime Helicopter 1970" 
+ marine_helicopter_equipment_3: "Maritime Helicopter 1980" 
+ marine_helicopter_equipment_3_short: "Maritime Helicopter 1980" 
+ marine_helicopter_equipment_4: "Maritime Helicopter 1990" 
+ marine_helicopter_equipment_4_short: "Maritime Helicopter 1990" 
+ USA_utility_helicopter_equipment_1: "Sikorsky H-19 Chickasaw"
+ USA_utility_helicopter_equipment_1_short: "H-19 Chickasaw" 
+ USA_utility_helicopter_equipment_2: "Bell UH-1 Iroquois" 
+ USA_utility_helicopter_equipment_2_short: "UH-1 Iroquois" 
+ USA_utility_helicopter_equipment_3: "Boeing CH-47 Chinook" 
+ USA_utility_helicopter_equipment_3_short: "CH-47 Chinook" 
+ USA_utility_helicopter_equipment_4: "Sikorsky UH-60 Black Hawk" 
+ USA_utility_helicopter_equipment_4_short: "UH-60" 
+ USA_utility_helicopter_equipment_5: "Sikorsky UH-60L Black Hawk" 
+ USA_utility_helicopter_equipment_5_short: "UH-60L" 
+ USA_Helicopter_1: "Sikorsky H-19 Chickasaw"
+ USA_Helicopter_1_short: "H-19 Chickasaw" 
+ USA_Helicopter_2: "Bell UH-1 Iroquois" 
+ USA_Helicopter_2_short: "UH-1 Iroquois" 
+ USA_Helicopter_3: "Boeing CH-47 Chinook" 
+ USA_Helicopter_3_short: "CH-47 Chinook" 
+ USA_Helicopter_4: "Sikorsky UH-60 Black Hawk" 
+ USA_Helicopter_4_short: "UH-60" 
+ USA_Helicopter_5: "Sikorsky UH-60L Black Hawk" 
+ USA_Helicopter_5_short: "UH-60L" 
+ USA_attack_helicopter_equipment_1: "Bell UH-1C"
+ USA_attack_helicopter_equipment_1_short: "UH-1C"   
+ USA_attack_helicopter_equipment_2: "Bell AH-1 Cobra" 
+ USA_attack_helicopter_equipment_2_short: "AH-1" 
+ USA_attack_helicopter_equipment_2_desc: "" 
+ USA_attack_helicopter_equipment_3: "Boeing AH-64A Apache" 
+ USA_attack_helicopter_equipment_3_short: "AH-64A" 
+ USA_attack_helicopter_equipment_3_desc: "" 
+ USA_attack_helicopter_equipment_4: "Boeing AH-64D Apache Longbow Block I" 
+ USA_attack_helicopter_equipment_4_short: "AH-64D Block I" 
+ USA_attack_helicopter_equipment_4_desc: "" 
+ USA_attack_helicopter_equipment_5: "Boeing AH-64D Apache Longbow Longbow Block II" 
+ USA_attack_helicopter_equipment_5_short: "AH-64D Block II" 
+ # FLTE code replace jet_fighter_equipment_1
+ # FLTE code replace jet_fighter_equipment_1_short
+ # FLTE code replace jet_fighter_equipment_1_desc
+ # FLTE code replace jet_fighter_equipment_2
+ # FLTE code replace jet_fighter_equipment_2_short
+ # FLTE code replace jet_fighter_equipment_2_desc
+ jet_fighter_equipment_3: "Jet fighter 1955" 
+ jet_fighter_equipment_3_short: "Jet fighter 1955" 
+ jet_fighter_equipment_3_desc: "The development of second-generation fighters was shaped by technological breakthroughs, lessons learned from the aerial battles of the Korean War, and a focus on conducting operations in a nuclear warfare environment. Technological advances in aerodynamics, propulsion and aerospace building materials (primarily aluminum alloys) permitted designers to experiment with aeronautical innovations, such as swept wings, delta wings, and area-ruled fuselages. Widespread use of after-burning turbojet engines made these the first production aircraft to break the sound barrier, and the ability to sustain supersonic speeds in level flight became a common capability amongst fighters of this generation." 
+ jet_fighter_equipment_4: "Jet fighter 1960" 
+ jet_fighter_equipment_4_short: "Jet fighter 1960" 
+ jet_fighter_equipment_4_desc: "Fighter designs took advantage of new electronics technologies that made effective radars small enough to be carried aboard smaller aircraft. Onboard radars permitted detection of enemy aircraft beyond visual range, thereby improving the handoff of targets by longer-ranged ground-based warning and tracking radars.Advances in guided missile development allowed air-to-air missiles to begin supplementing the gun as the primary offensive weapon for the first time in fighter history." 
+ jet_fighter_equipment_5: "Jet fighter 1965" 
+ jet_fighter_equipment_5_short: "Jet fighter 1965" 
+ jet_fighter_equipment_5_desc: "The third generation witnessed continued maturation of second-generation innovations, but it is most marked by renewed emphases on manoeuvrability and traditional ground-attack capabilities. Over the course of the 1960s, increasing combat experience with guided missiles demonstrated that combat would devolve into close-in dogfights. Analog avionics began to be introduced, replacing older "steam-gauge" cockpit instrumentation." 
+ jet_fighter_equipment_6: "Jet fighter 1970" 
+ jet_fighter_equipment_6_short: "Jet fighter 1970" 
+ jet_fighter_equipment_6_desc: "This era saw an expansion in ground-attack capabilities, principally in guided missiles, and witnessed the introduction of the first truly effective avionics for enhanced ground attack, including terrain-avoidance systems. Air-to-surface missiles (ASM) equipped with electro-optical (E-O) contrast seekers – such as the initial model of the widely used AGM-65 Maverick – became standard weapons, and laser-guided bombs (LGBs) became widespread in effort to improve precision-attack capabilities." 
+ jet_fighter_equipment_7: "Jet Fighter 1980" 
+ jet_fighter_equipment_7_short: "Jet Fighter 1980" 
+ jet_fighter_equipment_7_desc: "" 
+ jet_fighter_equipment_8: "Jet Fighter 1990" 
+ jet_fighter_equipment_8_short: "Jet Fighter 1990" 
+ jet_fighter_equipment_8_desc: "" 
+ cv_fighter_equipment_4: "Carrier jet 1946"
+ cv_fighter_equipment_4_short: "Carrier jet 1946" 
+ cv_fighter_equipment_4_desc: "First generation jet fighters are the first attempts at creation of fighter aircraft using jet engines. A few were developed during the closing days of World War II and saw very limited combat operations." 
+ cv_fighter_equipment_5: "Carrier jet 1950" 
+ cv_fighter_equipment_5_short: "Carrier jet 1950" 
+ cv_fighter_equipment_5_desc: "Mature swept wing jet fighter designs such as the F-86 used in the Korean War which are controllable at transonic speeds." 
+ cv_fighter_equipment_6: "Carrier jet 1955" 
+ cv_fighter_equipment_6_short: "Carrier jet 1955" 
+ cv_fighter_equipment_6_desc: "The development of second-generation fighters was shaped by technological breakthroughs, lessons learned from the aerial battles of the Korean War, and a focus on conducting operations in a nuclear warfare environment. Technological advances in aerodynamics, propulsion and aerospace building materials (primarily aluminum alloys) permitted designers to experiment with aeronautical innovations, such as swept wings, delta wings, and area-ruled fuselages. Widespread use of after-burning turbojet engines made these the first production aircraft to break the sound barrier, and the ability to sustain supersonic speeds in level flight became a common capability amongst fighters of this generation." 
+ cv_fighter_equipment_7: "Carrier jet 1960" 
+ cv_fighter_equipment_7_short: "Carrier jet 1960" 
+ cv_fighter_equipment_7_desc: "Fighter designs took advantage of new electronics technologies that made effective radars small enough to be carried aboard smaller aircraft. Onboard radars permitted detection of enemy aircraft beyond visual range, thereby improving the handoff of targets by longer-ranged ground-based warning and tracking radars.Advances in guided missile development allowed air-to-air missiles to begin supplementing the gun as the primary offensive weapon for the first time in fighter history." 
+ cv_fighter_equipment_8: "Carrier jet 1965" 
+ cv_fighter_equipment_8_short: "Carrier jet 1965" 
+ cv_fighter_equipment_8_desc: "The third generation witnessed continued maturation of second-generation innovations, but it is most marked by renewed emphases on manoeuvrability and traditional ground-attack capabilities. Over the course of the 1960s, increasing combat experience with guided missiles demonstrated that combat would devolve into close-in dogfights. Analog avionics began to be introduced, replacing older "steam-gauge" cockpit instrumentation." 
+ cv_fighter_equipment_9: "Carrier jet 1975" 
+ cv_fighter_equipment_9_short: "Carrier jet 1975" 
+ cv_fighter_equipment_9_desc: "This era  saw an expansion in ground-attack capabilities, principally in guided missiles, and witnessed the introduction of the first truly effective avionics for enhanced ground attack, including terrain-avoidance systems. Air-to-surface missiles (ASM) equipped with electro-optical (E-O) contrast seekers – such as the initial model of the widely used AGM-65 Maverick – became standard weapons, and laser-guided bombs (LGBs) became widespread in effort to improve precision-attack capabilities." 
+ cv_fighter_equipment_10: "Carrier Jet 1980" 
+ cv_fighter_equipment_10_short: "Carrier Jet 1980" 
+ cv_fighter_equipment_11: "Carrier Jet 1990" 
+ cv_fighter_equipment_11_short: "Carrier Jet 1990" 
+ cv_fighter_equipment_11_desc: "" 
+ heavy_fighter_equipment_4: "Interceptor 1950"
+ heavy_fighter_equipment_4_short: "Interceptor 1950" 
+ heavy_fighter_equipment_4_desc: "" 
+ heavy_fighter_equipment_5: "Interceptor 1955" 
+ heavy_fighter_equipment_5_short: "Interceptor 1955" 
+ heavy_fighter_equipment_5_desc: "" 
+ heavy_fighter_equipment_6: "Interceptor 1960" 
+ heavy_fighter_equipment_6_short: "Interceptor 1960" 
+ heavy_fighter_equipment_6_desc: "" 
+ heavy_fighter_equipment_7: "Interceptor 1965" 
+ heavy_fighter_equipment_7_short: "Interceptor 1965" 
+ heavy_fighter_equipment_7_desc: "" 
+ heavy_fighter_equipment_8: "Interceptor 1970" 
+ heavy_fighter_equipment_8_short: "Interceptor 1970" 
+ heavy_fighter_equipment_8_desc: "" 
+ heavy_fighter_equipment_9: "Interceptor 1980" 
+ heavy_fighter_equipment_9_short: "Interceptor 1980" 
+ heavy_fighter_equipment_9_desc: "" 
+ heavy_fighter_equipment_10: "Interceptor 1990" 
+ heavy_fighter_equipment_10_short: "Interceptor 1990" 
+ heavy_fighter_equipment_10_desc: "" 
+ CAS_equipment_5: "Jet CAS 1950"
+ CAS_equipment_5_short: "Jet CAS 1950" 
+ CAS_equipment_5_desc: "" 
+ CAS_equipment_6: "Jet CAS 1955" 
+ CAS_equipment_6_short: "Jet CAS 1955" 
+ CAS_equipment_6_desc: "" 
+ CAS_equipment_7: "Jet CAS 1960" 
+ CAS_equipment_7_short: "Jet CAS 1960" 
+ CAS_equipment_7_desc: "" 
+ CAS_equipment_8: "Jet CAS 1965" 
+ CAS_equipment_8_short: "Jet CAS 1965" 
+ CAS_equipment_8_desc: "" 
+ CAS_equipment_9: "Jet CAS 1970" 
+ CAS_equipment_9_short: "Jet CAS 1970" 
+ CAS_equipment_9_desc: "" 
+ CAS_equipment_10: "Jet Close Air Support 1980" 
+ CAS_equipment_10_short: "Jet CAS 1980" 
+ CAS_equipment_10_desc: "" 
+ CAS_equipment_11: "Jet Close Air Support 1990" 
+ CAS_equipment_11_short: "Jet CAS 1990" 
+ CAS_equipment_11_desc: "" 
+ cv_CAS_equipment_4: "Carrier CAS 1950"
+ cv_CAS_equipment_4_short: "Carrier CAS 1950" 
+ cv_CAS_equipment_4_desc: "" 
+ cv_CAS_equipment_5: "Carrier CAS 1955" 
+ cv_CAS_equipment_5_short: "Carrier CAS 1955" 
+ cv_CAS_equipment_5_desc: "" 
+ cv_CAS_equipment_6: "Carrier CAS 1960" 
+ cv_CAS_equipment_6_short: "Carrier CAS 1960" 
+ cv_CAS_equipment_6_desc: "" 
+ cv_CAS_equipment_7: "Carrier CAS 1965" 
+ cv_CAS_equipment_7_short: "Carrier CAS 1965" 
+ cv_CAS_equipment_7_desc: "" 
+ cv_CAS_equipment_8: "Carrier CAS 1970" 
+ cv_CAS_equipment_8_short: "Carrier CAS 1970" 
+ cv_CAS_equipment_8_desc: "" 
+ cv_CAS_equipment_9: "Carrier CAS 1980" 
+ cv_CAS_equipment_9_short: "Carrier CAS 1980" 
+ cv_CAS_equipment_9_desc: "" 
+ cv_CAS_equipment_10: "Carrier CAS 1990" 
+ cv_CAS_equipment_10_short: "Carrier CAS 1990" 
+ cv_CAS_equipment_10_desc: "" 
+ # FLTE code replace jet_strat_bomber_equipment_1
+ # FLTE code replace jet_strat_bomber_equipment_1_short
+ # FLTE code replace jet_strat_bomber_equipment_1_desc
+ jet_strat_bomber_equipment_2: "Early Jet Bomber" 
+ jet_strat_bomber_equipment_2_short: "Early Jet Bomber" 
+ jet_strat_bomber_equipment_2_desc: "" 
+ jet_strat_bomber_equipment_3: "Strategic Bomber 1960" 
+ jet_strat_bomber_equipment_3_short: "Strategic Bomber 1960" 
+ jet_strat_bomber_equipment_3_desc: "" 
+ jet_strat_bomber_equipment_4: "Strategic Bomber 1970" 
+ jet_strat_bomber_equipment_4_short: "Strategic Bomber 1970" 
+ jet_strat_bomber_equipment_4_desc: "" 
+ jet_strat_bomber_equipment_5: "Strategic Bomber 1985" 
+ jet_strat_bomber_equipment_5_short: "Strategic Bomber 1985" 
+ jet_strat_bomber_equipment_5_desc: "" 
+ # FLTE code replace jet_tac_bomber_equipment_1
+ # FLTE code replace jet_tac_bomber_equipment_1_short
+ # FLTE code replace jet_tac_bomber_equipment_1_desc
+ # FLTE code replace jet_tac_bomber_equipment_2
+ # FLTE code replace jet_tac_bomber_equipment_2_short
+ # FLTE code replace jet_tac_bomber_equipment_2_desc
+ jet_tac_bomber_equipment_3: "Tactical Bomber 1965" 
+ jet_tac_bomber_equipment_3_short: "Tactical Bomber 1965" 
+ jet_tac_bomber_equipment_3_desc: "" 
+ jet_tac_bomber_equipment_4: "Tactical Bomber 1975" 
+ jet_tac_bomber_equipment_4_short: "Tactical Bomber 1975" 
+ jet_tac_bomber_equipment_4_desc: "" 
+ jet_tac_bomber_equipment_5: "Tactical Bomber 1985" 
+ jet_tac_bomber_equipment_5_short: "Tactical Bomber 1985" 
+ jet_tac_bomber_equipment_5_desc: "" 
+ nav_bomber_equipment_4: "Maritime Patrol 1946"
+ nav_bomber_equipment_4_short: "Maritime Patrol 1946" 
+ nav_bomber_equipment_4_desc: "" 
+ nav_bomber_equipment_5: "Maritime Patrol 1955" 
+ nav_bomber_equipment_5_short: "Maritime Patrol 1955" 
+ nav_bomber_equipment_5_desc: "" 
+ nav_bomber_equipment_6: "Maritime Patrol 1965" 
+ nav_bomber_equipment_6_short: "Maritime Patrol 1965" 
+ nav_bomber_equipment_6_desc: "" 
+ nav_bomber_equipment_7: "Maritime Patrol 1975" 
+ nav_bomber_equipment_7_short: "Maritime Patrol 1975" 
+ nav_bomber_equipment_7_desc: "" 
+ nav_bomber_equipment_8: "Maritime Patrol 1985" 
+ nav_bomber_equipment_8_short: "Maritime Patrol 1985" 
+ nav_bomber_equipment_8_desc: "" 
+ CAS_equipment_4: "Post war Piston CAS"
+ CAS_equipment_4_short: "Post war Piston CAS" 
+ CAS_equipment_4_desc: "" 
+ # FLTE code replace transport_plane_equipment_1
+ # FLTE code replace transport_plane_equipment_1_short
+ # FLTE code replace transport_plane_equipment_1_desc
+ # FLTE code replace transport_plane_equipment_2
+ # FLTE code replace transport_plane_equipment_2_short
+ # FLTE code replace transport_plane_equipment_2_desc
+ # FLTE code replace transport_plane_equipment_3
+ # FLTE code replace transport_plane_equipment_3_short
+ # FLTE code replace transport_plane_equipment_3_desc
+ transport_plane_equipment_4: "Air Transport 1946" 
+ transport_plane_equipment_4_short: "Air Transport 1946" 
+ transport_plane_equipment_4_desc: "" 
+ transport_plane_equipment_5: "Air Transport 1960" 
+ transport_plane_equipment_5_short: "Air Transport 1960" 
+ transport_plane_equipment_5_desc: "" 
+ transport_plane_equipment_6: "Air Transport 1970" 
+ transport_plane_equipment_6_short: "Air Transport 1970" 
+ transport_plane_equipment_6_desc: "" 
+ transport_plane_equipment_7: "Air Transport 1990" 
+ transport_plane_equipment_7_short: "Air Transport 1990" 
+ transport_plane_equipment_7_desc: "" 
+##SOVIET TREE## 
+ SOV_utility_helicopter_equipment_1: "Mil Mi-4"
+ SOV_utility_helicopter_equipment_1_short: "Mi-4" 
+ SOV_utility_helicopter_equipment_2: "Mil Mi-8" 
+ SOV_utility_helicopter_equipment_2_short: "Mi-8" 
+ SOV_utility_helicopter_equipment_3: "Mil Mi-8T" 
+ SOV_utility_helicopter_equipment_3_short: "Mi-8T" 
+ SOV_utility_helicopter_equipment_4: "Mil Mi-17" 
+ SOV_utility_helicopter_equipment_4_short: "Mi-17" 
+ SOV_utility_helicopter_equipment_4_desc: "" 
+ SOV_utility_helicopter_equipment_5: "Mil Mi-26" 
+ SOV_utility_helicopter_equipment_5_short: "Mi-26" 
+ SOV_utility_helicopter_equipment_5_desc: "" 
+ SOV_attack_helicopter_equipment_1: "Mil Mi-24A"
+ SOV_attack_helicopter_equipment_1_short: "Mi-24A" 
+ SOV_attack_helicopter_equipment_2: "Mil Mi-24" 
+ SOV_attack_helicopter_equipment_2_short: "Mi-24" 
+ SOV_attack_helicopter_equipment_3: "Mil Mi-28" 
+ SOV_attack_helicopter_equipment_3_short: "Mi-28" 
+ SOV_attack_helicopter_equipment_4: "Kamov Ka-50" 
+ SOV_attack_helicopter_equipment_4_short: "Ka-50" 
+ SOV_attack_helicopter_equipment_5: "Kamov Ka-52" 
+ SOV_attack_helicopter_equipment_5_short: "Ka-52" 
+ # SOV_jet_fighter_equipment_3: "Mikoyan-Guerevich MiG-19"
+ # SOV_jet_fighter_equipment_3_short: "MiG-19"
+ SOV_jet_fighter_equipment_4: "Mikoyan-Guerevich MiG-21" 
+ SOV_jet_fighter_equipment_4_short: "MiG-21" 
+ SOV_jet_fighter_equipment_4_desc: "The Mikoyan-Gurevich MiG-21 (NATO reporting name Fishbed) is a supersonic jet fighter and interceptor aircraft, designed by the Mikoyan-Gurevich Design Bureau in the Soviet Union." 
+ SOV_jet_fighter_equipment_5: "Mikoyan-Guerevich MiG-21S" 
+ SOV_jet_fighter_equipment_5_short: "MiG-21S" 
+ SOV_jet_fighter_equipment_6: "Mikoyan-Gurevich MiG-23" 
+ SOV_jet_fighter_equipment_6_short: "MiG-23" 
+ SOV_jet_fighter_equipment_6_desc: "The Mikoyan-Gurevich MiG-23 (NATO reporting name Flogger) is a variable-geometry fighter aircraft, designed by the Mikoyan-Gurevich design bureau in the Soviet Union. It is a third-generation jet fighter, the world's most-produced variable-geometry aircraft, along with similar Soviet fighters such as the Su-15 "Flagon". It was the first Soviet fighter to field a look-down/shoot-down radar and one of the first to be armed with beyond visual range missiles." 
+ SOV_jet_fighter_equipment_7: "Mikoyan-Gurevich MiG-29" 
+ SOV_jet_fighter_equipment_7_short: "MiG-29" 
+ SOV_jet_fighter_equipment_7_desc: "" 
+ SOV_jet_fighter_equipment_8: "Sukhoi Su-27" 
+ SOV_jet_fighter_equipment_8_short: "Su-27" 
+ SOV_jet_fighter_equipment_8_desc: "" 
+ SOV_cv_fighter_equipment_4: "Mikoyan-Guerevich MiG-9K"
+ SOV_cv_fighter_equipment_4_short: "MiG-9K" 
+ SOV_cv_fighter_equipment_5: "Mikoyan-Guerevich MiG-15K" 
+ SOV_cv_fighter_equipment_5_short: "MiG-15K" 
+ SOV_cv_fighter_equipment_6: "Mikoyan-Guerevich MiG-19K" 
+ SOV_cv_fighter_equipment_6_short: "MiG-19K" 
+ SOV_cv_fighter_equipment_7: "Mikoyan-Guerevich MiG-21K" 
+ SOV_cv_fighter_equipment_7_short: "MiG-21K" 
+ SOV_cv_fighter_equipment_7_desc: "The Mikoyan-Gurevich MiG-21 (NATO reporting name Fishbed) is a supersonic jet fighter and interceptor aircraft, designed by the Mikoyan-Gurevich Design Bureau in the Soviet Union." 
+ SOV_cv_fighter_equipment_8: "Mikoyan-Guerevich MiG-21SK" 
+ SOV_cv_fighter_equipment_8_short: "MiG-21SK" 
+ SOV_cv_fighter_equipment_9: "Mikoyan-Gurevich MiG-23K" 
+ SOV_cv_fighter_equipment_9_short: "MiG-23K" 
+ SOV_cv_fighter_equipment_9_desc: "The Mikoyan-Gurevich MiG-23 (NATO reporting name Flogger) is a variable-geometry fighter aircraft, designed by the Mikoyan-Gurevich design bureau in the Soviet Union. It is a third-generation jet fighter, the world's most-produced variable-geometry aircraft, along with similar Soviet fighters such as the Su-15 "Flagon". It was the first Soviet fighter to field a look-down/shoot-down radar and one of the first to be armed with beyond visual range missiles." 
+ SOV_cv_fighter_equipment_11: "Sukhoi Su-33" 
+ SOV_cv_fighter_equipment_11_short: "Su-33" 
+ SOV_heavy_fighter_equipment_4: "Mikoyan-Guerevich MiG-17"
+ SOV_heavy_fighter_equipment_4_short: "MiG-17" 
+ SOV_heavy_fighter_equipment_5: "Lavochkin La-190 " 
+ SOV_heavy_fighter_equipment_5_short: "La-190" 
+ SOV_heavy_fighter_equipment_6: "Sukhoi Su-9" 
+ SOV_heavy_fighter_equipment_6_short: "Su-9" 
+ SOV_heavy_fighter_equipment_7: "Sukhoi Su-11" 
+ SOV_heavy_fighter_equipment_7_short: "Su-11" 
+ SOV_heavy_fighter_equipment_8: "Sukhoi Su-15" 
+ SOV_heavy_fighter_equipment_8_short: "Su-15" 
+ SOV_heavy_fighter_equipment_9: "Mikoyan-Gurevich MiG-25" 
+ SOV_heavy_fighter_equipment_9_short: "MiG-25" 
+ SOV_heavy_fighter_equipment_10: "Mikoyan-Gurevich MiG-31" 
+ SOV_heavy_fighter_equipment_10_short: "MiG-31" 
+ SOV_CAS_equipment_5: "Tupolev Tu-12"
+ SOV_CAS_equipment_5_short: "Tu-12" 
+ SOV_CAS_equipment_6: "Ilyushin Il-40" 
+ SOV_CAS_equipment_6_short: "Il-40" 
+ SOV_CAS_equipment_7: "Sukhoi Su-7" 
+ SOV_CAS_equipment_7_short: "Su-7" 
+ SOV_CAS_equipment_8: "Sukhoi Su-7BM" 
+ SOV_CAS_equipment_8_short: "Su-7BM"
+ SOV_CAS_equipment_9: "Sukhoi Su-17" 
+ SOV_CAS_equipment_9_short: "Su-17" 
+ SOV_CAS_equipment_10: "Sukhoi Su-25A" 
+ SOV_CAS_equipment_10_short: "Su-25A" 
+ SOV_CAS_equipment_11: "Sukhoi Su-25UB" 
+ SOV_CAS_equipment_11_short: "Su-25UB" 
+ SOV_cv_CAS_equipment_4: "Tupolev Tu-12K"
+ SOV_cv_CAS_equipment_4_short: "Tu-12K" 
+ SOV_cv_CAS_equipment_5: "Ilyushin Il-40K" 
+ SOV_cv_CAS_equipment_5_short: "Il-40K" 
+ SOV_cv_CAS_equipment_6: "Sukhoi Su-7K" 
+ SOV_cv_CAS_equipment_6_short: "Su-7K" 
+ SOV_cv_CAS_equipment_7: "Sukhoi Su-7BMK" 
+ SOV_cv_CAS_equipment_7_short: "Su-7BMK" 
+ SOV_cv_CAS_equipment_8: "Sukhoi Su-7BKLK" 
+ SOV_cv_CAS_equipment_8_short: "Su-7BKLK" 
+ SOV_cv_CAS_equipment_9: "Sukhoi Su-25AK"
+ SOV_cv_CAS_equipment_9_short: "Su-25AK" 
+ SOV_cv_CAS_equipment_10: "Sukhoi Su-25UBK" 
+ SOV_cv_CAS_equipment_10_short: "Su-25UBK" 
+ # SOV_jet_strat_bomber_equipment_2: "Tupolev Tu-16"
+ # SOV_jet_strat_bomber_equipment_2_short: "Tu-16"
+ # SOV_jet_strat_bomber_equipment_3: "Tupolev Tu-95"
+ # SOV_jet_strat_bomber_equipment_3_short: "Tu-95"
+ SOV_jet_strat_bomber_equipment_4: "Tu-22" 
+ SOV_jet_strat_bomber_equipment_4_short: "Tu-22" 
+ SOV_jet_strat_bomber_equipment_5: "Tu-160" 
+ SOV_jet_strat_bomber_equipment_5_short: "Tu-160" 
+ # FLTE code replace SOV_jet_tac_bomber_equipment_2
+ # FLTE code replace SOV_jet_tac_bomber_equipment_2_short
+ SOV_jet_tac_bomber_equipment_3: "Tupolev Tu-28B" 
+ SOV_jet_tac_bomber_equipment_3_short: "Tu-28B" 
+ SOV_jet_tac_bomber_equipment_4: "Mikoyan-Guerevich MiG-27K" 
+ SOV_jet_tac_bomber_equipment_4_short: "MiG-27K" 
+ SOV_jet_tac_bomber_equipment_5: "Sukhoi Su-24" 
+ SOV_jet_tac_bomber_equipment_5_short: "Su-24" 
+ # SOV_nav_bomber_equipment_4: "Tupolev Tu-8"
+ # SOV_nav_bomber_equipment_4_short: "Tu-8"
+ SOV_nav_bomber_equipment_5: "beriev Be-10" 
+ SOV_nav_bomber_equipment_5_short: "Be-10" 
+ SOV_nav_bomber_equipment_6: "Beriev Be-12" 
+ SOV_nav_bomber_equipment_6_short: "Be-12" 
+ SOV_nav_bomber_equipment_7: "Ilyushin Il-38" 
+ SOV_nav_bomber_equipment_7_short: "Il-38"
+ # SOV_CAS_equipment_4: "Ilyushin Il-16"
+ # SOV_CAS_equipment_4_short: "Il-16"
+ # FLTE code replace SOV_transport_plane_equipment_1
+ # FLTE code replace SOV_transport_plane_equipment_1_short
+ SOV_transport_plane_equipment_3_short: "Il-12"
+ SOV_transport_plane_equipment_4: "Ilyushin Il-14" 
+ SOV_transport_plane_equipment_4_short: "Il-14" 
+ SOV_transport_plane_equipment_5: "Antonov An-12" 
+ SOV_transport_plane_equipment_5_short: "An-12" 
+ SOV_transport_plane_equipment_6: "Ilyushin Il-76" 
+ SOV_transport_plane_equipment_6_short: "Il-76" 
+ SOV_transport_plane_equipment_7: "Antonov An-225" 
+ SOV_transport_plane_equipment_7_short: "An-225" 
+ SOV_marine_helicopter_equipment_1: "Kamov Ka-20"
+ SOV_marine_helicopter_equipment_1_short: "Ka-20" 
+ SOV_marine_helicopter_equipment_2: "Kamov Ka-25" 
+ SOV_marine_helicopter_equipment_2_short: "Ka-25" 
+ SOV_marine_helicopter_equipment_3: "Kamov Ka-27" 
+ SOV_marine_helicopter_equipment_3_short: "Ka-27" 
+ SOV_marine_helicopter_equipment_4: "Kamov Ka-31" 
+ SOV_marine_helicopter_equipment_4_short: "Ka-31" 
+ #FRA HELI
+ FRA_utility_helicopter_equipment_1: "H-19"
+ FRA_utility_helicopter_equipment_1_short: "H-19" 
+ FRA_utility_helicopter_equipment_2: "Alouette III" 
+ FRA_utility_helicopter_equipment_2_short: "Alouette III" 
+ FRA_utility_helicopter_equipment_3: "SA330 Puma" 
+ FRA_utility_helicopter_equipment_3_short: "SA330" 
+ FRA_utility_helicopter_equipment_4: "AS365 Dauphin" 
+ FRA_utility_helicopter_equipment_4_short: "AS365" 
+ FRA_utility_helicopter_equipment_4_desc: "" 
+ FRA_utility_helicopter_equipment_5: "AS550 Fennec" 
+ FRA_utility_helicopter_equipment_5_short: "AS550" 
+ FRA_utility_helicopter_equipment_5_desc: "" 
+ FRA_attack_helicopter_equipment_1: "CH-34"
+ FRA_attack_helicopter_equipment_1_short: "CH-34" 
+ FRA_attack_helicopter_equipment_2: "SA 321G Super Frelon" 
+ FRA_attack_helicopter_equipment_2_short: "SA 321G" 
+ FRA_attack_helicopter_equipment_3: "Lynx" 
+ FRA_attack_helicopter_equipment_3_short: "Lynx" 
+ FRA_attack_helicopter_equipment_4: "AS565 Panther" 
+ FRA_attack_helicopter_equipment_4_short: "AS565" 
+ FRA_attack_helicopter_equipment_5: "AS550 Fennec" 
+ FRA_attack_helicopter_equipment_5_short: "AS550" 
+ TUR_attack_helicopter_equipment_1: "UH-1 Iroquois"
+ TUR_attack_helicopter_equipment_1_short: "UH-1" 
+ TUR_attack_helicopter_equipment_2: "AH-1 Hueycobra" 
+ TUR_attack_helicopter_equipment_2_short: "AH-1H" 
+ TUR_attack_helicopter_equipment_3: " AH-1 Supercobra" 
+ TUR_attack_helicopter_equipment_3_short: "AH-1S"  
+ TUR_attack_helicopter_equipment_5: "A-129 Mangusta" 
+ TUR_attack_helicopter_equipment_5_short: "A-129" 
+ TUR_attack_helicopter_equipment_5_desc: "" 
+ TUR_utility_helicopter_equipment_1: "H-34"
+ TUR_utility_helicopter_equipment_1_short: "H-34" 
+ TUR_utility_helicopter_equipment_2: "Bell Model 204" 
+ TUR_utility_helicopter_equipment_2_short: "Bell Model 204" 
+ TUR_utility_helicopter_equipment_3: "Bell model 206" 
+ TUR_utility_helicopter_equipment_3_short: "Bell model 206" 
+ TUR_utility_helicopter_equipment_4: "UH-60 Blackhawk" 
+ TUR_utility_helicopter_equipment_4_short: "UH-60" 
+ TUR_utility_helicopter_equipment_5: "Airbus H-135" 
+ TUR_utility_helicopter_equipment_5_short: "H-135" 
+ FRA_marine_helicopter_equipment_2: "SA321G Super Frelon"
+ FRA_marine_helicopter_equipment_2_short: "SA321G" 
+ FRA_marine_helicopter_equipment_3: "Supex Lynx" 
+ FRA_marine_helicopter_equipment_3_short: "Supex Lynx" 
+ FRA_marine_helicopter_equipment_4: "AS565 Panther" 
+ FRA_marine_helicopter_equipment_4_short: "AS565" 
+ USA_marine_helicopter_equipment_1: "SH-3 Sea king"
+ USA_marine_helicopter_equipment_1_short: "SH-3"
+ USA_marine_helicopter_equipment_3: "SH-60"
+ USA_marine_helicopter_equipment_3_short: "SH60"
+ USA_marine_helicopter_equipment_4: "SH-60F"
+ USA_marine_helicopter_equipment_4_short: "SH-60F" 
+ JAP_utility_helicopter_equipment_1: "H-19"
+ JAP_utility_helicopter_equipment_1_short: "H-19" 
+ JAP_utility_helicopter_equipment_2: "UH-1B" 
+ JAP_utility_helicopter_equipment_2_short: "UH-1B" 
+ JAP_utility_helicopter_equipment_3: "UH-1N"
+ JAP_utility_helicopter_equipment_3_short: "UH-1N" 
+ JAP_utility_helicopter_equipment_4: "Bell Model 412" 
+ JAP_utility_helicopter_equipment_4_short: "Bell Model 412" 
+ JAP_utility_helicopter_equipment_4_desc: "" 
+ JAP_attack_helicopter_equipment_1: "CH-34"
+ JAP_attack_helicopter_equipment_1_short: "CH-34" 
+ JAP_attack_helicopter_equipment_2: "UH-1C" 
+ JAP_attack_helicopter_equipment_2_short: "UH-1C" 
+ JAP_attack_helicopter_equipment_3: "AH-1S" 
+ JAP_attack_helicopter_equipment_3_short: "AH-1S" 
+ JAP_attack_helicopter_equipment_4: "AH-64A" 
+ JAP_attack_helicopter_equipment_4_short: "AH-64A" 
+ JAP_attack_helicopter_equipment_5: "AH-64DJP" 
+ JAP_attack_helicopter_equipment_5_short: "AH-64DJP" 
+ JAP_marine_helicopter_equipment_1: "Sikorsky S-62J"
+ JAP_marine_helicopter_equipment_1_short: "Sikorsky S-62J" 
+ JAP_marine_helicopter_equipment_3: "SH-60 SeaHawk" 
+ JAP_marine_helicopter_equipment_3_short: "SH-60 SeaHawk" 
+ ENG_utility_helicopter_equipment_1: "H-19"
+ ENG_utility_helicopter_equipment_1_short: "H-19" 
+ ENG_utility_helicopter_equipment_2: "CH-47 Chinook" 
+ ENG_utility_helicopter_equipment_2_short: "CH-47" 
+ ENG_utility_helicopter_equipment_3: "SA330 Puma" 
+ ENG_utility_helicopter_equipment_3_short: "SA330" 
+ ENG_utility_helicopter_equipment_4: "Bell Model 412" 
+ ENG_utility_helicopter_equipment_4_short: "Bell Model 412" 
+ ENG_utility_helicopter_equipment_4_desc: ""
+ ENG_utility_helicopter_equipment_5: "AS550 Fennec" 
+ ENG_utility_helicopter_equipment_5_short: "AS550" 
+ ENG_attack_helicopter_equipment_2: "BO-105"
+ ENG_attack_helicopter_equipment_2_short: "BO-105" 
+ ENG_attack_helicopter_equipment_3: "Lynx" 
+ ENG_attack_helicopter_equipment_3_short: "Lynx" 
+ ENG_attack_helicopter_equipment_4: "AH-64A" 
+ ENG_attack_helicopter_equipment_4_short: "AH-64A" 
+ ENG_attack_helicopter_equipment_5: "CH-146 Griffon" 
+ ENG_attack_helicopter_equipment_5_short: "CH-146" 
+ ENG_marine_helicopter_equipment_1: "SH-3 Sea king"
+ ENG_marine_helicopter_equipment_1_short: "SH-3" 
+ ENG_marine_helicopter_equipment_3: "Super Lynx" 
+ ENG_marine_helicopter_equipment_3_short: "Super Lynx" 
+ ENG_marine_helicopter_equipment_4: "AS565 Panther" 
+ ENG_marine_helicopter_equipment_4_short: "AS565" 
+ ##PRC TREE##
+ PRC_jet_fighter_equipment_1: "Mikoyan-Guerevich MiG-9" 
+ PRC_jet_fighter_equipment_1_short: "MiG-9" 
+ PRC_jet_fighter_equipment_2: "Mikoyan-Guerevich MiG-15" 
+ PRC_jet_fighter_equipment_2_short: "MiG-15" 
+ PRC_jet_fighter_equipment_3: "Shenyang J-5" 
+ PRC_jet_fighter_equipment_3_short: "J-5" 
+ PRC_jet_fighter_equipment_4: "Mikoyan-Guerevich MiG-21" 
+ PRC_jet_fighter_equipment_4_short: "Mig-21" 
+ PRC_jet_fighter_equipment_4_desc: "" 
+ PRC_jet_fighter_equipment_5: "Shenyang J-6" 
+ PRC_jet_fighter_equipment_5_short: "J-6" 
+ PRC_jet_fighter_equipment_6: "Mikoyan-Gurevich MiG-23" 
+ PRC_jet_fighter_equipment_6_short: "MiG-23" 
+ PRC_jet_fighter_equipment_6_desc: "" 
+ PRC_jet_fighter_equipment_7: "Shenyang J-8" 
+ PRC_jet_fighter_equipment_7_short: "J-8" 
+ PRC_jet_fighter_equipment_7_desc: "" 
+ PRC_jet_fighter_equipment_8: "Soukhoï Su-27" 
+ PRC_jet_fighter_equipment_8_short: "Su-27" 
+ PRC_jet_fighter_equipment_8_desc: "" 
+ PRC_cv_fighter_equipment_4: "Mikoyan-Guerevich MiG-9K"
+ PRC_cv_fighter_equipment_4_short: "MiG-9K" 
+ PRC_cv_fighter_equipment_5: "Mikoyan-Guerevich MiG-15K" 
+ PRC_cv_fighter_equipment_5_short: "MiG-15K" 
+ PRC_cv_fighter_equipment_6: "Shenyang J-5" 
+ PRC_cv_fighter_equipment_6_short: "J-5" 
+ PRC_cv_fighter_equipment_7: "Mikoyan-Guerevich MiG-21K" 
+ PRC_cv_fighter_equipment_7_short: "MiG-21K" 
+ PRC_cv_fighter_equipment_7_desc: "" 
+ PRC_cv_fighter_equipment_8: "Shenyang J-6" 
+ PRC_cv_fighter_equipment_8_short: "J-6" 
+ PRC_cv_fighter_equipment_9: "Mikoyan-Gurevich MiG-23K" 
+ PRC_cv_fighter_equipment_9_short: "MiG-23K" 
+ PRC_cv_fighter_equipment_9_desc: ""
+ PRC_cv_fighter_equipment_10: "Shenyang J-8" 
+ PRC_cv_fighter_equipment_10_short: "J-8" 
+ PRC_cv_fighter_equipment_11: "Soukhoï Su-27" 
+ PRC_cv_fighter_equipment_11_short: "Su-27K" 
+ PRC_heavy_fighter_equipment_4: "Mikoyan-Guerevich MiG-17"
+ PRC_heavy_fighter_equipment_4_short: "MiG-17" 
+ PRC_heavy_fighter_equipment_5: "Mikoyan-Guerevich MiG-19" 
+ PRC_heavy_fighter_equipment_5_short: "MiG-19" 
+ PRC_heavy_fighter_equipment_6: "Sukhoi Su-9" 
+ PRC_heavy_fighter_equipment_6_short: "Su-9" 
+ PRC_heavy_fighter_equipment_7: "Shenyang J-6" 
+ PRC_heavy_fighter_equipment_7_short: "J-6" 
+ PRC_heavy_fighter_equipment_8: "Mikoyan-Gurevich MiG-23" 
+ PRC_heavy_fighter_equipment_8_short: "Mig-23" 
+ PRC_heavy_fighter_equipment_9: "Shenyang J-7" 
+ PRC_heavy_fighter_equipment_9_short: "J-7" 
+ PRC_heavy_fighter_equipment_10: "Mikoyan-Guerevich MiG-31" 
+ PRC_heavy_fighter_equipment_10_short: "MiG-31" 
+ PRC_CAS_equipment_5: "Tupolev Tu-12"
+ PRC_CAS_equipment_5_short: "Tu-12" 
+ PRC_CAS_equipment_6: "Ilyushin Il-40" 
+ PRC_CAS_equipment_6_short: "Il-40" 
+ PRC_CAS_equipment_7: "Sukhoi Su-7" 
+ PRC_CAS_equipment_7_short: "Su-7" 
+ PRC_CAS_equipment_8: "Sukhoi Su-7BM" 
+ PRC_CAS_equipment_8_short: "Su-7BM" 
+ PRC_CAS_equipment_9: "Nanchang Q-5" 
+ PRC_CAS_equipment_9_short: "Q-5" 
+ PRC_CAS_equipment_10: "Shenyang J-7" 
+ PRC_CAS_equipment_10_short: "J-7" 
+ PRC_CAS_equipment_11: "XIAN JH-7" 
+ PRC_CAS_equipment_11_short: "JH-7" 
+ PRC_cv_CAS_equipment_4: "Tupolev Tu-12K"
+ PRC_cv_CAS_equipment_4_short: "Tu-12K" 
+ PRC_cv_CAS_equipment_5: "Ilyushin Il-40K" 
+ PRC_cv_CAS_equipment_5_short: "Il-40K" 
+ PRC_cv_CAS_equipment_6: "Sukhoi Su-7K" 
+ PRC_cv_CAS_equipment_6_short: "Su-7K" 
+ PRC_cv_CAS_equipment_7: "Sukhoi Su-7BMK" 
+ PRC_cv_CAS_equipment_7_short: "Su-7BMK" 
+ PRC_cv_CAS_equipment_8: "Sukhoi Su-7BKLK" 
+ PRC_cv_CAS_equipment_8_short: "Su-7BKLK" 
+ PRC_jet_strat_bomber_equipment_1: "Tupolev 16"
+ PRC_jet_strat_bomber_equipment_1_short: "Tu-16" 
+ PRC_jet_strat_bomber_equipment_2: "Xian H-6" 
+ PRC_jet_strat_bomber_equipment_2_short: "H-6" 
+ PRC_jet_strat_bomber_equipment_3: "Tupolev Tu-95" 
+ PRC_jet_strat_bomber_equipment_3_short: "Tu-95" 
+ PRC_jet_strat_bomber_equipment_4: "Tu-22" 
+ PRC_jet_strat_bomber_equipment_4_short: "Tu-22" 
+ PRC_jet_tac_bomber_equipment_1: "Xian H-5"
+ PRC_jet_tac_bomber_equipment_1_short: "H-5" 
+ PRC_jet_tac_bomber_equipment_2: "Yakovlev Yak-26" 
+ PRC_jet_tac_bomber_equipment_2_short: "Yakovlev Yak-26" 
+ PRC_jet_tac_bomber_equipment_3: "Tupolev Tu-28B" 
+ PRC_jet_tac_bomber_equipment_3_short: "Tu-28B" 
+ PRC_jet_tac_bomber_equipment_4: "Mikoyan-Guerevich MiG-27K" 
+ PRC_jet_tac_bomber_equipment_4_short: "MiG-27K" 
+ PRC_jet_tac_bomber_equipment_5: "Sukhoi Su-24" 
+ PRC_jet_tac_bomber_equipment_5_short: "Su-24" 
+ PRC_nav_bomber_equipment_4: "Tupolev Tu-8"
+ PRC_nav_bomber_equipment_4_short: "Tu-8" 
+ PRC_nav_bomber_equipment_5: "Ilyushin Il-18" 
+ PRC_nav_bomber_equipment_5_short: "Il-18" 
+ PRC_nav_bomber_equipment_6: "Beriev Be-12" 
+ PRC_nav_bomber_equipment_6_short: "Be-12" 
+ PRC_nav_bomber_equipment_7: "Ilyushin Il-38" 
+ PRC_nav_bomber_equipment_7_short: "Il-38" 
+ PRC_nav_bomber_equipment_8: "Harbin SH-5" 
+ PRC_nav_bomber_equipment_8_short: "SH-5" 
+ PRC_CAS_equipment_4: "Ilyushin Il-16"
+ PRC_CAS_equipment_4_short: "Il-16" 
+ PRC_transport_plane_equipment_1: "Tupolev TB-3"
+ PRC_transport_plane_equipment_1_short: "TB-3" 
+ PRC_transport_plane_equipment_2: "Lisunov Li-2" 
+ PRC_transport_plane_equipment_2_short: "Li-2" 
+ PRC_transport_plane_equipment_3: "Ilyushin Il-12" 
+ PRC_transport_plane_equipment_3_short: "Il-12" 
+ PRC_transport_plane_equipment_4: "Ilyushin Il-18" 
+ PRC_transport_plane_equipment_4_short: "Il-18" 
+ PRC_transport_plane_equipment_5: "Antonov An-12" 
+ PRC_transport_plane_equipment_5_short: "An-12" 
+ PRC_transport_plane_equipment_6: "Ilyushin Il-76" 
+ PRC_transport_plane_equipment_6_short: "Il-76"
+ PRC_transport_plane_equipment_7: "Airbus 320" 
+ PRC_transport_plane_equipment_7_short: "A320" 
+ # FLTE code replace POL_jet_tac_bomber_equipment_1
+ # FLTE code replace POL_jet_tac_bomber_equipment_1_short
+ POL_transport_plane_equipment_5: "Antonov An-12" 
+ POL_transport_plane_equipment_5_short: "An-12" 
+ POL_transport_plane_equipment_6: "Antonov An-24" 
+ POL_transport_plane_equipment_6_short: "An-24"
+ POL_transport_plane_equipment_7: "Antonov An-26" 
+ POL_transport_plane_equipment_7_short: "Antonov An-26" 
+ # FLTE code replace POL_jet_fighter_equipment_1
+ # FLTE code replace POL_jet_fighter_equipment_1_short
+ # FLTE code replace POL_jet_fighter_equipment_2
+ # FLTE code replace POL_jet_fighter_equipment_2_short
+ POL_jet_fighter_equipment_3: "Mikoyan-Guerevich MiG-17" 
+ POL_jet_fighter_equipment_3_short: "Mig-17" 
+ POL_jet_fighter_equipment_4: "Mikoyan-Guerevich MiG-21" 
+ POL_jet_fighter_equipment_4_short: "Mig-21" 
+ POL_jet_fighter_equipment_4_desc: "" 
+ POL_jet_fighter_equipment_5: "Mikoyan-Guerevich MiG-21S" 
+ POL_jet_fighter_equipment_5_short: "MiG-21S" 
+ POL_jet_fighter_equipment_6: "Mikoyan-Gurevich MiG-23" 
+ POL_jet_fighter_equipment_6_short: "MiG-23" 
+ POL_jet_fighter_equipment_6_desc: "" 
+ POL_jet_fighter_equipment_7: "Mikoyan-Gurevich MiG-29" 
+ POL_jet_fighter_equipment_7_short: "MiG-29" 
+ POL_jet_fighter_equipment_7_desc: "" 
+ POL_jet_fighter_equipment_8: "General Dynamics F-16D Fighting Falcon" 
+ POL_jet_fighter_equipment_8_short: "F-16D" 
+ POL_jet_fighter_equipment_8_desc: ""
+ POL_CAS_equipment_5: "Tupolev Tu-12" 
+ POL_CAS_equipment_5_short: "Tu-12" 
+ POL_CAS_equipment_6: "Ilyushin Il-40" 
+ POL_CAS_equipment_6_short: "Il-40" 
+ POL_CAS_equipment_7: "Sukhoi Su-7" 
+ POL_CAS_equipment_7_short: "Su-7" 
+ POL_CAS_equipment_8: "Sukhoi Su-7BM" 
+ POL_CAS_equipment_8_short: "Su-7BM" 
+ POL_CAS_equipment_9: "Sukhoi Su-17" 
+ POL_CAS_equipment_9_short: "Sukhoi Su-17" 
+ POL_CAS_equipment_10: "Sukhoi Su-20" 
+ POL_CAS_equipment_10_short: "Su-20" 
+ POL_CAS_equipment_11: "Sukhoi Su-22" 
+ POL_CAS_equipment_11_short: "Su-22"  
+ POL_heavy_fighter_equipment_8: "Mikoyan-Gurevich MiG-23" 
+ POL_heavy_fighter_equipment_8_short: "Mig-23" 
+ POL_nav_bomber_equipment_5: "Ilyushin Il-18" 
+ POL_nav_bomber_equipment_5_short: "Il-18" 
+ POL_utility_helicopter_equipment_1: "Mil Mi-4" 
+ POL_utility_helicopter_equipment_1_short: "Mi-4" 
+ POL_utility_helicopter_equipment_2: "Mil Mi-6" 
+ POL_utility_helicopter_equipment_2_short: "Mi-6" 
+ POL_utility_helicopter_equipment_3: "Mil Mi-8" 
+ POL_utility_helicopter_equipment_3_short: "Mi-8" 
+ POL_utility_helicopter_equipment_4: "Mil Mi-26" 
+ POL_utility_helicopter_equipment_4_short: "Mi-26" 
+ POL_utility_helicopter_equipment_4_desc: "" 
+ POL_utility_helicopter_equipment_5: "PZL W-3 Sokol" 
+ POL_utility_helicopter_equipment_5_short: "W-3" 
+ POL_utility_helicopter_equipment_5_desc: "" 
+ POL_attack_helicopter_equipment_1: "Mil Mi-4" 
+ POL_attack_helicopter_equipment_1_short: "Mi-4" 
+ POL_attack_helicopter_equipment_2: "Mil Mi-8" 
+ POL_attack_helicopter_equipment_2_short: "Mi-8" 
+ POL_attack_helicopter_equipment_3: "Mil Mi-24" 
+ POL_attack_helicopter_equipment_3_short: "Mi-24" 
+ POL_attack_helicopter_equipment_4: "PZL W-3 Sokol" 
+ POL_attack_helicopter_equipment_4_short: "W-3" 
+ POL_marine_helicopter_equipment_1: "Kaman SH-2 Seasprite" 
+ POL_marine_helicopter_equipment_1_short: "SH-2 Seasprite" 
+ POL_marine_helicopter_equipment_3: "Mil Mi-14" 
+ POL_marine_helicopter_equipment_3_short: "Mi-14" 
+ POL_marine_helicopter_equipment_4: "Leonardo AW109" 
+ POL_marine_helicopter_equipment_4_short: "AW109" 
+ # FLTE code replace GER_heavy_fighter_equipment_3
+ # FLTE code replace GER_heavy_fighter_equipment_3_short
+ # FLTE code replace GER_heavy_fighter_equipment_2
+ # FLTE code replace GER_heavy_fighter_equipment_2_short
+ # FLTE code replace GER_strat_bomber_equipment_3
+ # FLTE code replace GER_strat_bomber_equipment_3_short
+ # FLTE code replace GER_transport_plane_equipment_1
+ # FLTE code replace GER_transport_plane_equipment_1_short
+ # FLTE code replace GER_transport_plane_equipment_2
+ # FLTE code replace GER_transport_plane_equipment_2_short
+ # FLTE code replace GER_transport_plane_equipment_3
+ # FLTE code replace GER_transport_plane_equipment_3_short
+ GER_transport_plane_equipment_4: "Junkers Ju 390" 
+ GER_transport_plane_equipment_4_short: "Ju 390" 
+ GER_transport_plane_equipment_5: "Transall C-160" 
+ GER_transport_plane_equipment_5_short: "C-160" 
+ GER_CAS_equipment_5: "Arado Ar 233"
+ GER_CAS_equipment_5_short: "Ar 233" 
+ GER_CAS_equipment_6: "Arado Ar 233G" 
+ GER_CAS_equipment_6_short: "Ar 233G" 
+ GER_CAS_equipment_7: "Arado Ar 387" 
+ GER_CAS_equipment_7_short: "Arado Ar 387" 
+ GER_CAS_equipment_8: "Junkers Ju 687" 
+ GER_CAS_equipment_8_short: "Ju 687" 
+ GER_CAS_equipment_9: "Junkers Ju 688" 
+ GER_CAS_equipment_9_short: "Ju 688" 
+ GER_cv_CAS_equipment_4: "Arado Ar 233T"
+ GER_cv_CAS_equipment_4_short: "Ar 233T" 
+ GER_cv_CAS_equipment_5: "Arado Ar 233GT" 
+ GER_cv_CAS_equipment_5_short: "Ar 233GT" 
+ GER_cv_CAS_equipment_6: "Arado Ar 387T" 
+ GER_cv_CAS_equipment_6_short: "Arado Ar 387T" 
+ GER_cv_CAS_equipment_7: "Junkers Ju 687T" 
+ GER_cv_CAS_equipment_7_short: "Ju 687T" 
+ GER_cv_CAS_equipment_8: "Junkers Ju 688T" 
+ GER_cv_CAS_equipment_8_short: "Ju 688T" 
+ GER_cv_fighter_equipment_4: "Messerschmitt Me 262T"
+ GER_cv_fighter_equipment_4_short: "Me 262T" 
+ GER_cv_fighter_equipment_5: "Horten Ho 229T A-2" 
+ GER_cv_fighter_equipment_5_short: "Ho 229T" 
+ GER_cv_fighter_equipment_6: "Messerschmitt P.1110T" 
+ GER_cv_fighter_equipment_6_short: "Me P.1110T" 
+ GER_cv_fighter_equipment_7: "Messerschmitt P.1112T" 
+ GER_cv_fighter_equipment_7_short: "Me P.1112T" 
+ GER_cv_fighter_equipment_8: "Focke-Wulf Ta 300T" 
+ GER_cv_fighter_equipment_8_short: "Ta 300T" 
+ GER_cv_fighter_equipment_9: "Focke-Wulf Ta 318T" 
+ GER_cv_fighter_equipment_9_short: "Ta 318T" 
+ GER_heavy_fighter_equipment_4: "Henschel Hs 132"
+ GER_heavy_fighter_equipment_4_short: "Hs 132" 
+ GER_heavy_fighter_equipment_5: "Messerschmitt Me 262 HG III" 
+ GER_heavy_fighter_equipment_5_short: "Me 262 HG III" 
+ GER_heavy_fighter_equipment_6: "Dornier K.01" 
+ GER_heavy_fighter_equipment_6_short: "Dornier K.01" 
+ GER_heavy_fighter_equipment_7: "Messerschmitt Me 290" 
+ GER_heavy_fighter_equipment_7_short: "Me 290" 
+ GER_heavy_fighter_equipment_8: "Messerschmitt Me 294" 
+ GER_heavy_fighter_equipment_8_short: "Me 294" 
+ # FLTE code replace GER_jet_fighter_equipment_1
+ # FLTE code replace GER_jet_fighter_equipment_1_short
+ # FLTE code replace GER_jet_fighter_equipment_2
+ # FLTE code replace GER_jet_fighter_equipment_2_short
+ GER_jet_fighter_equipment_3: "Messerschmitt P.1110" 
+ GER_jet_fighter_equipment_3_short: "Me P.1110" 
+ GER_jet_fighter_equipment_4: "Messerschmitt P.1112" 
+ GER_jet_fighter_equipment_4_short: "Me P.1112" 
+ GER_jet_fighter_equipment_5: "Focke-Wulf Ta 300" 
+ GER_jet_fighter_equipment_5_short: "Ta 300" 
+ GER_jet_fighter_equipment_6: "Focke-Wulf Ta 318" 
+ GER_jet_fighter_equipment_6_short: "Ta 318" 
+ GER_jet_fighter_equipment_7: "Focke-Wulf Ta 400" 
+ GER_jet_fighter_equipment_7_short: "Ta 400" 
+ GER_jet_fighter_equipment_8: "Focke-Wulf Ta 442" 
+ GER_jet_fighter_equipment_8_short: "Ta 442" 
+ GER_jet_strat_bomber_equipment_2: "Junkers EF 132"
+ GER_jet_strat_bomber_equipment_2_short: "EF 132" 
+ GER_jet_strat_bomber_equipment_3: "Arado E.555" 
+ GER_jet_strat_bomber_equipment_3_short: "Ar E.555" 
+ GER_jet_strat_bomber_equipment_4: "Arado E.700" 
+ GER_jet_strat_bomber_equipment_4_short: "Ar E.700" 
+ # FLTE code replace GER_tac_bomber_equipment_2
+ # FLTE code replace GER_tac_bomber_equipment_2_short
+ # FLTE code replace GER_jet_tac_bomber_equipment_1
+ # FLTE code replace GER_jet_tac_bomber_equipment_1_short
+ GER_jet_tac_bomber_equipment_3: "Fw-251 Entwurf V"
+ GER_jet_tac_bomber_equipment_3_short: "Fw-251 Entwurf V" 
+ GER_jet_tac_bomber_equipment_4: "Blohm & Voss Bv P188.02" 
+ GER_jet_tac_bomber_equipment_4_short: "Bv P188.02" 
+ # FLTE code replace GER_nav_bomber_equipment_1
+ # FLTE code replace GER_nav_bomber_equipment_1_short
+ # FLTE code replace GER_nav_bomber_equipment_2
+ # FLTE code replace GER_nav_bomber_equipment_2_short
+ # FLTE code replace GER_nav_bomber_equipment_3
+ # FLTE code replace GER_nav_bomber_equipment_3_short
+ GER_nav_bomber_equipment_4: "Blohm & Voss BV 238" 
+ GER_nav_bomber_equipment_4_short: "BV 238" 
+ GER_nav_bomber_equipment_5: "Blohm & Voss BV 245" 
+ GER_nav_bomber_equipment_5_short: "BV 245" 
+ GER_nav_bomber_equipment_6: "Blohm & Voss BV 300" 
+ GER_nav_bomber_equipment_6_short: "BV 300" 
+ GER_nav_bomber_equipment_7: "Blohm & Voss BV 322" 
+ GER_nav_bomber_equipment_7_short: "BV 322" 
+ # FLTE code replace GER_CAS_equipment_2
+ # FLTE code replace GER_CAS_equipment_2_short
+ # FLTE code replace GER_CAS_equipment_3
+ # FLTE code replace GER_CAS_equipment_3_short
+ GER_CAS_equipment_4: "Junkers Ju 388 Störtebeker" 
+ GER_CAS_equipment_4_short: "Ju 388 Störtebeker" 
+ # FLTE code replace GER_rocket_interceptor_equipment_1
+ # FLTE code replace GER_rocket_interceptor_equipment_1_short
+ # FLTE code replace GER_rocket_interceptor_equipment_2
+ # FLTE code replace GER_rocket_interceptor_equipment_2_short
+ # FLTE code replace GER_rocket_interceptor_equipment_3
+ # FLTE code replace GER_rocket_interceptor_equipment_3_short
+ # FLTE code replace GER_cv_nav_bomber_equipment_1
+ # FLTE code replace GER_cv_nav_bomber_equipment_1_short
+ # FLTE code replace GER_cv_nav_bomber_equipment_2
+ # FLTE code replace GER_cv_nav_bomber_equipment_2_short
+ # FLTE code replace GER_cv_nav_bomber_equipment_3
+ # FLTE code replace GER_cv_nav_bomber_equipment_3_short
+ # FLTE code replace GER_cv_CAS_equipment_2
+ # FLTE code replace GER_cv_CAS_equipment_2_short
+ # FLTE code replace GER_cv_fighter_equipment_0
+ # FLTE code replace GER_cv_fighter_equipment_0_short
+ # FLTE code replace GER_cv_fighter_equipment_1
+ # FLTE code replace GER_cv_fighter_equipment_1_short
+ # FLTE code replace GER_cv_fighter_equipment_2
+ # FLTE code replace GER_cv_fighter_equipment_2_short
+ # FLTE code replace GER_cv_fighter_equipment_3
+ # FLTE code replace GER_cv_fighter_equipment_3_short
+ # FLTE code replace ENG_fighter_equipment_0
+ # FLTE code replace ENG_fighter_equipment_0_short
+ # FLTE code replace ENG_fighter_equipment_1
+ # FLTE code replace ENG_fighter_equipment_1_short
+ # FLTE code replace ENG_fighter_equipment_3
+ # FLTE code replace ENG_fighter_equipment_3_short
+ # FLTE code replace ENG_heavy_fighter_equipment_1
+ # FLTE code replace ENG_heavy_fighter_equipment_1_short
+ # FLTE code replace ENG_heavy_fighter_equipment_3
+ # FLTE code replace ENG_heavy_fighter_equipment_3_short
+ # FLTE code replace ENG_strat_bomber_equipment_1
+ # FLTE code replace ENG_strat_bomber_equipment_1_short
+ # FLTE code replace ENG_strat_bomber_equipment_2
+ # FLTE code replace ENG_strat_bomber_equipment_2_short
+ # FLTE code replace ENG_strat_bomber_equipment_3
+ # FLTE code replace ENG_strat_bomber_equipment_3_short
+ # FLTE code replace ENG_jet_fighter_equipment_2
+ # FLTE code replace ENG_jet_fighter_equipment_2_short
+ ENG_jet_fighter_equipment_3: "Hawker Hunter" 
+ ENG_jet_fighter_equipment_3_short: "Hunter" 
+ ENG_jet_fighter_equipment_4: "Hawker P.1121" 
+ ENG_jet_fighter_equipment_4_short: "Hawker P.1121" 
+ ENG_jet_fighter_equipment_5: "F-4K Phantom FG.1" 
+ ENG_jet_fighter_equipment_5_short: "F-4K Phantom FG.1" 
+ ENG_jet_fighter_equipment_6: "F-4M Phantom FGR.2" 
+ ENG_jet_fighter_equipment_6_short: "F-4M Phantom FGR.2" 
+ ENG_cv_fighter_equipment_4: "de Havilland Sea Vampire"
+ ENG_cv_fighter_equipment_4_short: "Sea Vampire" 
+ ENG_cv_fighter_equipment_5: "de Havilland Sea Venom" 
+ ENG_cv_fighter_equipment_5_short: "Sea Venom" 
+ ENG_cv_fighter_equipment_6: "de Havilland Sea Vixen" 
+ ENG_cv_fighter_equipment_6_short: "Sea Vixen" 
+ ENG_cv_fighter_equipment_7: "Sea Hawker P.1122" 
+ ENG_cv_fighter_equipment_7_short: "Sea Hawker P.1122" 
+ ENG_cv_fighter_equipment_8: "Harrier GR.1" 
+ ENG_cv_fighter_equipment_8_short: "Harrier GR.1" 
+ ENG_cv_fighter_equipment_9: "Harrier T.2" 
+ ENG_cv_fighter_equipment_9_short: "Harrier T.2" 
+ ENG_heavy_fighter_equipment_4: "de Havilland Venom NF"
+ ENG_heavy_fighter_equipment_4_short: "Venom NF" 
+ ENG_heavy_fighter_equipment_5: "Gloster Javelin" 
+ ENG_heavy_fighter_equipment_5_short: "Javelin" 
+ ENG_heavy_fighter_equipment_6: "English Electric Lightning F.1A" 
+ ENG_heavy_fighter_equipment_6_short: "Lightning F.1A" 
+ ENG_heavy_fighter_equipment_7: "English Electric Lightning T.4" 
+ ENG_heavy_fighter_equipment_7_short: "Lightning T.4" 
+ ENG_heavy_fighter_equipment_8: "English Electric Lightning F.MK6" 
+ ENG_heavy_fighter_equipment_8_short: "Lightning F.MK6" 
+ # ENG_jet_strat_bomber_equipment_2: "Vickers Valiant"
+ # ENG_jet_strat_bomber_equipment_2_short: "Valiant"
+ # ENG_jet_strat_bomber_equipment_3: "Handley Page Victor"
+ # ENG_jet_strat_bomber_equipment_3_short: "Victor"
+ ENG_jet_strat_bomber_equipment_4: "Avro Vulcan" 
+ ENG_jet_strat_bomber_equipment_4_short: "Vulcan" 
+ # FLTE code replace ENG_tac_bomber_equipment_0
+ # FLTE code replace ENG_tac_bomber_equipment_0_short
+ # FLTE code replace ENG_tac_bomber_equipment_1
+ # FLTE code replace ENG_tac_bomber_equipment_1_short
+ # FLTE code replace ENG_jet_tac_bomber_equipment_1
+ # FLTE code replace ENG_jet_tac_bomber_equipment_1_short
+ ENG_jet_tac_bomber_equipment_5: "Panavia Tornado" 
+ ENG_jet_tac_bomber_equipment_5_short: "Tornado" 
+ # SWE_jet_tac_bomber_equipment_1: "English Electric Canberra B(I)"
+ # SWE_jet_tac_bomber_equipment_1_short: "Canberra B(I)"
+ # FLTE code replace ENG_nav_bomber_equipment_1
+ # FLTE code replace ENG_nav_bomber_equipment_1_short
+ # FLTE code replace ENG_nav_bomber_equipment_2
+ # FLTE code replace ENG_nav_bomber_equipment_2_short
+ # FLTE code replace ENG_nav_bomber_equipment_3
+ # FLTE code replace ENG_nav_bomber_equipment_3_short
+ ENG_nav_bomber_equipment_4: "Lockheed PV-2 Neptune" 
+ ENG_nav_bomber_equipment_4_short: "Neptune" 
+ # FLTE code replace ENG_CAS_equipment_1
+ # FLTE code replace ENG_CAS_equipment_1_short
+ # FLTE code replace ENG_CAS_equipment_3
+ # FLTE code replace ENG_CAS_equipment_3_short
+ ENG_CAS_equipment_4: "Westland Wyvern" 
+ ENG_CAS_equipment_4_short: "Wyvern" 
+ ENG_jet_CAS_equipment_1: "de Havilland Vampire FB"
+ ENG_jet_CAS_equipment_1_short: "Vampire FB" 
+ ENG_jet_CAS_equipment_2: "Supermarine Swift" 
+ ENG_jet_CAS_equipment_2_short: "Swift" 
+ ENG_jet_CAS_equipment_3: "Supermarine Swift Mk.2" 
+ ENG_jet_CAS_equipment_3_short: "Swift Mk.2" 
+ ENG_cv_CAS_equipment_4: "Supermarine Attacker"
+ ENG_cv_CAS_equipment_4_short: "Attacker" 
+ ENG_cv_CAS_equipment_5: "Hawker Sea Hawk" 
+ ENG_cv_CAS_equipment_5_short: "Sea Hawk" 
+ ENG_cv_CAS_equipment_6: "Blackburn Buccaneer" 
+ ENG_cv_CAS_equipment_6_short: "Buccaneer" 
+ ENG_cv_CAS_equipment_7: "Blackburn Buccaneer S.2" 
+ ENG_cv_CAS_equipment_7_short: "Buccaneer S.2" 
+ # FLTE code replace ENG_cv_nav_bomber_equipment_1
+ # FLTE code replace ENG_cv_nav_bomber_equipment_1_short
+ # FLTE code replace ENG_cv_nav_bomber_equipment_2
+ # FLTE code replace ENG_cv_nav_bomber_equipment_2_short
+ # FLTE code replace ENG_cv_CAS_equipment_1
+ # FLTE code replace ENG_cv_CAS_equipment_1_short
+ # FLTE code replace ENG_cv_CAS_equipment_2
+ # FLTE code replace ENG_cv_CAS_equipment_2_short
+ # FLTE code replace ENG_cv_CAS_equipment_3
+ # FLTE code replace ENG_cv_CAS_equipment_3_short
+ # FLTE code replace ENG_cv_fighter_equipment_3
+ # FLTE code replace ENG_cv_fighter_equipment_3_short
+ # FLTE code replace ENG_transport_plane_equipment_1
+ # FLTE code replace ENG_transport_plane_equipment_1_short
+ # FLTE code replace ENG_transport_plane_equipment_2
+ # FLTE code replace ENG_transport_plane_equipment_2_short
+ # FLTE code replace ENG_transport_plane_equipment_3
+ # FLTE code replace ENG_transport_plane_equipment_3_short
+ ENG_transport_plane_equipment_4: "Vickers Valetta" 
+ ENG_transport_plane_equipment_4_short: "Valetta" 
+ ENG_transport_plane_equipment_5: "Armstrong Whitworth Argosy" 
+ ENG_transport_plane_equipment_5_short: "Argosy" 
+ # FLTE code replace USA_transport_plane_equipment_1
+ # FLTE code replace USA_transport_plane_equipment_1_short
+ # FLTE code replace USA_transport_plane_equipment_2
+ # FLTE code replace USA_transport_plane_equipment_2_short
+ # FLTE code replace USA_transport_plane_equipment_3
+ # FLTE code replace USA_transport_plane_equipment_3_short
+ USA_transport_plane_equipment_4: "Fairchild C-119 Flying Boxcar" 
+ USA_transport_plane_equipment_4_short: "C-119 Flying Boxcar" 
+ USA_transport_plane_equipment_5: "Lockheed C-130 Hercules" 
+ USA_transport_plane_equipment_5_short: "C-130 Hercules" 
+ USA_transport_plane_equipment_6: "Lockheed C-5 Galaxy" 
+ USA_transport_plane_equipment_6_short: "C-5 Galaxy" 
+ USA_transport_plane_equipment_7: "C-17 Globemaster III" 
+ USA_transport_plane_equipment_7_short: "C-17 Globemaster" 
+ # FLTE code replace USA_fighter_equipment_0
+ # FLTE code replace USA_fighter_equipment_0_short
+ # FLTE code replace USA_fighter_equipment_1
+ # FLTE code replace USA_fighter_equipment_1_short
+ # FLTE code replace USA_fighter_equipment_2
+ # FLTE code replace USA_fighter_equipment_2_short
+ USA_jet_fighter_equipment_3: "North American F-100 Super Saber"
+ USA_jet_fighter_equipment_3_short: "F-100 Super Saber" 
+ USA_jet_fighter_equipment_3_desc: "The North American F-100 Super Sabre is an American supersonic jet fighter aircraft that served with the United States Air Force (USAF) from 1954 to 1971 and with the Air National Guard (ANG) until 1979. The first of the Century Series of USAF jet fighters, it was the first USAF fighter capable of supersonic speed in level flight.The F-100 was designed by North American Aviation as a higher performance follow-on to the F-86 Sabre air superiority fighter." 
+ USA_jet_fighter_equipment_4: "McDonnell F-101 Voodoo" 
+ USA_jet_fighter_equipment_4_short: "F-101 Voodoo" 
+ USA_jet_fighter_equipment_4_desc: "The McDonnell F-101 Voodoo is a supersonic jet fighter which served the United States Air Force (USAF) and the Royal Canadian Air Force (RCAF)." 
+ USA_jet_fighter_equipment_5: "McDonnell Douglas F-4C Phantom II" 
+ USA_jet_fighter_equipment_5_short: "F-4C Phantom II" 
+ USA_jet_fighter_equipment_5_desc: "The McDonnell Douglas F-4 Phantom II is a tandem two-seat, twin-engine, all-weather, long-range supersonic jet interceptor and fighter-bomber originally developed for the United States Navy by McDonnell Aircraft." 
+ USA_jet_fighter_equipment_6: "McDonnell F-4E Phantom II" 
+ USA_jet_fighter_equipment_6_short: "F-4E Phantom II" 
+ USA_jet_fighter_equipment_6_desc: "F-4C with updated avionics, AN/APQ-109 radar. First flight June 1965. One USAF pilot and two USAF WSOs became aces in F-4Ds." 
+ USA_jet_fighter_equipment_7: "General Dynamics F-16A Fighting Falcon" 
+ USA_jet_fighter_equipment_7_short: "F-16A" 
+ USA_jet_fighter_equipment_7_desc: ""
+ USA_jet_fighter_equipment_8: "General Dynamics F-16C Fighting Falcon" 
+ USA_jet_fighter_equipment_8_short: "F-16C" 
+ USA_jet_fighter_equipment_8_desc: ""
+ USA_cv_fighter_equipment_4: "North American FJ-1 Fury" 
+ USA_cv_fighter_equipment_4_short: "FJ-1 Fury" 
+ USA_cv_fighter_equipment_5: "McDonnell F2H Banshee" 
+ USA_cv_fighter_equipment_5_short: "F2H Banshee" 
+ USA_cv_fighter_equipment_6: "Grumman F9F-8 Cougar" 
+ USA_cv_fighter_equipment_6_short: "F9F-8 Cougar" 
+ USA_cv_fighter_equipment_7: "Vought F-8 Crusader" 
+ USA_cv_fighter_equipment_7_short: "F-8 Crusader" 
+ USA_cv_fighter_equipment_8: "McDonnell Douglas F-4J" 
+ USA_cv_fighter_equipment_8_short: "F-4J" 
+ USA_cv_fighter_equipment_9: "McDonnell Douglas F-4S" 
+ USA_cv_fighter_equipment_9_short: "F-4S" 
+ USA_cv_fighter_equipment_10: "Grumman F-14 Tomcat" 
+ USA_cv_fighter_equipment_10_short: "F-14 Tomcat" 
+ USA_cv_fighter_equipment_11: "McDonnell Douglas F/A-18C Hornet" 
+ USA_cv_fighter_equipment_11_short: "F/A-18C Hornet" 
+ # FLTE code replace USA_heavy_fighter_equipment_1
+ # FLTE code replace USA_heavy_fighter_equipment_1_short
+ # FLTE code replace USA_heavy_fighter_equipment_2
+ # FLTE code replace USA_heavy_fighter_equipment_2_short
+ # FLTE code replace USA_heavy_fighter_equipment_3
+ # FLTE code replace USA_heavy_fighter_equipment_3_short
+ USA_heavy_fighter_equipment_4: "Lockheed F-94 Starfire" 
+ USA_heavy_fighter_equipment_4_short: "F-94 Starfire" 
+ USA_heavy_fighter_equipment_5: "Convair F-102 Delta Dagger" 
+ USA_heavy_fighter_equipment_5_short: "F-102 Delta Dagger" 
+ USA_heavy_fighter_equipment_6: "Lockeed F-104 Starfighter" 
+ USA_heavy_fighter_equipment_6_short: "F-104 Starfighter" 
+ USA_heavy_fighter_equipment_7: "Convair F-106 Delta Dart" 
+ USA_heavy_fighter_equipment_7_short: "F-106 Delta Dart" 
+ USA_heavy_fighter_equipment_8: "Convair F-106B Delta Dart" 
+ USA_heavy_fighter_equipment_8_short: "F-106B Delta Dart" 
+ USA_heavy_fighter_equipment_9: "McDonnell Douglas F-15A Eagle" 
+ USA_heavy_fighter_equipment_9_short: "F-15A Eagle" 
+ USA_heavy_fighter_equipment_10: "McDonnell Douglas F-15C Eagle" 
+ USA_heavy_fighter_equipment_10_short: "F-15C Eagle" 
+ USA_CAS_equipment_5: "Republic F-84 Thunderjet"
+ USA_CAS_equipment_5_short: "F-84 Thunderjet" 
+ USA_CAS_equipment_6: "Republic F-84F Thunderstreak" 
+ USA_CAS_equipment_6_short: "F-84F Thunderstreak" 
+ USA_CAS_equipment_7: "Republic F-105 Thunderchief" 
+ USA_CAS_equipment_7_short: "F-105 Thunderchief" 
+ USA_CAS_equipment_8: "Republic F-105D Thunderchief" 
+ USA_CAS_equipment_8_short: "F-105D Thunderchief" 
+ USA_CAS_equipment_9: "LTV A-7 Corsair II" 
+ USA_CAS_equipment_9_short: "LTV A-7 Corsair II" 
+ USA_CAS_equipment_10: "Fairchild Republic A-10 Thunderbolt II" 
+ USA_CAS_equipment_10_short: "A-10 Thunderbolt II" 
+ USA_CAS_equipment_11: "Fairchild Republic A-10C Thunderbolt II" 
+ USA_CAS_equipment_11_short: "A-10C Thunderbolt II" 
+ USA_cv_CAS_equipment_4: "Grumman F9F Panther"
+ USA_cv_CAS_equipment_4_short: "F9F Panther" 
+ USA_cv_CAS_equipment_5: "Douglas A3D Skywarrior" 
+ USA_cv_CAS_equipment_5_short: "A3D Skywarrior" 
+ USA_cv_CAS_equipment_6: "Douglas A-4 Skyhawk" 
+ USA_cv_CAS_equipment_6_short: "A-4 Skyhawk" 
+ USA_cv_CAS_equipment_7: "Douglas A-4F Skyhawk" 
+ USA_cv_CAS_equipment_7_short: "A-4F Skyhawk" 
+ USA_cv_CAS_equipment_8: "Grumman A-6 Intruder" 
+ USA_cv_CAS_equipment_8_short: "A-6 Intruder" 
+ USA_cv_CAS_equipment_9: "McDonnell Douglas F/A-18B Hornet" 
+ USA_cv_CAS_equipment_9_short: "F/A-18B Hornet" 
+ USA_cv_CAS_equipment_10: "McDonnell Douglas F/A-18D Hornet" 
+ USA_cv_CAS_equipment_10_short: "F/A-18D Hornet" 
+ # FLTE code replace USA_jet_strat_bomber_equipment_1
+ # FLTE code replace USA_jet_strat_bomber_equipment_1_short
+ USA_jet_strat_bomber_equipment_2: "Boeing B-47 Stratojet" 
+ USA_jet_strat_bomber_equipment_2_short: "B-47 Stratojet" 
+ USA_jet_strat_bomber_equipment_3: "Boeing B-52 Stratofortress" 
+ USA_jet_strat_bomber_equipment_3_short: "B-52 Stratofortress" 
+ USA_jet_strat_bomber_equipment_4: "Boeing B-52H Stratofortress" 
+ USA_jet_strat_bomber_equipment_4_short: "B-52H Stratofortress" 
+ USA_jet_strat_bomber_equipment_5: "Rockwell B-1B Lancer" 
+ USA_jet_strat_bomber_equipment_5_short: "B-1B Lancer" 
+ # FLTE code replace USA_tac_bomber_equipment_0
+ # FLTE code replace USA_tac_bomber_equipment_0_short
+ # FLTE code replace USA_tac_bomber_equipment_1
+ # FLTE code replace USA_tac_bomber_equipment_1_short
+ # FLTE code replace USA_tac_bomber_equipment_3
+ # FLTE code replace USA_tac_bomber_equipment_3_short
+ USA_jet_tac_bomber_equipment_1: "North American B-45 Tornado" 
+ USA_jet_tac_bomber_equipment_1_short: "B-45 Tornado" 
+ # FLTE code replace USA_jet_tac_bomber_equipment_2
+ # FLTE code replace USA_jet_tac_bomber_equipment_2_short
+ USA_jet_tac_bomber_equipment_3: "General Dynamics F-111 Aardvark" 
+ USA_jet_tac_bomber_equipment_3_short: "F-111 Aardvark" 
+ USA_jet_tac_bomber_equipment_4: "General Dynamics F-111F" 
+ USA_jet_tac_bomber_equipment_4_short: "F-111F" 
+ USA_jet_tac_bomber_equipment_5: "General Dynamics F-15E Strike Eagle" 
+ USA_jet_tac_bomber_equipment_5_short: "F-15E Strike Eagle" 
+ # FLTE code replace USA_nav_bomber_equipment_1
+ # FLTE code replace USA_nav_bomber_equipment_1_short
+ # FLTE code replace USA_nav_bomber_equipment_2
+ # FLTE code replace USA_nav_bomber_equipment_2_short
+ # FLTE code replace USA_nav_bomber_equipment_3
+ # FLTE code replace USA_nav_bomber_equipment_3_short
+ USA_nav_bomber_equipment_4: "Lockheed P2V Neptune" 
+ USA_nav_bomber_equipment_4_short: "P2V Neptune" 
+ USA_nav_bomber_equipment_5: "Lockheed SP2-H" 
+ USA_nav_bomber_equipment_5_short: "SP2-H" 
+ USA_nav_bomber_equipment_6: "Lockheed P-3 Orion" 
+ USA_nav_bomber_equipment_6_short: "P-3 Orion" 
+ USA_nav_bomber_equipment_7: "Lockheed P-3B" 
+ USA_nav_bomber_equipment_7_short: "P-3B" 
+ USA_nav_bomber_equipment_8: "Boeing P-8 Poseidon" 
+ USA_nav_bomber_equipment_8_short: "P-8 Poseidon" 
+ # FLTE code replace USA_CAS_equipment_2
+ # FLTE code replace USA_CAS_equipment_2_short
+ # FLTE code replace USA_CAS_equipment_3
+ # FLTE code replace USA_CAS_equipment_3_short
+ USA_CAS_equipment_4: "Douglas AD-1 Skyraider" 
+ USA_CAS_equipment_4_short: "AD-1 Skyraider" 
+ SWE_CAS_equipment_4: "Douglas A-1 Skyraider" 
+ SWE_CAS_equipment_4_short: "A-1 Skyraider" 
+ # FLTE code replace USA_cv_nav_bomber_equipment_3
+ # FLTE code replace USA_cv_nav_bomber_equipment_3_short
+ # FLTE code replace USA_CAS_equipment_1
+ # FLTE code replace USA_CAS_equipment_1_short
+ # FLTE code replace USA_cv_CAS_equipment_3
+ # FLTE code replace USA_cv_CAS_equipment_3_short
+ # FLTE code replace USA_cv_fighter_equipment_1
+ # FLTE code replace USA_cv_fighter_equipment_1_short
+ # FLTE code replace USA_cv_fighter_equipment_2
+ # FLTE code replace USA_cv_fighter_equipment_2_short
+ USA_rocket_interceptor_equipment_1: "Rocket Assisted P-51D"
+ USA_rocket_interceptor_equipment_1_short: "XP-51" 
+ USA_rocket_interceptor_equipment_2: "Bell X-1"
+ USA_rocket_interceptor_equipment_2_short: "X-1"
+ USA_rocket_interceptor_equipment_3: "North American X-15"
+ USA_rocket_interceptor_equipment_3_short: "X-15"
+ # FLTE code replace SOV_fighter_equipment_2
+ # FLTE code replace SOV_fighter_equipment_2_short
+ # FLTE code replace SOV_fighter_equipment_3
+ # FLTE code replace SOV_fighter_equipment_3_short
+ # FLTE code replace SOV_heavy_fighter_equipment_1
+ # FLTE code replace SOV_heavy_fighter_equipment_1_short
+ # FLTE code replace SOV_heavy_fighter_equipment_3
+ # FLTE code replace SOV_heavy_fighter_equipment_3_short
+ SOV_jet_heavy_fighter_equipment_1: "Mikoyan-Guerevich MiG-17" 
+ SOV_jet_heavy_fighter_equipment_1_short: "MiG-17" 
+ SOV_jet_heavy_fighter_equipment_2: "Lavochkin La-190 " 
+ SOV_jet_heavy_fighter_equipment_2_short: "La-190" 
+ SOV_jet_CAS_equipment_1: "Tupolev Tu-12" 
+ SOV_jet_CAS_equipment_1_short: "Tu-12" 
+ SOV_jet_CAS_equipment_2: "Ilyushin Il-40" 
+ SOV_jet_CAS_equipment_2_short: "Il-40" 
+ # FLTE code replace SOV_strat_bomber_equipment_1
+ # FLTE code replace SOV_strat_bomber_equipment_1_short
+ # FLTE code replace SOV_strat_bomber_equipment_2
+ # FLTE code replace SOV_strat_bomber_equipment_2_short
+ SOV_jet_fighter_equipment_3: "Mikoyan-Guerevich MiG-19"
+ SOV_jet_fighter_equipment_3_short: "MiG-19" 
+ # FLTE code replace SOV_jet_strat_bomber_equipment_1
+ # FLTE code replace SOV_jet_strat_bomber_equipment_1_short
+ SOV_jet_strat_bomber_equipment_2: "Tupolev Tu-16" 
+ SOV_jet_strat_bomber_equipment_2_short: "Tu-16" 
+ SOV_jet_strat_bomber_equipment_3: "Tupolev Tu-95" 
+ SOV_jet_strat_bomber_equipment_3_short: "Tu-95" 
+ # FLTE code replace SOV_tac_bomber_equipment_0
+ # FLTE code replace SOV_tac_bomber_equipment_0_short
+ # FLTE code replace SOV_tac_bomber_equipment_3
+ # FLTE code replace SOV_tac_bomber_equipment_3_short
+ # FLTE code replace SOV_jet_tac_bomber_equipment_2
+ # FLTE code replace SOV_jet_tac_bomber_equipment_2_short
+ # FLTE code replace SOV_nav_bomber_equipment_1
+ # FLTE code replace SOV_nav_bomber_equipment_1_short
+ # FLTE code replace SOV_nav_bomber_equipment_2
+ # FLTE code replace SOV_nav_bomber_equipment_2_short
+ # FLTE code replace SOV_nav_bomber_equipment_3
+ # FLTE code replace SOV_nav_bomber_equipment_3_short
+ SOV_nav_bomber_equipment_4: "Tupolev Tu-8" 
+ SOV_nav_bomber_equipment_4_short: "Tu-8" 
+ # FLTE code replace SOV_CAS_equipment_1
+ # FLTE code replace SOV_CAS_equipment_1_short
+ # FLTE code replace SOV_CAS_equipment_3
+ # FLTE code replace SOV_CAS_equipment_3_short
+ SOV_CAS_equipment_4: "Ilyushin Il-16" 
+ SOV_CAS_equipment_4_short: "Il-16" 
+ # FLTE code replace SOV_cv_nav_bomber_equipment_1
+ # FLTE code replace SOV_cv_nav_bomber_equipment_1_short
+ # FLTE code replace SOV_cv_nav_bomber_equipment_2
+ # FLTE code replace SOV_cv_nav_bomber_equipment_2_short
+ # FLTE code replace SOV_cv_nav_bomber_equipment_3
+ # FLTE code replace SOV_cv_nav_bomber_equipment_3_short
+ # FLTE code replace SOV_cv_CAS_equipment_1
+ # FLTE code replace SOV_cv_CAS_equipment_1_short
+ # FLTE code replace SOV_cv_fighter_equipment_3
+ # FLTE code replace SOV_cv_fighter_equipment_3_short
+ # FLTE code replace JAP_transport_plane_equipment_1
+ # FLTE code replace JAP_transport_plane_equipment_1_short
+ # FLTE code replace JAP_transport_plane_equipment_2
+ # FLTE code replace JAP_transport_plane_equipment_3
+ # FLTE code replace JAP_transport_plane_equipment_3_short
+ JAP_transport_plane_equipment_4: "Tachikawa Ki-92C" 
+ JAP_transport_plane_equipment_4_short: "Ki-92C" 
+ JAP_transport_plane_equipment_5: "C-130 Hercules" 
+ JAP_transport_plane_equipment_5_short: "C-130" 
+ JAP_transport_plane_equipment_6: "Kawasaki C-1" 
+ JAP_transport_plane_equipment_6_short: "C-1" 
+ JAP_transport_plane_equipment_7: "ShinMaywa US-2" 
+ JAP_transport_plane_equipment_7_short: "ShinMaywa US-2" 
+ SWE_transport_plane_equipment_5: "C-130 Hercules"
+ SWE_transport_plane_equipment_5_short: "C-130" 
+ SWE_transport_plane_equipment_6: "C-212" 
+ SWE_transport_plane_equipment_6_short: "C-212" 
+ SWE_transport_plane_equipment_7: "BAe 146" 
+ SWE_transport_plane_equipment_7_short: "BAe 146" 
+ # FLTE code replace JAP_fighter_equipment_0
+ # FLTE code replace JAP_fighter_equipment_0_short
+ # FLTE code replace JAP_heavy_fighter_equipment_1
+ # FLTE code replace JAP_heavy_fighter_equipment_1_short
+ # FLTE code replace JAP_heavy_fighter_equipment_2
+ # FLTE code replace JAP_heavy_fighter_equipment_2_short
+ # FLTE code replace JAP_strat_bomber_equipment_1
+ # FLTE code replace JAP_strat_bomber_equipment_1_short
+ # FLTE code replace JAP_strat_bomber_equipment_2
+ # FLTE code replace JAP_strat_bomber_equipment_2_short
+ JAP_rocket_interceptor_equipment_1: "Mitsubishi J8M Shūsui"
+ JAP_rocket_interceptor_equipment_1_short: "J8M Shūsui" 
+ # FLTE code replace JAP_tac_bomber_equipment_0
+ # FLTE code replace JAP_tac_bomber_equipment_0_short
+ # FLTE code replace JAP_tac_bomber_equipment_1
+ # FLTE code replace JAP_tac_bomber_equipment_1_short
+ # FLTE code replace JAP_tac_bomber_equipment_2
+ # FLTE code replace JAP_tac_bomber_equipment_2_short
+ # FLTE code replace JAP_tac_bomber_equipment_3
+ # FLTE code replace JAP_CAS_equipment_1
+ # FLTE code replace JAP_CAS_equipment_1_short
+ # FLTE code replace JAP_CAS_equipment_3
+ # FLTE code replace JAP_CAS_equipment_3_short
+ JAP_CAS_equipment_4: "Mansyu Ki-98" 
+ JAP_CAS_equipment_4_short: "Ki-98" 
+ JAP_CAS_equipment_10: "Mitsubishi F-1" 
+ JAP_CAS_equipment_10_short: "F-1"
+ # FLTE code replace JAP_nav_bomber_equipment_1
+ # FLTE code replace JAP_nav_bomber_equipment_1_short
+ JAP_nav_bomber_equipment_4: "Lockheed PV2J"
+ JAP_nav_bomber_equipment_4_short: "PV2J"
+ JAP_nav_bomber_equipment_5: "Kawasaki P-2J" 
+ JAP_nav_bomber_equipment_5_short: "P-2J"  
+ JAP_nav_bomber_equipment_6: "P-3 ORION" 
+ JAP_nav_bomber_equipment_6_short: "P-3 ORION" 
+ JAP_nav_bomber_equipment_7: "EP-3C ORION" 
+ JAP_nav_bomber_equipment_7_short: "EP-3C ORION" 
+ JAP_nav_bomber_equipment_8: "LEARJET 35" 
+ JAP_nav_bomber_equipment_8_short: "LEARJET 35" 
+ # FLTE code replace JAP_cv_CAS_equipment_1
+ # FLTE code replace JAP_cv_CAS_equipment_1_short
+ # FLTE code replace JAP_cv_fighter_equipment_0
+ # FLTE code replace JAP_cv_fighter_equipment_0_short
+ # FLTE code replace JAP_cv_fighter_equipment_3
+ # FLTE code replace JAP_cv_fighter_equipment_3_short
+ JAP_jet_heavy_fighter_equipment_1: "Kawasaki Ki-213"
+ JAP_jet_heavy_fighter_equipment_1_short: "Ki-213" 
+ JAP_jet_heavy_fighter_equipment_2: "Kawasaki Ki-220" 
+ JAP_jet_heavy_fighter_equipment_2_short: "Ki-220" 
+ # FLTE code replace JAP_jet_fighter_equipment_1
+ # FLTE code replace JAP_jet_fighter_equipment_1_short
+ JAP_cv_fighter_equipment_4: "Nakajima Kikka"
+ JAP_cv_fighter_equipment_4_short: "Kikka" 
+ JAP_jet_fighter_equipment_5: "F-104J Eiko"
+ JAP_jet_fighter_equipment_5_short: "F-104J Eiko" 
+ JAP_cv_jet_fighter_equipment_2: "Mitsubishi A9M"
+ JAP_cv_jet_fighter_equipment_2_short: "A9M" 
+ JAP_jet_fighter_equipment_3: "F-86F Kyokko"
+ JAP_jet_fighter_equipment_3_short: "F-86F Kyokko" 
+ JAP_jet_fighter_equipment_4: "F-86D Gekko" 
+ JAP_jet_fighter_equipment_4_short: "F-86D Gekko" 
+ JAP_jet_fighter_equipment_6: "F-4EJ" 
+ JAP_jet_fighter_equipment_6_short: "F-4EJ" 
+ JAP_jet_fighter_equipment_7: "Mitsubishi F-15J" 
+ JAP_jet_fighter_equipment_7_short: "Mitsubishi F-15J" 
+ JAP_jet_fighter_equipment_8: "F-4EJ Kai" 
+ JAP_jet_fighter_equipment_8_short: "F-4EJ Kai" 
+ JAP_cv_jet_fighter_equipment_3: "Mitsubishi A10M"
+ JAP_cv_jet_fighter_equipment_3_short: "A10M" 
+ JAP_jet_CAS_equipment_1: "Yokosuka R2Y2"
+ JAP_jet_CAS_equipment_1_short: "R2Y2" 
+ JAP_jet_CAS_equipment_2: "Aichi M9A" 
+ JAP_jet_CAS_equipment_2_short: "M9A" 
+ JAP_cv_jet_CAS_equipment_1: "Aichi B8A"
+ JAP_cv_jet_CAS_equipment_1_short: "B8A" 
+ JAP_cv_jet_CAS_equipment_2: "Aichi B9A" 
+ JAP_cv_jet_CAS_equipment_2_short: "B9A" 
+ JAP_jet_strat_bomber_equipment_1: "Nakajima G10N Fugaku"
+ JAP_jet_strat_bomber_equipment_1_short: "G10N Fugaku" 
+ JAP_jet_strat_bomber_equipment_2: "Nakajima G13N" 
+ JAP_jet_strat_bomber_equipment_2_short: "G13N" 
+ JAP_jet_strat_bomber_equipment_3: "Nakajima G17N" 
+ JAP_jet_strat_bomber_equipment_3_short: "G17N" 
+ JAP_jet_tac_bomber_equipment_1: "Kawanishi G11K"
+ JAP_jet_tac_bomber_equipment_1_short: "G11K" 
+ JAP_jet_tac_bomber_equipment_2: "Kawanishi G19K" 
+ JAP_jet_tac_bomber_equipment_2_short: "G19K" 
+#ITALY# 
+ # FLTE code replace ITA_CAS_equipment_2
+ # FLTE code replace ITA_CAS_equipment_2_short
+ # FLTE code replace ITA_CAS_equipment_3
+ # FLTE code replace ITA_CAS_equipment_3_short
+ ITA_CAS_equipment_4: "Savoia-Marchetti SM.92" 
+ ITA_CAS_equipment_4_short: "SM.92" 
+ # FLTE code replace ITA_heavy_fighter_equipment_1
+ # FLTE code replace ITA_heavy_fighter_equipment_1_short
+ # FLTE code replace ITA_heavy_fighter_equipment_2
+ # FLTE code replace ITA_heavy_fighter_equipment_2_short
+ # FLTE code replace ITA_heavy_fighter_equipment_3
+ # FLTE code replace ITA_heavy_fighter_equipment_3_short
+ # FLTE code replace ITA_fighter_equipment_3
+ # FLTE code replace ITA_fighter_equipment_3_short
+ ITA_cv_jet_fighter_equipment_1: "Caproni Campini C.C.2"
+ ITA_cv_jet_fighter_equipment_1_short: "C.C.2" 
+ # FLTE code replace ITA_jet_fighter_equipment_1
+ # FLTE code replace ITA_jet_fighter_equipment_1_short
+ # FLTE code replace ITA_jet_fighter_equipment_2
+ # FLTE code replace ITA_jet_fighter_equipment_2_short
+ ITA_jet_fighter_equipment_3: "Fiat G.91" 
+ ITA_jet_fighter_equipment_3_short: "G.91" 
+ ITA_jet_fighter_equipment_4: "Fiat G.91R" 
+ ITA_jet_fighter_equipment_4_short: "G.91R" 
+ ITA_jet_fighter_equipment_5: "Fiat G.91Y" 
+ ITA_jet_fighter_equipment_5_short: "G.91Y" 
+ ITA_jet_fighter_equipment_6: "Aeritalia F-104S" 
+ ITA_jet_fighter_equipment_6_short: "F-104S" 
+ ITA_jet_fighter_equipment_7: "General Dynamics F-16A" 
+ ITA_jet_fighter_equipment_7_short: "F-16A" 
+ ITA_jet_fighter_equipment_8: "General Dynamics F-16B" 
+ ITA_jet_fighter_equipment_8_short: "F-16B" 
+ ITA_CAS_equipment_5: "Republic F-84G"
+ ITA_CAS_equipment_5_short: "F-84G" 
+ ITA_CAS_equipment_6: "Republic F-84F" 
+ ITA_CAS_equipment_6_short: "F-84F" 
+ ITA_CAS_equipment_7: "Fiat G.91R" 
+ ITA_CAS_equipment_7_short: "G.91R" 
+ ITA_CAS_equipment_9: "Fiat G.91Y" 
+ ITA_CAS_equipment_9_short: "G.91Y" 
+ ITA_CAS_equipment_10: "Panavia Tornado IDS" 
+ ITA_CAS_equipment_10_short: "Tornado IDS" 
+ ITA_CAS_equipment_11: "AMX International" 
+ ITA_CAS_equipment_11_short: "AMX International" 
+ ITA_heavy_fighter_equipment_6: "Lockheed F-104G"
+ ITA_heavy_fighter_equipment_6_short: "F-104G" 
+ ITA_heavy_fighter_equipment_10: "Panavia Tornado ADV" 
+ ITA_heavy_fighter_equipment_10_short: "Tornado ADV" 
+ ITA_nav_bomber_equipment_6: "Breguet Atlantic"
+ ITA_nav_bomber_equipment_6_short: "Breguet Atlantic" 
+ ITA_transport_plane_equipment_7: "Alenia C-27J"
+ ITA_transport_plane_equipment_7_short: "C-27J" 
+ ITA_jet_tac_bomber_equipment_4: "Panavia Tornado IDS"
+ ITA_jet_tac_bomber_equipment_4_short: "Tornado IDS" 
+ ITA_jet_tac_bomber_equipment_5: "Panavia Tornado ECR" 
+ ITA_jet_tac_bomber_equipment_5_short: "Tornado ECR" 
+ # FLTE code replace ITA_nav_bomber_equipment_3
+ # FLTE code replace ITA_nav_bomber_equipment_3_short
+ # FLTE code replace ITA_strat_bomber_equipment_1
+ # FLTE code replace ITA_strat_bomber_equipment_1_short
+ # FLTE code replace ITA_strat_bomber_equipment_2
+ # FLTE code replace ITA_strat_bomber_equipment_2_short
+ # FLTE code replace ITA_strat_bomber_equipment_3
+ # FLTE code replace ITA_strat_bomber_equipment_3_short
+ # FLTE code replace ITA_transport_plane_equipment_1
+ # FLTE code replace ITA_transport_plane_equipment_1_short
+ # FLTE code replace ITA_transport_plane_equipment_2
+ # FLTE code replace ITA_transport_plane_equipment_2_short
+ # FLTE code replace ITA_transport_plane_equipment_3
+ # FLTE code replace ITA_transport_plane_equipment_3_short
+ ITA_transport_plane_equipment_4: "Fairchild C-119 Flying Boxcar" 
+ ITA_transport_plane_equipment_4_short: "C-119 Flying Boxcar" 
+ ITA_transport_plane_equipment_5: "Transall C-160" 
+ ITA_transport_plane_equipment_5_short: "C-160" 
+ # FLTE code replace ITA_tac_bomber_equipment_1
+ # FLTE code replace ITA_tac_bomber_equipment_1_short
+ # FLTE code replace ITA_tac_bomber_equipment_2
+ # FLTE code replace ITA_tac_bomber_equipment_2_short
+ # FLTE code replace ITA_tac_bomber_equipment_3
+ # FLTE code replace ITA_cv_nav_bomber_equipment_1
+ # FLTE code replace ITA_cv_nav_bomber_equipment_1_short
+ # FLTE code replace ITA_cv_nav_bomber_equipment_2
+ # FLTE code replace ITA_cv_nav_bomber_equipment_2_short
+ # FLTE code replace ITA_cv_nav_bomber_equipment_3
+ # FLTE code replace ITA_cv_nav_bomber_equipment_3_short
+ # FLTE code replace ITA_cv_CAS_equipment_2
+ # FLTE code replace ITA_cv_CAS_equipment_2_short
+ # FLTE code replace ITA_cv_CAS_equipment_3
+ # FLTE code replace ITA_cv_CAS_equipment_3_short
+ # FLTE code replace ITA_cv_fighter_equipment_0
+ # FLTE code replace ITA_cv_fighter_equipment_0_short
+ # FLTE code replace ITA_cv_fighter_equipment_1
+ # FLTE code replace ITA_cv_fighter_equipment_1_short
+ # FLTE code replace ITA_cv_fighter_equipment_2
+ # FLTE code replace ITA_cv_fighter_equipment_2_short
+ # FLTE code replace ITA_cv_fighter_equipment_3
+ # FLTE code replace ITA_cv_fighter_equipment_3_short
+#FRENCH AIR FORCE
+ # FLTE code replace FRA_transport_plane_equipment_1
+ # FLTE code replace FRA_transport_plane_equipment_1_short
+ # FLTE code replace FRA_transport_plane_equipment_2
+ # FLTE code replace FRA_transport_plane_equipment_2_short
+ # FLTE code replace FRA_transport_plane_equipment_3
+ # FLTE code replace FRA_transport_plane_equipment_3_short
+ FRA_transport_plane_equipment_4: "Nord 2501 Noratlas" 
+ FRA_transport_plane_equipment_4_short: "Noratlas" 
+ FRA_transport_plane_equipment_5: "Transall C-160" 
+ FRA_transport_plane_equipment_5_short: "C-160" 
+ FRA_transport_plane_equipment_6: "Lockheed C-5 Galaxy" 
+ FRA_transport_plane_equipment_6_short: "C-5 Galaxy" 
+ FRA_transport_plane_equipment_7: "Lockheed C-17" 
+ FRA_transport_plane_equipment_7_short: "C-17" 
+ # FLTE code replace FRA_CAS_equipment_1
+ # FLTE code replace FRA_CAS_equipment_1_short
+ # FLTE code replace FRA_CAS_equipment_2
+ # FLTE code replace FRA_CAS_equipment_2_short
+ FRA_CAS_equipment_4: "Douglas AD-1 Skyraider"
+ FRA_CAS_equipment_4_short: "AD-1 Skyraider" 
+ FRA_CAS_equipment_5: "Dassault MD.450 Ouragan" 
+ FRA_CAS_equipment_5_short: "Ouragan" 
+ FRA_CAS_equipment_6: "Republic F-84F Thunderstreak" 
+ FRA_CAS_equipment_6_short: "F-84F Thunderstreak" 
+ FRA_CAS_equipment_7: "North American F-100DF" 
+ FRA_CAS_equipment_7_short: "F-100DF" 
+ FRA_CAS_equipment_8: "Dassault Mirage 5" 
+ FRA_CAS_equipment_8_short: "Mirage 5" 
+ FRA_CAS_equipment_9: "Dassault Mirage 5F" 
+ FRA_CAS_equipment_9_short: "Mirage 5F" 
+ FRA_CAS_equipment_10: "Dassault Alpha Jet" 
+ FRA_CAS_equipment_10_short: "Alpha Jet" 
+ FRA_CAS_equipment_11: "Dassault Mirage 6" 
+ FRA_CAS_equipment_11_short: "Mirage 6" 
+ # FLTE code replace FRA_nav_bomber_equipment_1
+ # FLTE code replace FRA_nav_bomber_equipment_1_short
+ # FLTE code replace FRA_nav_bomber_equipment_2
+ # FLTE code replace FRA_nav_bomber_equipment_2_short
+ # FLTE code replace FRA_nav_bomber_equipment_3
+ # FLTE code replace FRA_nav_bomber_equipment_3_short
+ FRA_nav_bomber_equipment_4: "Nord 1402 Noroit" 
+ FRA_nav_bomber_equipment_4_short: "Noroit" 
+ # FLTE code replace FRA_strat_bomber_equipment_3
+ # FLTE code replace FRA_strat_bomber_equipment_3_short
+ # FLTE code replace FRA_tac_bomber_equipment_0
+ # FLTE code replace FRA_tac_bomber_equipment_0_short
+ # FLTE code replace FRA_tac_bomber_equipment_1
+ # FLTE code replace FRA_tac_bomber_equipment_1_short
+ # FLTE code replace FRA_tac_bomber_equipment_3
+ # FLTE code replace FRA_tac_bomber_equipment_3_short
+ # FLTE code replace FRA_cv_nav_bomber_equipment_1
+ # FLTE code replace FRA_cv_nav_bomber_equipment_1_short
+ # FLTE code replace FRA_cv_nav_bomber_equipment_2
+ # FLTE code replace FRA_cv_nav_bomber_equipment_2_short
+ # FLTE code replace FRA_cv_nav_bomber_equipment_3
+ # FLTE code replace FRA_cv_nav_bomber_equipment_3_short
+ # FLTE code replace FRA_cv_CAS_equipment_1
+ # FLTE code replace FRA_cv_CAS_equipment_1_short
+ # FLTE code replace FRA_cv_CAS_equipment_2
+ # FLTE code replace FRA_cv_CAS_equipment_2_short
+ # FLTE code replace FRA_cv_CAS_equipment_3_short
+ # FLTE code replace FRA_cv_fighter_equipment_3
+ # FLTE code replace FRA_cv_fighter_equipment_3_short
+ FRA_cv_fighter_equipment_7: "Dassault Étendard IV"
+ FRA_cv_fighter_equipment_7_short: "Étendard IV" 
+ FRA_cv_fighter_equipment_8: "Mirage IIIM" 
+ FRA_cv_fighter_equipment_8_short: "Mirage IIIM" 
+ FRA_cv_fighter_equipment_9: "Mirage IIIMB" 
+ FRA_cv_fighter_equipment_9_short: "Mirage IIIMB" 
+ FRA_cv_fighter_equipment_10: "Dassault Super Etendard"
+ FRA_cv_fighter_equipment_10_short: "Super Etendard" 
+ FRA_cv_fighter_equipment_11: "Dassault Super Etendard II" 
+ FRA_cv_fighter_equipment_11_short: "Super Etendard II" 
+ # FLTE code replace FRA_jet_fighter_equipment_1
+ # FLTE code replace FRA_jet_fighter_equipment_1_short
+ FRA_jet_fighter_equipment_2: "Dassault MD.452 Mystère II" 
+ FRA_jet_fighter_equipment_2_short: "Mystère II" 
+ FRA_jet_fighter_equipment_3: "Dassault MD.454 Mystère IV" 
+ FRA_jet_fighter_equipment_3_short: "Mystère IV" 
+ FRA_jet_fighter_equipment_4: "Dassault Mirage IIIE" 
+ FRA_jet_fighter_equipment_4_short: "Mirage IIIE" 
+ FRA_jet_fighter_equipment_5: "Mirage IIIE2" 
+ FRA_jet_fighter_equipment_5_short: "Mirage IIIE2" 
+ FRA_jet_fighter_equipment_6: "Mirage F1E" 
+ FRA_jet_fighter_equipment_6_short: "Mirage F1E" 
+ FRA_jet_fighter_equipment_7: "Dassault Mirage 2000" 
+ FRA_jet_fighter_equipment_7_short: "Mirage 2000" 
+ FRA_jet_fighter_equipment_8: "Dassault Mirage 2000C" 
+ FRA_jet_fighter_equipment_8_short: "Mirage 2000C" 
+ # FLTE code replace FRA_heavy_fighter_equipment_2
+ # FLTE code replace FRA_heavy_fighter_equipment_2_short
+ # FLTE code replace FRA_heavy_fighter_equipment_3
+ # FLTE code replace FRA_heavy_fighter_equipment_3_short
+ FRA_heavy_fighter_equipment_4: "North American F-86K Sabre" 
+ FRA_heavy_fighter_equipment_4_short: "F-86K Sabre" 
+ FRA_heavy_fighter_equipment_5: "Sud-Ouest 4050 Vautour IIN" 
+ FRA_heavy_fighter_equipment_5_short: "Vautour IIN" 
+ FRA_heavy_fighter_equipment_6: "Dassault Mirage IIIC" 
+ FRA_heavy_fighter_equipment_6_short: "Mirage IIIC" 
+ FRA_heavy_fighter_equipment_7: "Nord 1500 Griffon" 
+ FRA_heavy_fighter_equipment_7_short: "Griffon" 
+ FRA_heavy_fighter_equipment_8: "Mirage F1C" 
+ FRA_heavy_fighter_equipment_8_short: "Mirage F1C" 
+ FRA_heavy_fighter_equipment_9: "Dassault Mirage 4000" 
+ FRA_heavy_fighter_equipment_9_short: "Mirage 4000" 
+ FRA_heavy_fighter_equipment_10: "Dassault Mirage 4000C" 
+ FRA_heavy_fighter_equipment_10_short: "Mirage 4000C" 
+ FRA_jet_tac_bomber_equipment_1: "SNCASO SO.2000"
+ FRA_jet_tac_bomber_equipment_1_short: "SO.2000" 
+ FRA_jet_tac_bomber_equipment_2: "Sud-Ouest 4050 Vautour IIB" 
+ FRA_jet_tac_bomber_equipment_2_short: "Vautour IIB" 
+ FRA_jet_tac_bomber_equipment_3: "General Dynamics F-111 Aardvark" 
+ FRA_jet_tac_bomber_equipment_3_short: "F-111 Aardvark" 
+ FRA_jet_tac_bomber_equipment_4: "General Dynamics F-111F" 
+ FRA_jet_tac_bomber_equipment_4_short: "F-111F" 
+ FRA_jet_tac_bomber_equipment_5: "Dassault Mirage 2000B" 
+ FRA_jet_tac_bomber_equipment_5_short: "Mirage 2000B" 
+ FRA_jet_strat_bomber_equipment_1: "North American B-45 Tornade"
+ FRA_jet_strat_bomber_equipment_1_short: "B-45 Tornade" 
+ FRA_jet_strat_bomber_equipment_2: "Boeing B-47 Stratojet" 
+ FRA_jet_strat_bomber_equipment_2_short: "B-47 Stratojet" 
+ FRA_jet_strat_bomber_equipment_3: "Dassault Mirage IV" 
+ FRA_jet_strat_bomber_equipment_3_short: "Mirage IV" 
+ FRA_jet_strat_bomber_equipment_4: "Dassault Mirage IVB" 
+ FRA_jet_strat_bomber_equipment_4_short: "Mirage IVB" 
+ FRA_jet_strat_bomber_equipment_5: "Dassault Mirage IVC" 
+ FRA_jet_strat_bomber_equipment_5_short: "Mirage IVC" 
+ #chinese planes
+ # FLTE code replace CHI_fighter_equipment_0
+ # FLTE code replace CHI_fighter_equipment_0_short
+ # FLTE code replace CHI_fighter_equipment_1
+ # FLTE code replace CHI_fighter_equipment_1_short
+ # FLTE code replace CHI_fighter_equipment_2
+ # FLTE code replace CHI_fighter_equipment_2_short
+ # FLTE code replace CHI_fighter_equipment_3
+ # FLTE code replace CHI_fighter_equipment_3_short
+ CHI_cv_fighter_equipment_3: "Vought F4U Corsair" 
+ CHI_cv_fighter_equipment_3_short: "F4U Corsair" 
+ # FLTE code replace CHI_heavy_fighter_equipment_1
+ # FLTE code replace CHI_heavy_fighter_equipment_1_short
+ # FLTE code replace CHI_heavy_fighter_equipment_2
+ # FLTE code replace CHI_heavy_fighter_equipment_2_short
+ # FLTE code replace CHI_CAS_equipment_2
+ # FLTE code replace CHI_CAS_equipment_2_short
+ CHI_early_bomber_equipment: "Tupolev TB-3"
+ CHI_early_bomber_equipment_short: "TB-3" 
+ # FLTE code replace CHI_tac_bomber_equipment_1
+ # FLTE code replace CHI_tac_bomber_equipment_1_short
+ # FLTE code replace CHI_tac_bomber_equipment_2
+ # FLTE code replace CHI_tac_bomber_equipment_2_short
+ # FLTE code replace CHI_nav_bomber_equipment_1
+ # FLTE code replace CHI_nav_bomber_equipment_1_short
+ # FLTE code replace CHI_nav_bomber_equipment_2
+ # FLTE code replace CHI_nav_bomber_equipment_2_short
+ # FLTE code replace CHI_nav_bomber_equipment_3
+ # FLTE code replace CHI_nav_bomber_equipment_3_short
+ # FLTE code replace CHI_strat_bomber_equipment_1
+ # FLTE code replace CHI_strat_bomber_equipment_1_short
+ # FLTE code replace CHI_strat_bomber_equipment_2
+ # FLTE code replace CHI_strat_bomber_equipment_2_short
+ # FLTE code replace CHI_strat_bomber_equipment_3
+ # FLTE code replace CHI_strat_bomber_equipment_3_short
+ ###Planes###
+ # Australia 
+ # FLTE code replace AST_fighter_equipment_1
+ # FLTE code replace AST_fighter_equipment_1_short
+ # FLTE code replace AST_fighter_equipment_2
+ # FLTE code replace AST_fighter_equipment_2_short
+ # FLTE code replace AST_fighter_equipment_3
+ # FLTE code replace AST_fighter_equipment_3_short
+ # FLTE code replace AST_CAS_equipment_1_short
+ # FLTE code replace AST_CAS_equipment_2
+ # FLTE code replace AST_CAS_equipment_2_short
+ # FLTE code replace AST_CAS_equipment_3
+ # FLTE code replace AST_CAS_equipment_3_short
+ # FLTE code replace AST_jet_fighter_equipment_2
+ # FLTE code replace AST_jet_fighter_equipment_2_short
+ #Argentinia
+ #Belgium
+ # canadian
+ #Romania
+ #Holland
+ # herr fokker wins the race, with a single Koolhoven interloper 
+ # FLTE code replace HOL_heavy_fighter_equipment_1
+ # FLTE code replace HOL_heavy_fighter_equipment_1_short
+ # FLTE code replace HOL_heavy_fighter_equipment_2
+ # FLTE code replace HOL_heavy_fighter_equipment_2_short
+ # FLTE code replace HOL_heavy_fighter_equipment_3
+ # FLTE code replace HOL_heavy_fighter_equipment_3_short
+ # FLTE code replace HOL_CAS_equipment_1
+ # FLTE code replace HOL_CAS_equipment_1_short
+ # FLTE code replace HOL_CAS_equipment_2
+ # FLTE code replace HOL_CAS_equipment_2_short
+ # FLTE code replace HOL_CAS_equipment_3
+ # FLTE code replace HOL_CAS_equipment_3_short
+ # FLTE code replace HOL_strat_bomber_equipment_1
+ # FLTE code replace HOL_strat_bomber_equipment_1_short
+ # FLTE code replace HOL_strat_bomber_equipment_2
+ # FLTE code replace HOL_strat_bomber_equipment_2_short
+ # FLTE code replace HOL_strat_bomber_equipment_3
+ # FLTE code replace HOL_strat_bomber_equipment_3_short
+ #Finland
+ # FLTE code replace FIN_fighter_equipment_0
+ # FLTE code replace FIN_fighter_equipment_0_short
+ FIN_cv_fighter_equipment_0: "Bristol Bulldog IIA" 
+ FIN_cv_fighter_equipment_0_short: "Bulldog" 
+ FIN_fighter_equipment_1: "VL Myrsky" 
+ FIN_fighter_equipment_1_short: "VL Myrsky" 
+ FIN_cv_fighter_equipment_1: "Gloster Sea Gladiator" 
+ FIN_cv_fighter_equipment_1_short: "Gladiator" 
+ # FLTE code replace FIN_fighter_equipment_2
+ # FLTE code replace FIN_fighter_equipment_2_short
+ # FLTE code replace FIN_fighter_equipment_3
+ # FLTE code replace FIN_fighter_equipment_3_short
+ FIN_nav_bomber_equipment_2: "Marinens Flyvebatfabrikk MF-11"
+ FIN_nav_bomber_equipment_2_short: "M.F. 11" 
+ FIN_nav_bomber_equipment_3: "Heinkel He 115N" 
+ FIN_nav_bomber_equipment_3_short: "He 115N" 
+ FIN_tac_bomber_equipment_0: "Fokker-VL C.VD"
+ FIN_tac_bomber_equipment_0_short: "Fokker-VL C.VD" 
+ FIN_tac_bomber_equipment_2: "Junkers Ju 88"
+ FIN_tac_bomber_equipment_2_short: "Ju 88" 
+ FIN_transport_plane_equipment_1: "Douglas DC-2"
+ FIN_transport_plane_equipment_1_short: "DC-2" 
+ FIN_transport_plane_equipment_2: "Douglas DC-3" 
+ FIN_transport_plane_equipment_2_short: "DC-3" 
+ #Norway
+ NOR_transport_plane_equipment_1: "Junkers Ju-52"
+ NOR_transport_plane_equipment_1_short: "Ju-52" 
+ #Hungary
+ #British Raj
+ #Spain
+ SPA_fighter_equipment_2: "Hispano Aviación HA-1112" 
+ SPA_fighter_equipment_2_short: "HA-1112" 
+ #Sweden
+ # FLTE code replace SWE_fighter_equipment_0
+ # FLTE code replace SWE_fighter_equipment_0_short
+ SWE_cv_fighter:"Gloster Gladiator" 
+ SWE_cv_fighter_short:"J-8" 
+ # FLTE code replace SWE_fighter_equipment_1
+ # FLTE code replace SWE_fighter_equipment_1_short
+ # FLTE code replace SWE_fighter_equipment_2
+ # FLTE code replace SWE_fighter_equipment_2_short
+ # FLTE code replace SWE_fighter_equipment_3
+ # FLTE code replace SWE_fighter_equipment_3_short
+ # SWE_heavy_fighter_equipment_1: "Saab 19"
+ # SWE_heavy_fighter_equipment_1_short: "J-19"
+ # SWE_heavy_fighter_equipment_2: "Saab 23"
+ # SWE_heavy_fighter_equipment_2_short: "J-23"
+ # SWE_heavy_fighter_equipment_3: "Saab 24"
+ # SWE_heavy_fighter_equipment_3_short: "J-24"
+ # SWE_strat_bomber_equipment_1: "Junkers Ju 86"
+ # SWE_strat_bomber_equipment_1_short: "B-3"
+ # SWE_strat_bomber_equipment_2: "Heinkel He 177 'Greif'"
+ # SWE_strat_bomber_equipment_2_short: "B-41"
+ # SWE_strat_bomber_equipment_3: "Messerschmitt 264"
+ # SWE_strat_bomber_equipment_3_short: "B-44"
+ # FLTE code replace SWE_jet_fighter_equipment_1
+ # FLTE code replace SWE_jet_fighter_equipment_1_short
+ # FLTE code replace SWE_jet_fighter_equipment_2
+ # FLTE code replace SWE_jet_fighter_equipment_2_short
+ SWE_jet_fighter_equipment_3: "Saab J-32 Lansen" 
+ SWE_jet_fighter_equipment_3_short: "J-32" 
+ SWE_jet_fighter_equipment_4: "Hawker Hunter" 
+ SWE_jet_fighter_equipment_4_short: "Hunter" 
+ SWE_jet_fighter_equipment_5: "Saab 35 Draken" 
+ SWE_jet_fighter_equipment_5_short: "J-35D" 
+ SWE_jet_fighter_equipment_6: "Saab 37 Viggen" 
+ SWE_jet_fighter_equipment_6_short: "JA-37" 
+ SWE_jet_fighter_equipment_7: "Saab 37C Viggen" 
+ SWE_jet_fighter_equipment_7_short: "JA-37C" 
+ SWE_jet_fighter_equipment_8: "Saab AJS-37 Viggen" 
+ SWE_jet_fighter_equipment_8_short: "AJS-37" 
+ SWE_CAS_equipment_6: "Saab J-32 Lansen"
+ SWE_CAS_equipment_6_short: "J-32" 
+ SWE_CAS_equipment_7: "Hawker Hunter" 
+ SWE_CAS_equipment_7_short: "Hunter" 
+ SWE_CAS_equipment_8: "Saab A-32A Lansen" 
+ SWE_CAS_equipment_8_short: "A-32A" 
+ SWE_CAS_equipment_9: "Saab 105" 
+ SWE_CAS_equipment_9_short: "Saab 105" 
+ SWE_heavy_fighter_equipment_6: "Hawker Hunter"
+ SWE_heavy_fighter_equipment_6_short: "Hunter" 
+ SWE_heavy_fighter_equipment_8: "Saab 37 Viggen" 
+ SWE_heavy_fighter_equipment_8_short: "JA-37" 
+ # SWE_jet_strat_bomber_equipment_1: "Saab 36 Vargen"
+ # SWE_jet_strat_bomber_equipment_1_short: "B-36"
+ # SWE_jet_strat_bomber_equipment_1_desc: "The experimental flying wing design is the future of stealth bombing planes. Combined with intercontintal range, this bomber can strike even our most distant enemies before they are able to respond."
+ # FLTE code replace SWE_tac_bomber_equipment_0
+ # FLTE code replace SWE_tac_bomber_equipment_0_short
+ # FLTE code replace SWE_tac_bomber_equipment_1
+ # FLTE code replace SWE_tac_bomber_equipment_1_short
+ # FLTE code replace SWE_tac_bomber_equipment_2
+ # FLTE code replace SWE_tac_bomber_equipment_2_short
+ # SWE_tac_bomber_equipment_3: "Saab 18"
+ # SWE_tac_bomber_equipment_3_short: "B-18"
+ # SWE_jet_tac_bomber_equipment_1: "de Havilland Vampire"
+ # SWE_jet_tac_bomber_equipment_1_short: "A-28"
+ # SWE_jet_tac_bomber_equipment_2: "Saab 36 Vargen"
+ # SWE_jet_tac_bomber_equipment_2_short: "A-36"
+ # FLTE code replace SWE_nav_bomber_equipment_1
+ # FLTE code replace SWE_nav_bomber_equipment_1_short
+ # SWE_nav_bomber_equipment_2: "Saab 17"
+ # SWE_nav_bomber_equipment_2_short: "T-17"
+ # SWE_nav_bomber_equipment_3: "Saab 18"
+ # SWE_nav_bomber_equipment_3_short: "T-18"
+ # FLTE code replace SWE_CAS_equipment_1
+ # FLTE code replace SWE_CAS_equipment_1_short
+ # FLTE code replace SWE_CAS_equipment_2
+ # FLTE code replace SWE_CAS_equipment_2_short
+ # FLTE code replace SWE_CAS_equipment_3
+ # FLTE code replace SWE_CAS_equipment_3_short
+ #switzerland
+ #Turkish planes, all fictional, licence, or fictional licence builds
+ # FLTE code replace TUR_fighter_equipment_0
+ # FLTE code replace TUR_fighter_equipment_0_short
+ # FLTE code replace TUR_fighter_equipment_1
+ # FLTE code replace TUR_fighter_equipment_1_short
+ # FLTE code replace TUR_fighter_equipment_3
+ # FLTE code replace TUR_fighter_equipment_3_short
+ # FLTE code replace TUR_jet_fighter_equipment_1
+ # FLTE code replace TUR_jet_fighter_equipment_1_short
+ # FLTE code replace TUR_jet_fighter_equipment_2
+ # FLTE code replace TUR_jet_fighter_equipment_2_short
+ TUR_jet_fighter_equipment_3: "North American F-100 Super Saber" 
+ TUR_jet_fighter_equipment_3_short: "F-100 Super Saber"
+ TUR_jet_fighter_equipment_4: "F-4 Phantom II" 
+ TUR_jet_fighter_equipment_4_short: "F-4" 
+ TUR_jet_fighter_equipment_5: "F-5 Freedom Fighter" 
+ TUR_jet_fighter_equipment_5_short: "F-5" 
+ TUR_jet_fighter_equipment_6: "Canadair CF-5 Freedom Fighter" 
+ TUR_jet_fighter_equipment_6_short: "CF-5" 
+ TUR_jet_fighter_equipment_7: "General Dynamics F-16 Fighting Falcon" 
+ TUR_jet_fighter_equipment_7_short: "F-16A" 
+ TUR_jet_fighter_equipment_8: "General Dynamics F-16D Fighting Falcon" 
+ TUR_jet_fighter_equipment_8_short: "F-16D" 
+ # FLTE code replace TUR_heavy_fighter_equipment_1
+ # FLTE code replace TUR_heavy_fighter_equipment_1_short
+ # FLTE code replace TUR_heavy_fighter_equipment_2
+ # FLTE code replace TUR_heavy_fighter_equipment_2_short
+ TUR_heavy_fighter_equipment_5: "F-102 Delta Dagger" 
+ TUR_heavy_fighter_equipment_5_short: "F-102"
+ TUR_heavy_fighter_equipment_6: "F-104G Starfighter" 
+ TUR_heavy_fighter_equipment_6_short: "F-104G"
+ TUR_heavy_fighter_equipment_7: "Canadair CF-104 Starfighter" 
+ TUR_heavy_fighter_equipment_7_short: "CF-104"
+ # FLTE code replace TUR_CAS_equipment_1
+ # FLTE code replace TUR_CAS_equipment_1_short
+ TUR_CAS_equipment_5: "Republic F-84G Thunderjet"
+ TUR_CAS_equipment_5_short: "F-84G Thunderjet" 
+ TUR_CAS_equipment_6: "F-100" 
+ TUR_CAS_equipment_6_short: "F-100" 
+ TUR_CAS_equipment_7: "F-4 Phantom II" 
+ TUR_CAS_equipment_7_short: "F-4" 
+ TUR_CAS_equipment_8: "F-5 Freedom Fighter" 
+ TUR_CAS_equipment_8_short: "F-5" 
+ TUR_CAS_equipment_9: "Canadair CF-116 Freedom Fighter" 
+ TUR_CAS_equipment_9_short: "CF-116" 
+ TUR_CAS_equipment_10: "General Dynamics F-16 Fighting Falcon" 
+ TUR_CAS_equipment_10_short: "F-16A" 
+ # FLTE code replace TUR_tac_bomber_equipment_0
+ # FLTE code replace TUR_tac_bomber_equipment_0_short
+ # FLTE code replace TUR_tac_bomber_equipment_1
+ # FLTE code replace TUR_tac_bomber_equipment_1_short
+ # FLTE code replace TUR_nav_bomber_equipment_1
+ # FLTE code replace TUR_nav_bomber_equipment_1_short
+ # FLTE code replace TUR_nav_bomber_equipment_2
+ # FLTE code replace TUR_nav_bomber_equipment_2_short
+ # FLTE code replace TUR_nav_bomber_equipment_3
+ # FLTE code replace TUR_nav_bomber_equipment_3_short
+ TUR_transport_plane_equipment_1: "Tupolev ANT-9"
+ TUR_transport_plane_equipment_1_short: "ANT-9" 
+ TUR_transport_plane_equipment_2: "Douglas C-47 Skytrain" 
+ TUR_transport_plane_equipment_2_short: "C-47 Skytrain" 
+ TUR_transport_plane_equipment_3: "Douglas C-54 Skymaster" 
+ TUR_transport_plane_equipment_3_short: "C-54 Skymaster" 
+ TUR_transport_plane_equipment_4: "Fairchild C-119 Flying Boxcar" 
+ TUR_transport_plane_equipment_4_short: "C-119 Flying Boxcar" 
+ TUR_transport_plane_equipment_5: "Lockheed C-130 Hercules" 
+ TUR_transport_plane_equipment_5_short: "C-130 Hercules" 
+ #yugoslavian planes
+ YUG_jet_fighter_equipment_1: "Lockheed T-33 Shooting Star"
+ YUG_jet_fighter_equipment_1_short: "T-33" 
+ YUG_jet_fighter_equipment_2: "Canadair Sabre" 
+ YUG_jet_fighter_equipment_2_short: "CL-13" 
+ YUG_jet_fighter_equipment_3: "North American F-86D Sabre" 
+ YUG_jet_fighter_equipment_3_short: "F-86D" 
+ YUG_jet_fighter_equipment_4: "Mikoyan-Guerevich MiG-21" 
+ YUG_jet_fighter_equipment_4_short: "MiG-21" 
+ YUG_jet_fighter_equipment_4_desc: "The Mikoyan-Gurevich MiG-21 (NATO reporting name: Fishbed) is a supersonic jet fighter and interceptor aircraft, designed by the Mikoyan-Gurevich Design Bureau in the Soviet Union." 
+ YUG_jet_fighter_equipment_5: "Mikoyan-Guerevich MiG-21S" 
+ YUG_jet_fighter_equipment_5_short: "MiG-21S" 
+ YUG_jet_fighter_equipment_6: "Mikoyan-Gurevich MiG-23" 
+ YUG_jet_fighter_equipment_6_short: "MiG-23" 
+ YUG_jet_fighter_equipment_6_desc: "The Mikoyan-Gurevich MiG-23 (NATO reporting name: Flogger) is a variable-geometry fighter aircraft, designed by the Mikoyan-Gurevich design bureau in the Soviet Union. It is a third-generation jet fighter, the world's most-produced variable-geometry aircraft, along with similar Soviet fighters such as the Su-15 "Flagon". It was the first YUGiet fighter to field a look-down/shoot-down radar and one of the first to be armed with beyond visual range missiles." 
+ YUG_jet_fighter_equipment_7: "Mikoyan-Gurevich MiG-23ML" 
+ YUG_jet_fighter_equipment_7_short: "MiG-23ML" 
+ YUG_jet_fighter_equipment_7_desc: "The Mikoyan-Gurevich MiG-23ML (NATO reporting name: Flogger) is a variable-geometry fighter aircraft, designed by the Mikoyan-Gurevich design bureau in the Soviet Union. It is a third-generation jet fighter, the world's most-produced variable-geometry aircraft, along with similar YUGiet fighters such as the Su-15 "Flagon". It was the first YUGiet fighter to field a look-down/shoot-down radar and one of the first to be armed with beyond visual range missiles."  
+ YUG_jet_fighter_equipment_8: "Mikoyan-Gurevich MiG-29UB" 
+ YUG_jet_fighter_equipment_8_short: "MiG-29UB" 
+ YUG_jet_fighter_equipment_8_desc: "" 
+ YUG_heavy_fighter_equipment_8: "Mikoyan-Gurevich MiG-23"
+ YUG_heavy_fighter_equipment_8_short: "MiG-23" 
+ YUG_CAS_equipment_5: "Republic F-84D Thunderjet"
+ YUG_CAS_equipment_5_short: "F-84D" 
+ YUG_CAS_equipment_8: "Soko J-21 Jastreb" 
+ YUG_CAS_equipment_8_short: "J-21" 
+ YUG_CAS_equipment_9: "Soko G-2 Galeb" 
+ YUG_CAS_equipment_9_short: "G-2" 
+ YUG_CAS_equipment_10: "Soko J-22 Orao" 
+ YUG_CAS_equipment_10_short: "J-22"
+ YUG_CAS_equipment_11: "Soko G-4 Super Galeb" 
+ YUG_CAS_equipment_11_short: "G-4"  
+ # FLTE code replace CAN_fighter_equipment_0
+ # FLTE code replace CAN_fighter_equipment_0_short
+ # FLTE code replace CAN_fighter_equipment_1
+ # FLTE code replace CAN_fighter_equipment_1_short
+ # FLTE code replace CAN_fighter_equipment_3
+ # FLTE code replace CAN_fighter_equipment_3_short
+ # FLTE code replace CAN_heavy_fighter_equipment_1
+ # FLTE code replace CAN_heavy_fighter_equipment_1_short
+ # FLTE code replace CAN_heavy_fighter_equipment_3
+ # FLTE code replace CAN_heavy_fighter_equipment_3_short
+ # FLTE code replace CAN_strat_bomber_equipment_1
+ # FLTE code replace CAN_strat_bomber_equipment_1_short
+ # FLTE code replace CAN_strat_bomber_equipment_2
+ # FLTE code replace CAN_strat_bomber_equipment_2_short
+ # FLTE code replace CAN_strat_bomber_equipment_3
+ # FLTE code replace CAN_strat_bomber_equipment_3_short
+ # FLTE code replace CAN_jet_fighter_equipment_1
+ # FLTE code replace CAN_jet_fighter_equipment_1_short
+ # FLTE code replace CAN_jet_fighter_equipment_2
+ # FLTE code replace CAN_jet_fighter_equipment_2_short
+ CAN_jet_fighter_equipment_3: "Hawker Hunter" 
+ CAN_jet_fighter_equipment_3_short: "Hunter" 
+ CAN_cv_jet_fighter_equipment_1: "de Havilland Sea Vampire" 
+ CAN_cv_jet_fighter_equipment_1_short: "Sea Vampire" 
+ CAN_cv_jet_fighter_equipment_2: "de Havilland Sea Venom" 
+ CAN_cv_jet_fighter_equipment_2_short: "Sea Venom" 
+ CAN_cv_jet_fighter_equipment_3: "de Havilland Sea Vixen" 
+ CAN_cv_jet_fighter_equipment_3_short: "Sea Vixen" 
+ CAN_jet_fighter_equipment_4: "de Havilland Venom NF" 
+ CAN_jet_fighter_equipment_4_short: "Venom NF" 
+ CAN_jet_fighter_equipment_5: "Gloster Javelin" 
+ CAN_jet_fighter_equipment_5_short: "Javelin" 
+ # FLTE code replace CAN_tac_bomber_equipment_0
+ # FLTE code replace CAN_tac_bomber_equipment_0_short
+ # FLTE code replace CAN_tac_bomber_equipment_1
+ # FLTE code replace CAN_tac_bomber_equipment_1_short
+ # FLTE code replace CAN_jet_tac_bomber_equipment_1
+ # FLTE code replace CAN_jet_tac_bomber_equipment_1_short
+ # FLTE code replace CAN_jet_tac_bomber_equipment_2
+ # FLTE code replace CAN_jet_tac_bomber_equipment_2_short
+ # FLTE code replace CAN_nav_bomber_equipment_1
+ # FLTE code replace CAN_nav_bomber_equipment_1_short
+ # FLTE code replace CAN_nav_bomber_equipment_2
+ # FLTE code replace CAN_nav_bomber_equipment_2_short
+ # FLTE code replace CAN_nav_bomber_equipment_3
+ # FLTE code replace CAN_nav_bomber_equipment_3_short
+ CAN_nav_bomber_equipment_4: "Lockheed PV-2 Neptune" 
+ CAN_nav_bomber_equipment_4_short: "Neptune" 
+ # FLTE code replace CAN_CAS_equipment_1
+ # FLTE code replace CAN_CAS_equipment_1_short
+ # FLTE code replace CAN_CAS_equipment_3
+ # FLTE code replace CAN_CAS_equipment_3_short
+ CAN_CAS_equipment_4: "Westland Wyvern" 
+ CAN_CAS_equipment_4_short: "Wyvern" 
+ CAN_jet_CAS_equipment_1: "de Havilland Vampire FB" 
+ CAN_jet_CAS_equipment_1_short: "Vampire FB" 
+ CAN_jet_CAS_equipment_2: "Supermarine Swift" 
+ CAN_jet_CAS_equipment_2_short: "Swift" 
+ CAN_cv_jet_CAS_equipment_1: "Supermarine Attacker" 
+ CAN_cv_jet_CAS_equipment_1_short: "Attacker" 
+ CAN_cv_jet_CAS_equipment_2: "Hawker Sea Hawk" 
+ CAN_cv_jet_CAS_equipment_2_short: "Sea Hawk" 
+ # FLTE code replace CAN_cv_nav_bomber_equipment_1
+ # FLTE code replace CAN_cv_nav_bomber_equipment_1_short
+ # FLTE code replace CAN_cv_nav_bomber_equipment_2
+ # FLTE code replace CAN_cv_nav_bomber_equipment_2_short
+ # FLTE code replace CAN_cv_CAS_equipment_1
+ # FLTE code replace CAN_cv_CAS_equipment_1_short
+ # FLTE code replace CAN_cv_CAS_equipment_2
+ # FLTE code replace CAN_cv_CAS_equipment_2_short
+ # FLTE code replace CAN_cv_CAS_equipment_3
+ # FLTE code replace CAN_cv_CAS_equipment_3_short
+ # FLTE code replace CAN_cv_fighter_equipment_3
+ # FLTE code replace CAN_cv_fighter_equipment_3_short
+ CAN_transport_plane_equipment_1: "Bristol Bombay" 
+ CAN_transport_plane_equipment_1_short: "Bombay" 
+ CAN_transport_plane_equipment_2: "Armstrong Whitworth Albemarle" 
+ CAN_transport_plane_equipment_2_short: "Albemarle" 
+ CAN_transport_plane_equipment_3: "Avro York" 
+ CAN_transport_plane_equipment_3_short: "York" 
+ CAN_transport_plane_equipment_4: "Vickers Valetta" 
+ CAN_transport_plane_equipment_4_short: "Valetta" 
+ CAN_transport_plane_equipment_5: "Armstrong Whitworth Argosy" 
+ CAN_transport_plane_equipment_5_short: "Argosy" 
+ # FLTE code replace SAF_fighter_equipment_0
+ # FLTE code replace SAF_fighter_equipment_0_short
+ # FLTE code replace SAF_fighter_equipment_1
+ # FLTE code replace SAF_fighter_equipment_1_short
+ # FLTE code replace SAF_fighter_equipment_3
+ # FLTE code replace SAF_fighter_equipment_3_short
+ # FLTE code replace SAF_heavy_fighter_equipment_1
+ # FLTE code replace SAF_heavy_fighter_equipment_1_short
+ # FLTE code replace SAF_heavy_fighter_equipment_3
+ # FLTE code replace SAF_heavy_fighter_equipment_3_short
+ # FLTE code replace SAF_strat_bomber_equipment_1
+ # FLTE code replace SAF_strat_bomber_equipment_1_short
+ # FLTE code replace SAF_strat_bomber_equipment_2
+ # FLTE code replace SAF_strat_bomber_equipment_2_short
+ # FLTE code replace SAF_strat_bomber_equipment_3
+ # FLTE code replace SAF_strat_bomber_equipment_3_short
+ # FLTE code replace SAF_jet_fighter_equipment_2
+ # FLTE code replace SAF_jet_fighter_equipment_2_short
+ SAF_jet_fighter_equipment_3: "Hawker Hunter" 
+ SAF_jet_fighter_equipment_3_short: "Hunter" 
+ SAF_cv_jet_fighter_equipment_1: "de Havilland Sea Vampire" 
+ SAF_cv_jet_fighter_equipment_1_short: "Sea Vampire" 
+ SAF_cv_jet_fighter_equipment_2: "de Havilland Sea Venom" 
+ SAF_cv_jet_fighter_equipment_2_short: "Sea Venom" 
+ SAF_cv_jet_fighter_equipment_3: "de Havilland Sea Vixen" 
+ SAF_cv_jet_fighter_equipment_3_short: "Sea Vixen" 
+ SAF_jet_heavy_fighter_equipment_1: "de Havilland Venom NF" 
+ SAF_jet_heavy_fighter_equipment_1_short: "Venom NF" 
+ SAF_jet_heavy_fighter_equipment_2: "Gloster Javelin" 
+ SAF_jet_heavy_fighter_equipment_2_short: "Javelin" 
+ # FLTE code replace SAF_tac_bomber_equipment_0
+ # FLTE code replace SAF_tac_bomber_equipment_0_short
+ # FLTE code replace SAF_tac_bomber_equipment_1
+ # FLTE code replace SAF_tac_bomber_equipment_1_short
+ # FLTE code replace SAF_jet_tac_bomber_equipment_1
+ # FLTE code replace SAF_jet_tac_bomber_equipment_1_short
+ # FLTE code replace SAF_jet_tac_bomber_equipment_2
+ # FLTE code replace SAF_jet_tac_bomber_equipment_2_short
+ # FLTE code replace SAF_nav_bomber_equipment_1
+ # FLTE code replace SAF_nav_bomber_equipment_1_short
+ # FLTE code replace SAF_nav_bomber_equipment_2
+ # FLTE code replace SAF_nav_bomber_equipment_2_short
+ # FLTE code replace SAF_nav_bomber_equipment_3
+ # FLTE code replace SAF_nav_bomber_equipment_3_short
+ SAF_nav_bomber_equipment_4: "Lockheed PV-2 Neptune" 
+ SAF_nav_bomber_equipment_4_short: "Neptune" 
+ # FLTE code replace SAF_CAS_equipment_1
+ # FLTE code replace SAF_CAS_equipment_1_short
+ # FLTE code replace SAF_CAS_equipment_3
+ # FLTE code replace SAF_CAS_equipment_3_short
+ SAF_CAS_equipment_4: "Westland Wyvern" 
+ SAF_CAS_equipment_4_short: "Wyvern" 
+ SAF_jet_CAS_equipment_1: "de Havilland Vampire FB" 
+ SAF_jet_CAS_equipment_1_short: "Vampire FB" 
+ SAF_jet_CAS_equipment_2: "Supermarine Swift" 
+ SAF_jet_CAS_equipment_2_short: "Swift" 
+ SAF_cv_jet_CAS_equipment_1: "Supermarine Attacker" 
+ SAF_cv_jet_CAS_equipment_1_short: "Attacker" 
+ SAF_cv_jet_CAS_equipment_2: "Hawker Sea Hawk" 
+ SAF_cv_jet_CAS_equipment_2_short: "Sea Hawk" 
+ # FLTE code replace SAF_cv_nav_bomber_equipment_1
+ # FLTE code replace SAF_cv_nav_bomber_equipment_1_short
+ # FLTE code replace SAF_cv_nav_bomber_equipment_2
+ # FLTE code replace SAF_cv_nav_bomber_equipment_2_short
+ # FLTE code replace SAF_cv_CAS_equipment_1
+ # FLTE code replace SAF_cv_CAS_equipment_1_short
+ # FLTE code replace SAF_cv_CAS_equipment_2
+ # FLTE code replace SAF_cv_CAS_equipment_2_short
+ # FLTE code replace SAF_cv_CAS_equipment_3
+ # FLTE code replace SAF_cv_CAS_equipment_3_short
+ # FLTE code replace SAF_cv_fighter_equipment_3
+ # FLTE code replace SAF_cv_fighter_equipment_3_short
+ SAF_transport_plane_equipment_1: "Bristol Bombay" 
+ SAF_transport_plane_equipment_1_short: "Bombay" 
+ SAF_transport_plane_equipment_2: "Armstrong Whitworth Albemarle" 
+ SAF_transport_plane_equipment_2_short: "Albemarle" 
+ SAF_transport_plane_equipment_3: "Avro York" 
+ SAF_transport_plane_equipment_3_short: "York" 
+ SAF_transport_plane_equipment_4: "Vickers Valetta" 
+ SAF_transport_plane_equipment_4_short: "Valetta" 
+ SAF_transport_plane_equipment_5: "Armstrong Whitworth Argosy" 
+ SAF_transport_plane_equipment_5_short: "Argosy" 
+ # FLTE code replace AST_fighter_equipment_0
+ # FLTE code replace AST_fighter_equipment_0_short
+ # FLTE code replace AST_fighter_equipment_1
+ # FLTE code replace AST_fighter_equipment_1_short
+ # FLTE code replace AST_fighter_equipment_2
+ # FLTE code replace AST_fighter_equipment_2_short
+ # FLTE code replace AST_fighter_equipment_3
+ # FLTE code replace AST_fighter_equipment_3_short
+ # FLTE code replace AST_heavy_fighter_equipment_1
+ # FLTE code replace AST_heavy_fighter_equipment_1_short
+ # FLTE code replace AST_heavy_fighter_equipment_3
+ # FLTE code replace AST_heavy_fighter_equipment_3_short
+ # FLTE code replace AST_strat_bomber_equipment_2
+ # FLTE code replace AST_strat_bomber_equipment_2_short
+ # FLTE code replace AST_strat_bomber_equipment_3
+ # FLTE code replace AST_strat_bomber_equipment_3_short
+ # FLTE code replace AST_jet_fighter_equipment_1
+ # FLTE code replace AST_jet_fighter_equipment_1_short
+ # FLTE code replace AST_jet_fighter_equipment_2
+ # FLTE code replace AST_jet_fighter_equipment_2_short
+ AST_jet_fighter_equipment_3: "Hawker Hunter" 
+ AST_jet_fighter_equipment_3_short: "Hunter" 
+ AST_cv_jet_fighter_equipment_1: "de Havilland Sea Vampire" 
+ AST_cv_jet_fighter_equipment_1_short: "Sea Vampire" 
+ AST_cv_jet_fighter_equipment_2: "de Havilland Sea Venom" 
+ AST_cv_jet_fighter_equipment_2_short: "Sea Venom" 
+ AST_cv_jet_fighter_equipment_3: "de Havilland Sea Vixen" 
+ AST_cv_jet_fighter_equipment_3_short: "Sea Vixen" 
+ AST_jet_heavy_fighter_equipment_1: "de Havilland Venom NF" 
+ AST_jet_heavy_fighter_equipment_1_short: "Venom NF" 
+ AST_jet_heavy_fighter_equipment_2: "Gloster Javelin" 
+ AST_jet_heavy_fighter_equipment_2_short: "Javelin" 
+ # FLTE code replace AST_tac_bomber_equipment_0
+ # FLTE code replace AST_tac_bomber_equipment_0_short
+ # FLTE code replace AST_tac_bomber_equipment_1
+ # FLTE code replace AST_tac_bomber_equipment_1_short
+ # FLTE code replace AST_tac_bomber_equipment_2
+ # FLTE code replace AST_tac_bomber_equipment_2_short
+ # FLTE code replace AST_tac_bomber_equipment_3
+ # FLTE code replace AST_tac_bomber_equipment_3_short
+ # FLTE code replace AST_jet_tac_bomber_equipment_1
+ # FLTE code replace AST_jet_tac_bomber_equipment_1_short
+ AST_jet_tac_bomber_equipment_2: "Avro Vulcan" 
+ AST_jet_tac_bomber_equipment_2_short: "Vulcan" 
+ # FLTE code replace AST_nav_bomber_equipment_1
+ # FLTE code replace AST_nav_bomber_equipment_1_short
+ # FLTE code replace AST_nav_bomber_equipment_2
+ # FLTE code replace AST_nav_bomber_equipment_2_short
+ # FLTE code replace AST_nav_bomber_equipment_3
+ # FLTE code replace AST_nav_bomber_equipment_3_short
+ AST_nav_bomber_equipment_4: "Lockheed PV-2 Neptune" 
+ AST_nav_bomber_equipment_4_short: "Neptune" 
+ # FLTE code replace AST_CAS_equipment_1
+ # FLTE code replace AST_CAS_equipment_1_short
+ # FLTE code replace AST_CAS_equipment_2
+ # FLTE code replace AST_CAS_equipment_2_short
+ # FLTE code replace AST_CAS_equipment_3
+ # FLTE code replace AST_CAS_equipment_3_short
+ AST_CAS_equipment_4: "Westland Wyvern" 
+ AST_CAS_equipment_4_short: "Wyvern" 
+ AST_jet_CAS_equipment_1: "de Havilland Vampire FB" 
+ AST_jet_CAS_equipment_1_short: "Vampire FB" 
+ AST_jet_CAS_equipment_2: "Supermarine Swift" 
+ AST_jet_CAS_equipment_2_short: "Swift" 
+ AST_cv_jet_CAS_equipment_1: "Supermarine Attacker" 
+ AST_cv_jet_CAS_equipment_1_short: "Attacker" 
+ AST_cv_jet_CAS_equipment_2: "Hawker Sea Hawk" 
+ AST_cv_jet_CAS_equipment_2_short: "Sea Hawk" 
+ # FLTE code replace AST_cv_nav_bomber_equipment_1
+ # FLTE code replace AST_cv_nav_bomber_equipment_1_short
+ # FLTE code replace AST_cv_nav_bomber_equipment_2
+ # FLTE code replace AST_cv_nav_bomber_equipment_2_short
+ # FLTE code replace AST_cv_CAS_equipment_1
+ # FLTE code replace AST_cv_CAS_equipment_1_short
+ # FLTE code replace AST_cv_CAS_equipment_2
+ # FLTE code replace AST_cv_CAS_equipment_2_short
+ # FLTE code replace AST_cv_CAS_equipment_3
+ # FLTE code replace AST_cv_CAS_equipment_3_short
+ # FLTE code replace AST_cv_fighter_equipment_3
+ # FLTE code replace AST_cv_fighter_equipment_3_short
+ # FLTE code replace AST_transport_plane_equipment_1
+ # FLTE code replace AST_transport_plane_equipment_1_short
+ # FLTE code replace AST_transport_plane_equipment_2
+ # FLTE code replace AST_transport_plane_equipment_2_short
+ # FLTE code replace AST_transport_plane_equipment_3
+ # FLTE code replace AST_transport_plane_equipment_3_short
+ AST_transport_plane_equipment_4: "Vickers Valetta" 
+ AST_transport_plane_equipment_4_short: "Valetta" 
+ AST_transport_plane_equipment_5: "Armstrong Whitworth Argosy" 
+ AST_transport_plane_equipment_5_short: "Argosy" 
+ # FLTE code replace NZL_fighter_equipment_0
+ # FLTE code replace NZL_fighter_equipment_0_short
+ # FLTE code replace NZL_fighter_equipment_1
+ # FLTE code replace NZL_fighter_equipment_1_short
+ # FLTE code replace NZL_fighter_equipment_3
+ # FLTE code replace NZL_fighter_equipment_3_short
+ # FLTE code replace NZL_heavy_fighter_equipment_1
+ # FLTE code replace NZL_heavy_fighter_equipment_1_short
+ # FLTE code replace NZL_heavy_fighter_equipment_3
+ # FLTE code replace NZL_heavy_fighter_equipment_3_short
+ # FLTE code replace NZL_strat_bomber_equipment_1
+ # FLTE code replace NZL_strat_bomber_equipment_1_short
+ # FLTE code replace NZL_strat_bomber_equipment_2
+ # FLTE code replace NZL_strat_bomber_equipment_2_short
+ # FLTE code replace NZL_strat_bomber_equipment_3
+ # FLTE code replace NZL_strat_bomber_equipment_3_short
+ # FLTE code replace NZL_jet_fighter_equipment_2
+ # FLTE code replace NZL_jet_fighter_equipment_2_short
+ NZL_jet_fighter_equipment_3: "Hawker Hunter" 
+ NZL_jet_fighter_equipment_3_short: "Hunter" 
+ NZL_cv_jet_fighter_equipment_1: "de Havilland Sea Vampire" 
+ NZL_cv_jet_fighter_equipment_1_short: "Sea Vampire" 
+ NZL_cv_jet_fighter_equipment_2: "de Havilland Sea Venom" 
+ NZL_cv_jet_fighter_equipment_2_short: "Sea Venom" 
+ NZL_cv_jet_fighter_equipment_3: "de Havilland Sea Vixen" 
+ NZL_cv_jet_fighter_equipment_3_short: "Sea Vixen" 
+ NZL_jet_heavy_fighter_equipment_1: "de Havilland Venom NF" 
+ NZL_jet_heavy_fighter_equipment_1_short: "Venom NF" 
+ NZL_jet_heavy_fighter_equipment_2: "Gloster Javelin" 
+ NZL_jet_heavy_fighter_equipment_2_short: "Javelin" 
+ # FLTE code replace NZL_tac_bomber_equipment_0
+ # FLTE code replace NZL_tac_bomber_equipment_0_short
+ # FLTE code replace NZL_tac_bomber_equipment_1
+ # FLTE code replace NZL_tac_bomber_equipment_1_short
+ # FLTE code replace NZL_jet_tac_bomber_equipment_1
+ # FLTE code replace NZL_jet_tac_bomber_equipment_1_short
+ # FLTE code replace NZL_jet_tac_bomber_equipment_2
+ # FLTE code replace NZL_jet_tac_bomber_equipment_2_short
+ # FLTE code replace NZL_nav_bomber_equipment_1
+ # FLTE code replace NZL_nav_bomber_equipment_1_short
+ # FLTE code replace NZL_nav_bomber_equipment_2
+ # FLTE code replace NZL_nav_bomber_equipment_2_short
+ # FLTE code replace NZL_nav_bomber_equipment_3
+ # FLTE code replace NZL_nav_bomber_equipment_3_short
+ NZL_nav_bomber_equipment_4: "Lockheed PV-2 Neptune" 
+ NZL_nav_bomber_equipment_4_short: "Neptune" 
+ # FLTE code replace NZL_CAS_equipment_1
+ # FLTE code replace NZL_CAS_equipment_1_short
+ # FLTE code replace NZL_CAS_equipment_3
+ # FLTE code replace NZL_CAS_equipment_3_short
+ NZL_CAS_equipment_4: "Westland Wyvern" 
+ NZL_CAS_equipment_4_short: "Wyvern" 
+ NZL_jet_CAS_equipment_1: "de Havilland Vampire FB" 
+ NZL_jet_CAS_equipment_1_short: "Vampire FB" 
+ NZL_jet_CAS_equipment_2: "Supermarine Swift" 
+ NZL_jet_CAS_equipment_2_short: "Swift" 
+ NZL_cv_jet_CAS_equipment_1: "Supermarine Attacker" 
+ NZL_cv_jet_CAS_equipment_1_short: "Attacker" 
+ NZL_cv_jet_CAS_equipment_2: "Hawker Sea Hawk" 
+ NZL_cv_jet_CAS_equipment_2_short: "Sea Hawk" 
+ # FLTE code replace NZL_cv_nav_bomber_equipment_1
+ # FLTE code replace NZL_cv_nav_bomber_equipment_1_short
+ # FLTE code replace NZL_cv_nav_bomber_equipment_2
+ # FLTE code replace NZL_cv_nav_bomber_equipment_2_short
+ # FLTE code replace NZL_cv_CAS_equipment_1
+ # FLTE code replace NZL_cv_CAS_equipment_1_short
+ # FLTE code replace NZL_cv_CAS_equipment_2
+ # FLTE code replace NZL_cv_CAS_equipment_2_short
+ # FLTE code replace NZL_cv_CAS_equipment_3
+ # FLTE code replace NZL_cv_CAS_equipment_3_short
+ # FLTE code replace NZL_cv_fighter_equipment_3
+ # FLTE code replace NZL_cv_fighter_equipment_3_short
+ NZL_transport_plane_equipment_1: "Bristol Bombay" 
+ NZL_transport_plane_equipment_1_short: "Bombay" 
+ NZL_transport_plane_equipment_2: "Armstrong Whitworth Albemarle" 
+ NZL_transport_plane_equipment_2_short: "Albemarle" 
+ NZL_transport_plane_equipment_3: "Avro York" 
+ NZL_transport_plane_equipment_3_short: "York" 
+ NZL_transport_plane_equipment_4: "Vickers Valetta" 
+ NZL_transport_plane_equipment_4_short: "Valetta" 
+ NZL_transport_plane_equipment_5: "Armstrong Whitworth Argosy" 
+ NZL_transport_plane_equipment_5_short: "Argosy" 
+ # FLTE code replace RAJ_fighter_equipment_0
+ # FLTE code replace RAJ_fighter_equipment_0_short
+ # FLTE code replace RAJ_fighter_equipment_1
+ # FLTE code replace RAJ_fighter_equipment_1_short
+ # FLTE code replace RAJ_fighter_equipment_3
+ # FLTE code replace RAJ_fighter_equipment_3_short
+ # FLTE code replace RAJ_heavy_fighter_equipment_1
+ # FLTE code replace RAJ_heavy_fighter_equipment_1_short
+ # FLTE code replace RAJ_heavy_fighter_equipment_3
+ # FLTE code replace RAJ_heavy_fighter_equipment_3_short
+ # FLTE code replace RAJ_strat_bomber_equipment_1
+ # FLTE code replace RAJ_strat_bomber_equipment_1_short
+ # FLTE code replace RAJ_strat_bomber_equipment_2
+ # FLTE code replace RAJ_strat_bomber_equipment_2_short
+ # FLTE code replace RAJ_strat_bomber_equipment_3
+ # FLTE code replace RAJ_strat_bomber_equipment_3_short
+ # FLTE code replace RAJ_jet_fighter_equipment_2
+ # FLTE code replace RAJ_jet_fighter_equipment_2_short
+ RAJ_jet_fighter_equipment_3: "Hawker Hunter" 
+ RAJ_jet_fighter_equipment_3_short: "Hunter" 
+ RAJ_cv_jet_fighter_equipment_1: "de Havilland Sea Vampire" 
+ RAJ_cv_jet_fighter_equipment_1_short: "Sea Vampire" 
+ RAJ_cv_jet_fighter_equipment_2: "de Havilland Sea Venom" 
+ RAJ_cv_jet_fighter_equipment_2_short: "Sea Venom" 
+ RAJ_cv_jet_fighter_equipment_3: "de Havilland Sea Vixen" 
+ RAJ_cv_jet_fighter_equipment_3_short: "Sea Vixen" 
+ RAJ_jet_heavy_fighter_equipment_1: "de Havilland Venom NF" 
+ RAJ_jet_heavy_fighter_equipment_1_short: "Venom NF" 
+ RAJ_jet_heavy_fighter_equipment_2: "Gloster Javelin" 
+ RAJ_jet_heavy_fighter_equipment_2_short: "Javelin" 
+ # FLTE code replace RAJ_tac_bomber_equipment_0
+ # FLTE code replace RAJ_tac_bomber_equipment_0_short
+ # FLTE code replace RAJ_tac_bomber_equipment_1
+ # FLTE code replace RAJ_tac_bomber_equipment_1_short
+ # FLTE code replace RAJ_jet_tac_bomber_equipment_1
+ # FLTE code replace RAJ_jet_tac_bomber_equipment_1_short
+ # FLTE code replace RAJ_jet_tac_bomber_equipment_2
+ # FLTE code replace RAJ_jet_tac_bomber_equipment_2_short
+ # FLTE code replace RAJ_nav_bomber_equipment_1
+ # FLTE code replace RAJ_nav_bomber_equipment_1_short
+ # FLTE code replace RAJ_nav_bomber_equipment_2
+ # FLTE code replace RAJ_nav_bomber_equipment_2_short
+ # FLTE code replace RAJ_nav_bomber_equipment_3
+ # FLTE code replace RAJ_nav_bomber_equipment_3_short
+ RAJ_nav_bomber_equipment_4: "Lockheed PV-2 Neptune" 
+ RAJ_nav_bomber_equipment_4_short: "Neptune" 
+ # FLTE code replace RAJ_CAS_equipment_1
+ # FLTE code replace RAJ_CAS_equipment_1_short
+ # FLTE code replace RAJ_CAS_equipment_3
+ # FLTE code replace RAJ_CAS_equipment_3_short
+ RAJ_CAS_equipment_4: "Westland Wyvern" 
+ RAJ_CAS_equipment_4_short: "Wyvern" 
+ RAJ_jet_CAS_equipment_1: "de Havilland Vampire FB" 
+ RAJ_jet_CAS_equipment_1_short: "Vampire FB" 
+ RAJ_jet_CAS_equipment_2: "Supermarine Swift" 
+ RAJ_jet_CAS_equipment_2_short: "Swift" 
+ RAJ_cv_jet_CAS_equipment_1: "Supermarine Attacker" 
+ RAJ_cv_jet_CAS_equipment_1_short: "Attacker" 
+ RAJ_cv_jet_CAS_equipment_2: "Hawker Sea Hawk" 
+ RAJ_cv_jet_CAS_equipment_2_short: "Sea Hawk" 
+ # FLTE code replace RAJ_cv_nav_bomber_equipment_1
+ # FLTE code replace RAJ_cv_nav_bomber_equipment_1_short
+ # FLTE code replace RAJ_cv_nav_bomber_equipment_2
+ # FLTE code replace RAJ_cv_nav_bomber_equipment_2_short
+ # FLTE code replace RAJ_cv_CAS_equipment_1
+ # FLTE code replace RAJ_cv_CAS_equipment_1_short
+ # FLTE code replace RAJ_cv_CAS_equipment_2
+ # FLTE code replace RAJ_cv_CAS_equipment_2_short
+ # FLTE code replace RAJ_cv_CAS_equipment_3
+ # FLTE code replace RAJ_cv_CAS_equipment_3_short
+ # FLTE code replace RAJ_cv_fighter_equipment_0
+ # FLTE code replace RAJ_cv_fighter_equipment_0_short
+ # FLTE code replace RAJ_cv_fighter_equipment_3
+ # FLTE code replace RAJ_cv_fighter_equipment_3_short
+ RAJ_transport_plane_equipment_1: "Bristol Bombay" 
+ RAJ_transport_plane_equipment_1_short: "Bombay" 
+ RAJ_transport_plane_equipment_2: "Armstrong Whitworth Albemarle" 
+ RAJ_transport_plane_equipment_2_short: "Albemarle" 
+ RAJ_transport_plane_equipment_3: "Avro York" 
+ RAJ_transport_plane_equipment_3_short: "York" 
+ RAJ_transport_plane_equipment_4: "Vickers Valetta" 
+ RAJ_transport_plane_equipment_4_short: "Valetta" 
+ RAJ_transport_plane_equipment_5: "Armstrong Whitworth Argosy" 
+ RAJ_transport_plane_equipment_5_short: "Argosy" 
+ ENG_jet_strat_bomber_equipment_2: "Vickers Valiant" 
+ ENG_jet_strat_bomber_equipment_2_short: "Valiant" 
+ ENG_jet_strat_bomber_equipment_3: "Handley Page Victor" 
+ ENG_jet_strat_bomber_equipment_3_short: "Victor" 
+ # FLTE code replace CAN_jet_strat_bomber_equipment_1
+ # FLTE code replace CAN_jet_strat_bomber_equipment_1_short
+ CAN_jet_strat_bomber_equipment_2: "Vickers Valiant" 
+ CAN_jet_strat_bomber_equipment_2_short: "Valiant" 
+ CAN_jet_strat_bomber_equipment_3: "Handley Page Victor" 
+ CAN_jet_strat_bomber_equipment_3_short: "Victor" 
+ # FLTE code replace RAJ_jet_strat_bomber_equipment_1
+ # FLTE code replace RAJ_jet_strat_bomber_equipment_1_short
+ RAJ_jet_strat_bomber_equipment_2: "Vickers Valiant" 
+ RAJ_jet_strat_bomber_equipment_2_short: "Valiant" 
+ RAJ_jet_strat_bomber_equipment_3: "Handley Page Victor" 
+ RAJ_jet_strat_bomber_equipment_3_short: "Victor" 
+ # FLTE code replace SAF_jet_strat_bomber_equipment_1
+ # FLTE code replace SAF_jet_strat_bomber_equipment_1_short
+ SAF_jet_strat_bomber_equipment_2: "Vickers Valiant" 
+ SAF_jet_strat_bomber_equipment_2_short: "Valiant" 
+ SAF_jet_strat_bomber_equipment_3: "Handley Page Victor" 
+ SAF_jet_strat_bomber_equipment_3_short: "Victor" 
+ # FLTE code replace NZL_jet_strat_bomber_equipment_1
+ # FLTE code replace NZL_jet_strat_bomber_equipment_1_short
+ NZL_jet_strat_bomber_equipment_2: "Vickers Valiant" 
+ NZL_jet_strat_bomber_equipment_2_short: "Valiant" 
+ NZL_jet_strat_bomber_equipment_3: "Handley Page Victor" 
+ NZL_jet_strat_bomber_equipment_3_short: "Victor" 
+ # FLTE code replace AST_jet_strat_bomber_equipment_1
+ # FLTE code replace AST_jet_strat_bomber_equipment_1_short
+ AST_jet_strat_bomber_equipment_2: "Vickers Valiant" 
+ AST_jet_strat_bomber_equipment_2_short: "Valiant" 
+ AST_jet_strat_bomber_equipment_3: "Handley Page Victor" 
+ AST_jet_strat_bomber_equipment_3_short: "Victor" 
+ ### Content formally of equip_air01_l_english
+ FRA_cv_jet_CAS_equipment_1: "Nord 2200 Marsouin" 
+ FRA_cv_jet_CAS_equipment_1_short: "Marsouin" 
+ FRA_cv_jet_CAS_equipment_2: "SNCAC NC.1090 Requin" 
+ FRA_cv_jet_CAS_equipment_2_short: "Requin" 
+ FRA_cv_jet_fighter_equipment_1: "SNCASE SE.533 Mistral" 
+ FRA_cv_jet_fighter_equipment_1_short: "SE.533 Mistral" 
+ FRA_cv_jet_fighter_equipment_2: "SNCASE Aquilon" 
+ FRA_cv_jet_fighter_equipment_2_short: "Aquilon" 
+ FRA_cv_jet_fighter_equipment_3: "Dassault MD.454-PA Cyclone" 
+ FRA_cv_jet_fighter_equipment_3_short: "Cyclone" 
+ # FLTE code replace SWE_fighter_equipment_0
+ # FLTE code replace SWE_fighter_equipment_0_short
+ # FLTE code replace SWE_fighter_equipment_1
+ # FLTE code replace SWE_fighter_equipment_1_short
+ # FLTE code replace SWE_fighter_equipment_2
+ # FLTE code replace SWE_fighter_equipment_2_short
+ # FLTE code replace SWE_fighter_equipment_3
+ # FLTE code replace SWE_fighter_equipment_3_short
+ # FLTE code replace SWE_CAS_equipment_1
+ # FLTE code replace SWE_CAS_equipment_1_short
+ # FLTE code replace SWE_CAS_equipment_2
+ # FLTE code replace SWE_CAS_equipment_2_short
+ # FLTE code replace SWE_CAS_equipment_3
+ # FLTE code replace SWE_CAS_equipment_3_short
+ # FLTE code replace SWE_tac_bomber_equipment_0
+ # FLTE code replace SWE_tac_bomber_equipment_0_short
+ # FLTE code replace SWE_tac_bomber_equipment_1
+ # FLTE code replace SWE_tac_bomber_equipment_1_short
+ # FLTE code replace SWE_tac_bomber_equipment_2
+ # FLTE code replace SWE_tac_bomber_equipment_2_short
+ SWE_tac_bomber_equipment_3: "Svenska Aero B-20" 
+ SWE_tac_bomber_equipment_3_short: "SAAB B-20" 
+ SWE_jet_tac_bomber_equipment_1: "Svenska Aero B-30" 
+ SWE_jet_tac_bomber_equipment_1_short: "SAAB B-30" 
+ SWE_jet_tac_bomber_equipment_2: "Svenska Aero B-32" 
+ SWE_jet_tac_bomber_equipment_2_short: "SAAB B-32" 
+ # FLTE code replace SWE_jet_fighter_equipment_1
+ # FLTE code replace SWE_jet_fighter_equipment_1_short
+ # FLTE code replace SWE_jet_fighter_equipment_2
+ # FLTE code replace SWE_jet_fighter_equipment_2_short
+ SWE_heavy_fighter_equipment_1: "Svenska Aero J-14" 
+ SWE_heavy_fighter_equipment_1_short: "SAAB J-14" 
+ SWE_heavy_fighter_equipment_2: "Svenska Aero J-16" 
+ SWE_heavy_fighter_equipment_2_short: "SAAB J-16" 
+ SWE_heavy_fighter_equipment_3: "Svenska Aero J-21" 
+ SWE_heavy_fighter_equipment_3_short: "SAAB J-21" 
+ SWE_strat_bomber_equipment_1: "Svenska Aero TB-3" 
+ SWE_strat_bomber_equipment_1_short: "SAAB TB-3" 
+ SWE_strat_bomber_equipment_2: "Svenska Aero TB-9" 
+ SWE_strat_bomber_equipment_2_short: "SAAB TB-9" 
+ SWE_strat_bomber_equipment_3: "Svenska Aero TB-12" 
+ SWE_strat_bomber_equipment_3_short: "Svenska Aero TB-12" 
+ SWE_jet_strat_bomber_equipment_1: "Svenska Aero B-36" 
+ SWE_jet_strat_bomber_equipment_1_short: "SAAB B-36" 
+ # FLTE code replace SWE_nav_bomber_equipment_1
+ # FLTE code replace SWE_nav_bomber_equipment_1_short
+ SWE_nav_bomber_equipment_2: "Svenska Aero T-2" 
+ SWE_nav_bomber_equipment_2_short: "SAAB T-2" 
+ SWE_nav_bomber_equipment_3: "Svenska Aero T-3" 
+ SWE_nav_bomber_equipment_3_short: "SAAB T-3" 
+ # FLTE code replace CZE_transport_plane_equipment_1
+ # FLTE code replace CZE_transport_plane_equipment_1_short
+ # FLTE code replace CZE_transport_plane_equipment_2
+ # FLTE code replace CZE_transport_plane_equipment_2_short
+ # FLTE code replace CZE_transport_plane_equipment_3
+ # FLTE code replace CZE_transport_plane_equipment_3_short
+ CZE_transport_plane_equipment_4: "Ilyushin Il-14" 
+ CZE_transport_plane_equipment_4_short: "Il-14" 
+ CZE_transport_plane_equipment_5: "Antonov An-12" 
+ CZE_transport_plane_equipment_5_short: "An-12" 
+ # FLTE code replace CZE_fighter_equipment_0
+ # FLTE code replace CZE_fighter_equipment_0_short
+ # FLTE code replace CZE_fighter_equipment_1_short
+ # FLTE code replace CZE_fighter_equipment_2
+ # FLTE code replace CZE_fighter_equipment_2_short
+ # FLTE code replace CZE_fighter_equipment_3
+ # FLTE code replace CZE_fighter_equipment_3_short
+ # FLTE code replace CZE_jet_fighter_equipment_1
+ # FLTE code replace CZE_jet_fighter_equipment_1_short
+ CZE_jet_fighter_equipment_2: "Letov S-103" 
+ CZE_jet_fighter_equipment_2_short: "Letov S-103" 
+ CZE_jet_fighter_equipment_3: "Aero S-105" 
+ CZE_jet_fighter_equipment_3_short: "Aero S-105" 
+ # FLTE code replace CZE_CAS_equipment_1
+ # FLTE code replace CZE_CAS_equipment_1_short
+ # FLTE code replace CZE_CAS_equipment_2
+ # FLTE code replace CZE_CAS_equipment_2_short
+ # FLTE code replace CZE_CAS_equipment_3
+ # FLTE code replace CZE_CAS_equipment_3_short
+ CZE_CAS_equipment_4: "Ilyushin Il-16" 
+ CZE_CAS_equipment_4_short: "Ilyushin Il-16" 
+ CZE_jet_CAS_equipment_1: "Tupolev Tu-12" 
+ CZE_jet_CAS_equipment_1_short: "Tupolev Tu-12" 
+ CZE_jet_CAS_equipment_2: "Ilyushin Il-40" 
+ CZE_jet_CAS_equipment_2_short: "Ilyushin Il-40" 
+ CZE_cv_jet_CAS_equipment_1: "Tupolev Tu-12K" 
+ CZE_cv_jet_CAS_equipment_1_short: "Tupolev Tu-12K" 
+ CZE_cv_jet_CAS_equipment_2: "Ilyushin Il-40K" 
+ CZE_cv_jet_CAS_equipment_2_short: "Ilyushin Il-40K" 
+ CZE_cv_fighter_equipment_0: "Avia B-34N" 
+ CZE_cv_fighter_equipment_0_short: "Avia B-34N" 
+ CZE_cv_fighter_equipment_1: "Avia B-534N" 
+ CZE_cv_fighter_equipment_1_short: "Avia B-534N" 
+ CZE_cv_fighter_equipment_2: "Avia B.35N" 
+ CZE_cv_fighter_equipment_2_short: "Avia B.35N" 
+ CZE_cv_fighter_equipment_3: "Avia S-97N" 
+ CZE_cv_fighter_equipment_3_short: "Avia S-97N" 
+ CZE_cv_jet_fighter_equipment_1: "Avia S-92N" 
+ CZE_cv_jet_fighter_equipment_1_short: "Avia S-92N" 
+ CZE_cv_jet_fighter_equipment_2: "Letov S-103N" 
+ CZE_cv_jet_fighter_equipment_2_short: "Letov S-103N" 
+ CZE_cv_jet_fighter_equipment_3: "Aero S-105N" 
+ CZE_cv_jet_fighter_equipment_3_short: "Aero S-105N" 
+ CZE_jet_heavy_fighter_equipment_1: "Letov S-101" 
+ CZE_jet_heavy_fighter_equipment_1_short: "Letov S-101" 
+ CZE_jet_heavy_fighter_equipment_2: "Letov S-104" 
+ CZE_jet_heavy_fighter_equipment_2_short: "Letov S-104" 
+ CZE_cv_CAS_equipment_1: "Aero A.101N" 
+ CZE_cv_CAS_equipment_1_short: "Aero A.101N" 
+ CZE_cv_CAS_equipment_2: "Aero A.104N" 
+ CZE_cv_CAS_equipment_2_short: "Aero A.104N" 
+ CZE_cv_CAS_equipment_3: "Avia B.33N" 
+ CZE_cv_CAS_equipment_3_short: "Avia B.33N" 
+ # FLTE code replace CZE_tac_bomber_equipment_0
+ # FLTE code replace CZE_tac_bomber_equipment_0_short
+ # FLTE code replace CZE_tac_bomber_equipment_1
+ # FLTE code replace CZE_tac_bomber_equipment_1_short
+ # FLTE code replace CZE_tac_bomber_equipment_2
+ # FLTE code replace CZE_tac_bomber_equipment_2_short
+ # FLTE code replace CZE_tac_bomber_equipment_3
+ # FLTE code replace CZE_tac_bomber_equipment_3_short
+ CZE_jet_tac_bomber_equipment_1: "Ilyushin Il-28" 
+ CZE_jet_tac_bomber_equipment_1_short: "Ilyushin Il-28" 
+ CZE_jet_tac_bomber_equipment_2: "Yakolev Yak-25B" 
+ CZE_jet_tac_bomber_equipment_2_short: "Yakolev Yak-25B" 
+ # FLTE code replace CZE_strat_bomber_equipment_1
+ # FLTE code replace CZE_strat_bomber_equipment_1_short
+ # FLTE code replace CZE_strat_bomber_equipment_2
+ # FLTE code replace CZE_strat_bomber_equipment_2_short
+ # FLTE code replace CZE_strat_bomber_equipment_3
+ # FLTE code replace CZE_strat_bomber_equipment_3_short
+ CZE_jet_strat_bomber_equipment_1: "Ilyushin Il-18" 
+ CZE_jet_strat_bomber_equipment_1_short: "Ilyushin Il-18" 
+ CZE_jet_strat_bomber_equipment_2: "Tupolev Tu-26" 
+ CZE_jet_strat_bomber_equipment_2_short: "Tupolev Tu-26" 
+ CZE_jet_strat_bomber_equipment_3: "Tupolev Tu-95" 
+ CZE_jet_strat_bomber_equipment_3_short: "Tupolev Tu-95" 
+ # FLTE code replace CZE_nav_bomber_equipment_1
+ # FLTE code replace CZE_nav_bomber_equipment_1_short
+ # FLTE code replace CZE_nav_bomber_equipment_2
+ # FLTE code replace CZE_nav_bomber_equipment_2_short
+ # FLTE code replace CZE_nav_bomber_equipment_3
+ # FLTE code replace CZE_nav_bomber_equipment_3_short
+ CZE_cv_nav_bomber_equipment_1: "Letov Š.328.v" 
+ CZE_cv_nav_bomber_equipment_1_short: "Š.328.v" 
+ CZE_cv_nav_bomber_equipment_1_desc: "A variant of Letov Š.328, this versions was outfitted with floaters from the British Short Brothers Ltd. company. Used mainly for training purposes in Yugoslavia. " 
+ # FLTE code replace CZE_heavy_fighter_equipment_1
+ # FLTE code replace CZE_heavy_fighter_equipment_1_short
+ CZE_heavy_fighter_equipment_1_desc: "One of the major variants of Avia B.534 was Bk.534 designed to carry one 20 mm (0.79 in) Oerlikon FFS-20 cannon firing through the nose, and only two 7.92 mm machine guns to the sides.\n\nHowever, there were some problems with the reconstruction to adapt the new gun. So only few planes were delivered to Czechoslovak air force, the remaining 63 planes from the ordered production block were finished for the Germans." 
+ # FLTE code replace CZE_heavy_fighter_equipment_2
+ # FLTE code replace CZE_heavy_fighter_equipment_2_short
+ CZE_heavy_fighter_equipment_2_desc: "Praga E.51 was an interesting prototype of a modern, twin-engine aircraft that first flew in late 1938. The only prototype was captured by the Germans following the occupation." 
+ # FLTE code replace CZE_heavy_fighter_equipment_3
+ # FLTE code replace CZE_heavy_fighter_equipment_3_short
+ FIN_heavy_fighter_equipment_1: "Hawker Hurricane" 
+ FIN_heavy_fighter_equipment_1_short: "Hurricane" 
+ FIN_heavy_fighter_equipment_2: "Boulton-Paul Super-Defiant" 
+ FIN_heavy_fighter_equipment_2_short: "Super-Defiant" 
+ FIN_CAS_equipment_2: "Junkers Ju-87D" 
+ FIN_CAS_equipment_2_short: "Ju-87D" 
+ FIN_transport_plane_equipment: "Douglas DC-3" 
+ FIN_transport_plane_equipment_short: "DC-3" 
+ # FLTE code replace NOR_fighter_equipment_0
+ # FLTE code replace NOR_fighter_equipment_0_short
+ NOR_fighter_equipment_1: "Curtiss 75A-6" 
+ NOR_fighter_equipment_1_short: "75A-6 Hawk" 
+ NOR_fighter_equipment_2: "Supermarine Spitfire Mk.IX" 
+ NOR_fighter_equipment_2_short: "Spitfire Mk.IX" 
+ NOR_fighter_equipment_3: "Supermarine Spitfire Mk.XIX" 
+ NOR_fighter_equipment_3_short: "Spitfire Mk.XIX" 
+ NOR_heavy_fighter_equipment_1: "Hawker Hurricane" 
+ NOR_heavy_fighter_equipment_1_short: "Hurricane" 
+ NOR_CAS_equipment_1: "Fokker CV-D" 
+ NOR_CAS_equipment_1_short: "Fokker CV-D" 
+ # FLTE code replace NOR_nav_bomber_equipment_1
+ # FLTE code replace NOR_nav_bomber_equipment_1_short
+ NOR_nav_bomber_equipment_2: "Marinens Flyvebatfabrikk MF-11" 
+ NOR_nav_bomber_equipment_2_short: "M.F. 11" 
+ NOR_nav_bomber_equipment_3: "Heinkel He 115N" 
+ NOR_nav_bomber_equipment_3_short: "He 115N" 
+ # FLTE code replace AUS_fighter_equipment_0
+ # FLTE code replace AUS_fighter_equipment_0_short
+ SWI_fighter_equipment_1: "Messerschmitt Bf 109"
+ SWI_fighter_equipment_1_short: "Bf 109" 
+ SWI_fighter_equipment_2: "Morane-Saulnier D-3800" 
+ SWI_fighter_equipment_2_short: "D-3800" 
+ SWI_fighter_equipment_3: "North American P-51 Mustang" 
+ SWI_fighter_equipment_3_short: "P-51" 
+ SWI_heavy_fighter_equipment_1: "Potez 630" 
+ SWI_heavy_fighter_equipment_1_short: "Potez 630" 
+ SWI_CAS_equipment_1: "Eidgenoessische Konstruktionswerkstaette C-35" 
+ SWI_CAS_equipment_1_short: "EKW C.35" 
+ SWI_CAS_equipment_2: "Eidgenoessische Konstruktionswerkstaette C-3603" 
+ SWI_CAS_equipment_2_short: "EKW C.3603" 
+ #Mexico
+ ##SPY##
+ # FLTE code replace scout_plane_equipment
+ scout_plane_equipment_3: "1950' Scout Plane"
+ scout_plane_equipment_3_desc: "" 
+ scout_plane_equipment_4: "1960' Scout Plane" 
+ scout_plane_equipment_4_desc: "" 
+ scout_plane_equipment_5: "1970' Scout Plane" 
+ scout_plane_equipment_5_desc: "" 
+ # FLTE code replace USA_scout_plane_equipment_2
+ # FLTE code replace USA_scout_plane_equipment_2_short
+ USA_scout_plane_equipment_3: "Martin RB-57D Canberra" 
+ USA_scout_plane_equipment_3_short: "RB-57D" 
+ USA_scout_plane_equipment_4: "Lockheed U-2" 
+ USA_scout_plane_equipment_4_short: "U-2" 
+ USA_scout_plane_equipment_5: "Lockheed SR-71 Blackbird" 
+ USA_scout_plane_equipment_5_short: "SR-71" 
+ # FLTE code replace SOV_scout_plane_equipment_1
+ SOV_scout_plane_equipment_1_short: "KhAI-5" 
+ # FLTE code replace SOV_scout_plane_equipment_2
+ SOV_scout_plane_equipment_2_short: "Yak-2" 
+ SOV_scout_plane_equipment_3: "Ilyushin Il-28R" 
+ SOV_scout_plane_equipment_3_short: "Il-28R" 
+ SOV_scout_plane_equipment_4: "Yakovlev Yak-25R" 
+ SOV_scout_plane_equipment_4_short: "Yak-25R" 
+ SOV_scout_plane_equipment_5: "Tsybin RSR" 
+ SOV_scout_plane_equipment_5_short: "RSR" 
+ FRA_scout_plane_equipment_2_short: "CAO-700"
+ # FLTE code replace ENG_scout_plane_equipment_1
+ # FLTE code replace ENG_scout_plane_equipment_2
+ ENG_scout_plane_equipment_3: "Avro Shackleton" 
+ ENG_scout_plane_equipment_4: "Avro 730" 
+ GER_scout_plane_equipment_3: "Focke-Wulf Fw 289"
+ GER_scout_plane_equipment_3_short: "Fw 289" 

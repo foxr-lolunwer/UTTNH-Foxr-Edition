@@ -1,0 +1,1556 @@
+l_english:
+ ### EQUIPMENT MODULE CATEGORIES ###
+ # FLTE code del EQ_MOD_CAT_ship_light_battery_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_sub_snorkel_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_torpedo_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_airplane_launcher_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_torpedo_sub_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_secondaries_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_medium_battery_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_light_medium_battery_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_heavy_battery_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_super_heavy_battery_TITLE
+ # FLTE code del EQ_MOD_CAT_light_ship_engine_TITLE
+ # FLTE code del EQ_MOD_CAT_cruiser_ship_engine_TITLE
+ # FLTE code del EQ_MOD_CAT_heavy_ship_engine_TITLE
+ # FLTE code del EQ_MOD_CAT_carrier_ship_engine_TITLE
+ # FLTE code del EQ_MOD_CAT_sub_ship_engine_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_radar_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_sonar_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_fire_control_system_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_depth_charge_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_mine_warfare_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_mine_layer_sub_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_anti_air_TITLE
+ # FLTE code del fixed_ship_torpedo_slot
+ # FLTE code del EQ_MOD_CAT_ship_heavy_armor_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_super_heavy_armor_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_cruiser_armor_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_carrier_armor_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_deck_space_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_rocket_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_nuclear_rocket_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_extra_fuel_tank_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_mine_layer_TITLE
+ # FLTE code del EQ_MOD_CAT_dp_light_battery_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_dp_secondaries_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_ice_carrier_armor_TITLE
+ # FLTE code del EQ_MOD_CAT_big_ship_deck_space_TITLE
+ # FLTE code del EQ_MOD_CAT_sub_ship_nuclear_engine_TITLE
+ # FLTE code del EQ_MOD_CAT_carrier_ship_nuclear_engine_TITLE
+ # FLTE code del EQ_MOD_CAT_heavy_ship_nuclear_engine_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_sub_coating_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_escort_deck_space_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_submarine_deck_space_TITLE
+ # FLTE code del EQ_MOD_CAT_ship_seaplane_tender_TITLE
+ EQ_MOD_CAT_ship_ciws_TITLE: "CIWS"
+ EQ_MOD_CAT_ship_light_ASM_battery_TITLE:"Light ASM Battery" 
+ EQ_MOD_CAT_ship_heavy_ASM_battery_TITLE:"Heavy ASM Battery" 
+ EQ_MOD_CAT_ship_sam_missile_battery_TITLE:"Anti-Air Missile" 
+ EQ_MOD_CAT_cruiser_nuclear_reactor_TITLE:"Cruiser Nuclear Reactor" 
+ EQ_MOD_CAT_carrier_nuclear_reactor_TITLE:"Carrier Nuclear Reactor" 
+ EQ_MOD_CAT_heavy_nuclear_reactor_TITLE:"Heavy Nuclear Reactor" 
+ EQ_MOD_CAT_sub_nuclear_reactor_TITLE:"Submarine Nuclear Reactor" 
+ ### EQUIPMENT MODULE SLOTS ###
+ # FLTE code del EQ_MOD_SLOT_fixed_ship_battery_slot_TITLE
+ # FLTE code del EQ_MOD_SLOT_fixed_ship_secondaries_slot_TITLE
+ # FLTE code del EQ_MOD_SLOT_fixed_ship_anti_air_slot_TITLE
+ # FLTE code del EQ_MOD_SLOT_fixed_ship_torpedo_slot_TITLE
+ # FLTE code del EQ_MOD_SLOT_fixed_ship_deck_slot_1_TITLE
+ # FLTE code del EQ_MOD_SLOT_fixed_ship_deck_slot_2_TITLE
+ # FLTE code del EQ_MOD_SLOT_fixed_ship_fire_control_system_slot_TITLE
+ # FLTE code del EQ_MOD_SLOT_fixed_ship_radar_slot_TITLE
+ # FLTE code del EQ_MOD_SLOT_fixed_ship_engine_slot_TITLE
+ # FLTE code del EQ_MOD_SLOT_fixed_ship_armor_slot_TITLE
+ # FLTE code del EQ_MOD_SLOT_front_1_custom_slot_TITLE
+ # FLTE code del EQ_MOD_SLOT_front_2_custom_slot_TITLE
+ # FLTE code del EQ_MOD_SLOT_mid_1_custom_slot_TITLE
+ # FLTE code del EQ_MOD_SLOT_mid_2_custom_slot_TITLE
+ # FLTE code del EQ_MOD_SLOT_mid_3_custom_slot_TITLE
+ # FLTE code del EQ_MOD_SLOT_rear_1_custom_slot_TITLE
+ # FLTE code del EQ_MOD_SLOT_rear_2_custom_slot_TITLE
+ ### EQUIPMENT MODULES ###
+ # FLTE code del ship_light_battery_1
+ # FLTE code del ship_light_battery_1_short
+ # FLTE code del ship_light_battery_1_desc
+ # FLTE code del ship_light_battery_2
+ # FLTE code del ship_light_battery_2_short
+ # FLTE code del ship_light_battery_2_desc
+ # FLTE code del ship_light_battery_3
+ # FLTE code del ship_light_battery_3_short
+ # FLTE code del ship_light_battery_3_desc
+ # FLTE code del ship_light_battery_4
+ # FLTE code del ship_light_battery_4_short
+ # FLTE code del ship_light_battery_4_desc
+ ship_60_light_battery: "60s Lightweight Gun" 
+ ship_60_light_battery_desc: "Rather than increasing the number of guns, or the calibre of those guns, we will instead focus on increasing the rate of fire and accuracy of our cannons. Equipped with a rangefinder, and an advanced automatic loader, this gun rivals some earlier cruisers in firepower." 
+ ship_70_light_battery: "70s Lightweight Gun" 
+ ship_70_light_battery_desc: "An advanced automatic cannon, 5 or 6 inches in calibre, with a fire rate approaching 60 rounds per minute, this gun can hit a small target at a dozen kilometers." 
+ ship_80_light_battery: "80s Lightweight Gun" 
+ ship_80_light_battery_desc: "As computers get smaller and smaller, we've been able to fit this turret with a radar set, integrated into a semi-automatic fire control system." 
+ ship_90_light_battery: "90s Lightweight Gun" 
+ ship_90_light_battery_desc: "Capable of finding and locking onto a target automatically, this gun does most of the work without any human intervention." 
+ ship_ciws_1: "80s CIWS" 
+ ship_ciws_1_desc: "A close-in weapon system is a point-defense weapon system for detecting and destroying short-range incoming missiles and enemy aircraft which have penetrated the outer defenses, typically mounted shipboard in a naval capacity. Nearly all classes of larger modern warships are equipped with some kind of CIWS device." 
+ ship_ciws_2: "90s CIWS" 
+ ship_ciws_2_desc: "A close-in weapon system is a point-defense weapon system for detecting and destroying short-range incoming missiles and enemy aircraft which have penetrated the outer defenses, typically mounted shipboard in a naval capacity. Nearly all classes of larger modern warships are equipped with some kind of CIWS device." 
+ # FLTE code del dp_light_battery_1
+ # FLTE code del dp_light_battery_1_short
+ # FLTE code del dp_light_battery_1_desc
+ # FLTE code del dp_light_battery_2
+ # FLTE code del dp_light_battery_2_short
+ # FLTE code del dp_light_battery_2_desc
+ # FLTE code del dp_light_battery_3
+ # FLTE code del dp_light_battery_3_short
+ # FLTE code del dp_light_battery_3_desc
+ # FLTE code del dp_light_battery_4
+ # FLTE code del dp_light_battery_4_short
+ # FLTE code del dp_light_battery_4_desc
+ # FLTE code del ship_heavy_battery_1
+ # FLTE code del ship_heavy_battery_1_short
+ # FLTE code del ship_heavy_battery_1_desc
+ # FLTE code del ship_heavy_battery_2
+ # FLTE code del ship_heavy_battery_2_short
+ # FLTE code del ship_heavy_battery_2_desc
+ # FLTE code del ship_heavy_battery_3
+ # FLTE code del ship_heavy_battery_3_short
+ # FLTE code del ship_heavy_battery_3_desc
+ # FLTE code del ship_heavy_battery_4
+ # FLTE code del ship_heavy_battery_4_short
+ # FLTE code del ship_heavy_battery_4_desc
+ # FLTE code del ship_super_heavy_battery_1
+ # FLTE code del ship_super_heavy_battery_1_short
+ # FLTE code del ship_super_heavy_battery_1_desc
+ # FLTE code del ship_light_medium_battery_1
+ # FLTE code del ship_light_medium_battery_1_short
+ # FLTE code del ship_light_medium_battery_1_desc
+ # FLTE code del ship_light_medium_battery_2
+ # FLTE code del ship_light_medium_battery_2_short
+ # FLTE code replace ship_light_medium_battery_2_desc
+ # FLTE code del ship_light_medium_battery_3
+ # FLTE code del ship_light_medium_battery_3_short
+ # FLTE code del ship_light_medium_battery_3_desc
+ # FLTE code del ship_light_medium_battery_4
+ # FLTE code del ship_light_medium_battery_4_short
+ # FLTE code del ship_light_medium_battery_4_desc
+ # FLTE code del dp_ship_medium_1
+ # FLTE code del dp_ship_medium_1_short
+ # FLTE code del dp_ship_medium_1_desc
+ # FLTE code del ship_medium_battery_1
+ # FLTE code del ship_medium_battery_1_short
+ # FLTE code del ship_medium_battery_1_desc
+ # FLTE code del ship_medium_battery_2
+ # FLTE code del ship_medium_battery_2_short
+ # FLTE code del ship_medium_battery_2_desc
+ # FLTE code del ship_medium_battery_3
+ # FLTE code del ship_medium_battery_3_short
+ # FLTE code del ship_medium_battery_3_desc
+ # FLTE code del ship_medium_battery_4
+ # FLTE code del ship_medium_battery_4_short
+ # FLTE code del ship_medium_battery_4_desc
+ # FLTE code del ship_secondaries_1
+ # FLTE code del ship_secondaries_1_short
+ # FLTE code del ship_secondaries_1_desc
+ # FLTE code del ship_secondaries_2
+ # FLTE code del ship_secondaries_2_short
+ # FLTE code del ship_secondaries_2_desc
+ # FLTE code del dp_ship_secondaries_1
+ # FLTE code del dp_ship_secondaries_1_short
+ # FLTE code del dp_ship_secondaries_1_desc
+ # FLTE code del dp_ship_secondaries_2
+ # FLTE code del dp_ship_secondaries_2_short
+ # FLTE code del dp_ship_secondaries_2_desc
+ # FLTE code del dp_ship_secondaries_3
+ # FLTE code del dp_ship_secondaries_3_short
+ # FLTE code del dp_ship_secondaries_3_desc
+ # FLTE code del dp_ship_secondaries_4
+ # FLTE code del dp_ship_secondaries_4_short
+ # FLTE code del dp_ship_secondaries_4_desc
+ ship_light_ASM_battery_1:"Early light missile launchers" 
+ ship_light_ASM_battery_1_desc:"With the rapid technological advancements made in radars and rockets the naval warfare was forever changed with the introduction of guided anti-ship missiles.This new type of weapons could deliver a warhead hundreds of km far away of the range of the old big-gun battleships." 
+ ship_light_ASM_battery_2:"Improved light missile launchers" 
+ ship_light_ASM_battery_2_desc:"" 
+ ship_light_ASM_battery_3:"1970s light missile launchers" 
+ ship_light_ASM_battery_3_desc:"" 
+ ship_light_ASM_battery_4:"1980s light missile launchers" 
+ ship_light_ASM_battery_4_desc:"" 
+ ship_light_ASM_battery_5:"VLS" 
+ ship_light_ASM_battery_5_desc:"Late 80s saw the introduction of the vertical Launch System (VLS) making it possible to have a large ammount of both anti ship and anti air missiles ready for launch at any moment leading to better responce times." 
+ 
+ ship_heavy_ASM_battery_1:"55 Heavy ASM missiles" 
+ ship_heavy_ASM_battery_1_desc:"Following the soviet doctrine emphasizing on area denial and destruction of the US carrier fleets,heavy ASM missiles where designed to deliver a large warhead to achieve maximum damage to enemy capital ships." 
+ ship_heavy_ASM_battery_2:"60s Heavy ASM missiles" 
+ ship_heavy_ASM_battery_2_desc:"Following the soviet doctrine emphasizing on area denial and destruction of the US carrier fleets,heavy ASM missiles where designed to deliver a large warhead to achieve maximum damage to enemy capital ships." 
+ ship_heavy_ASM_battery_3:"70s Heavy ASM missiles" 
+ ship_heavy_ASM_battery_3_desc:"Following the soviet doctrine emphasizing on area denial and destruction of the US carrier fleets,heavy ASM missiles where designed to deliver a large warhead to achieve maximum damage to enemy capital ships." 
+ ship_heavy_ASM_battery_4:"80s Heavy ASM missiles" 
+ ship_heavy_ASM_battery_4_desc:"Following the soviet doctrine emphasizing on area denial and destruction of the US carrier fleets,heavy ASM missiles where designed to deliver a large warhead to achieve maximum damage to enemy capital ships." 
+ ship_heavy_ASM_battery_5:"90s Heavy ASM missiles" 
+ ship_heavy_ASM_battery_5_desc:"Following the soviet doctrine emphasizing on area denial and destruction of the US carrier fleets,heavy ASM missiles where designed to deliver a large warhead to achieve maximum damage to enemy capital ships." 
+ 
+ ship_sam_missile_battery_1:"Early Anti-Air Missile launcher" 
+ ship_sam_missile_battery_1_desc:"" 
+ ship_sam_missile_battery_2:"Practical Anti-Air Missile launcher" 
+ ship_sam_missile_battery_2_desc:"" 
+ ship_sam_missile_battery_3:"Improved Anti-Air Missile launcher" 
+ ship_sam_missile_battery_3_desc:"" 
+ ship_sam_missile_battery_4:"Advanced Anti-Air Missile launcher" 
+ ship_sam_missile_battery_4_desc:"" 
+ ship_sam_missile_battery_5:"Modern Anti-Air Missile launcher" 
+ ship_sam_missile_battery_5_desc:"" 
+ # FLTE code del ship_fire_control_system_0
+ # FLTE code del ship_fire_control_system_0_short
+ # FLTE code del ship_fire_control_system_0_desc
+ # FLTE code del ship_fire_control_system_1
+ # FLTE code del ship_fire_control_system_1_short
+ # FLTE code del ship_fire_control_system_1_desc
+ # FLTE code del ship_fire_control_system_2
+ # FLTE code del ship_fire_control_system_2_short
+ # FLTE code del ship_fire_control_system_2_desc
+ # FLTE code del ship_fire_control_system_3
+ # FLTE code del ship_fire_control_system_3_short
+ # FLTE code del ship_fire_control_system_3_desc
+ ship_fire_control_system_4: "Advanced Balistic Computer"
+ ship_fire_control_system_4_short: "Fire Control IV"
+ ship_fire_control_system_4_desc: "An even more advanced computer, consisting of a gun director, tracking radar, advanced analogue computer, and stabilization gyro"
+ ship_fire_control_system_5: "Modern Gun and Missile Control Station"
+ ship_fire_control_system_5_short: "Fire Control V"
+ ship_fire_control_system_5_desc: "Utilizing an early digital computer, this system is designed to intergrate missile engagement alongside traditonal gun direction."
+ ship_fire_control_system_6: "Digital Gun and Missile Control Station"
+ ship_fire_control_system_6_short: "Fire Control VI"
+ ship_fire_control_system_6_desc: "Fully digitalizing the fire control system. this station allows for greater engagement capacity then ever before conceived."
+ Early_modern_fire_control_system: "Early Modern Fire Control System,"
+ Early_modern_fire_control_system_desc: ""
+ Modern_fire_control_system: "Modern Fire Control System"
+ Modern_fire_control_system_desc: ""
+ Digital_fire_control_system: "Digital Fire Control System"
+ Digital_fire_control_system_desc: ""
+ # FLTE code del ship_torpedo_1
+ # FLTE code del ship_torpedo_1_short
+ # FLTE code del ship_torpedo_1_desc
+ # FLTE code del ship_torpedo_2
+ # FLTE code del ship_torpedo_2_short
+ # FLTE code del ship_torpedo_2_desc
+ # FLTE code del ship_torpedo_3
+ # FLTE code del ship_torpedo_3_short
+ # FLTE code del ship_torpedo_3_desc
+ # FLTE code del ship_torpedo_4
+ # FLTE code del ship_torpedo_4_short
+ # FLTE code del ship_torpedo_4_desc
+ ship_torpedo_5: "Torpedo Launcher V"
+ ship_torpedo_5_short: "Torpedo Launcher V"
+ ship_torpedo_5_desc: ""
+ # FLTE code del ship_torpedo_sub_1
+ # FLTE code del ship_torpedo_sub_1_short
+ # FLTE code del ship_torpedo_sub_1_desc
+ # FLTE code del ship_torpedo_sub_2
+ # FLTE code del ship_torpedo_sub_2_short
+ # FLTE code del ship_torpedo_sub_2_desc
+ # FLTE code del ship_torpedo_sub_3
+ # FLTE code del ship_torpedo_sub_3_short
+ # FLTE code del ship_torpedo_sub_3_desc
+ # FLTE code del ship_torpedo_sub_4
+ # FLTE code del ship_torpedo_sub_4_short
+ # FLTE code del ship_torpedo_sub_4_desc
+ ship_torpedo_sub_5: "1950 Sub Torpedo" 
+ ship_torpedo_sub_5_desc: "Post war development of submarine torpedoes included usage of a trailing wire for mid-course guidance through the submarine's fire control system." 
+ ship_torpedo_sub_6: "1955 Sub Torpedo" 
+ ship_torpedo_sub_6_desc: "Improvments in the guidance as well as new materials enabled the torpedoes to be more acurate and fast." 
+ ship_torpedo_sub_7: "1960 Sub Torpedo" 
+ ship_torpedo_sub_7_desc: "A new guidance method was introduced in the 60s was Wake homing.The torpedo is fired to cross behind the stern of the target ship through the wake, as it does so it uses sonar to look for changes in the water caused by the passage of the ship, such as the small air bubbles. When these are detected the torpedo turns toward the ship then follows a zig-zag course, turning when it detects the outer edge of the wake, to keep itself in the wake. This will eventually bring it to the rear of the ship, where its warhead can do the most damage to propulsion and steering.The system is difficult to jam, though can be distracted by other ships crossing the wake." 
+ ship_torpedo_sub_8: "1970 Sub Torpedo" 
+ ship_torpedo_sub_8_desc: "They were designed to sink deep-diving nuclear-powered submarines and high-performance surface ships." 
+ ship_torpedo_sub_9: "1980 Sub Torpedo" 
+ ship_torpedo_sub_9_desc: "The 80s torpedo wasitted with both active and passive sonar and could be remotely controlled through a thin wire which connected it to the launching submarine. Wire guidance permits a torpedo to be launched on-first-warning, i.e. when a target is first detected at long range. This permits the torpedo the time needed to close the range while target course and speed is being updated by the submarine's superior sensors and transmitted 'down-the-wire'. The torpedo can also be reassigned to another target or recalled." 
+ ship_torpedo_sub_10: "1990 Sub Torpedo" 
+ ship_torpedo_sub_10_desc: "In a typical engagement, these new torpedoes will run out wire-guided to the general vicinity of the target and then conduct a covert passive search. The high-capacity guide wire system, specifically designed to match the Spearfish's manoeuvre and speed envelope, provides two-way data exchange between the torpedo and launch submarine, maximising the submarine's organic sensor and combat control capabilities.Once at close range the torpedo uses active sonar to classify and home in on its target. High-power transmissions and sophisticated signal processing enable it to accurately discriminate targets from background noise and ensure high resistance to acoustic countermeasures and/or evasive manoeuvres." 
+ # FLTE code del ship_anti_air_1
+ # FLTE code del ship_anti_air_1_short
+ # FLTE code del ship_anti_air_1_desc
+ # FLTE code del ship_anti_air_2
+ # FLTE code del ship_anti_air_2_short
+ # FLTE code del ship_anti_air_2_desc
+ # FLTE code del ship_anti_air_3
+ # FLTE code del ship_anti_air_3_short
+ # FLTE code replace ship_anti_air_3_desc
+ # FLTE code del ship_anti_air_4
+ # FLTE code del ship_anti_air_4_short
+ # FLTE code del ship_anti_air_4_desc
+ # FLTE code del ship_mine_layer_1
+ # FLTE code del ship_mine_layer_1_desc
+ # FLTE code del ship_mine_sweeper_1
+ # FLTE code del ship_mine_sweeper_1_desc
+ # FLTE code del ship_mine_layer_sub
+ # FLTE code del ship_mine_layer_sub_desc
+ # FLTE code del ship_depth_charge_1
+ # FLTE code del ship_depth_charge_1_short
+ # FLTE code del ship_depth_charge_1_desc
+ # FLTE code del ship_depth_charge_2
+ # FLTE code del ship_depth_charge_2_short
+ # FLTE code del ship_depth_charge_2_desc
+ # FLTE code del ship_depth_charge_3
+ # FLTE code del ship_depth_charge_3_short
+ # FLTE code del ship_depth_charge_3_desc
+ # FLTE code del ship_depth_charge_4
+ # FLTE code del ship_depth_charge_4_short
+ # FLTE code del ship_depth_charge_4_desc
+ ship_depth_charge_5: "Early ASW Rocket Launcher" 
+ ship_depth_charge_5_short: "ASW Rocket I" 
+ ship_depth_charge_5_desc: "" 
+ ship_depth_charge_6: "Rocket Assisted Torpedo" 
+ ship_depth_charge_6_short: "ASW Rocket II" 
+ ship_depth_charge_6_desc: "" 
+ ship_depth_charge_7: "ASW Rocket Launcher" 
+ ship_depth_charge_7_short: "ASW Rocket III" 
+ ship_depth_charge_7_desc: "" 
+ ship_depth_charge_8: "1970 ASW" 
+ ship_depth_charge_8_desc: "" 
+ ship_depth_charge_9: "1980 ASW" 
+ ship_depth_charge_9_desc: "" 
+ ship_depth_charge_10: "1990 ASW" 
+ ship_depth_charge_10_desc: "" 
+ # FLTE code del ship_sub_snorkel_1
+ # FLTE code del ship_sub_snorkel_1_desc
+ # FLTE code del ship_sub_snorkel_2
+ # FLTE code del ship_sub_snorkel_2_desc
+ ship_sub_snorkel_3: "1950 Snorkel" 
+ ship_sub_snorkel_3_desc: "" 
+ ship_sub_snorkel_4: "1955 Snorkel" 
+ ship_sub_snorkel_4_desc: "" 
+ ship_sub_snorkel_5: "1960 Snorkel" 
+ ship_sub_snorkel_5_desc: "" 
+ ship_sub_snorkel_6: "1970 Snorkel" 
+ ship_sub_snorkel_6_desc: "" 
+ ship_sub_snorkel_7: "1980 Snorkel" 
+ ship_sub_snorkel_7_desc: "" 
+ ship_sub_snorkel_8: "1990 Snorkel" 
+ ship_sub_snorkel_8_desc: "" 
+ # FLTE code del ship_airplane_launcher_1
+ # FLTE code del ship_airplane_launcher_1_desc
+ # FLTE code del ship_airplane_launcher_2
+ # FLTE code del ship_airplane_launcher_2_desc
+ # FLTE code del ship_seaplane_tender_1
+ # FLTE code del ship_seaplane_tender_1_desc
+ # FLTE code del ship_seaplane_tender_2
+ # FLTE code del ship_seaplane_tender_2_desc
+ # FLTE code del sub_missile_launcher
+ # FLTE code del sub_missile_launcher_desc
+ # FLTE code del slbm_launcher
+ # FLTE code del slbm_launcher_desc
+ # FLTE code del ship_engine_sub_aip_1
+ # FLTE code del ship_engine_sub_aip_1_desc
+ # FLTE code del ship_engine_sub_aip_2
+ # FLTE code del ship_engine_sub_aip_2_desc
+ # FLTE code del ship_engine_sub_aip_3
+ # FLTE code del ship_engine_sub_aip_3_desc
+ # FLTE code del ship_anechoic_tile
+ # FLTE code del ship_anechoic_tile_desc
+ # FLTE code del ship_torpedo_sub_nuclear
+ # FLTE code del ship_torpedo_sub_nuclear_desc
+ # FLTE code del ship_deck_space
+ # FLTE code del ship_deck_space_desc
+ # FLTE code del big_ship_deck_space
+ # FLTE code del big_ship_deck_space_desc
+ # FLTE code del ship_escort_deck_space
+ # FLTE code del ship_escort_deck_space_desc
+ # FLTE code del ship_submarine_deck_space
+ # FLTE code del ship_submarine_deck_space_desc
+ # FLTE code del ship_sonar_1
+ # FLTE code del ship_sonar_1_desc
+ # FLTE code del ship_sonar_2
+ # FLTE code del ship_sonar_2_desc
+ # FLTE code del ship_sonar_3
+ # FLTE code del ship_sonar_3_desc
+ # FLTE code del ship_sonar_4
+ # FLTE code del ship_sonar_4_desc
+ # FLTE code replace ship_sonar_3
+ # FLTE code replace ship_sonar_3_desc
+ # FLTE code replace ship_sonar_4
+ # FLTE code replace ship_sonar_4_desc
+ ship_sonar_5: "70s Sonar" 
+ ship_sonar_5_desc: "" 
+ ship_sonar_6: "80s Sonar" 
+ ship_sonar_6_desc: "" 
+ 
+ 
+ # FLTE code del ship_radar_1
+ # FLTE code del ship_radar_1_short
+ # FLTE code del ship_radar_1_desc
+ # FLTE code del ship_radar_2
+ # FLTE code del ship_radar_2_short
+ # FLTE code del ship_radar_2_desc
+ # FLTE code replace ship_radar_3
+ # FLTE code del ship_radar_3_short
+ # FLTE code del ship_radar_3_desc
+ # FLTE code del ship_radar_4
+ # FLTE code del ship_radar_4_short
+ # FLTE code del ship_radar_4_desc
+ ship_radar_5: "55 Ship Radar" 
+ ship_radar_5_desc: "" 
+ ship_radar_6: "60s Ship Radar" 
+ ship_radar_6_desc: "" 
+ ship_radar_7: "70s Ship Radar" 
+ ship_radar_7_desc: "" 
+ ship_radar_8: "80s Ship Radar" 
+ ship_radar_8_desc: "" 
+ ship_radar_9: "90s Ship Radar" 
+ ship_radar_9_desc: "" 
+ # FLTE code del ship_extra_fuel_tank
+ # FLTE code del ship_extra_fuel_tank_desc
+ # FLTE code del light_ship_engine_1
+ # FLTE code del light_ship_engine_1_short
+ # FLTE code replace light_ship_engine_1_desc
+ # FLTE code del light_ship_engine_2
+ # FLTE code del light_ship_engine_2_short
+ # FLTE code del light_ship_engine_2_desc
+ # FLTE code del light_ship_engine_3
+ # FLTE code del light_ship_engine_3_short
+ # FLTE code del light_ship_engine_3_desc
+ # FLTE code del light_ship_engine_4
+ # FLTE code del light_ship_engine_4_short
+ # FLTE code del light_ship_engine_4_desc
+ light_ship_engine_5: "60,000 Ship Engine"
+ light_ship_engine_5_short: "Light Engine V"
+ light_ship_engine_5_desc: ""
+ light_ship_engine_6: "70,000 Ship Engine"
+ light_ship_engine_6_short: "Light Engine VI"
+ light_ship_engine_6_desc: "Utilizing two turbine shafts and several high pressure boilers allows for greater speed then the previous single shaft design"
+ light_ship_engine_7: "Improved 70,000 Ship Engine"
+ light_ship_engine_7_short: "Light Engine VII"
+ light_ship_engine_7_desc: "Utilizing two improved turbine shafts and several high pressure boilers allows for greater speed then the previous single shaft design"
+ light_ship_engine_8: "80,000 Shp Engine"
+ light_ship_engine_8_short: "Light Engine VIII"
+ light_ship_engine_8_desc: "Utilizing four gas turbine engines instead of a traditonal steam turbine plant gives greater power with a smaller space required."
+ light_ship_engine_9: "Improved 80,000 Shp Engine"
+ light_ship_engine_9_short: "Light Engine IX"
+ light_ship_engine_9_desc: "Utilizing four improved gas turbine engines instead of a traditonal steam turbine plant gives greater power with a smaller space required."
+ light_ship_engine_10: "106,000 Shp Engine"
+ light_ship_engine_10_short: "Light Engine X"
+ light_ship_engine_10_desc: "An upgraded gas turbine engine, allowing for even greater speed."
+ # FLTE code del sub_ship_engine_1
+ # FLTE code del sub_ship_engine_1_short
+ # FLTE code del sub_ship_engine_1_desc
+ # FLTE code del sub_ship_engine_2
+ # FLTE code del sub_ship_engine_2_short
+ # FLTE code del sub_ship_engine_2_desc
+ # FLTE code del sub_ship_engine_3
+ # FLTE code del sub_ship_engine_3_short
+ # FLTE code del sub_ship_engine_3_desc
+ # FLTE code del sub_ship_engine_4
+ # FLTE code del sub_ship_engine_4_short
+ # FLTE code del sub_ship_engine_4_desc
+ # FLTE code del sub_ship_nuclear_engine_1
+ # FLTE code del sub_ship_nuclear_engine_1_short
+ # FLTE code del sub_ship_nuclear_engine_1_desc
+ cruiser_nuclear_reactor_module:"Cruiser Nuclear Reactor" 
+ cruiser_nuclear_reactor_module_desc:"" 
+ carrier_nuclear_reactor_module:"Carrier Nuclear Reactor" 
+ carrier_nuclear_reactor_module_desc:"" 
+ carrier_nuclear_reactor_module2:"2nd Carrier Nuclear Reactor" 
+ carrier_nuclear_reactor_module2_desc:"" 
+ heavy_nuclear_reactor_module:"Heavy Nuclear Reactor" 
+ heavy_nuclear_reactor_module_desc:""
+ # FLTE code del cruiser_ship_engine_1
+ # FLTE code del cruiser_ship_engine_1_short
+ # FLTE code del cruiser_ship_engine_1_desc
+ # FLTE code del cruiser_ship_engine_2
+ # FLTE code del cruiser_ship_engine_2_short
+ # FLTE code del cruiser_ship_engine_2_desc
+ # FLTE code del cruiser_ship_engine_3
+ # FLTE code del cruiser_ship_engine_3_short
+ # FLTE code del cruiser_ship_engine_3_desc
+ # FLTE code del cruiser_ship_engine_4
+ # FLTE code del cruiser_ship_engine_4_short
+ # FLTE code del cruiser_ship_engine_4_desc
+ # FLTE code del heavy_ship_engine_1
+ # FLTE code del heavy_ship_engine_1_short
+ # FLTE code del heavy_ship_engine_1_desc
+ # FLTE code del heavy_ship_engine_2
+ # FLTE code del heavy_ship_engine_2_short
+ # FLTE code del heavy_ship_engine_2_desc
+ # FLTE code del heavy_ship_engine_3
+ # FLTE code del heavy_ship_engine_3_short
+ # FLTE code del heavy_ship_engine_3_desc
+ # FLTE code del heavy_ship_engine_4
+ # FLTE code del heavy_ship_engine_4_short
+ # FLTE code del heavy_ship_engine_4_desc
+ # FLTE code del heavy_ship_nuclear_engine_1
+ # FLTE code del heavy_ship_nuclear_engine_1_short
+ # FLTE code del heavy_ship_nuclear_engine_1_desc
+ # FLTE code del carrier_ship_engine_1
+ # FLTE code del carrier_ship_engine_1_short
+ # FLTE code del carrier_ship_engine_1_desc
+ # FLTE code del carrier_ship_engine_2
+ # FLTE code del carrier_ship_engine_2_short
+ # FLTE code del carrier_ship_engine_2_desc
+ # FLTE code del carrier_ship_engine_3
+ # FLTE code del carrier_ship_engine_3_short
+ # FLTE code del carrier_ship_engine_3_desc
+ # FLTE code del carrier_ship_engine_4
+ # FLTE code del carrier_ship_engine_4_short
+ # FLTE code del carrier_ship_engine_4_desc
+ # FLTE code del carrier_ship_nuclear_engine_1
+ # FLTE code del carrier_ship_nuclear_engine_1_short
+ # FLTE code del carrier_ship_nuclear_engine_1_desc
+ # FLTE code del ship_armor_bb_1
+ # FLTE code del ship_armor_bb_1_short
+ # FLTE code del ship_armor_bb_1_desc
+ # FLTE code del ship_armor_bc_1
+ # FLTE code del ship_armor_bc_1_short
+ # FLTE code del ship_armor_bc_1_desc
+ # FLTE code del ship_armor_bb_2
+ # FLTE code del ship_armor_bb_2_short
+ # FLTE code del ship_armor_bb_2_desc
+ # FLTE code del ship_armor_bc_2
+ # FLTE code del ship_armor_bc_2_short
+ # FLTE code del ship_armor_bc_2_desc
+ # FLTE code del ship_armor_bb_3
+ # FLTE code del ship_armor_bb_3_short
+ # FLTE code del ship_armor_bb_3_desc
+ # FLTE code del ship_armor_bc_3
+ # FLTE code del ship_armor_bc_3_short
+ # FLTE code del ship_armor_bc_3_desc
+ # FLTE code del ship_armor_shbb
+ # FLTE code del ship_armor_shbb_short
+ # FLTE code del ship_armor_shbb_desc
+ # FLTE code del ship_armor_cruiser_1
+ # FLTE code del ship_armor_cruiser_1_short
+ # FLTE code del ship_armor_cruiser_1_desc
+ # FLTE code del ship_armor_cruiser_2
+ # FLTE code del ship_armor_cruiser_2_short
+ # FLTE code del ship_armor_cruiser_2_desc
+ # FLTE code del ship_armor_cruiser_3
+ # FLTE code del ship_armor_cruiser_3_short
+ # FLTE code del ship_armor_cruiser_3_desc
+ # FLTE code del ship_armor_cruiser_4
+ # FLTE code del ship_armor_cruiser_4_short
+ # FLTE code del ship_armor_cruiser_4_desc
+ # FLTE code del ship_armor_carrier_deck
+ # FLTE code del ship_armor_carrier_deck_short
+ # FLTE code del ship_armor_carrier_deck_desc
+ # FLTE code del ship_armor_ice_carrier_deck_1
+ # FLTE code del ship_armor_ice_carrier_deck_1_desc
+ # FLTE code del ship_armor_ice_carrier_deck_2
+ # FLTE code del ship_armor_ice_carrier_deck_2_desc
+ # FLTE code del ship_armor_ice_carrier_deck_3
+ # FLTE code replace ship_armor_ice_carrier_deck_3_desc
+ # FLTE code del SHIP_DESIGNER_MODULE_SELECTION
+ ### Nation Specific Modules
+ # FLTE code del ENG_ship_light_battery_1
+ # FLTE code del ENG_ship_light_battery_2
+ # FLTE code del ENG_ship_light_battery_3
+ # FLTE code del ENG_ship_light_battery_4
+ # FLTE code del ENG_dp_light_battery_1
+ # FLTE code del ENG_dp_light_battery_2
+ # FLTE code del ENG_dp_light_battery_3
+ # FLTE code del ENG_dp_light_battery_4
+ # FLTE code del ENG_ship_heavy_battery_1
+ # FLTE code del ENG_ship_heavy_battery_2
+ # FLTE code del ENG_ship_heavy_battery_3
+ # FLTE code del ENG_ship_heavy_battery_4
+ # FLTE code del ENG_ship_light_medium_battery_1
+ # FLTE code del ENG_ship_light_medium_battery_2
+ # FLTE code del ENG_ship_light_medium_battery_3
+ # FLTE code del ENG_ship_light_medium_battery_4
+ # FLTE code del ENG_dp_ship_medium_1
+ # FLTE code del ENG_ship_medium_battery_1
+ # FLTE code del ENG_ship_medium_battery_2
+ # FLTE code del ENG_ship_medium_battery_3
+ # FLTE code del ENG_ship_medium_battery_4
+ # FLTE code del ENG_ship_secondaries_1
+ # FLTE code del ENG_ship_secondaries_2
+ # FLTE code del ENG_dp_ship_secondaries_1
+ # FLTE code del ENG_dp_ship_secondaries_2
+ # FLTE code del ENG_dp_ship_secondaries_3
+ # FLTE code del ENG_dp_ship_secondaries_4
+ # FLTE code del ENG_ship_fire_control_system_0
+ # FLTE code del ENG_ship_fire_control_system_1
+ # FLTE code del ENG_ship_fire_control_system_2
+ # FLTE code del ENG_ship_fire_control_system_3
+ # FLTE code del ENG_ship_torpedo_1
+ # FLTE code del ENG_ship_torpedo_2
+ # FLTE code del ENG_ship_torpedo_3
+ # FLTE code del ENG_ship_torpedo_4
+ # FLTE code del ENG_ship_torpedo_sub_1
+ # FLTE code del ENG_ship_torpedo_sub_2
+ # FLTE code del ENG_ship_torpedo_sub_3
+ # FLTE code del ENG_ship_torpedo_sub_4
+ # FLTE code del ENG_ship_anti_air_1
+ # FLTE code del ENG_ship_anti_air_2
+ # FLTE code del ENG_ship_anti_air_3
+ # FLTE code del ENG_ship_mine_layer_1
+ # FLTE code del ENG_ship_mine_sweeper_1
+ # FLTE code del ENG_ship_mine_layer_sub
+ # FLTE code del ENG_ship_depth_charge_1
+ # FLTE code del ENG_ship_depth_charge_2
+ # FLTE code del ENG_ship_depth_charge_3
+ # FLTE code del ENG_ship_depth_charge_4
+ # FLTE code del ENG_ship_sub_snorkel_1
+ # FLTE code del ENG_ship_sub_snorkel_2
+ # FLTE code del ENG_ship_airplane_launcher_1
+ # FLTE code del ENG_ship_airplane_launcher_2
+ # FLTE code del ENG_ship_deck_space
+ # FLTE code del ENG_ship_sonar_1
+ # FLTE code del ENG_ship_sonar_2
+ # FLTE code del ENG_ship_radar_1
+ # FLTE code del ENG_ship_radar_2
+ # FLTE code del ENG_ship_radar_3
+ # FLTE code del ENG_ship_radar_4
+ # FLTE code del ENG_light_ship_engine_1
+ # FLTE code del ENG_light_ship_engine_2
+ # FLTE code del ENG_light_ship_engine_3
+ # FLTE code del ENG_light_ship_engine_4
+ # FLTE code del ENG_sub_ship_engine_1
+ # FLTE code del ENG_sub_ship_engine_2
+ # FLTE code del ENG_sub_ship_engine_3
+ # FLTE code del ENG_sub_ship_engine_4
+ # FLTE code del ENG_sub_ship_nuclear_engine_1
+ # FLTE code del ENG_sub_ship_nuclear_engine_1_short
+ # FLTE code del ENG_cruiser_ship_engine_1
+ # FLTE code del ENG_cruiser_ship_engine_2
+ # FLTE code del ENG_cruiser_ship_engine_3
+ # FLTE code del ENG_cruiser_ship_engine_4
+ # FLTE code del ENG_heavy_ship_engine_1
+ # FLTE code del ENG_heavy_ship_engine_2
+ # FLTE code del ENG_heavy_ship_engine_3
+ # FLTE code del ENG_heavy_ship_engine_4
+ # FLTE code del ENG_carrier_ship_engine_1
+ # FLTE code del ENG_carrier_ship_engine_2
+ # FLTE code del ENG_carrier_ship_engine_3
+ # FLTE code del ENG_carrier_ship_engine_4
+
+ # FLTE code del FRA_ship_light_battery_1
+ # FLTE code del FRA_ship_light_battery_2
+ # FLTE code del FRA_ship_light_battery_3
+ # FLTE code del FRA_ship_light_battery_4
+ # FLTE code del FRA_dp_light_battery_1
+ # FLTE code del FRA_dp_light_battery_2
+ # FLTE code del FRA_dp_light_battery_3
+ # FLTE code del FRA_ship_heavy_battery_1
+ # FLTE code del FRA_ship_heavy_battery_2
+ # FLTE code del FRA_ship_heavy_battery_3
+ # FLTE code del FRA_ship_heavy_battery_4
+ # FLTE code del FRA_ship_light_medium_battery_1
+ # FLTE code del FRA_ship_light_medium_battery_2
+ # FLTE code del FRA_ship_light_medium_battery_3
+ # FLTE code del FRA_ship_light_medium_battery_4
+ # FLTE code del FRA_dp_ship_medium_1
+ # FLTE code del FRA_ship_medium_battery_1
+ # FLTE code del FRA_ship_medium_battery_2
+ # FLTE code del FRA_ship_medium_battery_3
+ # FLTE code del FRA_ship_medium_battery_4
+ # FLTE code del FRA_ship_secondaries_1
+ # FLTE code del FRA_ship_secondaries_2
+ # FLTE code del FRA_dp_ship_secondaries_1
+ # FLTE code del FRA_dp_ship_secondaries_2
+ # FLTE code del FRA_dp_ship_secondaries_3
+ # FLTE code del FRA_dp_ship_secondaries_4
+ # FLTE code del FRA_ship_fire_control_system_1
+ # FLTE code del FRA_ship_fire_control_system_2
+ # FLTE code del FRA_ship_fire_control_system_3
+ # FLTE code del FRA_ship_torpedo_1
+ # FLTE code del FRA_ship_torpedo_2
+ # FLTE code del FRA_ship_torpedo_3
+ # FLTE code del FRA_ship_torpedo_4
+ # FLTE code del FRA_ship_torpedo_sub_1
+ # FLTE code del FRA_ship_torpedo_sub_2
+ # FLTE code del FRA_ship_torpedo_sub_3
+ # FLTE code del FRA_ship_torpedo_sub_4
+ # FLTE code del FRA_ship_anti_air_1
+ # FLTE code del FRA_ship_anti_air_2
+ # FLTE code del FRA_ship_anti_air_3
+ # FLTE code del FRA_ship_depth_charge_1
+ # FLTE code del FRA_ship_depth_charge_2
+ # FLTE code del FRA_ship_sonar_2
+ # FLTE code del FRA_ship_radar_1
+ # FLTE code del FRA_light_ship_engine_1
+ # FLTE code del FRA_light_ship_engine_2
+ # FLTE code del FRA_light_ship_engine_3
+ # FLTE code del FRA_light_ship_engine_4
+ # FLTE code del FRA_sub_ship_engine_1
+ # FLTE code del FRA_sub_ship_engine_2
+ # FLTE code del FRA_sub_ship_engine_3
+ # FLTE code del FRA_sub_ship_engine_4
+ # FLTE code del FRA_sub_ship_nuclear_engine_1
+ # FLTE code del FRA_sub_ship_nuclear_engine_1_short
+ # FLTE code del FRA_cruiser_ship_engine_1
+ # FLTE code del FRA_cruiser_ship_engine_2
+ # FLTE code del FRA_cruiser_ship_engine_3
+ # FLTE code del FRA_cruiser_ship_engine_4
+ # FLTE code del FRA_heavy_ship_engine_1
+ # FLTE code del FRA_heavy_ship_engine_2
+ # FLTE code del FRA_heavy_ship_engine_3
+ # FLTE code del FRA_heavy_ship_engine_4
+ # FLTE code del FRA_carrier_ship_engine_1
+ # FLTE code del FRA_carrier_ship_engine_2
+ # FLTE code del FRA_carrier_ship_engine_3
+ # FLTE code del FRA_carrier_ship_engine_4
+ # FLTE code del FRA_ship_armor_bb_1
+ # FLTE code del FRA_ship_armor_bb_2
+ # FLTE code del FRA_ship_armor_bc_2
+ # FLTE code del FRA_ship_armor_bb_3
+ # FLTE code del FRA_ship_armor_cruiser_1
+ # FLTE code del FRA_ship_armor_cruiser_2
+ # FLTE code del FRA_ship_armor_cruiser_3
+ # FLTE code del FRA_ship_armor_cruiser_4
+
+ # FLTE code del ITA_ship_light_battery_1
+ # FLTE code del ITA_ship_light_battery_2
+ # FLTE code del ITA_ship_light_battery_3
+ # FLTE code del ITA_ship_light_battery_4
+ # FLTE code del ITA_dp_light_battery_1
+ # FLTE code del ITA_dp_light_battery_2
+ # FLTE code del ITA_dp_light_battery_3
+ # FLTE code del ITA_dp_light_battery_4
+ # FLTE code del ITA_ship_heavy_battery_1
+ # FLTE code del ITA_ship_heavy_battery_2
+ # FLTE code del ITA_ship_heavy_battery_3
+ # FLTE code del ITA_ship_heavy_battery_4
+ # FLTE code del ITA_ship_light_medium_battery_1
+ # FLTE code del ITA_ship_light_medium_battery_2
+ # FLTE code del ITA_ship_light_medium_battery_3
+ # FLTE code del ITA_ship_light_medium_battery_4
+ # FLTE code del ITA_dp_ship_medium_1
+ # FLTE code del ITA_ship_medium_battery_1
+ # FLTE code del ITA_ship_medium_battery_2
+ # FLTE code del ITA_ship_medium_battery_3
+ # FLTE code del ITA_ship_medium_battery_4
+ # FLTE code del ITA_ship_secondaries_1
+ # FLTE code del ITA_ship_secondaries_2
+ # FLTE code del ITA_dp_ship_secondaries_1
+ # FLTE code del ITA_dp_ship_secondaries_2
+ # FLTE code del ITA_dp_ship_secondaries_3
+ # FLTE code del ITA_dp_ship_secondaries_4
+ # FLTE code del ITA_ship_fire_control_system_0
+ # FLTE code del ITA_ship_fire_control_system_1
+ # FLTE code del ITA_ship_fire_control_system_2
+ # FLTE code del ITA_ship_fire_control_system_3
+ # FLTE code del ITA_ship_torpedo_1
+ # FLTE code del ITA_ship_torpedo_2
+ # FLTE code del ITA_ship_torpedo_3
+ # FLTE code del ITA_ship_torpedo_4
+ # FLTE code del ITA_ship_torpedo_sub_1
+ # FLTE code del ITA_ship_torpedo_sub_2
+ # FLTE code del ITA_ship_torpedo_sub_3
+ # FLTE code del ITA_ship_torpedo_sub_4
+ # FLTE code del ITA_ship_anti_air_1
+ # FLTE code del ITA_ship_anti_air_2
+ # FLTE code del ITA_ship_anti_air_3
+ # FLTE code del ITA_ship_depth_charge_1
+ # FLTE code del ITA_ship_depth_charge_2
+ # FLTE code del ITA_ship_radar_1
+ # FLTE code del ITA_ship_radar_2
+ # FLTE code del ITA_light_ship_engine_1
+ # FLTE code del ITA_light_ship_engine_2
+ # FLTE code del ITA_light_ship_engine_3
+ # FLTE code del ITA_light_ship_engine_4
+ # FLTE code del ITA_sub_ship_engine_1
+ # FLTE code del ITA_sub_ship_engine_2
+ # FLTE code del ITA_sub_ship_engine_3
+ # FLTE code del ITA_sub_ship_engine_4
+ # FLTE code del ITA_cruiser_ship_engine_1
+ # FLTE code del ITA_cruiser_ship_engine_2
+ # FLTE code del ITA_cruiser_ship_engine_3
+ # FLTE code del ITA_cruiser_ship_engine_4
+ # FLTE code del ITA_heavy_ship_engine_1
+ # FLTE code del ITA_heavy_ship_engine_2
+ # FLTE code del ITA_heavy_ship_engine_3
+ # FLTE code del ITA_carrier_ship_engine_1
+ # FLTE code del ITA_carrier_ship_engine_2
+ # FLTE code del ITA_carrier_ship_engine_3
+ # FLTE code del ITA_carrier_ship_engine_4
+
+ # FLTE code del USA_ship_light_battery_1
+ # FLTE code del USA_ship_light_battery_2
+ # FLTE code del USA_ship_light_battery_3
+ # FLTE code del USA_ship_light_battery_4
+ # FLTE code del USA_dp_light_battery_1
+ # FLTE code del USA_dp_light_battery_2
+ # FLTE code del USA_dp_light_battery_3
+ # FLTE code del USA_dp_light_battery_4
+ # FLTE code del USA_ship_heavy_battery_1
+ # FLTE code del USA_ship_heavy_battery_2
+ # FLTE code del USA_ship_heavy_battery_3
+ # FLTE code del USA_ship_heavy_battery_4
+ # FLTE code del USA_ship_light_medium_battery_1
+ # FLTE code del USA_ship_light_medium_battery_2
+ # FLTE code del USA_ship_light_medium_battery_3
+ # FLTE code del USA_ship_light_medium_battery_4
+ # FLTE code del USA_dp_ship_medium_1
+ # FLTE code del USA_ship_medium_battery_1
+ # FLTE code del USA_ship_medium_battery_2
+ # FLTE code del USA_ship_medium_battery_3
+ # FLTE code del USA_ship_medium_battery_4
+ # FLTE code del USA_ship_secondaries_1
+ # FLTE code del USA_ship_secondaries_2
+ # FLTE code del USA_dp_ship_secondaries_1
+ # FLTE code del USA_dp_ship_secondaries_2
+ # FLTE code del USA_dp_ship_secondaries_3
+ # FLTE code del USA_dp_ship_secondaries_4
+ # FLTE code del USA_ship_fire_control_system_0
+ # FLTE code del USA_ship_fire_control_system_1
+ # FLTE code del USA_ship_fire_control_system_2
+ # FLTE code del USA_ship_fire_control_system_3
+ # FLTE code del USA_ship_torpedo_1
+ # FLTE code del USA_ship_torpedo_2
+ # FLTE code del USA_ship_torpedo_3
+ # FLTE code del USA_ship_torpedo_4
+ # FLTE code del USA_ship_torpedo_sub_1
+ # FLTE code del USA_ship_torpedo_sub_2
+ # FLTE code del USA_ship_torpedo_sub_3
+ # FLTE code del USA_ship_torpedo_sub_4
+ # FLTE code del USA_ship_anti_air_1
+ # FLTE code del USA_ship_anti_air_2
+ # FLTE code del USA_ship_anti_air_3
+ # FLTE code del USA_ship_depth_charge_1
+ # FLTE code del USA_ship_depth_charge_2
+ # FLTE code del USA_ship_depth_charge_3
+ # FLTE code del USA_ship_depth_charge_4
+ # FLTE code del USA_ship_sub_snorkel_1
+ # FLTE code del USA_ship_sub_snorkel_2
+ # FLTE code del USA_ship_airplane_launcher_1
+ # FLTE code del USA_ship_airplane_launcher_2
+ # FLTE code del USA_ship_deck_space
+ # FLTE code del USA_ship_sonar_1
+ # FLTE code del USA_ship_sonar_2
+ # FLTE code del USA_ship_radar_1
+ # FLTE code del USA_ship_radar_2
+ # FLTE code del USA_ship_radar_3
+ # FLTE code del USA_ship_radar_4
+ # FLTE code del USA_light_ship_engine_1
+ # FLTE code del USA_light_ship_engine_2
+ # FLTE code del USA_light_ship_engine_3
+ # FLTE code del USA_light_ship_engine_4
+ # FLTE code del USA_sub_ship_engine_1
+ # FLTE code del USA_sub_ship_engine_2
+ # FLTE code del USA_sub_ship_engine_3
+ # FLTE code del USA_sub_ship_engine_4
+ # FLTE code del USA_sub_ship_nuclear_engine_1
+ # FLTE code del USA_sub_ship_nuclear_engine_1_short
+ # FLTE code del USA_cruiser_ship_engine_1
+ # FLTE code del USA_cruiser_ship_engine_2
+ # FLTE code del USA_cruiser_ship_engine_3
+ # FLTE code del USA_cruiser_ship_engine_4
+ # FLTE code del USA_heavy_ship_engine_1
+ # FLTE code del USA_heavy_ship_engine_2
+ # FLTE code del USA_heavy_ship_engine_3
+ # FLTE code del USA_heavy_ship_engine_4
+ # FLTE code del USA_carrier_ship_engine_1
+ # FLTE code del USA_carrier_ship_engine_2
+ # FLTE code del USA_carrier_ship_engine_3
+ # FLTE code del USA_carrier_ship_engine_4
+
+ # FLTE code del JAP_ship_light_battery_1
+ # FLTE code del JAP_ship_light_battery_2
+ # FLTE code del JAP_ship_light_battery_3
+ # FLTE code del JAP_ship_light_battery_4
+ # FLTE code del JAP_dp_light_battery_1
+ # FLTE code del JAP_dp_light_battery_2
+ # FLTE code del JAP_dp_light_battery_3
+ # FLTE code del JAP_dp_light_battery_4
+ # FLTE code del JAP_ship_heavy_battery_1
+ # FLTE code del JAP_ship_heavy_battery_2
+ # FLTE code del JAP_ship_heavy_battery_3
+ # FLTE code del JAP_ship_heavy_battery_4
+ # FLTE code del JAP_ship_super_heavy_battery_1
+ # FLTE code del JAP_ship_light_medium_battery_1
+ # FLTE code del JAP_ship_light_medium_battery_2
+ # FLTE code del JAP_ship_light_medium_battery_3
+ # FLTE code del JAP_dp_ship_medium_1
+ # FLTE code del JAP_ship_medium_battery_1
+ # FLTE code del JAP_ship_medium_battery_2
+ # FLTE code del JAP_ship_medium_battery_3
+ # FLTE code del JAP_ship_secondaries_1
+ # FLTE code del JAP_ship_secondaries_2
+ # FLTE code del JAP_dp_ship_secondaries_1
+ # FLTE code del JAP_dp_ship_secondaries_2
+ # FLTE code del JAP_dp_ship_secondaries_3
+ # FLTE code del JAP_dp_ship_secondaries_4
+ # FLTE code del JAP_ship_fire_control_system_1
+ # FLTE code del JAP_ship_fire_control_system_2
+ # FLTE code del JAP_ship_torpedo_1
+ # FLTE code del JAP_ship_torpedo_2
+ # FLTE code del JAP_ship_torpedo_3
+ # FLTE code del JAP_ship_torpedo_4
+ # FLTE code del JAP_ship_torpedo_sub_1
+ # FLTE code del JAP_ship_torpedo_sub_2
+ # FLTE code del JAP_ship_torpedo_sub_3
+ # FLTE code del JAP_ship_torpedo_sub_4
+ # FLTE code del JAP_ship_anti_air_1
+ # FLTE code del JAP_ship_anti_air_2
+ # FLTE code del JAP_ship_anti_air_3
+ # FLTE code del JAP_ship_depth_charge_2
+ # FLTE code del JAP_ship_depth_charge_3
+ # FLTE code del JAP_ship_airplane_launcher_1
+ # FLTE code del JAP_ship_airplane_launcher_2
+ # FLTE code del JAP_ship_sonar_1
+ # FLTE code del JAP_ship_sonar_2
+ # FLTE code del JAP_ship_radar_1
+ # FLTE code del JAP_ship_radar_2
+ # FLTE code del JAP_ship_radar_3
+ # FLTE code del JAP_ship_radar_4
+ # FLTE code del JAP_light_ship_engine_1
+ # FLTE code del JAP_light_ship_engine_2
+ # FLTE code del JAP_light_ship_engine_3
+ # FLTE code del JAP_light_ship_engine_4
+ # FLTE code del JAP_sub_ship_engine_1
+ # FLTE code del JAP_sub_ship_engine_2
+ # FLTE code del JAP_sub_ship_engine_3
+ # FLTE code del JAP_sub_ship_engine_4
+ # FLTE code del JAP_cruiser_ship_engine_1
+ # FLTE code del JAP_cruiser_ship_engine_2
+ # FLTE code del JAP_cruiser_ship_engine_3
+ # FLTE code del JAP_cruiser_ship_engine_4
+ # FLTE code del JAP_heavy_ship_engine_1
+ # FLTE code del JAP_heavy_ship_engine_2
+ # FLTE code del JAP_heavy_ship_engine_3
+ # FLTE code del JAP_heavy_ship_engine_4
+ # FLTE code del JAP_carrier_ship_engine_1
+ # FLTE code del JAP_carrier_ship_engine_2
+ # FLTE code del JAP_carrier_ship_engine_3
+ # FLTE code del JAP_carrier_ship_engine_4
+ # FLTE code del JAP_ship_armor_bb_1
+ # FLTE code del JAP_ship_armor_bc_1
+ # FLTE code del JAP_ship_armor_bb_2
+ # FLTE code del JAP_ship_armor_bc_2
+ # FLTE code del JAP_ship_armor_bb_3
+ # FLTE code del JAP_ship_armor_bc_3
+ # FLTE code del JAP_ship_armor_shbb
+ # FLTE code del JAP_ship_armor_cruiser_1
+ # FLTE code del JAP_ship_armor_cruiser_2
+ # FLTE code del JAP_ship_armor_cruiser_3
+ # FLTE code del JAP_ship_armor_cruiser_4
+ # FLTE code del JAP_ship_armor_carrier_deck
+
+ # FLTE code del ENG_ship_armor_bb_1
+ # FLTE code del ENG_ship_armor_bc_1
+ # FLTE code del ENG_ship_armor_bb_2
+ # FLTE code del ENG_ship_armor_bc_2
+ # FLTE code del ENG_ship_armor_bb_3
+ # FLTE code del ENG_ship_armor_bc_3
+ # FLTE code del ENG_ship_armor_cruiser_1
+ # FLTE code del ENG_ship_armor_cruiser_2
+ # FLTE code del ENG_ship_armor_cruiser_3
+ # FLTE code del ENG_ship_armor_cruiser_4
+ # FLTE code del ENG_ship_armor_carrier_deck
+ # FLTE code del ITA_ship_armor_bb_1
+ # FLTE code del ITA_ship_armor_bc_1
+ # FLTE code del ITA_ship_armor_bb_2
+ # FLTE code del ITA_ship_armor_bc_2
+ # FLTE code del ITA_ship_armor_bb_3
+ # FLTE code del ITA_ship_armor_bc_3
+ #ITA_ship_armor_cruiser_2: "24mm Belt/20mm Deck" 
+ # FLTE code del ITA_ship_armor_cruiser_1
+ # FLTE code del ITA_ship_armor_cruiser_2
+ # FLTE code del ITA_ship_armor_cruiser_3
+ # FLTE code del ITA_ship_armor_cruiser_4
+ # FLTE code del USA_ship_armor_bb_1
+ # FLTE code del USA_ship_armor_bc_1
+ # FLTE code del USA_ship_armor_bb_2
+ # FLTE code del USA_ship_armor_bc_2
+ # FLTE code del USA_ship_armor_bb_3
+ # FLTE code del USA_ship_armor_bc_3
+ # FLTE code del USA_ship_armor_cruiser_1
+ # FLTE code del USA_ship_armor_cruiser_2
+ # FLTE code del USA_ship_armor_cruiser_3
+ # FLTE code del USA_ship_armor_cruiser_4
+ # FLTE code del USA_ship_armor_carrier_deck
+
+ # FLTE code del GER_ship_light_battery_1
+ # FLTE code del GER_ship_light_battery_2
+ # FLTE code del GER_ship_light_battery_3
+ # FLTE code del GER_ship_light_battery_4
+ # FLTE code del GER_dp_light_battery_1
+ # FLTE code del GER_dp_light_battery_2
+ # FLTE code del GER_dp_light_battery_3
+ # FLTE code del GER_dp_light_battery_4
+ # FLTE code del GER_ship_heavy_battery_1
+ # FLTE code del GER_ship_heavy_battery_2
+ # FLTE code del GER_ship_heavy_battery_3
+ # FLTE code del GER_ship_heavy_battery_4
+ # FLTE code del GER_ship_light_medium_battery_1
+ # FLTE code del GER_ship_light_medium_battery_2
+ # FLTE code del GER_ship_light_medium_battery_3
+ # FLTE code del GER_ship_light_medium_battery_4
+ # FLTE code del GER_dp_ship_medium_1
+ # FLTE code del GER_ship_medium_battery_1
+ # FLTE code del GER_ship_medium_battery_2
+ # FLTE code del GER_ship_medium_battery_3
+ # FLTE code del GER_ship_medium_battery_4
+ # FLTE code del GER_ship_secondaries_1
+ # FLTE code del GER_ship_secondaries_2
+ # FLTE code del GER_dp_ship_secondaries_1
+ # FLTE code del GER_dp_ship_secondaries_2
+ # FLTE code del GER_dp_ship_secondaries_3
+ # FLTE code del GER_dp_ship_secondaries_4
+ # FLTE code del GER_ship_fire_control_system_1
+ # FLTE code del GER_ship_torpedo_1
+ # FLTE code del GER_ship_torpedo_2
+ # FLTE code del GER_ship_torpedo_3
+ # FLTE code del GER_ship_torpedo_4
+ # FLTE code del GER_ship_torpedo_sub_1
+ # FLTE code del GER_ship_torpedo_sub_2
+ # FLTE code del GER_ship_torpedo_sub_3
+ # FLTE code del GER_ship_torpedo_sub_4
+ # FLTE code del GER_ship_anti_air_1
+ # FLTE code del GER_ship_anti_air_2
+ # FLTE code del GER_ship_anti_air_3
+ # FLTE code del GER_ship_depth_charge_2
+ # FLTE code del GER_ship_sub_snorkel_1
+ # FLTE code del GER_ship_sub_snorkel_2
+ # FLTE code del GER_ship_sonar_1
+ # FLTE code del GER_ship_sonar_2
+ # FLTE code del GER_ship_radar_1
+ # FLTE code del GER_ship_radar_2
+ # FLTE code del GER_ship_radar_3
+ # FLTE code del GER_ship_radar_4
+ # FLTE code del GER_light_ship_engine_1
+ # FLTE code del GER_light_ship_engine_2
+ # FLTE code del GER_light_ship_engine_3
+ # FLTE code del GER_light_ship_engine_4
+ # FLTE code del GER_sub_ship_engine_1
+ # FLTE code del GER_sub_ship_engine_2
+ # FLTE code del GER_sub_ship_engine_3
+ # FLTE code del GER_sub_ship_engine_4
+ # FLTE code del GER_cruiser_ship_engine_1
+ # FLTE code del GER_cruiser_ship_engine_2
+ # FLTE code del GER_cruiser_ship_engine_3
+ # FLTE code del GER_cruiser_ship_engine_4
+ # FLTE code del GER_heavy_ship_engine_1
+ # FLTE code del GER_heavy_ship_engine_2
+ # FLTE code del GER_heavy_ship_engine_3
+ # FLTE code del GER_heavy_ship_engine_4
+ # FLTE code del GER_carrier_ship_engine_1
+ # FLTE code del GER_carrier_ship_engine_2
+ # FLTE code del GER_carrier_ship_engine_3
+ # FLTE code del GER_carrier_ship_engine_4
+ # FLTE code del GER_ship_armor_bb_1
+ # FLTE code del GER_ship_armor_bc_1
+ # FLTE code del GER_ship_armor_bb_2
+ # FLTE code del GER_ship_armor_bc_2
+ # FLTE code del GER_ship_armor_bb_3
+ # FLTE code del GER_ship_armor_cruiser_2
+ # FLTE code del GER_ship_armor_cruiser_3
+ # FLTE code del GER_ship_armor_cruiser_4
+
+ # FLTE code del SOV_ship_light_battery_1
+ # FLTE code del SOV_ship_light_battery_2
+ # FLTE code del SOV_ship_light_battery_3
+ # FLTE code del SOV_ship_light_battery_4
+ # FLTE code del SOV_dp_light_battery_1
+ # FLTE code del SOV_dp_light_battery_2
+ # FLTE code del SOV_dp_light_battery_3
+ # FLTE code del SOV_dp_light_battery_4
+ # FLTE code del SOV_ship_heavy_battery_1
+ # FLTE code del SOV_ship_heavy_battery_2
+ # FLTE code del SOV_ship_heavy_battery_3
+ # FLTE code del SOV_ship_heavy_battery_4
+ # FLTE code del SOV_ship_light_medium_battery_1
+ # FLTE code del SOV_ship_light_medium_battery_2
+ # FLTE code del SOV_ship_light_medium_battery_3
+ # FLTE code del SOV_ship_light_medium_battery_4
+ # FLTE code del SOV_dp_ship_medium_1
+ # FLTE code del SOV_ship_medium_battery_1
+ # FLTE code del SOV_ship_medium_battery_2
+ # FLTE code del SOV_ship_medium_battery_3
+ # FLTE code del SOV_ship_medium_battery_4
+ # FLTE code del SOV_ship_secondaries_1
+ # FLTE code del SOV_ship_secondaries_2
+ # FLTE code del SOV_dp_ship_secondaries_1
+ # FLTE code del SOV_dp_ship_secondaries_2
+ # FLTE code del SOV_dp_ship_secondaries_3
+ # FLTE code del SOV_dp_ship_secondaries_4
+ # FLTE code del SOV_ship_fire_control_system_0
+ # FLTE code del SOV_ship_fire_control_system_1
+ # FLTE code del SOV_ship_torpedo_1
+ # FLTE code del SOV_ship_torpedo_2
+ # FLTE code del SOV_ship_torpedo_3
+ # FLTE code del SOV_ship_torpedo_4
+ # FLTE code del SOV_ship_torpedo_sub_1
+ # FLTE code del SOV_ship_torpedo_sub_2
+ # FLTE code del SOV_ship_torpedo_sub_3
+ # FLTE code del SOV_ship_torpedo_sub_4
+ # FLTE code del SOV_ship_anti_air_1
+ # FLTE code del SOV_ship_anti_air_2
+ # FLTE code del SOV_ship_anti_air_3
+ # FLTE code del SOV_ship_depth_charge_1
+ # FLTE code del SOV_ship_depth_charge_2
+ # FLTE code del SOV_ship_airplane_launcher_1
+ # FLTE code del SOV_ship_airplane_launcher_2
+ # FLTE code del SOV_ship_sonar_1
+ # FLTE code del SOV_ship_sonar_2
+ # FLTE code del SOV_ship_radar_1
+ # FLTE code del SOV_ship_radar_2
+ # FLTE code del SOV_ship_radar_3
+ # FLTE code del SOV_ship_radar_4
+ # FLTE code del SOV_light_ship_engine_1
+ # FLTE code del SOV_light_ship_engine_2
+ # FLTE code del SOV_light_ship_engine_3
+ # FLTE code del SOV_light_ship_engine_4
+ # FLTE code del SOV_sub_ship_engine_1
+ # FLTE code del SOV_sub_ship_engine_2
+ # FLTE code del SOV_sub_ship_engine_3
+ # FLTE code del SOV_sub_ship_engine_4
+ # FLTE code del SOV_sub_ship_nuclear_engine_1
+ # FLTE code del SOV_sub_ship_nuclear_engine_1_short
+ # FLTE code del SOV_cruiser_ship_engine_1
+ # FLTE code del SOV_cruiser_ship_engine_2
+ # FLTE code del SOV_cruiser_ship_engine_3
+ # FLTE code del SOV_cruiser_ship_engine_4
+ # FLTE code del SOV_heavy_ship_engine_1
+ # FLTE code del SOV_heavy_ship_engine_2
+ # FLTE code del SOV_heavy_ship_engine_3
+ # FLTE code del SOV_heavy_ship_engine_4
+ # FLTE code del SOV_carrier_ship_engine_1
+ # FLTE code del SOV_carrier_ship_engine_2
+ # FLTE code del SOV_carrier_ship_engine_3
+ # FLTE code del SOV_carrier_ship_engine_4
+ # FLTE code del SOV_ship_armor_bb_1
+ # FLTE code del SOV_ship_armor_bc_2
+ # FLTE code del SOV_ship_armor_cruiser_1
+ # FLTE code del SOV_ship_armor_cruiser_2
+ # FLTE code del SOV_ship_armor_cruiser_3
+ # FLTE code del SOV_ship_armor_cruiser_4
+ # FLTE code del SOV_ship_armor_carrier_deck
+
+ # FLTE code del ARG_ship_light_battery_1
+ # FLTE code del ARG_ship_light_battery_2
+ # FLTE code del ARG_ship_heavy_battery_1
+ # FLTE code del ARG_ship_heavy_battery_2
+ # FLTE code del ARG_ship_light_medium_battery_2
+ # FLTE code del ARG_ship_medium_battery_1
+ # FLTE code del ARG_ship_medium_battery_2
+ # FLTE code del ARG_ship_secondaries_1
+ # FLTE code del ARG_ship_secondaries_2
+ # FLTE code del ARG_ship_torpedo_1
+ # FLTE code del ARG_ship_torpedo_2
+ # FLTE code del ARG_ship_torpedo_3
+ # FLTE code del ARG_ship_torpedo_4
+ # FLTE code del ARG_ship_torpedo_sub_1
+ # FLTE code del ARG_ship_torpedo_sub_2
+ # FLTE code del ARG_ship_torpedo_sub_3
+ # FLTE code del ARG_ship_torpedo_sub_4
+ # FLTE code del ARG_ship_anti_air_1
+ # FLTE code del ARG_light_ship_engine_1
+ # FLTE code del ARG_sub_ship_engine_1
+ # FLTE code del ARG_cruiser_ship_engine_1
+ # FLTE code del ARG_cruiser_ship_engine_2
+ # FLTE code del ARG_cruiser_ship_engine_3
+ # FLTE code del ARG_cruiser_ship_engine_4
+ # FLTE code del ARG_heavy_ship_engine_1
+ # FLTE code del ARG_ship_armor_bb_1
+ # FLTE code del ARG_ship_armor_cruiser_1
+
+ # FLTE code del BRA_ship_light_battery_1
+ # FLTE code del BRA_ship_light_battery_2
+ # FLTE code del BRA_ship_light_battery_3
+ # FLTE code del BRA_dp_light_battery_1
+ # FLTE code del BRA_dp_light_battery_2
+ # FLTE code del BRA_ship_heavy_battery_1
+ # FLTE code del BRA_ship_heavy_battery_2
+ # FLTE code del BRA_ship_light_medium_battery_1
+ # FLTE code del BRA_ship_secondaries_1
+ # FLTE code del BRA_ship_secondaries_2
+ # FLTE code del BRA_ship_torpedo_1
+ # FLTE code del BRA_ship_torpedo_2
+ # FLTE code del BRA_ship_torpedo_3
+ # FLTE code del BRA_ship_torpedo_4
+ # FLTE code del BRA_ship_torpedo_sub_1
+ # FLTE code del BRA_ship_torpedo_sub_2
+ # FLTE code del BRA_ship_torpedo_sub_3
+ # FLTE code del BRA_ship_torpedo_sub_4
+ # FLTE code del BRA_light_ship_engine_1
+ # FLTE code del BRA_light_ship_engine_2
+ # FLTE code del BRA_sub_ship_engine_1
+ # FLTE code del BRA_sub_ship_engine_2
+ # FLTE code del BRA_heavy_ship_engine_1
+ # FLTE code del BRA_ship_armor_bb_1
+ # FLTE code del BRA_ship_armor_cruiser_1
+
+ # FLTE code del CHI_ship_light_battery_1
+ # FLTE code del CHI_ship_light_medium_battery_1
+ # FLTE code del CHI_ship_light_medium_battery_2
+ # FLTE code del CHI_ship_medium_battery_1
+ # FLTE code del CHI_ship_medium_battery_2
+ # FLTE code del CHI_ship_medium_battery_3
+ # FLTE code del CHI_ship_medium_battery_4
+ # FLTE code del CHI_ship_secondaries_1
+ # FLTE code del CHI_ship_torpedo_1
+ # FLTE code del CHI_ship_armor_cruiser_1
+
+ # FLTE code del CHL_ship_light_battery_1
+ # FLTE code del CHL_ship_heavy_battery_1
+ # FLTE code del CHL_ship_heavy_battery_2
+ # FLTE code del CHL_ship_medium_battery_1
+ # FLTE code del CHL_ship_medium_battery_2
+ # FLTE code del CHL_ship_medium_battery_3
+ # FLTE code del CHL_ship_medium_battery_4
+ # FLTE code del CHL_ship_secondaries_1
+ # FLTE code del CHL_ship_secondaries_2
+ # FLTE code del CHL_ship_torpedo_1
+ # FLTE code del CHL_ship_torpedo_2
+ # FLTE code del CHL_ship_torpedo_3
+ # FLTE code del CHL_ship_torpedo_4
+ # FLTE code del CHL_ship_torpedo_sub_1
+ # FLTE code del CHL_ship_torpedo_sub_2
+ # FLTE code del CHL_ship_torpedo_sub_3
+ # FLTE code del CHL_ship_torpedo_sub_4
+ # FLTE code del CHL_light_ship_engine_1
+ # FLTE code del CHL_sub_ship_engine_1
+ # FLTE code del CHL_sub_ship_engine_2
+ # FLTE code del CHL_sub_ship_engine_3
+ # FLTE code del CHL_sub_ship_engine_4
+ # FLTE code del CHL_heavy_ship_engine_1
+ # FLTE code del CHL_ship_armor_bb_1
+
+ # FLTE code del DEN_ship_heavy_battery_1
+ # FLTE code del DEN_ship_light_medium_battery_1
+ # FLTE code del DEN_ship_secondaries_1
+ # FLTE code del DEN_ship_secondaries_2
+ # FLTE code del DEN_ship_anti_air_1
+ # FLTE code del DEN_ship_anti_air_2
+ # FLTE code del DEN_sub_ship_engine_1
+ # FLTE code del DEN_sub_ship_engine_2
+
+ # FLTE code del EST_ship_torpedo_sub_1
+ # FLTE code del EST_ship_torpedo_sub_2
+ # FLTE code del EST_ship_torpedo_sub_3
+ # FLTE code del EST_ship_torpedo_sub_4
+ # FLTE code del EST_sub_ship_engine_1
+
+ # FLTE code del FIN_ship_light_battery_1
+ # FLTE code del FIN_ship_heavy_battery_1
+ # FLTE code del FIN_ship_secondaries_1
+ # FLTE code del FIN_ship_torpedo_sub_1
+ # FLTE code del FIN_ship_torpedo_sub_2
+ # FLTE code del FIN_ship_torpedo_sub_3
+ # FLTE code del FIN_ship_torpedo_sub_4
+ # FLTE code del FIN_ship_anti_air_1
+ # FLTE code del FIN_ship_anti_air_2
+ # FLTE code del FIN_sub_ship_engine_1
+ # FLTE code del FIN_ship_armor_cruiser_1
+
+ # FLTE code del GRE_ship_light_battery_1
+ # FLTE code del GRE_ship_light_battery_2
+ # FLTE code del GRE_ship_light_medium_battery_1
+ # FLTE code del GRE_ship_light_medium_battery_2
+ # FLTE code del GRE_ship_light_medium_battery_3
+ # FLTE code del GRE_ship_light_medium_battery_4
+ # FLTE code del GRE_ship_medium_battery_1
+ # FLTE code del GRE_ship_medium_battery_2
+ # FLTE code del GRE_ship_medium_battery_3
+ # FLTE code del GRE_ship_medium_battery_4
+ # FLTE code del GRE_ship_secondaries_1
+ # FLTE code del GRE_ship_torpedo_1
+ # FLTE code del GRE_ship_torpedo_2
+ # FLTE code del GRE_ship_torpedo_3
+ # FLTE code del GRE_ship_torpedo_4
+ # FLTE code del GRE_ship_torpedo_sub_1
+ # FLTE code del GRE_ship_torpedo_sub_2
+ # FLTE code del GRE_ship_torpedo_sub_3
+ # FLTE code del GRE_ship_torpedo_sub_4
+ # FLTE code del GRE_light_ship_engine_1
+ # FLTE code del GRE_light_ship_engine_2
+ # FLTE code del GRE_sub_ship_engine_1
+ # FLTE code del GRE_ship_armor_cruiser_1
+ # FLTE code del GRE_ship_armor_cruiser_2
+
+ # FLTE code del HOL_ship_light_battery_1
+ # FLTE code del HOL_ship_light_battery_2
+ # FLTE code del HOL_ship_light_battery_3
+ # FLTE code del HOL_ship_light_battery_4
+ # FLTE code del HOL_dp_light_battery_1
+ # FLTE code del HOL_dp_light_battery_2
+ # FLTE code del HOL_dp_light_battery_4
+ # FLTE code del HOL_ship_heavy_battery_1
+ # FLTE code del HOL_ship_heavy_battery_2
+ # FLTE code del HOL_ship_light_medium_battery_1
+ # FLTE code del HOL_ship_light_medium_battery_2
+ # FLTE code del HOL_ship_light_medium_battery_3
+ # FLTE code del HOL_dp_ship_medium_1
+ # FLTE code del HOL_ship_secondaries_1
+ # FLTE code del HOL_ship_secondaries_2
+ # FLTE code del HOL_ship_torpedo_1
+ # FLTE code del HOL_ship_torpedo_2
+ # FLTE code del HOL_ship_torpedo_3
+ # FLTE code del HOL_ship_torpedo_4
+ # FLTE code del HOL_ship_torpedo_sub_2
+ # FLTE code del HOL_ship_torpedo_sub_3
+ # FLTE code del HOL_ship_torpedo_sub_4
+ # FLTE code del HOL_ship_anti_air_2
+ # FLTE code del HOL_ship_anti_air_3
+ # FLTE code del HOL_ship_sub_snorkel_1
+ # FLTE code del HOL_ship_sub_snorkel_2
+ # FLTE code del HOL_light_ship_engine_1
+ # FLTE code del HOL_light_ship_engine_2
+ # FLTE code del HOL_light_ship_engine_3
+ # FLTE code del HOL_sub_ship_engine_1
+ # FLTE code del HOL_sub_ship_engine_2
+ # FLTE code del HOL_sub_ship_engine_3
+ # FLTE code del HOL_sub_ship_engine_4
+ # FLTE code del HOL_cruiser_ship_engine_1
+ # FLTE code del HOL_cruiser_ship_engine_2
+ # FLTE code del HOL_cruiser_ship_engine_3
+ # FLTE code del HOL_heavy_ship_engine_3
+ # FLTE code del HOL_ship_armor_bc_1
+ # FLTE code del HOL_ship_armor_bc_2
+ # FLTE code del HOL_ship_armor_cruiser_1
+
+ # FLTE code del LAT_ship_torpedo_sub_1
+ # FLTE code del LAT_ship_torpedo_sub_2
+ # FLTE code del LAT_ship_torpedo_sub_3
+ # FLTE code del LAT_ship_torpedo_sub_4
+ # FLTE code del LAT_sub_ship_engine_1
+
+ # FLTE code del NOR_ship_light_battery_1
+ # FLTE code del NOR_ship_light_battery_2
+ # FLTE code del NOR_ship_medium_battery_1
+ # FLTE code del NOR_ship_medium_battery_2
+ # FLTE code del NOR_ship_medium_battery_3
+ # FLTE code del NOR_ship_medium_battery_4
+ # FLTE code del NOR_ship_secondaries_1
+ # FLTE code del NOR_ship_secondaries_2
+ # FLTE code del NOR_ship_torpedo_1
+ # FLTE code del NOR_ship_torpedo_2
+ # FLTE code del NOR_ship_torpedo_3
+ # FLTE code del NOR_ship_torpedo_4
+ # FLTE code del NOR_ship_torpedo_sub_1
+ # FLTE code del NOR_ship_torpedo_sub_2
+ # FLTE code del NOR_light_ship_engine_1
+ # FLTE code del NOR_sub_ship_engine_1
+
+ # FLTE code del POL_ship_light_battery_1
+ # FLTE code del POL_ship_light_battery_2
+ # FLTE code del POL_ship_torpedo_1
+ # FLTE code del POL_ship_torpedo_2
+ # FLTE code del POL_ship_torpedo_3
+ # FLTE code del POL_ship_torpedo_4
+ # FLTE code del POL_ship_torpedo_sub_1
+ # FLTE code del POL_ship_torpedo_sub_2
+ # FLTE code del POL_ship_torpedo_sub_3
+ # FLTE code del POL_ship_torpedo_sub_4
+ # FLTE code del POL_ship_anti_air_1
+ # FLTE code del POL_ship_anti_air_2
+ # FLTE code del POL_ship_anti_air_3
+ # FLTE code del POL_light_ship_engine_1
+ # FLTE code del POL_light_ship_engine_2
+ # FLTE code del POL_light_ship_engine_3
+ # FLTE code del POL_light_ship_engine_4
+ # FLTE code del POL_sub_ship_engine_1
+ # FLTE code del POL_sub_ship_engine_2
+ # FLTE code del POL_sub_ship_engine_3
+ # FLTE code del POL_sub_ship_engine_4
+
+ # FLTE code del POR_ship_light_battery_1
+ # FLTE code del POR_ship_light_battery_2
+ # FLTE code del POR_ship_torpedo_1
+ # FLTE code del POR_ship_torpedo_2
+ # FLTE code del POR_ship_torpedo_3
+ # FLTE code del POR_ship_torpedo_4
+ # FLTE code del POR_ship_torpedo_sub_1
+ # FLTE code del POR_ship_torpedo_sub_2
+ # FLTE code del POR_ship_torpedo_sub_3
+ # FLTE code del POR_ship_torpedo_sub_4
+ # FLTE code del POR_ship_anti_air_1
+ # FLTE code del POR_ship_anti_air_2
+ # FLTE code del POR_ship_anti_air_3
+ # FLTE code del POR_light_ship_engine_1
+ # FLTE code del POR_sub_ship_engine_1
+ # FLTE code del POR_sub_ship_engine_2
+ # FLTE code del POR_sub_ship_engine_3
+
+ # FLTE code del PRU_ship_light_battery_1
+ # FLTE code del PRU_ship_light_medium_battery_1
+ # FLTE code del PRU_ship_light_medium_battery_2
+ # FLTE code del PRU_ship_light_medium_battery_3
+ # FLTE code del PRU_ship_light_medium_battery_4
+ # FLTE code del PRU_ship_secondaries_1
+ # FLTE code del PRU_ship_torpedo_sub_1
+ # FLTE code del PRU_ship_torpedo_sub_2
+ # FLTE code del PRU_ship_torpedo_sub_3
+ # FLTE code del PRU_ship_torpedo_sub_4
+ # FLTE code del PRU_ship_anti_air_1
+ # FLTE code del PRU_ship_anti_air_2
+ # FLTE code del PRU_light_ship_engine_1
+ # FLTE code del PRU_sub_ship_engine_1
+ # FLTE code del PRU_ship_armor_cruiser_1
+
+ # FLTE code del ROM_ship_light_battery_1
+ # FLTE code del ROM_ship_light_battery_2
+ # FLTE code del ROM_ship_torpedo_1
+ # FLTE code del ROM_ship_torpedo_2
+ # FLTE code del ROM_ship_torpedo_3
+ # FLTE code del ROM_ship_torpedo_4
+ # FLTE code del ROM_ship_torpedo_sub_1
+ # FLTE code del ROM_ship_torpedo_sub_2
+ # FLTE code del ROM_ship_torpedo_sub_3
+ # FLTE code del ROM_ship_torpedo_sub_4
+ # FLTE code del ROM_light_ship_engine_1
+ # FLTE code del ROM_light_ship_engine_2
+ # FLTE code del ROM_light_ship_engine_3
+ # FLTE code del ROM_light_ship_engine_4
+ # FLTE code del ROM_sub_ship_engine_1
+
+ # FLTE code del SIA_ship_light_battery_1
+ # FLTE code del SIA_ship_medium_battery_2
+ # FLTE code del SIA_ship_medium_battery_3
+ # FLTE code del SIA_ship_medium_battery_4
+ # FLTE code del SIA_ship_secondaries_1
+ # FLTE code del SIA_ship_torpedo_1
+ # FLTE code del SIA_ship_torpedo_2
+ # FLTE code del SIA_ship_torpedo_3
+ # FLTE code del SIA_ship_torpedo_4
+ # FLTE code del SIA_ship_torpedo_sub_1
+ # FLTE code del SIA_ship_torpedo_sub_2
+ # FLTE code del SIA_ship_torpedo_sub_3
+ # FLTE code del SIA_ship_torpedo_sub_4
+ # FLTE code del SIA_light_ship_engine_1
+ # FLTE code del SIA_ship_armor_cruiser_1
+
+ # FLTE code del SPR_ship_light_battery_1
+ # FLTE code del SPR_ship_light_battery_2
+ # FLTE code del SPR_ship_heavy_battery_1
+ # FLTE code del SPR_ship_heavy_battery_2
+ # FLTE code del SPR_ship_light_medium_battery_1
+ # FLTE code del SPR_ship_light_medium_battery_2
+ # FLTE code del SPR_ship_medium_battery_1
+ # FLTE code del SPR_ship_medium_battery_2
+ # FLTE code del SPR_ship_medium_battery_3
+ # FLTE code del SPR_ship_medium_battery_4
+ # FLTE code del SPR_ship_secondaries_1
+ # FLTE code del SPR_ship_torpedo_1
+ # FLTE code del SPR_ship_torpedo_2
+ # FLTE code del SPR_ship_torpedo_3
+ # FLTE code del SPR_ship_torpedo_4
+ # FLTE code del SPR_ship_torpedo_sub_2
+ # FLTE code del SPR_ship_torpedo_sub_3
+ # FLTE code del SPR_ship_torpedo_sub_4
+ # FLTE code del SPR_ship_anti_air_1
+ # FLTE code del SPR_ship_anti_air_2
+ # FLTE code del SPR_light_ship_engine_1
+ # FLTE code del SPR_light_ship_engine_2
+ # FLTE code del SPR_light_ship_engine_3
+ # FLTE code del SPR_light_ship_engine_4
+ # FLTE code del SPR_sub_ship_engine_1
+ # FLTE code del SPR_sub_ship_engine_2
+ # FLTE code del SPR_sub_ship_engine_3
+ # FLTE code del SPR_sub_ship_engine_4
+ # FLTE code del SPR_cruiser_ship_engine_1
+ # FLTE code del SPR_cruiser_ship_engine_2
+ # FLTE code del SPR_cruiser_ship_engine_3
+ # FLTE code del SPR_cruiser_ship_engine_4
+ # FLTE code del SPR_heavy_ship_engine_1
+ # FLTE code del SPR_ship_armor_bb_1
+ # FLTE code del SPR_ship_armor_cruiser_1
+ # FLTE code del SPR_ship_armor_cruiser_2
+
+ # FLTE code del SWE_ship_light_battery_1
+ # FLTE code del SWE_ship_light_battery_2
+ # FLTE code del SWE_ship_light_battery_3
+ # FLTE code del SWE_ship_light_battery_4
+ # FLTE code del SWE_dp_light_battery_1
+ # FLTE code del SWE_dp_light_battery_2
+ # FLTE code del SWE_dp_light_battery_3
+ # FLTE code del SWE_dp_light_battery_4
+ # FLTE code del SWE_ship_heavy_battery_1
+ # FLTE code del SWE_ship_heavy_battery_2
+ # FLTE code del SWE_ship_heavy_battery_3
+ # FLTE code del SWE_ship_heavy_battery_4
+ # FLTE code del SWE_ship_light_medium_battery_1
+ # FLTE code del SWE_ship_light_medium_battery_2
+ # FLTE code del SWE_ship_light_medium_battery_3
+ # FLTE code del SWE_ship_light_medium_battery_4
+ # FLTE code del SWE_dp_ship_medium_1
+ # FLTE code del SWE_ship_medium_battery_1
+ # FLTE code del SWE_ship_medium_battery_2
+ # FLTE code del SWE_ship_medium_battery_3
+ # FLTE code del SWE_ship_medium_battery_4
+ # FLTE code del SWE_ship_secondaries_1
+ # FLTE code del SWE_ship_secondaries_2
+ # FLTE code del SWE_dp_ship_secondaries_1
+ # FLTE code del SWE_dp_ship_secondaries_2
+ # FLTE code del SWE_dp_ship_secondaries_3
+ # FLTE code del SWE_dp_ship_secondaries_4
+ # FLTE code del SWE_ship_torpedo_1
+ # FLTE code del SWE_ship_torpedo_2
+ # FLTE code del SWE_ship_torpedo_3
+ # FLTE code del SWE_ship_torpedo_4
+ # FLTE code del SWE_ship_torpedo_sub_2
+ # FLTE code del SWE_ship_torpedo_sub_3
+ # FLTE code del SWE_ship_torpedo_sub_4
+ # FLTE code del SWE_ship_anti_air_1
+ # FLTE code del SWE_ship_anti_air_2
+ # FLTE code del SWE_ship_anti_air_3
+ # FLTE code del SWE_ship_anti_air_4
+ # FLTE code del SWE_light_ship_engine_1
+ # FLTE code del SWE_light_ship_engine_2
+ # FLTE code del SWE_light_ship_engine_3
+ # FLTE code del SWE_light_ship_engine_4
+ # FLTE code del SWE_sub_ship_engine_1
+ # FLTE code del SWE_sub_ship_engine_2
+ # FLTE code del SWE_sub_ship_engine_3
+ # FLTE code del SWE_sub_ship_engine_4
+ # FLTE code del SWE_cruiser_ship_engine_1
+ # FLTE code del SWE_cruiser_ship_engine_2
+ # FLTE code del SWE_cruiser_ship_engine_3
+ # FLTE code del SWE_cruiser_ship_engine_4
+ # FLTE code del SWE_heavy_ship_engine_1
+ # FLTE code del SWE_ship_armor_bb_1
+ # FLTE code del SWE_ship_armor_cruiser_1
+ # FLTE code del SWE_ship_armor_cruiser_2
+
+ # FLTE code del TUR_ship_light_battery_1
+ # FLTE code del TUR_ship_light_battery_2
+ # FLTE code del TUR_ship_heavy_battery_1
+ # FLTE code del TUR_ship_light_medium_battery_1
+ # FLTE code del TUR_ship_light_medium_battery_2
+ # FLTE code del TUR_ship_light_medium_battery_3
+ # FLTE code del TUR_ship_light_medium_battery_4
+ # FLTE code del TUR_ship_secondaries_1
+ # FLTE code del TUR_ship_secondaries_2
+ # FLTE code del TUR_ship_torpedo_1
+ # FLTE code del TUR_ship_torpedo_2
+ # FLTE code del TUR_ship_torpedo_3
+ # FLTE code del TUR_ship_torpedo_4
+ # FLTE code del TUR_ship_torpedo_sub_2
+ # FLTE code del TUR_ship_torpedo_sub_3
+ # FLTE code del TUR_ship_torpedo_sub_4
+ # FLTE code del TUR_light_ship_engine_1
+ # FLTE code del TUR_light_ship_engine_2
+ # FLTE code del TUR_sub_ship_engine_1
+ # FLTE code del TUR_sub_ship_engine_2
+ # FLTE code del TUR_sub_ship_engine_3
+ # FLTE code del TUR_sub_ship_engine_4
+ # FLTE code del TUR_heavy_ship_engine_1
+ # FLTE code del TUR_ship_armor_bc_1
+ # FLTE code del TUR_ship_armor_cruiser_1
+ 
+ # FLTE code del URG_ship_light_battery_1
+ # FLTE code del URG_ship_light_battery_2
+ # FLTE code del URG_ship_torpedo_1
+ 
+ # FLTE code del YUG_ship_light_battery_1
+ # FLTE code del YUG_ship_light_battery_2
+ # FLTE code del YUG_ship_secondaries_1
+ # FLTE code del YUG_ship_torpedo_1
+ # FLTE code del YUG_ship_torpedo_2
+ # FLTE code del YUG_ship_torpedo_3
+ # FLTE code del YUG_ship_torpedo_4
+ # FLTE code del YUG_ship_torpedo_sub_1
+ # FLTE code del YUG_ship_torpedo_sub_2
+ # FLTE code del YUG_ship_torpedo_sub_3
+ # FLTE code del YUG_ship_torpedo_sub_4
+ # FLTE code del YUG_ship_anti_air_1
+ # FLTE code del YUG_light_ship_engine_1
+ # FLTE code del YUG_light_ship_engine_2
+ # FLTE code del YUG_light_ship_engine_3
+ # FLTE code del YUG_light_ship_engine_4
+ # FLTE code del YUG_sub_ship_engine_1
+ # FLTE code del YUG_ship_armor_cruiser_1
+ # FLTE code del ship_light_battery_sub
+ # FLTE code del ship_light_battery_sub_desc
+ # FLTE code del EQ_MOD_CAT_ship_light_battery_sub_TITLE
+ # FLTE code del cruiser_submarine_specialization
+ # FLTE code del cruiser_submarine_specialization_desc
+ # FLTE code del midget_submarine_specialization
+ # FLTE code del midget_submarine_specialization_desc

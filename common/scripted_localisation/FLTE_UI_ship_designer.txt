@@ -1,0 +1,10 @@
+# defined_text = {
+# 	name = FLTE_DLOC_UI_ship_designer_title
+# 	text = {
+# 		trigger = {  }
+# 		localization_key = "GFX_FLTE_welcome_menu_main_button_clicked"
+# 	}
+#     text = {
+# 		localization_key = "GFX_FLTE_welcome_menu_main_button_normal"
+# 	}
+# }

@@ -1,0 +1,8 @@
+# FLTE_AI_PLAN_research_industry = {
+#     allowed = {
+#         has_game_rule = {
+#             rule = RULE_ID_FLTE_ALLOW_MOD_AI
+#             option = RULE_FLTE_ALLOW_MOD_AI_OPTION_TRUE
+#         }
+#     }
+# }

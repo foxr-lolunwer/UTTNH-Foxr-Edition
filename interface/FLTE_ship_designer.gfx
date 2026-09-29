@@ -1,0 +1,44 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_FLTE_ship_designer_popup_bg"
+		textureFile = "gfx/interface/FLTE_gui/ship_designer/FLTE_ship_designer_bg.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	spriteType = {
+		name = "GFX_FLTE_ship_designer_module_slot_button"
+		textureFile = "gfx/interface/FLTE_gui/ship_designer/FLTE_ship_designer_module_slot_button.dds"
+	}
+	spriteType = {
+		name = "GFX_FLTE_ship_designer_view_bg"
+		textureFile = "gfx/interface/FLTE_gui/ship_designer/FLTE_ship_designer_view_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_FLTE_ship_designer_refer_window_bg"
+		textureFile = "gfx/interface/FLTE_gui/ship_designer/FLTE_ship_designer_refer_window_bg.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	spriteType = {
+		name = "GFX_FLTE_ship_designer_refer_selector_bg"
+		textureFile = "gfx/interface/FLTE_gui/ship_designer/FLTE_ship_designer_refer_selector_bg.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	spriteType = {
+		name = "GFX_FLTE_ship_designer_refer_selector_check_box"
+		textureFile = "gfx/interface/FLTE_gui/ship_designer/FLTE_ship_designer_refer_selector_check_box.dds"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_FLTE_ship_designer_close_button_32x32"
+		textureFile = "gfx/interface/FLTE_gui/ship_designer/FLTE_ship_designer_close_button_32x32.dds"
+	}
+	spriteType = {
+		name = "GFX_FLTE_ship_designer_close_button_26x26"
+		textureFile = "gfx/interface/FLTE_gui/ship_designer/FLTE_ship_designer_close_button_26x26.dds"
+	}
+	spriteType = {
+		name = "GFX_FLTE_ship_designer_module_selector_bg"
+		textureFile = "gfx/interface/FLTE_gui/ship_designer/FLTE_ship_designer_module_selector_bg.dds"
+		allwaystransparent = yes
+	}
+}

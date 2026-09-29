@@ -1,0 +1,12 @@
+FLTE_TRIGGER_peace_goverment = {
+    OR = {
+        has_government = democratic
+        has_government = neutrality
+    }
+}
+FLTE_TRIGGER_war_goverment = {
+    OR = {
+        has_government = communism
+        has_government = fascism
+    }
+}

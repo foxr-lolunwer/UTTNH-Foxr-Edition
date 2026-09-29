@@ -1,0 +1,337 @@
+spriteTypes = {
+  # ship icon
+	spriteType = { name = "GFX_unit_battle_cruiser_2_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battlecruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_3_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battlecruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_4_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battlecruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_5_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battlecruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_6_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battlecruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_7_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battlecruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_8_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battlecruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_9_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battlecruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_10_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battlecruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_11_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battlecruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_12_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battlecruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_13_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battlecruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_14_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battlecruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battle_cruiser_15_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battlecruiser.dds" noOfFrames = 2 }
+
+	spriteType = { name = "GFX_unit_battleship_1_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_2_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_3_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_4_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_5_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_6_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_7_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_8_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_9_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_10_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_11_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_12_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_13_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_14_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_battleship_15_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_battleship.dds" noOfFrames = 2 }
+
+	spriteType = { name = "GFX_unit_heavy_cruiser_1_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_armored_cruiser.dds" noOfFrames = 2 }
+	# spriteType = { name = "GFX_unit_heavy_cruiser_2_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_panzerschiff.dds" noOfFrames = 2 }(装甲舰不使用重巡图标)
+	spriteType = { name = "GFX_unit_heavy_cruiser_3_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_armored_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_4_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_armored_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_5_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_armored_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_6_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_armored_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_7_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_armored_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_8_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_armored_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_9_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_armored_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_10_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_armored_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_11_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_armored_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_12_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_armored_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_13_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_armored_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_14_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_armored_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_heavy_cruiser_15_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_armored_cruiser.dds" noOfFrames = 2 }
+
+	spriteType = { name = "GFX_unit_medium_cruiser_1_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_medium_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_medium_cruiser_3_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_medium_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_medium_cruiser_4_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_medium_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_medium_cruiser_5_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_medium_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_medium_cruiser_6_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_medium_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_medium_cruiser_7_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_medium_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_medium_cruiser_8_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_medium_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_medium_cruiser_9_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_medium_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_medium_cruiser_10_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_medium_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_medium_cruiser_11_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_medium_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_medium_cruiser_12_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_medium_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_medium_cruiser_13_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_medium_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_medium_cruiser_14_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_medium_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_medium_cruiser_15_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_medium_cruiser.dds" noOfFrames = 2 }
+
+	spriteType = { name = "GFX_unit_light_cruiser_1_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_light_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_3_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_light_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_4_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_light_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_5_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_light_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_6_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_light_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_7_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_light_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_8_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_light_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_9_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_light_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_10_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_light_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_11_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_light_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_12_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_light_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_13_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_light_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_14_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_light_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_light_cruiser_15_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_light_cruiser.dds" noOfFrames = 2 }
+
+	spriteType = { name = "GFX_unit_carrier_1_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_carrier_2_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_carrier_3_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_carrier_4_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_carrier_5_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_carrier_6_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_carrier_7_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_carrier_8_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_carrier_9_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_carrier_10_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_carrier_11_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_carrier_12_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_carrier_13_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_carrier_14_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_carrier_15_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_carrier.dds" noOfFrames = 2 }
+
+	spriteType = { name = "GFX_unit_destroyer_1_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_destroyer_2_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_destroyer_3_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_destroyer_4_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_destroyer_5_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_destroyer_6_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_destroyer_7_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_destroyer_8_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_destroyer_9_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_destroyer_10_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_destroyer_11_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_destroyer_12_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_destroyer_13_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_destroyer_14_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_destroyer_15_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+
+	spriteType = { name = "GFX_unit_VUCE_frigate_1_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_2_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_3_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_4_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_5_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_6_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_7_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_8_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_9_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_10_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_11_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_12_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_13_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_14_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_15_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+
+	spriteType = { name = "GFX_unit_submarine_1_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_submarine_2_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_submarine_3_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_submarine_4_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_submarine_5_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_submarine_6_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_submarine_7_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_submarine_8_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_submarine_9_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_submarine_10_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_submarine_11_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_submarine_12_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_submarine_13_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_submarine_14_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_submarine_15_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+
+	spriteType = { name = "GFX_navalcombat_ship_icon_VUCE_lha" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_lha.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_lha_1_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_lha.dds" noOfFrames = 2 }
+
+	# TODO: 制作VUCE_missile_submarine.dds
+	spriteType = { name = "GFX_navalcombat_ship_icon_VUCE_missile_submarine" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_1_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_2_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_3_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_4_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_5_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_6_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_7_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_8_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_9_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_10_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_11_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_12_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_13_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_14_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_15_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_submarine.dds" noOfFrames = 2 }
+
+	spriteType = { name = "GFX_navalcombat_ship_icon_VUCE_guided_missile_frigate" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_1_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_2_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_3_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_4_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_5_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_6_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_7_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_8_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_9_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_10_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_11_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_12_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_13_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_14_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_15_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_frigate.dds" noOfFrames = 2 }
+
+	spriteType = { name = "GFX_navalcombat_ship_icon_VUCE_guided_missile_destroyer" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_1_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_2_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_3_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_4_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_5_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_6_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_7_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_8_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_9_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_10_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_11_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_12_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_13_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_14_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_15_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_destroyer.dds" noOfFrames = 2 }
+
+	spriteType = { name = "GFX_navalcombat_ship_icon_VUCE_guided_missile_cruiser" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_1_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_2_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_3_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_4_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_5_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_6_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_7_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_8_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_9_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_10_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_11_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_12_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_13_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_14_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_cruiser.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_15_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_cruiser.dds" noOfFrames = 2 }
+
+	spriteType = { name = "GFX_navalcombat_ship_icon_VUCE_guided_missile_battleship" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_1_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_2_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_3_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_4_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_5_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_6_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_7_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_8_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_9_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_10_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_11_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_12_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_13_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_14_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_battleship.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_15_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_guided_missile_battleship.dds" noOfFrames = 2 }
+
+	spriteType = { name = "GFX_navalcombat_ship_icon_VUCE_coldwar_carrier" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_coldwar_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_coldwar_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_1_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_coldwar_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_2_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_coldwar_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_3_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_coldwar_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_4_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_coldwar_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_5_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_coldwar_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_6_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_coldwar_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_7_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_coldwar_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_8_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_coldwar_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_9_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_coldwar_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_10_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_coldwar_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_11_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_coldwar_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_12_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_coldwar_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_13_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_coldwar_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_14_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_coldwar_carrier.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_15_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_coldwar_carrier.dds" noOfFrames = 2 }
+
+	spriteType = { name = "GFX_navalcombat_ship_icon_VUCE_destroyer" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_1_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_2_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_3_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_4_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_5_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_6_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_7_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_8_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_9_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_10_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_11_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_12_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_13_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_14_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_15_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_destroyer.dds" noOfFrames = 2 }
+
+	spriteType = { name = "GFX_navalcombat_ship_icon_VUCE_frigate" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_1_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_2_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_3_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_4_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_5_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_6_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_7_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_8_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_9_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_10_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_11_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_12_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_13_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_14_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_VUCE_frigate_15_icon_medium" texturefile = "gfx/interface/FLTE/unit/ship/FLTE_frigate.dds" noOfFrames = 2 }
+
+  # on map
+	# dds文件的wb指的是背景色，因为SCW使用文字作为舰船/舰队图标，习惯上与HOI4不同
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_icon_medium_white" 			texturefile = "gfx/interface/FLTE/unit/ship/on_map/CVb.dds" }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_light_carrier_icon_medium_white" 		texturefile = "gfx/interface/FLTE/unit/ship/on_map/CVLb.dds" }
+	spriteType = { name = "GFX_unit_VUCE_lha_icon_medium_white" 						texturefile = "gfx/interface/FLTE/unit/ship/on_map/LHAb.dds" }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_icon_medium_white" 	texturefile = "gfx/interface/FLTE/unit/ship/on_map/BBGb.dds" }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_icon_medium_white" 		texturefile = "gfx/interface/FLTE/unit/ship/on_map/CGb.dds" }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_icon_medium_white" 	texturefile = "gfx/interface/FLTE/unit/ship/on_map/DDGb.dds" }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_icon_medium_white" 		texturefile = "gfx/interface/FLTE/unit/ship/on_map/FFGb.dds" }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_icon_medium_white" 			texturefile = "gfx/interface/FLTE/unit/ship/on_map/SSGb.dds" }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_icon_medium_white" 					texturefile = "gfx/interface/FLTE/unit/ship/on_map/DDb.dds" }
+	spriteType = { name = "GFX_unit_VUCE_frigate_icon_medium_white" 					texturefile = "gfx/interface/FLTE/unit/ship/on_map/FFb.dds" }
+
+	spriteType = { name = "GFX_unit_VUCE_coldwar_carrier_icon_medium_black" 			texturefile = "gfx/interface/FLTE/unit/ship/on_map/CVw.dds" }
+	spriteType = { name = "GFX_unit_VUCE_coldwar_light_carrier_icon_medium_black"		texturefile = "gfx/interface/FLTE/unit/ship/on_map/CVLw.dds" }
+	spriteType = { name = "GFX_unit_VUCE_lha_icon_medium_black" 						texturefile = "gfx/interface/FLTE/unit/ship/on_map/LHAw.dds" }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_battleship_icon_medium_black" 	texturefile = "gfx/interface/FLTE/unit/ship/on_map/BBGw.dds" }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_cruiser_icon_medium_black" 		texturefile = "gfx/interface/FLTE/unit/ship/on_map/CGw.dds" }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_destroyer_icon_medium_black" 	texturefile = "gfx/interface/FLTE/unit/ship/on_map/DDGw.dds" }
+	spriteType = { name = "GFX_unit_VUCE_guided_missile_frigate_icon_medium_black" 		texturefile = "gfx/interface/FLTE/unit/ship/on_map/FFGw.dds" }
+	spriteType = { name = "GFX_unit_VUCE_missile_submarine_icon_medium_black" 			texturefile = "gfx/interface/FLTE/unit/ship/on_map/SSGw.dds" }
+	spriteType = { name = "GFX_unit_VUCE_destroyer_icon_medium_black" 					texturefile = "gfx/interface/FLTE/unit/ship/on_map/DDw.dds" }
+	spriteType = { name = "GFX_unit_VUCE_frigate_icon_medium_black" 					texturefile = "gfx/interface/FLTE/unit/ship/on_map/FFw.dds" }
+  # texticon
+	spriteType = { name = "unit_VUCE_coldwar_carrier_icon_small" 				textureFile = "gfx/interface/FLTE/unit/ship/on_map/CVw.dds"		legacy_lazy_load = no }
+  	spriteType = { name = "unit_VUCE_coldwar_light_carrier_icon_small" 			textureFile = "gfx/interface/FLTE/unit/ship/on_map/CVLw.dds"	legacy_lazy_load = no }
+ 	spriteType = { name = "unit_VUCE_lha_icon_small" 							textureFile = "gfx/interface/FLTE/unit/ship/on_map/LHAw.dds"	legacy_lazy_load = no }
+  	spriteType = { name = "unit_VUCE_guided_missile_battleship_icon_small" 		textureFile = "gfx/interface/FLTE/unit/ship/on_map/BBGw.dds"	legacy_lazy_load = no }
+  	spriteType = { name = "unit_VUCE_guided_missile_cruiser_icon_small" 		textureFile = "gfx/interface/FLTE/unit/ship/on_map/CGw.dds"		legacy_lazy_load = no }
+	spriteType = { name = "unit_VUCE_guided_missile_destroyer_icon_small" 		textureFile = "gfx/interface/FLTE/unit/ship/on_map/DDGw.dds"	legacy_lazy_load = no }
+	spriteType = { name = "unit_VUCE_guided_missile_frigate_icon_small" 		textureFile = "gfx/interface/FLTE/unit/ship/on_map/FFGw.dds"	legacy_lazy_load = no }
+	spriteType = { name = "unit_VUCE_missile_submarine_icon_small" 				textureFile = "gfx/interface/FLTE/unit/ship/on_map/SSGw.dds"	legacy_lazy_load = no }
+	spriteType = { name = "unit_VUCE_destroyer_icon_small" 						textureFile = "gfx/interface/FLTE/unit/ship/on_map/DDw.dds"		legacy_lazy_load = no }
+	spriteType = { name = "unit_VUCE_frigate_icon_small" 						textureFile = "gfx/interface/FLTE/unit/ship/on_map/FFw.dds"		legacy_lazy_load = no }
+
+ 	spriteType = { name = "GFX_ship_VUCE_coldwar_carrier_icon_small" 				textureFile = "gfx/interface/FLTE/unit/ship/on_map/CVw.dds"		legacy_lazy_load = no }
+  	spriteType = { name = "GFX_ship_VUCE_coldwar_light_carrier_icon_small" 			textureFile = "gfx/interface/FLTE/unit/ship/on_map/CVLw.dds"	legacy_lazy_load = no }
+ 	spriteType = { name = "GFX_ship_VUCE_lha_icon_small" 							textureFile = "gfx/interface/FLTE/unit/ship/on_map/LHAw.dds"	legacy_lazy_load = no }
+  	spriteType = { name = "GFX_ship_VUCE_guided_missile_battleship_icon_small" 		textureFile = "gfx/interface/FLTE/unit/ship/on_map/BBGw.dds"	legacy_lazy_load = no }
+  	spriteType = { name = "GFX_ship_VUCE_guided_missile_cruiser_icon_small" 		textureFile = "gfx/interface/FLTE/unit/ship/on_map/CGw.dds"		legacy_lazy_load = no }
+	spriteType = { name = "GFX_ship_VUCE_guided_missile_destroyer_icon_small" 		textureFile = "gfx/interface/FLTE/unit/ship/on_map/DDGw.dds"	legacy_lazy_load = no }
+	spriteType = { name = "GFX_ship_VUCE_guided_missile_frigate_icon_small" 		textureFile = "gfx/interface/FLTE/unit/ship/on_map/FFGw.dds"	legacy_lazy_load = no }
+	spriteType = { name = "GFX_ship_VUCE_missile_submarine_icon_small" 				textureFile = "gfx/interface/FLTE/unit/ship/on_map/SSGw.dds"	legacy_lazy_load = no }
+	spriteType = { name = "GFX_ship_VUCE_destroyer_icon_small" 						textureFile = "gfx/interface/FLTE/unit/ship/on_map/DDw.dds"		legacy_lazy_load = no }
+	spriteType = { name = "GFX_ship_VUCE_frigate_icon_small" 						textureFile = "gfx/interface/FLTE/unit/ship/on_map/FFw.dds"		legacy_lazy_load = no }
+}

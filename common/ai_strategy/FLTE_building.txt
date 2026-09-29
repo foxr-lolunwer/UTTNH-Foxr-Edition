@@ -1,0 +1,254 @@
+FLTE_AI_build_land_facility = {
+    enable = {
+        land_facility < 1
+        OR = {
+			has_tech = FLTE_tech_tier_vehc_2
+			has_tech = FLTE_tech_tier_ordn_2
+		}
+        num_of_civilian_factories > 20 # 保证有充足的民工用来建设
+		num_of_military_factories > 10 # 没有军工建造这个没有意义
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = build_building
+        id = land_facility
+        value = 100
+    }
+}
+FLTE_AI_build_naval_facility = {
+    enable = {
+        naval_facility < 1
+        OR = {
+			has_tech = FLTE_tech_tier_naval_2
+		}
+        num_of_civilian_factories > 20 # 保证有充足的民工用来建设
+        dockyard > 5 # 没有船坞建造这个没有意义
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = build_building
+        id = naval_facility
+        value = 100
+    }
+}
+FLTE_AI_build_air_facility = {
+    enable = {
+        air_facility < 1
+        OR = {
+			has_tech = FLTE_tech_tier_air_2
+		}
+        num_of_civilian_factories > 20 # 保证有充足的民工用来建设
+		num_of_military_factories > 10 # 没有军工建造这个没有意义
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = build_building
+        id = air_facility
+        value = 100
+    }
+}
+FLTE_AI_build_civilian_facility = {
+    enable = {
+        civilian_facility < 1
+        num_of_civilian_factories > 5 # 能否建造建筑和该建筑有关，因此不能严格限制民工数量
+        NOT = {
+			any_controlled_state = {
+				civilian_facility > 0
+			}
+		}
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = build_building
+        id = civilian_facility
+        value = 1000 # 对AI发展至关重要，尤其是不能建造建筑的
+    }
+}
+FLTE_AI_build_engineering_facility = {
+    enable = {
+        engineering_facility < 2 # 需求很大，因此需要建两个
+        num_of_civilian_factories > 20 # 保证有充足的民工用来建设
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = build_building
+        id = engineering_facility
+        value = 100
+    }
+}
+FLTE_AI_build_nuclear_facility = {
+    enable = {
+        nuclear_facility > 1
+        num_of_civilian_factories > 40 # 国家需要有更强的工业才会考虑建造
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = build_building
+        id = nuclear_facility
+        value = 100
+    }
+}
+
+FLTE_AI_build_resource_expansion_steel = {
+    enable = {
+        has_tech = resource_expansion_steel_1
+        num_of_civilian_factories > 30 # 国家需要有一定的工业才会考虑建造
+        has_resources_in_country = {
+            resource = steel
+            amount < -20 # 低于-20代表该国家也买不到资源了（如果后面买到了，此策略会失效）。
+        }
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = build_building
+        id = resource_expansion_steel
+        value = 20
+    }
+}
+FLTE_AI_build_resource_expansion_aluminium = {
+    enable = {
+        has_tech = resource_expansion_aluminium_1
+        num_of_civilian_factories > 30 # 国家需要有一定的工业才会考虑建造
+        has_resources_in_country = {
+            resource = aluminium
+            amount < -20 # 低于-20代表该国家也买不到资源了（如果后面买到了，此策略会失效）。
+        }
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = build_building
+        id = resource_expansion_aluminium
+        value = 20
+    }
+}
+FLTE_AI_build_resource_expansion_tungsten = {
+    enable = {
+        has_tech = resource_expansion_tungsten_1
+        num_of_civilian_factories > 30 # 国家需要有一定的工业才会考虑建造
+        has_resources_in_country = {
+            resource = tungsten
+            amount < -20 # 低于-20代表该国家也买不到资源了（如果后面买到了，此策略会失效）。
+        }
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = build_building
+        id = resource_expansion_tungsten
+        value = 20
+    }
+}
+FLTE_AI_build_resource_expansion_chromium = {
+    enable = {
+        has_tech = resource_expansion_chromium_1
+        num_of_civilian_factories > 30 # 国家需要有一定的工业才会考虑建造
+        has_resources_in_country = {
+            resource = chromium
+            amount < -20 # 低于-20代表该国家也买不到资源了（如果后面买到了，此策略会失效）。
+        }
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = build_building
+        id = resource_expansion_chromium
+        value = 20
+    }
+}
+FLTE_AI_build_resource_expansion_rubber = {
+    enable = {
+        has_tech = resource_expansion_rubber_1
+        num_of_civilian_factories > 30 # 国家需要有一定的工业才会考虑建造
+        has_resources_in_country = {
+            resource = rubber
+            amount < -20 # 低于-20代表该国家也买不到资源了（如果后面买到了，此策略会失效）。
+        }
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = build_building
+        id = resource_expansion_rubber
+        value = 20
+    }
+}
+FLTE_AI_build_resource_expansion_coal = {
+    enable = {
+        has_tech = resource_expansion_coal_1
+        num_of_civilian_factories > 30 # 国家需要有一定的工业才会考虑建造
+        has_resources_in_country = {
+            resource = coal
+            amount < -20 # 低于-20代表该国家也买不到资源了（如果后面买到了，此策略会失效）。
+        }
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = build_building
+        id = resource_expansion_coal
+        value = 20
+    }
+}
+FLTE_AI_build_synthetic_refinery = {
+    enable = {
+        has_tech = synth_oil_1
+        num_of_civilian_factories > 30 # 国家需要有一定的工业才会考虑建造
+        fuel_ratio < 0.2 # 缺油状态
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = build_building
+        id = synthetic_refinery
+        value = 10 # 合成炼油厂杯水车薪
+    }
+}
+
+FLTE_AI_build_infrastructure_base = { # 基础倾向
+    enable = {
+        has_tech = capacity_industrial_construction
+        num_of_civilian_factories > 20 # 保证有充足的民工用来建设
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = build_building
+        id = infrastructure
+        value = 1
+    }
+}
+FLTE_AI_build_infrastructure_peace = { # 和平倾向
+    enable = {
+        has_tech = capacity_industrial_construction
+        num_of_civilian_factories > 30 # 国家需要有一定的工业才会考虑建造
+        has_war = no
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = build_building
+        id = infrastructure
+        value = 5
+    }
+}
+FLTE_AI_build_infrastructure_war = { # 战时倾向
+    enable = {
+        has_tech = capacity_industrial_construction
+        num_of_civilian_factories > 100 # 除非很富，不然不会建造
+        has_war = yes
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = build_building
+        id = infrastructure
+        value = 3
+    }
+}
+FLTE_AI_build_industrial_expansion = { # 没有区分和平和战时倾向，因为战时也需要持续拓展建筑槽
+    enable = {
+        has_tech = capacity_industrial_construction
+        OR = {
+            num_of_civilian_factories > 20 # 保证有充足的民工用来建设
+            num_of_controlled_states < 5 # 如果是微型国家，显然不能只判断民工数量
+        }
+    }
+    abort_when_not_enabled = yes
+    ai_strategy = {
+        type = build_building
+        id = industrial_expansion
+        value = 5
+    }
+}

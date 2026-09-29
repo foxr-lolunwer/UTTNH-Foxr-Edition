@@ -1,0 +1,23 @@
+equipment_modules = {
+    ship_dd_battery_1_m1_l1 = {
+        category = ship_dd_battery_1
+        add_stats = {
+            lg_attack = 0.4
+            build_cost_ic = 20
+        }
+        multiply_stats = {
+            reliability = -0.05
+        }
+        can_convert_from = {
+            module_category = ship_dd_battery_1
+            convert_cost_ic = 16
+        }
+        critical_parts = { damaged_light_main_guns }
+    }
+    ship_dd_battery_1_m1_l2...
+    ship_dd_battery_1_m1_l3...
+
+    ship_dd_battery_1_m2_l1...
+    ship_dd_battery_1_m2_l2...
+    ship_dd_battery_1_m2_l3...
+}

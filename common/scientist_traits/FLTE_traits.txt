@@ -1,0 +1,13 @@
+# SCIENTIST TRAIT WILL ONLY APPLY TO SPECIAL PROJECTS. THEREFORE ONLY MODIFIERS APPLICABLE TO THOSE SHOULD BE USED.
+# 国家范围为 FROM、ROOT 和 PREV CWTOOL不能识别ROOT，使用FROM
+FLTE_pr_scientist_exp_trait = {
+	icon = GFX_scientist_trait_genius
+	modifier = {
+		special_project_speed_factor = 0.2
+	}
+	available = {
+		FROM = {
+			has_tech = research_bonus_4
+		}
+	}
+}

@@ -1,0 +1,1693 @@
+technologies = {
+	@machine_tools_branch = 2
+	@flexible_line_branch = 0
+	@streamlined_line_branch = 4
+	
+	@equipment_production_main_branch = 6
+	@production_firearms_artillery_branch = 8
+	@production_support_equipment_branch = 10
+	@production_car_branch = 12
+	@production_armor_branch = 14
+	@production_plane_branch = 16
+	@production_small_ship_branch = 18
+	@production_large_ship_branch = 20
+	@production_missile_branch = 22
+
+	@Tier1_1 = 0   @Tier1_2 = 2   @Tier1_mid = 1
+    @Tier2_1 = 4   @Tier2_2 = 6   @Tier2_mid = 5
+    @Tier3_1 = 8   @Tier3_2 = 10  @Tier3_mid = 9
+    @Tier4_1 = 12  @Tier4_2 = 14  @Tier4_mid = 13
+    @Tier5_1 = 16  @Tier5_2 = 18  @Tier5_mid = 17
+    @Tier6_1 = 20  @Tier6_2 = 22  @Tier6_mid = 21
+    @Tier7_1 = 24  @Tier7_2 = 26  @Tier7_mid = 25
+
+	improved_machine_tools_1 = {
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_max_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.1
+		path = { leads_to_tech = improved_machine_tools_2 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_prod_1 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = basic_machine_tools } }
+					set_technology = { basic_machine_tools = 1 popup = no }
+				}
+			}
+		}
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_1
+			FLTE_TC_tier_prod_1
+		}
+		ai_will_do = { factor = 1 }
+	}
+	improved_machine_tools_2 = {
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_max_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.1
+		path = { leads_to_tech = improved_machine_tools_3 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier1_2 } }
+		dependencies = { FLTE_tech_tier_prod_1 = 1 }
+		on_research_complete = { 
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = improved_machine_tools } }
+					set_technology = { improved_machine_tools = 1 popup = no }
+				}
+			}
+		}
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_1
+			FLTE_TC_tier_prod_1
+		}
+		ai_will_do = { factor = 1 }
+	}
+	improved_machine_tools_3 = {
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_max_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.1
+		path = { leads_to_tech = improved_machine_tools_4 research_cost_coeff = 1 }
+		path = { leads_to_tech = flexible_line_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = streamlined_line_1 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_prod_2 = 1 }
+		on_research_complete = { 
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = advanced_machine_tools } }
+					set_technology = { advanced_machine_tools = 1 popup = no }
+				}
+			}
+		}
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_2
+			FLTE_TC_tier_prod_2
+		}
+		ai_will_do = { factor = 1 }
+	}
+	improved_machine_tools_4 = {
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_max_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.1
+		path = { leads_to_tech = improved_machine_tools_5 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier2_2 } }
+		dependencies = { FLTE_tech_tier_prod_2 = 1 }
+		on_research_complete = { 
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = assembly_line_production } }
+					set_technology = { assembly_line_production = 1 popup = no }
+				}
+			}
+		}
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_2
+			FLTE_TC_tier_prod_2
+		}
+		ai_will_do = { factor = 1 }
+	}
+	improved_machine_tools_5 = {
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_max_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.1
+		path = { leads_to_tech = improved_machine_tools_6 research_cost_coeff = 1 }
+		path = { leads_to_tech = flexible_line_2 research_cost_coeff = 1 }
+		path = { leads_to_tech = streamlined_line_2 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier3_1 } }
+        dependencies = { FLTE_tech_tier_prod_3 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_3
+			FLTE_TC_tier_prod_3
+		}
+		ai_will_do = { factor = 1 }
+	}
+	improved_machine_tools_6 = {
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_max_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.1
+		path = { leads_to_tech = improved_machine_tools_7 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier3_2 } }
+		dependencies = { FLTE_tech_tier_prod_3 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_3
+			FLTE_TC_tier_prod_3
+		}
+		ai_will_do = { factor = 1 }
+	}
+	improved_machine_tools_7 = {
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_max_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.1
+		path = { leads_to_tech = improved_machine_tools_8 research_cost_coeff = 1 }
+		path = { leads_to_tech = flexible_line_3 research_cost_coeff = 1 }
+		path = { leads_to_tech = streamlined_line_3 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_prod_4 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_4
+			FLTE_TC_tier_prod_4
+		}
+		ai_will_do = { factor = 1 }
+	}
+	improved_machine_tools_8 = {
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_max_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.1
+		path = { leads_to_tech = improved_machine_tools_9 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier4_2 } }
+		dependencies = { FLTE_tech_tier_prod_4 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_4
+			FLTE_TC_tier_prod_4
+		}
+		ai_will_do = { factor = 1 }
+	}
+	improved_machine_tools_9 = {
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_max_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.1
+		path = { leads_to_tech = improved_machine_tools_10 research_cost_coeff = 1 }
+		path = { leads_to_tech = flexible_line_4 research_cost_coeff = 1 }
+		path = { leads_to_tech = streamlined_line_4 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_prod_5 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_5
+			FLTE_TC_tier_prod_5
+		}
+		ai_will_do = { factor = 1 }
+	}
+	improved_machine_tools_10 = {
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_max_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.1
+		path = { leads_to_tech = improved_machine_tools_11 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_prod_5 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_5
+			FLTE_TC_tier_prod_5
+		}
+		ai_will_do = { factor = 1 }
+	}
+	improved_machine_tools_11 = {
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_max_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.1
+		path = { leads_to_tech = improved_machine_tools_12 research_cost_coeff = 1 }
+		path = { leads_to_tech = flexible_line_5 research_cost_coeff = 1 }
+		path = { leads_to_tech = streamlined_line_5 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier6_1 } }
+		dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_6
+			FLTE_TC_tier_prod_6
+		}
+		ai_will_do = { factor = 1 }
+	}
+	improved_machine_tools_12 = {
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_max_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.1
+		path = { leads_to_tech = improved_machine_tools_13 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_6
+			FLTE_TC_tier_prod_6
+		}
+		ai_will_do = { factor = 1 }
+	}
+	improved_machine_tools_13 = {
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_max_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.1
+		path = { leads_to_tech = improved_machine_tools_14 research_cost_coeff = 1 }
+		path = { leads_to_tech = flexible_line_6 research_cost_coeff = 1 }
+		path = { leads_to_tech = streamlined_line_6 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier7_1 } }
+		dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_7
+			FLTE_TC_tier_prod_7
+		}
+		ai_will_do = { factor = 1 }
+	}
+	improved_machine_tools_14 = {
+		production_factory_start_efficiency_factor = 0.03
+		production_factory_max_efficiency_factor = 0.1
+		equipment_conversion_speed = 0.1
+		research_cost = 2
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @machine_tools_branch y = @Tier7_2 } }
+		dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_7
+			FLTE_TC_tier_prod_7
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	flexible_line_1 = {
+		line_change_production_efficiency_factor = 0.15
+		XOR = { streamlined_line_1 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @flexible_line_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_prod_2 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = flexible_line } }
+					set_technology = { flexible_line = 1 popup = no }
+				}
+			}
+		}
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_2
+			FLTE_TC_tier_prod_2
+		}
+		ai_will_do = { factor = 1 }
+	}
+	flexible_line_2 = {
+		line_change_production_efficiency_factor = 0.15
+		XOR = { streamlined_line_2 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @flexible_line_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_prod_3 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_3
+			FLTE_TC_tier_prod_3
+		}
+		ai_will_do = { factor = 1 }
+	}
+	flexible_line_3 = {
+		line_change_production_efficiency_factor = 0.15
+		XOR = { streamlined_line_3 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @flexible_line_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_prod_4 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_4
+			FLTE_TC_tier_prod_4
+		}
+		ai_will_do = { factor = 1 }
+	}
+	flexible_line_4 = {
+		line_change_production_efficiency_factor = 0.15
+		XOR = { streamlined_line_4 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @flexible_line_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_prod_5 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_5
+			FLTE_TC_tier_prod_5
+		}
+		ai_will_do = { factor = 1 }
+	}
+	flexible_line_5 = {
+		line_change_production_efficiency_factor = 0.15
+		XOR = { streamlined_line_4 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @flexible_line_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_6
+			FLTE_TC_tier_prod_6
+		}
+		ai_will_do = { factor = 1 }
+	}
+	flexible_line_6 = {
+		line_change_production_efficiency_factor = 0.15
+		XOR = { streamlined_line_4 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @flexible_line_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_7
+			FLTE_TC_tier_prod_7
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	streamlined_line_1 = {
+		production_factory_efficiency_gain_factor = 0.1
+		XOR = { flexible_line_1 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @streamlined_line_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_prod_2 = 1 }
+		on_research_complete = {
+			hidden_effect = {
+				if = { limit = { NOT = { has_tech = streamlined_line } }
+					set_technology = { streamlined_line = 1 popup = no }
+				}
+			}
+		}
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_2
+			FLTE_TC_tier_prod_2
+		}
+		ai_will_do = { factor = 1 }
+	}
+	streamlined_line_2 = {
+		production_factory_efficiency_gain_factor = 0.1
+		XOR = { flexible_line_2 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @streamlined_line_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_prod_3 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_3
+			FLTE_TC_tier_prod_3
+		}
+		ai_will_do = { factor = 1 }
+	}
+	streamlined_line_3 = {
+		production_factory_efficiency_gain_factor = 0.1
+		XOR = { flexible_line_3 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @streamlined_line_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_prod_4 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_4
+			FLTE_TC_tier_prod_4
+		}
+		ai_will_do = { factor = 1 }
+	}
+	streamlined_line_4 = {
+		production_factory_efficiency_gain_factor = 0.1
+		XOR = { flexible_line_4 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @streamlined_line_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_prod_5 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_5
+			FLTE_TC_tier_prod_5
+		}
+		ai_will_do = { factor = 1 }
+	}
+	streamlined_line_5 = {
+		production_factory_efficiency_gain_factor = 0.1
+		XOR = { flexible_line_4 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @streamlined_line_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_6
+			FLTE_TC_tier_prod_6
+		}
+		ai_will_do = { factor = 1 }
+	}
+	streamlined_line_6 = {
+		production_factory_efficiency_gain_factor = 0.1
+		XOR = { flexible_line_4 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @streamlined_line_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_7
+			FLTE_TC_tier_prod_7
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	equipment_production_1 = {
+		industrial_capacity_factory = 0.03
+		industrial_capacity_dockyard = 0.06
+		path = { leads_to_tech = equipment_production_2 research_cost_coeff = 1 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier1_1 } }
+        dependencies = { FLTE_tech_tier_prod_1 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_1
+			FLTE_TC_tier_prod_1
+		}
+		ai_will_do = { factor = 1 }
+	}
+	equipment_production_2 = {
+		production_factory_efficiency_gain_factor = 0.03
+		path = { leads_to_tech = equipment_production_3 research_cost_coeff = 1 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier1_2 } }
+		dependencies = { FLTE_tech_tier_prod_1 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_1
+			FLTE_TC_tier_prod_1
+		}
+		ai_will_do = { factor = 1 }
+	}
+	equipment_production_3 = {
+		industrial_capacity_factory = 0.03
+		industrial_capacity_dockyard = 0.06
+		path = { leads_to_tech = equipment_production_4 research_cost_coeff = 1 }
+		path = { leads_to_tech = firearms_artillery_production_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = support_equipment_production_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = car_production_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = armor_production_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = small_ship_production_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = large_ship_production_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = plane_production_1 research_cost_coeff = 1 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier2_1 } }
+        dependencies = { FLTE_tech_tier_prod_2 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_2
+			FLTE_TC_tier_prod_2
+		}
+		ai_will_do = { factor = 1 }
+	}
+	equipment_production_4 = {
+		production_factory_efficiency_gain_factor = 0.03
+		path = { leads_to_tech = equipment_production_5 research_cost_coeff = 1 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier2_2 } }
+		dependencies = { FLTE_tech_tier_prod_2 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_2
+			FLTE_TC_tier_prod_2
+		}
+		ai_will_do = { factor = 1 }
+	}
+	equipment_production_5 = {
+		industrial_capacity_factory = 0.03
+		industrial_capacity_dockyard = 0.06
+		path = { leads_to_tech = equipment_production_6 research_cost_coeff = 1 }
+		path = { leads_to_tech = firearms_artillery_production_2 research_cost_coeff = 1 }
+		path = { leads_to_tech = support_equipment_production_2 research_cost_coeff = 1 }
+		path = { leads_to_tech = car_production_2 research_cost_coeff = 1 }
+		path = { leads_to_tech = armor_production_2 research_cost_coeff = 1 }
+		path = { leads_to_tech = small_ship_production_2 research_cost_coeff = 1 }
+		path = { leads_to_tech = large_ship_production_2 research_cost_coeff = 1 }
+		path = { leads_to_tech = plane_production_2 research_cost_coeff = 1 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier3_1 } }
+        dependencies = { FLTE_tech_tier_prod_3 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_3
+			FLTE_TC_tier_prod_3
+		}
+		ai_will_do = { factor = 1 }
+	}
+	equipment_production_6 = {
+		production_factory_efficiency_gain_factor = 0.03
+		path = { leads_to_tech = equipment_production_7 research_cost_coeff = 1 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier3_2 } }
+		dependencies = { FLTE_tech_tier_prod_3 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_3
+			FLTE_TC_tier_prod_3
+		}
+		ai_will_do = { factor = 1 }
+	}
+	equipment_production_7 = {
+		industrial_capacity_factory = 0.03
+		industrial_capacity_dockyard = 0.06
+		path = { leads_to_tech = equipment_production_8 research_cost_coeff = 1 }
+		path = { leads_to_tech = firearms_artillery_production_3 research_cost_coeff = 1 }
+		path = { leads_to_tech = support_equipment_production_3 research_cost_coeff = 1 }
+		path = { leads_to_tech = car_production_3 research_cost_coeff = 1 }
+		path = { leads_to_tech = armor_production_3 research_cost_coeff = 1 }
+		path = { leads_to_tech = small_ship_production_3 research_cost_coeff = 1 }
+		path = { leads_to_tech = large_ship_production_3 research_cost_coeff = 1 }
+		path = { leads_to_tech = plane_production_3 research_cost_coeff = 1 }
+		path = { leads_to_tech = missile_production_1 research_cost_coeff = 1 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier4_1 } }
+        dependencies = { FLTE_tech_tier_prod_4 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_4
+			FLTE_TC_tier_prod_4
+		}
+		ai_will_do = { factor = 1 }
+	}
+	equipment_production_8 = {
+		production_factory_efficiency_gain_factor = 0.03
+		path = { leads_to_tech = equipment_production_9 research_cost_coeff = 1 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier4_2 } }
+		dependencies = { FLTE_tech_tier_prod_4 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_4
+			FLTE_TC_tier_prod_4
+		}
+		ai_will_do = { factor = 1 }
+	}
+	equipment_production_9 = {
+		industrial_capacity_factory = 0.03
+		industrial_capacity_dockyard = 0.06
+		path = { leads_to_tech = equipment_production_10 research_cost_coeff = 1 }
+		path = { leads_to_tech = firearms_artillery_production_4 research_cost_coeff = 1 }
+		path = { leads_to_tech = support_equipment_production_4 research_cost_coeff = 1 }
+		path = { leads_to_tech = car_production_4 research_cost_coeff = 1 }
+		path = { leads_to_tech = armor_production_4 research_cost_coeff = 1 }
+		path = { leads_to_tech = small_ship_production_4 research_cost_coeff = 1 }
+		path = { leads_to_tech = large_ship_production_4 research_cost_coeff = 1 }
+		path = { leads_to_tech = plane_production_4 research_cost_coeff = 1 }
+		path = { leads_to_tech = missile_production_2 research_cost_coeff = 1 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier5_1 } }
+        dependencies = { FLTE_tech_tier_prod_5 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_5
+			FLTE_TC_tier_prod_5
+		}
+		ai_will_do = { factor = 1 }
+	}
+	equipment_production_10 = {
+		production_factory_efficiency_gain_factor = 0.03
+		path = { leads_to_tech = equipment_production_11 research_cost_coeff = 1 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier5_2 } }
+		dependencies = { FLTE_tech_tier_prod_5 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_5
+			FLTE_TC_tier_prod_5
+		}
+		ai_will_do = { factor = 1 }
+	}
+	equipment_production_11 = {
+		production_factory_efficiency_gain_factor = 0.03
+		path = { leads_to_tech = equipment_production_12 research_cost_coeff = 1 }
+		path = { leads_to_tech = firearms_artillery_production_5 research_cost_coeff = 1 }
+		path = { leads_to_tech = support_equipment_production_5 research_cost_coeff = 1 }
+		path = { leads_to_tech = car_production_5 research_cost_coeff = 1 }
+		path = { leads_to_tech = armor_production_5 research_cost_coeff = 1 }
+		path = { leads_to_tech = small_ship_production_5 research_cost_coeff = 1 }
+		path = { leads_to_tech = large_ship_production_5 research_cost_coeff = 1 }
+		path = { leads_to_tech = plane_production_5 research_cost_coeff = 1 }
+		path = { leads_to_tech = missile_production_3 research_cost_coeff = 1 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier6_1 } }
+		dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_6
+			FLTE_TC_tier_prod_6
+		}
+		ai_will_do = { factor = 1 }
+	}
+	equipment_production_12 = {
+		production_factory_efficiency_gain_factor = 0.03
+		path = { leads_to_tech = equipment_production_13 research_cost_coeff = 1 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier6_2 } }
+		dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_6
+			FLTE_TC_tier_prod_6
+		}
+		ai_will_do = { factor = 1 }
+	}
+	equipment_production_13 = {
+		production_factory_efficiency_gain_factor = 0.03
+		path = { leads_to_tech = equipment_production_14 research_cost_coeff = 1 }
+		path = { leads_to_tech = firearms_artillery_production_6 research_cost_coeff = 1 }
+		path = { leads_to_tech = support_equipment_production_6 research_cost_coeff = 1 }
+		path = { leads_to_tech = car_production_6 research_cost_coeff = 1 }
+		path = { leads_to_tech = armor_production_6 research_cost_coeff = 1 }
+		path = { leads_to_tech = small_ship_production_6 research_cost_coeff = 1 }
+		path = { leads_to_tech = large_ship_production_6 research_cost_coeff = 1 }
+		path = { leads_to_tech = plane_production_6 research_cost_coeff = 1 }
+		path = { leads_to_tech = missile_production_4 research_cost_coeff = 1 }
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier7_1 } }
+		dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_7
+			FLTE_TC_tier_prod_7
+		}
+		ai_will_do = { factor = 1 }
+	}
+	equipment_production_14 = {
+		production_factory_efficiency_gain_factor = 0.03
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @equipment_production_main_branch y = @Tier7_2 } }
+		dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_7
+			FLTE_TC_tier_prod_7
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	firearms_artillery_production_1 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = firearms_artillery_production_1 bonus = {
+				infantry_equipment = { build_cost_ic = -0.03 instant = yes }
+				artillery_equipment = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_firearms_artillery_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_prod_2 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_2
+			FLTE_TC_tier_prod_2
+		}
+		ai_will_do = { factor = 1 }
+	}
+	firearms_artillery_production_2 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = firearms_artillery_production_2 bonus = {
+				infantry_equipment = { build_cost_ic = -0.03 instant = yes }
+				artillery_equipment = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_firearms_artillery_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_prod_3 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_3
+			FLTE_TC_tier_prod_3
+		}
+		ai_will_do = { factor = 1 }
+	}
+	firearms_artillery_production_3 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = firearms_artillery_production_3 bonus = {
+				infantry_equipment = { build_cost_ic = -0.03 instant = yes }
+				artillery_equipment = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_firearms_artillery_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_prod_4 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_4
+			FLTE_TC_tier_prod_4
+		}
+		ai_will_do = { factor = 1 }
+	}
+	firearms_artillery_production_4 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = firearms_artillery_production_4 bonus = {
+				infantry_equipment = { build_cost_ic = -0.03 instant = yes }
+				artillery_equipment = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_firearms_artillery_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_prod_5 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_5
+			FLTE_TC_tier_prod_5
+		}
+		ai_will_do = { factor = 1 }
+	}
+	firearms_artillery_production_5 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = firearms_artillery_production_5 bonus = {
+				infantry_equipment = { build_cost_ic = -0.03 instant = yes }
+				artillery_equipment = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_firearms_artillery_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_6
+			FLTE_TC_tier_prod_6
+		}
+		ai_will_do = { factor = 1 }
+	}
+	firearms_artillery_production_6 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = firearms_artillery_production_6 bonus = {
+				infantry_equipment = { build_cost_ic = -0.03 instant = yes }
+				artillery_equipment = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_firearms_artillery_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_7
+			FLTE_TC_tier_prod_7
+		}
+		ai_will_do = { factor = 1 }
+	}
+	support_equipment_production_1 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = support_equipment_production_1 bonus = {
+				support_equipment = { build_cost_ic = -0.03 instant = yes }
+				# advanced_support_equipment = { build_cost_ic = -0.03 instant = yes }
+			} } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_support_equipment_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_prod_2 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_2
+			FLTE_TC_tier_prod_2
+		}
+		ai_will_do = { factor = 1 }
+	}
+	support_equipment_production_2 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = support_equipment_production2 bonus = {
+				support_equipment = { build_cost_ic = -0.03 instant = yes }
+				# advanced_support_equipment = { build_cost_ic = -0.03 instant = yes }
+			} } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_support_equipment_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_prod_3 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_3
+			FLTE_TC_tier_prod_3
+		}
+		ai_will_do = { factor = 1 }
+	}
+	support_equipment_production_3 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = support_equipment_production_3 bonus = {
+				support_equipment = { build_cost_ic = -0.03 instant = yes }
+				# advanced_support_equipment = { build_cost_ic = -0.03 instant = yes }
+			} } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_support_equipment_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_prod_4 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_4
+			FLTE_TC_tier_prod_4
+		}
+		ai_will_do = { factor = 1 }
+	}
+	support_equipment_production_4 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = support_equipment_production_4 bonus = {
+				support_equipment = { build_cost_ic = -0.03 instant = yes }
+				# advanced_support_equipment = { build_cost_ic = -0.03 instant = yes }
+			} } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_support_equipment_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_prod_5 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_5
+			FLTE_TC_tier_prod_5
+		}
+		ai_will_do = { factor = 1 }
+	}
+	support_equipment_production_5 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = support_equipment_production_5 bonus = {
+				support_equipment = { build_cost_ic = -0.03 instant = yes }
+				# advanced_support_equipment = { build_cost_ic = -0.03 instant = yes }
+			} } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_support_equipment_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_6
+			FLTE_TC_tier_prod_6
+		}
+		ai_will_do = { factor = 1 }
+	}
+	support_equipment_production_6 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = support_equipment_production_6 bonus = {
+				support_equipment = { build_cost_ic = -0.03 instant = yes }
+				# advanced_support_equipment = { build_cost_ic = -0.03 instant = yes }
+			} } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_support_equipment_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_7
+			FLTE_TC_tier_prod_7
+		}
+		ai_will_do = { factor = 1 }
+	}
+	car_production_1 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = car_production_1 bonus = {
+				motorized = { build_cost_ic = -0.03 instant = yes }
+				mechanized = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_car_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_prod_2 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_2
+			FLTE_TC_tier_prod_2
+		}
+		ai_will_do = { factor = 1 }
+	}
+	car_production_2 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = car_production_2 bonus = {
+				motorized = { build_cost_ic = -0.03 instant = yes }
+				mechanized = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_car_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_prod_3 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_3
+			FLTE_TC_tier_prod_3
+		}
+		ai_will_do = { factor = 1 }
+	}
+	car_production_3 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = car_production_3 bonus = {
+				motorized = { build_cost_ic = -0.03 instant = yes }
+				mechanized = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_car_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_prod_4 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_4
+			FLTE_TC_tier_prod_4
+		}
+		ai_will_do = { factor = 1 }
+	}
+	car_production_4 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = car_production_4 bonus = {
+				motorized = { build_cost_ic = -0.03 instant = yes }
+				mechanized = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_car_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_prod_5 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_5
+			FLTE_TC_tier_prod_5
+		}
+		ai_will_do = { factor = 1 }
+	}
+	car_production_5 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = car_production_5 bonus = {
+				motorized = { build_cost_ic = -0.03 instant = yes }
+				mechanized = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_car_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_6
+			FLTE_TC_tier_prod_6
+		}
+		ai_will_do = { factor = 1 }
+	}
+	car_production_6 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = car_production_6 bonus = {
+				motorized = { build_cost_ic = -0.03 instant = yes }
+				mechanized = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_car_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_7
+			FLTE_TC_tier_prod_7
+		}
+		ai_will_do = { factor = 1 }
+	}
+	armor_production_1 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = armor_production_1 bonus = {
+				armor = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_armor_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_prod_2 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_2
+			FLTE_TC_tier_prod_2
+		}
+		ai_will_do = { factor = 1 }
+	}
+	armor_production_2 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = armor_production_2 bonus = {
+				armor = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_armor_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_prod_3 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_3
+			FLTE_TC_tier_prod_3
+		}
+		ai_will_do = { factor = 1 }
+	}
+	armor_production_3 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = armor_production_3 bonus = {
+				armor = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_armor_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_prod_4 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_4
+			FLTE_TC_tier_prod_4
+		}
+		ai_will_do = { factor = 1 }
+	}
+	armor_production_4 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = armor_production_4 bonus = {
+				armor = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_armor_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_prod_5 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_5
+			FLTE_TC_tier_prod_5
+		}
+		ai_will_do = { factor = 1 }
+	}
+	armor_production_5 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = armor_production_5 bonus = {
+				armor = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_armor_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_6
+			FLTE_TC_tier_prod_6
+		}
+		ai_will_do = { factor = 1 }
+	}
+	armor_production_6 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = armor_production_6 bonus = {
+				armor = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_armor_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_7
+			FLTE_TC_tier_prod_7
+		}
+		ai_will_do = { factor = 1 }
+	}
+	plane_production_1 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = plane_production_1 bonus = {
+				small_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				medium_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				large_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				transport_plane_equipment = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_plane_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_prod_2 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_2
+			FLTE_TC_tier_prod_2
+		}
+		ai_will_do = { factor = 1 }
+	}
+	plane_production_2 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = plane_production_2 bonus = {
+				small_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				medium_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				large_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				transport_plane_equipment = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_plane_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_prod_3 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_3
+			FLTE_TC_tier_prod_3
+		}
+		ai_will_do = { factor = 1 }
+	}
+	plane_production_3 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = plane_production_3 bonus = {
+				small_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				medium_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				large_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				transport_plane_equipment = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_plane_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_prod_4 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_4
+			FLTE_TC_tier_prod_4
+		}
+		ai_will_do = { factor = 1 }
+	}
+	plane_production_4 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = plane_production_4 bonus = {
+				small_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				medium_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				large_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				transport_plane_equipment = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_plane_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_prod_5 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_5
+			FLTE_TC_tier_prod_5
+		}
+		ai_will_do = { factor = 1 }
+	}
+	plane_production_5 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = plane_production_5 bonus = {
+				small_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				medium_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				large_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				transport_plane_equipment = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_plane_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_6
+			FLTE_TC_tier_prod_6
+		}
+		ai_will_do = { factor = 1 }
+	}
+	plane_production_6 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = plane_production_6 bonus = {
+				small_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				medium_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				large_plane_airframe = { build_cost_ic = -0.03 instant = yes }
+				transport_plane_equipment = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_plane_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_7
+			FLTE_TC_tier_prod_7
+		}
+		ai_will_do = { factor = 1 }
+	}
+	small_ship_production_1 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = small_ship_production_1 bonus = {
+				submarine = { build_cost_ic = -0.03 instant = yes }
+				screen_ship = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_small_ship_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_prod_2 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_2
+			FLTE_TC_tier_prod_2
+		}
+		ai_will_do = { factor = 1 }
+	}
+	small_ship_production_2 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = small_ship_production_2 bonus = {
+				submarine = { build_cost_ic = -0.03 instant = yes }
+				screen_ship = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_small_ship_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_prod_3 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_3
+			FLTE_TC_tier_prod_3
+		}
+		ai_will_do = { factor = 1 }
+	}
+	small_ship_production_3 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = small_ship_production_3 bonus = {
+				submarine = { build_cost_ic = -0.03 instant = yes }
+				screen_ship = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_small_ship_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_prod_4 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_4
+			FLTE_TC_tier_prod_4
+		}
+		ai_will_do = { factor = 1 }
+	}
+	small_ship_production_4 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = small_ship_production_4 bonus = {
+				submarine = { build_cost_ic = -0.03 instant = yes }
+				screen_ship = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_small_ship_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_prod_5 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_5
+			FLTE_TC_tier_prod_5
+		}
+		ai_will_do = { factor = 1 }
+	}
+	small_ship_production_5 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = small_ship_production_5 name = small_ship_production_5 bonus = {
+				submarine = { build_cost_ic = -0.03 instant = yes }
+				screen_ship = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_small_ship_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_6
+			FLTE_TC_tier_prod_6
+		}
+		ai_will_do = { factor = 1 }
+	}
+	small_ship_production_6 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = small_ship_production_6 bonus = {
+				submarine = { build_cost_ic = -0.03 instant = yes }
+				screen_ship = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_small_ship_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_7
+			FLTE_TC_tier_prod_7
+		}
+		ai_will_do = { factor = 1 }
+	}
+	large_ship_production_1 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = large_ship_production_1 bonus = {
+				capital_ship = { build_cost_ic = -0.03 instant = yes }
+				carrier = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_large_ship_branch y = @Tier2_2 } }
+        dependencies = { FLTE_tech_tier_prod_2 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_2
+			FLTE_TC_tier_prod_2
+		}
+		ai_will_do = { factor = 1 }
+	}
+	large_ship_production_2 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = large_ship_production_2 bonus = {
+				capital_ship = { build_cost_ic = -0.03 instant = yes }
+				carrier = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_large_ship_branch y = @Tier3_2 } }
+        dependencies = { FLTE_tech_tier_prod_3 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_3
+			FLTE_TC_tier_prod_3
+		}
+		ai_will_do = { factor = 1 }
+	}
+	large_ship_production_3 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = large_ship_production_3 bonus = {
+				capital_ship = { build_cost_ic = -0.03 instant = yes }
+				carrier = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_large_ship_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_prod_4 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_4
+			FLTE_TC_tier_prod_4
+		}
+		ai_will_do = { factor = 1 }
+	}
+	large_ship_production_4 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = large_ship_production_4 bonus = {
+				capital_ship = { build_cost_ic = -0.03 instant = yes }
+				carrier = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_large_ship_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_prod_5 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_5
+			FLTE_TC_tier_prod_5
+		}
+		ai_will_do = { factor = 1 }
+	}
+	large_ship_production_5 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = large_ship_production_5 bonus = {
+				capital_ship = { build_cost_ic = -0.03 instant = yes }
+				carrier = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_large_ship_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_6
+			FLTE_TC_tier_prod_6
+		}
+		ai_will_do = { factor = 1 }
+	}
+	large_ship_production_6 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = large_ship_production_6 bonus = {
+				capital_ship = { build_cost_ic = -0.03 instant = yes }
+				carrier = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_large_ship_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_7
+			FLTE_TC_tier_prod_7
+		}
+		ai_will_do = { factor = 1 }
+	}
+	missile_production_1 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = missile_production_1 bonus = {
+				ballistic_missile = { build_cost_ic = -0.03 instant = yes }
+				missile = { build_cost_ic = -0.03 instant = yes }
+				sam_missile = { build_cost_ic = -0.03 instant = yes }
+				nuclear_missile = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_missile_branch y = @Tier4_2 } }
+        dependencies = { FLTE_tech_tier_prod_4 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_4
+			FLTE_TC_tier_prod_4
+		}
+		ai_will_do = { factor = 1 }
+	}
+	missile_production_2 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = missile_production_2 bonus = {
+				ballistic_missile = { build_cost_ic = -0.03 instant = yes }
+				missile = { build_cost_ic = -0.03 instant = yes }
+				sam_missile = { build_cost_ic = -0.03 instant = yes }
+				nuclear_missile = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_missile_branch y = @Tier5_2 } }
+        dependencies = { FLTE_tech_tier_prod_5 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_5
+			FLTE_TC_tier_prod_5
+		}
+		ai_will_do = { factor = 1 }
+	}
+	missile_production_3 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = missile_production_3 bonus = {
+				ballistic_missile = { build_cost_ic = -0.03 instant = yes }
+				missile = { build_cost_ic = -0.03 instant = yes }
+				sam_missile = { build_cost_ic = -0.03 instant = yes }
+				nuclear_missile = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_missile_branch y = @Tier6_2 } }
+        dependencies = { FLTE_tech_tier_prod_6 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_6
+			FLTE_TC_tier_prod_6
+		}
+		ai_will_do = { factor = 1 }
+	}
+	missile_production_4 = {
+		on_research_complete = {
+			add_equipment_bonus = { name = missile_production_4 bonus = {
+				ballistic_missile = { build_cost_ic = -0.03 instant = yes }
+				missile = { build_cost_ic = -0.03 instant = yes }
+				sam_missile = { build_cost_ic = -0.03 instant = yes }
+				nuclear_missile = { build_cost_ic = -0.03 instant = yes } } } }
+		show_effect_as_desc = yes
+		research_cost = 2.5
+		start_year = 1
+		folder = { name = FLTE_prod_folder position = { x = @production_missile_branch y = @Tier7_2 } }
+        dependencies = { FLTE_tech_tier_prod_7 = 1 }
+		special_project_specialization = { specialization_civilian }
+		categories = {
+			industry
+			cat_production
+			FLTE_TC_tier_7
+			FLTE_TC_tier_prod_7
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

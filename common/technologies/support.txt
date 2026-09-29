@@ -1,0 +1,76 @@
+technologies = {
+	camicie_nere_security_militias = {
+
+		research_cost = 1
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		military_police = {
+			suppression_factor = 0.05
+		}
+	}
+
+	SWI_saint_bernard_tech = { #Saint Bernard tech
+		allow = { always = no } #Only obtained through Focus
+		field_hospital = {
+			casualty_trickleback = 0.10 ## REMEMBER TO UPDATE THE TOOLTIP
+			experience_loss_factor = -0.3
+		}
+	}
+
+	NORDIC_supportCollaboration_tech = { # For the Army Capston in the Nordic JFT
+		allow = { always = no } #Only obtained through Focus
+		category_support_battalions = {
+			max_organisation = 10
+			soft_attack = 0.25
+			experience_loss_factor = -0.05
+		}
+	}
+
+	tech_recon_focus_bonus = { #gained from Help from the Nagas
+
+		allow = {
+			always = no
+		}
+		category_recon = {
+			recon = 2
+		}
+
+		categories = {
+			support_tech
+			recon_tech
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	AST_war_carriers_tech = { #hidden tech to boost logistics companies
+
+		allow = {
+			always = no
+		}
+
+		research_cost = 1
+		start_year = 1
+
+		logistics_company = {
+			supply_consumption_factor = -0.15
+		}
+
+		research_cost = 1
+		start_year = 1
+
+		categories = {
+			support_tech
+			logistics_tech
+			motorized_equipment
+			mio_cat_tech_all_motorized_mechanized
+		}
+	}
+
+}

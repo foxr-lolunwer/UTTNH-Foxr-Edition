@@ -1382,7 +1382,7 @@ def export_equipment(db_path, output_dir="./mod_output/equipments"):
 
 
 if __name__ == "__main__":
-    db_path = "./em.db"
+    db_path = "em.db"
     # export_module(db_path)
     export_equipment(db_path)
 

@@ -2,6 +2,11 @@ import os
 import hashlib
 import json
 
+"""
+计算文件哈希，会导出json表
+可根据json表直接替换和删除重复文件
+"""
+
 
 def calculate_sha256(file_path, block_size=65536):
     """高效计算大文件/二进制文件的 SHA-256 哈希值"""
@@ -177,6 +182,5 @@ def apply_deduplication_and_clean(json_map_path, target_dir):
 if __name__ == "__main__":
     # scan_and_deduplicate_dds(r"E:\Documents\Paradox Interactive\Hearts of Iron IV\mod\UTTNH Foxr Edition\gfx\interface\FLTE",
     #                          "./gfx/hash.json")
-    # apply_deduplication_and_clean("./gfx/hash.json",
-    #                               r"E:\Documents\Paradox Interactive\Hearts of Iron IV\mod\UTTNH Foxr Edition\interface\FLTE_GFX")
-    apply_deduplication_and_clean("./gfx/hash.json", r"E:\Documents\Paradox Interactive\Hearts of Iron IV\mod\UTTNH Foxr Edition\gfx\interface\equipmentdesigner\graphic_db")
+    apply_deduplication_and_clean("./gfx/hash.json",
+                                  r"E:\Documents\Paradox Interactive\Hearts of Iron IV\mod\UTTNH Foxr Edition\interface\FLTE_GFX")

@@ -1,4 +1,0 @@
-technologies = {
-    airdrop_mines = { research_cost = 1 }
-    airsweep_mines = { research_cost = 1 }
-}

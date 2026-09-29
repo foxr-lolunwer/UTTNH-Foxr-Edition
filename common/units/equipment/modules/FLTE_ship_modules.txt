@@ -1,3 +1,0 @@
-equipment_modules = {
-    
-}

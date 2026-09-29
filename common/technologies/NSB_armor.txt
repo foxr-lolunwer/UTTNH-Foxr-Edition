@@ -1,8 +1,0 @@
-technologies = {
-	NOR_rikstanken_tech = {
-		enable_equipment_modules = {
-			NOR_rikstanken_turret
-			NOR_tank_rikstanken_armor
-		}
-	}
-}

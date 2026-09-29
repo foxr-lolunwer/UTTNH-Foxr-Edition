@@ -1,0 +1,131 @@
+animation = {
+	name = "geo_m109_idle_animation"
+	file = "geo_m109_idle.anim"
+}
+animation = {
+	name = "geo_m109_move_animation"
+	file = "geo_m109_move.anim"
+}
+animation = {
+	name = "geo_m109_attack_animation"
+	file = "geo_m109_attack.anim"
+}
+
+animation = {
+	name = "m48_attack_animation"
+	file = "m48_attack.anim"
+}
+
+animation = {
+	name = "m48_idle_animation"
+	file = "m48_idle.anim"
+}
+
+animation = {
+	name = "m48_moving_animation"
+	file = "m48_moving.anim"
+}
+
+animation = {
+	name = "geo_m48_idle_animation"
+	file = "geo_m48_idle.anim"
+}
+
+animation = {
+	name = "geo_m48_move_animation"
+	file = "geo_m48_move.anim"
+}
+
+animation = {
+	name = "geo_m48_attack_animation"
+	file = "geo_m48_attack.anim"
+}
+
+animation = {
+	name = "geo_leo2a4_idle_animation"
+	file = "geo_leo2a4_idle.anim"
+}
+
+animation = {
+	name = "geo_leo2a4_move_animation"
+	file = "geo_leo2a4_move.anim"
+}
+
+animation = {
+	name = "geo_leo2a4_attack_animation"
+	file = "geo_leo2a4_attack.anim"
+}
+
+animation = {
+	name = "m1a1_attack_animation"
+	file = "m1a1_attack.anim"
+}
+
+animation = {
+	name = "m1a1_idle_animation"
+	file = "m1a1_idle.anim"
+}
+
+animation = {
+	name = "m1a1_moving_animation"
+	file = "m1a1_moving.anim"
+}
+
+animation = {
+	name = "geo_m1a1_idle_animation"
+	file = "geo_m1a1_idle.anim"
+}
+
+animation = {
+	name = "geo_m1a1_move_animation"
+	file = "geo_m1a1_move.anim"
+}
+
+animation = {
+	name = "geo_m1a1_attack_animation"
+	file = "geo_m1a1_attack.anim"
+}
+
+animation = {
+	name = "m1_abrams_attack_animation"
+	file = "m1_abrams_attack.anim"
+}
+
+animation = {
+	name = "m1_abrams_idle_animation"
+	file = "m1_abrams_idle.anim"
+}
+
+animation = {
+	name = "m1_abrams_moving_animation"
+	file = "m1_abrams_moving.anim"
+}
+
+animation = {
+	name = "geo_m60_idle_animation"
+	file = "geo_m60_idle.anim"
+}
+
+animation = {
+	name = "geo_m60_move_animation"
+	file = "geo_m60_move.anim"
+}
+
+animation = {
+	name = "geo_m60_attack_animation"
+	file = "geo_m60_attack.anim"
+}
+animation = {
+	name = "USA_light_tank_M551_Sheridan_idle_animation"
+	file = "USA_light_tank_M551_Sheridan_idle.anim"
+}
+
+animation = {
+	name = "USA_light_tank_M551_Sheridan_moving_animation"
+	file = "USA_light_tank_M551_Sheridan_moving.anim"
+}
+
+animation = {
+	name = "USA_light_tank_M551_Sheridan_attack_animation"
+	file = "USA_light_tank_M551_Sheridan_attack.anim"
+}

@@ -1,0 +1,2796 @@
+AST = {
+}
+
+BRA = {
+	light_tank_chassis_2 = {
+		pool = {
+			models = {
+				USA_light_armor_2_entity
+				USA_light_armor_0_entity
+				USA_light_tank_destroyer_brigade_1_entity
+				USA_light_tank_destroyer_brigade_2_entity
+				USA_light_tank_destroyer_brigade_0_entity
+				USA_light_sp_artillery_brigade_0_entity
+				USA_light_sp_artillery_brigade_1_entity
+				USA_light_sp_anti_air_brigade_1_entity
+				USA_light_sp_anti_air_brigade_2_entity
+				# USA_light_armor_entity
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			models = {
+				# USA_light_armor_entity
+				USA_light_armor_0_entity
+				USA_light_tank_destroyer_brigade_1_entity
+				USA_light_tank_destroyer_brigade_2_entity
+				USA_light_tank_destroyer_brigade_0_entity
+				USA_light_sp_artillery_brigade_0_entity
+				USA_light_sp_artillery_brigade_1_entity
+				USA_light_sp_anti_air_brigade_1_entity
+				USA_light_sp_anti_air_brigade_2_entity
+				USA_light_armor_2_entity
+			}
+		}
+	}
+	light_tank_chassis_4 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	light_tank_chassis_5 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	light_tank_chassis_6 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	light_tank_chassis_7 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	light_tank_chassis_8 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	light_tank_chassis_9 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			models = {
+				USA_medium_armor_2_entity
+				USA_medium_armor_entity
+				USA_medium_tank_destroyer_brigade_0_entity
+				USA_medium_tank_destroyer_brigade_1_entity
+				USA_medium_tank_destroyer_brigade_2_entity
+				USA_medium_sp_artillery_brigade_0_entity
+				USA_medium_sp_artillery_brigade_1_entity
+				USA_medium_sp_artillery_brigade_2_entity
+				USA_medium_sp_anti_air_brigade_1_entity
+				USA_medium_sp_anti_air_brigade_0_entity
+				USA_medium_armor_0_entity
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			models = {
+				USA_medium_armor_2_entity
+				USA_medium_armor_entity
+				USA_medium_tank_destroyer_brigade_0_entity
+				USA_medium_tank_destroyer_brigade_1_entity
+				USA_medium_tank_destroyer_brigade_2_entity
+				USA_medium_sp_artillery_brigade_0_entity
+				USA_medium_sp_artillery_brigade_1_entity
+				USA_medium_sp_artillery_brigade_2_entity
+				USA_medium_sp_anti_air_brigade_1_entity
+				USA_medium_sp_anti_air_brigade_0_entity
+				USA_medium_armor_0_entity
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			models = {
+				USA_medium_armor_2_entity
+				USA_medium_armor_0_entity
+				USA_medium_tank_destroyer_brigade_0_entity
+				USA_medium_tank_destroyer_brigade_1_entity
+				USA_medium_tank_destroyer_brigade_2_entity
+				USA_medium_sp_artillery_brigade_0_entity
+				USA_medium_sp_artillery_brigade_1_entity
+				USA_medium_sp_artillery_brigade_2_entity
+				USA_medium_sp_anti_air_brigade_1_entity
+				USA_medium_sp_anti_air_brigade_0_entity
+				USA_medium_armor_entity
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			models = {
+				USA_medium_armor_entity
+				USA_medium_armor_0_entity
+				USA_medium_tank_destroyer_brigade_0_entity
+				USA_medium_tank_destroyer_brigade_1_entity
+				USA_medium_tank_destroyer_brigade_2_entity
+				USA_medium_sp_artillery_brigade_0_entity
+				USA_medium_sp_artillery_brigade_1_entity
+				USA_medium_sp_artillery_brigade_2_entity
+				USA_medium_sp_anti_air_brigade_1_entity
+				USA_medium_sp_anti_air_brigade_0_entity
+				USA_medium_armor_2_entity
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			models = {
+				USA_heavy_armor_entity
+				USA_heavy_tank_destroyer_brigade_0_entity
+				USA_heavy_sp_artillery_brigade_1_entity
+				USA_heavy_armor_0_entity
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			models = {
+				USA_heavy_armor_entity
+				USA_heavy_tank_destroyer_brigade_0_entity
+				USA_heavy_sp_artillery_brigade_1_entity
+				USA_heavy_armor_0_entity
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			models = {
+				USA_heavy_armor_0_entity
+				USA_heavy_tank_destroyer_brigade_0_entity
+				USA_heavy_sp_artillery_brigade_1_entity
+				USA_heavy_armor_entity
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			models = {
+				USA_heavy_armor_entity
+				USA_heavy_tank_destroyer_brigade_0_entity
+				USA_heavy_sp_artillery_brigade_1_entity
+				USA_heavy_armor_0_entity
+			}
+		}
+	}
+	heavy_tank_chassis_4 = {
+		pool = {
+			models = {
+				M103_entity
+			}
+		}
+	}
+	heavy_tank_chassis_5 = {
+		pool = {
+			models = {
+				M103_entity
+			}
+		}
+	}
+	heavy_tank_chassis_6 = {
+		pool = {
+			models = {
+				M103_entity
+			}
+		}
+	}
+	amphibious_tank_chassis = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	para_tank_chassis_1 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	para_tank_chassis_2 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	para_tank_chassis_3 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	para_tank_chassis_4 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			models = {
+				USA_M48_entity
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			models = {
+				USA_M48_entity
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			models = {
+				USA_M48_entity
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			models = {
+				USA_M48_entity
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			models = {
+				USA_M48_entity
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			models = {
+				USA_M48_entity
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			models = {
+				GER_modern_armor1_entity
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			models = {
+				GER_modern_armor1_entity
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			models = {
+				GER_modern_armor1_entity
+			}
+		}
+	}
+}
+
+CAN = {
+}
+
+CHI = {
+}
+
+CZE = {
+	light_tank_chassis_2 = {
+		pool = {
+			models = {
+				USA_light_armor_2_entity
+				USA_light_armor_0_entity
+				USA_light_tank_destroyer_brigade_1_entity
+				USA_light_tank_destroyer_brigade_2_entity
+				USA_light_tank_destroyer_brigade_0_entity
+				USA_light_sp_artillery_brigade_0_entity
+				USA_light_sp_artillery_brigade_1_entity
+				USA_light_sp_anti_air_brigade_1_entity
+				USA_light_sp_anti_air_brigade_2_entity
+				# USA_light_armor_entity
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			models = {
+				# USA_light_armor_entity
+				USA_light_armor_0_entity
+				USA_light_tank_destroyer_brigade_1_entity
+				USA_light_tank_destroyer_brigade_2_entity
+				USA_light_tank_destroyer_brigade_0_entity
+				USA_light_sp_artillery_brigade_0_entity
+				USA_light_sp_artillery_brigade_1_entity
+				USA_light_sp_anti_air_brigade_1_entity
+				USA_light_sp_anti_air_brigade_2_entity
+				USA_light_armor_2_entity
+			}
+		}
+	}
+	light_tank_chassis_4 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			models = {
+				USA_medium_armor_2_entity
+				USA_medium_armor_entity
+				USA_medium_tank_destroyer_brigade_0_entity
+				USA_medium_tank_destroyer_brigade_1_entity
+				USA_medium_tank_destroyer_brigade_2_entity
+				USA_medium_sp_artillery_brigade_0_entity
+				USA_medium_sp_artillery_brigade_1_entity
+				USA_medium_sp_artillery_brigade_2_entity
+				USA_medium_sp_anti_air_brigade_1_entity
+				USA_medium_sp_anti_air_brigade_0_entity
+				USA_medium_armor_0_entity
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			models = {
+				USA_medium_armor_2_entity
+				USA_medium_armor_0_entity
+				USA_medium_tank_destroyer_brigade_0_entity
+				USA_medium_tank_destroyer_brigade_1_entity
+				USA_medium_tank_destroyer_brigade_2_entity
+				USA_medium_sp_artillery_brigade_0_entity
+				USA_medium_sp_artillery_brigade_1_entity
+				USA_medium_sp_artillery_brigade_2_entity
+				USA_medium_sp_anti_air_brigade_1_entity
+				USA_medium_sp_anti_air_brigade_0_entity
+				USA_medium_armor_entity
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			models = {
+				USA_medium_armor_entity
+				USA_medium_armor_0_entity
+				USA_medium_tank_destroyer_brigade_0_entity
+				USA_medium_tank_destroyer_brigade_1_entity
+				USA_medium_tank_destroyer_brigade_2_entity
+				USA_medium_sp_artillery_brigade_0_entity
+				USA_medium_sp_artillery_brigade_1_entity
+				USA_medium_sp_artillery_brigade_2_entity
+				USA_medium_sp_anti_air_brigade_1_entity
+				USA_medium_sp_anti_air_brigade_0_entity
+				USA_medium_armor_2_entity
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			models = {
+				GER_heavy_armor_2_entity
+				GER_heavy_armor_entity
+				GER_heavy_sp_artillery_brigade_1_entity
+				GER_heavy_tank_destroyer_brigade_0_entity
+				GER_heavy_tank_destroyer_brigade_1_entity
+				GER_heavy_tank_destroyer_brigade_2_entity
+				GER_heavy_armor_0_entity
+			}
+		}
+	}
+	heavy_tank_chassis_4 = {
+		pool = {
+			models = {
+				IS3_entity
+			}
+		}
+	}
+	heavy_tank_chassis_5 = {
+		pool = {
+			models = {
+				IS4_entity
+			}
+		}
+	}
+	heavy_tank_chassis_6 = {
+		pool = {
+			models = {
+				IS4_entity
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			models = {
+				PRC_modern_tank1_entity
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			models = {
+				PRC_modern_tank1_entity
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			models = {
+				PRC_modern_tank1_entity
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			models = {
+				SOV_t64bv_entity
+				SOV_t64_entity
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			models = {
+				SOV_t64bv_entity
+				SOV_t64_entity
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			models = {
+				SOV_t64bv_entity
+				SOV_t64_entity
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			models = {
+				SOV_t72_entity
+				SOV_t72desert_entity
+				SOV_T72B3_entity
+				SOV_2S19_entity
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			models = {
+				SOV_t72_entity
+				SOV_t72desert_entity
+				SOV_T72B3_entity
+				SOV_T72B3obr16_entity
+				SOV_2S19_entity
+				SOV_t72bv_entity
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			models = {
+				SOV_t72_entity
+				SOV_T72B3_entity
+				SOV_T72B3obr16_entity
+				SOV_t72desert_entity
+				SOV_2S19_entity
+				SOV_t72bv_entity
+			}
+		}
+	}
+}
+
+ENG = {
+	light_tank_chassis_1 = {
+		pool = {
+			models = {
+				ENG_light_armor_2_entity
+				ENG_light_armor_1_entity
+				ENG_light_tank_destroyer_brigade_2_entity
+				ENG_light_tank_destroyer_brigade_0_entity
+				ENG_light_sp_artillery_brigade_2_entity
+				commonwealth_gfx_light_armor_entity
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			models = {
+				ENG_light_armor_2_entity
+				commonwealth_gfx_light_armor_entity
+				ENG_light_tank_destroyer_brigade_2_entity
+				ENG_light_tank_destroyer_brigade_0_entity
+				ENG_light_sp_artillery_brigade_2_entity
+				ENG_light_armor_1_entity
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			models = {
+				commonwealth_gfx_light_armor_entity
+				ENG_light_armor_1_entity
+				ENG_light_tank_destroyer_brigade_2_entity
+				ENG_light_tank_destroyer_brigade_0_entity
+				ENG_light_sp_artillery_brigade_2_entity
+				ENG_light_armor_2_entity
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			models = {
+				ENG_medium_armor_2_entity
+				commonwealth_gfx_medium_armor_entity
+				ENG_medium_sp_artillery_brigade_2_entity
+				ENG_medium_sp_anti_air_brigade_0_entity
+				ENG_medium_sp_anti_air_brigade_1_entity
+				ENG_medium_armor_1_entity
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			models = {
+				ENG_medium_armor_2_entity
+				commonwealth_gfx_medium_armor_entity
+				ENG_medium_sp_artillery_brigade_2_entity
+				ENG_medium_sp_anti_air_brigade_0_entity
+				ENG_medium_sp_anti_air_brigade_1_entity
+				ENG_medium_armor_1_entity
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			models = {
+				ENG_medium_armor_2_entity
+				ENG_medium_armor_1_entity
+				ENG_medium_sp_artillery_brigade_2_entity
+				ENG_medium_sp_anti_air_brigade_0_entity
+				ENG_medium_sp_anti_air_brigade_1_entity
+				commonwealth_gfx_medium_armor_entity
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			models = {
+				commonwealth_gfx_medium_armor_entity
+				ENG_medium_armor_1_entity
+				ENG_medium_sp_artillery_brigade_2_entity
+				ENG_medium_sp_anti_air_brigade_0_entity
+				ENG_medium_sp_anti_air_brigade_1_entity
+				ENG_medium_armor_2_entity
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			models = {
+				commonwealth_gfx_heavy_armor_entity
+				ENG_heavy_armor_2_entity
+				ENG_heavy_sp_artillery_brigade_1_entity
+				ENG_heavy_armor_0_entity
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			models = {
+				commonwealth_gfx_heavy_armor_entity
+				ENG_heavy_armor_2_entity
+				ENG_heavy_sp_artillery_brigade_1_entity
+				ENG_heavy_armor_0_entity
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			models = {
+				ENG_heavy_armor_0_entity
+				ENG_heavy_armor_2_entity
+				ENG_heavy_sp_artillery_brigade_1_entity
+				commonwealth_gfx_heavy_armor_entity
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			models = {
+				commonwealth_gfx_heavy_armor_entity
+				ENG_heavy_armor_0_entity
+				ENG_heavy_sp_artillery_brigade_1_entity
+				ENG_heavy_armor_2_entity
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			models = {
+				ENG_modern_armor1_entity
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			models = {
+				ENG_modern_armor1_entity
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			models = {
+				ENG_modern_armor1_entity
+			}
+		}
+	}
+}
+
+FIN = {
+}
+
+FRA = {
+	light_tank_chassis_1 = {
+		pool = {
+			models = {
+				FRA_light_armor_entity
+				FRA_light_armor_2_entity
+				FRA_light_tank_destroyer_brigade_2_entity
+				FRA_light_tank_destroyer_brigade_1_entity
+				FRA_light_sp_artillery_brigade_2_entity
+				FRA_light_armor_0_entity
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			models = {
+				FRA_light_armor_2_entity
+				FRA_light_armor_0_entity
+				FRA_light_tank_destroyer_brigade_2_entity
+				FRA_light_tank_destroyer_brigade_1_entity
+				FRA_light_sp_artillery_brigade_2_entity
+				FRA_light_armor_entity
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			models = {
+				FRA_light_armor_entity
+				FRA_light_armor_0_entity
+				FRA_light_tank_destroyer_brigade_2_entity
+				FRA_light_tank_destroyer_brigade_1_entity
+				FRA_light_sp_artillery_brigade_2_entity
+				FRA_light_armor_2_entity
+			}
+		}
+	}
+	light_tank_chassis_4 = {
+		pool = {
+			models = {
+				m24_entity
+			}
+		}
+	}
+	light_tank_chassis_5 = {
+		pool = {
+			models = {
+				AMX13_entity
+			}
+		}
+	}
+	light_tank_chassis_6 = {
+		pool = {
+			models = {
+				AMX13_entity
+			}
+		}
+	}
+	light_tank_chassis_7 = {
+		pool = {
+			models = {
+				AMX13_entity
+			}
+		}
+	}
+	light_tank_chassis_8 = {
+		pool = {
+			models = {
+				AMX13_entity
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			models = {
+				FRA_medium_armor_entity
+				FRA_medium_armor_2_entity
+				FRA_medium_tank_destroyer_brigade_0_entity
+				FRA_medium_tank_destroyer_brigade_1_entity
+				FRA_medium_sp_artillery_brigade_0_entity
+				FRA_medium_sp_artillery_brigade_1_entity
+				FRA_medium_armor_1_entity
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			models = {
+				FRA_medium_armor_entity
+				FRA_medium_armor_2_entity
+				FRA_medium_tank_destroyer_brigade_0_entity
+				FRA_medium_tank_destroyer_brigade_1_entity
+				FRA_medium_sp_artillery_brigade_0_entity
+				FRA_medium_sp_artillery_brigade_1_entity
+				FRA_medium_armor_1_entity
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			models = {
+				FRA_medium_armor_2_entity
+				FRA_medium_armor_1_entity
+				FRA_medium_tank_destroyer_brigade_0_entity
+				FRA_medium_tank_destroyer_brigade_1_entity
+				FRA_medium_sp_artillery_brigade_0_entity
+				FRA_medium_sp_artillery_brigade_1_entity
+				FRA_medium_armor_entity
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			models = {
+				FRA_medium_armor_entity
+				FRA_medium_armor_1_entity
+				FRA_medium_tank_destroyer_brigade_0_entity
+				FRA_medium_tank_destroyer_brigade_1_entity
+				FRA_medium_sp_artillery_brigade_0_entity
+				FRA_medium_sp_artillery_brigade_1_entity
+				FRA_medium_armor_2_entity
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			models = {
+				FRA_heavy_armor_entity
+				FRA_heavy_armor_2_entity
+				FRA_heavy_sp_artillery_brigade_0_entity
+				FRA_heavy_armor_1_entity
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			models = {
+				FRA_heavy_armor_entity
+				FRA_heavy_armor_2_entity
+				FRA_heavy_sp_artillery_brigade_0_entity
+				FRA_heavy_armor_1_entity
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			models = {
+				FRA_heavy_armor_2_entity
+				FRA_heavy_armor_1_entity
+				FRA_heavy_sp_artillery_brigade_0_entity
+				FRA_heavy_armor_entity
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			models = {
+				FRA_heavy_armor_entity
+				FRA_heavy_armor_1_entity
+				FRA_heavy_sp_artillery_brigade_0_entity
+				FRA_heavy_armor_2_entity
+			}
+		}
+	}
+	heavy_tank_chassis_5 = {
+		pool = {
+			models = {
+				arl44_entity
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			models = {
+				USA_M48_entity
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			models = {
+				amx50_entity
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			models = {
+				amx50_entity
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			models = {
+				FRA_modern_armor1_entity
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			models = {
+				FRA_modern_armor1_entity
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			models = {
+				FRA_modern_armor1_entity
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			models = {
+				FRA_modern_armor1_entity
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			models = {
+				FRA_modern_armor1_entity
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			models = {
+				LECLERC_entity
+			}
+		}
+	}
+}
+
+GER = {
+	light_tank_chassis_3 = {
+		pool = {
+			models = {
+				GER_light_armor_entity
+				GER_light_armor_0_entity
+				GER_light_sp_anti_air_brigade_0_entity
+				GER_light_sp_artillery_brigade_0_entity
+				GER_light_sp_artillery_brigade_1_entity
+				GER_light_tank_destroyer_brigade_0_entity
+				GER_light_tank_destroyer_brigade_1_entity
+				GER_light_armor_2_entity
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			models = {
+				GER_medium_armor_2_entity
+				GER_medium_armor_entity
+				GER_medium_tank_destroyer_brigade_2_entity
+				GER_medium_tank_destroyer_brigade_1_entity
+				GER_medium_tank_destroyer_brigade_0_entity
+				GER_medium_sp_artillery_brigade_2_entity
+				GER_medium_sp_artillery_brigade_1_entity
+				GER_medium_sp_artillery_brigade_0_entity
+				GER_medium_sp_anti_air_brigade_2_entity
+				GER_medium_sp_anti_air_brigade_1_entity
+				GER_medium_sp_anti_air_brigade_0_entity
+				GER_medium_armor_0_entity
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			models = {
+				GER_heavy_armor_2_entity
+				GER_heavy_armor_entity
+				GER_heavy_sp_artillery_brigade_1_entity
+				GER_heavy_tank_destroyer_brigade_0_entity
+				GER_heavy_tank_destroyer_brigade_1_entity
+				GER_heavy_tank_destroyer_brigade_2_entity
+				GER_heavy_armor_0_entity
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			models = {
+				GER_heavy_armor_2_entity
+				GER_heavy_armor_entity
+				GER_heavy_sp_artillery_brigade_1_entity
+				GER_heavy_tank_destroyer_brigade_0_entity
+				GER_heavy_tank_destroyer_brigade_1_entity
+				GER_heavy_tank_destroyer_brigade_2_entity
+				GER_heavy_armor_0_entity
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			models = {
+				geo_leo1_entity
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			models = {
+				geo_leo1_entity
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			models = {
+				geo_leo1_entity
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			models = {
+				geo_leo1_entity
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			models = {
+				geo_leo1a5_entity
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			models = {
+				geo_leo1a5_entity
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			models = {
+				GER_modern_armor1_entity
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			models = {
+				GER_modern_armor1_entity
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			models = {
+				GER_leopard2A5_entity
+			}
+		}
+	}
+}
+
+GXC = {
+}
+
+HOL = {
+}
+
+HUN = {
+}
+
+ITA = {
+	light_tank_chassis_1 = {
+		pool = {
+			models = {
+				ITA_light_armor_entity
+				ITA_light_tank_destroyer_brigade_0_entity
+				ITA_light_tank_destroyer_brigade_1_entity
+				ITA_light_armor_1_entity
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			models = {
+				ITA_light_armor_1_entity
+				ITA_light_tank_destroyer_brigade_0_entity
+				ITA_light_tank_destroyer_brigade_1_entity
+				ITA_light_armor_entity
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			models = {
+				ITA_light_armor_entity
+				ITA_light_tank_destroyer_brigade_0_entity
+				ITA_light_tank_destroyer_brigade_1_entity
+				ITA_light_armor_1_entity
+			}
+		}
+	}
+	light_tank_chassis_8 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	light_tank_chassis_9 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			models = {
+				ITA_medium_armor_entity
+				ITA_medium_sp_anti_air_brigade_2_entity
+				ITA_medium_sp_artillery_brigade_1_entity
+				ITA_medium_sp_artillery_brigade_2_entity
+				ITA_medium_tank_destroyer_brigade_1_entity
+				ITA_medium_tank_destroyer_brigade_2_entity
+				ITA_medium_armor_1_entity
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			models = {
+				ITA_medium_armor_entity
+				ITA_medium_sp_anti_air_brigade_2_entity
+				ITA_medium_sp_artillery_brigade_1_entity
+				ITA_medium_sp_artillery_brigade_2_entity
+				ITA_medium_tank_destroyer_brigade_1_entity
+				ITA_medium_tank_destroyer_brigade_2_entity
+				ITA_medium_armor_1_entity
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			models = {
+				ITA_medium_sp_anti_air_brigade_2_entity
+				ITA_medium_sp_artillery_brigade_1_entity
+				ITA_medium_sp_artillery_brigade_2_entity
+				ITA_medium_tank_destroyer_brigade_1_entity
+				ITA_medium_tank_destroyer_brigade_2_entity
+				ITA_medium_armor_1_entity
+				ITA_medium_armor_entity
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			models = {
+				ITA_medium_armor_entity
+				ITA_medium_sp_anti_air_brigade_2_entity
+				ITA_medium_sp_artillery_brigade_1_entity
+				ITA_medium_sp_artillery_brigade_2_entity
+				ITA_medium_tank_destroyer_brigade_1_entity
+				ITA_medium_tank_destroyer_brigade_2_entity
+				ITA_medium_armor_1_entity
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			models = {
+				ITA_heavy_armor_entity
+				ITA_heavy_armor_2_entity
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			models = {
+				ITA_heavy_armor_entity
+				ITA_heavy_armor_2_entity
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			models = {
+				ITA_heavy_armor_2_entity
+				ITA_heavy_armor_entity
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			models = {
+				ITA_heavy_armor_entity
+				ITA_heavy_armor_2_entity
+			}
+		}
+	}
+	modern_tank_chassis = {
+		pool = {
+			models = {
+				USA_M48_entity
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			models = {
+				USA_M48_entity
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			models = {
+				USA_M48_entity
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			models = {
+				USA_M60_entity
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			models = {
+				geo_leo1_entity
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			models = {
+				geo_leo1_entity
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			models = {
+				geo_leo1_entity
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			models = {
+				GER_modern_armor1_entity
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			models = {
+				GER_modern_armor1_entity
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			models = {
+				ENG_modern_armor1_entity
+			}
+		}
+	}
+}
+
+JAP = {
+	light_tank_chassis_1 = {
+		pool = {
+			models = {
+				JAP_light_armor_entity
+				JAP_light_armor_2_entity
+				JAP_light_sp_anti_air_brigade_1_entity
+				JAP_light_sp_anti_air_brigade_2_entity
+				JAP_light_sp_artillery_brigade_2_entity
+				JAP_light_tank_destroyer_brigade_2_entity
+				JAP_light_armor_0_entity
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			models = {
+				JAP_light_armor_2_entity
+				JAP_light_armor_0_entity
+				JAP_light_sp_anti_air_brigade_1_entity
+				JAP_light_sp_anti_air_brigade_2_entity
+				JAP_light_sp_artillery_brigade_2_entity
+				JAP_light_tank_destroyer_brigade_2_entity
+				JAP_light_armor_entity
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			models = {
+				JAP_light_armor_entity
+				JAP_light_armor_0_entity
+				JAP_light_sp_anti_air_brigade_1_entity
+				JAP_light_sp_anti_air_brigade_2_entity
+				JAP_light_sp_artillery_brigade_2_entity
+				JAP_light_tank_destroyer_brigade_2_entity
+				JAP_light_armor_2_entity
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			models = {
+				JAP_medium_armor_entity
+				JAP_medium_armor_2_entity
+				JAP_medium_sp_artillery_brigade_0_entity
+				JAP_medium_sp_artillery_brigade_1_entity
+				JAP_medium_sp_artillery_brigade_2_entity
+				JAP_medium_tank_destroyer_brigade_0_entity
+				JAP_medium_tank_destroyer_brigade_1_entity
+				JAP_medium_tank_destroyer_brigade_2_entity
+				JAP_medium_armor_1_entity
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			models = {
+				JAP_medium_armor_entity
+				JAP_medium_armor_2_entity
+				JAP_medium_sp_artillery_brigade_0_entity
+				JAP_medium_sp_artillery_brigade_1_entity
+				JAP_medium_sp_artillery_brigade_2_entity
+				JAP_medium_tank_destroyer_brigade_0_entity
+				JAP_medium_tank_destroyer_brigade_1_entity
+				JAP_medium_tank_destroyer_brigade_2_entity
+				JAP_medium_armor_1_entity
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			models = {
+				JAP_medium_armor_2_entity
+				JAP_medium_armor_1_entity
+				JAP_medium_sp_artillery_brigade_0_entity
+				JAP_medium_sp_artillery_brigade_1_entity
+				JAP_medium_sp_artillery_brigade_2_entity
+				JAP_medium_tank_destroyer_brigade_0_entity
+				JAP_medium_tank_destroyer_brigade_1_entity
+				JAP_medium_tank_destroyer_brigade_2_entity
+				JAP_medium_armor_entity
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			models = {
+				JAP_medium_armor_entity
+				JAP_medium_armor_1_entity
+				JAP_medium_sp_artillery_brigade_0_entity
+				JAP_medium_sp_artillery_brigade_1_entity
+				JAP_medium_sp_artillery_brigade_2_entity
+				JAP_medium_tank_destroyer_brigade_0_entity
+				JAP_medium_tank_destroyer_brigade_1_entity
+				JAP_medium_tank_destroyer_brigade_2_entity
+				JAP_medium_armor_2_entity
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			models = {
+				JAP_heavy_armor_entity
+				JAP_heavy_armor_2_entity
+				JAP_heavy_sp_artillery_brigade_0_entity
+				JAP_heavy_sp_artillery_brigade_1_entity
+				JAP_heavy_tank_destroyer_brigade_0_entity
+				JAP_heavy_tank_destroyer_brigade_1_entity
+				JAP_heavy_armor_1_entity
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			models = {
+				JAP_heavy_armor_entity
+				JAP_heavy_armor_2_entity
+				JAP_heavy_sp_artillery_brigade_0_entity
+				JAP_heavy_sp_artillery_brigade_1_entity
+				JAP_heavy_tank_destroyer_brigade_0_entity
+				JAP_heavy_tank_destroyer_brigade_1_entity
+				JAP_heavy_armor_1_entity
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			models = {
+				JAP_heavy_armor_2_entity
+				JAP_heavy_armor_1_entity
+				JAP_heavy_sp_artillery_brigade_0_entity
+				JAP_heavy_sp_artillery_brigade_1_entity
+				JAP_heavy_tank_destroyer_brigade_0_entity
+				JAP_heavy_tank_destroyer_brigade_1_entity
+				JAP_heavy_armor_entity
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			models = {
+				JAP_heavy_armor_entity
+				JAP_heavy_armor_1_entity
+				JAP_heavy_sp_artillery_brigade_0_entity
+				JAP_heavy_sp_artillery_brigade_1_entity
+				JAP_heavy_tank_destroyer_brigade_0_entity
+				JAP_heavy_tank_destroyer_brigade_1_entity
+				JAP_heavy_armor_2_entity
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			models = {
+				USA_M48_entity
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			models = {
+				USA_M48_entity
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			models = {
+				USA_M48_entity
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			models = {
+				USA_M48_entity
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			models = {
+				JAP_modern_armor2_entity
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			models = {
+				JAP_modern_armor2_entity
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			models = {
+				JAP_modern_armor2_entity
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			models = {
+				JAP_modern_armor2_entity
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			models = {
+				TYPE90_entity
+			}
+		}
+	}
+}
+
+MEX = {
+}
+
+NZL = {
+}
+
+POL = {
+}
+
+POR = {
+}
+
+PRC = {
+	amphibious_tank_chassis_2 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	amphibious_tank_chassis_4 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	amphibious_tank_chassis_5 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			models = {
+				PRC_modern_tank1_entity
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			models = {
+				PRC_modern_tank1_entity
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			models = {
+				PRC_modern_tank1_entity
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			models = {
+				PRC_modern_tank1_entity
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			models = {
+				PRC_modern_tank1_entity
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			models = {
+				SOV_t72_entity
+				SOV_t72desert_entity
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			models = {
+				SOV_t72_entity
+				SOV_t72desert_entity
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			models = {
+				SOV_t72_entity
+				SOV_t72desert_entity
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			models = {
+				ZTZ96_entity
+			}
+		}
+	}
+}
+
+RAJ = {
+}
+
+ROM = {
+}
+
+SAF = {
+}
+
+SHX = {
+}
+
+SIK = {
+}
+
+SOV = {
+	light_tank_chassis_1 = {
+		pool = {
+			models = {
+				SOV_light_armor_2_entity
+				SOV_light_armor_entity
+				SOV_light_tank_destroyer_brigade_1_entity
+				SOV_light_sp_artillery_brigade_1_entity
+				SOV_light_tank_destroyer_brigade_2_entity
+				SOV_light_sp_artillery_brigade_2_entity
+				SOV_light_tank_destroyer_brigade_0_entity
+				SOV_light_armor_0_entity
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			models = {
+				SOV_light_armor_0_entity
+				SOV_light_armor_2_entity
+				SOV_light_tank_destroyer_brigade_1_entity
+				SOV_light_sp_artillery_brigade_1_entity
+				SOV_light_tank_destroyer_brigade_2_entity
+				SOV_light_sp_artillery_brigade_2_entity
+				SOV_light_tank_destroyer_brigade_0_entity
+				SOV_light_armor_entity
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			models = {
+				SOV_light_armor_0_entity
+				SOV_light_armor_entity
+				SOV_light_tank_destroyer_brigade_1_entity
+				SOV_light_sp_artillery_brigade_1_entity
+				SOV_light_tank_destroyer_brigade_2_entity
+				SOV_light_sp_artillery_brigade_2_entity
+				SOV_light_tank_destroyer_brigade_0_entity
+				SOV_light_armor_2_entity
+			}
+		}
+	}
+	light_tank_chassis_4 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	light_tank_chassis_5 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	light_tank_chassis_6 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	light_tank_chassis_7 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	light_tank_chassis_8 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	light_tank_chassis_9 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			models = {
+				SOV_medium_armor_2_entity
+				SOV_medium_armor_entity
+				SOV_medium_armor_0_entity
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			models = {
+				SOV_medium_armor_2_entity
+				SOV_medium_armor_entity
+				SOV_medium_tank_destroyer_brigade_1_entity
+				SOV_medium_tank_destroyer_brigade_2_entity
+				SOV_medium_sp_artillery_brigade_1_entity
+				SOV_medium_sp_anti_air_brigade_0_entity
+				SOV_medium_sp_anti_air_brigade_2_entity
+				SOV_medium_armor_0_entity
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			models = {
+				SOV_medium_armor_2_entity
+				SOV_medium_armor_0_entity
+				SOV_medium_tank_destroyer_brigade_1_entity
+				SOV_medium_tank_destroyer_brigade_2_entity
+				SOV_medium_sp_artillery_brigade_1_entity
+				SOV_medium_sp_anti_air_brigade_0_entity
+				SOV_medium_sp_anti_air_brigade_2_entity
+				SOV_medium_armor_entity
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			models = {
+				SOV_medium_armor_entity
+				SOV_medium_armor_0_entity
+				SOV_medium_tank_destroyer_brigade_1_entity
+				SOV_medium_tank_destroyer_brigade_2_entity
+				SOV_medium_sp_artillery_brigade_1_entity
+				SOV_medium_sp_anti_air_brigade_0_entity
+				SOV_medium_sp_anti_air_brigade_2_entity
+				SOV_medium_armor_2_entity
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			models = {
+				SOV_heavy_armor_entity
+				SOV_heavy_armor_2_entity
+				SOV_heavy_tank_destroyer_brigade_2_entity
+				SOV_heavy_sp_artillery_brigade_2_entity
+				SOV_heavy_sp_artillery_brigade_0_entity
+				SOV_heavy_armor_0_entity
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			models = {
+				SOV_heavy_armor_entity
+				SOV_heavy_armor_2_entity
+				SOV_heavy_tank_destroyer_brigade_2_entity
+				SOV_heavy_sp_artillery_brigade_2_entity
+				SOV_heavy_sp_artillery_brigade_0_entity
+				SOV_heavy_armor_0_entity
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			models = {
+				SOV_heavy_armor_0_entity
+				SOV_heavy_armor_2_entity
+				SOV_heavy_tank_destroyer_brigade_2_entity
+				SOV_heavy_sp_artillery_brigade_2_entity
+				SOV_heavy_sp_artillery_brigade_0_entity
+				SOV_heavy_armor_entity
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			models = {
+				SOV_heavy_armor_entity
+				SOV_heavy_armor_0_entity
+				SOV_heavy_tank_destroyer_brigade_2_entity
+				SOV_heavy_sp_artillery_brigade_2_entity
+				SOV_heavy_sp_artillery_brigade_0_entity
+				SOV_heavy_armor_2_entity
+			}
+		}
+	}
+	heavy_tank_chassis_4 = {
+		pool = {
+			models = {
+				IS3_entity
+			}
+		}
+	}
+	heavy_tank_chassis_5 = {
+		pool = {
+			models = {
+				IS4_entity
+			}
+		}
+	}
+	heavy_tank_chassis_6 = {
+		pool = {
+			models = {
+				IS4_entity
+			}
+		}
+	}
+	amphibious_tank_chassis_2 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	amphibious_tank_chassis_3 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	amphibious_tank_chassis_4 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	amphibious_tank_chassis_5 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	para_tank_chassis_1 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	para_tank_chassis_2 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	para_tank_chassis_3 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			models = {
+				PRC_modern_tank1_entity
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			models = {
+				PRC_modern_tank1_entity
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			models = {
+				PRC_modern_tank1_entity
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			models = {
+				SOV_t64bv_entity
+				SOV_t64_entity
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			models = {
+				SOV_t72desert_entity
+				SOV_t72_entity
+				SOV_t72bv_entity
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			models = {
+				SOV_2S19_entity
+				SOV_t72desert_entity
+				SOV_t72_entity
+				SOV_t72bv_entity
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			models = {
+				SOV_2S19_entity
+				SOV_t80b_entity
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			models = {
+				SOV_2S19_entity
+				SOV_t80bv_entity
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			models = {
+				SOV_2S19_entity
+				T90A_entity
+			}
+		}
+	}
+}
+
+SPR = {
+}
+
+SWE = {
+	modern_tank_chassis_4 = {
+		pool = {
+			models = {
+				STRV103_entity
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			models = {
+				STRV103_entity
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			models = {
+				geo_leo1a5_entity
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			models = {
+				GER_modern_armor1_entity
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			models = {
+				STRV103_entity
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			models = {
+				GER_leopard2A5_entity
+			}
+		}
+	}
+}
+
+USA = {
+	light_tank_chassis_1 = {
+		pool = {
+			models = {
+				USA_light_armor_2_entity
+				# USA_light_armor_entity
+				USA_light_tank_destroyer_brigade_1_entity
+				USA_light_tank_destroyer_brigade_2_entity
+				USA_light_tank_destroyer_brigade_0_entity
+				USA_light_sp_artillery_brigade_0_entity
+				USA_light_sp_artillery_brigade_1_entity
+				USA_light_sp_anti_air_brigade_1_entity
+				USA_light_sp_anti_air_brigade_2_entity
+				USA_light_armor_0_entity
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			models = {
+				USA_light_armor_2_entity
+				USA_light_armor_0_entity
+				USA_light_tank_destroyer_brigade_1_entity
+				USA_light_tank_destroyer_brigade_2_entity
+				USA_light_tank_destroyer_brigade_0_entity
+				USA_light_sp_artillery_brigade_0_entity
+				USA_light_sp_artillery_brigade_1_entity
+				USA_light_sp_anti_air_brigade_1_entity
+				USA_light_sp_anti_air_brigade_2_entity
+				# USA_light_armor_entity
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			models = {
+				# USA_light_armor_entity
+				USA_light_armor_0_entity
+				USA_light_tank_destroyer_brigade_1_entity
+				USA_light_tank_destroyer_brigade_2_entity
+				USA_light_tank_destroyer_brigade_0_entity
+				USA_light_sp_artillery_brigade_0_entity
+				USA_light_sp_artillery_brigade_1_entity
+				USA_light_sp_anti_air_brigade_1_entity
+				USA_light_sp_anti_air_brigade_2_entity
+				USA_light_armor_2_entity
+			}
+		}
+	}
+	light_tank_chassis_4 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	light_tank_chassis_5 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	light_tank_chassis_6 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	light_tank_chassis_7 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	light_tank_chassis_8 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	light_tank_chassis_9 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			models = {
+				USA_medium_armor_2_entity
+				USA_medium_armor_entity
+				USA_medium_tank_destroyer_brigade_0_entity
+				USA_medium_tank_destroyer_brigade_1_entity
+				USA_medium_tank_destroyer_brigade_2_entity
+				USA_medium_sp_artillery_brigade_0_entity
+				USA_medium_sp_artillery_brigade_1_entity
+				USA_medium_sp_artillery_brigade_2_entity
+				USA_medium_sp_anti_air_brigade_1_entity
+				USA_medium_sp_anti_air_brigade_0_entity
+				USA_medium_armor_0_entity
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			models = {
+				USA_medium_armor_2_entity
+				USA_medium_armor_entity
+				USA_medium_tank_destroyer_brigade_0_entity
+				USA_medium_tank_destroyer_brigade_1_entity
+				USA_medium_tank_destroyer_brigade_2_entity
+				USA_medium_sp_artillery_brigade_0_entity
+				USA_medium_sp_artillery_brigade_1_entity
+				USA_medium_sp_artillery_brigade_2_entity
+				USA_medium_sp_anti_air_brigade_1_entity
+				USA_medium_sp_anti_air_brigade_0_entity
+				USA_medium_armor_0_entity
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			models = {
+				USA_medium_armor_2_entity
+				USA_medium_armor_0_entity
+				USA_medium_tank_destroyer_brigade_0_entity
+				USA_medium_tank_destroyer_brigade_1_entity
+				USA_medium_tank_destroyer_brigade_2_entity
+				USA_medium_sp_artillery_brigade_0_entity
+				USA_medium_sp_artillery_brigade_1_entity
+				USA_medium_sp_artillery_brigade_2_entity
+				USA_medium_sp_anti_air_brigade_1_entity
+				USA_medium_sp_anti_air_brigade_0_entity
+				USA_medium_armor_entity
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			models = {
+				USA_medium_armor_entity
+				USA_medium_armor_0_entity
+				USA_medium_tank_destroyer_brigade_0_entity
+				USA_medium_tank_destroyer_brigade_1_entity
+				USA_medium_tank_destroyer_brigade_2_entity
+				USA_medium_sp_artillery_brigade_0_entity
+				USA_medium_sp_artillery_brigade_1_entity
+				USA_medium_sp_artillery_brigade_2_entity
+				USA_medium_sp_anti_air_brigade_1_entity
+				USA_medium_sp_anti_air_brigade_0_entity
+				USA_medium_armor_2_entity
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			models = {
+				USA_heavy_armor_entity
+				USA_heavy_tank_destroyer_brigade_0_entity
+				USA_heavy_sp_artillery_brigade_1_entity
+				USA_heavy_armor_0_entity
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			models = {
+				USA_heavy_armor_entity
+				USA_heavy_tank_destroyer_brigade_0_entity
+				USA_heavy_sp_artillery_brigade_1_entity
+				USA_heavy_armor_0_entity
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			models = {
+				USA_heavy_armor_0_entity
+				USA_heavy_tank_destroyer_brigade_0_entity
+				USA_heavy_sp_artillery_brigade_1_entity
+				USA_heavy_armor_entity
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			models = {
+				USA_heavy_armor_entity
+				USA_heavy_tank_destroyer_brigade_0_entity
+				USA_heavy_sp_artillery_brigade_1_entity
+				USA_heavy_armor_0_entity
+			}
+		}
+	}
+	heavy_tank_chassis_4 = {
+		pool = {
+			models = {
+				M103_entity
+			}
+		}
+	}
+	heavy_tank_chassis_5 = {
+		pool = {
+			models = {
+				M103_entity
+				M109_entity
+			}
+		}
+	}
+	heavy_tank_chassis_6 = {
+		pool = {
+			models = {
+				M103_entity
+				M109_entity
+			}
+		}
+	}
+	amphibious_tank_chassis = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	para_tank_chassis_1 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	para_tank_chassis_2 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	para_tank_chassis_3 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	para_tank_chassis_4 = {
+		pool = {
+			models = {
+				# USA_light_modern_tank_entity
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			models = {
+				USA_M48_entity
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			models = {
+				USA_M60_entity
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			models = {
+				USA_M60_entity
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			models = {
+				USA_M60_entity
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			models = {
+				M109_entity
+				USA_M60_entity
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			models = {
+				M109_entity
+				USA_M60_entity
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			models = {
+				M109_entity
+				USA_M1A1F_entity
+				USA_M1A1D_entity
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			models = {
+				M109_entity
+				USA_M1A1F_entity
+				USA_M1A1D_entity
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			models = {
+				M109_entity
+				USA_M1A2F_entity
+				USA_M1A2D_entity
+			}
+		}
+	}
+}
+
+XSM = {
+}
+
+YUG = {
+	light_tank_chassis_5 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	light_tank_chassis_6 = {
+		pool = {
+			models = {
+				PT76_entity
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			models = {
+				PRC_modern_tank1_entity
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			models = {
+				PRC_modern_tank1_entity
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			models = {
+				PRC_modern_tank1_entity
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			models = {
+				SOV_t72_entity
+				SOV_t72desert_entity
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			models = {
+				SOV_t72_entity
+				SOV_t72desert_entity
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			models = {
+				YUG_m84_entity
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			models = {
+				YUG_m84AB_entity
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			models = {
+				YUG_m84AB_entity
+			}
+		}
+	}
+}
+
+YUN = {
+}
+
+default = {
+	light_tank_chassis_1 = {
+		pool = {
+			models = {
+				GER_light_armor_2_entity
+				GER_light_armor_entity
+				GER_light_armor_0_entity
+				SOV_light_armor_2_entity
+				SOV_light_armor_entity
+				SOV_light_armor_0_entity
+				USA_light_armor_2_entity
+				# USA_light_armor_entity
+				USA_light_armor_0_entity
+				ENG_light_armor_2_entity
+				ENG_light_armor_1_entity
+				FRA_light_armor_entity
+				FRA_light_armor_2_entity
+				FRA_light_armor_0_entity
+				JAP_light_armor_entity
+				JAP_light_armor_2_entity
+				JAP_light_armor_0_entity
+				ITA_light_armor_entity
+				ITA_light_armor_1_entity
+				commonwealth_gfx_light_armor_entity
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			models = {
+				SOV_light_armor_0_entity
+				SOV_light_armor_2_entity
+				SOV_light_armor_entity
+				USA_light_armor_2_entity
+				USA_light_armor_0_entity
+				# USA_light_armor_entity
+				ENG_light_armor_2_entity
+				commonwealth_gfx_light_armor_entity
+				ENG_light_armor_1_entity
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			models = {
+				GER_light_armor_entity
+				GER_light_armor_0_entity
+				GER_light_armor_2_entity
+				SOV_light_armor_0_entity
+				SOV_light_armor_entity
+				SOV_light_armor_2_entity
+				# USA_light_armor_entity
+				USA_light_armor_0_entity
+				USA_light_armor_2_entity
+				ENG_light_armor_1_entity
+				ENG_light_armor_2_entity
+				FRA_light_armor_entity
+				FRA_light_armor_0_entity
+				FRA_light_armor_2_entity
+				JAP_light_armor_entity
+				JAP_light_armor_0_entity
+				JAP_light_armor_2_entity
+				ITA_light_armor_entity
+				ITA_light_armor_1_entity
+			}
+		}
+	}
+	light_tank_chassis_4 = {
+		pool = {
+			models = {
+				PT76_entity
+				# USA_light_modern_tank_entity
+				m24_entity
+			}
+		}
+	}
+	light_tank_chassis_5 = {
+		pool = {
+			models = {
+				PT76_entity
+				# USA_light_modern_tank_entity
+				AMX13_entity
+			}
+		}
+	}
+	light_tank_chassis_6 = {
+		pool = {
+			models = {
+				PT76_entity
+				# USA_light_modern_tank_entity
+				AMX13_entity
+			}
+		}
+	}
+	light_tank_chassis_7 = {
+		pool = {
+			models = {
+				PT76_entity
+				# USA_light_modern_tank_entity
+				AMX13_entity
+			}
+		}
+	}
+	light_tank_chassis_8 = {
+		pool = {
+			models = {
+				PT76_entity
+				# USA_light_modern_tank_entity
+				AMX13_entity
+			}
+		}
+	}
+	light_tank_chassis_9 = {
+		pool = {
+			models = {
+				PT76_entity
+				# USA_light_modern_tank_entity
+				AMX13_entity
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			models = {
+				GER_medium_armor_2_entity
+				GER_medium_armor_entity
+				GER_medium_armor_0_entity
+				SOV_medium_armor_2_entity
+				SOV_medium_armor_entity
+				SOV_medium_armor_0_entity
+				USA_medium_armor_2_entity
+				USA_medium_armor_entity
+				USA_medium_armor_0_entity
+				ENG_medium_armor_2_entity
+				ENG_medium_armor_1_entity
+				FRA_medium_armor_entity
+				FRA_medium_armor_2_entity
+				FRA_medium_armor_1_entity
+				JAP_medium_armor_entity
+				JAP_medium_armor_2_entity
+				JAP_medium_armor_1_entity
+				ITA_medium_armor_entity
+				ITA_medium_armor_1_entity
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			models = {
+				GER_medium_armor_2_entity
+				GER_medium_armor_entity
+				GER_medium_armor_0_entity
+				SOV_medium_armor_2_entity
+				SOV_medium_armor_entity
+				SOV_medium_armor_0_entity
+				USA_medium_armor_2_entity
+				USA_medium_armor_entity
+				USA_medium_armor_0_entity
+				ENG_medium_armor_2_entity
+				ENG_medium_armor_1_entity
+				FRA_medium_armor_entity
+				FRA_medium_armor_2_entity
+				FRA_medium_armor_1_entity
+				JAP_medium_armor_entity
+				JAP_medium_armor_2_entity
+				JAP_medium_armor_1_entity
+				ITA_medium_armor_entity
+				ITA_medium_armor_1_entity
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			models = {
+				GER_medium_armor_2_entity
+				GER_medium_armor_entity
+				GER_medium_armor_0_entity
+				SOV_medium_armor_2_entity
+				SOV_medium_armor_entity
+				SOV_medium_armor_0_entity
+				USA_medium_armor_2_entity
+				USA_medium_armor_entity
+				USA_medium_armor_0_entity
+				ENG_medium_armor_2_entity
+				ENG_medium_armor_1_entity
+				FRA_medium_armor_entity
+				FRA_medium_armor_2_entity
+				FRA_medium_armor_1_entity
+				JAP_medium_armor_entity
+				JAP_medium_armor_2_entity
+				JAP_medium_armor_1_entity
+				ITA_medium_armor_entity
+				ITA_medium_armor_1_entity
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			models = {
+				GER_heavy_armor_2_entity
+				GER_heavy_armor_entity
+				GER_heavy_armor_0_entity
+				SOV_heavy_armor_entity
+				SOV_heavy_armor_2_entity
+				SOV_heavy_armor_0_entity
+				USA_heavy_armor_entity
+				USA_heavy_armor_0_entity
+				ENG_heavy_armor_2_entity
+				ENG_heavy_armor_0_entity
+				FRA_heavy_armor_entity
+				FRA_heavy_armor_2_entity
+				FRA_heavy_armor_0_entity
+				JAP_heavy_armor_entity
+				JAP_heavy_armor_2_entity
+				JAP_heavy_armor_1_entity
+				ITA_heavy_armor_entity
+				ITA_heavy_armor_2_entity
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			models = {
+				GER_heavy_armor_2_entity
+				GER_heavy_armor_entity
+				GER_heavy_armor_0_entity
+				SOV_heavy_armor_entity
+				SOV_heavy_armor_2_entity
+				SOV_heavy_armor_0_entity
+				USA_heavy_armor_entity
+				USA_heavy_armor_0_entity
+				ENG_heavy_armor_2_entity
+				ENG_heavy_armor_0_entity
+				FRA_heavy_armor_entity
+				FRA_heavy_armor_2_entity
+				FRA_heavy_armor_0_entity
+				JAP_heavy_armor_entity
+				JAP_heavy_armor_2_entity
+				JAP_heavy_armor_1_entity
+				ITA_heavy_armor_entity
+				ITA_heavy_armor_2_entity
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			models = {
+				GER_heavy_armor_2_entity
+				GER_heavy_armor_entity
+				GER_heavy_armor_0_entity
+				SOV_heavy_armor_entity
+				SOV_heavy_armor_2_entity
+				SOV_heavy_armor_0_entity
+				USA_heavy_armor_entity
+				USA_heavy_armor_0_entity
+				ENG_heavy_armor_2_entity
+				ENG_heavy_armor_0_entity
+				FRA_heavy_armor_entity
+				FRA_heavy_armor_2_entity
+				FRA_heavy_armor_0_entity
+				JAP_heavy_armor_entity
+				JAP_heavy_armor_2_entity
+				JAP_heavy_armor_1_entity
+				ITA_heavy_armor_entity
+				ITA_heavy_armor_2_entity
+			}
+		}
+	}
+	heavy_tank_chassis_4 = {
+		pool = {
+			models = {
+				IS3_entity
+				M103_entity
+				arl44_entity
+			}
+		}
+	}
+	heavy_tank_chassis_5 = {
+		pool = {
+			models = {
+				IS4_entity
+				M109_entity
+			}
+		}
+	}
+	heavy_tank_chassis_6 = {
+		pool = {
+			models = {
+				IS4_entity
+				M103_entity
+				arl44_entity
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			models = {
+				geo_leo1_entity
+				PRC_modern_tank1_entity
+				USA_M48_entity
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			models = {
+				geo_leo1_entity
+				PRC_modern_tank1_entity
+				USA_M48_entity
+				USA_M60_entity
+				amx50_entity
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			models = {
+				geo_leo1_entity
+				PRC_modern_tank1_entity
+				USA_M48_entity
+				USA_M60_entity
+				amx50_entity
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			models = {
+				geo_leo1_entity
+				SOV_t64bv_entity
+				SOV_t64_entity
+				USA_M60_entity
+				USA_M48_entity
+				STRV103_entity
+				FRA_modern_armor1_entity
+				PRC_modern_tank1_entity
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			models = {
+				geo_leo1a5_entity
+				SOV_t72desert_entity
+				SOV_t72_entity
+				SOV_t72bv_entity
+				SOV_t64bv_entity
+				SOV_t64_entity
+				STRV103_entity
+				FRA_modern_armor1_entity
+				JAP_modern_armor2_entity
+				geo_leo1_entity
+				SOV_t72_entity
+				SOV_t72desert_entity
+				PRC_modern_tank1_entity
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			models = {
+				geo_leo1a5_entity
+				SOV_t72desert_entity
+				SOV_t72_entity
+				SOV_t72bv_entity
+				USA_M60_entity
+				USA_M48_entity
+				SOV_t64bv_entity
+				SOV_t64_entity
+				geo_leo1a5_entity
+				FRA_modern_armor1_entity
+				JAP_modern_armor2_entity
+				geo_leo1_entity
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			models = {
+				GER_modern_armor1_entity
+				SOV_t80b_entity
+				USA_M1A1F_entity
+				USA_M1A1D_entity
+				SOV_t72_entity
+				SOV_t72desert_entity
+				SOV_T72B3_entity
+				ENG_modern_armor1_entity
+				FRA_modern_armor1_entity
+				JAP_modern_armor2_entity
+				YUG_m84_entity
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			models = {
+				GER_modern_armor1_entity
+				SOV_t80bv_entity
+				USA_M1A1F_entity
+				USA_M1A1D_entity
+				SOV_t72_entity
+				SOV_t72desert_entity
+				SOV_T72B3_entity
+				SOV_T72B3obr16_entity
+				SOV_t72bv_entity
+				STRV103_entity
+				ENG_modern_armor1_entity
+				FRA_modern_armor1_entity
+				JAP_modern_armor2_entity
+				YUG_m84_entity
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			models = {
+				GER_leopard2A5_entity
+				T90A_entity
+				USA_M1A2F_entity
+				USA_M1A2D_entity
+				GER_modern_armor1_entity
+				SOV_t72_entity
+				SOV_T72B3_entity
+				SOV_T72B3obr16_entity
+				SOV_t72desert_entity
+				SOV_t72bv_entity
+				ENG_modern_armor1_entity
+				LECLERC_entity
+				TYPE90_entity
+				YUG_m84AB_entity
+				ZTZ96_entity
+			}
+		}
+	}
+}

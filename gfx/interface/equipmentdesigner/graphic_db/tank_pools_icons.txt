@@ -1,0 +1,4946 @@
+AST = {
+	light_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/AST_basic_light_tank.dds"
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/AST_imp_light_tank.dds"
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/AST_adv_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACC.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/AST/medium_tank_chassis_0_icon_16.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAC.dds"
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/AST_basic_main_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/AST_imp_main_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/AST_adv_main_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACA_camo.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/AST/heavy_tank_chassis_0_icon_1.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACC_camo.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/AST_basic_heavy_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/AST_imp_heavy_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/AST_adv_heavy_tank.dds"
+			}
+		}
+	}
+}
+
+BRA = {
+	light_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_4_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_5_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_5_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_6_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_6_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_6_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_7_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_7_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_7_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_8_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_8_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_8_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_9_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_9_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_9_icon_3.dds"
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ACA.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/medium_tank_chassis_0_icon_14.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ABA.dds"
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/medium_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/medium_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/medium_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ACB.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_0_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_4_icon_3.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_5_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_5_icon_3.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_6_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_6_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_6_icon_3.dds"
+			}
+		}
+	}
+	amphibious_tank_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/amphibious_tank_chassis_icon_1.dds"
+			}
+		}
+	}
+	para_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_1_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_1_icon_3.dds"
+			}
+		}
+	}
+	para_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_2_icon_3.dds"
+			}
+		}
+	}
+	para_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_3_icon_3.dds"
+			}
+		}
+	}
+	para_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_4_icon_3.dds"
+			}
+		}
+	}
+	wheeled_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/wheeled_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/wheeled_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/wheeled_tank_chassis_2_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_1_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_1_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_2_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_3_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_4_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_5_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_5_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_6_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_7_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_8_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_8_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_8_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_9_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_9_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_9_icon_3.dds"
+			}
+		}
+	}
+}
+
+CAN = {
+	light_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/CAN_basic_light_tank.dds"
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/CAN_imp_light_tank.dds"
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/CAN_adv_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACC.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/AST/medium_tank_chassis_0_icon_16.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAC.dds"
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/CAN_basic_main_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/CAN_imp_main_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/CAN_adv_main_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACA_camo.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/AST/heavy_tank_chassis_0_icon_1.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACC_camo.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/CAN_basic_heavy_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/CAN_imp_heavy_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/CAN_adv_heavy_tank.dds"
+			}
+		}
+	}
+}
+
+CHI = {
+	light_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/chi_gwtank.dds"
+				"gfx/interface/technologies/chi_imp_light_tank.dds"
+				"gfx/interface/technologies/chi_adv_light_tank.dds"
+				"gfx/interface/technologies/chi_basic_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/chi_basic_medium_tank.dds"
+				"gfx/interface/technologies/chi_imp_medium_tank.dds"
+				"gfx/interface/technologies/chi_adv_medium_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/chi_imp_heavy_tank.dds"
+				"gfx/interface/technologies/chi_basic_heavy_tank.dds"
+				"gfx/interface/technologies/chi_adv_heavy_tank.dds"
+			}
+		}
+	}
+}
+
+CZE = {
+	light_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_1_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_1_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_1_icon_4.dds"
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_2_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_2_icon_4.dds"
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_3_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_3_icon_4.dds"
+			}
+		}
+	}
+	light_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_4_icon_3.dds"
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/medium_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/medium_tank_chassis_1_icon_2.dds"
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/medium_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/medium_tank_chassis_2_icon_2.dds"
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/medium_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/medium_tank_chassis_3_icon_2.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_fixed_CFB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_fixed_CFC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_fixed_CFA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_AA_C.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_1_icon_14.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CCB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBA_camo.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/ger_improved_heavy_td.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/ger_advanced_heavy_td.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_4_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_5_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_6_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_6_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_6_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_6_icon_4.dds"
+			}
+		}
+	}
+	# amphibious_tank_chassis = {
+	# 	pool = {
+	# 		icons = {
+	# 			"gfx/interface/technologies/CZE/AMPHIB1.dds"
+	# 		}
+	# 	}
+	# }
+	wheeled_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/wheeled_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/wheeled_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/wheeled_tank_chassis_3_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_4_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_5_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_6_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_7_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_8_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_8_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_8_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_9_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_9_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_9_icon_3.dds"
+			}
+		}
+	}
+}
+
+ENG = {
+	light_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/light_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/light_tank_chassis_1_icon_2.dds"
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/light_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/light_tank_chassis_1_icon_2.dds"
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/light_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/light_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/light_tank_chassis_3_icon_3.dds"
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACC.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/AST/medium_tank_chassis_0_icon_16.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAC.dds"
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/medium_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/medium_tank_chassis_1_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/medium_tank_chassis_1_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/medium_tank_chassis_1_icon_4.dds"
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/medium_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/medium_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/medium_tank_chassis_2_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/medium_tank_chassis_2_icon_4.dds"
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/medium_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/medium_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/medium_tank_chassis_3_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/medium_tank_chassis_3_icon_4.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACA_camo.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/AST/heavy_tank_chassis_0_icon_1.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACC_camo.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/heavy_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/heavy_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/heavy_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_4_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_5_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_6_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_7_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_8_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_9_icon_1.dds"
+			}
+		}
+	}
+}
+
+FIN = {
+	# light_tank_chassis_0 = {
+	# 	pool = {
+	# 		icons = {
+	# 			"gfx/interface/technologies/FIN/LAND/gwtank.dds"
+	# 		}
+	# 	}
+	# }
+	light_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FIN/light_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FIN/light_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FIN/light_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FIN/light_tank_chassis_4_icon_1.dds"
+			}
+		}
+	}
+}
+
+FRA = {
+	light_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_light_CCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_light_CAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_light_CBB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_light_CCB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_light_CBC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_light_CAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_light_CAA_camo.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_3_icon_17.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_light_CBA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_light_CBA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_light_CAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_light_CAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_light_CBB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_light_CAA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_light_CCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_light_CBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_light_CCA.dds"
+			}
+		}
+	}
+	light_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_4_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_5_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_6_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_7_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_8_icon_1.dds"
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_medium_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_medium_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_medium_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_medium_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_medium_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_medium_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_medium_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_medium_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_medium_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_medium_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_medium_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_medium_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_medium_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_medium_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_medium_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_medium_AAC.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/medium_tank_chassis_0_icon_17.dds"
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/medium_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/medium_tank_chassis_1_icon_2.dds"
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/medium_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/medium_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/medium_tank_chassis_2_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/medium_tank_chassis_2_icon_4.dds"
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/medium_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/medium_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/medium_tank_chassis_3_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/medium_tank_chassis_3_icon_4.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_heavy_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_heavy_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_heavy_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_heavy_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_heavy_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_heavy_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_heavy_ACC_camo.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/heavy_tank_chassis_0_icon_10.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_heavy_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_heavy_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_heavy_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_heavy_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_heavy_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_heavy_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_heavy_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_heavy_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/FRA/FRA_heavy_ABC.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/heavy_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/heavy_tank_chassis_1_icon_2.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/heavy_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/heavy_tank_chassis_2_icon_2.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/heavy_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/heavy_tank_chassis_5_icon_1.dds"
+			}
+		}
+	}
+	wheeled_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/wheeled_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	wheeled_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/wheeled_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/wheeled_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/wheeled_tank_chassis_3_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_4_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_5_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_6_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_7_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_8_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_9_icon_1.dds"
+			}
+		}
+	}
+}
+
+GER = {
+	light_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/ger_basic_light_td.dds"
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/ger_improved_light_td.dds"
+				"gfx/interface/technologies/ger_improved_light_art.dds"
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_light_CCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_light_CAA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_light_CCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_light_CAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_light_CBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_light_CBA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_light_CCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_light_CBB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_light_CAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_light_CAC.dds"
+				# "gfx/interface/equipmentdesigner/tanks/designer/GER/GER_light_AA_tank_C.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_light_CBB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_light_CAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_light_CBA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_light_CAA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_light_CCB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_light_CBC.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_3_icon_10.dds"
+			}
+		}
+	}
+	light_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/GER/l1SPG.dds"
+				"gfx/interface/technologies/GER/l1AA.dds"
+				"gfx/interface/technologies/GER/l1TD.dds"
+				"gfx/interface/technologies/GER/l1.dds"
+			}
+		}
+	}
+	light_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/GER/light_tank_chassis_6_icon_1.dds"
+				"gfx/interface/technologies/GER/l2SPG.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/light_tank_chassis_6_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_6_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_7_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/light_tank_chassis_7_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/light_tank_chassis_7_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/light_tank_chassis_7_icon_4.dds"
+			}
+		}
+	}
+	light_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/GER/light_tank_chassis_8_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_8_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/light_tank_chassis_8_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/light_tank_chassis_8_icon_4.dds"
+			}
+		}
+	}
+	light_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_9_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/light_tank_chassis_8_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/light_tank_chassis_8_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/light_tank_chassis_8_icon_3.dds"
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_medium_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_medium_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_medium_ABB.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_1_icon_2.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_medium_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_medium_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_medium_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_medium_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_medium_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_medium_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_medium_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_medium_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_medium_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_medium_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_medium_AA_A.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_medium_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_medium_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_medium_ABC.dds"
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/ger_basic_medium_td.dds"
+				"gfx/interface/technologies/ger_basic_medium_art.dds"
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/ger_improved_medium_td.dds"
+				"gfx/interface/technologies/ger_improved_medium_spaa.dds"
+				"gfx/interface/technologies/ger_improved_medium_art.dds"
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/ger_advanced_medium_td.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_fixed_CFB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_fixed_CFC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_fixed_CFA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_AA_C.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_1_icon_14.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CCB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBA_camo.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_fixed_CFB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_fixed_CFC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_fixed_CFA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_AA_C.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_1_icon_14.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CCB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/GER/GER_heavy_CBA_camo.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/ger_improved_heavy_td.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/ger_advanced_heavy_td.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/GER/heavy_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/heavy_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/heavy_tank_chassis_4_icon_4.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/GER/heavy_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/heavy_tank_chassis_5_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_5_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/heavy_tank_chassis_5_icon_4.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_6_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/heavy_tank_chassis_6_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/heavy_tank_chassis_6_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/heavy_tank_chassis_6_icon_4.dds"
+			}
+		}
+	}
+	super_heavy_tank_chassis = {
+		pool = {
+			icons = {
+				# "gfx/interface/technologies/GEN/sh1.dds"
+			}
+		}
+	}
+	super_heavy_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/GER/super_heavy_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	wheeled_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/GER/wheeled_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	wheeled_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/GER/wheeled_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_1_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_1_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_1_icon_4.dds"
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_2_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_2_icon_4.dds"
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_3_icon_10.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_3_icon_4.dds"
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_4_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_4_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_4_icon_10.dds"
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_4_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_7.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_5_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_5_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_5_icon_5.dds"
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_4_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_6_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_6_icon_9.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_5_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_5_icon_5.dds"
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_7_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_5_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_6_icon_2.dds"
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_7_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_8_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_6_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_5_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_8_icon_10.dds"
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_9_icon_7.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_9_icon_2.dds"
+				# "gfx/interface/technologies/GER/m9ATGM.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_9_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/GER/modern_tank_chassis_9_icon_5.dds"
+			}
+		}
+	}
+}
+
+GXC = {
+	light_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/prc_adv_light_tank.dds"
+				"gfx/interface/technologies/prc_imp_light_tank.dds"
+				"gfx/interface/technologies/chi_adv_light_tank.dds"
+				"gfx/interface/technologies/prc_basic_light_tank.dds"
+				"gfx/interface/technologies/chi_basic_light_tank.dds"
+				"gfx/interface/technologies/chi_gwtank.dds"
+				"gfx/interface/technologies/chi_imp_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/prc_imp_medium_tank.dds"
+				"gfx/interface/technologies/chi_imp_medium_tank.dds"
+				"gfx/interface/technologies/chi_adv_medium_tank.dds"
+				"gfx/interface/technologies/prc_adv_medium_tank.dds"
+				"gfx/interface/technologies/chi_basic_medium_tank.dds"
+				"gfx/interface/technologies/prc_basic_medium_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/chi_imp_heavy_tank.dds"
+				"gfx/interface/technologies/prc_adv_heavy_tank.dds"
+				"gfx/interface/technologies/prc_basic_heavy_tank.dds"
+				"gfx/interface/technologies/chi_adv_heavy_tank.dds"
+				"gfx/interface/technologies/chi_basic_heavy_tank.dds"
+				"gfx/interface/technologies/prc_imp_heavy_tank.dds"
+			}
+		}
+	}
+}
+
+HOL = {
+	light_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				"gfx/interface/technologies/hol_basic_light_tank.dds"
+				"gfx/interface/technologies/hol_adv_light_tank.dds"
+				"gfx/interface/technologies/hol_imp_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				"gfx/interface/technologies/hol_imp_medium_tank.dds"
+				"gfx/interface/technologies/hol_adv_medium_tank.dds"
+				"gfx/interface/technologies/hol_basic_medium_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				"gfx/interface/technologies/hol_adv_heavy_tank.dds"
+				"gfx/interface/technologies/hol_imp_heavy_tank.dds"
+				"gfx/interface/technologies/hol_basic_heavy_tank.dds"
+			}
+		}
+	}
+}
+
+HUN = {
+	light_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/hun_gwtank.dds"
+				"gfx/interface/technologies/hun_adv_light_tank.dds"
+				"gfx/interface/technologies/hun_basic_light_tank.dds"
+				"gfx/interface/technologies/hun_imp_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/hun_basic_medium_tank.dds"
+				"gfx/interface/technologies/hun_imp_medium_tank.dds"
+				"gfx/interface/technologies/hun_adv_medium_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/hun_basic_heavy_tank.dds"
+				"gfx/interface/technologies/hun_imp_heavy_tank.dds"
+				"gfx/interface/technologies/hun_adv_heavy_tank.dds"
+			}
+		}
+	}
+}
+
+ITA = {
+	light_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_ACB_camo.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_1_icon_7.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_ACC_camo.dds"
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_BAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_BAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_BBA.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_2_icon_1.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_BCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_BCC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_BAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_BCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_BAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_BAA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_BBC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_BCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_BCB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_BCC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_BBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_BAA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_BBA_camo.dds"
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_3_icon_2.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_CCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_CAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_CAA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_CCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_CBC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_CCB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_CAA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_CBB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_CBB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_CAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_CCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_CAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_CAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_CBA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_CBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_light_CBA.dds"
+			}
+		}
+	}
+	light_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/light_tank_chassis_8_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/light_tank_chassis_8_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_8_icon_4.dds"
+			}
+		}
+	}
+	light_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/light_tank_chassis_9_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_9_icon_6.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/light_tank_chassis_9_icon_3.dds"
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ABC.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_1_icon_4.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_AAB.dds"
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ABC.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_1_icon_4.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_AAB.dds"
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_BAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_BBA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_BBC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_BCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_BCB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_BCC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_BAA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_BAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_BBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_BCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_BCC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_BAA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_BCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_BBA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_BAB.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_2_icon_8.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_BAC_camo.dds"
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_CAA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_CAA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_CBB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_CBB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_CBA_camo.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_3_icon_5.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_CBC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_CAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_CBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_CAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_CCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_CAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_CCB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_CCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_CBA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_CAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_medium_CCB.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ABB.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_1_icon_5.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ABB_camo.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ABB.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_1_icon_5.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_ABB_camo.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_BAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_BBA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_BCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_BCC.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_2_icon_1.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_BAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_BBC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_BAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_BAA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_BBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_BBA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_BAA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_BCC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_BCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_BAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_BCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_BCB_camo.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_CAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_CCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_CCB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_CAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_CBC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_CCA_camo.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_3_icon_2.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_CBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_CAA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_CAA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_CCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_CAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_CBA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_CBB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_CAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_CBA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ITA/ITA_heavy_CBB.dds"
+			}
+		}
+	}
+	modern_tank_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/modern_tank_chassis_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/modern_tank_chassis_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/modern_tank_chassis_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/modern_tank_chassis_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/modern_tank_chassis_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/modern_tank_chassis_icon_6.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/modern_tank_chassis_icon_7.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/modern_tank_chassis_icon_8.dds"
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_2_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_3_icon_2.dds"
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_4_icon_5.dds"
+				# "gfx/interface/technologies/ITA/m4SPG.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/modern_tank_chassis_4_icon_2.dds"
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_6_icon_11.dds"
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/modern_tank_chassis_7_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/modern_tank_chassis_7_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/modern_tank_chassis_8_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_8_icon_9.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/modern_tank_chassis_8_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_9_icon_1.dds"
+			}
+		}
+	}
+	wheeled_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/wheeled_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	wheeled_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ITA/wheeled_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+}
+
+JAP = {
+	light_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_ACC.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_1_icon_10.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_AAC_camo.dds"
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_BAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_BBA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_BAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_BBC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_BCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_BCC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_BCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_BBA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_BBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_BCB_camo.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_2_icon_8.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_BCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_BAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_BCC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_BAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_BAA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_BAA.dds"
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_CCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_CAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_CAA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_CBC.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_3_icon_3.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_CAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_CAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_CBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_CCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_CBB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_CAA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_CCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_CBA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_CBB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_CCB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_CBA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_light_CAB_camo.dds"
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ABC_camo.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_1_icon_6.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ABA.dds"
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ABC_camo.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_1_icon_6.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_ABA.dds"
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_BCC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_BBC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_BAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_BCC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_BBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_BBA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_BAA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_BCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_BAA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_BBA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_BAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_BAC_camo.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_2_icon_6.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_BCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_BCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_BAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_BCB_camo.dds"
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_CCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_CBA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_CCB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_CCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_CAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_CAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_CAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_CAA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_CBA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_CBC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_CBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_CBB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_CAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_CCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_CAA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_medium_CBB_camo.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_3_icon_8.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_1_icon_1.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ACB_camo.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_1_icon_1.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_ACB_camo.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_BAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_BAA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_BCC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_BAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_BCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_BBA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_BAA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_BBC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_BBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_BCB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_BAC.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_2_icon_5.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_BCC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_BAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_BCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_BCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_BBA_camo.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_CAA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_CAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_CCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_CAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_CCB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_CCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_CBB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_CAB_camo.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_3_icon_3.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_CAA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_CBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_CAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_CBA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_CBA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_CBB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_CCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/JAP/JAP_heavy_CBC.dds"
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_2_icon_12.dds"
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_3_icon_9.dds"
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_4_icon_9.dds"
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_13.dds"
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_6_icon_7.dds"
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_12.dds"
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_8_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_9_icon_11.dds"
+			}
+		}
+	}
+}
+
+MEX = {
+	light_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				"gfx/interface/technologies/mex_adv_light_tank.dds"
+				"gfx/interface/technologies/mex_basic_light_tank.dds"
+				"gfx/interface/technologies/mex_imp_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				"gfx/interface/technologies/mex_basic_medium_tank.dds"
+				"gfx/interface/technologies/mex_imp_medium_tank.dds"
+				"gfx/interface/technologies/mex_adv_medium_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Man the Guns" }
+			icons = {
+				"gfx/interface/technologies/mex_basic_heavy_tank.dds"
+				"gfx/interface/technologies/mex_adv_heavy_tank.dds"
+				"gfx/interface/technologies/mex_imp_heavy_tank.dds"
+			}
+		}
+	}
+}
+
+NZL = {
+	light_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/NZL_basic_light_tank.dds"
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/NZL_imp_light_tank.dds"
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/NZL_adv_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACC.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/AST/medium_tank_chassis_0_icon_16.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAC.dds"
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/NZL_basic_main_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/NZL_imp_main_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/NZL_adv_main_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACA_camo.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/AST/heavy_tank_chassis_0_icon_1.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACC_camo.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/NZL_basic_heavy_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/NZL_imp_heavy_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/NZL_adv_heavy_tank.dds"
+			}
+		}
+	}
+}
+
+POL = {
+	light_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Poland: United and Ready" }
+			icons = {
+				"gfx/interface/technologies/POL_adv_light_tank.dds"
+				"gfx/interface/technologies/POL_basic_light_tank.dds"
+				"gfx/interface/technologies/POL_imp_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Poland: United and Ready" }
+			icons = {
+				"gfx/interface/technologies/POL_basic_main_tank.dds"
+				"gfx/interface/technologies/POL_imp_main_tank.dds"
+				"gfx/interface/technologies/POL_adv_main_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Poland: United and Ready" }
+			icons = {
+				"gfx/interface/technologies/POL_adv_heavy_tank.dds"
+				"gfx/interface/technologies/POL_basic_heavy_tank.dds"
+				"gfx/interface/technologies/POL_imp_heavy_tank.dds"
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_1_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_2_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_10.dds"
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_5_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_11.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_5_icon_4.dds"
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_11.dds"
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_9_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_9_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_9_icon_3.dds"
+			}
+		}
+	}
+}
+
+POR = {
+	light_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			icons = {
+				"gfx/interface/technologies/por_imp_light_tank.dds"
+				"gfx/interface/technologies/por_adv_light_tank.dds"
+				"gfx/interface/technologies/por_basic_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			icons = {
+				"gfx/interface/technologies/por_adv_medium_tank.dds"
+				"gfx/interface/technologies/por_basic_medium_tank.dds"
+				"gfx/interface/technologies/por_imp_medium_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			icons = {
+				"gfx/interface/technologies/por_imp_heavy_tank.dds"
+				"gfx/interface/technologies/por_adv_heavy_tank.dds"
+				"gfx/interface/technologies/por_basic_heavy_tank.dds"
+			}
+		}
+	}
+}
+
+PRC = {
+	light_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/prc_adv_light_tank.dds"
+				"gfx/interface/technologies/prc_basic_light_tank.dds"
+				"gfx/interface/technologies/prc_imp_light_tank.dds"
+			}
+		}
+	}
+	light_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/PRC/light_tank_chassis_6_icon_1.dds"
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/prc_imp_medium_tank.dds"
+				"gfx/interface/technologies/prc_basic_medium_tank.dds"
+				"gfx/interface/technologies/prc_adv_medium_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/prc_basic_heavy_tank.dds"
+				"gfx/interface/technologies/prc_adv_heavy_tank.dds"
+				"gfx/interface/technologies/prc_imp_heavy_tank.dds"
+			}
+		}
+	}
+	amphibious_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	# amphibious_tank_chassis_4 = {
+	# 	pool = {
+	# 		icons = {
+	# 			"gfx/interface/technologies/PRC/aph3.dds"
+	# 		}
+	# 	}
+	# }
+	amphibious_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_5_icon_4.dds"
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_10.dds"
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_3_icon_7.dds"
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_4_icon_6.dds"
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_6.dds"
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_6_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_10.dds"
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_8_icon_2.dds"
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_9_icon_10.dds"
+			}
+		}
+	}
+}
+
+RAJ = {
+	light_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/RAJ_basic_light_tank.dds"
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/RAJ_imp_light_tank.dds"
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/RAJ_adv_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACC.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/AST/medium_tank_chassis_0_icon_16.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAC.dds"
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/RAJ_basic_main_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/RAJ_imp_main_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/RAJ_adv_main_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACA_camo.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/AST/heavy_tank_chassis_0_icon_1.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACC_camo.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/RAJ_basic_heavy_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/RAJ_imp_heavy_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/RAJ_adv_heavy_tank.dds"
+			}
+		}
+	}
+}
+
+ROM = {
+	light_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/rom_gwtank.dds"
+				"gfx/interface/technologies/rom_basic_light_tank.dds"
+				"gfx/interface/technologies/rom_imp_light_tank.dds"
+				"gfx/interface/technologies/rom_adv_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/rom_basic_medium_tank.dds"
+				"gfx/interface/technologies/rom_imp_medium_tank.dds"
+				"gfx/interface/technologies/rom_adv_medium_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/rom_adv_heavy_tank.dds"
+				"gfx/interface/technologies/rom_imp_heavy_tank.dds"
+				"gfx/interface/technologies/rom_basic_heavy_tank.dds"
+			}
+		}
+	}
+}
+
+SAF = {
+	light_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/SAF_basic_light_tank.dds"
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/SAF_imp_light_tank.dds"
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/SAF_adv_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_ACC.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/AST/medium_tank_chassis_0_icon_16.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_medium_AAC.dds"
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/SAF_basic_main_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/SAF_imp_main_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/SAF_adv_main_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACA_camo.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/AST/heavy_tank_chassis_0_icon_1.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/ENG/ENG_heavy_ACC_camo.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/SAF_basic_heavy_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/SAF_imp_heavy_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			limit = { has_dlc = "Together for Victory" }
+			icons = {
+				"gfx/interface/technologies/SAF_adv_heavy_tank.dds"
+			}
+		}
+	}
+}
+
+SHX = {
+	light_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/prc_adv_light_tank.dds"
+				"gfx/interface/technologies/prc_imp_light_tank.dds"
+				"gfx/interface/technologies/chi_adv_light_tank.dds"
+				"gfx/interface/technologies/prc_basic_light_tank.dds"
+				"gfx/interface/technologies/chi_basic_light_tank.dds"
+				"gfx/interface/technologies/chi_gwtank.dds"
+				"gfx/interface/technologies/chi_imp_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/prc_imp_medium_tank.dds"
+				"gfx/interface/technologies/chi_imp_medium_tank.dds"
+				"gfx/interface/technologies/chi_adv_medium_tank.dds"
+				"gfx/interface/technologies/prc_adv_medium_tank.dds"
+				"gfx/interface/technologies/chi_basic_medium_tank.dds"
+				"gfx/interface/technologies/prc_basic_medium_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/chi_imp_heavy_tank.dds"
+				"gfx/interface/technologies/prc_adv_heavy_tank.dds"
+				"gfx/interface/technologies/prc_basic_heavy_tank.dds"
+				"gfx/interface/technologies/chi_adv_heavy_tank.dds"
+				"gfx/interface/technologies/chi_basic_heavy_tank.dds"
+				"gfx/interface/technologies/prc_imp_heavy_tank.dds"
+			}
+		}
+	}
+}
+
+SIK = {
+	light_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/prc_adv_light_tank.dds"
+				"gfx/interface/technologies/prc_imp_light_tank.dds"
+				"gfx/interface/technologies/chi_adv_light_tank.dds"
+				"gfx/interface/technologies/prc_basic_light_tank.dds"
+				"gfx/interface/technologies/chi_basic_light_tank.dds"
+				"gfx/interface/technologies/chi_gwtank.dds"
+				"gfx/interface/technologies/chi_imp_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/prc_imp_medium_tank.dds"
+				"gfx/interface/technologies/chi_imp_medium_tank.dds"
+				"gfx/interface/technologies/chi_adv_medium_tank.dds"
+				"gfx/interface/technologies/prc_adv_medium_tank.dds"
+				"gfx/interface/technologies/chi_basic_medium_tank.dds"
+				"gfx/interface/technologies/prc_basic_medium_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/chi_imp_heavy_tank.dds"
+				"gfx/interface/technologies/prc_adv_heavy_tank.dds"
+				"gfx/interface/technologies/prc_basic_heavy_tank.dds"
+				"gfx/interface/technologies/chi_adv_heavy_tank.dds"
+				"gfx/interface/technologies/chi_basic_heavy_tank.dds"
+				"gfx/interface/technologies/prc_imp_heavy_tank.dds"
+			}
+		}
+	}
+}
+
+SOV = {
+	light_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_1_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/light_tank_chassis_1_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/light_tank_chassis_1_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/light_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/light_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_2_icon_2.dds"
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_3_icon_9.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/light_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/light_tank_chassis_3_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_4_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_4_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/amphibious_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/amphibious_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/amphibious_tank_chassis_2_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/amphibious_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/amphibious_tank_chassis_3_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_4_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/light_tank_chassis_7_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/light_tank_chassis_7_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_8_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/light_tank_chassis_8_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/light_tank_chassis_8_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/light_tank_chassis_9_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_9_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/light_tank_chassis_9_icon_3.dds"
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/medium_tank_chassis_0_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/medium_tank_chassis_0_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/medium_tank_chassis_0_icon_3.dds"
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_1_icon_8.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/medium_tank_chassis_0_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/medium_tank_chassis_0_icon_3.dds"
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/medium_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_2_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/medium_tank_chassis_2_icon_3.dds"
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_3_icon_6.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/medium_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/medium_tank_chassis_3_icon_3.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_1_icon_6.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/heavy_tank_chassis_0_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/heavy_tank_chassis_0_icon_3.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_1_icon_6.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/heavy_tank_chassis_0_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/heavy_tank_chassis_0_icon_3.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/heavy_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_2_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/heavy_tank_chassis_2_icon_3.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_3_icon_6.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/heavy_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/heavy_tank_chassis_3_icon_3.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_4_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_5_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_6_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_6_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_6_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_6_icon_4.dds"
+			}
+		}
+	}
+	amphibious_tank_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/amphibious_tank_chassis_icon_1.dds"
+			}
+		}
+	}
+	amphibious_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/amphibious_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/amphibious_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/amphibious_tank_chassis_2_icon_4.dds"
+			}
+		}
+	}
+	amphibious_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/amphibious_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/amphibious_tank_chassis_3_icon_3.dds"
+			}
+		}
+	}
+	amphibious_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/amphibious_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/amphibious_tank_chassis_4_icon_3.dds"
+			}
+		}
+	}
+	amphibious_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/amphibious_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/amphibious_tank_chassis_5_icon_3.dds"
+			}
+		}
+	}
+	para_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/para_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/para_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/para_tank_chassis_1_icon_3.dds"
+			}
+		}
+	}
+	para_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/para_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/para_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/para_tank_chassis_2_icon_3.dds"
+			}
+		}
+	}
+	para_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/para_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/para_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/para_tank_chassis_3_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/para_tank_chassis_3_icon_4.dds"
+			}
+		}
+	}
+	para_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/para_tank_chassis_4_icon_2.dds"
+			}
+		}
+	}
+	wheeled_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/wheeled_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/wheeled_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/wheeled_tank_chassis_2_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/wheeled_tank_chassis_2_icon_4.dds"
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_1_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_2_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_10.dds"
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/modern_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/modern_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/modern_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/modern_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_4_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_5_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_11.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_5_icon_2.dds"
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_9_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_9_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_6_icon_10.dds"
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/modern_tank_chassis_7_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/modern_tank_chassis_7_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/modern_tank_chassis_7_icon_4.dds"
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/modern_tank_chassis_8_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/modern_tank_chassis_8_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_8_icon_11.dds"
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/modern_tank_chassis_9_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_9_icon_12.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/SOV/modern_tank_chassis_9_icon_3.dds"
+			}
+		}
+	}
+}
+
+SPR = {
+	light_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			icons = {
+				"gfx/interface/technologies/spr_adv_light_tank.dds"
+				"gfx/interface/technologies/spr_basic_light_tank.dds"
+				"gfx/interface/technologies/spr_imp_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			icons = {
+				"gfx/interface/technologies/spr_basic_medium_tank.dds"
+				"gfx/interface/technologies/spr_adv_medium_tank.dds"
+				"gfx/interface/technologies/spr_imp_medium_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "La Resistance" }
+			icons = {
+				"gfx/interface/technologies/spr_imp_heavy_tank.dds"
+				"gfx/interface/technologies/spr_basic_heavy_tank.dds"
+				"gfx/interface/technologies/spr_adv_heavy_tank.dds"
+			}
+		}
+	}
+}
+
+SWE = {
+	light_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/gwtank.dds"
+			}
+		}
+	}
+	light_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SWE/light_tank_chassis_4_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/SWE/light_tank_chassis_5_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_6_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_7_icon_2.dds"
+			}
+		}
+	}
+	light_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_8_icon_2.dds"
+			}
+		}
+	}
+	light_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_9_icon_5.dds"
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/gwtank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/gwtank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_AAC.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_BAA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_BBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_BCC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_BBC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_BAA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_BAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_BAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_BAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_BCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_BBA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_BCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_BAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_BCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_BCC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_BCB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_BBA_camo.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_CAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_CCB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_CBB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_CAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_CCA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_CCA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_CBC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_CBB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_CAA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_CAA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_CBA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_CBC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_CBA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_CAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_CCB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/generic/generic_heavy_CAC.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_4_icon_3.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_5_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_6_icon_3.dds"
+			}
+		}
+	}
+	# amphibious_tank_chassis = {
+	# 	pool = {
+	# 		icons = {
+	# 			"gfx/interface/technologies/USA/LAND/amph1chassis.dds"
+	# 		}
+	# 	}
+	# }
+	amphibious_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	amphibious_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	amphibious_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_4_icon_1.dds"
+			}
+		}
+	}
+	amphibious_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_5_icon_3.dds"
+			}
+		}
+	}
+	para_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_5_icon_1.dds"
+			}
+		}
+	}
+	para_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/para_tank_chassis_2_icon_2.dds"
+			}
+		}
+	}
+	para_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/para_tank_chassis_3_icon_3.dds"
+			}
+		}
+	}
+	para_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/para_tank_chassis_4_icon_2.dds"
+			}
+		}
+	}
+	wheeled_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/wheeled_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	wheeled_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/wheeled_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	wheeled_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/wheeled_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_7.dds"
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_2_icon_10.dds"
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_6_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_4_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_4.dds"
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_6_icon_9.dds"
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_9.dds"
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_8_icon_4.dds"
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_9_icon_7.dds"
+			}
+		}
+	}
+}
+
+USA = {
+	light_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_4_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/USA/light_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_5_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/USA/light_tank_chassis_5_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/USA/light_tank_chassis_6_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_6_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/USA/light_tank_chassis_6_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_7_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_3_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_8_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_2_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_4_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_9_icon_1.dds"
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ACA.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/medium_tank_chassis_0_icon_14.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ACB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_medium_ABA.dds"
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/medium_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/medium_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/medium_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ABC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ABB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ABC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_AAB.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ACA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ACB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_AAC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ACC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ACC_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_AAC.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_AAB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ABB_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ABA.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ACA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ABA_camo.dds"
+				"gfx/interface/equipmentdesigner/tanks/designer/USA/USA_heavy_ACB.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_0_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_4_icon_3.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_5_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_5_icon_3.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_6_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_6_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_6_icon_3.dds"
+			}
+		}
+	}
+	amphibious_tank_chassis = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/amphibious_tank_chassis_icon_1.dds"
+			}
+		}
+	}
+	para_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_1_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_1_icon_3.dds"
+			}
+		}
+	}
+	para_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_2_icon_3.dds"
+			}
+		}
+	}
+	para_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_3_icon_3.dds"
+			}
+		}
+	}
+	para_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_4_icon_3.dds"
+			}
+		}
+	}
+	wheeled_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/wheeled_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/wheeled_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/wheeled_tank_chassis_2_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_1_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_1_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_2_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_3_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_4_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_12.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_4_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_6_icon_12.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/USA/modern_tank_chassis_6_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/USA/modern_tank_chassis_7_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_6.dds"
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_8_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/USA/modern_tank_chassis_8_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/USA/modern_tank_chassis_9_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_9_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/USA/modern_tank_chassis_8_icon_3.dds"
+			}
+		}
+	}
+}
+
+XSM = {
+	light_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/prc_adv_light_tank.dds"
+				"gfx/interface/technologies/prc_imp_light_tank.dds"
+				"gfx/interface/technologies/chi_adv_light_tank.dds"
+				"gfx/interface/technologies/prc_basic_light_tank.dds"
+				"gfx/interface/technologies/chi_basic_light_tank.dds"
+				"gfx/interface/technologies/chi_gwtank.dds"
+				"gfx/interface/technologies/chi_imp_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/prc_imp_medium_tank.dds"
+				"gfx/interface/technologies/chi_imp_medium_tank.dds"
+				"gfx/interface/technologies/chi_adv_medium_tank.dds"
+				"gfx/interface/technologies/prc_adv_medium_tank.dds"
+				"gfx/interface/technologies/chi_basic_medium_tank.dds"
+				"gfx/interface/technologies/prc_basic_medium_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/chi_imp_heavy_tank.dds"
+				"gfx/interface/technologies/prc_adv_heavy_tank.dds"
+				"gfx/interface/technologies/prc_basic_heavy_tank.dds"
+				"gfx/interface/technologies/chi_adv_heavy_tank.dds"
+				"gfx/interface/technologies/chi_basic_heavy_tank.dds"
+				"gfx/interface/technologies/prc_imp_heavy_tank.dds"
+			}
+		}
+	}
+}
+
+YUG = {
+	light_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/yug_basic_light_tank.dds"
+				"gfx/interface/technologies/yug_gwtank.dds"
+				"gfx/interface/technologies/yug_imp_light_tank.dds"
+				"gfx/interface/technologies/yug_adv_light_tank.dds"
+			}
+		}
+	}
+	light_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_5_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/yug_imp_main_tank.dds"
+				"gfx/interface/technologies/yug_basic_main_tank.dds"
+				"gfx/interface/technologies/yug_adv_main_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Death or Dishonor" }
+			icons = {
+				"gfx/interface/technologies/yug_adv_heavy_tank.dds"
+				"gfx/interface/technologies/yug_imp_heavy_tank.dds"
+				"gfx/interface/technologies/yug_basic_heavy_tank.dds"
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/YUG/modern_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/YUG/modern_tank_chassis_1_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_9.dds"
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_2_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_10.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_2_icon_2.dds"
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/YUG/modern_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/YUG/modern_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_4_icon_4.dds"
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_5_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_11.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_5_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_5_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_6_icon_8.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/POL/modern_tank_chassis_5_icon_2.dds"
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/YUG/modern_tank_chassis_7_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/YUG/modern_tank_chassis_7_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_13.dds"
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/YUG/modern_tank_chassis_7_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/YUG/modern_tank_chassis_7_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_13.dds"
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/YUG/modern_tank_chassis_9_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_9_icon_6.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/YUG/modern_tank_chassis_9_icon_3.dds"
+			}
+		}
+	}
+}
+
+YUN = {
+	light_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/prc_adv_light_tank.dds"
+				"gfx/interface/technologies/prc_imp_light_tank.dds"
+				"gfx/interface/technologies/chi_adv_light_tank.dds"
+				"gfx/interface/technologies/prc_basic_light_tank.dds"
+				"gfx/interface/technologies/chi_basic_light_tank.dds"
+				"gfx/interface/technologies/chi_gwtank.dds"
+				"gfx/interface/technologies/chi_imp_light_tank.dds"
+			}
+		}
+	}
+	medium_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/prc_imp_medium_tank.dds"
+				"gfx/interface/technologies/chi_imp_medium_tank.dds"
+				"gfx/interface/technologies/chi_adv_medium_tank.dds"
+				"gfx/interface/technologies/prc_adv_medium_tank.dds"
+				"gfx/interface/technologies/chi_basic_medium_tank.dds"
+				"gfx/interface/technologies/prc_basic_medium_tank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis = {
+		pool = {
+			limit = { has_dlc = "Waking the Tiger" }
+			icons = {
+				"gfx/interface/technologies/chi_imp_heavy_tank.dds"
+				"gfx/interface/technologies/prc_adv_heavy_tank.dds"
+				"gfx/interface/technologies/prc_basic_heavy_tank.dds"
+				"gfx/interface/technologies/chi_adv_heavy_tank.dds"
+				"gfx/interface/technologies/chi_basic_heavy_tank.dds"
+				"gfx/interface/technologies/prc_imp_heavy_tank.dds"
+			}
+		}
+	}
+}
+
+default = {
+	light_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/gwtank.dds"
+				# "gfx/interface/technologies/FIN/LAND/gwtank.dds"
+			}
+		}
+	}
+	light_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_1_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_1_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_1_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/light_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_1_icon_7.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FIN/light_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_1_icon_10.dds"
+			}
+		}
+	}
+	light_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_2_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FIN/light_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/light_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_2_icon_8.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_2_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_3_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/light_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/light_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_3_icon_17.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FIN/light_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_3_icon_9.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_3_icon_10.dds"
+			}
+		}
+	}
+	light_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_8_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FIN/light_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_4_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_4_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_5_icon_5.dds"
+				"gfx/interface/technologies/GER/l1.dds"
+			}
+		}
+	}
+	light_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_6_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_6_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_6_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_6_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_6_icon_3.dds"
+			}
+		}
+	}
+	light_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_7_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_7_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_4_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_7_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_7_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_7_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_8_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_8_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_8_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_8_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_8_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_8_icon_1.dds"
+			}
+		}
+	}
+	light_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_9_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_9_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_9_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/light_tank_chassis_9_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_9_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_9_icon_6.dds"
+			}
+		}
+	}
+	medium_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/gwtank.dds"
+			}
+		}
+	}
+	medium_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/medium_tank_chassis_1_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_1_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/medium_tank_chassis_1_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_1_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/medium_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_1_icon_6.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/medium_tank_chassis_1_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_1_icon_8.dds"
+			}
+		}
+	}
+	medium_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/medium_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/medium_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_2_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/medium_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_2_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_2_icon_6.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/medium_tank_chassis_2_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_2_icon_8.dds"
+			}
+		}
+	}
+	medium_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/medium_tank_chassis_3_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/medium_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/medium_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_3_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_3_icon_6.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/medium_tank_chassis_3_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/medium_tank_chassis_3_icon_8.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_0 = {
+		pool = {
+			icons = {
+				"gfx/interface/technologies/gwtank.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/heavy_tank_chassis_1_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_1_icon_14.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_1_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_1_icon_6.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/heavy_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/heavy_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_2_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_2_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/heavy_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_2_icon_7.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/heavy_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_3_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_3_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_3_icon_6.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/heavy_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_4_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_4_icon_3.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/heavy_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_5_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_5_icon_3.dds"
+			}
+		}
+	}
+	heavy_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/heavy_tank_chassis_6_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_6_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/heavy_tank_chassis_6_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/heavy_tank_chassis_6_icon_4.dds"
+			}
+		}
+	}
+	amphibious_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	amphibious_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	amphibious_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_4_icon_1.dds"
+				# "gfx/interface/technologies/PRC/aph3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_4_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_4_icon_4.dds"
+			}
+		}
+	}
+	amphibious_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_5_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_5_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/amphibious_tank_chassis_5_icon_4.dds"
+			}
+		}
+	}
+	para_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/para_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_1_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/light_tank_chassis_5_icon_1.dds"
+			}
+		}
+	}
+	para_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/para_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/para_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_2_icon_2.dds"
+			}
+		}
+	}
+	para_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/para_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/para_tank_chassis_3_icon_3.dds"
+			}
+		}
+	}
+	para_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/para_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/para_tank_chassis_4_icon_2.dds"
+			}
+		}
+	}
+	wheeled_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/wheeled_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	wheeled_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/wheeled_tank_chassis_2_icon_1.dds"
+			}
+		}
+	}
+	wheeled_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/wheeled_tank_chassis_3_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_1 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_7.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_1_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_9.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_10.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_1_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_1_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_2 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_2_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_2_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_10.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_10.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_1_icon_10.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_2_icon_10.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_2_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_2_icon_12.dds"
+			}
+		}
+	}
+	modern_tank_chassis_3 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_3_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/light_tank_chassis_6_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_3_icon_7.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_3_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_3_icon_9.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_3_icon_10.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_3_icon_11.dds"
+			}
+		}
+	}
+	modern_tank_chassis_4 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_4_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_4_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_4_icon_6.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_4_icon_8.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_4_icon_9.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_4_icon_10.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_4_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_4_icon_1.dds"
+			}
+		}
+	}
+	modern_tank_chassis_5 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_11.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_6.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_7.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_5_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_5_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_10.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_11.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_12.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_5_icon_13.dds"
+			}
+		}
+	}
+	modern_tank_chassis_6 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_6_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_6_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_6_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_6_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_6_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_6_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_6_icon_7.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_6_icon_8.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_6_icon_9.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_6_icon_10.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_6_icon_11.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_6_icon_12.dds"
+			}
+		}
+	}
+	modern_tank_chassis_7 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_7_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_7_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_6.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_7_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_7_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_9.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_10.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_11.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_12.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_13.dds"
+			}
+		}
+	}
+	modern_tank_chassis_8 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_7_icon_13.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_8_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_8_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_8_icon_4.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_8_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_8_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_8_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_8_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_8_icon_9.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_8_icon_10.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_8_icon_11.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_8_icon_12.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_8_icon_3.dds"
+			}
+		}
+	}
+	modern_tank_chassis_9 = {
+		pool = {
+			icons = {
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_9_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/ENG/modern_tank_chassis_9_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_9_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/FRA/modern_tank_chassis_9_icon_1.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_9_icon_5.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_9_icon_6.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_9_icon_7.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/BRA/modern_tank_chassis_9_icon_2.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/CZE/modern_tank_chassis_9_icon_3.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_9_icon_10.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_9_icon_11.dds"
+				"gfx/interface/FLTE/equipment_designer_icon/general/modern_tank_chassis_9_icon_12.dds"
+			}
+		}
+	}
+}
